@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CCGL9065 - Response Portfolios to Climate Change</title>
+<title>CCGL9065 - Individual Response to Climate Change</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,19 +90,11 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./test.html"> 
-<span class="menu-text">DESN2003 | Research for Innovation</span></a>
+<span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./container.html" aria-current="page"> 
-<span class="menu-text">Response Portfolios to Climate Change</span></a>
+<span class="menu-text">Search</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -123,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Response Portfolios to Climate Change</h1>
+<h1 class="title">Individual Response to Climate Change</h1>
 </div>
 
 
@@ -141,9 +133,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="input-container">
-<p><label for="uidInput">Enter UID:</label> <input type="text" id="uidInput" name="uid"> <button id="updateContent">Update Content</button></p>
+<p><label for="emailInput">Your Email</label> <input type="text" id="emailInput" name="email"> <button id="updateContent">Search</button></p>
 </div>
 <div id="content">
+<h3 class="anchored">
+<span id="author-prefix">Author: </span> <span id="dynamicName">Name</span>
+</h3>
 <h2 class="anchored">
 Collage
 </h2>
@@ -155,11 +150,75 @@ Video Essay
 <h2 class="anchored">
 Essay
 </h2>
+<h3 class="anchored">
+<span id="dynamicTitle">Title</span>
+</h3>
 <p id="dynamicText">
 Update.
 </p>
 </div>
-<script src="script.js"></script>
+<script>
+// Declare the variable to hold your JSON data
+let data; 
+fetch('students.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then(jsonData => {
+        data = jsonData; // Assign the fetched data to the global 'data' variable
+        console.log(data); // Log the data to ensure it's loaded
+        // Initialize the content with the default UID after data is loaded
+        updateContent('bohyun@connect.hku.hk');
+    })
+    .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+    });
+
+function updateContent(email) {
+  // If no Email is provided, use a default one
+  email = email || "bohyun@connect.hku.hk"; // Default email
+
+  // Check if the UID exists in the data object
+  if (data[email]) {
+    // Update content
+    document.getElementById("dynamicName").textContent = data[email]["name"];
+
+    document.getElementById("dynamicImage").src = data[email]["image"];
+
+    document.getElementById("dynamicVideo").src = data[email]["video"];
+
+    document.getElementById("dynamicTitle").textContent = data[email]["title"];
+
+    document.getElementById("dynamicText").textContent = data[email]["text"];
+  } else {
+    // Handle case where UID is not found in the data object
+    alert("Email not found. Please check the input and try again.");
+  }
+}
+
+// Add event listener to the button to update content based on input
+document.getElementById("updateContent").addEventListener("click", function() {
+  var email = document.getElementById("emailInput").value;
+  updateContent(email);
+});
+
+// Optional: add an event listener to the input box to update content on enter key press
+document.getElementById("emailInput").addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault(); // Prevent the default action to stop form submission
+    var uid = document.getElementById("emailInput").value;
+    updateContent(email);
+  }
+});
+
+// Update content with initial values when the page loads
+document.addEventListener("DOMContentLoaded", function() {
+  updateContent(); // Call with no arguments to use default UID
+});
+</script>
 
 
 

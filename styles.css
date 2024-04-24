@@ -14,17 +14,27 @@
     /* Container to hold the input and button, ensures alignment */
   .input-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 10px; /* Spacing between input box and button */
-    margin-bottom: 20px; /* Margin at the bottom for spacing from other content */
+    margin-bottom: 10px; /* Margin at the bottom for spacing from other content */
+  }
+
+  .image-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .image-container img {
+    width: 50%;
+    height: auto;
   }
 
   /* Styling for the input field */
   input[type="text"] {
-    padding: 10px;
+    padding: 8px;
     border: 2px solid #ddd; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 8px; /* Rounded corners */
     width: 300px; /* Fixed width, can be adjusted or made responsive */
     outline: none; /* Removes the default focus outline */
     transition: border-color 0.3s; /* Smooth transition for border color */
@@ -38,23 +48,22 @@
   button {
     padding: 10px 20px;
     border: none;
-    background-color: #4CAF50; /* Matching green background */
+    background-color: #333030; /* Matching green background */
     color: white; /* White text */
-    border-radius: 5px; /* Rounded corners to match the input field */
+    border-radius: 8px; /* Rounded corners to match the input field */
     cursor: pointer;
     transition: background-color 0.3s, transform 0.1s;
   }
 
   button:hover {
-    background-color: #45a049; /* Darker shade of green for hover state */
+    background-color: #d41e1e; /* Darker shade of green for hover state */
     transform: translateY(-2px); /* Lift effect on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
   }
 
   button:active {
-    background-color: #3e8e41; /* Even darker for active state */
+    background-color: #d43636; /* Even darker for active state */
     transform: translateY(1px); /* Press down effect */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-  
 </style>
