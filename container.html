@@ -171,7 +171,7 @@ fetch('students.json')
         data = jsonData; // Assign the fetched data to the global 'data' variable
         console.log(data); // Log the data to ensure it's loaded
         // Initialize the content with the default UID after data is loaded
-        updateContent('bohyun@connect.hku.hk');
+        updateContent('whtjanet@connect.hku.hk');
     })
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
@@ -180,7 +180,7 @@ fetch('students.json')
 function updateContent(email) {
   // If no Email is provided, use a default one
   email = email || "bohyun@connect.hku.hk"; // Default email
-
+  console.log("Using email:", email)
   // Check if the UID exists in the data object
   if (data[email]) {
     // Update content
