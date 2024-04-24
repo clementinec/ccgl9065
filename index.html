@@ -132,14 +132,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<button onclick="refresh()">
+<button onclick="displayRandomStudent()">
 Refresh
 </button>
 <div id="content">
-<p><!-- <h3>
-    <span id="author-prefix">Author: </span>
-    <span id="dynamicName">Name</span>
-  </h3> --></p>
 <h2 class="anchored">
 Collage
 </h2>
@@ -149,7 +145,7 @@ Video Essay
 </h2>
 <p><iframe id="dynamicVideo" width="900" height="450" src="" frameborder="0" allowfullscreen=""></iframe></p>
 <h2 class="anchored">
-Essay
+Reflection
 </h2>
 <h3 class="anchored">
 <span id="dynamicTitle">Title</span>
@@ -157,6 +153,10 @@ Essay
 <p id="dynamicText">
 Update.
 </p>
+<!-- Adding a place to display the student's name -->
+<h3 id="dynamicName" class="anchored">
+</h3>
+<p><!-- Added this line --></p>
 </div>
 <script>
 // Declare the variable to hold your JSON data
@@ -170,44 +170,36 @@ fetch('students.json')
     })
     .then(jsonData => {
         data = jsonData; // Assign the fetched data to the global 'data' variable
-        console.log(data); // Log the data to ensure it's loaded
-        // Initialize the content with the default UID after data is loaded
-        updateContent('bohyun@connect.hku.hk');
+        console.log("Initial data loaded", data); // Log the data to ensure it's loaded
     })
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
     });
 
-// Function to display a randomly picked student's work
 function displayRandomStudent() {
-  // Get the keys (emails) from the studentsData object
+  if (!data) {
+    console.error("No data loaded");
+    alert("Data is not loaded yet.");
+    return;
+  }
+
   const emails = Object.keys(data);
-  // Generate a random index within the range of available emails
   const randomIndex = Math.floor(Math.random() * emails.length);
-  // Get the randomly picked email
   const randomEmail = emails[randomIndex];
 
-  // Check if the UID exists in the data object
+  console.log("Chosen random email:", randomEmail); // See which email is picked
+
   if (data[randomEmail]) {
-    // Update content
+    console.log("Selected data:", data[randomEmail]); // Log the data of the selected student
     document.getElementById("dynamicName").textContent = data[randomEmail]["name"];
-
     document.getElementById("dynamicImage").src = data[randomEmail]["image"];
-
     document.getElementById("dynamicVideo").src = data[randomEmail]["video"];
-
     document.getElementById("dynamicTitle").textContent = data[randomEmail]["title"];
-
     document.getElementById("dynamicText").textContent = data[randomEmail]["text"];
   } else {
-    // Handle case where UID is not found in the data object
+    console.error("Email not found in data:", randomEmail);
     alert("Email not found. Please check the input and try again.");
   }
-}
-
-// Function to refresh the page with a new randomly picked student's work
-function refresh() {
-  displayRandomStudent();
 }
 </script>
 
