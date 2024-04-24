@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <button onclick="displayRandomStudent()">
-Let’s see more.
+Show me more.
 </button>
 <div id="content">
 <h2 class="anchored">
@@ -191,7 +191,6 @@ function displayRandomStudent() {
 
   if (data[randomEmail]) {
     console.log("Selected data:", data[randomEmail]); // Log the data of the selected student
-    // document.getElementById("dynamicName").textContent = data[randomEmail]["name"];
     document.getElementById("dynamicImage").src = data[randomEmail]["image"];
     document.getElementById("dynamicVideo").src = data[randomEmail]["video"];
     document.getElementById("dynamicTitle").textContent = data[randomEmail]["title"];
