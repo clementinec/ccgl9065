@@ -1,0 +1,60 @@
+<style>
+  #content {
+    display: flex;
+    flex-direction: column; /* Stacks flex items vertically */
+    align-items: center; /* Centers flex items horizontally */
+    width: 80%;
+    margin: auto;
+  }
+
+  #dynamicImage, #dynamicVideo {
+    max-width: 100%; /* Ensures that the image and video are no wider than their parent */
+    height: auto;
+  }
+    /* Container to hold the input and button, ensures alignment */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Spacing between input box and button */
+    margin-bottom: 20px; /* Margin at the bottom for spacing from other content */
+  }
+
+  /* Styling for the input field */
+  input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    width: 300px; /* Fixed width, can be adjusted or made responsive */
+    outline: none; /* Removes the default focus outline */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+  }
+
+  input[type="text"]:focus {
+    border-color: #4CAF50; /* Changes border color to green when focused */
+  }
+
+  /* Styling for the button */
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50; /* Matching green background */
+    color: white; /* White text */
+    border-radius: 5px; /* Rounded corners to match the input field */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+  }
+
+  button:hover {
+    background-color: #45a049; /* Darker shade of green for hover state */
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+
+  button:active {
+    background-color: #3e8e41; /* Even darker for active state */
+    transform: translateY(1px); /* Press down effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+</style>

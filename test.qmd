@@ -1,0 +1,150 @@
+---
+title: "DESN2003 | Research for Innovation"
+subtitle: "Lit Review Continues, Group Project and Finalizing Methodology"
+author: Hongshan Guo
+# format: 
+#   revealjs:
+#     slide-level: 2
+#     center: true
+#     slide-number: true
+#     theme: moon
+#     width: 1600
+#     height: 1200
+#     preview-links: auto
+#     embed-resources: true
+#     incremental: true
+#     filters: 
+#       - timer
+---
+
+## Recapping on Literature Review
+- Grades & Comments published on Moodle
+- Major reasons that the grades may not apear to be satisfying:
+  - formatting is off
+  - recouting, synthesis are in, but critical lens are missing
+    - question literature if you could
+  - if you need any clarifications feel free to reach out to me for time to catch up next week on this during office hour
+    - we may arrange in-class seminar session if demands are high enough
+
+## Group Project Example
+  - Already posted on Moodle
+  - Quick walk-through lookouts:
+    - framework
+    - contents that are expected
+    - just an example so not the final 'solution manual' that you will need to follow
+    - typical length that is expected, so nothing major
+    - demonstrates how you have leveraged techniques learnt in this class to investigate problems at hand
+  - Let's take a quick look
+
+# Research
+
+## Why there's a Group/Individual (interview-based) Project
+  - Practicing **Research** in non-academic setting
+  - Reaching out to people with some predetermined agenda
+  - Attempt on additional insight by taking in first-hand primary data through interviews
+  - Something that wasn't possible with existing framework on your more 'academic' research
+  - Opportunity to collect data and synthesize insights
+  - Recognize and celebrate the <span style='color: orange'>inherent bias</span> that you bring in
+
+## Pros and Cons: Working as a Group vs. Individual
+  - Working as a group, you will:
+    - Get a chance to reach more people thus expanding your professional network
+    - Write a smaller portion of the overall report on findings, however in the meantime
+    - _losing control over showflow and_
+    - _unable to push the conversation in desired directions, potentially leaving questions unanswered._
+  - Working as an individual, you will:
+    - Reach more people (unlike previously which was per-person level) and expand professional network further
+    - have more control over how the conversation goes and ask questions that resonates more with you,
+    - free to manipulate the formation of your final group report to be more consistent with your vision yet
+    - _less likely to get more positive answer to do a sit-down interview, even a zoom-based one and_
+    - _write the full report on one's own and coming up with all questions that you'll want to ask_
+
+#### Make your pick according to your liking.
+
+## From previous class, we have five (six) centralized group:
+  
+  - Fashion | Games (Film-making): possibly expanding to two groups
+  - Project Manager
+  - Scientists | Academics | Professors
+  - Curator | Museum Business
+  - Designers
+
+## Task of the day 1
+
+  1. Find your initial team mates;
+  2. work out an initial list (excel/Google Sheet) version of top 3 candidates;
+  3. You have 15 minutes;
+  4. You are not expected to go very deep with social engineering, but 
+  5. Selection of candidates should be justified through the excel;
+  5. Possible columns can be why you picked them, start project, most recent interview, etc. and preference rank.
+
+## Time left before initial presentation
+:::{.timer #task1 seconds=900}
+:::
+
+# Methodology (Due 11:59 AM Mar 31st)
+
+## Circling back to Methodology Examples in Google Drive
+
+- Refer to W8 folder
+- Refer to the two papers for methodology framework inspirations aka 'formatting'
+  - "Stuck in the stack" & "Air vs. MRT"
+  - What level of details did these papers ended up providing in their methodology section?
+  - Are they connected somehow to the literature review/background+introduction sections as well?
+  - _But what if my methodologies are not natural-science-related?_
+- Tutorial/Instruction Manual-like spirit
+
+## Why do people have write a methodology section in research papers?
+  - We previously discussed **what** are the typical methodologies out there that supports research as a given.
+  - Reserach is ultimately meant for pushing boundaries:
+    - 'dissemination'  (dissemination)
+      - clarify extent and specifics of the published work
+    - '**reproducible**' (repeatable)
+      - allow readers to repeat the publication
+
+## Double-check your submission to make sure that it can be considered a followable instruction manual by the domain experts.
+
+# Data Visualization
+
+## Question received last week
+
+- How to use coding to do data visualization?
+  - By programming language:
+    - Python, R, Javascript (Processing/Arduino)
+  - By type of programming:
+    - (Text-based) Programming
+    - Graphical/Visual/Block-based programming: Grasshopper
+- How does data visualization differ in commercial vs. academic/research settings
+  - Commercial:
+    - Goal: Support decision-making
+    - Designed to deliver messages
+  - Academic:
+    - Goal: Present evidence and analysis alongside findings
+    - Designed to present evidence
+
+## Visualizing Quantitative Data
+
+- How do you usually work with them?
+- What do you think are your biggest strength in treating them? Color Pallete and aethetics plus readability
+- Types of data that can be visualized:
+  - Numerical
+  - Categorical
+  - Text (Free text)
+  - _Tabular_: multi-dimensional combined as above
+
+## Time Series Data
+  - Adding one more dimension
+  - Time-stamped information, usually numerical
+  - Scale of time series often important, similar to (potentially necessary) smoothing
+  ![Time Series Data with Weather data](https://images.ctfassets.net/uklh5xrq1p2j/5rT7o8AHq2HIlOHRSD2jgB/65db7b5c0cc2104228e4d3ca518fbc59/whatcaused2.png)
+
+## Alternative Time Series Visualization
+
+![](https://images.ctfassets.net/uklh5xrq1p2j/3f9hvirynb0nXNLivEYvmY/e81d7e23b0308229a430b2752cf77a21/facetsNotColor__6_.png)
+## Sankey Diagram
+  - Inflow/Outflow
+  - Numerical Data that traces back to the source
+  - Programmable yet messy in execution
+  ![Sankey Diagram off X](https://pbs.twimg.com/media/FDbIQ32X0AEqGRk.jpg)
+
+
