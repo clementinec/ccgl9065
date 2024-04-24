@@ -27,8 +27,8 @@ function displayData(uid) {
     container.innerHTML = `
         <h2>Data for ${uid}</h2>
         <p>${userData.text}</p>
-        <img src="${userData.image}" alt="Image for ${uid}" style="width: 100%; max-width: 600px;">
-        <iframe src="${userData.video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 300px;"></iframe>
+        <img src="${userData.image}" alt="Image for ${uid}" style="width: 100%; max-width: 2000px;">
+        <iframe src="${userData.video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 100%;"></iframe>
     `;
 }
 
