@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CCGL9065 - Gallery for Our Response to Climate Change | HK 2100</title>
+<title>CCGL9065 - Our Response to Climate Change | HK 2100</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,11 +89,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./home.html"> 
+    <a class="nav-link active" href="./home.html" aria-current="page"> 
 <span class="menu-text">Our Response to Climate Change | HK 2100</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
@@ -112,14 +112,22 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-course" id="toc-the-course" class="nav-link active" data-scroll-target="#the-course">The Course</a></li>
+  <li><a href="#the-site" id="toc-the-site" class="nav-link" data-scroll-target="#the-site">The Site</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Gallery for Our Response to Climate Change | HK 2100</h1>
+<h1 class="title">Our Response to Climate Change | HK 2100</h1>
+<p class="subtitle lead">About the course</p>
 </div>
 
 
@@ -136,74 +144,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<button onclick="displayRandomStudent()">
-Let’s see more.
-</button>
-<div id="content">
-<h2 class="anchored">
-Collage
-</h2>
-<p><img id="dynamicImage" src="" alt="Dynamic Image"></p>
-<h2 class="anchored">
-Video Essay
-</h2>
-<p><iframe id="dynamicVideo" width="900" height="450" src="" frameborder="0" allowfullscreen=""></iframe></p>
-<h2 class="anchored">
-Reflection
-</h2>
-<h3 class="anchored">
-<span id="dynamicTitle">Title</span>
-</h3>
-<p id="dynamicText">
-Update.
-</p>
-</div>
-<script>
-// Declare the variable to hold your JSON data
-let data; 
-fetch('students.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        return response.json();
-    })
-    .then(jsonData => {
-        data = jsonData; // Assign the fetched data to the global 'data' variable
-        console.log("Initial data loaded", data); // Log the data to ensure it's loaded
-    })
-    .catch(error => {
-        console.error('There was a problem with the fetch operation:', error);
-    });
-
-function displayRandomStudent() {
-  if (!data) {
-    console.error("No data loaded");
-    alert("Data is not loaded yet.");
-    return;
-  }
-
-  const emails = Object.keys(data);
-  const randomIndex = Math.floor(Math.random() * emails.length);
-  const randomEmail = emails[randomIndex];
-
-  console.log("Chosen random email:", randomEmail); // See which email is picked
-
-  if (data[randomEmail]) {
-    console.log("Selected data:", data[randomEmail]); // Log the data of the selected student
-    // document.getElementById("dynamicName").textContent = data[randomEmail]["name"];
-    document.getElementById("dynamicImage").src = data[randomEmail]["image"];
-    document.getElementById("dynamicVideo").src = data[randomEmail]["video"];
-    document.getElementById("dynamicTitle").textContent = data[randomEmail]["title"];
-    document.getElementById("dynamicText").textContent = data[randomEmail]["text"];
-  } else {
-    console.error("Email not found in data:", randomEmail);
-    alert("Email not found. Please check the input and try again.");
-  }
-}
-</script>
+<section id="the-course" class="level2">
+<h2 class="anchored" data-anchor-id="the-course">The Course</h2>
+<p>Climate Change is the single greatest challenge of our generation. The quality of life of future generations will depend on the decisions we make, and how we design our planet today. Our powerful human imagination has enabled us to produce more mobile devices than people, build highways, immense cities, alter soils, crop genetic materials, redirect rivers, melt glaciers, design the chemistry of the atmosphere and the oceans, manufacture enough weapons to destroy humankind several times over. The ways humankind has lived and acted over the past centuries embody the idea that the earth has an unlimited supply of resources and that nature is there for humans to take and exploit. This must change.</p>
+<p>Prompted by Einstein’s well-known quote that “we cannot solve our problems with the same thinking we used to create them,” this course will guide students into exploring a series of both mainstream and more controversial responses to climate change. We will criticise, debate, role play and imagine new narratives, models and metrics of success and ultimately design and advocate for a future we want. We will use Hong Kong 2100 as the theater of this speculative design work to build a better response to climate change. The outcome of the course will be an interactive public Art &amp; Science exhibition, with illustrations, short-essays and discussions with strangers so that we can share our work and spark further innovation.</p>
+</section>
+<section id="the-site" class="level2">
+<h2 class="anchored" data-anchor-id="the-site">The Site</h2>
+<p>This site currently hosts the academic outputs from the students of CCGL9065 during the SS24 semester. Please leverage either the gallery to scroll through the works submitted by the students, or input the specific emails from the authors if you have thar readily available.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
