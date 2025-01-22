@@ -19,7 +19,9 @@ Prompted by Einstein’s well-known quote that “we cannot solve our problems w
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQFI36A-cU3WSl4UEkUltCsnsa71z1F7sPDeBQrflVbeE8I0jQb7YcQOGzWNtVqwps-hACEKLrYm6fA/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-### Weekly Slides
+- Starter-kit: [Personal Research Doc on Notion](https://www.notion.so/CCGL9065-Our-Response-to-Climate-Change-Week-1-Us-vs-the-AI-17bd799d0aaa807ebf77f30ec2831e8f?pvs=4)
+
+### Slides
 - [Week 1](CCGL9065_W1D.qmd)
 
 
