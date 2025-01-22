@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "CCGL9065"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: ind.qmd
+        text: Portfolios|2024
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    page-layout: full
+
+resources:
+  - "data/*"
+
+
+

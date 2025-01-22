@@ -1,0 +1,73 @@
+---
+title: "CCGL9065_2024 Gallery"
+format:
+  html:
+    toc: true
+    code-tools: false
+    code-copy: false
+    grid:
+      sidebar-width: 300px
+      body-width: 1500px
+---
+
+Walk through an individual student's portfolio by clicking the button below:
+
+<div class="input-container">
+  <button id="randomizeContent">Show Random Portfolio</button>
+</div>
+
+<div id="output">
+  <h2>Collage</h2>
+  <img id="dynamicImage" src="https://i.pinimg.com/736x/49/76/ad/4976ade37bbab6415d0dd4361cc1521c.jpg" alt="Poster Submitted" style="width: 100%">
+  
+  <h2>Video Essay</h2>
+  <iframe id="dynamicVideo" width="100%" height="600" src="https://www.youtube.com/embed/UiWzWHBfVro?si=V8HyxRrxRE23Wsxk" frameborder="0" allowfullscreen></iframe>  
+  <h2>Personal Essay</h2>
+  <div id="dynamicText">Press the button to display the text content.</div>
+</div>
+
+<script>
+// Global variable to store student data
+let data = null;
+
+// Fetch JSON data
+fetch('data/student.json')
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error('Failed to fetch student.json: ' + response.statusText);
+    }
+    return response.json();
+  })
+  .then((jsonData) => {
+    data = jsonData; // Assign the JSON data to the global variable
+    console.log('JSON Data Loaded:', data); // Debug: Log the entire data
+  })
+  .catch((error) => {
+    console.error('Error fetching JSON:', error);
+  });
+
+// Function to display a random student's portfolio
+function randomizeContent() {
+  if (data) {
+    const students = Object.keys(data); // Get all student UIDs
+    const randomUID = students[Math.floor(Math.random() * students.length)]; // Pick a random UID
+    const student = data[randomUID];
+
+    // Debugging: Log the selected student's data
+    console.log('Selected Student Data:', student);
+
+    // Update the sections with the student's data
+    document.getElementById("dynamicImage").src = student.image || "placeholder.jpg";
+    document.getElementById("dynamicVideo").src = student.video || "";
+    document.getElementById("dynamicText").textContent = student.text || "No personal essay available.";
+  } else {
+    console.error('Data not loaded yet.');
+    alert('Data is not available yet. Please try again in a moment.');
+  }
+}
+
+// Add event listener for button click
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("randomizeContent").addEventListener("click", randomizeContent);
+});
+</script>

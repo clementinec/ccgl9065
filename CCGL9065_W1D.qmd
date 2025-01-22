@@ -1,0 +1,362 @@
+---
+title: "CCGL9065: Our Response to Climate Change: HK2100"
+subtitle: "What is Climate Change, and How Do We See It? <br> and _Us vs. the AI_"
+author: "Dr. Hongshan Guo"
+format: 
+  revealjs:
+    slide-level: 2
+    center: true
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1300
+    preview-links: auto
+    embed-resources: true
+    incremental: false   
+---
+
+<!-- # Welcome to HK2100: Our Response to Climate Change -->
+
+
+# Welcome to <span style="color:red">**CCGL9065 Our Response to Climate Change: HK2100**</span>
+
+---
+
+## 1: **Why This Course?**
+
+- Explore **climate change** as more than a scientific issue.
+- Understand **why** climate action is deprioritized, debated, or ignored.
+- Develop **skills to analyze narratives** and shape arguments for or against climate action.
+
+---
+
+## 2: Framing the Semester's Focus
+
+**Big Question for This Course:**
+- Why is climate change, a crisis backed by science, often ignored or deprioritized?
+
+> *This semester is about exploring why science isn't enough—and how we structure and understand the narratives around climate action.*
+
+---
+
+## 3: Do <span style="color:red">YOU</span> Believe in Climate Change?
+
+<!-- **Question 1:**  
+- "Do you believe climate change is real?"  
+    - Options: **Yes**, **No**, **Unsure**
+
+**Question 2:**  
+- "Do you believe humans are the primary cause of climate change?"  
+    - Options: Strongly Agree / Agree / Neutral / Disagree / Strongly Disagree -->
+- Do you think it's real?
+- How urgent do you believe it is to act upon it?
+
+::: {.notes}
+- Use Mentimeter to collect responses.
+- Move to the mentimeter page.
+- Frame results neutrally, emphasizing the diversity of views.
+:::
+
+<!-- ---
+
+## 4: Interactive Poll 2: Priority vs. Belief Mapping
+
+**Poll Question:**  
+"Where do you stand on this coordinate system?"  
+
+- **X-axis**: "Climate Change is Real (True/False)"  
+- **Y-axis**: "How Urgent is Action? (Low/High Priority)"
+
+**Activity:**  
+- Use a live polling tool to plot responses visually. -->
+
+---
+
+## 4: What do we make of the poll results?
+
+**Discussion Questions:**  
+1. "What do these results reveal about our class’s perspectives?"  
+2. "Why do you think some people deprioritize climate action, even if they believe it is real?"  
+
+---
+
+## 5: Climate Change as A Scientific Fact
+- **Evidence**:  
+  - CO₂ levels > 420 ppm.  
+  - Global temperature rise: **+1.2°C since pre-industrial times.**  
+  - Impacts: sea-level rise, extreme weather, biodiversity loss, increasing wild fire.
+
+::: {.notes}
+- Co2 is a GHG that traps heat in the earth's atmosphere that amplifies the GH effect causing global warming.
+- Most of human history median is 280ppm. CO2 has risen dramatically since industrial revolution (~1750) from burning fossil fuels, deforestation and industrial processes - highest in at least 800,000 years data from ice cores.
+- It's current increasing by 2-3 PPM/year is unprecendented in earth's history outpacing natural changes that occurs over milennia.
+- Challenge the students: Expand and check on the global temperature rise/impacts accordingly? 
+:::
+
+---
+
+
+## 6: The Challenge – No Action
+
+Despite overwhelming evidence...  
+
+- Climate change is often **ignored or deprioritized**.  
+
+---
+
+### **Key Barriers to Action:**  
+1. **Cognitive Dissonance**:  
+   - Climate feels abstract or distant.  
+2. **Competing Narratives**:  
+   - Conflicts in media, politics, and corporate messaging.  
+- Poll again?
+
+::: {.notes}
+- Emphasize the disconnect between scientific evidence and societal response.  
+- Transition to *Don’t Look Up* to frame how pop culture illustrates this challenge.
+:::
+
+
+<!-- ## 10: Class Discussion on *Don’t Look Up*
+
+**Discussion Questions:**  
+1. "What do you think the movie says about how society handles urgent crises like climate change?"  
+2. "What are the biggest obstacles to communicating the urgency of climate action?"  
+
+---
+ -->
+## 7: Wrapping Up on First Half
+
+### Core Message:  
+- Climate change is a **scientific fact**, but narratives influence our willingness to act.  
+- This semester, we’ll learn to critically analyze these narratives and develop effective arguments.  
+
+**Next Steps:**  
+
+- Learn more and prepare for role-playing exercises next session after the break!
+
+
+
+## 8. Assessment Overview
+
+- **Participation Grades**:
+  - **7/10**: Presented once during the semester.
+  - **8.5/10**: Presented twice.
+  - **10/10**: Presented three or more times.
+- Participation is cumulative and rewards consistent engagement.
+- Other assessment items:
+  - Midterm and final projects (details in future sessions).
+
+---
+
+## 9. Why Role-Playing Matters
+
+- **Purpose**: Explore diverse perspectives on climate change.
+- **Method**: Simulate real-world tensions and decision-making processes.
+- **Outcome**: Learn to structure arguments and craft narratives tied to societal roles.
+
+---
+
+## 10. This Week’s Groups
+
+- **Pro-CC Specialists:**  
+  - Advocate for prioritizing climate action.  
+  - Grounded in scientific consensus, long-term benefits, and moral responsibility.
+
+- **Anti-CC Specialists:**  
+  - Argue against prioritizing climate action.  
+  - Highlight economic costs, competing priorities, and feasibility concerns.
+
+---
+
+## 11. Starting Next Week: Vocational Groups
+
+- **Six Vocational Groups:**  
+  1. Logistics/Transportation  
+  2. Farming/Food Procurement  
+  3. Energy and Industry  
+  4. Policy-Makers/Decision Makers  
+  5. Technology and Innovation  
+  6. Service/Urban Workers  
+
+- **Logistics for Next Week:**  
+  - Groups will be assigned via a lottery system at the start of class.
+  - You will define a persona within your assigned group to deeply engage with the topic.
+
+---
+
+## 12. Persona Creation for Today
+
+- Define your **Pro/Anti-CC Specialist persona**:
+  - **Pro-CC Example:**  
+    - A climate scientist, renewable energy CEO, or youth activist.
+  - **Anti-CC Example:**  
+    - A corporate lobbyist, skeptical journalist, or concerned taxpayer.
+
+- Take **5 minutes** to decide:
+  - **Who are you?**
+  - **What motivates your stance?**
+
+---
+
+## 13. Today’s Topic: US vs. AI
+
+- How should humanity approach the development of AI, especially in the context of climate change?
+    - Should we be **hostile** to AI development, focusing on its risks and energy costs?
+    - Or should we seek **co-existence**, leveraging AI's potential to address climate change?
+
+
+
+## 14. Pro-AI Arguments
+
+- AI can be a powerful tool to combat climate change:
+  1. **Optimizing energy use**:  
+     - AI models can optimize renewable energy grids and improve efficiency.
+  2. **Climate solutions**:  
+     - AI can model climate scenarios and suggest actionable policies.
+  3. **Promoting acceptance**:  
+     - AI-driven communication tools (e.g., personalized messaging) can increase public awareness and engagement.
+
+- AI increases **productivity**:  
+  - By automating repetitive tasks, AI frees up resources for innovation in green technologies.
+
+---
+
+## 15. Anti-AI Arguments
+
+- **Energy-intensive technology**:  
+  - AI training models (e.g., large language models) consume enormous amounts of energy.  
+    - Example: Training one large model can emit as much carbon as five cars over their lifetime.  
+
+- **Risk of distraction**:  
+  - Over-reliance on AI may shift focus from simpler, more immediate solutions (e.g., lifestyle changes, policy enforcement).
+
+- **Social challenges**:  
+  1. AI might exacerbate inequality, leaving vulnerable populations further behind.  
+  2. AI-driven misinformation can hinder climate action.
+
+---
+
+## 16. Group Discussions
+
+- Spend **10 minutes** discussing in your groups:
+  - **Pro-CC Specialists**: Argue for embracing AI as a key tool in the fight against climate change.  
+  - **Anti-CC Specialists**: Argue that AI poses more risks than benefits in the climate context.  
+
+- Prepare 2-3 key points tied to:
+  - Energy use.
+  - Solutions or distractions.
+  - Social impacts.
+
+---
+
+## 17. Group Presentations
+
+- Each group presents their stance:
+  - **Pro-AI Specialists**: 5 minutes.
+  - **Anti-AI Specialists**: 5 minutes.
+
+- Focus on the interplay between AI development and the urgency of addressing climate change.
+
+---
+
+## 18. Debrief and Takeaways
+
+- **Pro-AI Highlights**:  
+  - AI as a tool for innovation, efficiency, and public engagement.
+- **Anti-AI Highlights**:  
+  - AI’s energy costs and potential social risks outweigh its benefits.
+
+- **Broader Question**:  
+  - "How do societal priorities shape our relationship with technology and climate action?"
+
+## Presentation Countdown
+
+<div id="timer-container" style="text-align: center;">
+  <!-- Timer Display -->
+  <div id="timer" style="
+    font-size: 348px;
+    color: black;
+    margin-bottom: 20px;">00:00</div>
+  
+  <!-- Control Buttons -->
+  <button id="start-button" style="
+    font-size: 24px;
+    padding: 20px 40px;
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;">
+    Start Timer
+  </button>
+  <button id="reset-button" style="
+    font-size: 24px;
+    padding: 20px 40px;
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;">
+    Reset Timer
+  </button>
+</div>
+
+<script>
+  let countdownDuration = 300; // 5 minutes
+  let initialDuration = 300; // Store the initial time
+  let timerInterval;
+
+  // Format time as MM:SS
+  function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+  }
+
+  // Update the timer display
+  function updateTimer() {
+    const timerElement = document.getElementById("timer");
+    if (countdownDuration > 0) {
+      countdownDuration--;
+      timerElement.innerText = formatTime(countdownDuration);
+
+      // Change color to red when time is below 60 seconds
+      if (countdownDuration < 60) {
+        timerElement.style.color = "red";
+      } else {
+        timerElement.style.color = "black";
+      }
+    } else {
+      timerElement.innerText = "Time's up!";
+      clearInterval(timerInterval);
+    }
+  }
+
+  // Start the countdown when the button is clicked
+  document.getElementById("start-button").addEventListener("click", function () {
+    clearInterval(timerInterval); // Ensure no duplicate intervals
+    timerInterval = setInterval(updateTimer, 1000);
+
+    // Disable the start button while the timer is running
+    this.disabled = true;
+    this.innerText = "Timer Running...";
+  });
+
+  // Reset the timer when the reset button is clicked
+  document.getElementById("reset-button").addEventListener("click", function () {
+    clearInterval(timerInterval); // Stop the timer
+    countdownDuration = initialDuration; // Reset time to initial value
+
+    // Reset the timer display
+    const timerElement = document.getElementById("timer");
+    timerElement.innerText = formatTime(countdownDuration);
+    timerElement.style.color = "black"; // Reset color to black
+
+    // Re-enable the start button
+    const startButton = document.getElementById("start-button");
+    startButton.disabled = false;
+    startButton.innerText = "Start Timer";
+  });
+</script>
