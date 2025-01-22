@@ -9,8 +9,6 @@ Climate Change is the single greatest challenge of our generation. The quality o
 
 Prompted by Einstein’s well-known quote that “we cannot solve our problems with the same thinking we used to create them,” this course will guide students into exploring a series of both mainstream and more controversial responses to climate change. We will criticise, debate, role play and imagine new narratives, models and metrics of success and ultimately design and advocate for a future we want. We will use Hong Kong 2100 as the theater of this speculative design work to build a better response to climate change. The outcome of the course will be an interactive public Art & Science exhibition, with illustrations, short-essays and discussions with strangers so that we can share our work and spark further innovation.
 
-## The Site
-
 ### Time and Location
 
 - Time: **Wednesdays, 12:30-14:20**
@@ -27,7 +25,12 @@ Prompted by Einstein’s well-known quote that “we cannot solve our problems w
 
 ### Student Works from Prior Offerings
 
+
+## The Site
+
 This site also currently hosts the academic outputs from the students of CCGL9065 during the 2023-2024 academic year [here](ind.qmd). Please leverage either the gallery to scroll through the works submitted by the students, or input the specific emails from the authors if you have thar readily available. 
+
+
 
 ## More to come later this semester 
 This site will continue to see itself updated with more up-to-date information for 2024-2025 academic year. Please stay tuned on this page!
