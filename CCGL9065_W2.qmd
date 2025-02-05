@@ -9,13 +9,10 @@ format:
     theme: simple
     width: 1600
     height: 1200
-    preview-links: auto
+    <!-- preview-links: auto -->
     embed-resources: true
     incremental: true
     center: true
-  beamer:
-    aspect-ratio: "4:3"
-    slide-size: [1600, 1200] # This might not directly set dimensions in Beamer, as Beamer uses predefined sizes, but it's a way to suggest desired proportions.
 
 ---
  
@@ -106,22 +103,22 @@ adaptations.
 5. Holistic assessments: Beyond just emissions
 6. Policy impacts on climate benefits
 
-:::{.notes}
-1. Cell-based meat:
+::: {.notes}
+1. Cell-based meat
    - Also known as lab-grown or cultured meat
    - Promise: Identical to conventional meat but with much lower environmental impact
    - Reality: Still in development, high production costs, energy requirements uncertain
    - Key debate: Will it be scalable and truly more sustainable at industrial levels?
    - Companies to mention: Memphis Meats, Mosa Meat, Aleph Farms
 
-2. Hybrid products:
+2. Hybrid products
    - Blend of plant-based ingredients and conventional meat
    - Examples: Burger patties with 30% mushroom, 70% beef
    - Pros: Easier consumer transition, immediate impact on reducing meat consumption
    - Cons: May slow transition to fully plant-based alternatives
    - Key question: Are these a stepping stone or a distraction?
 
-3. Algae and mycoprotein:
+3. Algae and mycoprotein
    - Algae: High in protein, omega-3s; can be grown in non-arable land
    - Mycoprotein (e.g., Quorn): Fungal-based, lower land and water use than soy
    - Benefits: Potentially more sustainable than current plant-based proteins
@@ -135,14 +132,14 @@ adaptations.
    - Key point: Need for case-by-case analysis; no one-size-fits-all answer
    - Example study: NZ lamb in UK markets vs. local UK lamb
 
-5. Holistic assessments:
+5. Holistic assessments
    - Moving beyond just carbon footprint
    - Factors to include: Water use, biodiversity impact, soil health, social factors
    - Tools: Life Cycle Assessments (LCAs) becoming more comprehensive
    - Challenge: How to communicate complex data to consumers?
    - Emerging concept: "True Cost Accounting" in food systems
 
-6. Policy impacts:
+6. Policy impacts
    - Current: Many policies still favor conventional meat production
    - Potential changes: Carbon pricing, emissions labels, sustainability subsidies
    - Debate: How would these policies affect meat alternatives' competitiveness?
@@ -151,8 +148,6 @@ adaptations.
 
 Key message: These discussions highlight the complexity of the issue. There's no simple answer, but addressing these points is crucial for the future of sustainable food systems.
 :::
-
----
 ## Key Takeaway
 
 Meat alternatives offer significant potential for climate change mitigation, but challenges remain. The debate is complex, involving science, culture, and policy.
