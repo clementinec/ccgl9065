@@ -12,7 +12,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: Zephyr
     css: styles.css
     toc: true
     page-layout: full
