@@ -1,0 +1,502 @@
+---
+title: "CCGL9065: Our Response to Climate Change: HK2100"
+subtitle: "Fashion Design and Life Cycle of Stuff"
+author: Dr. Hongshan Guo and Class
+
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1200
+    <!-- preview-links: auto -->
+    embed-resources: true
+    incremental: true
+    center: true
+---
+
+
+## The Impact of Fast Fashion
+- **Environmental Footprint**: Discuss the water usage, chemical pollution, and carbon emissions resulting from fast fashion production.
+- **Resource Consumption**: Highlight how fast fashion contributes to the illusion of infinite resources, leading to overconsumption and waste.
+- **Waste and Landfill Overload**: Examine how the rapid turnover of fashion items exacerbates landfill waste, with millions of tons of clothing discarded annually.
+
+## The True Cost of Fashion
+- **Economic vs. Environmental Costs**: Contrast the low upfront cost of fast fashion items with their high environmental toll.
+- **Hidden Costs**: Discuss the hidden costs of fast fashion, including labor exploitation, resource depletion, and ecological damage.
+- **Consumer Awareness**: Explore the gap between consumer price and the true cost of fashion production on the environment and society.
+
+## Sustainable Fashion and Climate Change
+- **Sustainable Practices**: Introduce sustainable fashion concepts such as eco-friendly materials, ethical labor practices, and circular fashion models.
+- **Climate Change Link**: Explain how adopting sustainable fashion practices can mitigate the fashion industry's impact on climate change.
+- **Innovations in Fashion**: Highlight technological and material innovations aimed at reducing the fashion industry's carbon footprint.
+
+## Pro-Climate Change Arguments in Fashion
+- **Urgency of Action**: Emphasize the urgent need for the fashion industry to adopt sustainable practices to combat climate change.
+- **Regulatory and Market Solutions**: Discuss potential policy measures, industry standards, and consumer-driven demand for sustainable fashion.
+- **Long-term Sustainability**: Argue that sustainable fashion is not only necessary for environmental reasons but also for long-term economic and social sustainability.
+
+## Anti-Climate Change Perspectives on Fashion
+- **Economic Prioritization**: Present arguments that prioritize economic growth and job creation in the fashion industry over environmental concerns.
+- **Questioning the Impact**: Some may argue that the fashion industry's impact on climate change is overstated and that there are more significant sectors to target.
+- **Market-Driven Solutions**: Suggest that market forces and consumer choice, rather than regulatory intervention, are the best ways to address any environmental issues within the fashion industry.
+
+## Let's start with fabric {background-image='https://palaisdeleau.com/app/uploads/2019/06/PdL-denimproject-03-1-1024x385.jpg' background-size="contain"}
+denim, a quick case-study^1^.
+
+::: footer
+^1^ Palais de l’eau. (2020, April 8). How we recycle denim to make the Recycled Denim Collection. https://palaisdeleau.com/magazine/recycle-denim-process/
+:::
+
+
+## Case Study: Environmental Impact of Denim Production
+**Impression:** Denim is durable and promises to have a long lifespan and is therefore an environmental-friendly and ethical product, at least better than its leather counterparties.
+
+1. **Water Usage**:
+   - The production of denim is water-intensive, especially during the cotton growing process and the dyeing phase where indigo dye is applied. It's estimated that producing a single pair of jeans can require thousands of liters of water.
+   - The "wash" effect, popular in many jeans, is achieved through various techniques such as stone washing or acid washing, which further increases water usage.
+---
+
+2. **Chemical Use**:
+   - The dyeing process for denim uses synthetic indigo dyes and other chemicals, which can be harmful to the environment if not properly managed. These chemicals can contaminate water sources, affecting aquatic life and potentially entering the human water supply.
+   - Finishing processes to make jeans softer or to give them a distressed look also involve potentially harmful substances.
+
+3. **Energy Consumption**:
+   - The entire lifecycle of a pair of jeans, from cotton cultivation to manufacturing processes, is **energy-intensive, contributing to CO2 emissions and global warming**.
+---
+
+4. **Cotton Cultivation**:
+   - Conventional cotton farming, the primary material for denim, uses large amounts of pesticides and fertilizers, which can degrade soil quality, contaminate water, and harm wildlife.
+   - Cotton cultivation also <span style="color:red">competes for land and water resources</span> that could be used for food production, exacerbating issues of resource scarcity.
+
+## Common Concerns Related to Denim's Environmental Impact
+
+1. **Waste and Overproduction**:
+   - The fast fashion model encourages rapid consumption rates, leading to overproduction of denim products. This results in significant waste, as consumers discard old jeans for new trends.
+   - Landfills are increasingly burdened by textile waste, including denim, which can take decades to decompose due to its synthetic blend components.
+
+2. **Microfibers and Pollution**:
+   - During washing, denim, like other textiles, releases microfibers that can pass through wastewater treatment plants and contribute to oceanic and freshwater microplastic pollution.
+---
+
+
+3. **Lifecycle and Durability**:
+   - Although denim is often touted for its durability, the **fast fashion trend** towards lower quality and disposable clothing undermines this potential, leading to a shorter lifecycle and increased waste.
+
+4. **Social and Ethical Concerns**:
+   - Beyond environmental impacts, the denim industry also faces ethical concerns related to labor practices in cotton farming and garment manufacturing, which are often conducted in developing countries under poor working conditions.
+
+
+## Responsible Denim Production
+
+1. **Sustainable Cotton Challenges**: Better Cotton Initiatives
+   - **Organic** cotton avoids the pesticides and synthetic fertilizers requires a significant amount of <span style="color:red">water</span> to grow. 
+   - Its water usage for organic cotton _might be_ **comparable to or even higher** than conventionally grown cotton due to potentially lower yields.
+   - Transition could be slow and costly, limiting its scalability and accessibility to all manufacturers.
+---   
+
+2. **Eco-Friendly Dyes and Chemicals**:
+   - While eco-friendly dyes reduce the use of harmful chemicals, the dyeing process can still consume a considerable amount of <span style="color:red">**water and energy**</span>. 
+   - Full life cycle impacts of some alternative dyes and chemicals are not always clear: they may still pose environmental risks if not managed properly.
+
+3. **Recycled Materials**:
+   - Needs breaking down fabric: <span style="color:red">energy-intensive and chemicals</span> to facilitate, possible environmental pollution.
+   - The quality of recycled fibers can be lower than virgin fibers: possibly less durable, reduced lifespan thus higher frequencies of replacement.
+
+## Denim Reuse
+
+1. **Transportation and Carbon Footprint**:
+   - The collection, sorting, and redistribution of used denim for reuse or recycling can entail significant transportation, contributing to carbon emissions, especially if these processes occur across global distances.
+
+2. **Upcycling Limitations**:
+   - Upcycling, while creative and potentially reducing waste, may have limited scalability as a solution to denim waste. It can also be labor-intensive and may not always result in products that meet consumer needs or preferences, potentially leading to items that are ultimately discarded.
+---
+
+3. **Water and Energy Usage in Second-Hand Care**:
+   - The washing and maintenance of second-hand denim, especially to meet sanitary standards for resale, can consume significant amounts of water and energy, offsetting some of the environmental benefits of reuse.
+
+4. **Market Saturation and Displacement**:
+   - An influx of second-hand or recycled denim products in certain markets can displace local textile industries, affecting economies and potentially leading to increased waste where these displaced products are not valued or utilized.
+
+
+## Upcycling： Use As-New Materials
+
+__Pros__:
+
+- Reduces waste by repurposing textiles.
+- Conserves resources and minimizes the need for new materials.
+- Creates unique, creative fashion items.
+- Increases consumer awareness and promotes sustainable habits.
+
+__Cons__:
+
+- Can be resource-intensive (transport, cleaning, modification).
+- Limited scalability due to the bespoke nature of products.
+- Potential market resistance due to perceived lower quality.
+- May involve the use of chemicals for transformation.
+
+## Downcycling: Use Degraded Materials
+
+**Pros:**
+
+- Extends the life of materials by creating lower-quality products.
+- Generally less energy-intensive than new material production.
+- Cost-effective waste management strategy.
+- Capable of addressing large volumes of textile waste.
+
+**Cons:**
+
+- Results in products with reduced quality and utility.
+- Still requires significant energy and resources for processing.
+- Workers may be exposed to hazardous materials.
+- Downcycled products may ultimately still contribute to landfill waste.
+
+## Comparing Pro-CC and Anti-CC
+
+| Sustainable Fashion Benefits | Potential Negative Environmental Impacts |
+|------------------------------|-------------------------------------------|
+| **Waste Reduction**          | Energy and resource usages can be significant, possible offset of waste reduction benefits. |
+| **Resource Efficiency**      | Scalability limited, may hinder overall impact on resource conservation. |
+| **Unique Products**          | Bespoke nature of many sustainable fashion items leading to reduced desirability or quality, affecting market acceptance. |
+| **Awareness and Engagement** | Sustainable practices _can_ rely on more resource-intensive methods (e.g., organic cotton farming requires significant water). |
+
+---
+
+| Sustainable Fashion Benefits | Potential Negative Environmental Impacts |
+|------------------------------|-------------------------------------------|
+| **Extended Material Life**   | Downcycled products, while reducing waste, often result in lower-quality items with shorter lifespan. |
+| **Energy Conservation**      | Collection, transportation, and processing of materials for upcycling/downcycling still consume (more) energy. |
+| **Cost-Effectiveness**       | The financial sustainability contested by higher production costs and consumer price sensitivity. |
+| **Volume Reduction**         | Downcycling's large-scale waste processing is offset by the end-life landfill risk due to lesser utility. |
+
+
+
+## Introduction to Life Cycle Analysis (LCA)
+
+## What is LCA?
+
+![](https://ecochain.com/wp-content/uploads/2019/05/Product-Life-Cycle-version-1-English-2.png)
+
+
+## What is LCA? (Continued)
+
+- A systematic approach to assess the environmental aspects and potential impacts associated with a product, process, or service.
+- Considers all stages from raw material extraction through materials processing, manufacture, distribution, use, repair and maintenance, and disposal or recycling.
+
+## Tied to Upcycling or Downsampling?
+
+![](https://ecochain.com/wp-content/uploads/2022/12/Lifecycle-Models_LCA_Ecochain.png)
+
+## LCA, Scope and Stages 
+
+- **Goal and Scope Definition**: Identifying the LCA's purpose and the system boundaries.
+- **Inventory Analysis**: Collecting data on energy inputs, material inputs, and environmental releases.
+- **Impact Assessment**: Evaluating the significance of potential environmental impacts.
+- **Interpretation**: Analyzing results to make informed decisions.
+
+## Role and Importance of LCA
+
+**Role in Environmental Sustainability**
+
+- **Decision-Making Tool**: Aids businesses and policymakers in making more environmentally informed choices.
+- **Benchmarking**: Establishes benchmarks for improving product or process sustainability.
+
+**Importance of LCA**
+
+- **Holistic View**: Offers a comprehensive assessment of environmental impacts across a product's entire life cycle.
+- **Transparency**: Provides a transparent method for assessing the environmental performance of products.
+- **Prevention**: Identifies areas for potential environmental improvement and pollution prevention early in the product development phase.
+
+## LCA as a Tool
+
+**Storytelling Through Data**
+
+- **Narrative Building**: LCA results can be used to create compelling narratives about a product's environmental footprint, aiding in consumer education and engagement.
+- **Marketing and Communication**: Businesses can use LCA data to communicate sustainability efforts and product benefits to consumers and stakeholders.
+
+**Understanding Environmental Impacts**
+
+- **Positive Impacts**: Showcase practices and areas where a product excels in environmental performance.
+- **Negative Impacts**: Identifies hotspots of environmental concern, guiding efforts for reduction or mitigation.
+- **Comparative Analysis**: Allows for the comparison of products or processes for relative benefits/drawbacks.
+
+## Pro-CC on Fashion Sustainability
+
+- **Urgency in Fashion Reform**:
+  - **Resource Intensity**: Highlight fashion's heavy water and energy use.
+  - **Pollution**: Point out dyeing and treatment chemicals contaminating water.
+
+- **Sustainable Fashion Benefits**:
+  - **Waste Reduction**: Emphasize less landfill waste with sustainable practices.
+  - **Lower Emissions**: Advocate for reduced carbon footprint in eco-friendly production.
+
+- **Consumer Health & Ethics**:
+  - **Chemical Exposure**: Less chemical use reduces health risks.
+  - **Fair Labor**: Stress the importance of ethical labor practices in sustainable brands.
+
+
+## Anti-CC on Fashion Sustainability
+
+- **Economic Considerations**:
+  - **Cost Challenges**: Argue sustainable fashion's higher costs could limit access.
+  - **Industry Impact**: Highlight potential job losses in traditional manufacturing sectors.
+
+- **Questioning Effectiveness**:
+  - **Real Impact**: Debate the actual environmental benefit of sustainable practices.
+  - **Greenwashing**: Caution against brands that falsely claim sustainability without substantial action.
+
+- **Innovation & Market Forces**:
+  - **Technological Solutions**: Propose innovation in materials and processes as an alternative.
+  - **Consumer Choice**: Advocate for market-driven solutions rather than regulatory mandates.
+
+
+## Public Insights: Fashion's Environmental Footprint
+
+- **Understanding Fast Fashion**:
+  - **High Turnover**: Recognize the rapid consumption model's role in waste.
+  - **Resource Depletion**: Note the extensive resource use from production to disposal.
+
+- **Evaluating Sustainable Fashion**:
+  - **Longevity vs. Trend**: Balance the appeal of trends with the durability of sustainable items.
+  - **Lifecycle Analysis**: Consider the full environmental cost, from production to end-of-life.
+
+- **Consumer Role**:
+  - **Mindful Purchasing**: Encourage thoughtful buying decisions to reduce waste.
+  - **Advocacy**: Support brands with transparent and genuine sustainable practices.
+
+
+
+#
+
+```{=html}
+<style>
+  #groupAssignment_container {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  #groupAssignment_startButton {
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  #groupAssignment_startButton:hover {
+    background-color: #2980b9;
+  }
+  #groupAssignment_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  #groupAssignment_display {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  #groupAssignment_display h2 {
+    color: #2c3e50;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  #groupAssignment_display ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #groupAssignment_display li {
+    margin: 20px 0;
+    font-size: 36px;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  #groupAssignment_closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+</style>
+
+<div id="groupAssignment_container">
+  <h1 style="font-size: 48px; color: #34495e;">Group Assignment Time!</h1>
+  <button id="groupAssignment_startButton">Start the assignment</button>
+</div>
+
+<div id="groupAssignment_overlay">
+  <div id="groupAssignment_display"></div>
+  <button id="groupAssignment_closeButton">Close</button>
+</div>
+
+<script>
+// Create a namespace for our group assignment functionality
+const GroupAssignment = {
+  groups: [
+    'Group One', 'Group Two', 'Group Three', 'Group Four', 
+    'Group Five', 'Group Six', 'Group Seven', 'Group Eight'
+  ],
+  vocations: [
+    'Logistics/Transportation',
+    'Farming/Food Procurement',
+    'Energy and Industry',
+    'Policy-makers/decision makers',
+    'Technology and Innovation',
+    'Service Provider/Essential Workers',
+    'Pro-CC expert',
+    'Anti-CC expert'
+  ],
+
+  shuffleArray: function(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  },
+
+  createAssignment: function() {
+    const shuffledVocations = this.shuffleArray([...this.vocations]);
+    return this.groups.map((group, index) => ({
+      group: group,
+      vocation: shuffledVocations[index]
+    }));
+  },
+
+  displayAssignment: function() {
+    const assignments = this.createAssignment();
+    let html = '<h2>Random Group Assignments</h2><ul>';
+    assignments.forEach(assignment => {
+      html += `<li><strong>${assignment.group}:</strong> ${assignment.vocation}</li>`;
+    });
+    html += '</ul>';
+    document.getElementById('groupAssignment_display').innerHTML = html;
+    document.getElementById('groupAssignment_overlay').style.display = 'flex';
+  },
+
+  init: function() {
+    const startButton = document.getElementById('groupAssignment_startButton');
+    const closeButton = document.getElementById('groupAssignment_closeButton');
+    
+    startButton.addEventListener('click', () => this.displayAssignment());
+    closeButton.addEventListener('click', () => {
+      document.getElementById('groupAssignment_overlay').style.display = 'none';
+    });
+  }
+};
+
+// Initialize the group assignment functionality
+GroupAssignment.init();
+</script>
+```
+
+## Presentation Countdown
+
+<div id="timer-container" style="text-align: center;">
+  <!-- Timer Display -->
+  <div id="timer" style="
+    font-size: 348px;
+    color: black;
+    margin-bottom: 20px;">00:00</div>
+  
+  <!-- Control Buttons -->
+  <button id="start-button" style="
+    font-size: 24px;
+    padding: 20px 40px;
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;">
+    Start Timer
+  </button>
+  <button id="reset-button" style="
+    font-size: 24px;
+    padding: 20px 40px;
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;">
+    Reset Timer
+  </button>
+</div>
+
+<script>
+  let countdownDuration = 300; // 5 minutes
+  let initialDuration = 300; // Store the initial time
+  let timerInterval;
+
+  // Format time as MM:SS
+  function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+  }
+
+  // Update the timer display
+  function updateTimer() {
+    const timerElement = document.getElementById("timer");
+    if (countdownDuration > 0) {
+      countdownDuration--;
+      timerElement.innerText = formatTime(countdownDuration);
+
+      // Change color to red when time is below 60 seconds
+      if (countdownDuration < 60) {
+        timerElement.style.color = "red";
+      } else {
+        timerElement.style.color = "black";
+      }
+    } else {
+      timerElement.innerText = "Time's up!";
+      clearInterval(timerInterval);
+    }
+  }
+
+  // Start the countdown when the button is clicked
+  document.getElementById("start-button").addEventListener("click", function () {
+    clearInterval(timerInterval); // Ensure no duplicate intervals
+    timerInterval = setInterval(updateTimer, 1000);
+
+    // Disable the start button while the timer is running
+    this.disabled = true;
+    this.innerText = "Timer Running...";
+  });
+
+  // Reset the timer when the reset button is clicked
+  document.getElementById("reset-button").addEventListener("click", function () {
+    clearInterval(timerInterval); // Stop the timer
+    countdownDuration = initialDuration; // Reset time to initial value
+
+    // Reset the timer display
+    const timerElement = document.getElementById("timer");
+    timerElement.innerText = formatTime(countdownDuration);
+    timerElement.style.color = "black"; // Reset color to black
+
+    // Re-enable the start button
+    const startButton = document.getElementById("start-button");
+    startButton.disabled = false;
+    startButton.innerText = "Start Timer";
+  });
+</script>
