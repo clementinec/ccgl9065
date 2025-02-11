@@ -22,6 +22,8 @@ Prompted by Einstein’s well-known quote that “we cannot solve our problems w
 ### Slides
 - [Week 1](CCGL9065_W1D.qmd)
 - [Week 2](CCGL9065_W2.qmd)
+- [Week 3](CCGL9065_W3.qmd)
+
 
 ### Student Works from Prior Offerings
 

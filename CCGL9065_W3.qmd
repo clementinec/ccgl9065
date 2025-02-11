@@ -22,6 +22,7 @@ format:
 - **Waste and Landfill Overload**: Examine how the rapid turnover of fashion items exacerbates landfill waste, with millions of tons of clothing discarded annually.
 
 ## The True Cost of Fashion
+
 - **Economic vs. Environmental Costs**: Contrast the low upfront cost of fast fashion items with their high environmental toll.
 - **Hidden Costs**: Discuss the hidden costs of fast fashion, including labor exploitation, resource depletion, and ecological damage.
 - **Consumer Awareness**: Explore the gap between consumer price and the true cost of fashion production on the environment and society.
@@ -264,7 +265,79 @@ __Cons__:
   - **Mindful Purchasing**: Encourage thoughtful buying decisions to reduce waste.
   - **Advocacy**: Support brands with transparent and genuine sustainable practices.
 
+Below is a more expansive set of open-ended, “Socratic-style” questions you can share with your students to help them challenge assumptions, clarify their arguments, and think deeply about the implications of their stance. You can pick and choose which ones to use, or present them all as a master list. They’re grouped loosely by theme:
 
+
+# Cheatsheet before you dive into your cluster discussion
+
+## Understanding Stake and Motivation
+1. **What is your stake in the current topic?**  
+   - Why do you (as your role) care about the outcome?
+   - What personal or professional interests are on the line?
+2. **What are the guiding principles or core values that shape your viewpoint?**  
+   - Why those principles, and not others?
+
+---
+
+## Clarifying the Issue
+3. **What exactly is the problem you’re trying to solve from your sector’s perspective?**  
+   - What are the key details that might be misunderstood or overlooked?
+4. **What does success look like for you?**  
+   - Are there specific targets, metrics, or outcomes that define “success” in your role?
+
+---
+
+## Uncovering Assumptions
+
+5. **Which assumptions underlie your argument?**  
+   - Are you assuming continuous economic growth, stable climate patterns, certain resource availability, or a specific political environment?
+6. **What might happen if one of these assumptions proves false?**  
+   - How would it alter your proposed strategy or action?
+
+---
+
+## Gathering Evidence
+7. **What data or evidence do you currently rely on to support your point of view?**  
+   - Is it historical data, projections, scientific consensus, or anecdotal?
+   - Where might data be limited or uncertain?
+8. **What additional information might strengthen (or challenge) your argument?**  
+   - Are there sources you haven’t considered?
+
+---
+
+## Exploring Consequences and Trade-offs
+9. **Who benefits the most from your proposed actions—and who might lose out?**  
+   - Are you comfortable with that imbalance, or is there a way to mitigate it?
+10. **What are the short-term vs. long-term implications of your approach?**  
+    - Could a short-term gain cause a long-term problem (or vice versa)?
+11. **If you move forward with your preferred plan, what are some unintended consequences that might arise?**  
+    - How could you plan for or address those?
+
+<!-- 
+## Other Perspectives
+
+12. **How might someone with a different role or viewpoint perceive your stance?**  
+    - Are there aspects of your argument that could be unconvincing or even threatening to them?
+13. **What criticisms would you anticipate from your opponents?**  
+    - How would you respond to these critiques?
+14. **Is there any common ground or compromise that you could find with someone who disagrees with you?**  
+    - How might that shift your stance?
+
+15. **What evidence or arguments might actually weaken your case?**  
+    - Why might someone consider that evidence more compelling?
+16. **Which part of your argument feels the most vulnerable to challenge?**  
+    - What could you do to strengthen it?
+
+17. **What would personally convince you to take more immediate and ambitious actions?**  
+    - Do you see any gap between what you say is important and what you’re actually doing?
+18. **How do you weigh your own interests and comfort against the broader needs of society or future generations?**  
+    - Is there a balance point that feels fair?
+
+19. **If your approach were widely adopted, how would it transform HK2100?**  
+    - What would daily life or governance look like in that future?
+20. **What legacy do you want to leave behind, from the perspective of your sector/role?**  
+    - How does this vision guide your decisions today?
+ -->
 
 #
 
