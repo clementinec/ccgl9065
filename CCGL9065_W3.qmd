@@ -265,8 +265,6 @@ __Cons__:
   - **Mindful Purchasing**: Encourage thoughtful buying decisions to reduce waste.
   - **Advocacy**: Support brands with transparent and genuine sustainable practices.
 
-Below is a more expansive set of open-ended, “Socratic-style” questions you can share with your students to help them challenge assumptions, clarify their arguments, and think deeply about the implications of their stance. You can pick and choose which ones to use, or present them all as a master list. They’re grouped loosely by theme:
-
 
 # Cheatsheet before you dive into your cluster discussion
 
@@ -313,7 +311,7 @@ Below is a more expansive set of open-ended, “Socratic-style” questions you 
 11. **If you move forward with your preferred plan, what are some unintended consequences that might arise?**  
     - How could you plan for or address those?
 
-<!-- 
+
 ## Other Perspectives
 
 12. **How might someone with a different role or viewpoint perceive your stance?**  
@@ -337,7 +335,6 @@ Below is a more expansive set of open-ended, “Socratic-style” questions you 
     - What would daily life or governance look like in that future?
 20. **What legacy do you want to leave behind, from the perspective of your sector/role?**  
     - How does this vision guide your decisions today?
- -->
 
 #
 
