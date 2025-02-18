@@ -1,0 +1,487 @@
+---
+title: "Our Response to Climate Change: Hong Kong 2100 - Renewable Energy & Transportation"
+author: "Prepared by Dr. Hongshan Guo and Class"
+date: "2025-02-19"
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1200
+    <!-- preview-links: auto -->
+    embed-resources: true
+    incremental: true
+    center: true
+---
+
+
+# Session Overview
+
+- A review of six renewable energy types with their pros, cons, and short- and long-term impacts.
+- Enhanced case studies illustrating how public messaging simplifies complex energy issues.
+- A detailed scenario focusing on Hong Kong's renewable energy landscape and its unique challenges.
+
+# Top 6 Types of Renewable Energy
+
+## Solar Incoming {background-image="https://cdn.britannica.com/85/73585-050-AC0B6BA5/Reflection-absorption-solar-energy-surface-atmosphere-sunlight.jpg" }
+
+## 1. Solar Energy
+- **Pros**: 
+  - Abundant sunlight
+  - Low operating costs
+  - Reduces electricity bills
+- **Cons**:
+  - High initial installation costs
+  - Requires significant space (rooftops/ground)
+  - Production variability due to weather conditions
+- **Short-term Impact**: 
+  - Immediate reduction in carbon emissions and energy costs.
+- **Long-term Impact**: 
+  - Enhances energy security and sustainability, but poses challenges for grid stability and storage solutions.
+
+:::{.notes}
+
+Introducing the Duck Curve.
+:::
+
+## Duck Curve {background-image="https://elements.visualcapitalist.com/wp-content/uploads/2022/06/VCE-The-Duck-Curve-Mar-31.jpg" background-size="cover"}
+
+## Wind Turbine {background-image="https://www.foe.org.hk/FileUpload/ImageText/c26c86de-2963-4fd0-b573-a814c33f8341.png" background-size="cover"}
+
+## 2. Wind Energy
+
+- **Pros**: 
+  - Clean and renewable energy source
+  - Potential for offshore installations
+- **Cons**:
+  - Limited land availability
+  - High installation and maintenance costs
+  - Potential impact on marine and bird life
+- **Short-term Impact**: 
+  - Diversifies energy sources, reducing reliance on fossil fuels.
+- **Long-term Impact**: 
+  - Offers a steady energy supply if technological and environmental challenges are addressed.
+
+
+## 3. Hydropower
+
+- **Pros**: 
+  - Reliable and consistent energy production
+  - Low greenhouse gas emissions
+- **Cons**:
+  - Environmental impact on aquatic ecosystems
+  - High upfront construction costs
+  - Limited feasibility in Hong Kong due to geography
+- **Short-term Impact**: 
+  - Minimal application in Hong Kong.
+- **Long-term Impact**: 
+  - Not a significant contributor to Hong Kong's energy mix.
+
+## Local Hydropower Plant
+{{< video https://www.youtube.com/embed/sXVeMwZgPLU?si=9r_KMzcTRwrLeu4E width="1600" height="900" >}}
+
+
+##  {background-image="https://www.greenesa.com/uploads/news/1631205661Geothermalenergydetailgreenesa.png" background-size="cover"}
+
+## 4. Geothermal Energy
+
+- **Pros**: 
+  - Consistent and reliable energy source
+  - Low emissions and small land footprint
+- **Cons**:
+  - High initial costs and drilling requirements
+  - Limited to regions with favorable geological conditions
+  - Potential for induced seismic activity
+- **Short-term Impact**: 
+  - Limited applicability in Hong Kong.
+- **Long-term Impact**: 
+  - Not a primary option without significant technological breakthroughs.
+
+## [Local Project](https://re.emsd.gov.hk/english/energy/thermal/ther_re.html) {background-image="https://re.emsd.gov.hk/english/energy/thermal/images/ther_re_01.jpg" background-size="contain"}
+
+## 5. Biomass Energy
+
+- **Pros**: 
+  - Utilizes organic waste materials
+  - Reduces landfill usage
+  - Provides a continuous energy source
+- **Cons**:
+  - Can lead to deforestation if not managed sustainably
+  - Emission of pollutants during combustion
+  - Requires significant land and water resources
+- **Short-term Impact**: 
+  - Aids in waste management while generating energy.
+- **Long-term Impact**: 
+  - Potential contributor to sustainability if implemented with strict environmental controls.
+
+## [Tidal Farm @ CityU](https://www.cityu.edu.hk/see_mer/tidal-Intro.htm) {background-image="https://green.org/wp-content/uploads/2024/01/Tidal-generator-1024x724-1.webp" background-size="contain"}
+
+
+## 6. Tidal and Wave Energy
+
+- **Pros**: 
+  - Predictable energy source
+  - Minimal visual impact
+  - Low operating costs in theory
+- **Cons**:
+  - High installation and maintenance costs
+  - Potential impact on marine ecosystems
+  - Limited to coastal areas with suitable conditions
+- **Short-term Impact**: 
+  - Currently limited due to high costs and technological challenges.
+- **Long-term Impact**: 
+  - Could significantly contribute to renewable energy if costs decrease and technology advances.
+
+
+# Enhanced Case Studies with Key Details
+
+## 1. California's Solar Energy Boom
+
+- **Public Messaging**:  
+  - **Quote/Spread**: *Governor Arnold Schwarzenegger: "<span style="color:red">Our goal is to see solar panels on every rooftop and solar power in every state.</span>"*
+- **Benefit Highlighted**:  
+  - Emphasis on environmental benefits and reduced energy costs.
+- **Adoption**:  
+  - Rapid increase in residential solar installations driven by strong incentives and tax breaks.
+- **Aftermath**:  
+  - Emergence of the Duck Curve, where excess midday energy challenges grid management.
+- **Omitted Nuances**:  
+  - Detailed grid capacity challenges and the need for advanced energy storage solutions.
+
+## 2. Germany's Energiewende
+
+- **Public Messaging**:  
+  - **Quote/Spread**: *Former Chancellor Angela Merkel (paraphrased): "<span style="color:red">The shift to renewable energy is a central project of the future.</span>"*
+- **Benefit Highlighted**:  
+  - Transition from nuclear and fossil fuels to cleaner energy, with broad public support.
+- **Adoption**:  
+  - Heavy investments in wind and solar, making Germany a leader in renewable energy.
+- **Aftermath**:  
+  - Issues with intermittency and higher consumer costs; occasional reliance on fossil fuels during shortfalls.
+- **Omitted Nuances**:  
+  - The complexities of integrating intermittent sources and the need for comprehensive grid modernization.
+
+## 3. Ontario's Green Energy Act
+
+- **Public Messaging**:  
+  - **Quote/Spread**: *Premier Dalton McGuinty: "<span style="color:red">We will create a new industry and thousands of jobs.</span>"*
+- **Benefit Highlighted**:  
+  - Job creation and positioning Ontario as a leader in renewable energy.
+- **Adoption**:  
+  - Rapid expansion in wind and solar energy projects following the act.
+- **Aftermath**:  
+  - Increased electricity prices and grid management issues leading to public backlash and policy re-evaluation.
+- **Omitted Nuances**:  
+  - Detailed cost-benefit analyses and long-term sustainability challenges in grid integration.
+
+<!-- 
+## 4. UK's Wind Energy Push
+
+- **Public Messaging**:  
+  - **Quote/Spread**: *Prime Minister David Cameron (example): "We are making the big six energy companies look at their tariffs and offer the lowest available."*  
+    *(Note: Replace with an exact quote if available.)*
+- **Benefit Highlighted**:  
+  - Emphasis on energy independence and reduced emissions.
+- **Adoption**:  
+  - Significant investment in offshore wind farms and supportive policies.
+- **Aftermath**:  
+  - Concerns regarding intermittency, high operational costs, and the visual impact on landscapes.
+- **Omitted Nuances**:  
+  - Detailed discussions on integration costs and long-term environmental impacts. -->
+
+# Scenario: Bringing It Back to Hong Kong
+
+## Renewable Energy Landscape in Hong Kong
+
+Hong Kong's current renewable energy usage is modest, with the government targeting <span style="color:orangered">**7.5% to 10%**</span> of its electricity from renewables by 2035, and **15%** beyond that. This landscape includes:
+
+## **Solar Energy**:  
+  - **Pros**:  
+    - Utilizes available rooftop and building façade space.
+    - Offers environmental benefits and potential cost savings.
+  - **Cons**:  
+    - Requires significant rooftop space, which is limited.
+    - Variable output due to weather conditions.
+  - **Short-term Impact**:  
+    - Reduction in carbon emissions and potential energy savings.
+  - **Long-term Impact**:  
+    - Increased energy security if grid challenges (storage and integration) are managed.
+
+## **Wind Energy**:  
+  - **Pros**:  
+    - Potential for offshore wind farms using the South China Sea.
+    - Clean energy source that diversifies the energy mix.
+  - **Cons**:  
+    - High installation and maintenance costs.
+    - Limited land availability for onshore installations.
+  - **Short-term Impact**:  
+    - Diversification of energy sources.
+  - **Long-term Impact**:  
+    - Could provide a stable renewable supply if technological and cost challenges are overcome.
+
+## **Waste-to-Energy**:  
+  - **Pros**:  
+    - Addresses waste management issues.
+    - Provides a steady and controllable energy source.
+  - **Cons**:  
+    - High operational costs and potential public opposition due to emissions.
+  - **Short-term Impact**:  
+    - Immediate benefits in waste reduction and energy generation.
+  - **Long-term Impact**:  
+    - Sustainable waste management, assuming strict environmental controls are in place.
+
+## **Other Renewable Options (Hydro, Geothermal, Biomass, Tidal/Wave)**:  
+  - **Application**:  
+    - Limited due to Hong Kong’s geographic constraints.
+  - **Impact**:  
+    - Minimal short-term or long-term contribution compared to solar, wind, and waste-to-energy.
+
+## Places to start considering your position statement
+
+- **Global vs. Local Perspectives**:  
+  - How do the global case studies differ from Hong Kong’s renewable energy potential and challenges?
+  
+- **Understanding Simplified Messaging**:  
+  - What nuances are often omitted in public messaging about renewable energy? Why might these omissions be deliberate, and what are their consequences?
+
+- **Policy and Implementation**:  
+  - Considering Hong Kong’s space and cost constraints, what strategies could the government adopt to enhance renewable energy integration (e.g., technological innovations, grid improvements, energy storage)?
+
+- **Long-Term Vision**:  
+  - How might Hong Kong's energy landscape evolve by 2100 or 2200? What realistic pathways can be envisioned to achieve energy security and sustainability?
+
+
+#
+
+```{=html}
+<style>
+  #groupAssignment_container {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  #groupAssignment_startButton {
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  #groupAssignment_startButton:hover {
+    background-color: #2980b9;
+  }
+  #groupAssignment_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  #groupAssignment_display {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  #groupAssignment_display h2 {
+    color: #2c3e50;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  #groupAssignment_display ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #groupAssignment_display li {
+    margin: 20px 0;
+    font-size: 36px;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  #groupAssignment_closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+</style>
+
+<div id="groupAssignment_container">
+  <h1 style="font-size: 48px; color: #34495e;">Group Assignment Time!</h1>
+  <button id="groupAssignment_startButton">Start the assignment</button>
+</div>
+
+<div id="groupAssignment_overlay">
+  <div id="groupAssignment_display"></div>
+  <button id="groupAssignment_closeButton">Close</button>
+</div>
+
+<script>
+// Create a namespace for our group assignment functionality
+const GroupAssignment = {
+  groups: [
+    'Group One', 'Group Two', 'Group Three', 'Group Four', 
+    'Group Five', 'Group Six', 'Group Seven', 'Group Eight'
+  ],
+  vocations: [
+    'Logistics/Transportation',
+    'Farming/Food Procurement',
+    'Energy and Industry',
+    'Policy-makers/decision makers',
+    'Technology and Innovation',
+    'Service Provider/Essential Workers',
+    'Pro-CC expert',
+    'Anti-CC expert'
+  ],
+
+  shuffleArray: function(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  },
+
+  createAssignment: function() {
+    const shuffledVocations = this.shuffleArray([...this.vocations]);
+    return this.groups.map((group, index) => ({
+      group: group,
+      vocation: shuffledVocations[index]
+    }));
+  },
+
+  displayAssignment: function() {
+    const assignments = this.createAssignment();
+    let html = '<h2>Random Group Assignments</h2><ul>';
+    assignments.forEach(assignment => {
+      html += `<li><strong>${assignment.group}:</strong> ${assignment.vocation}</li>`;
+    });
+    html += '</ul>';
+    document.getElementById('groupAssignment_display').innerHTML = html;
+    document.getElementById('groupAssignment_overlay').style.display = 'flex';
+  },
+
+  init: function() {
+    const startButton = document.getElementById('groupAssignment_startButton');
+    const closeButton = document.getElementById('groupAssignment_closeButton');
+    
+    startButton.addEventListener('click', () => this.displayAssignment());
+    closeButton.addEventListener('click', () => {
+      document.getElementById('groupAssignment_overlay').style.display = 'none';
+    });
+  }
+};
+
+// Initialize the group assignment functionality
+GroupAssignment.init();
+</script>
+```
+
+## Presentation Countdown
+
+<div id="timer-container" style="text-align: center;">
+  <!-- Timer Display -->
+  <div id="timer" style="
+    font-size: 348px;
+    color: black;
+    margin-bottom: 20px;">00:00</div>
+  
+  <!-- Control Buttons -->
+  <button id="start-button" style="
+    font-size: 24px;
+    padding: 20px 40px;
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;">
+    Start Timer
+  </button>
+  <button id="reset-button" style="
+    font-size: 24px;
+    padding: 20px 40px;
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;">
+    Reset Timer
+  </button>
+</div>
+
+<script>
+  let countdownDuration = 300; // 5 minutes
+  let initialDuration = 300; // Store the initial time
+  let timerInterval;
+
+  // Format time as MM:SS
+  function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+  }
+
+  // Update the timer display
+  function updateTimer() {
+    const timerElement = document.getElementById("timer");
+    if (countdownDuration > 0) {
+      countdownDuration--;
+      timerElement.innerText = formatTime(countdownDuration);
+
+      // Change color to red when time is below 60 seconds
+      if (countdownDuration < 60) {
+        timerElement.style.color = "red";
+      } else {
+        timerElement.style.color = "black";
+      }
+    } else {
+      timerElement.innerText = "Time's up!";
+      clearInterval(timerInterval);
+    }
+  }
+
+  // Start the countdown when the button is clicked
+  document.getElementById("start-button").addEventListener("click", function () {
+    clearInterval(timerInterval); // Ensure no duplicate intervals
+    timerInterval = setInterval(updateTimer, 1000);
+
+    // Disable the start button while the timer is running
+    this.disabled = true;
+    this.innerText = "Timer Running...";
+  });
+
+  // Reset the timer when the reset button is clicked
+  document.getElementById("reset-button").addEventListener("click", function () {
+    clearInterval(timerInterval); // Stop the timer
+    countdownDuration = initialDuration; // Reset time to initial value
+
+    // Reset the timer display
+    const timerElement = document.getElementById("timer");
+    timerElement.innerText = formatTime(countdownDuration);
+    timerElement.style.color = "black"; // Reset color to black
+
+    // Re-enable the start button
+    const startButton = document.getElementById("start-button");
+    startButton.disabled = false;
+    startButton.innerText = "Start Timer";
+  });
+</script>
