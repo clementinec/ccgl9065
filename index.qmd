@@ -15,7 +15,11 @@ Prompted by Einstein’s well-known quote that “we cannot solve our problems w
 - Location: **LE2**
 - [Sylalbus](data/CCGL9065_2425.pdf)
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQFI36A-cU3WSl4UEkUltCsnsa71z1F7sPDeBQrflVbeE8I0jQb7YcQOGzWNtVqwps-hACEKLrYm6fA/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQFI36A-cU3WSl4UEkUltCsnsa71z1F7sPDeBQrflVbeE8I0jQb7YcQOGzWNtVqwps-hACEKLrYm6fA/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+
+```{=html}
+<embed src="data/CCGL9065_W1.pdf" width="960" height="569" />
+```
 
 - Starter-kit: [Personal Research Doc on Notion](https://lopsided-impulse-a75.notion.site/CCGL9065-Our-Response-to-Climate-Change-Week-1-Us-vs-the-AI-17bd799d0aaa807ebf77f30ec2831e8f?pvs=4)
 
@@ -24,6 +28,10 @@ Prompted by Einstein’s well-known quote that “we cannot solve our problems w
 - [Week 2](CCGL9065_W2.qmd)
 - [Week 3](CCGL9065_W3.qmd)
 - [Week 4](CCGL9065_W4.qmd)
+- [Week 5](data/W5_Architecture_Cities.pdf)
+
+## Tutorials
+- [Tutorial Primer](data/tut01.qmd)
 
 
 ### Student Works from Prior Offerings
