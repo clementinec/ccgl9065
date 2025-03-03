@@ -1,0 +1,264 @@
+---
+title: "CCGL9065: Our Response to Climate Change: HK2100"
+subtitle: “Democracy “and Capitalism”
+author: Dr. Hongshan Guo and Class
+
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1200
+    preview-links: auto
+    embed-resources: true
+    incremental: true
+    center: true
+  beamer:
+    aspect-ratio: "4:3"
+    slide-size: [800, 600] # This might not directly set dimensions in Beamer, as Beamer uses predefined sizes, but it's a way to suggest desired proportions.
+
+---
+
+## From last: Energy as the source of GHG contributor
+
+Why do we care so much about understanding the role - and the lack thereof - of energy within the scope of understanding energy?
+
+Pro/Cons
+
+- Why is energy so important?
+- Why can we not make do with lesser available energy? 
+- What is causing the transition to pause?
+- Why have we came to this point where most of the energy sources are known to have issues?
+
+# When was it the earliest of all times that humans started to harvest energy?
+
+# CAMPFIRE
+
+## But what about other energy sources and how they came to being?
+- Industrial processes
+- 1st and 2nd Industrial Revolution 
+- Energy & **SURPLUS**:
+	- Source
+	- Transportation
+	- End-User
+	- Importer (Much more complicated)
+- Energy issues arise when put out at scale
+
+<span style="color: red">Surplus exchange fostered market and currency, an aggregated version of which ultimately becomes capital.</span>
+
+## <span style="color: darkorange">What is capital?</span>
+The accumulated wsealth of an individual, company or community, used as a fund for carrying on fresh production; wealth in any form used to help in producing more wealth.
+
+## <span style="color: magenta">What is Capitalism?</span>
+"Capitalism and "Capitalist" are 19th (middle 1800s) Centry Pejoratives.
+
+- enormous productive capacity.
+- always on the edge of being o.ut of control
+
+- attack the existing the economic system
+- not a highly productive system but an <span style="color: red">**unjust stystem**</span>
+
+## Who was this person whose photo was taken by Steichen?
+
+- Does he look warm and fuzzy?
+- What's he holding?
+
+![Do we know who this is?](data/john-pierpont-morgan.jpg){width=400}
+
+## Capitalism is... (per Karl Marx)
+
+- Disease for which scientific socialism is the cure;
+- A method by which to steal the labor of the exploited masses;
+- _A system that undermines every traditionally established way of making a living_; (known trademark of capitalism)
+- <span style="color: red">A system that inevitably undermines its own foundations.</span>
+
+## Capitalism is therefore per current definitions:
+- a name given by its enemies
+- a system relies heaviliy on the private use of capital combined with profit motive founded on self/family interests
+- has hundreds of variations in terms of capitalism system, but the essentials remains unchanged:
+  - private deployment of capital
+  - open acknowledgement of profit as a motive
+  - sympathetic understanding of self or household interests
+  - _tolerance for innovation_: characteristic fact of historical society is resistance to it as a kind of **human nature** to resist fresh innovations.
+
+## Some side readings that I do recommend to take this class (and many more in the near future.)
+
+1. Wealth of Nations (Smith, Bantum Paperback)
+2. Manifesto (Marx)
+3. The Consititution of Liberty (Hayek, market conservative and conservative movement)
+4. Farewell to Alms (Gregory Clarke, capitalism more and better, polemical work written by economist)
+5. The Mystery of Capital (Hernando Desoto, why less developed countries exist in the world: formal and enforceable property rights are precondition to capital devleopment)
+6. A Failure of Capitalism (Posner, Judge, Conservative judge teaching at Chicago law school, no obvious ideological distortion)
+7. The Bottom Billion (Paul Collier, world bank economist, diagnosis and a strategy for using capital development to alleviate most of the world's poverty)
+8. The White Tiger (Fiction, describing the realworld penetrating novel written from the point of view of a very poor, smart and flawed young man in south india. Man booker prize. 2008.)
+
+
+## Quick Overview of Relevant Concepts Known to be tied to climate change
+
+- **Capitalist Realism** (Frederic Jameson):
+	- Capitalism is the only viable economic system and that 
+	- alternatives are unimaginable.
+- **Disaster Capitalism** (Naomi Klein): exploitation of natural 
+disasters and crises for profit.
+- **Surveillance Capitalism** (Shoshana Zuboff): using technology to 
+monitor and control individuals in the name of profit.
+- **Zero Marginal Cost Society** (Jeremy Rifkin): 
+	- hypothetical society 
+	- technology and automation make goods and services virtually free, 
+	- potentially leading to a post-scarcity economy.
+- **Green New Deal**:  
+	- proposed economic plan
+	- aims to transition the economy to become carbon-neutral and environmentally sustainable while
+	- promoting social justice and economic growth. 
+
+## Breaking it down a bit further with possible angles to propose solutions/interventions: 
+
+### The tragedy of the commons: 
+- Prioritize own interests over common goods
+- Individuals and Corporations 
+- New economic system may help, but how?
+
+### The limitations of carbon pricing: price GHGs emissions(aka pay to pollute)
+- usual solution to climate change
+- TLDR explanation: pricing pollution
+- might include: carbon credit (right), carbon tax (all), carbon offset (+/-)
+- government selling right to pollute?
+- moving price target with carbon worsening/improving?
+- carbon-for-trade or carbon-for-profit?
+
+## Continued: The need for a post-growth economy: 
+- Continued growth mindset is unsustainable
+- New economic system that prioritize environmental sustainability with a focus on well-being, equity and sustainability over GDP growth
+
+#### Bhutan's Gross National Happiness
+- Measuring progress through Gross National Happiness Index
+- Emphasize well-being, environmental conervation and cultural preservation
+
+## Collective ownership:
+- Shift from individual ownership to collective models
+- Prioritize community and environmental needs
+
+#### Mondragon Corporation in Spain
+- Corporation and federation of worker cooperative based in Basque region of spain
+- One of the largest cooperatives, owned and operated by workers
+- Emphasize social and community benefits over individual profit
+
+#### Community Land Trusts
+- Nonprofit, community-based orgnization
+- Aim to propvide affordable housing by owning and managing land collectively (e.g. Boston, London)
+
+## Paradigm Shift in Economics
+- Exploration of steady-state and circular economies
+- Long-term sustainability and meeting societal needs
+- Reevaluating values and assumptions in capitalism
+
+#### New Zealand's Wellbeing Budget: 
+- prioritize national well-being over traditional economic measures
+- spending focused on mental health, child poverty, and environmental preservation.
+
+#### Nordic Model: 
+- Scandinavian countries (Sweden, Norway, Denmark, Finland, and Iceland) 
+- free market capitalism + comprehensive welfare state and collective bargaining at national level
+- focusing on social equality and well-being.
+
+
+## Mixed Economy Approach
+
+- Combining capitalism and socialism elements
+- Balancing economic growth with environmental sustainability
+
+#### Germany's Social Market Economy: 
+- A capitalist economic system + a framework of social policies
+- balancing free enterprise with social welfare measures and environmental protection.
+
+#### Singapore's Blend of Capitalism and Social Policies: 
+- competitive and open market policies + strong state intervention 
+- seen effect in housing, healthcare, and public transport to ensure social welfare.
+
+## General Public's Obvious Response
+
+### Public Engagement in Sustainable Solutions
+
+
+#### Understanding Role in a Sustainable Future
+
+- Every action counts  
+- Lead by example  
+- Inspire change in your community
+
+#### Possible Actions to take
+
+- **Community Participation**:  
+  - Join or start local sustainability initiatives  
+  - Engage in community-based conservation projects
+
+- **Educate and Spread Awareness**:  
+  - Share knowledge about sustainability practices  
+  - Encourage friends and family to adopt eco-friendly habits
+
+- **Practice Responsible Consumption**:  
+  - Support ethical and sustainable brands  
+  - Reduce, reuse, recycle in daily life
+
+- **Personal Investment in Sustainability**:  
+  - Use public transportation, bike, or walk when possible  
+  - Grow your own food or support local, sustainable agriculture
+  - Invest in renewable energy and electric vehicles/efficient appliances
+
+# A broader debate between pro-climate change advocates who support <span style="color:red">_dynamic market solutions_</span> and anti-climate change voices who <span style="color:blue">_caution against departures from traditional economic practices_</span>.
+
+## What are the possible negative impact if as a society we switch to a new economy model that turns out to be wrong?
+
+- Economic Slowdown
+- Investment Displacement
+- Innovation Misdirection: innovation encouraged in the _wrong_ sector
+- Increased Cost of Living: carbon tax reflected in day-to-day expenses
+- Energy Insecurity
+- Unintended Environmental Consequences: e.g. promoting biofuels too much leading to deforestation
+- Social and Economic Inequality: Unfair to those without means of transition, exacerbating inequalities
+- Resistance and Backlash
+
+##  Pro-CC Arguments/Solutions for a Resilient HK Economy
+
+- **Innovative Market Solutions**:
+  - Embrace green tech startups and innovations.
+  - Foster a competitive market for renewable energy.
+
+- **Flexible Economic Models**:
+  - Test sustainable business practices and circular economy models.
+  - Encourage investment in green infrastructure and public transport upgrades.
+
+- **Public-Private Partnerships**:
+  - Collaborate on sustainability projects, like smart city initiatives.
+  - Leverage private capital for public good, with government incentives.
+
+- **Policy Reforms for Sustainability**:
+  - Implement progressive environmental regulations that encourage innovation.
+  - Introduce carbon pricing to incentivize low-carbon operations.
+
+- **Community Engagement and Education**:
+  - Increase public awareness campaigns on environmental issues.
+  - Support community-led sustainability initiatives for broader impact.
+
+## Anti-CC Arguments/Solutions for HK's Economy
+
+- **Economic Stability Focus**:
+  - Prioritize economic growth and stability over experimental green policies.
+  - Maintain a business-friendly environment to ensure job security.
+
+- **Proven Strategies Only**:
+  - Rely on established, efficient technologies and practices.
+  - Avoid untested economic models that risk market disruption.
+
+- **Minimal Regulatory Changes**:
+  - Caution against over-regulation that could hinder business operations.
+  - Advocate for voluntary corporate sustainability measures.
+
+- **Cost-Benefit Analysis**:
+  - Evaluate environmental initiatives based on ROI and economic impact.
+  - Ensure environmental policies do not overly burden SMEs.
+
+- **Incremental Improvements**:
+  - Focus on gradual enhancements in energy efficiency and waste management.
+  - Support small-scale, low-risk green initiatives with clear benefits.
+
