@@ -1,0 +1,388 @@
+---
+title: "CCGL9065: Our Response to Climate Change: HK2100"
+subtitle: "Futurologist, Fake News and Histories"
+author: Dr. Hongshan Guo and Class
+
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1200
+    preview-links: auto
+    embed-resources: true
+    incremental: true
+    center: true
+  beamer:
+    aspect-ratio: "4:3"
+    slide-size: [1600, 1200] # This might not directly set dimensions in Beamer, as Beamer uses predefined sizes, but it's a way to suggest desired proportions.
+
+---
+ 
+## 1: Introduction to Futurology
+- **Futurology Defined**: Systematic study of future possibilities.
+- **Diverse Practitioners**: Wide range of contributors.
+  - *Insurance agents*: Assess future risks.
+  - *Artists*: Imagine futuristic concepts.
+- Sci-Fi to life: Arthur C. Clarke's satellite prediction 
+  - Predicted geostationary (on-orbit) satellites in 1945.
+  - Basis for modern communications.
+  - Launch of Syncom (1963)
+
+## 2: Learning from the Past
+- **Historical Patterns**: Guide to forecasting.
+- **Einstein's Insight**: "New thinking for new problems."
+  - Recognizing the need for innovative solutions.
+
+## 3: Multiple Histories
+- **Varied Perspectives**: History's multifaceted nature.
+- **Impact on Worldviews**: Shapes perception of the future.
+  - *Western vs. Eastern narratives*: Different focuses and lessons.
+
+## 4: Alternative Histories
+- **'What Ifs' Exploration**: Examining different historical outcomes.
+  - *Scenario*: If the Library of Alexandria survived.
+    - Potential acceleration of scientific progress.
+- **Influence on Future Thinking**: Alternative pasts lead to diverse futures.
+
+## 5: The Power of Stories
+- **Narratives Influence Expectations**: Stories shape our view of the future.
+- **Choosing Narratives**: Selecting which stories to carry forward.
+  - *Moon Landing*: Symbolizes human achievement and potential.
+
+## Moon Landing
+![Wiki Page on Moon Landing Conspiracy](data/moonlandingcons.png)
+
+## 5.1: Moon Landing Controversy - USA's Perspective
+
+- **Historic Achievement**:
+  - Apollo 11 moon landing in 1969 celebrated as a monumental success.
+  - Symbolized technological and exploratory supremacy.
+
+- **USSR's Skepticism**:
+  - Claims of inconsistencies in moon landing footage and photos.
+  - Allegations of the moon landing being a Cold War propaganda tool.
+
+- **Talking Points**:
+  - USA emphasized transparency, broadcasting the landing live.
+  - Highlighted extensive documentation and astronaut testimonials.
+
+- **Contradictions & Counterclaims**:
+  - Counteracted skepticism with scientific explanations and physical moon rock samples.
+  - Addressed conspiracy theories directly in public discourse.
+
+## 5.2: Moon Landing Controversy - USSR's Perspective
+
+- **Space Race Competition**:
+  - Intense rivalry to achieve significant milestones first.
+  - Propaganda used to highlight Soviet space achievements.
+
+- **Casting Doubt**:
+  - Some Soviet officials and media suggested the moon landing could be fabricated.
+  - Raised questions about the technological feasibility and safety.
+
+- **Talking Points**:
+  - Emphasized Soviet space firsts, like launching the first satellite, Sputnik, and first man in space, Yuri Gagarin.
+  - Questioned the authenticity of NASA's moon landing evidence.
+
+- **Contradictions & Counterclaims**:
+  - Despite public skepticism, some Soviet scientists acknowledged the moon landing's authenticity.
+  - Over time, official stance softened, recognizing the achievement.
+
+## 6: Questioning Historical Accuracy
+- **Reliability Issues**: Recognizing history's subjectivity.
+  - *Revisionist History*: How textbooks can skew perceptions.
+- **Diverse Future Scenarios**: Result from questioning historical accuracy.
+
+## 7: The Influence of Fake Histories
+- **Fiction's Impact**: How fabricated stories can shape collective memory.
+  - *Orson Welles' "War of the Worlds"*:
+    - 1938 radio drama caused public panic.
+    - Demonstrates power of narrative to influence reality.
+- **Critical Thinking**: Importance of discerning fact from fiction.
+
+## 8: Historical Revisionism
+- **Changing Histories**: Continuous reinterpretation of past events.
+  - *Reassessing Legacies*: How views on historical figures evolve.
+    - Shifts in perception about figures like Columbus or Churchill.
+- **Adapting Predictions**: Updating future forecasts with new historical insights.
+
+## 9: Crafting Future Narratives
+- **Imagining Future Stories**: Visioning what tales we'll tell.
+  - *Elon Musk's Mars Plan*: Envisions human settlement on Mars.
+    - Represents ambition, exploration, and potential human resilience.
+- **Narratives' Power**: Today's stories shape tomorrow's realities.
+
+
+## 9.1: Western Media Perspective on the Ukrainian Invasion
+
+- **Aggression Framing**:
+  - Described as an unprovoked act of aggression by Russia against Ukraine's sovereignty.
+  - Emphasis on international law violations.
+
+- **Global Response**:
+  - Coverage of widespread international condemnation and sanctions against Russia.
+  - Support for Ukraine highlighted, including aid and refugee assistance.
+
+- **Humanitarian Focus**:
+  - Reports on the humanitarian crisis, including civilian casualties and displacement.
+  - Stories of Ukrainian resilience and resistance.
+
+- **Critiques of Russian Narrative**:
+  - Questioning of Russian motives and justifications for the invasion.
+  - Examination of the impact on global stability and European security.
+
+## 9.2: Russian-Friendly Media Perspective on the Ukrainian Invasion
+
+- **Security Concerns**:
+  - Framing the action as a response to security threats and NATO's eastward expansion.
+  - Emphasis on protecting Russian-speaking populations in Ukraine.
+
+- **Historical Context**:
+  - References to historical ties between Russia and Ukraine to justify intervention.
+  - Portrayal of the action as reclamation or unification, not invasion.
+
+- **Western Influence**:
+  - Accusations of Western meddling in Ukrainian affairs and provoking conflict.
+  - Critique of Western sanctions as unjust and harmful to global relations.
+
+- **Narrative Control**:
+  - Attempts to control the narrative through state media and censorship of dissenting views.
+  - Dismissal of Western reports as biased or fake news.
+
+## 10: Embracing Complexity in Futurology
+- **Forecasting Complexity**: The multifaceted nature of predicting the future.
+- **Informed Approaches**: Leveraging a nuanced understanding of history.
+  - *Butterfly Effect*: Small changes can lead to significant consequences.
+    - Understanding chaos theory's implications for prediction.
+
+## 11: Known Historical Discrepancies of Climate-Change Related Stories
+
+## Mideval Warm Period
+
+![Mideval Warm Period (Wikipedia)](data/MWP.png)
+
+## 11.1: **Medieval Warm Period (MWP) Debate**:
+
+  - **Controversy**: 
+    The MWP refers to a time from about 950 to 1250 AD when temperatures were thought to be **unusually warm** in some regions of the North Atlantic. The debate centers around the extent, timing, and global impact of the MWP.
+  - **Differing Interpretations**: 
+    - Some climate change skeptics have used the MWP to argue that _current global warming is part of a natural climate variability._
+    - In contrast, the majority of climate scientists contend that current warming is __unprecedented and largely anthropogenic__.
+  - **Impact on Climate Change Discourse**: 
+    The controversy has fueled discussions about the reliability of climate models and historical climate data reconstructions.
+
+## Climate-Change as Fake, News from Trump's Claim
+
+> “The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.”  
+> *(Trump, Tweet, 2012)*
+
+:::{.notes}
+
+**Critical Assessment (Speaker Notes):**  
+Encourage students to verify statements through reputable, science-based historical timelines and scholarly publications, demonstrating that conspiracy claims typically lack credible sources.
+:::
+
+---
+
+### Explanation & Fact-check
+
+**Explanation:**  
+This is a conspiracy theory claiming climate change was intentionally fabricated by China to damage U.S. economic interests, without scientific or historical basis.
+
+**Fact-check:**  
+Climate science dates back to the late 19th century, long before contemporary Chinese economic policies. It’s supported by NASA, NOAA, and the IPCC.
+
+---
+
+## Climate-Change as Fake, News from Trump's Claim, Case Two
+
+> “It used to not be climate change, it used to be global warming… That wasn’t working too well because it was getting too cold all over the place.”  
+> *(Trump, Interview with Piers Morgan, 2018)*
+
+:::{.notes}
+
+**Critical Assessment (Speaker Notes):**  
+Educate students on the difference between short-term weather (variable) and climate (long-term averages and trends) to prevent conflating temporary phenomena with overall climate patterns.
+:::
+---
+
+### Explanation & Fact-check
+
+**Explanation:**  
+Trump confuses short-term weather variations with the long-term trend of climate change.
+
+**Fact-check:**  
+Global temperatures have consistently risen over decades (NASA/IPCC). Terminology shifted to "climate change" reflecting broader impacts.
+
+---
+
+## Hocky Stick Graph 
+
+![Hocky Stick Graph (Wikipedia)](data/hockey.jpg)
+
+## 11.2: **Hockey Stick Graph Controversy**:
+
+  - **Controversy**: 
+    - The "hockey stick graph," first published by Michael Mann and colleagues in the late 1990s, showed a sharp rise in global temperatures in the 20th century after a long period of relative stability, resembling a hockey stick. 
+    - Critics questioned the data sources, methodologies, and statistical techniques used to create the graph.
+  - **Differing Interpretations**: 
+    - Skeptics used the controversy to challenge the consensus on anthropogenic global warming,  
+    - numerous scientific bodies and researchers have since reaffirmed the graph's general conclusion about significant recent warming.
+  - **Impact on Climate Change Discourse**: The controversy highlighted the challenges of paleoclimate reconstruction and the politicization of climate science.
+
+## Climategate
+![Climate Gate Snippet](https://i.ytimg.com/vi/P70SlEqX7oY/maxresdefault.jpg)
+
+## 11.3: **Climategate Email Controversy**:
+    
+  - **Controversy**: 
+    - In 2009, a significant number of emails and documents were leaked from the University of East Anglia's Climatic Research Unit (CRU). 
+    - Critics alleged that the emails showed scientists discussing _ways to manipulate data and suppress dissenting views_.
+  - **Differing Interpretations**: 
+    - Climate change skeptics claimed the emails proved scientific misconduct and conspiracy among climate scientists. 
+    - However, several independent investigations cleared the scientists of wrongdoing, concluding that the emails were taken out of context.
+  - **Impact on Climate Change Discourse**: 
+    "Climategate" fueled public skepticism about climate science and the integrity of climate researchers, despite the lack of evidence for scientific fraud.
+
+## Climate-Change as Fake, News from Trump's Claim, Case Three
+
+> “The ocean is going to rise by 1/100th of an inch over 400 years. That's not our problem.”  
+> *(Trump, Rally, December 2015)*
+
+:::{.notes}
+
+**Critical Assessment (Speaker Notes):**  
+Guide students in consulting current scientific models and official reports, emphasizing reliance on measured data rather than anecdotal claims.
+:::
+
+---
+
+### Explanation & Fact-check
+
+**Explanation:**  
+Trump significantly understates sea-level rise projections and the associated risks.
+
+**Fact-check:**  
+IPCC projects global sea levels could rise approximately 0.3–1.1 meters by 2100, causing severe impacts on coastal communities.
+
+
+## 12.1 Enhancing Perspectives
+### What We Are Doing:
+
+  - Engaging in a role-play activity that simulates a debate around the theme of Decolonizing Ocean Science within the Hong Kong context.
+  - You will assume roles advocating for “pro-climate-change” (Pro-CC) policies and anti-climate-change (Anti-CC) viewpoints, as well as various stakeholder positions.
+
+### Why We Are Doing It:
+  - To explore diverse perspectives on complex issues that intersects futurologists, fake news, and power of narratives in face of historical accounts.
+  - To understand the implications of policy decisions and scientific practices on different communities and the environment.
+  - **To foster empathy and critical thinking** by stepping into the shoes of various stakeholders affected by these issues.
+
+## 12.2 Enhancing Perspectives (Continued)
+### How does these activities help:
+  - They highlights the nuances in the climate change debate on various issues - angles of historical accounts that can/may be contradictory for this week. 
+  - Encouraging informed discussions on how traditional and scientific knowledge can complement each other in addressing pressing environmental challenges.
+
+###  Our Classroom Environment:
+  - This is a **safe space** for exploration and discussion. 
+  - There are no wrong answers here, only opportunities to learn and understand different viewpoints.
+  - Respect and open-mindedness are our guiding principles. Every opinion shared is valued and contributes to our collective learning.
+  - Feedback and reflection are encouraged. This is a chance to voice thoughts, ask questions, and grow from the experience.
+
+## [Let's Assign Groups Again](countdown.qmd)
+
+## Group Discussion Reform: Climate Change Persona Discussion (10 min)
+
+1. **Introductions**  
+   - Briefly introduce your persona:
+     - Name, occupation, or role in society.
+     - One sentence on how climate change directly impacts your persona.
+
+2. **Round-table: Share Key Insights**  
+   - Identify one major climate issue your persona is most concerned about and explain it to others
+    - Explain briefly how this issue directly affects your group or personal priorities
+
+3. **Converse more**  
+   - Engage with others by asking at least one question to another persona about their views or challenges related to climate change.
+   - Respond openly, staying true to your persona’s motivations, beliefs, and professional interests.
+   - Any common grounds you could identify? Any persona from the group has a better point?
+   - Acknowledge the different perspectives in a respectable manner and decide on your champions!
+
+
+## Extra: Perspective Cheatsheets
+
+
+## Ex.1: Pro-CC Policy Suggestions
+
+- **Aggressive Emission Reductions**:
+  - Implement strict carbon caps.
+  - Incentivize renewable energy adoption.
+
+- **Sustainable Infrastructure**:
+  - Invest in green public transport.
+  - Retrofit buildings for energy efficiency.
+
+- **Conservation Efforts**:
+  - Expand protected natural areas.
+  - Promote biodiversity restoration projects.
+
+- **Green Innovation**:
+  - Fund research in sustainable technologies.
+  - Support startups with green solutions.
+
+- **Global Cooperation**:
+  - Strengthen international climate agreements.
+  - Provide aid for vulnerable countries' climate resilience.
+
+## Ex.2: Anti-CC Policy Stances
+
+- **Economic Growth Focus**:
+  - Prioritize policies that ensure economic stability.
+  - Balance environmental regulations with business interests.
+
+- **Energy Independence**:
+  - Support a diverse energy portfolio, including fossil fuels.
+  - Invest in clean coal and natural gas technologies.
+
+- **Market-Driven Solutions**:
+  - Encourage voluntary corporate sustainability initiatives.
+  - Leverage market forces to drive environmental innovation.
+
+- **Adaptation Strategies**:
+  - Focus on adapting infrastructure to withstand climate impacts.
+  - Invest in flood defenses and drought-resistant agriculture.
+
+- **Regulatory Caution**:
+  - Avoid over-regulation that could hinder industrial competitiveness.
+  - Implement flexible policies that allow for business innovation.
+
+
+## Ex.3 General Public Engagement and Response to Climate Challenges and Misinformation
+
+- **Logistics Professionals**:
+  - **Sustainable Practices**: Adopt green logistics and transportation methods.
+  - **Fact-Checking**: Verify sources when addressing climate-related logistics issues.
+
+- **Policymakers/Bureaucrats**:
+  - **Informed Policy Making**: Base policies on scientific evidence and consensus.
+  - **Public Education**: Lead initiatives to educate the public on climate facts vs. misinformation.
+
+- **Light Workers (Community and Social Workers)**:
+  - **Community Resilience**: Support community-led climate resilience and adaptation projects.
+  - **Misinformation Awareness**: Organize workshops to improve media literacy on climate topics.
+
+- **Essential Workers**:
+  - **Workplace Sustainability**: Advocate for sustainable practices in essential services sectors.
+  - **Critical Engagement**: Question and verify climate information related to their fields.
+
+## Ex.3 (Continued)
+
+- **Farmers**:
+  - **Climate-Smart Agriculture**: Implement and share practices that increase resilience to climate change.
+  - **Local Knowledge Sharing**: Counter misinformation by sharing local, evidence-based agricultural successes.
+
+### General Strategies for All:
+  - **Critical Consumption of Information**: Practice critical thinking and verify information through reputable sources.
+  - **Community Dialogue**: Engage in open discussions to address climate change misinformation.
+  - **Advocacy and Activism**: Support and participate in campaigns that advocate for truthful, science-based climate communication.
+

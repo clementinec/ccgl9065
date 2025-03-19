@@ -1,0 +1,251 @@
+---
+title: "Presentation Countdown and Group Assignments"
+subtitle: "Futurologist, Fake News and Histories"
+author: Dr. Hongshan Guo and Class
+
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1200
+    preview-links: auto
+    embed-resources: true
+    incremental: true
+    center: true
+
+---
+#
+
+```{=html}
+<style>
+  #groupAssignment_container {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  #groupAssignment_startButton {
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  #groupAssignment_startButton:hover {
+    background-color: #2980b9;
+  }
+  #groupAssignment_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  #groupAssignment_display {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  #groupAssignment_display h2 {
+    color: #2c3e50;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  #groupAssignment_display ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #groupAssignment_display li {
+    margin: 20px 0;
+    font-size: 36px;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  #groupAssignment_closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+</style>
+
+<div id="groupAssignment_container">
+  <h1 style="font-size: 48px; color: #34495e;">Group Assignment Time!</h1>
+  <button id="groupAssignment_startButton">Start the assignment</button>
+</div>
+
+<div id="groupAssignment_overlay">
+  <div id="groupAssignment_display"></div>
+  <button id="groupAssignment_closeButton">Close</button>
+</div>
+
+<script>
+// Create a namespace for our group assignment functionality
+const GroupAssignment = {
+  groups: [
+    'Group One', 'Group Two', 'Group Three', 'Group Four', 
+    'Group Five', 'Group Six', 'Group Seven', 'Group Eight'
+  ],
+  vocations: [
+    'Logistics/Transportation',
+    'Farming/Food Procurement',
+    'Energy and Industry',
+    'Policy-makers/decision makers',
+    'Technology and Innovation',
+    'Service Provider/Essential Workers',
+    'Pro-CC expert',
+    'Anti-CC expert'
+  ],
+
+  shuffleArray: function(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  },
+
+  createAssignment: function() {
+    const shuffledVocations = this.shuffleArray([...this.vocations]);
+    return this.groups.map((group, index) => ({
+      group: group,
+      vocation: shuffledVocations[index]
+    }));
+  },
+
+  displayAssignment: function() {
+    const assignments = this.createAssignment();
+    let html = '<h2>Random Group Assignments</h2><ul>';
+    assignments.forEach(assignment => {
+      html += `<li><strong>${assignment.group}:</strong> ${assignment.vocation}</li>`;
+    });
+    html += '</ul>';
+    document.getElementById('groupAssignment_display').innerHTML = html;
+    document.getElementById('groupAssignment_overlay').style.display = 'flex';
+  },
+
+  init: function() {
+    const startButton = document.getElementById('groupAssignment_startButton');
+    const closeButton = document.getElementById('groupAssignment_closeButton');
+    
+    startButton.addEventListener('click', () => this.displayAssignment());
+    closeButton.addEventListener('click', () => {
+      document.getElementById('groupAssignment_overlay').style.display = 'none';
+    });
+  }
+};
+
+// Initialize the group assignment functionality
+GroupAssignment.init();
+</script>
+```
+
+## Presentation Countdown
+
+<div id="timer-container" style="text-align: center;">
+  <!-- Timer Display -->
+  <div id="timer" style="
+    font-size: 348px;
+    color: black;
+    margin-bottom: 20px;">00:00</div>
+  
+  <!-- Control Buttons -->
+  <button id="start-button" style="
+    font-size: 24px;
+    padding: 20px 40px;
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;">
+    Start Timer
+  </button>
+  <button id="reset-button" style="
+    font-size: 24px;
+    padding: 20px 40px;
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;">
+    Reset Timer
+  </button>
+</div>
+
+<script>
+  let countdownDuration = 300; // 5 minutes
+  let initialDuration = 300; // Store the initial time
+  let timerInterval;
+
+  // Format time as MM:SS
+  function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+  }
+
+  // Update the timer display
+  function updateTimer() {
+    const timerElement = document.getElementById("timer");
+    if (countdownDuration > 0) {
+      countdownDuration--;
+      timerElement.innerText = formatTime(countdownDuration);
+
+      // Change color to red when time is below 60 seconds
+      if (countdownDuration < 60) {
+        timerElement.style.color = "red";
+      } else {
+        timerElement.style.color = "black";
+      }
+    } else {
+      timerElement.innerText = "Time's up!";
+      clearInterval(timerInterval);
+    }
+  }
+
+  // Start the countdown when the button is clicked
+  document.getElementById("start-button").addEventListener("click", function () {
+    clearInterval(timerInterval); // Ensure no duplicate intervals
+    timerInterval = setInterval(updateTimer, 1000);
+
+    // Disable the start button while the timer is running
+    this.disabled = true;
+    this.innerText = "Timer Running...";
+  });
+
+  // Reset the timer when the reset button is clicked
+  document.getElementById("reset-button").addEventListener("click", function () {
+    clearInterval(timerInterval); // Stop the timer
+    countdownDuration = initialDuration; // Reset time to initial value
+
+    // Reset the timer display
+    const timerElement = document.getElementById("timer");
+    timerElement.innerText = formatTime(countdownDuration);
+    timerElement.style.color = "black"; // Reset color to black
+
+    // Re-enable the start button
+    const startButton = document.getElementById("start-button");
+    startButton.disabled = false;
+    startButton.innerText = "Start Timer";
+  });
+</script>
