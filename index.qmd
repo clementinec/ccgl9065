@@ -31,10 +31,11 @@ Prompted by Einstein’s well-known quote that “we cannot solve our problems w
 - [Week 5](data/W5_Architecture_Cities.pdf)
 - [Week 6](CCGL9065_W6.qmd)
 - [Week 7](CCGL9065_W7.qmd)
+- [Week 8](data/W8.pdf)
 
 ## Tutorials
 - [Tutorial Primer](data/tut01.qmd)
-
+- [Roadmap to Portfolio](/data/ccg)
 
 ### Student Works from Prior Offerings
 
