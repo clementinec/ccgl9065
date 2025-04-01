@@ -33,6 +33,7 @@ Prompted by Einstein’s well-known quote that “we cannot solve our problems w
 - [Week 7](CCGL9065_W7.qmd)
 - [Week 8](data/W8.pdf)
 - [Week 9](W9.qmd)
+
 ## Tutorials
 - [Tutorial Primer](data/tut01.qmd)
 - [Roadmap to Portfolio](/data/ccgl_portfolio.pdf)
