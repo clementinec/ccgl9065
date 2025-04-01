@@ -1,0 +1,360 @@
+---
+title: "Our Response to Climate Change: HK2100"
+subtitle: "The (Climate) Refugee Crisis"
+author: Hongshan Guo
+format: 
+  revealjs:
+    slide-level: 2
+    center: true
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1350
+    preview-links: auto
+    embed-resources: true
+    incremental: false
+    
+---
+## 0: Logistics on Final Assessment Items: Quick Q&A
+
+- Q: What topic should I pick? From wi ?thin or outside of the in-lecture ones? Can I have one consistent theme across all three items? Can I have multiple topics covered in one assessment item?
+  - A: Up to you.
+- Q: What should the final reflection paper be upon?
+  - A: What you think should be **our response to Climate Change at Hong Kong for 2100**.
+- Q: Can we see some collage/video examples?
+  - A: Refer to the 'Roadmap' document.
+- Q: How do I make videos? Any templates that can be leveraged?
+  - A: The quality of message delivery is valued above the quality of the video itself, i.e. script is more important than your visuals.
+  - Examples that might make the video-making easier for you:
+    - Voice-over on still images with some/no background music.
+    - Clips from documentaries/movies/promotional videos stitched together by slogans & scripts.
+  
+
+## 1: Introduction to Climate Refugees
+
+- **Definition of Climate Refugees**:
+  - Individuals or groups compelled to leave their habitual areas due to drastic changes in their environment directly attributed to climate change.
+  - Factors contributing to displacement:
+    - environmental degradation, escalating sea levels, and extreme weather phenomena.
+
+- **Known Environmental Catalysts**:
+  - **Environmental Degradation**: Land erosion and loss of arable land, as seen in the Sahel region of Africa, leading to decreased food security.
+  - **Sea-Level Rise**: Low-lying island nations like Kiribati facing existential threats, with some communities already relocating.
+  - **Extreme Weather**: Increasing frequency and severity of hurricanes and typhoons, such as Hurricane Maria in Puerto Rico, displacing thousands.
+
+## 1.1 Introduction to Climate Refugees (Conti'd)
+
+- **Global Statistics**:
+  - As of 2020, the UNHCR reports over 80 million forcibly displaced people worldwide, a number that includes refugees, internally displaced persons, and asylum-seekers.
+  - Projections suggest a dramatic increase in climate refugees, potentially reaching 1.2 billion by 2050 due to intensifying climate impacts.
+
+- **Scope of Discussion**:
+  - The issue sits at the crossroads of climate change science, migration policies, and socio-political dynamics, necessitating a multidisciplinary approach to solutions.
+  - Local Perspectives: Coastal cities like Jakarta facing subsidence and flooding, amplifying urban migration pressures. _What does this mean for HK?_
+  - Global Perspectives: The Arctic's indigenous communities witnessing rapid environmental changes, affecting traditional lifestyles and leading to relocation.
+
+
+##  2: Climate Change and Displacement Drivers
+
+- **Direct Environmental Impacts**:
+  - **Desertification**: 
+    - desert landscapes expansion, e.g. encroachment of the Sahara Desert 
+    - diminishing arable land and affecting agricultural livelihoods.
+  - **Glacial Melt**: Regions dependent on glacial water sources like Andes, facing water scarcity as glaciers recede.
+  - **<span style="color:red">Rising Sea Levels</span>**: The gradual inundation of coastal areas, exemplified by the gradual submergence of parts of Bangladesh, displacing communities.
+
+- **Socio-economic Consequences**:
+  - **Agricultural Disruption**: 
+    - Changing rainfall patterns and droughts, e.g. East Africa
+    - impacting food production and livelihoods.
+  - **Economic Instability**: 
+    - loss of homes and infrastructure, as seen in the aftermath of Typhoon Haiyan in the Philippines
+    - economic downturns and displacement.
+  - **Resource Competition**: Scarcity of water and other vital resources.
+
+- **Conflict and Destabilization**:
+  - **Resource Conflicts**: Competition over dwindling natural resources, like water in the Middle East
+  - **Climate-Induced Migration and Conflict**: Movements of populations clashes with existing communities over resources.
+  - **Destabilization and Displacement**: where climate stressors contribute to political instability, e.g. Syria
+
+##  3: The Concept of Climate Refugees
+
+- **Legal and Conceptual Challenges**:
+  - **Non-recognition in International Law**: Not recognized in the 1951 Refugee Convention, legal gap.
+  - **Definitional Ambiguities**: lines between voluntary and forced migration blurred, complicating legal definitions.
+
+- **Human Rights and Ethical Considerations**:
+  - **Right to a Safe Environment**: 
+    - Recognition that safe and stable environment as a fundamental human right
+    - in line with discussions around the _UN's Human Rights Council_.
+  - **Protection Gaps**: Identifying the need for international frameworks that specifically address and protect individuals displaced by environmental changes.
+
+- **Emerging Debates and Solutions**:
+  - **Expanding Legal Definitions**: Amending existing conventions or creating new frameworks to include climate refugees, e.g. Global Compact on Refugees.
+  - **National and Regional Policies**
+  - **Ethical Imperatives**: The moral obligation of the international community, especially high-emitters.
+
+
+##  4: Global Projections and Trends
+
+- **Rising Numbers of Climate Refugees**:
+  - Projections suggest escalating displacement, with climate change as a key driver.
+  - World Bank's "Groundswell" report predicts up to 216 million people could be displaced by 2050:
+    - 86 million in Sub-Saharan Africa, 
+    - 49 million in East Asia & Pacific, 
+    - 40 million in South Asian and 
+    - 38 million in North & Latin America due to climate impacts.
+  - Provided policy recommendations:
+    - Reducing global emissions and making every effort to meet the temperature goals of the Paris Agreement.
+    - Embedding internal climate migration in far-sighted green, resilient, and inclusive development planning.
+    - Preparing for each phase of migration, so that internal climate migration as an adaptation strategy can result in positive development outcomes.
+    - Investing in better understanding of the drivers of internal climate migration to inform well-targeted policies.
+
+## Slide 4.1: Hotspots of Global Projections
+- **Geographical Hotspots**:
+  - **Sub-Saharan Africa**: 
+    - Vulnerable due to a combination of high exposure to climate impacts and low adaptive capacity. 
+    - Countries like Nigeria and Sudan are already witnessing internal displacement due to desertification and flooding.
+  - **South Asia**: 
+    - Densely populated regions, including coastal areas of India and Bangladesh
+    - at significant risk from cyclones, flooding, and sea-level rise
+  - **Small Island Developing States (SIDS)**: 
+    - Nations such as Fiji, Maldives, and Tuvalu face existential threats from sea-level rise
+
+- **Impact on Urbanization**:
+  - **Migration to Cities**: e.g. Dhaka (Bangladesh) 
+    - Larger cities experiencing significant influxes of climate migrants
+    - exacerbating urban challenges such as housing and infrastructure.
+  - **Urban Vulnerability**: e.g. Miami and Jakarta
+    - Coastal cities' own climate risks + sea-level rise and flooding, 
+    - interplay between migration and urban resilience.
+
+##  5: Socio-economic Impacts of Climate Migration
+
+- **Effects on Origin Communities**:
+  - **Economic Strains**: 
+    - Agricultural productivity lost in rural areas can lead to reduced incomes and increased poverty
+    - e.g. Ethiopian communities affected by recurring droughts.
+  - **Demographic Shifts**: 
+    - The out-migration of working-age individuals leaves behind an aging population, 
+    - social fabric and community support systems changed
+    - parts of rural Latin America/northeastern China.
+
+- **Challenges for Host Communities**:
+  - **Resource Pressure**: 
+    - Influxes of migrants can strain local resources and services
+    - evident in cities like Beirut as significant population increase due to refugees from neighboring conflict zones.
+  - **Integration and Social Cohesion**: 
+    - integrating migrants into new communities while maintaining social cohesion
+    - asylum crisis and social welfare: Murder of Marrisa Shen (2017)
+
+## 5.1 Socio-economic Impacts of Climate Migration (Cont'd)
+
+- **Global Inequality Dynamics**:
+  - **Disproportionate Impacts**: 
+    - Paradox that smallest emitters are usually the most impacted by climate change.
+    - exacerbating global inequalities.
+    
+  - **Adaptation and Mitigation Disparities**: 
+    - Wealthier nations' moral responsibility
+    - better equipped with resources for adaptation and mitigation
+    - need for equitable climate finance mechanisms, as discussed at UNFCCC COP meetings.
+
+##  6: Case Study: Venice - Sinking City and Rising Waters
+
+- **Venice's Unique Vulnerability**:
+  - cultural and historical heritage at risk due to climate change.
+  - experiences regular flooding, known as "Acqua Alta": sea-level rise & sinking foundations.
+  - Engineering interventions like the MOSE project (Modulo Sperimentale Elettromeccanico), a system of mobile barriers designed to protect Venice from flooding, underscore the complex interplay between human ingenuity and natural forces.
+  {{<video https://www.youtube.com/watch?v=MFrZLbjlrRY >}}
+
+##  7: Case Study: Japan - Earthquakes, Typhoons, and Sea-Level Rise
+
+- **Japan's Compound Risks**:
+  - geographical location makes it prone to natural disasters like earthquakes, tsunamis, and typhoons
+  - being intensified by climate change effects
+  - earthquake often followed by tsunami as tectonic plates movement allows large amounts of water at seabed displaced and amplified by Japanese coastal lines
+  - Historical events like the 2011 Tōhoku earthquake and tsunami highlight the catastrophic potential of these natural disasters.
+  - 2024 Noto earthquake.
+
+- **Adaptive Strategies and Resilience**:
+  - Japan's comprehensive disaster risk management strategies
+  - advanced early warning systems and stringent building codes,
+  - combining technology, policy, and community preparedness to enhance resilience against climate-induced disasters.
+
+
+##  8: The Role of Developed Countries
+
+- **Historical Carbon Emissions**:
+  - **Cumulative Contributions**: 
+    - ID the biggest emitters (historically)
+    - e.g. The U.S. and the EU
+      - among the highest CO2 emitters over the past century
+      - their contribution to climate changes disproportionately affect less developed regions.
+
+- **Responsibility and Aid**:
+  - **Climate Finance**: Green Climate Fund for developing countries
+  - **Technology Transfer**: access to green technologies for developing countries to avoid the high-emitting path.
+
+- **Policy and Advocacy**:
+  - **International Agreements**: the Paris Agreement
+  - **Advocacy for Climate Refugees**: platforms like UNHCR (United Nations High Commissioner for Refugees).
+
+##  9: Nationalism and Border Policies
+
+- **Tightening Borders**:
+  - **Physical Barriers**: U.S.-Mexico border aiming at controlling immigration
+  - **Policy Shifts**: stricter immigration policy in response to rising nationalism.
+  - **Political Rhetoric**: 
+    - framing migrants as a security threat
+  
+- **Balancing Acts**:
+  - **Security vs. Humanitarianism**
+  - **International Collaboration**: cooperative approaches to migration
+    - can they respect national sovereignty while 
+    - addressing global humanitarian responsibilities.
+
+##  10: Urban Challenges and Opportunities
+
+- **Migration Magnets**:
+  - **Economic Attraction**: Cities often attract climate migrants seeking employment and better living conditions, exacerbating urban sprawl and slum development.
+  - **Infrastructure Strain**: Rapid urbanization challenges city planners to provide adequate housing, utilities, and services, as seen in mega-cities like Lagos and Dhaka.
+
+- **Adaptive Urban Planning**:
+  - **Resilient Infrastructure**: Developing flood defenses, green spaces, and sustainable transportation to make cities more resilient to climate impacts and migration influxes.
+  - **Inclusive Policies**: Implementing policies that ensure climate migrants have access to employment, healthcare, and education, fostering social cohesion.
+
+- **Innovation Hubs**:
+  - **Creative Solutions**: Cities as testbeds for innovative solutions
+    - smart infrastructure
+    - community-based resilience projects.
+  - **Public-Private Partnerships**:
+    - collaborations between city governments, businesses, and NGOs
+    - address the multifaceted challenges posed by climate migration.
+
+##  11: Economic Implications of Climate Migration
+
+- **Labor Market Dynamics**:
+  - **Job Competition**: 
+    - Potential for increased competition for jobs in host regions
+    - particularly in low-skill sectors, can lead to social tensions.
+  - **Skills Integration**: 
+    - Opportunities to harness the diverse skills and perspectives of migrants can drive innovation and
+    - filling critical labor gaps in sectors like _technology and healthcare_.
+
+- **Contribution to Host Economies**:
+  - **Entrepreneurship**: 
+    - economic diversity through entrepreneurship
+    - e.g. migrant-led startups revitalizing local economies.
+  - **Cultural Exchange**: new cultures and ideas into host that improves social frabric
+
+- **Remittance Flows**:
+  - **Economic Support**: Remittances sent by climate migrants back to their home
+  - **Investment in Resilience**: funds directed towards climate adaptation measures 
+
+
+# HK Context
+
+![](povertyrate_hk.png)
+
+## 12.1: Climate Refugees - The Hong Kong Context
+
+- **Geographical Vulnerability**:
+  - susceptible to rising sea levels and extreme weather events
+  - risks to its dense population and infrastructure.
+  - Typhoon Mangkhut in 2018 showcased the city's vulnerability to severe weather
+    - significant damage and 
+    - raising concerns about future climate resilience.
+
+- **Socio-economic Challenges**:
+  - stark income inequality
+  - significant portion of the population living in poverty
+  - could be exacerbated by climate-related disruptions.
+  - The high concentration of millionaires juxtaposed with a poverty rate of 23.6% presents unique challenges
+
+- **Refugee and Asylum Seeker Policies**:
+  - city currently hosts about 13,000 asylum seekers and refugees
+  - one of the world's most unaffordable real estate markets
+  - Policy Stance: non-refoulement policy offers protection
+  - no path to permanent residency, aka no long-term stability of refugees and asylum seekers.
+
+## 12.2 Climate Refugee in Hong Kong (Cont'd)
+
+- **Adaptation and Resilience Strategies**:
+  - Urban Planning: Enhance flood defenses and climate-proof infrastructures
+  - Community Support: 
+    - Strengthening social services and 
+    - support networks for low-income and displaced individuals to mitigate the socio-economic impacts of climate events.
+
+- **Role in Global Dialogue**:
+  - HK has potential to influence global climate finance and 
+  - support climate refugees through policy advocacy and international collaboration.
+  - Engaging in regional cooperation mechanisms within Asia to 
+    - address climate-induced displacement collectively, 
+    - sharing resources, and best practices.
+
+
+
+## 13.1 Progressive (Pro-Climate Change Action) Responses:
+
+1. **Urban Resilience and Infrastructure**:
+   - **Expert/KOL**: "To combat rising sea levels threatening Hong Kong's coastal areas, we must invest in resilient infrastructure, such as enhanced flood barriers and sustainable urban planning, to protect vulnerable communities."
+   - **General Public (Engineer/Urban Planner)**: "In our projects, considering climate resilience is no longer optional; it's a necessity to safeguard our city's future."
+
+2. **Renewable Energy Transition**:
+   - **Expert/KOL**: "Hong Kong's reliance on fossil fuels not only contributes to global emissions but also puts our city at risk. Transitioning to renewable energy sources can reduce our carbon footprint and lead to a cleaner, sustainable future."
+   - **General Public (Energy Sector Professional)**: "Exploring renewable energy options, like solar panels on our buildings, could significantly reduce our reliance on imported fossil fuels."
+
+3. **Community and Policy Engagement**:
+   - **Expert/KOL**: "Policymakers in Hong Kong must listen to scientific consensus on climate change and enact policies that prioritize sustainability and support for climate refugees."
+   - **General Public (Educator/Activist)**: "Educating our students and communities about climate change and advocating for sustainable practices is crucial for driving policy change."
+
+## 13.2 Conservative (Skeptical of Climate Change Action) Responses:
+
+1. **Economic Implications**:
+   - **Expert/KOL**: "While we recognize the need for environmental conservation, we must also consider the economic impact. Sudden shifts in policy could disrupt Hong Kong's economy, affecting jobs and livelihoods."
+   - **General Public (Business Owner)**: "Adopting green practices is important, but we need to balance this with the economic realities of running a business in one of the world's most competitive markets."
+
+2. **Technological Innovation and Adaptation**:
+   - **Expert/KOL**: "Rather than drastic policy changes, we should invest in technological innovations that allow us to adapt to changing climates while maintaining economic growth."
+   - **General Public (Tech Professional)**: "Innovations in technology can offer solutions to climate challenges without the need for overbearing regulations that stifle economic activity."
+
+3. **Questioning Climate Refugee Projections**:
+   - **Expert/KOL**: "The projections of climate refugees are based on models with various assumptions. We need to critically assess these predictions and consider more balanced approaches to urban planning and development."
+   <!-- - **General Public (Analyst/Researcher)**: "It's essential to scrutinize data and projections about climate refugees to ensure our responses are proportionate and based on reliable evidence." -->
+
+
+## 13.3.1 Talking Points for General Public within Professions:
+
+### Policymakers (Bureaucrats):
+- **Adaptive Policy Frameworks**:
+  - "We are tasked with developing policies that not only address current climate challenges but are also adaptable to future uncertainties. This includes creating flexible frameworks for land use, urban planning, and disaster preparedness that can evolve as conditions change."
+- **Balancing Development and Conservation**:
+  - "Finding the right balance between economic development and environmental conservation is crucial. In Hong Kong, this means making tough decisions about land allocation, balancing the needs for housing and infrastructure with the imperative to preserve green spaces and coastal areas."
+- **International Cooperation and Commitments**:
+  - "As part of the global community, Hong Kong must align its policies with international climate commitments. This involves participating in global agreements, sharing best practices, and ensuring our local policies reflect these broader commitments."
+
+## 13.3.2 Talking Points for General Public within Professions:
+### Farmers/Fishermen:
+- **Climate Impact on Livelihoods**:
+  - "Changes in weather patterns, such as unexpected storms or prolonged dry spells, directly affect our crops and fisheries. We need access to reliable weather information and support for adapting our traditional practices to these new challenges."
+- **Sustainable Practices and Innovation**:
+  - "Adopting sustainable farming and fishing practices is essential for the long term. This could mean exploring new methods like vertical farming or sustainable aquaculture to reduce environmental impact and ensure food security."
+- **Support and Training**:
+  - "We need more support from the government and NGOs in terms of training and resources to adapt to climate change. This includes learning about new, resilient crop varieties or fishing practices that can help mitigate the impacts of climate change on our livelihoods."
+
+## 13.3.3 Talking Points for General Public within Professions:
+### Logistics Sector Professionals:
+- **Supply Chain Resilience**:
+  - "Climate change poses significant risks to supply chains, from disrupted transportation routes due to extreme weather to delays caused by natural disasters. Building resilience into our logistics networks is key to maintaining the flow of goods and services."
+- **Green Logistics Solutions**:
+  - "Incorporating green logistics solutions, such as fuel-efficient transportation modes and eco-friendly packaging, can significantly reduce the carbon footprint of our industry. It's not just good for the planet; it's increasingly a demand from our customers."
+- **Policy and Infrastructure Support**:
+  - "We need clear policies and infrastructure support from the government to facilitate the transition to greener logistics. This includes incentives for adopting electric vehicles, improving port facilities for efficiency, and investing in technologies that minimize environmental impact."
+
+## 13.3.4 Example Talking Points for General Public within Professions:
+
+- **Essential Worker/Healthcare Professional**: "The health impacts of climate change, from respiratory problems due to poor air quality to new infectious diseases, require us to rethink public health strategies in Hong Kong."
+- **Financial Sector Professional**: "The financial industry in Hong Kong has a pivotal role in supporting sustainable investments and divesting from industries harmful to the environment, aligning profit with planet."
+- **Hospitality and Tourism Worker**: "Sustainable tourism can help preserve Hong Kong's natural beauty for future generations, ensuring our industry remains vibrant and responsible."
+- **Retail Sector Employee**: "Adopting sustainable practices in our retail operations, from reducing waste to sourcing ethically, can help mitigate climate change impacts and appeal to environmentally conscious consumers."
