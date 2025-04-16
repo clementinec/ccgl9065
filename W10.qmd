@@ -1,0 +1,304 @@
+---
+title: "Our Response to Climate Change: HK2100"
+subtitle: "Our Planet, Climate Change and Systems Thinking"
+author: Hongshan Guo
+format: 
+  revealjs:
+    slide-level: 2
+    center: true
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1300
+    preview-links: auto
+    embed-resources: true
+    incremental: false    
+---
+
+
+## 1: Revisiting Progress - At What Cost?
+
+#### Introduction to Modern Progress:
+- Equating progress with industrial growth, tech advancements, and urban expansion.
+- Environmental costs often overlooked.
+- Key question: "What environmental losses have we accepted for progress?"
+
+#### Example 1: Deforestation in the Amazon:
+- Accelerated deforestation post-2010s for agriculture.
+- Impact: Loss of biodiversity, carbon storage, and indigenous habitats.
+- Trade-off: Global food supply vs. ecological preservation.
+
+#### Example 2: Urbanization of Green Spaces:
+- Cities like Jakarta and Beijing expanding into green areas.
+- Impact: Loss of natural spaces vital for air quality and biodiversity.
+- Trade-off: Economic growth and housing vs. green space conservation.
+
+#### Example 3: Intensive Energy Extraction:
+- Shale gas boom, especially in the U.S., post-2010s.
+- Impact: Groundwater contamination, seismic activity, methane emissions.
+- Trade-off: Energy independence vs. environmental health.
+
+## 2: Beyond CO2 - The Potent Greenhouse Gas Threat
+
+#### The Methane Concern:
+- **Methane's Potency**: Methane (CH4) is over 25 times more potent than CO2 in trapping heat in the atmosphere over a 100-year period.
+- **Permafrost Thaw**: Recent observations reveal accelerating permafrost thaw in the Arctic, unlocking vast methane reserves.
+- **Impact**: Methane release from permafrost could significantly amplify global warming, contributing to a feedback loop.
+
+#### Other Potent Gases:
+- **Nitrous Oxide (N2O)**: Emissions from agricultural activities, particularly fertilizer use, have been rising, with N2O being about 300 times more potent than CO2.
+- **Industrial Gases**: Hydrofluorocarbons (HFCs), used in air conditioning and refrigeration, have thousands of times the global warming potential of CO2.
+
+## 2.1: Beyond CO2 - The Potent Greenhouse Gas Threat (Cont'd)
+
+#### IPCC Models and Tipping Points:
+- **Inclusion in Models**: The IPCC has recently integrated permafrost melt and methane release into their climate models, highlighting the urgency of the issue.
+- **Tipping Point Concerns**: There's growing scientific consensus that we might be nearing or have crossed climate "tipping points," leading to irreversible changes.
+
+#### Examples and Analogies:
+- **Siberian Craters**: The discovery of massive craters in Siberia, believed to be caused by methane explosions from thawing permafrost, serves as a vivid illustration of the methane threat.
+- **The Ice-Albedo Feedback**: As Arctic ice melts, it reveals darker water that absorbs more heat, further accelerating ice melt and methane release from permafrost - a dangerous feedback loop.
+
+#### Reflection:
+- The rising threat of potent greenhouse gases challenges us to look beyond CO2 in our climate change mitigation strategies.
+- Understanding and addressing these less-discussed but highly impactful gases is crucial in our broader fight against global warming.
+
+
+## 3: Geoengineering - A Symptomatic Treatment?
+
+#### The Shift to Geoengineering:
+- Large-scale interventions in Earth's systems
+- Focus shifts from emission causes to climate symptoms management
+
+#### Key Approaches:
+- **Carbon Capture and Storage (CCS)**:
+  - Removes CO2 from the atmosphere
+  - Stores it underground
+- **Solar Radiation Management (SRM)**:
+  - Reflects sunlight away
+  - Aims to reduce global warming
+
+#### Ethical and Practical Concerns:
+- **Unintended Consequences**:
+  - Risk of unforeseen side effects
+  - Potential to worsen climate issues
+- **Moral Hazard**:
+  - Might reduce urgency for emission cuts
+  - Reliance on technological fixes
+
+## 4: Questioning "Progress" and "Modernity"
+
+#### The Untouchable Paradigms:
+- Associated with tech advancement
+- Often overlook environmental cost
+
+#### Need for Paradigm Shift:
+- **Sustainable Progress**:
+  - Incorporates sustainability
+  - Balances ecological concerns
+- **Inclusive Modernity**:
+  - Embraces diverse views
+  - Values indigenous knowledge
+
+#### Example: Transition to Renewable Energy:
+- Shift from fossil fuels to renewables
+- Symbolizes sustainable progress
+
+## 5: Academia's Pioneering Role
+
+#### Fostering Diversity and Experimentation:
+- Universities as idea incubators
+- Promote cross-disciplinary research
+
+#### Critical Thinking and Innovation:
+- Challenges established norms
+- Proposes innovative solutions
+
+## 5.1: Silent Spring, or Power of Narrative
+
+### Rachel Carson, Chemist | Writer | Activist
+![](https://www.environmentandsociety.org/sites/default/files/styles/esp_image_large_16_9/public/nyt-headline_0.jpg?itok=RBtFEcx-)
+
+## 5.2 Understanding System Thinking in Environmental Context
+
+### What is Systems Thinking?
+  - **Holistic Perspective:** Complex systems as interconnected wholes
+  - **Feedback Loops**: Recognizing how different elements within a system influence one another, non-linear
+
+### Interconnectivity in Nature
+  - Interaction of ecosystem
+  - Climate phenomena as result of interactions wtihin and between atmosphere, hydrosphere, geosphere and biosphere
+
+### Understanding System Thinking
+  - Empowers you to see the bigger picture and recognize the ripple effects of actions
+  - Encourages innovative and holistic solutions to environmental challenges through interconnectedness
+
+## 5.3 Wolves' Reintroduction to Yellowstone: Saga from 1920s to 1995
+
+![](https://cdn.yellowstonepark.com/wp-content/uploads/2021/06/Wolf-Gray-YS_NPSJimPeacoPD_2400.jpg?crop=535:301&width=1070&enable=upscale)
+
+## 5.3.1 ReIntroduction of the Wolves
+
+![](https://earthjustice.org/wp-content/uploads/infographic-wolves_1066.png){fig-align="center"}
+
+## 5.4 Interconnectedness of species
+
+![](https://kevinhesterdotlive.files.wordpress.com/2018/06/jenga_extinction.jpg){fig-align="center"}
+
+## 6: Urgent Climate Issues We Cannot Ignore
+
+#### Rising Sea Levels:
+- Coastal erosion and flooding
+- Threatens communities and infrastructure
+
+#### Biodiversity Loss:
+- Ecosystem collapse and species extinction
+- Undermines Earth's life support systems
+
+#### Water Scarcity:
+- Exacerbated by climate change
+- Threatens food security and stability
+
+## 7: Rethinking Cooperation for a Sustainable Future
+
+#### Beyond Competition:
+- Emphasizes global solidarity
+- Views Earth's resources as shared
+
+#### Innovative Governance:
+- Develops flexible, inclusive agreements
+- Empowers local action with global support
+
+
+## 8: The Permafrost Time Bomb
+
+#### Understanding Permafrost:
+- Frozen ground in polar regions: 24% of Northern Hemisphere land surface
+- Contains massive carbon reserves: 1700 Gigatons of carbon, 2x atmospheric carbon
+
+#### The Thawing Threat:
+- Warming temperatures causing thaw, twice as fast as global average
+- Releases stored methane (25x) and CO2
+- Permafrost to decrease by 30-70% by end of 21st century.
+
+#### Implications for Climate:
+- Accelerates global warming
+- Could trigger runaway climate effects
+
+
+## 9: Modernity and Sustainability Clash
+
+#### The Growth Paradigm:
+- Equates progress with economic growth
+- Often at the environment's expense
+
+#### Sustainable Alternatives:
+- Rethinks progress with ecological balance
+- Prioritizes long-term environmental health
+
+#### Cultural Shift Needed:
+- From consumption-driven to sustainability-focused
+- Values diversity and ecological integrity
+
+#### Example: Urban Green Initiatives:
+- Incorporates green spaces in cities
+- Promotes urban sustainability and well-being, connection to mindfulness
+
+## 10: Academia's Role in Shaping Futures
+
+#### Incubator for Ideas:
+- Nurtures diverse, innovative solutions
+- Encourages interdisciplinary collaboration
+
+#### Challenging the Status Quo:
+- Questions established progress narratives
+- Advocates for sustainable development models
+
+#### Fostering Global Citizens:
+- Educates on climate ethics and action
+- Prepares students for global challenges
+
+#### Example: Environmental Studies Programs:
+- Blend science, policy, and ethics
+- Equip students to tackle climate issues
+- How can you influence them with what you have learnt?
+
+## 11: Hall of Fame: Progressive Contributions to Climate Discourse
+
+#### Visionaries of Sustainability:
+- **Rachel Carson**: Her seminal work "Silent Spring" (1962) is often credited with launching the modern environmental movement, highlighting the adverse effects of pesticides on the environment.
+  - Sparked widespread public concern for environmental protection and conservation.
+- **Al Gore**: Former U.S. Vice President and environmentalist, known for his efforts in raising awareness about global warming, notably through his documentary "An Inconvenient Truth" (2006).
+  - Played a pivotal role in making climate change a mainstream issue.
+
+#### Pioneers of Climate Science:
+- **James Hansen**: A climatologist whose 1988 testimony before the U.S. Congress was crucial in bringing national attention to global warming.
+  - Advocated for reducing greenhouse gas emissions and conducted pivotal climate research.
+- **Intergovernmental Panel on Climate Change (IPCC)**: Established in 1988, this body has been instrumental in assessing and synthesizing climate research, providing a scientific basis for policy action.
+  - Its periodic assessment reports are crucial resources for understanding climate change.
+
+## 12: Hall of Fame: Conservative Perspectives on Environmental Policy
+
+#### Skeptics and Critics:
+- **Bjørn Lomborg**: An environmental writer known for his book "The Skeptical Environmentalist" (2001), where he argues that many environmental concerns are exaggerated.
+  - Advocates for prioritizing other global issues like poverty over climate change initiatives.
+- **The Heritage Foundation**: A conservative think tank that frequently critiques the economic impacts of environmental regulations.
+  - Emphasizes the potential negative effects on economic growth and personal freedoms.
+
+#### Proponents of Technological and Market Solutions:
+- **Julian Simon**: An economist who believed human ingenuity and innovation could overcome environmental challenges and resource scarcity.
+  - Famous for his bet with Paul Ehrlich, arguing against the predictive power of environmental doom.
+- **Indur Goklany**: An author and policy analyst who supports the use of technology and economic growth to address environmental problems, advocating for "adaptive" strategies rather than stringent regulations.
+  - Argues that wealthier societies are better equipped to solve environmental problems.
+
+## 13 People's Responses
+Certainly, let's break down the responses into shorter sub-bullets for clarity:
+
+### Acknowledging Interdependence:
+- **Mindful Consumption**:
+  - Everyday choices impact economy and environment.
+  - Opting for sustainable products.
+- **Waste Reduction**:
+  - Reducing personal waste to protect oceans and wildlife.
+  - Emphasizing reuse and recycling.
+
+### Advocacy and Community Action:
+- **Grassroots Movements**:
+  - Participation in local environmental initiatives.
+  - Organizing eco-friendly community events.
+- **Policy Advocacy**:
+  - Supporting green policies through petitions and outreach to representatives.
+  - Engaging in civic activities for environmental protection.
+
+### Sustainable Living & Dietary Choices
+
+## 13.1 People's Responses
+
+### Education and Awareness:
+- **Continuous Learning**:
+  - Staying updated on environmental issues.
+  - Spreading awareness among personal networks.
+- **Youth Engagement**:
+  - Teaching children about environmental responsibility.
+  - Family projects focused on sustainability.
+
+### Support for Innovation and Technology:
+- **Embracing Green Tech**:
+  - Investing in home solar panel systems.
+  - Supporting advancements in sustainable technology.
+- **Sustainable Investments**:
+  - Assessing the environmental impact of personal investments.
+  - Favoring companies with strong environmental policies.
+
+## 14 Collage Examples (As promised)
+
+![](https://sotp.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/12/James-A.G.-Kahn-Collage-637x425.jpg){fig-align="center"}
+
+## 14.1 Collage Examples (Cont'd)
+![](https://creativeresistance.org/wp-content/uploads/2014/08/chaos_collage_by_adriansalamandre-d3fkpbl-770x563.jpg){fig-align="center"}
+
+## 14.2 Collage Examples (Cont'd)
+![](https://media.gettyimages.com/id/157398278/photo/global-warming-related-collage-of-newspaper-headlines.jpg?s=1024x1024&w=gi&k=20&c=RzoWeWVELCW5OalV07BArZhRgKY3U7xVgBJT2MoctwE=){fig-align="center"}
+
+## 14.3 Colalge Examples (Cont'd)
+![](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0c466d85713249.5d83bdaca50ae.png){fig-align="center"}
