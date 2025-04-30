@@ -217,23 +217,40 @@ Search
   }
 
   function loadStudent() {
-    const nameInput = document.getElementById("student-name").value.trim().toLowerCase();
-    const student = studentsData.find(s => s.name.toLowerCase() === nameInput);
+  const nameInput = document.getElementById("student-name").value.trim().toLowerCase();
+  const student = studentsData.find(s => s.name.toLowerCase() === nameInput);
 
-    const infoDiv = document.getElementById("student-info");
-    if (!student) {
-      infoDiv.innerHTML = "<p><strong>Student not found.</strong></p>";
-      return;
-    }
+  const infoDiv = document.getElementById("student-info");
+  if (!student) {
+    infoDiv.innerHTML = "<p><strong>Student not found.</strong></p>";
+    return;
+  }
 
-    infoDiv.innerHTML = `
-      <h2>${student.name}</h2>
-      <img src="${student.image_url}" alt="${student.name}" style="max-width: 200px;"><br><br>
-      <iframe width="560" height="315" src="${getYouTubeEmbedUrl(student.youtube_url)}" 
-              title="YouTube video" frameborder="0" allowfullscreen></iframe>
-      <p style="margin-top: 20px;">${student.essay}</p>
+  const embedUrl = getYouTubeEmbedUrl(student.youtube_url);
+  let videoEmbed = '';
+
+  if (embedUrl) {
+    videoEmbed = `<iframe width="560" height="315" src="${embedUrl}" 
+                    title="YouTube video" frameborder="0" allowfullscreen></iframe>`;
+  } else if (student.youtube_url) {
+    // Attempt generic iframe embed for non-YouTube links
+    videoEmbed = `
+      <iframe width="560" height="315" src="${student.youtube_url}" 
+              title="External video" frameborder="0" allowfullscreen 
+              onerror="this.outerHTML='<p><a href=\'${student.youtube_url}\' target=\'_blank\'>Click here to view video</a></p>';">
+      </iframe>
+      <p>If the video doesn't load, <a href="${student.youtube_url}" target="_blank">click here to view it.</a></p>
     `;
   }
+
+  infoDiv.innerHTML = `
+    <h2>${student.name}</h2>
+    <img src="${student.image_url}" alt="${student.name}" style="max-width: 200px;"><br><br>
+    ${videoEmbed}
+    <p style="margin-top: 20px;">${student.essay}</p>
+  `;
+}
+
 
   // Optional: Hide suggestions on outside click
   document.addEventListener('click', (e) => {
