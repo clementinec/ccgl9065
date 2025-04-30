@@ -1,0 +1,116 @@
+---
+title: "Student Showcase"
+format: html
+editor: visual
+---
+
+::: {.search-section}
+<label for="student-name">Enter student name:</label><br>
+<input type="text" id="student-name" placeholder="e.g. Jane Doe" oninput="showSuggestions()">
+<div id="suggestions" class="suggestions-box"></div>
+<button onclick="loadStudent()">Search</button>
+:::
+
+<div id="student-info" style="margin-top: 20px;"></div>
+
+<style>
+  .suggestions-box {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 250px;
+    background: white;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 2px;
+  }
+  .suggestion-item {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .suggestion-item:hover {
+    background-color: #eee;
+  }
+</style>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+  let studentsData = [];
+
+  d3.csv("data/finalpre.csv").then(data => {
+    studentsData = data;
+  });
+
+  function getYouTubeEmbedUrl(url) {
+    try {
+      const parsed = new URL(url);
+      let videoId = null;
+
+      if (parsed.hostname === 'youtu.be') {
+        videoId = parsed.pathname.slice(1);
+      } else if (parsed.hostname.includes('youtube.com')) {
+        if (parsed.pathname === '/watch') {
+          videoId = parsed.searchParams.get('v');
+        } else if (parsed.pathname.startsWith('/embed/')) {
+          videoId = parsed.pathname.split('/embed/')[1];
+        }
+      }
+
+      return videoId ? `https://www.youtube.com/embed/${videoId}` : '';
+    } catch (e) {
+      return '';
+    }
+  }
+
+  function showSuggestions() {
+    const input = document.getElementById("student-name").value.trim().toLowerCase();
+    const suggestionsDiv = document.getElementById("suggestions");
+    suggestionsDiv.innerHTML = '';
+
+    if (input.length === 0) return;
+
+    const matches = studentsData.filter(s =>
+      s.name.toLowerCase().includes(input)
+    ).slice(0, 5); // Limit to 5 suggestions
+
+    matches.forEach(student => {
+      const div = document.createElement("div");
+      div.className = "suggestion-item";
+      div.textContent = student.name;
+      div.onclick = () => {
+        document.getElementById("student-name").value = student.name;
+        suggestionsDiv.innerHTML = '';
+        loadStudent();
+      };
+      suggestionsDiv.appendChild(div);
+    });
+  }
+
+  function loadStudent() {
+    const nameInput = document.getElementById("student-name").value.trim().toLowerCase();
+    const student = studentsData.find(s => s.name.toLowerCase() === nameInput);
+
+    const infoDiv = document.getElementById("student-info");
+    if (!student) {
+      infoDiv.innerHTML = "<p><strong>Student not found.</strong></p>";
+      return;
+    }
+
+    infoDiv.innerHTML = `
+      <h2>${student.name}</h2>
+      <img src="${student.image_url}" alt="${student.name}" style="max-width: 200px;"><br><br>
+      <iframe width="560" height="315" src="${getYouTubeEmbedUrl(student.youtube_url)}" 
+              title="YouTube video" frameborder="0" allowfullscreen></iframe>
+      <p style="margin-top: 20px;">${student.essay}</p>
+    `;
+  }
+
+  // Optional: Hide suggestions on outside click
+  document.addEventListener('click', (e) => {
+    const input = document.getElementById("student-name");
+    const suggestions = document.getElementById("suggestions");
+    if (!input.contains(e.target) && !suggestions.contains(e.target)) {
+      suggestions.innerHTML = '';
+    }
+  });
+</script>
