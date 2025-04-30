@@ -34,6 +34,10 @@ Prompted by Einstein’s well-known quote that “we cannot solve our problems w
 - [Week 8](data/W8.pdf)
 - [Week 9](W9.qmd)
 - [Week 10](W10.qmd)
+<<<<<<< HEAD
+=======
+- [Week 11](CCGL9065_W11.qmd)
+>>>>>>> 25b5998e49ac848b84a587ad04734eb6ad8838a8
 
 ## Tutorials
 - [Tutorial Primer](data/tut01.qmd)
