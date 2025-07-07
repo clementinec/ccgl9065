@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdflatex:*)",
+      "Bash(grep:*)",
+      "Bash(timeout 60 pdflatex:*)",
+      "Bash(quarto preview:*)"
+    ],
+    "deny": []
+  }
+}

@@ -1,0 +1,21 @@
+\section{Literature Review}
+
+\subsection{Analytical PMV and Adaptive Comfort Models}
+
+Fanger’s Predicted Mean Vote (PMV) model, codified in ASHRAE Standard~55, remains the foundational analytical approach for estimating average occupant thermal sensation based on heat‐balance equations and empirical metabolic and clothing parameters \cite{ASHRAE2020}. However, PMV assumes quasi–steady‐state conditions and representative activity levels, leading to inaccuracies under transient indoor environments such as variable HVAC cycles and dynamic occupancy patterns \cite{Run2025Transient}. To address computational challenges in large‐scale or transient populations, Sirhan and Golan proposed an efficient piecewise linear regression method for PMV calculation that significantly reduces computation time while maintaining acceptable accuracy in public settings \cite{Sirhan2021EfficientPMV}.
+
+Adaptive comfort models extend the PMV paradigm by correlating occupant sensation with outdoor running‐mean temperatures and behavioral adaptation, improving relevance in naturally ventilated and free‐running buildings \cite{Yao2022Adaptive}. A recent review in \emph{Energies} analyzed office‐building field studies across diverse climates, confirming that adaptive models better capture occupant preferences while highlighting the need for climate‐specific comfort equations \cite{MDPI2023Adaptive}.
+
+\subsection{Data‐Driven Thermal Comfort Modeling}
+
+The release of ASHRAE Global Thermal Comfort Database II has catalyzed data‐driven comfort models. Raissi \emph{et al.} embedded transient heat‐transfer equations within a physics‐informed variational autoencoder (PINN‐VAE), achieving 15–20\% RMSE improvements over PMV benchmarks \cite{Raissi2022VAE}. Chen \emph{et al.} introduced a control‐oriented PhysCon PINN architecture that leverages building thermal‐mass parameters to enhance demand‐response predictions and energy management \cite{Chen2024PINN}. Boutahri and Tilioua demonstrated that ensemble ML models (SVM, ANN, RF, XGBoost) can reduce thermal sensation vote prediction errors by up to 20\% compared to analytical PMV metrics \cite{Boutahri2024}.
+
+\subsection{Machine Learning for Energy Consumption Prediction}
+
+Gradient‐boosting decision trees have emerged as a leading technique for building energy forecasting. Zhou \emph{et al.} showed that LightGBM outperforms XGBoost in predicting operational carbon emissions by capturing nonlinear interactions via SHAPley values, enabling more accurate downstream control strategies \cite{Zhou2024LightGBM}.
+
+\subsection{Co‐Simulation and Control Optimization in HVAC Systems}
+
+Co‐simulation frameworks coupling EnergyPlus with CONTAM or the Building Controls Virtual Test Bed allow integrated evaluation of HVAC strategies \cite{alonso2022using}. A taxonomic review highlighted the Functional Mock‐up Interface (FMI) as the most prominent co‐simulation standard for buildings and smart energy systems \cite{Alfalouji2023CoSim}.
+
+Bayesian optimization has been applied to HVAC setpoint tuning, achieving near-optimal performance with minimal model evaluations \cite{Lin2023BayesOpt}. Evolutionary algorithms, including genetic algorithms and particle‐swarm optimization, have been used for multi‐objective HVAC control, balancing energy use and comfort across representative scenarios \cite{EC32024Evolutionary,MultiObj2024}. Reinforcement learning offers model‐free strategies that adapt to stochastic occupancy and weather; recent reviews synthesize best practices and safety constraints for RL‐based HVAC control \cite{RLReview2025}. However, many prior studies do not explicitly consider actuator-saturation (i.e., when commanded setpoints exceed the hard bounds of 12$^\circ$C or 30$^\circ$C and are clipped), which can lead to controllers becoming “stuck” at the boundary and masking true comfort-versus-energy trade-offs.

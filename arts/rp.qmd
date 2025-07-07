@@ -1,0 +1,259 @@
+---
+title: "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings"
+author: "Dr. Hongshan Guo"
+institute: "Department of Architecture, The University of Hong Kong"
+date: "July 7, 2025"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    logo: hku.jpg
+    toc: false
+    toc-depth: 4
+    navigation-mode: linear
+    incremental: false
+    aspectratio: 169
+    centering: true
+    footer: "hongshan@hku.hk | Generative Urban Thermal studies Lab"
+    chalkboard: true
+    progress: true
+    preview-links: true
+    overflow: shrink
+    
+---
+<style>
+.reveal .slides section {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 100%;
+  text-align: left;
+  padding: 1em;
+}
+</style>
+
+## 👋 About Me
+
+- Started as an engineering undergrad curious about people and buildings
+- Turned PhD obsession into real-world tools for climate resilience
+- I love: thermal imaging, city data, and solving puzzles that matter
+
+---
+
+## 🧪 What is Research, Really?
+
+::: {.block}
+**Not just lab coats and microscopes**
+
+Research = asking big questions *no one knows the answer to yet* and building tools, models, or arguments to explore those questions.
+:::
+
+- For me? It means using data, physics, and AI to fix how buildings behave.
+- Let's start from perhaps how this journey started.
+
+---
+
+## 🎓 My Academic Journey
+
+![Timeline](TC DB_Sharing/ab.png)
+
+- BEng in Mechanical/Architectural Engineering @ HIT
+- MSc in Mechanical Engineering @ Columbia & CMU
+- PhD in Architecture @ Princeton
+  - _Thermal Comfort in Naturally Ventilated Buildings_
+- Data Scientist @ BNY Mellon & now Assistant Professor @ HKU
+
+---
+
+### 🧠 What I Study: Starting from Mean Radiant Temperature
+
+![Research Pillars](TC DB_Sharing/overall heatmap.png)
+
+- **Thermal Comfort** – how people feel hot/cold across cultures 🌏
+- **Building Controls** – smarter thermostats using AI 🧠
+- **Urban Analysis** – thermal drones + city maps 🏙️
+
+---
+
+#### 🔥 Global Thermal Comfort: East Meets West
+
+![Heatmap of Comfort Data](TC DB_Sharing/Heatmap_All_new.jpg)
+
+- 148,148 records across continents
+- Cultural and physiological differences shape comfort
+
+---
+
+#### 🧍‍♀️ What Affects Comfort?
+
+![Age Residuals](TC DB_Sharing/facet_age_residuals_new.jpg)
+
+- Age, gender, and BMI matter more than standard models assume
+- These are often ignored in building designs
+
+---
+
+## 🤖 Physics-Informed AI Models
+
+![PINN-VAE Diagram](PINN-VAE/fig/PINN_VAE_Diagram.pdf)
+
+- Combines neural networks with physical constraints
+- Improves prediction accuracy with fewer assumptions
+
+---
+
+### 📈 PINN-VAE Results
+
+![Thermal Neutral Accuracy](PINN-VAE/fig/mae_10.png)
+
+- 8–11% improvement in thermal neutral zone prediction
+- Robust against missing data
+
+---
+
+### 🏠 Smart Control Strategies
+
+![Control Workflow](Comfort_EPlus_GridSearch/figs/gridworkflow_3.pdf)
+
+- ML integrated with EnergyPlus
+- Evaluated over multiple climate zones
+
+---
+
+### 🌍 Multi-City Comparison
+
+![City Energy Comparison](Comfort_EPlus_GridSearch/figs/comparison_multi_city_vertical_enhanced.pdf)
+
+- PMV vs LightGBM vs PINN-VAE
+- Grid search = 15–18% energy savings
+
+---
+
+### 📊 Real-World Energy Savings
+
+![Savings](Comfort_EPlus_GridSearch/figs/savings_r.png)
+
+- Reduced discomfort from 25% to <3%
+- Demonstrated consistent energy benefits
+
+---
+
+### 🌇 Urban Heat Mapping
+
+![Thermal Map](Thermal Image Segmentation_ENE-3/img/Thermographic picture_legend.png)
+
+- Cities like Turin assessed with drone thermal imagery
+- Faster retrofitting with automated image analysis
+
+---
+
+### 🧠 Segmenting Buildings from Heat
+
+![Thermal Segmentation Overlay](Thermal Image Segmentation_ENE-3/img/comparison_overlay_38.png)
+
+- Used vision-language models (like CLIP + SAM)
+- Detected and classified buildings accurately
+
+---
+
+## 🔬 Sensor Importance Study
+
+![Top Sensors](sensemini/fig_top8.pdf)
+
+- MRT is 1.5× more predictive than air temperature
+- Used LightGBM + perturbation analysis
+
+---
+
+## 🎯 Simpler Can Be Smarter
+
+![MRT Importance](sensemini/fig_mrt_ta_ratio.pdf)
+
+- Fewer sensors, smarter setup
+- Up to 70% accuracy with 6 inputs
+
+---
+
+## 🔍 What You See from a Quick Web Search
+
+- "Assistant Professor at HKU Department of Architecture"
+- "PhD from Princeton in Architectural Technology"
+- "Patented technique in time series predictive analytics"
+- "Gartner Eye on Innovation Award Americas 2020"
+- "Research interests: Thermal Comfort, Building Control, AI"
+
+::: {.fragment}
+*But this barely scratches the surface...*
+:::
+
+---
+
+## 🎯 What I Actually Do: Beyond the Bio
+
+**The Real Work:** Using machine learning to extract insights from complex engineering datasets
+
+- **148,000+ thermal comfort records** → Cultural patterns in human perception
+- **Aerial thermal imagery** → Automated building energy assessments  
+- **Sensor networks** → Smarter HVAC control with 15-18% energy savings
+- **Physics + AI models** → Better predictions with fewer assumptions
+
+::: {.fragment}
+*From lab data to city-scale solutions*
+:::
+
+---
+
+## 💡 Summary of Key Points
+
+- Data scale matters (148k records)
+- AI + Physics beats black-box models
+- Simple solutions sometimes outperform complex ones
+- We can scale up from rooms to whole cities
+
+---
+
+## 🚀 Personal Development Tips for Future Researchers
+
+![Skills Development](sensemini/Hist_icml.png)
+
+1. **Master the fundamentals** – Psychrometrics, thermodynamics, heat transfer basics
+2. **Python is your friend** – Start with data analysis, then move to ML libraries
+3. **Keep your interests wide open** – Architecture + Engineering + AI = endless possibilities
+
+::: {.fragment}
+*Start small, think big, stay curious!*
+:::
+
+---
+
+## 🌏 Why This Matters
+
+![Energy Impact](Comfort_EPlus_GridSearch/figs/energyrank4.png)
+
+- Buildings = 40% of energy use, 36% of CO₂ emissions
+- Smarter designs help tackle climate change and improve well-being
+
+---
+
+## 🙋‍♀️ Q&A Session
+
+**Time for your questions, thoughts, and ideas!**
+
+::: {.block}
+**Some areas we can explore:**
+- Technical details about the AI models and methods
+- Applications to your specific building or research context  
+- Collaboration opportunities and ongoing projects
+- Career paths combining architecture, engineering, and AI
+:::
+
+*Please feel free to ask about anything from the presentation*
+
+---
+
+## 🙌 Thank You!
+
+**Questions? Thoughts? Ideas?**  
+📧 [hongshan@hku.hk](mailto:hongshan@hku.hk)  
+🔬 Computational Building Science Lab

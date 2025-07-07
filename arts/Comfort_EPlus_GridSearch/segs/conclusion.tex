@@ -1,0 +1,52 @@
+\section{Conclusions}
+This study presents the first comprehensive co-simulation framework directly integrating data-driven thermal sensation models with EnergyPlus, overcoming historical reliance on PMV as a proxy for occupant comfort. By leveraging a dataset of 148,148 thermal sensation votes from the ASHRAE Global Thermal Comfort Database II and Chinese datasets, we enabled real-time predictions of occupant thermal sensation during building simulation—a capability previously challenging to achieve.
+
+Our evaluation of seven control strategies across four diverse climate zones yielded several critical insights. First, optimized PMV-based control via grid-search algorithm significantly outperformed naive comfort-driven control, achieving 15–18.5\% energy savings compared to a 4.3–23.5\% energy penalty with non-optimized PMV control. Remarkably, optimized PMV achieved comparable energy efficiency to advanced machine learning models (LightGBM and PINN-VAE) while requiring substantially lower computational resources. Among ML models, LightGBM exhibited robust predictive performance but at tenfold runtime relative to optimized PMV. Meanwhile, the PINN-VAE model, although novel in incorporating physiological realism through predictions of skin temperatures ($T_{skin}$), showed only marginal improvements in energy performance while requiring prohibitively long runtimes (10–15 minutes per year simulation), potentially limiting its direct real-time applicability.
+
+The ability of PINN-VAE to predict physiological variables nonetheless introduced valuable opportunities for enhancing occupant comfort. By explicitly incorporating predicted skin temperature into HVAC control logic, we achieved a notable 14.85\% improvement in comfort hours at a modest 1.97\% energy increase, demonstrating the practical potential of physiologically-informed control strategies. The incorporation of stochastic weather perturbations in all simulations ensures these results reflect expected performance under real-world weather variability, not idealized conditions.
+
+It's also important to point out our co-simulation methodology revealed that naive ML-based controllers frequently could encounter actuator saturation—a critical deployment challenge invisible to traditional comfort prediction studies—thereby validating the necessity of integrated simulation frameworks for practical control development.
+
+Critically, our re-analysis showed that naive LightGBM and PV controllers appeared to outperform PMV only because they were frequently clipped to 12$^\circ$C or 30$^\circ$C (actuator saturation), not because they improved comfort.
+This finding underscores that any future ML-based control strategy must explicitly account for actuator bounds when optimizing setpoints; otherwise, apparent energy savings may simply reflect saturation at the extremes.
+
+The core implication of our findings explicitly challenges the assumption that increasing model complexity inherently yields superior HVAC performance. Instead, carefully optimized classical models such as PMV provide near-equivalent energy and comfort performance at significantly reduced computational and infrastructural costs, thus offering a highly practical pathway for broad deployment. The demonstrated feasibility and performance of our co-simulation framework underscore that future research should prioritize addressing critical operational constraints—such as continuous setpoint adjustments, multi-zone coordination, and adaptive predictive horizons—rather than solely refining comfort prediction accuracy.
+
+For the building controls community, this study reinforces that integrated, occupant-centric co-simulation frameworks are both viable and valuable. By shifting research and development efforts towards practical optimization strategies and advanced physiological sensing integration, we can significantly enhance HVAC operational efficacy. Future work should extend this co-simulation methodology across additional building types, HVAC systems, and occupant demographics, ensuring broader generalizability and practical relevance. Ultimately, addressing fundamental physical and operational constraints is crucial for fully realizing the potential benefits of advanced comfort models in real-world building control applications.
+
+\newpage
+\section*{Nomenclature}
+\begin{table}[h!]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{ll}
+\toprule
+\textbf{Symbol / Acronym} & \textbf{Description} \\
+\midrule
+\textbf{PMV}          & Predicted Mean Vote – analytical thermal sensation index (ISO 7730) \\
+\textbf{TSV}          & Thermal Sensation Vote – occupant-reported thermal comfort level \\
+\textbf{PINN-VAE}     & Physics-Informed Neural Network with Variational Autoencoder \\
+\textbf{LightGBM}     & Light Gradient Boosting Machine – tree-based ML model for tabular data \\
+\textbf{EUI}          & Energy Use Intensity – building energy consumption per unit floor area (kWh/$m^2$) \\
+$T_{skin}$            & Mean skin temperature ($^\circ$C) – predicted or modeled via biophysical models \\
+$T_{core}$            & Core body temperature ($^\circ$C) – estimated using Gagge's two-node model \\
+\textbf{clo}          & Clothing insulation level (1 clo $\approx$ 0.155 $m^2$·K/W) \\
+\textbf{met}          & Metabolic rate (1 met $\approx$ 58.2 W/$m^2$) \\
+\textbf{HVAC}         & Heating, Ventilation, and Air Conditioning system \\
+\textbf{ASHRAE}       & American Society of Heating, Refrigerating and Air-Conditioning Engineers \\
+\textbf{ISO 7730}     & International Standard defining PMV/PPD indices \\
+\textbf{DOE}          & U.S. Department of Energy – defines standard climates/building archetypes \\
+\textbf{Sinergym}     & Python–EnergyPlus co-simulation and RL environment \\
+\textbf{EnergyPlus}   & Whole-building energy simulation engine \\
+\textbf{EMS}          & Energy Management System – rule-based control scripting in EnergyPlus \\
+\textbf{PV-o}         & PINN-VAE optimized control mode \\
+\textbf{PMV-o}        & PMV control mode optimized via grid-search \\
+\textbf{LB-o}         & LightGBM control mode optimized via grid-search \\
+\textbf{RBC}          & Rule-Based Controller – baseline on/off control scheme \\
+\textbf{Comfort hours} & Simulation hours where TSV is within comfort range ($-0.5 \leq$ TSV $\leq +0.5$) \\
+\textbf{Runtime}      & Time to execute one year of simulation (seconds) \\
+\bottomrule
+\end{tabular}
+}
+\caption{List of symbols and acronyms used throughout the paper.}
+\end{table}
