@@ -1043,6 +1043,97 @@
     "text": "14.3 Colalge Examples (Cont’d)"
   },
   {
+    "objectID": "arts/rp.html#about-me",
+    "href": "arts/rp.html#about-me",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "👋 About Me",
+    "text": "👋 About Me\n\nStarted as an engineering undergrad curious about people and buildings\nTurned PhD obsession into real-world tools for climate resilience\nI love: thermal imaging, city data, and solving puzzles that matter"
+  },
+  {
+    "objectID": "arts/rp.html#what-is-research-really",
+    "href": "arts/rp.html#what-is-research-really",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🧪 What is Research, Really?",
+    "text": "🧪 What is Research, Really?\n\nNot just lab coats and microscopes\nResearch = asking big questions no one knows the answer to yet and building tools, models, or arguments to explore those questions.\n\n\nFor me? It means using data, physics, and AI to fix how buildings behave.\nLet’s start from perhaps how this journey started."
+  },
+  {
+    "objectID": "arts/rp.html#my-academic-journey",
+    "href": "arts/rp.html#my-academic-journey",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🎓 My Academic Journey",
+    "text": "🎓 My Academic Journey\n\nTimeline\nBEng in Mechanical/Architectural Engineering @ HIT\nMSc in Mechanical Engineering @ Columbia & CMU\nPhD in Architecture @ Princeton\n\nThermal Comfort in Naturally Ventilated Buildings\n\nData Scientist @ BNY Mellon & now Assistant Professor @ HKU"
+  },
+  {
+    "objectID": "arts/rp.html#physics-informed-ai-models",
+    "href": "arts/rp.html#physics-informed-ai-models",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🤖 Physics-Informed AI Models",
+    "text": "🤖 Physics-Informed AI Models\n\n\n\nPINN-VAE Diagram\n\n\n\nCombines neural networks with physical constraints\nImproves prediction accuracy with fewer assumptions"
+  },
+  {
+    "objectID": "arts/rp.html#sensor-importance-study",
+    "href": "arts/rp.html#sensor-importance-study",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🔬 Sensor Importance Study",
+    "text": "🔬 Sensor Importance Study\n\n\n\nTop Sensors\n\n\n\nMRT is 1.5× more predictive than air temperature\nUsed LightGBM + perturbation analysis"
+  },
+  {
+    "objectID": "arts/rp.html#simpler-can-be-smarter",
+    "href": "arts/rp.html#simpler-can-be-smarter",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🎯 Simpler Can Be Smarter",
+    "text": "🎯 Simpler Can Be Smarter\n\n\n\nMRT Importance\n\n\n\nFewer sensors, smarter setup\nUp to 70% accuracy with 6 inputs"
+  },
+  {
+    "objectID": "arts/rp.html#what-you-see-from-a-quick-web-search",
+    "href": "arts/rp.html#what-you-see-from-a-quick-web-search",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🔍 What You See from a Quick Web Search",
+    "text": "🔍 What You See from a Quick Web Search\n\n“Assistant Professor at HKU Department of Architecture”\n“PhD from Princeton in Architectural Technology”\n“Patented technique in time series predictive analytics”\n“Gartner Eye on Innovation Award Americas 2020”\n“Research interests: Thermal Comfort, Building Control, AI”\n\n\nBut this barely scratches the surface…"
+  },
+  {
+    "objectID": "arts/rp.html#what-i-actually-do-beyond-the-bio",
+    "href": "arts/rp.html#what-i-actually-do-beyond-the-bio",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🎯 What I Actually Do: Beyond the Bio",
+    "text": "🎯 What I Actually Do: Beyond the Bio\nThe Real Work: Using machine learning to extract insights from complex engineering datasets\n\n148,000+ thermal comfort records → Cultural patterns in human perception\nAerial thermal imagery → Automated building energy assessments\n\nSensor networks → Smarter HVAC control with 15-18% energy savings\nPhysics + AI models → Better predictions with fewer assumptions\n\n\nFrom lab data to city-scale solutions"
+  },
+  {
+    "objectID": "arts/rp.html#summary-of-key-points",
+    "href": "arts/rp.html#summary-of-key-points",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "💡 Summary of Key Points",
+    "text": "💡 Summary of Key Points\n\nData scale matters (148k records)\nAI + Physics beats black-box models\nSimple solutions sometimes outperform complex ones\nWe can scale up from rooms to whole cities"
+  },
+  {
+    "objectID": "arts/rp.html#personal-development-tips-for-future-researchers",
+    "href": "arts/rp.html#personal-development-tips-for-future-researchers",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🚀 Personal Development Tips for Future Researchers",
+    "text": "🚀 Personal Development Tips for Future Researchers\n\nSkills Development\nMaster the fundamentals – Psychrometrics, thermodynamics, heat transfer basics\nPython is your friend – Start with data analysis, then move to ML libraries\nKeep your interests wide open – Architecture + Engineering + AI = endless possibilities\n\n\nStart small, think big, stay curious!"
+  },
+  {
+    "objectID": "arts/rp.html#why-this-matters",
+    "href": "arts/rp.html#why-this-matters",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🌏 Why This Matters",
+    "text": "🌏 Why This Matters\n\nEnergy Impact\nBuildings = 40% of energy use, 36% of CO₂ emissions\nSmarter designs help tackle climate change and improve well-being"
+  },
+  {
+    "objectID": "arts/rp.html#qa-session",
+    "href": "arts/rp.html#qa-session",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🙋‍♀️ Q&A Session",
+    "text": "🙋‍♀️ Q&A Session\nTime for your questions, thoughts, and ideas!\n\nSome areas we can explore: - Technical details about the AI models and methods - Applications to your specific building or research context\n- Collaboration opportunities and ongoing projects - Career paths combining architecture, engineering, and AI\n\nPlease feel free to ask about anything from the presentation"
+  },
+  {
+    "objectID": "arts/rp.html#thank-you",
+    "href": "arts/rp.html#thank-you",
+    "title": "From Data to Decisions: A Journey Through Thermal Comfort, AI, and Sustainable Buildings",
+    "section": "🙌 Thank You!",
+    "text": "🙌 Thank You!\nQuestions? Thoughts? Ideas?\n📧 hongshan@hku.hk\n🔬 Computational Building Science Lab\n\n\n\n\nhongshan@hku.hk | Generative Urban Thermal studies Lab"
+  },
+  {
     "objectID": "countdown.html#presentation-countdown",
     "href": "countdown.html#presentation-countdown",
     "title": "Presentation Countdown and Group Assignments",
