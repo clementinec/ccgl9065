@@ -37,7 +37,7 @@ editor: visual
 <script>
   let studentsData = [];
 
-  d3.csv("data/finalpre.csv").then(data => {
+  d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRx94m1rEMaiPAIzWlFMBmgyKEVFci2u6GabDwvFOy0DA8FMmXLyf2J6m_hSJBdta0vvwhsmLyylBvr/pub?gid=0&single=true&output=csv").then(data => {
     studentsData = data;
   });
 
@@ -87,23 +87,40 @@ editor: visual
   }
 
   function loadStudent() {
-    const nameInput = document.getElementById("student-name").value.trim().toLowerCase();
-    const student = studentsData.find(s => s.name.toLowerCase() === nameInput);
+  const nameInput = document.getElementById("student-name").value.trim().toLowerCase();
+  const student = studentsData.find(s => s.name.toLowerCase() === nameInput);
 
-    const infoDiv = document.getElementById("student-info");
-    if (!student) {
-      infoDiv.innerHTML = "<p><strong>Student not found.</strong></p>";
-      return;
-    }
+  const infoDiv = document.getElementById("student-info");
+  if (!student) {
+    infoDiv.innerHTML = "<p><strong>Student not found.</strong></p>";
+    return;
+  }
 
-    infoDiv.innerHTML = `
-      <h2>${student.name}</h2>
-      <img src="${student.image_url}" alt="${student.name}" style="max-width: 200px;"><br><br>
-      <iframe width="560" height="315" src="${getYouTubeEmbedUrl(student.youtube_url)}" 
-              title="YouTube video" frameborder="0" allowfullscreen></iframe>
-      <p style="margin-top: 20px;">${student.essay}</p>
+  const embedUrl = getYouTubeEmbedUrl(student.youtube_url);
+  let videoEmbed = '';
+
+  if (embedUrl) {
+    videoEmbed = `<iframe width="560" height="315" src="${embedUrl}" 
+                    title="YouTube video" frameborder="0" allowfullscreen></iframe>`;
+  } else if (student.youtube_url) {
+    // Attempt generic iframe embed for non-YouTube links
+    videoEmbed = `
+      <iframe width="560" height="315" src="${student.youtube_url}" 
+              title="External video" frameborder="0" allowfullscreen 
+              onerror="this.outerHTML='<p><a href=\'${student.youtube_url}\' target=\'_blank\'>Click here to view video</a></p>';">
+      </iframe>
+      <p>If the video doesn't load, <a href="${student.youtube_url}" target="_blank">click here to view it.</a></p>
     `;
   }
+
+  infoDiv.innerHTML = `
+    <h2>${student.name}</h2>
+    <img src="${student.image_url}" alt="${student.name}" style=style="width: 100%; max-width: 100%; height: auto;"><br><br>
+    ${videoEmbed}
+    <p style="margin-top: 20px;">${student.essay}</p>
+  `;
+}
+
 
   // Optional: Hide suggestions on outside click
   document.addEventListener('click', (e) => {
