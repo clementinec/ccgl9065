@@ -1,0 +1,203 @@
+\documentclass[preprint,12pt]{elsarticle}
+
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsmath package provides various useful equation environments.
+\usepackage{amsmath}
+\usepackage{amssymb,booktabs,gensymb}
+%% The amsmath package provides various useful equation environments.
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage[acronym]{glossaries}
+\makeglossaries
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers.
+%% \usepackage{lineno}
+
+\journal{Building and Environment}
+
+\begin{document}
+
+\begin{frontmatter}
+
+%% Title, authors and addresses
+
+%% use the tnoteref command within \title for footnotes;
+%% use the tnotetext command for theassociated footnote;
+%% use the fnref command within \author or \affiliation for footnotes;
+%% use the fntext command for theassociated footnote;
+%% use the corref command within \author for corresponding author footnotes;
+%% use the cortext command for theassociated footnote;
+%% use the ead command for the email address,
+%% and the form \ead[url] for the home page:
+%% \title{Title\tnoteref{label1}}
+%% \tnotetext[label1]{}
+%% \author{Name\corref{cor1}\fnref{label2}}
+%% \ead{email address}
+%% \ead[url]{home page}
+%% \fntext[label2]{}
+%% \cortext[cor1]{}
+%% \affiliation{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+%% \fntext[label3]{}
+
+\title{From Missing to Meaningful: A Physiology-Aware PINN-VAE for Global Thermal-Comfort Imputation and Neutral TSV Prediction} %% Article title
+
+%% use optional labels to link authors explicitly to addresses:
+\author[label1]{Hongshan Guo}
+\affiliation[label1]{organization={Department of Architecture, The University of Hong Kong},
+            % addressline={},
+            city={Hong Kong SAR},
+            % postcode={},
+            % state={},
+            country={China}}
+%%
+%% \affiliation[label2]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+
+\author[label2]{Chongyang Ren}%cyren@hku.hk
+\affiliation[label2]{organization={Department of Urban Planning and Design, The University of Hong Kong, Hong Kong},%Department and Organization
+            % addressline={}, 
+            % city={},
+            % postcode={}, 
+            % state={},
+            country={China}}
+
+\author[label3]{Qingyao Qiao} %% qiaoqy@ms.giec.ac.cn
+\affiliation[label3]{organization={Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences},%Department and Organization
+            % addressline={}, 
+            city={},
+            % postcode={}, 
+            % state={},
+            country={China}}
+
+\author[label4]{Yongqiang Luo} %% yqluo@hust.edu.cn
+\affiliation[label4]{organization={School of Environmental Science and Engineering, Huazhong University of Science and Technology},%Department and Organization
+            % addressline={}, 
+            city={},
+            % postcode={}, 
+            % state={},
+            country={China}}            
+%% Author affiliation
+
+\begin{abstract}
+Open-source thermal comfort datasets often suffer from substantial missingness and inconsistent personal physiological information, limiting their utility in occupant-centric modeling. This study introduces a physiology-informed variational autoencoder (PINN-VAE) that performs joint imputation and prediction of thermal sensation while preserving thermoregulatory realism. By combining two global datasets (ASHRAE II and China DB), we validate that missingness patterns are MAR and develop soft physiological constraints on intermediate predictions including core and skin temperature. A Personalized Physiology Interface (PPI) further improves model performance by embedding demographic inputs without normalization. Across over 150,000 records, PINN-VAE achieves 8–11\% error reduction near the thermal neutral zone compared to LightGBM, and nearly eliminates directional penalty asymmetry. Our results demonstrate that integrating physiology-informed modeling with latent-variable learning improves both accuracy and interpretability in thermal comfort prediction.
+\end{abstract}
+
+
+%%Graphical abstract
+\begin{graphicalabstract}
+%\includegraphics{grabs}
+\end{graphicalabstract}
+
+%%Research highlights
+\begin{highlights} % Or however your template handles highlights
+    \item PINN-VAE framework enables joint imputation and physiologically-constrained TSV prediction in large datasets. 
+    \item Validates MAR patterns in combined ASHRAE II \& China DB, justifying VAE imputation approach. 
+    \item Physiological constraints improve realism and performance over VAEs, yielding plausible $\hat{T}_{\text{skin}}$ / $\hat{T}_{\text{core}}$ alongside missing features imputation. 
+    \item Reduces neutral zone RMSE (8-11\%) and eliminates directional penalty asymmetry versus benchmarks. % Note: Escaped % sign for LaTeX
+    \item Improves interpretability via physiological outputs, offering advantages over black-box models. 
+\end{highlights}
+
+%% Keywords
+\begin{keyword}
+Physics-informed neural networks (PINN)\sep thermal comfort modeling \sep Occupant-centric prediction \sep missing data imputation \sep deep learning for heating, ventilation and air conditioning (HVAC) \sep interpretable neural networks
+\end{keyword}
+
+\end{frontmatter}
+
+% Acronyms
+\newacronym{pinn}{PINN}{Physics-Informed Neural Network}
+\newacronym{vae}{VAE}{Variational Autoencoder}
+\newacronym{tsv}{TSV}{Thermal Sensation Vote}
+\newacronym{bmr}{BMR}{Basal Metabolic Rate}
+\newacronym{mcar}{MCAR}{Missing Completely At Random}
+\newacronym{mar}{MAR}{Missing At Random}
+\newacronym{mnar}{MNAR}{Missing Not At Random}
+\newacronym{pmv}{PMV}{Predicted Mean Vote}
+\newacronym{ppd}{PPD}{Predicted Percentage Dissatisfied}
+\newacronym{rms}{RMSE}{Root Mean Squared Error}
+\newacronym{mae}{MAE}{Mean Absolute Error}
+\newacronym{mape}{MAPE}{Mean Absolute Percentage Error}
+\newacronym{smape}{SMAPE}{Symmetric MAPE}
+\newacronym{r2}{$R^2$}{Coefficient of Determination}
+\newacronym{pce}{PMV\_CE}{PMV using Classical Equation}
+\newacronym{ppi}{PPI}{Personalized Physiology Interface}
+\newacronym{pinnvae}{PINN-VAE}{Physics-Informed Variational Autoencoder}
+\newacronym{pvp}{pvp\_pen}{PINN–VAE–PPI model}
+\newacronym{cv}{CV}{Cross-Validation}
+\newacronym{cnn}{CNN}{Convolutional Neural Network}
+\newacronym{gnn}{GNN}{Graph Neural Network}
+\newacronym{vaeplain}{vae}{Standard Variational Autoencoder model}
+\newacronym{lightgbm}{LightGBM}{Light Gradient Boosting Machine}
+\newacronym{ultra}{ultra}{LightGBM trained on imputed feature set}
+
+% Terms
+\newglossaryentry{tcore}{
+  name={$T_\text{core}$},
+  description={Core body temperature}
+}
+
+\newglossaryentry{tskin}{
+  name={$T_\text{skin}$},
+  description={Mean skin temperature}
+}
+
+\newglossaryentry{wettedness}{
+  name={$w$},
+  description={Skin wettedness (kg/h)}
+}
+
+\newglossaryentry{zlatent}{
+  name={$z$},
+  description={Latent representation vector in VAE}
+}
+
+\newglossaryentry{lphys}{
+  name={$L_\text{phys}$},
+  description={Loss function enforcing physiological constraints}
+}
+
+\newglossaryentry{lrec}{
+  name={$L_\text{rec}$},
+  description={Reconstruction loss in VAE}
+}
+
+\newglossaryentry{lkl}{
+  name={$L_\text{KL}$},
+  description={Kullback-Leibler divergence term}
+}
+
+\newglossaryentry{neutralzone}{
+  name={Neutral Zone},
+  description={TSV range $[-0.5, 0.5]$ considered thermally neutral}
+}
+
+
+\input{segs/intro}
+
+\input{segs/method}
+
+\input{segs/results}
+
+\input{segs/discuss}
+
+\appendix
+\input{segs/ap}
+
+\bibliographystyle{IEEEtran} % or another style as per journal requirements
+\bibliography{cas-refs}
+\end{document}

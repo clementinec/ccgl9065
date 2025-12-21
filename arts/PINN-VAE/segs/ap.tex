@@ -1,0 +1,62 @@
+\section{Appendix}
+\subsection{Acronyms and Glossary of Terms}
+
+\printglossary[type=\acronymtype, title=Acronyms]
+\printglossary[title=Glossary of Terms]
+
+\subsection{Data Alignment Table}\label{sec:alignment}
+To provide better context of how the data alignment is performed across different columns and their correspoding fields of interests, we have included the table we used to map accordingly as showon in Table~\ref{tab:table-map}.
+
+\begin{table}[h!]
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|l|l|l|l|}
+      \hline
+      \textbf{Unified Column} & \textbf{Chinese (Set 1) Column} & \textbf{ASHRAE (Set 2) Column} & \textbf{Notes} \\ \hline
+      timestamp                      & date\_clean                     & timestamp            & $\surd$ \\ \hline
+      contributor                    & a3.data contributor            & contributor          & $\surd$ \\ \hline
+      season                         & a4.season                      & season               & Chinese has transition season. \\ \hline
+      city                           & a5.city                        & city                 & $\surd$ \\ \hline
+      climate\_zone                  & a6.climate zone                & climate              & Totally different categorization methods. \\ \hline
+      building\_type                 & b1.building type               & building\_type       & Categories different. \\ \hline
+      gender                         & c1.sex                         & gender               & $\surd$ \\ \hline
+      age                            & c2.age                         & age                  & $\surd$ \\ \hline
+      height\_cm                     & c3.height（cm）                & ht                   & $\surd$ \\ \hline
+      weight\_kg                     & c4.weight（kg）                & wt                   & $\surd$ \\ \hline
+      thermal\_sensation             & d1.tsv                         & thermal\_sensation   & $\surd$ \\ \hline
+      thermal\_comfort               & d2.tcv                         & thermal\_comfort     & Different numerical evaluation criteria. \\ \hline 
+      thermal\_acceptability         & d3.tav                         & thermal\_acceptability & Different numerical evaluation criteria. \\ \hline
+      clothing\_insulation           & d5.clothing insulation (clo)   & clo                  & $\surd$ \\ \hline
+      metabolic\_rate                & d6.metabolic rate (met)        & met                  & $\surd$ \\ \hline
+      mean\_radiant\_temperature      & f2.mean radiant temperature ($\degree C$) & tr                 & Calculated MRT\\ \hline
+      pmv\_ce                       & f4.pmv                         & pmv\_ce              & $\surd$ \\ \hline
+      ppd\_ce                       & f5.ppd                         & ppd\_ce              & $\surd$ \\ \hline
+      ta\_l                         & e1.indoor air temperature ($\degree C$)   & ta\_l                & air temperature @0.1 m \\ \hline
+      ta                            & e1.indoor air temperature ($\degree C$).1 & ta                   & air temperature @0.6 m \\ \hline
+      ta\_h                         & e1.indoor air temperature ($\degree C$).2 & ta\_h                & air temperature @1.1 m \\ \hline
+      vel\_l                        & e3.indoor air velocity (m/s)    & vel\_l               & air velocity @0.1 m  (m/s, fpm) \\ \hline
+      vel                           & e3.indoor air velocity (m/s).1  & vel                  & air velocity @0.6 m  (m/s, fpm) \\ \hline
+      vel\_h                        & e3.indoor air velocity (m/s).2  & vel\_h               & air velocity @1.1 m  (m/s, fpm) \\ \hline
+      rh                            & e2.indoor relative humidity (\%) & rh                 & relative humidity not available at different heights.\\ \hline
+      tg\_l                        & e4.globe temperature ($\degree C$)        & tg\_l               & Globe temperature at 0.1 m \\ \hline
+      tg                           & e4.globe temperature ($\degree C$).1      & tg                  & Globe temperature at 0.6 m \\ \hline
+      tg\_h                        & e4.globe temperature ($\degree C$).2      & tg\_h               & Globe temperature at 1.1 m \\ \hline
+      to                           & f1.operative temperature ($\degree C$)    & top                 & $\surd$ \\ \hline
+      year                         & year                           & year                & $\surd$ \\ \hline
+      country                      & country                        & country             & $\surd$ \\ \hline
+      coolingsys                   & b4.building operation mode     & cooling\_type       & Inconsistent definition. \\ \hline
+      latitude                     & latitude                       & lat                 & generated with geopy from city info.\\ \hline
+      longitude                    & longitude                      & lon                 & generated with geopy from city info. \\ \hline
+      ta\_out & g3.Monthly Mean Outdoor Temperature($\degree C$)    & ta\_out             & $\surd$ \\ \hline
+      \end{tabular}}
+  \caption{Database alignment mapping between ASHRAE II and Chinese Thermal Comfort Databases}
+  \label{tab:table-map}
+\end{table}
+
+\subsection{Frozen PPI Weights}
+While the Personalized Physiology Interface (PPI) header was introduced to leverage individual demographic data, its impact on overall performance (model \texttt{pvp\_pen}) yielded only marginal improvements compared to the standard PINN-VAE (\texttt{pv\_pen}), as seen in Table~\ref{tab:performance_updated} and Figure 6. Although the improvement was consistent, it was not deemed sufficiently notable within the scope of this preliminary exploration to warrant extensive discussion. Further investigation is needed to fully understand how to maximize the benefit of such personalization. Future work could explore enhancing the PPI by integrating dynamic data, such as real-time physiological measurements from wearable sensors, potentially unlocking more significant performance gains and adaptability.
+
+%Add one more table and we're done.
+
+Nevertheless, we were able to freeze the final PPI weights across our proposed header addition to the PINN-VAE framework, notably the PPI-ANALYTIC Model as outlined in Figure~\ref{fig:workflow}. As was discussed inside the results and discussion section of this paper, its improvement upon the PINN-VAE model was clear yet minimal. Hence this header architecture was not pursued any further beyond the following table with weights frozen.
+

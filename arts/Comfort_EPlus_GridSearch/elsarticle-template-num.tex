@@ -1,0 +1,200 @@
+%% 
+%% Copyright 2007-2025 Elsevier Ltd
+%% 
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.3 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for Elsevier's document class `elsarticle'
+%% with numbered style bibliographic references
+%% SP 2008/03/01
+%% $Id: elsarticle-template-num.tex 272 2025-01-09 17:36:26Z rishi $
+%%
+\documentclass[preprint,12pt]{elsarticle}
+
+%% Use the option review to obtain double line spacing
+%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn]{elsarticle}
+%% \documentclass[final,3p,times]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn]{elsarticle}
+%% \documentclass[final,5p,times]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn]{elsarticle}
+
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls. If you prefer to use the old commands
+%% please give \usepackage{epsfig}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+% \usepackage[noend]{algpseudocode}
+\usepackage[ruled,vlined]{algorithm2e}
+
+%% The amsmath package provides various useful equation environments.
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs} % For professional looking tables
+\usepackage{longtable,makecell,tabularx,booktabs} % For tables that might span multiple pages
+\usepackage{multirow}
+
+% Add any other packages you commonly use
+
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers.
+%% \usepackage{lineno}
+
+\journal{Energy and Buildings}
+
+\begin{document}
+
+\begin{frontmatter}
+
+%% Title, authors and addresses
+
+%% use the tnoteref command within \title for footnotes;
+%% use the tnotetext command for theassociated footnote;
+%% use the fnref command within \author or \affiliation for footnotes;
+%% use the fntext command for theassociated footnote;
+%% use the corref command within \author for corresponding author footnotes;
+%% use the cortext command for theassociated footnote;
+%% use the ead command for the email address,
+%% and the form \ead[url] for the home page:
+%% \title{Title\tnoteref{label1}}
+%% \tnotetext[label1]{}
+%% \author{Name\corref{cor1}\fnref{label2}}
+%% \ead{email address}
+%% \ead[url]{home page}
+%% \fntext[label2]{}
+%% \cortext[cor1]{}
+%% \affiliation{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+%% \fntext[label3]{}
+
+\title{A Co-Simulation Methodology for Integrating Data-Driven Thermal Sensation Models with Building Energy Control}
+
+%% use optional labels to link authors explicitly to addresses:
+%% \author[label1,label2]{}
+%% \affiliation[label1]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+%%
+%% \affiliation[label2]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+
+\author[hku]{Hongshan Guo} %% Author name
+\author[hku]{Kanxuan He}
+\author[nus]{Yue Lei}
+% \author{hku}{Yu Chang}
+%% Author affiliation
+\affiliation[hku]{organization={Department of Architecture, Faculty of Architecture, The University of Hong Kong},%Department and Organization
+            % addressline={}, 
+            city={Hong Kong SAR},
+            % postcode={}, 
+            % state={},
+            country={China}}
+
+\affiliation[nus]{organization={Department of Built Environment, National University of Singapore},%Department and Organization
+            % addressline={}, 
+            % city={Hong Kong SAR},
+            % postcode={}, 
+            % state={},
+            country={Singapore}}
+
+%% Abstract
+\begin{abstract}
+This paper presents a novel co-simulation methodology that directly integrates data-driven thermal sensation models with EnergyPlus building control, addressing the gap between comfort prediction research and practical HVAC implementation. Our framework enables real-time coupling of any comfort predictor—from analytical PMV to deep learning models—with building control while handling actuator saturation and stochastic disturbances. 
+We demonstrate the methodology by implementing seven control strategies using models trained on 148,148 occupant votes, including PMV, LightGBM, and a physics-informed neural network-variational autoencoder (PINN-VAE), revealing critical implementation challenges such as actuator saturation in ML-based controllers.
+The framework reveals unexpected insights: grid-search optimized PMV achieves 15–18.5\% energy savings comparable to sophisticated ML models while requiring no training data and completing simulations 50x faster. All optimized strategies reduce uncomfortable hours from 25\% to below 3\% while saving energy. Furthermore, incorporating PINN-VAE's physiological predictions improves comfort by 14.85\% with minimal energy impact. These findings, enabled by our co-simulation methodology, demonstrate that control integration quality matters more than model sophistication—challenging assumptions about comfort-based building control and providing essential infrastructure for realistic control strategy evaluation.
+\end{abstract}
+%%Graphical abstract
+\begin{graphicalabstract}
+\centering
+\includegraphics[width=.90\linewidth]{figs/gridworkflow_3.pdf}\\
+\\
+\includegraphics[width=.65\linewidth]{figs/savings_r.png}\\
+\includegraphics[width=.95\linewidth]{figs/saving_end_pct.png}
+%\includegraphics{grabs}
+\end{graphicalabstract}
+
+%%Research highlights
+\begin{highlights}
+\item Co-simulation of data-driven thermal sensation models (148,148 votes) with EnergyPlus
+\item Grid-search PMV achieves 15-18.5\% energy savings, comparable to ML models
+\item Runtime comparison: PMV/LightGBM <200s vs PINN-VAE 10-15min per year
+\item Incorporating skin temperature improves comfort 14.85\% at 1.97\% energy cost
+\item All optimized modes reduce unmet hours to <3\% while saving energy
+\end{highlights}
+
+%% Keywords
+\begin{keyword}
+building energy simulation \sep thermal sensation \sep machine learning \sep deep learning \sep model predictive control
+\end{keyword}
+
+\end{frontmatter}
+
+%% Add \usepackage{lineno} before \begin{document} and uncomment 
+%% following line to enable line numbers
+%% \linenumbers
+
+%% main text
+%%
+
+%% Use \section commands to start a section
+\input{segs/intro}
+\input{segs/lit}
+\input{segs/methodology}
+\input{segs/results}
+\input{segs/discuss}
+\input{segs/conclusion}
+
+
+% %% The Appendices part is started with the command \appendix;
+% %% appendix sections are then done as normal sections
+% \appendix
+% \section{Example Appendix Section}
+% \label{app1}
+
+% Appendix text.
+
+
+\bibliographystyle{elsarticle-num}
+\bibliography{cas-refs}
+
+\end{document}
+
+\endinput
+%%
+%% End of file `elsarticle-template-num.tex'.

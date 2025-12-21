@@ -1,0 +1,81 @@
+% ===============================================
+% 4.1 Interpreting the Modest Energy Savings
+% ===============================================
+\subsection{Interpreting the modest energy savings}\label{sec:disc_energy}
+
+The occupant-aware set-point relaxation lowered the annual site EUI by
+\(4.2\% \pm 0.7\%\) in Miami and \(11.8\% \pm 1.6\%\) in Stockholm—
+statistically significant yet below the 15–25\,\% range reported for
+mixed-mode or clothing-adaptive offices \cite{Kim2018AdaptiveSetpoint}.  Three
+features of the present modelling framework offer a coherent
+explanation.
+
+\textbf{(i) Fixed sensible–latent split.}
+The \texttt{People} object retained the default \(60{:}40\) sensible-to-latent
+partition, whereas calorimetric data show the latent share
+\(\phi_{\mathrm{lat}}\) climbing from about 0.35 at
+\(26^{\circ}\text{C}\)/50\,\%\,RH to over 0.50 at
+\(30^{\circ}\text{C}\)/60\,\%\,RH \cite{Cena2001HotAridComfort}.  Because our
+adaptive logic deliberately shifts the operative point toward this warm,
+humid corner of the psychrometric chart, the constant \(\phi_{\mathrm{lat}}\)
+underestimates vapour-compression demand and therefore attenuates the
+modelled benefit.
+
+\textbf{(ii) Absence of humidity-responsive ventilation.}
+The baseline VAV system regulates only dry-bulb temperature with a fixed
+outdoor‐air fraction; humidity control and enthalpy-based economiser
+logic are disabled.  Field campaigns indicate that demand-controlled
+ventilation triggered by indoor moisture can rival temperature set-point
+adjustment in energy impact \cite{Rupp2021HumidityDCV}.  By omitting this
+coupling we remove a potentially synergistic saving route.
+
+\textbf{(iii) Single clothing ensemble.}
+Both fixed and adaptive runs assume \(I_{\mathrm{cl}}=0.8\;\text{clo}\)
+(summer) and \(1.0\;\text{clo}\) (winter).  Adaptive disrobing—common in
+hot-humid climates—is thus ignored, leaving the TSV model unable to
+credit comfort already achieved through wardrobe change.  A conditional
+probability model \(p(I_{\mathrm{cl}} \mid T_{\mathrm{prev}})\) would enlarge
+the comfort-acceptable band and permit deeper temperature drift without
+violating occupant acceptance.
+
+\paragraph{Implications for future work.}
+The present results should therefore be interpreted as a
+\emph{lower‐bound} estimate of occupant-aware savings in climates where
+latent loads dominate.  Ongoing work parametrises
+\(\phi_{\mathrm{lat}}=f(T_{\mathrm{op}},w)\) directly in EnergyPlus and adds a
+humidity-dependent economiser to capture the full psychrometric penalty
+or reward associated with wider set-points.  Incorporating a stochastic
+clothing model will likewise test whether behavioural adaptation and
+algorithmic control act additively or competitively in real buildings.
+
+
+% ============================================================
+% 4.2 Model robustness and generalisability
+% ============================================================
+\subsection{Model robustness and generalisability}\label{sec:disc_generalise}
+
+The LightGBM thermal-sensation predictor was calibrated solely on the ASHRAE Global Thermal Comfort Database II (GTCD-II), whose entries remain dominated by mechanically conditioned offices in North America and East Asia.  While five-fold cross-validation produced an \(\mathrm{RMSE}=0.47\) scale units, that figure may not transfer to hot–arid or naturally ventilated contexts under-represented in GTCD-II.  Preliminary hold-out tests on the SCATs dataset (n$\approx$2500, predominantly UK mixed-mode) indicate a 14 \% rise in error, mirroring the regional drift reported by Schiavon \textit{et al.}\cite{Kim2018AdaptiveSetpoint}.  Two implications follow.  
+First, the energy–comfort trade-off quantified here is a conservative estimate for buildings whose occupants experience higher adaptive capacity; if the predictor systematically overestimates discomfort at warm temperature, the control algorithm will relax less aggressively and under-state potential savings. 
+Second, future replication should either (i) re-train the TSV model on a region-specific corpus, or (ii) embed an online learning routine so that mis-prediction is corrected in situ once occupant feedback becomes available.
+
+A related concern is that the People object’s metabolic-rate distribution was drawn from population statistics, not from in-situ measurements.  GTCD-II contains sporadic but useful calorimetric records; incorporating those as hierarchical priors in the Monte-Carlo draw would tighten uncertainty bounds around latent and sensible gains, thereby sharpening the attribution of energy changes to occupancy rather than weather noise.
+
+% ============================================================
+% 4.3 Equipment oversizing and part-load efficiency
+% ============================================================
+\subsection{Equipment oversizing and part-load efficiency}\label{sec:disc_partload}
+
+All HVAC plant was autosized with a 15 \% safety margin—typical of design practice yet influential when evaluating set-point drift.  Wider temperature bands reduce peak sensible load, but in variable-air-volume (VAV) systems that benefit is partly offset by lower fan efficiency at reduced static pressure and by less favourable chiller part-load ratios (PLR).  The present model applies manufacturer PLR curves but does not iterate equipment sizing after controls are relaxed; thus we may under-estimate demand savings while over-estimating capacity-related fixed losses.  An iterative co-optimisation—resizing coils once adaptive control is adopted—would likely amplify \(\Delta E_{\text{sav}}\) in Stockholm (where heating oversizing dominates) and narrow it slightly in Miami (where chiller PLR penalties remain notable).
+
+% ============================================================
+% 4.4 Broader implications and future research
+% ============================================================
+\paragraph{Broader implications.}
+Even a 5–12 \% site-EUI reduction translates into non-trivial financial benefit when demand charges apply; preliminary tariff modelling (Hong Kong CLP peak rate, HK\$1.61 kWh\(^{-1}\)) shows a payback period below two cooling seasons for the Stockholm and Tokyo archetypes.  However, energy is only one axis: relaxed set-points at higher humidity may exacerbate perceived stuffiness and CO\(_2\) stratification.  A multi-objective optimisation that couples TSV with indoor-air-quality indices would offer a more balanced policy narrative.
+
+\paragraph{Future research directions.}
+(i) Combine the psychrometric-aware latent model proposed in §4.1 with a humidity-responsive economiser to test synergistic savings in warm-humid climates.  
+(ii) Integrate stochastic window-opening schedules linked to TSV so that natural-ventilation potential is captured alongside mechanical control.  
+(iii) Replace the fixed 8-hour occupancy schedule with hybrid-work scenarios (e.g.\ 60 \% desk-sharing) to evaluate whether occupancy diversity widens or narrows adaptive-control opportunity.  
+(iv) Validate the simulation chain against sub-metered energy and high-resolution TSV feedback in a living-lab office, enabling end-to-end empirical calibration of both comfort and energy modules.
+

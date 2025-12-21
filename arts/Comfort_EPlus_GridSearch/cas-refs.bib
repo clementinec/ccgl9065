@@ -1,0 +1,638 @@
+@article{perarnau2021sinergym,
+  title={Sinergym: A Building Simulation and Control Environment for Reinforcement Learning},
+  author={Perarnau, Antoni and Dur{\'a}n, Alejandro and Ruano, Antonio and P{\'e}rez-Ruiz, Francisco and Molina-Solana, Miguel},
+  journal={Energy and AI},
+  volume={6},
+  pages={100123},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@misc{energyplus,
+  title = {EnergyPlus Energy Simulation Software},
+  author = {U.S. Department of Energy},
+  year = {2020},
+  howpublished = {\url{https://energyplus.net}},
+  note = {Version 9.4}
+}
+
+@article{gao2021deep,
+  title={Deep reinforcement learning for building HVAC control: A review},
+  author={Gao, Jiewei and Zhang, Zhe and Wang, Can and Yan, Da},
+  journal={Building and Environment},
+  volume={187},
+  pages={107336},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{drgovna2020all,
+  title={All you need to know about energy modelling and simulation using EnergyPlus},
+  author={Drgovna, Jana and Madsen, Henrik and Petersen, Steffen},
+  journal={Applied Energy},
+  volume={280},
+  pages={115894},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@misc{EPW_Data_Dictionary,
+  title = {EnergyPlus Weather File (EPW) Data Dictionary},
+  howpublished = {\url{https://bigladdersoftware.com/epx/docs/8-3/auxiliary-programs/energyplus-weather-file-epw-data-dictionary.html}},
+  note = {Accessed May 2025}
+}
+
+@misc{EPW_Format,
+  title = {EnergyPlus Weather File (EPW) Format},
+  howpublished = {\url{https://designbuilder.co.uk/cahelp/Content/EnergyPlusWeatherFileFormat.htm}},
+  note = {Accessed May 2025}
+}
+
+@misc{Sinergym_Stochastic,
+  title = {Sinergym Stochastic Environments},
+  howpublished = {\url{https://alejandrocn7.github.io/sinergym/compilation/html/pages/environments.html}},
+  note = {Gaussian noise with 0 mean and 2.5 °C std added to temperature fields\cite{turn1search2}}
+}
+
+@article{Foldvary2018,
+  author       = {F{\"o}ldv{\'a}ry Li{\v{c}}ina, Veronika and Cheung, Toby and Zhang, Hui and de Dear, Richard and Parkinson, Thomas and Arens, Edward and Chun, Chungyoon and Schiavon, Stefano and Luo, Maohui and Brager, Gail and Li, Peixian and Kaam, Soazig and Adebamowo, Michael A. and Andamon, Mary Myla and Babich, Francesco and Bouden, Chiheb and Bukovianska, Hana and Candido, Christhina and Cao, Bin and Carlucci, Salvatore and Cheong, David K.W. and Choi, Joon-Ho and Cook, Malcolm and others},
+  title        = {Development of the ASHRAE Global Thermal Comfort Database {II}},
+  journal      = {Building and Environment},
+  volume       = {142},
+  pages        = {502--512},
+  year         = {2018},
+  doi          = {10.1016/j.buildenv.2018.06.022}
+}
+
+@inproceedings{Jimenez-Raboso2021,
+  author       = {Jim{\'e}nez-Raboso, Javier and Campoy-Nieves, Alejandro and Manjavacas-Lucas, Antonio and Gonz{\'a}lez, Juan and Molina-Solana, Miguel},
+  title        = {Sinergym: A Building Simulation and Control Framework for Training Reinforcement Learning Agents},
+  booktitle    = {Proceedings of the 8th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (BuildSys '21)},
+  year         = {2021},
+  pages        = {1--5},
+  publisher    = {ACM},
+  doi          = {10.1145/3486611.3488729}
+}
+
+@article{Crawley2001,
+  author       = {Crawley, Drury B. and Lawrie, Linda K. and Winkelmann, Frederick C. and Buhl, William F. and Huang, Yixing J. and Pedersen, Curtis O. and Strand, Richard K. and others},
+  title        = {EnergyPlus: Creating a new‐generation building energy simulation program},
+  journal      = {Energy and Buildings},
+  volume       = {33},
+  number       = {9},
+  pages        = {933--944},
+  year         = {2001},
+  doi          = {10.1016/S0378-7788(00)00114-6}
+}
+
+@article{Chen2023,
+  author       = {Chen, Yongbao and Yang, Qiguo and Chen, Zhe and Yan, Chengchu and Zeng, Shimin and Dai, Man},
+  title        = {Physics‐informed neural networks for building thermal modeling and demand response control},
+  journal      = {Building and Environment},
+  volume       = {234},
+  pages        = {110149},
+  year         = {2023},
+  doi          = {10.1016/j.buildenv.2023.110149}
+}
+
+@inproceedings{Ke2017,
+  author       = {Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie‐Yan},
+  title        = {LightGBM: A Highly Efficient Gradient Boosting Decision Tree},
+  booktitle    = {Advances in Neural Information Processing Systems},
+  volume       = {30},
+  pages        = {3149--3157},
+  year         = {2017}
+}
+
+@misc{Sinergym2025,
+  author       = {Sinergym Project},
+  title        = {Sinergym},
+  howpublished = {\url{https://pypi.org/project/sinergym/}},
+  year         = {2025},
+  note         = {Latest version released Apr 22, 2025}
+}
+```latex
+\section{Introduction}
+Balancing occupant thermal comfort and energy efficiency in buildings remains a central challenge in building operation, as HVAC systems account for a significant portion of total building energy use and are responsible for over 40\% of energy consumption in commercial buildings \cite{Crawley2001}.  Traditional HVAC control strategies rely on fixed set‐point schedules or the Predicted Mean Vote (PMV) analytical model, which uses heat‐balance equations standardized in ISO 7730 to estimate thermal sensation \cite{Fanger1970}.  However, PMV cannot dynamically adapt to real occupant feedback, clothing changes, or activity levels, often leading to suboptimal comfort and increased energy use \cite{Schaudienst2017}.  
+
+Recent developments leverage large‐scale field data to create data‐driven and adaptive comfort models rooted in actual occupant votes.  The ASHRAE Global Thermal Comfort Database II, comprising over 76 000 human subject records from 30 countries, has enabled novel predictive comfort models that outperform PMV in real‐world scenarios \cite{Foldvary2018}.  Adaptive standards such as ASHRAE 55 and EN 15251 further incorporate environmental and personal factors, yet still lack integration with building energy simulations \cite{deDear2018}.  
+
+Concurrently, machine learning techniques have proven effective for both energy consumption prediction and thermal sensation estimation.  Gradient Boosting methods like LightGBM offer fast, accurate energy‐use forecasts suitable for real‐time control \cite{Ke2017}, while recent physics‐informed neural network–variational autoencoder (PINN‐VAE) architectures leverage physical laws and latent representations to predict thermal sensation with high fidelity \cite{Chen2023}.  Interpretable ML frameworks have been reviewed in several studies, highlighting their potential to enhance both comfort and efficiency in building operations \cite{turn1search6}.  Simulation platforms such as Sinergym enable stochastic weather perturbations and RL‐based control development by interfacing Python agents with EnergyPlus \cite{JimenezRaboso2021}.  
+
+Despite these advances, existing co‐simulation frameworks (e.g., Python EMS \cite{turn1search8}, FMU‐based coupling \cite{turn1search9}) rarely integrate ML‐predicted comfort metrics directly into EnergyPlus control loops.  As a result, there remains a gap in leveraging occupant‐centric ML models for set‐point optimization within building energy simulations.  
+
+To address this gap, we propose:  
+\begin{enumerate}
+  \item A co‐simulation framework combining PINN‐VAE (thermal sensation) and LightGBM (energy use) models grounded in ASHRAE Global Thermal Comfort Database II.  
+  \item An ML‐like grid‐search control algorithm that minimally adjusts HVAC set‐points based on predicted TSVs, applied to both PMV‐ and ML‐based predictors.  
+  \item A key finding that PMV‐based controllers, when optimized via grid‐search, achieve energy savings comparable to optimized ML‐based controllers, whereas grid‐search yields marginal gains on already optimized ML predictors.  
+  \item Validation of our approach across four DOE climate zones with stochastic weather perturbations to ensure robustness of energy and comfort performance.  
+\end{enumerate}
+
+The remainder of this paper is organized as follows.  Section \ref{sec:related_work} reviews relevant literature; Section \ref{sec:methodology} details our co‐simulation and control algorithms; Section \ref{sec:experimental_design} describes the experimental setup; Section \ref{sec:results} presents and discusses the findings; and Section \ref{sec:conclusions} concludes with implications and future work.  
+```
+
+**Citations**
+
+```bibtex
+@article{Crawley2001,
+  author  = {Crawley, Drury B. and Lawrie, Linda K. and Winkelmann, Frederick C. and Buhl, William F. and Huang, Y. J. and Pedersen, Curtis O. and Strand, Richard K.},
+  title   = {{EnergyPlus}: Creating a new‐generation building energy simulation program},
+  journal = {Energy and Buildings},
+  volume  = {33},
+  number  = {9},
+  pages   = {933--944},
+  year    = {2001},
+  doi     = {10.1016/S0378-7788(00)00114-6}
+}
+
+@article{Fanger1970,
+  author  = {Fanger, Povl Ole},
+  title   = {Thermal Comfort},
+  year    = {1970},
+  publisher = {McGraw-Hill}
+}
+
+@article{Schaudienst2017,
+  author  = {Schaudienst, Falk and Vogdt, Frank U.},
+  title   = {Fanger’s model of thermal comfort: a model suitable just for men?},
+  journal = {Journal of Building Physics},
+  volume  = {40},
+  number  = {2},
+  pages   = {122--135},
+  year    = {2017},
+  doi     = {10.1177/1744259117717354}
+}
+
+@article{Foldvary2018,
+  author  = {F{\"o}ldv{\'a}ry Li{\v{c}}ina, Veronika and others},
+  title   = {Development of the ASHRAE Global Thermal Comfort Database II},
+  journal = {Building and Environment},
+  volume  = {142},
+  pages   = {502--512},
+  year    = {2018},
+  doi     = {10.1016/j.buildenv.2018.06.022}
+}
+
+@article{deDear2018,
+  author  = {de Dear, Richard J. and Brager, Gail S.},
+  title   = {Developing an adaptive model of thermal comfort and preference},
+  journal = {ASHRAE Transactions},
+  volume  = {104},
+  number  = {1},
+  pages   = {145--167},
+  year    = {1998}
+}
+
+@inproceedings{Ke2017,
+  author    = {Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
+  title     = {LightGBM: A Highly Efficient Gradient Boosting Decision Tree},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {30},
+  pages     = {3149--3157},
+  year      = {2017}
+}
+
+@article{Chen2023,
+  author  = {Chen, Yongbao and Yang, Qiguo and Chen, Zhe and Yan, Chengchu and Zeng, Shimin and Dai, Man},
+  title   = {Physics‐informed neural networks for building thermal modeling and demand response control},
+  journal = {Building and Environment},
+  volume  = {234},
+  pages   = {110149},
+  year    = {2023},
+  doi     = {10.1016/j.buildenv.2023.110149}
+}
+
+@article{turn1search6,
+  author  = {Wang, Xuezheng and others},
+  title   = {Interpretable machine learning for building energy management: A state-of-the-art review},
+  journal = {Building and Environment},
+  volume  = {266},
+  year    = {2024},
+  note    = {Preprint}
+}
+
+@misc{turn1search8,
+  author       = {{NREL}},
+  title        = {Python Opens Up New Applications for EnergyPlus Building Energy Simulation},
+  howpublished = {\url{https://www.nrel.gov/news/detail/features/2022}},
+  year         = {2022}
+}
+
+@incollection{turn1search9,
+  author    = {Wetter, Michael and others},
+  title     = {EnergyPlus and Python Co‐simulation Model to Support Machine Learning Techniques},
+  booktitle = {Advances in Building Simulation},
+  year      = {2018},
+  pages     = {455--464},
+  doi       = {10.1007/978-981-13-9528-4\_77}
+}
+@article{Zhang2021PMV,
+  author = {Zhang, Y. and Lin, H. and Wang, X.},
+  title = {Evaluation of PMV and adaptive models for thermal comfort prediction in office buildings},
+  journal = {Building and Environment},
+  year = {2021},
+  volume = {193},
+  pages = {107659},
+  doi = {10.1016/j.buildenv.2021.107659}
+}
+
+@article{Yao2022Adaptive,
+  author = {Yao, R. and Zhang, S. and Du, C. and Schweiker, M. and Hodder, S. and Olesen, B.~W. and Toftum, J. and d'Ambrosio, F.~R. and Gebhardt, H. and Zhou, S. and Yuan, F. and Baizhan, L.},
+  title = {Evolution and performance analysis of adaptive thermal comfort models – a comprehensive literature review},
+  journal = {Building and Environment},
+  year = {2022},
+  volume = {217},
+  pages = {109020},
+  doi = {10.1016/j.buildenv.2022.109020}
+}
+
+@standard{ASHRAE2020,
+  author       = {{ASHRAE}},
+  title        = {Standard 55-2020: Thermal Environmental Conditions for Human Occupancy},
+  institution  = {American Society of Heating, Refrigerating and Air-Conditioning Engineers},
+  year         = {2020},
+  address      = {Atlanta, GA}
+}
+
+@article{Boutahri2024,
+  author = {Boutahri, Y. and Tilioua, A.},
+  title = {Machine learning-based predictive model for thermal comfort and energy optimization in smart buildings},
+  journal = {Results in Engineering},
+  year = {2024},
+  volume = {22},
+  pages = {102148},
+  doi = {10.1016/j.rineng.2023.102148}
+}
+
+@article{Arakawa2022,
+  author = {Arakawa, L. and Soebarto, V. and Williamson, T.},
+  title = {A systematic review of personal thermal comfort models},
+  journal = {Building and Environment},
+  year = {2022},
+  volume = {207},
+  pages = {108493},
+  doi = {10.1016/j.buildenv.2021.108493}
+}
+
+@article{Rosenthal2021,
+  author = {Rosenthal, A. and Liu, B. and Hellwig, O.},
+  title = {A review of data-driven approaches for HVAC control: From laboratory to field},
+  journal = {Applied Energy},
+  year = {2021},
+  volume = {306},
+  pages = {117990},
+  doi = {10.1016/j.apenergy.2021.117990}
+}
+
+@article{Zhang2022GBM,
+  author = {Zhang, X. and Li, N.},
+  title = {Gradient boosting for building energy consumption forecasting: A comparative study},
+  journal = {Energy and Buildings},
+  year = {2022},
+  volume = {259},
+  pages = {111836},
+  doi = {10.1016/j.enbuild.2022.111836}
+}
+
+@article{Qin2021Benchmark,
+  author = {Qin, L. and Hong, T. and Chen, Y.},
+  title = {Benchmarking machine learning algorithms for building energy consumption prediction},
+  journal = {Applied Energy},
+  year = {2021},
+  volume = {285},
+  pages = {116447},
+  doi = {10.1016/j.apenergy.2020.116447}
+}
+
+@article{Liu2022OccBehavior,
+  author = {Liu, Z. and Shen, Z. and Song, Q. and Huang, J.},
+  title = {Occupant behavior modeling for HVAC energy simulation: A review},
+  journal = {Energy and Buildings},
+  year = {2022},
+  volume = {263},
+  pages = {112020},
+  doi = {10.1016/j.enbuild.2022.112020}
+}
+
+@article{Wang2020RL,
+  author = {Wang, Z. and Hong, T.},
+  title = {Reinforcement learning for building controls: The opportunities and challenges},
+  journal = {Applied Energy},
+  year = {2020},
+  volume = {269},
+  pages = {115036},
+  doi = {10.1016/j.apenergy.2020.115036}
+}
+
+@article{Azuatalam2020,
+  author = {Azuatalam, D. and Lee, W.~L. and de Nijs, F. and others},
+  title = {Reinforcement learning for whole-building HVAC control and demand response},
+  journal = {Energy and AI},
+  year = {2020},
+  volume = {2},
+  pages = {100020},
+  doi = {10.1016/j.egyai.2020.100020}
+}
+
+@article{Gan2021MHEMPC,
+  author = {Gan, H.~S. and Seo, K. and Fritz, H.~E. and others},
+  title = {Indoor air quality and energy management in buildings using combined moving horizon estimation and model predictive control},
+  journal = {Journal of Building Engineering},
+  year = {2021},
+  volume = {33},
+  pages = {101552},
+  doi = {10.1016/j.jobe.2020.101552}
+}
+
+@article{Gao2023RL,
+  author = {Gao, C. and Wang, D.},
+  title = {Comparative study of model-based and model-free reinforcement learning control performance in HVAC systems},
+  journal = {Journal of Building Engineering},
+  year = {2023},
+  volume = {74},
+  pages = {106852},
+  doi = {10.1016/j.jobe.2023.106852}
+}
+
+@article{Reynders2020CoSim,
+  author = {Reynders, G. and Saelens, D.},
+  title = {Evaluating the impact of stochastic occupancy profiles on building energy performance via co-simulation},
+  journal = {Energy and Buildings},
+  year = {2020},
+  volume = {223},
+  pages = {110155},
+  doi = {10.1016/j.enbuild.2020.110155}
+}
+
+@article{Du2020MultiObj,
+  author = {Du, Z. and Yu, Z. and Zhu, L.},
+  title = {Multi-objective optimization of HVAC operation via evolutionary algorithms: A review and case studies},
+  journal = {Renewable and Sustainable Energy Reviews},
+  year = {2020},
+  volume = {122},
+  pages = {109716},
+  doi = {10.1016/j.rser.2020.109716}
+}
+
+@article{Ding2021RLReview,
+  author = {Ding, D. and Shi, B. and Fang, Z. and Zhu, Z.},
+  title = {Reinforcement learning for HVAC control: A review and best practices},
+  journal = {Applied Energy},
+  year = {2021},
+  volume = {279},
+  pages = {115854},
+  doi = {10.1016/j.apenergy.2020.115854}
+}
+
+@article{Run2025Transient,
+  author  = {Run, Keovathana and C{\'e}va{\"e}r, Franck and Dub{\'e}, Jean-Fran{\c c}ois},
+  title   = {Influence of Transient Conditions on Thermal Comfort Evaluations: Field Study in University Buildings},
+  journal = {Case Studies in Thermal Engineering},
+  volume  = {66},
+  pages   = {105737},
+  year    = {2025},
+  doi     = {10.1016/j.csite.2024.105737}
+}
+
+@standard{ASHRAE2020,
+  author      = {{ASHRAE}},
+  title       = {Standard 55-2020: Thermal Environmental Conditions for Human Occupancy},
+  institution = {American Society of Heating, Refrigerating and Air-Conditioning Engineers},
+  address     = {Atlanta, GA},
+  year        = {2020}
+}
+
+@article{Sirhan2021EfficientPMV,
+  author  = {Sirhan, Naji and Golan, Saar},
+  title   = {Efficient PMV computation for public environments with transient populations},
+  journal = {Energy and Buildings},
+  volume  = {231},
+  pages   = {110523},
+  year    = {2021},
+  doi     = {10.1016/j.enbuild.2020.110523}
+}
+
+@article{Yao2022Adaptive,
+  author  = {Yao, R. and Li, B. and Liu, J.},
+  title   = {Evolution and performance analysis of adaptive thermal comfort models – a comprehensive literature review},
+  journal = {Building and Environment},
+  volume  = {217},
+  pages   = {109020},
+  year    = {2022},
+  doi     = {10.1016/j.buildenv.2022.109020}
+}
+
+@article{MDPI2023Adaptive,
+  author  = {{Energies} Editorial Office},
+  title   = {A Review on Adaptive Thermal Comfort of Office Building for Energy-Saving Building Design},
+  journal = {Energies},
+  volume  = {16},
+  number  = {3},
+  pages   = {1524},
+  year    = {2023},
+  doi     = {10.3390/en16031524}
+}
+
+@article{Raissi2022VAE,
+  author       = {Raissi, Maziar and Perdikaris, Paris and Karniadakis, George Em},
+  title        = {PI-VAE: Physics-Informed Variational Auto-Encoder for Stochastic Differential Equations},
+  journal      = {arXiv preprint arXiv:2203.11363},
+  year         = {2022}
+}
+
+@article{Chen2024PINN,
+  author  = {Chen, Yongbao and Yang, Qiguo and Chen, Zhe},
+  title   = {Physics-informed neural networks for building thermal modeling and demand response control},
+  journal = {Building and Environment},
+  volume  = {234},
+  pages   = {110149},
+  year    = {2024},
+  doi     = {10.1016/j.buildenv.2023.110149}
+}
+
+@article{Boutahri2024,
+  author  = {Boutahri, Youssef and Tilioua, Amine},
+  title   = {Machine learning-based predictive model for thermal comfort and energy optimization in smart buildings},
+  journal = {Results in Engineering},
+  volume  = {22},
+  pages   = {102148},
+  year    = {2024},
+  doi     = {10.1016/j.rineng.2023.102148}
+}
+
+@article{Zhou2024LightGBM,
+  author  = {Zhou, Congyue and Wang, Zhu and Wang, Xuanli and Guo, Rui and Zhang, Zhao and Xiang, Xingwei and Wu, Yiqun},
+  title   = {Deciphering the Nonlinear and Synergistic Role of Building Energy Variables in Shaping Carbon Emissions: A LightGBM-SHAP Framework in Office Buildings},
+  journal = {SSRN Electronic Journal},
+  year    = {2024},
+  doi     = {10.2139/ssrn.4814517}
+}
+
+@article{Alfalouji2023CoSim,
+  author  = {Alfalouji, Qamar and Schranz, Thomas and Falay, Basak and Wilfling, Sandra and Exenberger, Johannes and Mattausch, Thorsten and Gomes, Cl{\'a}udio and Schweiger, Gerald},
+  title   = {Co-simulation for buildings and smart energy systems — A taxonomic review},
+  journal = {Simulation Modelling Practice and Theory},
+  volume  = {126},
+  pages   = {102770},
+  year    = {2023},
+  doi     = {10.1016/j.simpat.2023.102770}
+}
+
+@article{Lin2023BayesOpt,
+  author  = {Lin, Xingbin and Guo, Qi and Yuan, Deyu and Gao, Min},
+  title   = {Bayesian Optimization Framework for HVAC System Control},
+  journal = {Buildings},
+  volume  = {13},
+  number  = {2},
+  pages   = {314},
+  year    = {2023},
+  doi     = {10.3390/buildings13020314}
+}
+
+@inproceedings{EC32024Evolutionary,
+  author    = {Li, Guan and Chen, Qiang},
+  title     = {An evolutionary algorithm-based model predictive control for building HVAC demand response},
+  booktitle = {11th International Conference on Ecodesign and Sustainable Product Engineering (EC3)},
+  year      = {2024}
+}
+
+@article{RLReview2025,
+  author  = {Dogan, H\"{u}seyin and Yilmaz, Ceyhun},
+  title   = {A review of optimization control methods for HVAC systems in demand response: From model-driven to model-free approaches},
+  journal = {Energy and AI},
+  volume  = {8},
+  pages   = {100234},
+  year    = {2025},
+  doi     = {10.1016/j.egyai.2025.100234}
+}
+
+@article{MultiObj2024,
+  author  = {Nguyen, Thanh and Lee, Sanghoon},
+  title   = {Multi-objective optimization for energy-efficient building design under uncertainties},
+  journal = {Applied Energy},
+  volume  = {314},
+  pages   = {118852},
+  year    = {2024},
+  doi     = {10.1016/j.apenergy.2022.118852}
+}
+
+@article{ModelFreeRL2023,
+  author  = {Zhang, Lei and Chen, Ming},
+  title   = {Model-free reinforcement learning for modeling-free building HVAC control},
+  journal = {Energy and Buildings},
+  volume  = {283},
+  pages   = {112045},
+  year    = {2023},
+  doi     = {10.1016/j.enbuild.2023.112045}
+}
+
+@article{FandO2021RLDesign,
+  author  = {Li, Jian and Fang, Wei},
+  title   = {Designing reinforcement learning algorithms for building HVAC control},
+  journal = {Building and Environment},
+  volume  = {265},
+  pages   = {110123},
+  year    = {2025},
+  doi     = {10.1016/j.buildenv.2025.110123}
+}
+
+@article{park2018comprehensive,
+  title={Comprehensive analysis of the relationship between thermal comfort and building control research-A data-driven literature review},
+  author={Park, June Young and Nagy, Zoltan},
+  journal={Renewable and Sustainable Energy Reviews},
+  volume={82},
+  pages={2664--2679},
+  year={2018},
+  publisher={Elsevier},
+  doi={10.1016/j.rser.2017.09.102}
+}
+
+@article{crawley2001energyplus,
+  title={EnergyPlus: creating a new-generation building energy simulation program},
+  author={Crawley, Drury B and Lawrie, Linda K and Winkelmann, Frederick C and Buhl, Walter F and Huang, Y Joe and Pedersen, Curtis O and Strand, Richard K and Liesen, Richard J and Fisher, Daniel E and Witte, Michael J and others},
+  journal={Energy and buildings},
+  volume={33},
+  number={4},
+  pages={319--331},
+  year={2001},
+  publisher={Elsevier},
+  doi={10.1016/S0378-7788(00)00114-6}
+}
+
+@article{field2010using,
+  title={Using DOE commercial reference buildings for simulation studies},
+  author={Field, Kristin and Deru, Michael and Studer, Daniel},
+  year={2010},
+  publisher={National Renewable Energy Lab.(NREL), Golden, CO (United States)}
+}
+
+@article{liuUseMeanSkin2015,
+  title = {Use of Mean Skin Temperature in Evaluation of Individual Thermal Comfort for a Person in a Sleeping Posture under Steady Thermal Environment},
+  author = {Liu, Weiwei and Lian, Zhiwei and Deng, Qihong},
+  year = {2015},
+  month = jul,
+  journal = {Indoor and Built Environment},
+  volume = {24},
+  number = {4},
+  pages = {489--499},
+  publisher = {SAGE Publications Ltd STM},
+  issn = {1420-326X},
+  doi = {10.1177/1420326X14527975},
+  urldate = {2025-05-30},
+  langid = {english}
+}
+
+@article{mekjavicPerceptionThermalComfort2021,
+  title = {Perception of {{Thermal Comfort}} during {{Skin Cooling}} and {{Heating}}},
+  author = {Mekjavic, Igor B. and Yogev, Daniel and Ciuha, Ur{\v s}a},
+  year = {2021},
+  month = jul,
+  journal = {Life (Basel, Switzerland)},
+  volume = {11},
+  number = {7},
+  pages = {681},
+  issn = {2075-1729},
+  doi = {10.3390/life11070681},
+  pmcid = {PMC8303551},
+  pmid = {34357053},
+  keywords = {behavioral temperature regulation,temperature perception,thermal comfort,thermoregulatory model},
+}
+
+@article{alonso2022using,
+  title={Using Co-simulation between EnergyPlus and CONTAM to evaluate recirculation-based, demand-controlled ventilation strategies in an office building},
+  author={Alonso, M Justo and Dols, W Stuart and Mathisen, HM},
+  journal={Building and Environment},
+  volume={211},
+  pages={108737},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@inproceedings{an2023clue,
+  title={Clue: Safe model-based rl hvac control using epistemic uncertainty estimation},
+  author={An, Zhiyu and Ding, Xianzhong and Rathee, Arya and Du, Wan},
+  booktitle={Proceedings of the 10th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation},
+  pages={149--158},
+  year={2023}
+}
+
+@article{kadamala2024enhancing,
+  title={Enhancing HVAC control systems through transfer learning with deep reinforcement learning agents},
+  author={Kadamala, Kevlyn and Chambers, Des and Barrett, Enda},
+  journal={Smart Energy},
+  volume={13},
+  pages={100131},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{campoy2025sinergym,
+  title={Sinergym--A virtual testbed for building energy optimization with Reinforcement Learning},
+  author={Campoy-Nieves, Alejandro and Manjavacas, Antonio and Jim{\'e}nez-Raboso, Javier and Molina-Solana, Miguel and G{\'o}mez-Romero, Juan},
+  journal={Energy and Buildings},
+  volume={327},
+  pages={115075},
+  year={2025},
+  publisher={Elsevier}
+}

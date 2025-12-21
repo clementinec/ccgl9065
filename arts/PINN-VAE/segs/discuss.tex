@@ -1,0 +1,44 @@
+\section{Limitations and Future Work}
+
+\subsection{Limitations}
+
+\paragraph{Scope of Physiological Modeling:} The current implementation relies on Gagge’s two-node model to constrain physiological variables (core and skin temperature, skin wettedness). While widely used, this model simplifies thermal regulation and may not fully capture inter-individual variability or responses under extreme thermal conditions, physical exertion, or transient exposures.
+
+\paragraph{Soft Constraints and Lack of Hard Guarantees:} The physiological constraints are enforced via soft penalties, which guide but do not guarantee adherence to biophysical bounds. In rare cases, especially under high imputation uncertainty or data sparsity, the model may still yield borderline physiological outputs that would not be biologically plausible under strict energy balance.
+
+\paragraph{Dataset Bias and Underrepresented Populations:} Despite combining two large-scale datasets, certain groups—such as older adults, children, or individuals in tropical and arid climates—remain underrepresented. As a result, predictions for these populations may not generalize without additional targeted data.
+
+\paragraph{Reliance on MAR Assumption:} While statistical tests and data context support the Missing At Random (MAR) assumption, any unobserved dependencies influencing missingness (i.e., potential MNAR characteristics) could theoretically affect imputation accuracy. However, VAE-based methods are generally considered robust under MAR, which we established as the most plausible scenario.
+
+\paragraph{Operational Feasibility for Real-Time Applications:} While model interpretability and prediction quality are improved, the added complexity of latent-variable inference and physiology-based losses increases training and inference time. This may limit near-term deployment in embedded or low-latency building control systems without further optimization.
+
+
+\subsection{Future Work}
+\noindent We therefore believe there are at least the following possible directions of future work for PINN-VAE and its variants for thermal sensation:
+\paragraph{Joint Optimization of Comfort and Physiology:} Given that PINN-VAE outputs not only thermal sensation but also skin and core temperatures, future work could explore control algorithms that co-optimize predicted thermal comfort and physiological deviation from neutral. This opens new opportunities for occupant-aware HVAC strategies that balance subjective sensation with biophysical safety margins.
+
+\paragraph{Integration of Wearable and Streaming Data:} Future deployments may leverage wearable sensors or IoT devices to dynamically update personal physiological inputs (e.g., real-time skin temperature or heart rate), enabling the PPI interface to adapt to intra-occupant variation or temporal changes such as illness, stress, or activity level.
+
+\paragraph{Architectural Simplification and Model Compression:} To support deployment in building systems with limited computational capacity, model compression techniques such as pruning, quantization, or teacher-student distillation could be applied to PINN-VAE. These techniques would aim to preserve interpretability while reducing inference time and memory usage.
+
+\paragraph{Alternative Physiological and Comfort Models:} The current architecture could be extended to accommodate other biothermal models (e.g., Stolwijk\cite{Stolwijk1971} or multi-segment models like JOS3\cite{Takahashi2002JOS}) or adaptive comfort formulations that better reflect behavioral and cultural variability. Comparative evaluation would help assess trade-offs in complexity and predictive value.
+
+\paragraph{Field Validation in Operational Settings:} Beyond retrospective evaluation, a key next step is validating PINN-VAE in real-world building environments, comparing predictions to occupant feedback and observed control behavior. This will test not only accuracy but also acceptance and integration into control workflows.
+
+\section{Conclusions}
+This study introduced a physiology-informed neural framework (PINN-VAE) that jointly addresses two core challenges in thermal comfort modeling: (i) imputing missing values in large observational datasets and (ii) improving predictive performance while preserving physiological interpretability. By embedding soft physiological constraints into a variational autoencoder pipeline and leveraging both tabular and personal-profile inputs, our model successfully balances the flexibility of data-driven imputation with the structure of thermoregulatory realism.
+
+We demonstrate that PINN-VAE achieves comparable or superior performance to traditional state-of-the-art models, particularly near the thermal neutral zone, where directional prediction errors are often most critical for occupant-centric applications. The inclusion of intermediate physiological outputs—core and skin temperatures—not only constrains unrealistic predictions but also offers interpretability advantages unavailable in tree-based or purely statistical models.
+
+Furthermore, the availability of intermediate physiological outputs ($\hat{T}_{\text{core}}, \hat{T}_{\text{skin}}, \hat{w}$) offers enhanced interpretability; beyond predicting sensation, monitoring these variables could enable systems to infer underlying physiological states, potentially allowing for more proactive or health-aware environmental control strategies that anticipate discomfort or thermal stress.
+
+Beyond thermal comfort, the PINN-VAE architecture offers a generalizable framework for combining latent-variable learning with physics-informed constraints. Its use could extend to domains such as biomechanics, energy metabolism modeling, or any setting where tabular physiological data are incomplete yet governed by known physical relationships.
+
+The Personalized Physiology Interface (PPI) further strengthens this framework by enabling the use of raw demographic variables (e.g., age, height, gender, weight) without degrading predictive performance. In doing so, the model preserves important physiological signal diversity without needing population-wide feature averaging or scaling.
+
+Compared to baseline LightGBM and unconstrained VAE architectures, our framework shows a measurable reduction in neutral-zone RMSE and direction-penalty asymmetry, reinforcing the hypothesis that physiology-informed modeling improves both accuracy and robustness. Overall, PINN-VAE offers a promising and interpretable path forward for occupant-aware control, particularly in systems where physiological realism and explainability are essential for deployment.
+
+
+
+\section*{Data and Code Availability}
+The code developed for the PINN-VAE model and the analysis presented in this paper is available on GitHub at [URL Currently Private] The final imputed dataset, generated using the best-performing model fold as described in Section~\ref{sec:PINN_VAE_Arch}, is available at request (currently sitting on private repository on github). The original ASHRAE Global Thermal Comfort Database II and Chinese Thermal Comfort Datasets are publicly available from their respective sources cited in the text.
