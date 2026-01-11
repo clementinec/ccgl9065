@@ -1,0 +1,969 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+\usepackage{caption}
+% Make caption package work with longtable
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={CCGL9065: Our Response to Climate Change: HK2100},
+  pdfauthor={Dr.~Hongshan Guo and Class},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{CCGL9065: Our Response to Climate Change: HK2100}
+\subtitle{Democracy and Capitalism}
+\author{Dr.~Hongshan Guo and Class}
+\date{}
+
+\begin{document}
+\frame{\titlepage}
+
+\section{This Week's Battlefield}\label{this-weeks-battlefield}
+
+\begin{frame}{Two Sides. Two Economic Worldviews.}
+\phantomsection\label{two-sides.-two-economic-worldviews.}
+PRO-CLIMATE
+
+= System Change
+
+= ``Capitalism caused this crisis''
+
+PRO-DEVELOPMENT
+
+= Market Solutions
+
+= ``Growth lifts all boats''
+\end{frame}
+
+\begin{frame}{The Core Tension}
+\phantomsection\label{the-core-tension}
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+PRO-CLIMATE & PRO-DEVELOPMENT \\
+\midrule\noalign{}
+\endhead
+System change needed & Reform within system \\
+Degrowth / post-growth & Green growth \\
+Collective ownership & Private innovation \\
+Regulation \& mandates & Market incentives \\
+Present suffering & Future prosperity \\
+\bottomrule\noalign{}
+\end{longtable}
+
+\textbf{This tension appears in every economic climate debate.}
+\end{frame}
+
+\begin{frame}{From last: Energy as the source of GHG contributor}
+\phantomsection\label{from-last-energy-as-the-source-of-ghg-contributor}
+Why do we care so much about understanding the role - and the lack
+thereof - of energy within the scope of understanding energy?
+
+Pro/Cons
+
+\begin{itemize}
+\tightlist
+\item
+  Why is energy so important?
+\item
+  Why can we not make do with lesser available energy?
+\item
+  What is causing the transition to pause?
+\item
+  Why have we came to this point where most of the energy sources are
+  known to have issues?
+\end{itemize}
+\end{frame}
+
+\section{When was it the earliest of all times that humans started to
+harvest
+energy?}\label{when-was-it-the-earliest-of-all-times-that-humans-started-to-harvest-energy}
+
+\section{CAMPFIRE}\label{campfire}
+
+\begin{frame}{But what about other energy sources and how they came to
+being?}
+\phantomsection\label{but-what-about-other-energy-sources-and-how-they-came-to-being}
+\begin{itemize}
+\tightlist
+\item
+  Industrial processes
+\item
+  1st and 2nd Industrial Revolution
+\item
+  Energy \& \textbf{SURPLUS}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Source
+  \item
+    Transportation
+  \item
+    End-User
+  \item
+    Importer (Much more complicated)
+  \end{itemize}
+\item
+  Energy issues arise when put out at scale
+\end{itemize}
+
+{Surplus exchange fostered market and currency, an aggregated version of
+which ultimately becomes capital.}
+\end{frame}
+
+\begin{frame}{{What is capital?}}
+\phantomsection\label{what-is-capital}
+The accumulated wealth of an individual, company or community, used as a
+fund for carrying on fresh production; wealth in any form used to help
+in producing more wealth.
+\end{frame}
+
+\begin{frame}{{What is Capitalism?}}
+\phantomsection\label{what-is-capitalism}
+``Capitalism and''Capitalist'' are 19th (middle 1800s) Centry
+Pejoratives.
+
+\begin{itemize}
+\item
+  enormous productive capacity.
+\item
+  always on the edge of being o.ut of control
+\item
+  attack the existing the economic system
+\item
+  not a highly productive system but an {\textbf{unjust stystem}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Who was this person whose photo was taken by Steichen?}
+\phantomsection\label{who-was-this-person-whose-photo-was-taken-by-steichen}
+\begin{itemize}
+\tightlist
+\item
+  Does he look warm and fuzzy?
+\item
+  What's he holding?
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=4.16667in,height=\textheight]{data/john-pierpont-morgan.jpg}
+
+}
+
+\caption{Do we know who this is?}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Capitalism is\ldots{} (per Karl Marx)}
+\phantomsection\label{capitalism-is-per-karl-marx}
+\begin{itemize}
+\tightlist
+\item
+  Disease for which scientific socialism is the cure;
+\item
+  A method by which to steal the labor of the exploited masses;
+\item
+  \emph{A system that undermines every traditionally established way of
+  making a living}; (known trademark of capitalism)
+\item
+  {A system that inevitably undermines its own foundations.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Capitalism is therefore per current definitions:}
+\phantomsection\label{capitalism-is-therefore-per-current-definitions}
+\begin{itemize}
+\tightlist
+\item
+  a name given by its enemies
+\item
+  a system relies heaviliy on the private use of capital combined with
+  profit motive founded on self/family interests
+\item
+  has hundreds of variations in terms of capitalism system, but the
+  essentials remains unchanged:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    private deployment of capital
+  \item
+    open acknowledgement of profit as a motive
+  \item
+    sympathetic understanding of self or household interests
+  \item
+    \emph{tolerance for innovation}: characteristic fact of historical
+    society is resistance to it as a kind of \textbf{human nature} to
+    resist fresh innovations.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Some side readings that I do recommend to take this class
+(and many more in the near future.)}
+\phantomsection\label{some-side-readings-that-i-do-recommend-to-take-this-class-and-many-more-in-the-near-future.}
+\begin{enumerate}
+\tightlist
+\item
+  Wealth of Nations (Smith, Bantum Paperback)
+\item
+  Manifesto (Marx)
+\item
+  The Consititution of Liberty (Hayek, market conservative and
+  conservative movement)
+\item
+  Farewell to Alms (Gregory Clarke, capitalism more and better,
+  polemical work written by economist)
+\item
+  The Mystery of Capital (Hernando Desoto, why less developed countries
+  exist in the world: formal and enforceable property rights are
+  precondition to capital devleopment)
+\item
+  A Failure of Capitalism (Posner, Judge, Conservative judge teaching at
+  Chicago law school, no obvious ideological distortion)
+\item
+  The Bottom Billion (Paul Collier, world bank economist, diagnosis and
+  a strategy for using capital development to alleviate most of the
+  world's poverty)
+\item
+  The White Tiger (Fiction, describing the realworld penetrating novel
+  written from the point of view of a very poor, smart and flawed young
+  man in south india. Man booker prize. 2008.)
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Quick Overview of Relevant Concepts Known to be tied to
+climate change}
+\phantomsection\label{quick-overview-of-relevant-concepts-known-to-be-tied-to-climate-change}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Capitalist Realism} (Frederic Jameson):
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Capitalism is the only viable economic system and that
+  \item
+    alternatives are unimaginable.
+  \end{itemize}
+\item
+  \textbf{Disaster Capitalism} (Naomi Klein): exploitation of natural
+  disasters and crises for profit.
+\item
+  \textbf{Surveillance Capitalism} (Shoshana Zuboff): using technology
+  to monitor and control individuals in the name of profit.
+\item
+  \textbf{Zero Marginal Cost Society} (Jeremy Rifkin):
+
+  \begin{itemize}
+  \tightlist
+  \item
+    hypothetical society
+  \item
+    technology and automation make goods and services virtually free,
+  \item
+    potentially leading to a post-scarcity economy.
+  \end{itemize}
+\item
+  \textbf{Green New Deal}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    proposed economic plan
+  \item
+    aims to transition the economy to become carbon-neutral and
+    environmentally sustainable while
+  \item
+    promoting social justice and economic growth.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Breaking it down a bit further with possible angles to
+propose solutions/interventions:}
+\phantomsection\label{breaking-it-down-a-bit-further-with-possible-angles-to-propose-solutionsinterventions}
+\begin{block}{The tragedy of the commons:}
+\phantomsection\label{the-tragedy-of-the-commons}
+\begin{itemize}
+\tightlist
+\item
+  Prioritize own interests over common goods
+\item
+  Individuals and Corporations
+\item
+  New economic system may help, but how?
+\end{itemize}
+\end{block}
+
+\begin{block}{The limitations of carbon pricing: price GHGs
+emissions(aka pay to pollute)}
+\phantomsection\label{the-limitations-of-carbon-pricing-price-ghgs-emissionsaka-pay-to-pollute}
+\begin{itemize}
+\tightlist
+\item
+  usual solution to climate change
+\item
+  TLDR explanation: pricing pollution
+\item
+  might include: carbon credit (right), carbon tax (all), carbon offset
+  (+/-)
+\item
+  government selling right to pollute?
+\item
+  moving price target with carbon worsening/improving?
+\item
+  carbon-for-trade or carbon-for-profit?
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Continued: The need for a post-growth economy:}
+\phantomsection\label{continued-the-need-for-a-post-growth-economy}
+\begin{itemize}
+\tightlist
+\item
+  Continued growth mindset is unsustainable
+\item
+  New economic system that prioritize environmental sustainability with
+  a focus on well-being, equity and sustainability over GDP growth
+\end{itemize}
+
+\begin{block}{Bhutan's Gross National Happiness}
+\phantomsection\label{bhutans-gross-national-happiness}
+\begin{itemize}
+\tightlist
+\item
+  Measuring progress through Gross National Happiness Index
+\item
+  Emphasize well-being, environmental conervation and cultural
+  preservation
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Collective ownership:}
+\phantomsection\label{collective-ownership}
+\begin{itemize}
+\tightlist
+\item
+  Shift from individual ownership to collective models
+\item
+  Prioritize community and environmental needs
+\end{itemize}
+
+\begin{block}{Mondragon Corporation in Spain}
+\phantomsection\label{mondragon-corporation-in-spain}
+\begin{itemize}
+\tightlist
+\item
+  Corporation and federation of worker cooperative based in Basque
+  region of spain
+\item
+  One of the largest cooperatives, owned and operated by workers
+\item
+  Emphasize social and community benefits over individual profit
+\end{itemize}
+\end{block}
+
+\begin{block}{Community Land Trusts}
+\phantomsection\label{community-land-trusts}
+\begin{itemize}
+\tightlist
+\item
+  Nonprofit, community-based orgnization
+\item
+  Aim to propvide affordable housing by owning and managing land
+  collectively (e.g.~Boston, London)
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Paradigm Shift in Economics}
+\phantomsection\label{paradigm-shift-in-economics}
+\begin{itemize}
+\tightlist
+\item
+  Exploration of steady-state and circular economies
+\item
+  Long-term sustainability and meeting societal needs
+\item
+  Reevaluating values and assumptions in capitalism
+\end{itemize}
+
+\begin{block}{New Zealand's Wellbeing Budget:}
+\phantomsection\label{new-zealands-wellbeing-budget}
+\begin{itemize}
+\tightlist
+\item
+  prioritize national well-being over traditional economic measures
+\item
+  spending focused on mental health, child poverty, and environmental
+  preservation.
+\end{itemize}
+\end{block}
+
+\begin{block}{Nordic Model:}
+\phantomsection\label{nordic-model}
+\begin{itemize}
+\tightlist
+\item
+  Scandinavian countries (Sweden, Norway, Denmark, Finland, and Iceland)
+\item
+  free market capitalism + comprehensive welfare state and collective
+  bargaining at national level
+\item
+  focusing on social equality and well-being.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Mixed Economy Approach}
+\phantomsection\label{mixed-economy-approach}
+\begin{itemize}
+\tightlist
+\item
+  Combining capitalism and socialism elements
+\item
+  Balancing economic growth with environmental sustainability
+\end{itemize}
+
+\begin{block}{Germany's Social Market Economy:}
+\phantomsection\label{germanys-social-market-economy}
+\begin{itemize}
+\tightlist
+\item
+  A capitalist economic system + a framework of social policies
+\item
+  balancing free enterprise with social welfare measures and
+  environmental protection.
+\end{itemize}
+\end{block}
+
+\begin{block}{Singapore's Blend of Capitalism and Social Policies:}
+\phantomsection\label{singapores-blend-of-capitalism-and-social-policies}
+\begin{itemize}
+\tightlist
+\item
+  competitive and open market policies + strong state intervention
+\item
+  seen effect in housing, healthcare, and public transport to ensure
+  social welfare.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{General Public's Obvious Response}
+\phantomsection\label{general-publics-obvious-response}
+\begin{block}{Understanding Role in a Sustainable Future}
+\phantomsection\label{understanding-role-in-a-sustainable-future}
+\begin{itemize}
+\tightlist
+\item
+  Every action counts\\
+\item
+  Lead by example\\
+\item
+  Inspire change in your community
+\end{itemize}
+\end{block}
+
+\begin{block}{Possible Actions to take}
+\phantomsection\label{possible-actions-to-take}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Community Participation}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Join or start local sustainability initiatives\\
+  \item
+    Engage in community-based conservation projects
+  \end{itemize}
+\item
+  \textbf{Educate and Spread Awareness}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Share knowledge about sustainability practices\\
+  \item
+    Encourage friends and family to adopt eco-friendly habits
+  \end{itemize}
+\item
+  \textbf{Practice Responsible Consumption}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Support ethical and sustainable brands\\
+  \item
+    Reduce, reuse, recycle in daily life
+  \end{itemize}
+\item
+  \textbf{Personal Investment in Sustainability}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Use public transportation, bike, or walk when possible\\
+  \item
+    Grow your own food or support local, sustainable agriculture
+  \item
+    Invest in renewable energy and electric vehicles/efficient
+    appliances
+  \end{itemize}
+\end{itemize}
+\end{block}
+\end{frame}
+
+\section{Building Your Economic
+Spectacle}\label{building-your-economic-spectacle}
+
+\begin{frame}{The Formula (Reminder)}
+\phantomsection\label{the-formula-reminder}
+\textbf{Fact} + \textbf{Human Story} + \textbf{Stakes} =
+\textbf{Spectacle}
+
+Weak
+
+``Capitalism causes emissions''
+
+Better
+
+``100 companies produce 71\% of global emissions''
+
+Spectacle
+
+``While you recycle, Shell knew about climate change in 1988 and spent
+millions denying it''
+\end{frame}
+
+\begin{frame}{PRO-CLIMATE: Make It Personal}
+\phantomsection\label{pro-climate-make-it-personal}
+\textbf{Don't say:} ``Carbon pricing has limitations.''
+
+\textbf{Say:} ``They want you to pay more for petrol while ExxonMobil
+gets tax breaks. You're being charged for their mess.''
+
+\textbf{Don't say:} ``We need systemic change.''
+
+\textbf{Say:} ``Your grandfather could afford a house on one salary. You
+can't afford rent on two. That's not laziness --- that's a system
+extracting everything from you.''
+\end{frame}
+
+\begin{frame}{PRO-DEVELOPMENT: Paint the Picture}
+\phantomsection\label{pro-development-paint-the-picture}
+\textbf{Don't say:} ``Markets drive innovation.''
+
+\textbf{Say:} ``In 2010, solar cost \$378/MWh. Today: \$36. That's not
+government mandates --- that's competition. Capitalism did that.''
+
+\textbf{Don't say:} ``We need economic growth.''
+
+\textbf{Say:} ``My grandmother grew up without electricity in rural
+China. Capitalism gave her grandchildren air conditioning, smartphones,
+and choices. Don't take that away in the name of the planet.''
+\end{frame}
+
+\begin{frame}
+\end{frame}
+
+\section{\texorpdfstring{A broader debate between pro-climate change
+advocates who support {\emph{dynamic market solutions}} and anti-climate
+change voices who {\emph{caution against departures from traditional
+economic
+practices}}.}{A broader debate between pro-climate change advocates who support dynamic market solutions and anti-climate change voices who caution against departures from traditional economic practices.}}\label{a-broader-debate-between-pro-climate-change-advocates-who-support-dynamic-market-solutions-and-anti-climate-change-voices-who-caution-against-departures-from-traditional-economic-practices.}
+
+\section{\texorpdfstring{Think Tesla ({if you have
+to.})}{Think Tesla (if you have to.)}}\label{think-tesla-if-you-have-to.}
+
+\begin{frame}{What are the possible negative impact if as a society we
+switch to a new economy model that turns out to be wrong?}
+\phantomsection\label{what-are-the-possible-negative-impact-if-as-a-society-we-switch-to-a-new-economy-model-that-turns-out-to-be-wrong}
+\begin{itemize}
+\tightlist
+\item
+  Economic Slowdown
+\item
+  Investment Displacement
+\item
+  Innovation Misdirection: innovation encouraged in the \emph{wrong}
+  sector
+\item
+  Increased Cost of Living: carbon tax reflected in day-to-day expenses
+\item
+  Energy Insecurity
+\item
+  Unintended Environmental Consequences: e.g.~promoting biofuels too
+  much leading to deforestation
+\item
+  Social and Economic Inequality: Unfair to those without means of
+  transition, exacerbating inequalities
+\item
+  Resistance and Backlash
+\end{itemize}
+\end{frame}
+
+\begin{frame}{PRO-CLIMATE Arguments for a Resilient HK Economy}
+\phantomsection\label{pro-climate-arguments-for-a-resilient-hk-economy}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Innovative Market Solutions}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Embrace green tech startups and innovations.
+  \item
+    Foster a competitive market for renewable energy.
+  \end{itemize}
+\item
+  \textbf{Flexible Economic Models}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Test sustainable business practices and circular economy models.
+  \item
+    Encourage investment in green infrastructure and public transport
+    upgrades.
+  \end{itemize}
+\item
+  \textbf{Public-Private Partnerships}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Collaborate on sustainability projects, like smart city initiatives.
+  \item
+    Leverage private capital for public good, with government
+    incentives.
+  \end{itemize}
+\item
+  \textbf{Policy Reforms for Sustainability}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Implement progressive environmental regulations that encourage
+    innovation.
+  \item
+    Introduce carbon pricing to incentivize low-carbon operations.
+  \end{itemize}
+\item
+  \textbf{Community Engagement and Education}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Increase public awareness campaigns on environmental issues.
+  \item
+    Support community-led sustainability initiatives for broader impact.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{PRO-DEVELOPMENT Arguments for HK's Economy}
+\phantomsection\label{pro-development-arguments-for-hks-economy}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Economic Stability Focus}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Prioritize economic growth and stability over experimental green
+    policies.
+  \item
+    Maintain a business-friendly environment to ensure job security.
+  \end{itemize}
+\item
+  \textbf{Proven Strategies Only}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Rely on established, efficient technologies and practices.
+  \item
+    Avoid untested economic models that risk market disruption.
+  \end{itemize}
+\item
+  \textbf{Minimal Regulatory Changes}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Caution against over-regulation that could hinder business
+    operations.
+  \item
+    Advocate for voluntary corporate sustainability measures.
+  \end{itemize}
+\item
+  \textbf{Cost-Benefit Analysis}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Evaluate environmental initiatives based on ROI and economic impact.
+  \item
+    Ensure environmental policies do not overly burden SMEs.
+  \end{itemize}
+\item
+  \textbf{Incremental Improvements}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Focus on gradual enhancements in energy efficiency and waste
+    management.
+  \item
+    Support small-scale, low-risk green initiatives with clear benefits.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\end{frame}
+
+\section{Activity: Economic Futures
+Debate}\label{activity-economic-futures-debate}
+
+\begin{frame}{Create Your Persona}
+\phantomsection\label{create-your-persona}
+\textbf{PRO-CLIMATE personas:}
+
+\begin{itemize}
+\tightlist
+\item
+  Labor union organizer fighting for just transition
+\item
+  Economist advocating degrowth
+\item
+  Community activist in polluted industrial zone
+\item
+  Youth climate striker
+\end{itemize}
+
+\textbf{PRO-DEVELOPMENT personas:}
+
+\begin{itemize}
+\tightlist
+\item
+  Hong Kong business owner worried about regulations
+\item
+  Developing-nation finance minister
+\item
+  Tech entrepreneur building ``green'' startups
+\item
+  Traditional economist focused on GDP growth
+\end{itemize}
+
+Who are you? What's your story? What do you fear losing?
+\end{frame}
+
+\begin{frame}{Remember: Fact-Check Your Stories}
+\phantomsection\label{remember-fact-check-your-stories}
+Every story must be \textbf{fact-checkable}.
+
+OK to Say
+
+\begin{itemize}
+\tightlist
+\item
+  ``Shell knew about climate change in 1988'' \emph{(documented)}
+\item
+  ``Solar costs dropped 89\% since 2010'' \emph{(IEA data)}
+\item
+  ``Bhutan measures Gross National Happiness'' \emph{(policy fact)}
+\end{itemize}
+
+NOT OK
+
+\begin{itemize}
+\tightlist
+\item
+  ``Capitalism has killed millions'' \emph{(vague, unverifiable)}
+\item
+  ``Green policies destroy all jobs'' \emph{(exaggeration)}
+\item
+  ``Degrowth will solve everything'' \emph{(unfounded claim)}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Human Story: The Shenzhen Factory Worker}
+\phantomsection\label{human-story-the-shenzhen-factory-worker}
+\textbf{Mei Li} worked 12-hour shifts making electronics for
+\$400/month. Her factory was shut down for ``environmental violations.''
+
+\textbf{PRO-CLIMATE says:} ``Finally! That factory was poisoning the
+river. Workers like Mei deserve clean air.''
+
+\textbf{PRO-DEVELOPMENT says:} ``Mei lost her job. Her family went
+hungry. Now she begs on the street. Was the clean river worth it?''
+
+\textbf{The real question:} How do we transition without leaving Mei
+behind?
+
+\emph{Both narratives are emotionally powerful. Both are incomplete.
+Your job: Find the fuller story.}
+\end{frame}
+
+
+
+\end{document}

@@ -53,14 +53,15 @@ We use **Hong Kong 2100** as the theater of this speculative design work. The ou
 
 ```{=html}
 <div class="resource-grid">
+  <a href="activity_guide.html" class="resource-item">Activity Guide</a>
   <a href="data/W1_Handout.pdf" class="resource-item">Week 1 Handout</a>
-  <a href="data/notion_portfolio_template.md" class="resource-item">Notion Template</a>
+  <a href="data/notion_guide.md" class="resource-item">Notion Setup Guide</a>
   <a href="data/slack_post_template.md" class="resource-item">Slack Post Guide</a>
   <a href="data/slack_setup_guide.md" class="resource-item">Slack Setup Guide</a>
 </div>
 ```
 
-Printable handouts, portfolio templates, and guides for Notion + Slack workflow.
+The [Activity Guide](activity_guide.html) explains how weekly debates work: group roles, the Spectacle Formula, synthesis flow, and documentation templates.
 
 ## Resources
 
@@ -69,14 +70,16 @@ Printable handouts, portfolio templates, and guides for Notion + Slack workflow.
   <div>
     <h3>Tutorials</h3>
     <ul>
-      <li><a href="data/9065_tut_01.html">Tutorial Primer</a></li>
-      <li><a href="data/portfolio_roadmap.html">Portfolio Roadmap</a></li>
+      <li><a href="9065_tut_01.html">Tutorial Primer</a></li>
+      <li><a href="portfolio_roadmap.html">Portfolio Roadmap</a></li>
+      <li><a href="genai/">GenAI Module</a></li>
     </ul>
   </div>
   <div>
     <h3>Getting Started</h3>
     <ul>
-      <li><a href="https://lopsided-impulse-a75.notion.site/CCGL9065-Our-Response-to-Climate-Change-Week-1-Us-vs-the-AI-17bd799d0aaa807ebf77f30ec2831e8f?pvs=4">Personal Research Doc (Notion)</a></li>
+      <li><a href="data/notion_guide.md">Notion Setup Guide</a></li>
+      <li><a href="https://petite-impatiens-e81.notion.site/2e52932a4d0a800fb84ce93ee974aa0b?v=2e52932a4d0a80ef90ad000cd9030046">Portfolio Template (Notion)</a></li>
     </ul>
   </div>
 </div>

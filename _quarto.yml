@@ -1,5 +1,10 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "arts/*.qmd"
+    - "genai/*.qmd"
+    - "!data/"
 
 website:
   title: "CCGL9065"
@@ -7,6 +12,12 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - text: Assessment Items
+        menu:
+          - href: portfolio_roadmap.qmd#weekly-research-reflection-20
+            text: Weekly Reflection
+          - href: portfolio_roadmap.qmd#deliverable-1-final-reflective-essay-20
+            text: Final Portfolio
       - href: ind.qmd
         text: Portfolios|2024
 

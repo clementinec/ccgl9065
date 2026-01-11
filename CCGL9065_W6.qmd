@@ -1,6 +1,6 @@
 ---
 title: "CCGL9065: Our Response to Climate Change: HK2100"
-subtitle: “Democracy “and Capitalism”
+subtitle: "Democracy and Capitalism"
 author: Dr. Hongshan Guo and Class
 
 format:
@@ -13,9 +13,6 @@ format:
     embed-resources: true
     incremental: true
     center: true
-  beamer:
-    aspect-ratio: "4:3"
-    slide-size: [800, 600] # This might not directly set dimensions in Beamer, as Beamer uses predefined sizes, but it's a way to suggest desired proportions.
 
 ---
 

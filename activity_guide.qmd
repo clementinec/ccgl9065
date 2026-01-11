@@ -1,0 +1,247 @@
+---
+title: "Activity Guide"
+subtitle: "CCGL9065: How to Run Weekly Debates"
+author: "Dr. Hongshan Guo"
+toc: true
+---
+
+This guide explains the structure of weekly in-class activities. Keep this handy throughout the semester.
+
+---
+
+## The Weekly Rhythm
+
+Every week follows the same pattern:
+
+| Phase | Time | What Happens |
+|-------|------|--------------|
+| **Lecture** | 50 min | Facts, stakes, ammunition for both sides |
+| **Activity** | 50 min | Groups form, synthesize, present, debate |
+
+---
+
+## Activity Flow (50 min)
+
+### The Standard Structure
+
+| Phase | Time | What to Do |
+|-------|------|------------|
+| **Form Groups** | 2 min | Split into PRO and CON sides |
+| **Assign Roles** | 3 min | Each person takes a role |
+| **Persona Creation** | 5 min | Who are you? What's your story? |
+| **Research Synthesis** | 10 min | Pool your homework, build arguments |
+| **Presentation Prep** | 10 min | Craft your 3 key points as stories |
+| **Presentations** | 10 min | Each side presents (5 min each) |
+| **Open Debate** | 8 min | Cross-fire, rebuttals, questions |
+| **Debrief** | 2 min | Key takeaways, what worked |
+
+---
+
+## Group Roles
+
+Assign these at the start of each activity. Rotate weekly so everyone tries different roles.
+
+| Role | Responsibility |
+|------|----------------|
+| **Facilitator** | Keeps time, moves discussion forward, ensures everyone contributes |
+| **Researcher** | Pulls key facts from everyone's homework, checks sources |
+| **Storyteller** | Turns facts into narratives using the Spectacle Formula |
+| **Devil's Advocate** | Stress-tests arguments: "But what about...?" |
+| **Presenter** | Delivers the group's case to the class |
+
+### Why Roles Matter
+
+Without roles, groups default to:
+- One person doing all the work
+- Circular discussions that go nowhere
+- Arguments that stay at the "fact" level
+
+With roles:
+- Everyone has a job
+- Discussion has direction
+- Arguments become stories
+
+---
+
+## The Spectacle Formula
+
+This is how you turn facts into arguments that land.
+
+$$\text{Fact} + \text{Human Story} + \text{Stakes} = \text{Spectacle}$$
+
+### Levels of Argument
+
+| Level | Example | Impact |
+|-------|---------|--------|
+| **Weak** | "AI uses energy" | Forgettable |
+| **Better** | "AI uses more electricity than Pakistan" | Surprising |
+| **Spectacle** | "Your ChatGPT query costs a town its drinking water" | Unforgettable |
+
+### How to Build a Spectacle
+
+1. **Start with a fact** — verified, sourced, real
+2. **Find the human** — who is affected? Name them if possible
+3. **Raise the stakes** — what's at risk? What's lost?
+4. **Make it personal** — connect to your audience's life
+
+### The Line: Persuasion vs. Propaganda
+
+| Persuasion (OK) | Propaganda (NOT OK) |
+|-----------------|---------------------|
+| Selecting real facts | Inventing facts |
+| Framing verified stories | Fabricating stories |
+| Making real data vivid | Exaggerating beyond evidence |
+| Sourced statistics | Made-up numbers |
+
+**Before you use any story, ask:**
+
+1. Can I cite a source?
+2. Could someone fact-check this and find it's true?
+3. Am I framing reality or inventing it?
+
+If you can't answer YES to all three — don't use it.
+
+---
+
+## Research Synthesis (10 min)
+
+This is where your pre-class homework becomes group ammunition.
+
+### The Flow
+
+| Step | Time | What to Do |
+|------|------|------------|
+| **Share** | 3 min | Everyone reads out their best finding from Slack/Notion |
+| **Sort** | 3 min | Group findings by theme: Energy? Jobs? Equity? |
+| **Select** | 2 min | Pick your 3 strongest facts |
+| **Story** | 2 min | Storyteller drafts narratives for each |
+
+### Synthesis Questions
+
+- What's the **most surprising** fact we have?
+- What's the **most human** story we can tell?
+- What fact do we have that the **other side can't counter**?
+- What's our **weakest point** and how do we defend it?
+
+---
+
+## Presentation Prep (10 min)
+
+### Structure Your 5 Minutes
+
+| Segment | Time | Content |
+|---------|------|---------|
+| **Hook** | 30 sec | Open with your most powerful story/image |
+| **Argument 1** | 90 sec | Your strongest point as a spectacle |
+| **Argument 2** | 90 sec | Your second-strongest point |
+| **Argument 3** | 60 sec | Third point or preemptive defense |
+| **Close** | 30 sec | Call to action or memorable line |
+
+### Presenter Tips
+
+- **Don't read** — know your points, speak naturally
+- **Make eye contact** — with the other side, not just your team
+- **Use pauses** — let your big moments land
+- **End strong** — last line should be memorable
+
+---
+
+## Open Debate (8 min)
+
+### Rules of Engagement
+
+1. **Address the argument, not the person**
+2. **Ask questions, don't just attack**
+3. **Concede good points** — "That's fair, but..."
+4. **Redirect, don't deny** — "Even if that's true, it doesn't address..."
+
+### Useful Phrases
+
+| To Do | Say |
+|-------|-----|
+| Challenge a claim | "Where's the source for that?" |
+| Reframe | "You're focusing on X, but the real issue is Y" |
+| Concede and counter | "That's a valid concern, but consider..." |
+| Call out exaggeration | "That's one case. Is it representative?" |
+| Redirect | "Even if true, does that justify...?" |
+
+---
+
+## Debrief (2 min)
+
+Quick reflection at the end:
+
+- What argument from the **other side** actually worked on you?
+- What was your side's **weakest moment**?
+- What would you do **differently** next time?
+
+---
+
+## Weekly Documentation
+
+### What to Track in Your Notion Portfolio
+
+Each week, add:
+
+```
+WEEK [#]: [Topic]
+
+MY POSITION THIS WEEK: [PRO-X / PRO-Y]
+
+BEST FACT I FOUND:
+- Source:
+- Why it matters:
+
+BEST STORY I HEARD (from either side):
+- What it was:
+- Why it worked:
+
+MY ARGUMENT (the one I delivered or helped build):
+- Fact:
+- Human story:
+- Stakes:
+
+WHAT I LEARNED:
+- About the topic:
+- About argumentation:
+```
+
+### Why Document?
+
+1. Your portfolio grows all semester
+2. Final project draws from your weekly work
+3. Patterns emerge — you'll see what kinds of arguments you're good at
+4. You own your intellectual development
+
+---
+
+## Quick Reference: Activity Checklist
+
+Before class:
+- [ ] Research done
+- [ ] Best finding posted to Slack
+
+During activity:
+- [ ] Role assigned
+- [ ] Persona created
+- [ ] 3 arguments prepared
+- [ ] Spectacle formula applied
+- [ ] Presentation delivered
+
+After class:
+- [ ] Week documented in Notion
+- [ ] Best arguments noted
+- [ ] Lessons learned captured
+
+---
+
+## The Goal
+
+You're not here to "win" debates. You're here to:
+
+1. **Understand all sides** — argue PRO one week, CON the next
+2. **Build narrative skills** — turn data into stories people feel
+3. **Recognize persuasion** — know it when you see it, know how to do it
+4. **Stay honest** — powerful arguments that are also true
+
+**Facts don't change minds. Stories do. Your job: Tell true stories that move people.**

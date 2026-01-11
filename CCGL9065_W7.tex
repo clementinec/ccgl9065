@@ -1,0 +1,1274 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+\usepackage{caption}
+% Make caption package work with longtable
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={CCGL9065: Our Response to Climate Change: HK2100},
+  pdfauthor={Dr.~Hongshan Guo and Class},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{CCGL9065: Our Response to Climate Change: HK2100}
+\subtitle{Futurologist, Fake News and Histories}
+\author{Dr.~Hongshan Guo and Class}
+\date{}
+
+\begin{document}
+\frame{\titlepage}
+
+\section{This Week's Battlefield}\label{this-weeks-battlefield}
+
+\begin{frame}{Two Sides. Two Views on Truth.}
+\phantomsection\label{two-sides.-two-views-on-truth.}
+PRO-CLIMATE
+
+= Scientific Consensus Matters
+
+= ``Denialism is dangerous''
+
+PRO-DEVELOPMENT
+
+= Question Everything
+
+= ``Skepticism is healthy''
+\end{frame}
+
+\begin{frame}{The Core Tension}
+\phantomsection\label{the-core-tension}
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+PRO-CLIMATE & PRO-DEVELOPMENT \\
+\midrule\noalign{}
+\endhead
+Trust the science & Question the models \\
+Expert consensus & Healthy skepticism \\
+Urgency requires action & Uncertainty requires caution \\
+Denialism is funded & Alarmism is funded too \\
+Facts over feelings & Predictions often fail \\
+\bottomrule\noalign{}
+\end{longtable}
+
+\textbf{This tension defines debates about truth, expertise, and
+action.}
+\end{frame}
+
+\begin{frame}{1: Introduction to Futurology}
+\phantomsection\label{introduction-to-futurology}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Futurology Defined}: Systematic study of future possibilities.
+\item
+  \textbf{Diverse Practitioners}: Wide range of contributors.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Insurance agents}: Assess future risks.
+  \item
+    \emph{Artists}: Imagine futuristic concepts.
+  \end{itemize}
+\item
+  Sci-Fi to life: Arthur C. Clarke's satellite prediction
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Predicted geostationary (on-orbit) satellites in 1945.
+  \item
+    Basis for modern communications.
+  \item
+    Launch of Syncom (1963)
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{2: Learning from the Past}
+\phantomsection\label{learning-from-the-past}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Historical Patterns}: Guide to forecasting.
+\item
+  \textbf{Einstein's Insight}: ``New thinking for new problems.''
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Recognizing the need for innovative solutions.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{3: Multiple Histories}
+\phantomsection\label{multiple-histories}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Varied Perspectives}: History's multifaceted nature.
+\item
+  \textbf{Impact on Worldviews}: Shapes perception of the future.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Western vs.~Eastern narratives}: Different focuses and
+    lessons.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{4: Alternative Histories}
+\phantomsection\label{alternative-histories}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{`What Ifs' Exploration}: Examining different historical
+  outcomes.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Scenario}: If the Library of Alexandria survived.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Potential acceleration of scientific progress.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Influence on Future Thinking}: Alternative pasts lead to
+  diverse futures.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{5: The Power of Stories}
+\phantomsection\label{the-power-of-stories}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Narratives Influence Expectations}: Stories shape our view of
+  the future.
+\item
+  \textbf{Choosing Narratives}: Selecting which stories to carry
+  forward.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Moon Landing}: Symbolizes human achievement and potential.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Moon Landing}
+\phantomsection\label{moon-landing}
+\begin{figure}[H]
+
+{\centering \includegraphics{data/moonlandingcons.png}
+
+}
+
+\caption{Wiki Page on Moon Landing Conspiracy}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{5.1: Moon Landing Controversy - USA's Perspective}
+\phantomsection\label{moon-landing-controversy---usas-perspective}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Historic Achievement}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Apollo 11 moon landing in 1969 celebrated as a monumental success.
+  \item
+    Symbolized technological and exploratory supremacy.
+  \end{itemize}
+\item
+  \textbf{USSR's Skepticism}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Claims of inconsistencies in moon landing footage and photos.
+  \item
+    Allegations of the moon landing being a Cold War propaganda tool.
+  \end{itemize}
+\item
+  \textbf{Talking Points}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    USA emphasized transparency, broadcasting the landing live.
+  \item
+    Highlighted extensive documentation and astronaut testimonials.
+  \end{itemize}
+\item
+  \textbf{Contradictions \& Counterclaims}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Counteracted skepticism with scientific explanations and physical
+    moon rock samples.
+  \item
+    Addressed conspiracy theories directly in public discourse.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{5.2: Moon Landing Controversy - USSR's Perspective}
+\phantomsection\label{moon-landing-controversy---ussrs-perspective}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Space Race Competition}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Intense rivalry to achieve significant milestones first.
+  \item
+    Propaganda used to highlight Soviet space achievements.
+  \end{itemize}
+\item
+  \textbf{Casting Doubt}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Some Soviet officials and media suggested the moon landing could be
+    fabricated.
+  \item
+    Raised questions about the technological feasibility and safety.
+  \end{itemize}
+\item
+  \textbf{Talking Points}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Emphasized Soviet space firsts, like launching the first satellite,
+    Sputnik, and first man in space, Yuri Gagarin.
+  \item
+    Questioned the authenticity of NASA's moon landing evidence.
+  \end{itemize}
+\item
+  \textbf{Contradictions \& Counterclaims}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Despite public skepticism, some Soviet scientists acknowledged the
+    moon landing's authenticity.
+  \item
+    Over time, official stance softened, recognizing the achievement.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{6: Questioning Historical Accuracy}
+\phantomsection\label{questioning-historical-accuracy}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Reliability Issues}: Recognizing history's subjectivity.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Revisionist History}: How textbooks can skew perceptions.
+  \end{itemize}
+\item
+  \textbf{Diverse Future Scenarios}: Result from questioning historical
+  accuracy.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{7: The Influence of Fake Histories}
+\phantomsection\label{the-influence-of-fake-histories}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Fiction's Impact}: How fabricated stories can shape collective
+  memory.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Orson Welles' ``War of the Worlds''}:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      1938 radio drama caused public panic.
+    \item
+      Demonstrates power of narrative to influence reality.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Critical Thinking}: Importance of discerning fact from
+  fiction.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{8: Historical Revisionism}
+\phantomsection\label{historical-revisionism}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Changing Histories}: Continuous reinterpretation of past
+  events.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Reassessing Legacies}: How views on historical figures evolve.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Shifts in perception about figures like Columbus or Churchill.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Adapting Predictions}: Updating future forecasts with new
+  historical insights.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{9: Crafting Future Narratives}
+\phantomsection\label{crafting-future-narratives}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Imagining Future Stories}: Visioning what tales we'll tell.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Elon Musk's Mars Plan}: Envisions human settlement on Mars.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Represents ambition, exploration, and potential human resilience.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Narratives' Power}: Today's stories shape tomorrow's
+  realities.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{9.1: Western Media Perspective on the Ukrainian Invasion}
+\phantomsection\label{western-media-perspective-on-the-ukrainian-invasion}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Aggression Framing}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Described as an unprovoked act of aggression by Russia against
+    Ukraine's sovereignty.
+  \item
+    Emphasis on international law violations.
+  \end{itemize}
+\item
+  \textbf{Global Response}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Coverage of widespread international condemnation and sanctions
+    against Russia.
+  \item
+    Support for Ukraine highlighted, including aid and refugee
+    assistance.
+  \end{itemize}
+\item
+  \textbf{Humanitarian Focus}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Reports on the humanitarian crisis, including civilian casualties
+    and displacement.
+  \item
+    Stories of Ukrainian resilience and resistance.
+  \end{itemize}
+\item
+  \textbf{Critiques of Russian Narrative}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Questioning of Russian motives and justifications for the invasion.
+  \item
+    Examination of the impact on global stability and European security.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{9.2: Russian-Friendly Media Perspective on the Ukrainian
+Invasion}
+\phantomsection\label{russian-friendly-media-perspective-on-the-ukrainian-invasion}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Security Concerns}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Framing the action as a response to security threats and NATO's
+    eastward expansion.
+  \item
+    Emphasis on protecting Russian-speaking populations in Ukraine.
+  \end{itemize}
+\item
+  \textbf{Historical Context}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    References to historical ties between Russia and Ukraine to justify
+    intervention.
+  \item
+    Portrayal of the action as reclamation or unification, not invasion.
+  \end{itemize}
+\item
+  \textbf{Western Influence}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Accusations of Western meddling in Ukrainian affairs and provoking
+    conflict.
+  \item
+    Critique of Western sanctions as unjust and harmful to global
+    relations.
+  \end{itemize}
+\item
+  \textbf{Narrative Control}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Attempts to control the narrative through state media and censorship
+    of dissenting views.
+  \item
+    Dismissal of Western reports as biased or fake news.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{10: Embracing Complexity in Futurology}
+\phantomsection\label{embracing-complexity-in-futurology}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Forecasting Complexity}: The multifaceted nature of predicting
+  the future.
+\item
+  \textbf{Informed Approaches}: Leveraging a nuanced understanding of
+  history.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Butterfly Effect}: Small changes can lead to significant
+    consequences.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Understanding chaos theory's implications for prediction.
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{11: Known Historical Discrepancies of Climate-Change
+Related Stories}
+\phantomsection\label{known-historical-discrepancies-of-climate-change-related-stories}
+\end{frame}
+
+\begin{frame}{Mideval Warm Period}
+\phantomsection\label{mideval-warm-period}
+\begin{figure}[H]
+
+{\centering \includegraphics{data/MWP.png}
+
+}
+
+\caption{Mideval Warm Period (Wikipedia)}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{11.1: \textbf{Medieval Warm Period (MWP) Debate}:}
+\phantomsection\label{medieval-warm-period-mwp-debate}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Controversy}: The MWP refers to a time from about 950 to 1250
+  AD when temperatures were thought to be \textbf{unusually warm} in
+  some regions of the North Atlantic. The debate centers around the
+  extent, timing, and global impact of the MWP.
+\item
+  \textbf{Differing Interpretations}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Some climate change skeptics have used the MWP to argue that
+    \emph{current global warming is part of a natural climate
+    variability.}
+  \item
+    In contrast, the majority of climate scientists contend that current
+    warming is \textbf{unprecedented and largely anthropogenic}.
+  \end{itemize}
+\item
+  \textbf{Impact on Climate Change Discourse}: The controversy has
+  fueled discussions about the reliability of climate models and
+  historical climate data reconstructions.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\end{frame}
+
+\section{Building Your Truth
+Spectacle}\label{building-your-truth-spectacle}
+
+\begin{frame}{The Formula (Reminder)}
+\phantomsection\label{the-formula-reminder}
+\textbf{Fact} + \textbf{Human Story} + \textbf{Stakes} =
+\textbf{Spectacle}
+
+Weak
+
+``Misinformation is a problem''
+
+Better
+
+``Oil companies funded climate denial for 40 years''
+
+Spectacle
+
+``ExxonMobil's own scientists predicted climate change in 1982. Then the
+company spent millions telling you it wasn't real. They knew. They lied.
+You paid.''
+\end{frame}
+
+\begin{frame}{PRO-CLIMATE: Make It Personal}
+\phantomsection\label{pro-climate-make-it-personal}
+\textbf{Don't say:} ``Climate denial is funded by fossil fuel
+companies.''
+
+\textbf{Say:} ``The same playbook. The same PR firms. Tobacco companies
+denied cancer for decades. Oil companies denied warming for decades. You
+were the mark both times.''
+
+\textbf{Don't say:} ``Trust the scientific consensus.''
+
+\textbf{Say:} ``97\% of climate scientists agree. That's the same
+consensus level as `smoking causes cancer.' You wouldn't bet your life
+on the 3\%. Why bet your grandchildren's?''
+\end{frame}
+
+\begin{frame}{PRO-DEVELOPMENT: Paint the Picture}
+\phantomsection\label{pro-development-paint-the-picture}
+\textbf{Don't say:} ``Predictions have been wrong before.''
+
+\textbf{Say:} ``In 1970, scientists predicted an ice age. In 1989, they
+said the Maldives would be underwater by 2018. The Maldives just opened
+8 new luxury resorts. Excuse us for being skeptical.''
+
+\textbf{Don't say:} ``Healthy skepticism is scientific.''
+
+\textbf{Say:} ``They called Galileo a denier too. Science advances by
+questioning consensus, not by silencing dissent. Who's the real
+anti-science side?''
+\end{frame}
+
+\begin{frame}{Climate-Change as Fake, News from Trump's Claim (Case 1)}
+\phantomsection\label{climate-change-as-fake-news-from-trumps-claim-case-1}
+\begin{quote}
+``The concept of global warming was created by and for the Chinese in
+order to make U.S. manufacturing non-competitive.'' \emph{(Trump, Tweet,
+2012)}
+\end{quote}
+
+\note{\textbf{Critical Assessment (Speaker Notes):}\\
+Encourage students to verify statements through reputable, science-based
+historical timelines and scholarly publications, demonstrating that
+conspiracy claims typically lack credible sources.}
+\end{frame}
+
+\begin{frame}
+\begin{block}{Explanation \& Fact-check}
+\phantomsection\label{explanation-fact-check}
+\textbf{Explanation:}\\
+This is a conspiracy theory claiming climate change was intentionally
+fabricated by China to damage U.S. economic interests, without
+scientific or historical basis.
+
+\textbf{Fact-check:}\\
+Climate science dates back to the late 19th century, long before
+contemporary Chinese economic policies. It's supported by NASA, NOAA,
+and the IPCC.
+\end{block}
+\end{frame}
+
+\begin{frame}{Climate-Change as Fake, News from Trump's Claim, Case Two}
+\phantomsection\label{climate-change-as-fake-news-from-trumps-claim-case-two}
+\begin{quote}
+``It used to not be climate change, it used to be global warming\ldots{}
+That wasn't working too well because it was getting too cold all over
+the place.''\\
+\emph{(Trump, Interview with Piers Morgan, 2018)}
+\end{quote}
+
+\note{\textbf{Critical Assessment (Speaker Notes):}\\
+Educate students on the difference between short-term weather (variable)
+and climate (long-term averages and trends) to prevent conflating
+temporary phenomena with overall climate patterns.}
+\end{frame}
+
+\begin{frame}
+\begin{block}{Explanation \& Fact-check}
+\phantomsection\label{explanation-fact-check-1}
+\textbf{Explanation:}\\
+Trump confuses short-term weather variations with the long-term trend of
+climate change.
+
+\textbf{Fact-check:}\\
+Global temperatures have consistently risen over decades (NASA/IPCC).
+Terminology shifted to ``climate change'' reflecting broader impacts.
+\end{block}
+\end{frame}
+
+\begin{frame}{Hocky Stick Graph}
+\phantomsection\label{hocky-stick-graph}
+\begin{figure}[H]
+
+{\centering \includegraphics{data/hockey.jpg}
+
+}
+
+\caption{Hocky Stick Graph (Wikipedia)}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{11.2: \textbf{Hockey Stick Graph Controversy}:}
+\phantomsection\label{hockey-stick-graph-controversy}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Controversy}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The ``hockey stick graph,'' first published by Michael Mann and
+    colleagues in the late 1990s, showed a sharp rise in global
+    temperatures in the 20th century after a long period of relative
+    stability, resembling a hockey stick.
+  \item
+    Critics questioned the data sources, methodologies, and statistical
+    techniques used to create the graph.
+  \end{itemize}
+\item
+  \textbf{Differing Interpretations}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Skeptics used the controversy to challenge the consensus on
+    anthropogenic global warming,\\
+  \item
+    numerous scientific bodies and researchers have since reaffirmed the
+    graph's general conclusion about significant recent warming.
+  \end{itemize}
+\item
+  \textbf{Impact on Climate Change Discourse}: The controversy
+  highlighted the challenges of paleoclimate reconstruction and the
+  politicization of climate science.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Climategate}
+\phantomsection\label{climategate}
+\begin{figure}[H]
+
+{\centering \includegraphics{CCGL9065_W7_files/mediabag/maxresdefault.jpg}
+
+}
+
+\caption{Climate Gate Snippet}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{11.3: \textbf{Climategate Email Controversy}:}
+\phantomsection\label{climategate-email-controversy}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Controversy}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    In 2009, a significant number of emails and documents were leaked
+    from the University of East Anglia's Climatic Research Unit (CRU).
+  \item
+    Critics alleged that the emails showed scientists discussing
+    \emph{ways to manipulate data and suppress dissenting views}.
+  \end{itemize}
+\item
+  \textbf{Differing Interpretations}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Climate change skeptics claimed the emails proved scientific
+    misconduct and conspiracy among climate scientists.
+  \item
+    However, several independent investigations cleared the scientists
+    of wrongdoing, concluding that the emails were taken out of context.
+  \end{itemize}
+\item
+  \textbf{Impact on Climate Change Discourse}: ``Climategate'' fueled
+  public skepticism about climate science and the integrity of climate
+  researchers, despite the lack of evidence for scientific fraud.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Climate-Change as Fake, News from Trump's Claim, Case
+Three}
+\phantomsection\label{climate-change-as-fake-news-from-trumps-claim-case-three}
+\begin{quote}
+``The ocean is going to rise by 1/100th of an inch over 400 years.
+That's not our problem.''\\
+\emph{(Trump, Rally, December 2015)}
+\end{quote}
+
+\note{\textbf{Critical Assessment (Speaker Notes):}\\
+Guide students in consulting current scientific models and official
+reports, emphasizing reliance on measured data rather than anecdotal
+claims.}
+\end{frame}
+
+\begin{frame}
+\begin{block}{Explanation \& Fact-check}
+\phantomsection\label{explanation-fact-check-2}
+\textbf{Explanation:}\\
+Trump significantly understates sea-level rise projections and the
+associated risks.
+
+\textbf{Fact-check:}\\
+IPCC projects global sea levels could rise approximately 0.3--1.1 meters
+by 2100, causing severe impacts on coastal communities.
+\end{block}
+\end{frame}
+
+\begin{frame}{12.1 Enhancing Perspectives}
+\phantomsection\label{enhancing-perspectives}
+\begin{block}{What We Are Doing:}
+\phantomsection\label{what-we-are-doing}
+\begin{itemize}
+\tightlist
+\item
+  Engaging in a role-play activity that simulates a debate around the
+  theme of Decolonizing Ocean Science within the Hong Kong context.
+\item
+  You will assume roles advocating for Pro-Climate policies and
+  Pro-Development viewpoints, as well as various stakeholder positions.
+\end{itemize}
+\end{block}
+
+\begin{block}{Why We Are Doing It:}
+\phantomsection\label{why-we-are-doing-it}
+\begin{itemize}
+\tightlist
+\item
+  To explore diverse perspectives on complex issues that intersects
+  futurologists, fake news, and power of narratives in face of
+  historical accounts.
+\item
+  To understand the implications of policy decisions and scientific
+  practices on different communities and the environment.
+\item
+  \textbf{To foster empathy and critical thinking} by stepping into the
+  shoes of various stakeholders affected by these issues.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{12.2 Enhancing Perspectives (Continued)}
+\phantomsection\label{enhancing-perspectives-continued}
+\begin{block}{How does these activities help:}
+\phantomsection\label{how-does-these-activities-help}
+\begin{itemize}
+\tightlist
+\item
+  They highlights the nuances in the climate change debate on various
+  issues - angles of historical accounts that can/may be contradictory
+  for this week.
+\item
+  Encouraging informed discussions on how traditional and scientific
+  knowledge can complement each other in addressing pressing
+  environmental challenges.
+\end{itemize}
+\end{block}
+
+\begin{block}{Our Classroom Environment:}
+\phantomsection\label{our-classroom-environment}
+\begin{itemize}
+\tightlist
+\item
+  This is a \textbf{safe space} for exploration and discussion.
+\item
+  There are no wrong answers here, only opportunities to learn and
+  understand different viewpoints.
+\item
+  Respect and open-mindedness are our guiding principles. Every opinion
+  shared is valued and contributes to our collective learning.
+\item
+  Feedback and reflection are encouraged. This is a chance to voice
+  thoughts, ask questions, and grow from the experience.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{\href{countdown.qmd}{Let's Assign Groups Again}}
+\phantomsection\label{lets-assign-groups-again}
+\end{frame}
+
+\begin{frame}{Group Discussion Reform: Climate Change Persona Discussion
+(10 min)}
+\phantomsection\label{group-discussion-reform-climate-change-persona-discussion-10-min}
+\begin{enumerate}
+\tightlist
+\item
+  \textbf{Introductions}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Briefly introduce your persona:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Name, occupation, or role in society.
+    \item
+      One sentence on how climate change directly impacts your persona.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Round-table: Share Key Insights}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Identify one major climate issue your persona is most concerned
+    about and explain it to others
+  \item
+    Explain briefly how this issue directly affects your group or
+    personal priorities
+  \end{itemize}
+\item
+  \textbf{Converse more}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Engage with others by asking at least one question to another
+    persona about their views or challenges related to climate change.
+  \item
+    Respond openly, staying true to your persona's motivations, beliefs,
+    and professional interests.
+  \item
+    Any common grounds you could identify? Any persona from the group
+    has a better point?
+  \item
+    Acknowledge the different perspectives in a respectable manner and
+    decide on your champions!
+  \end{itemize}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Extra: Perspective Cheatsheets}
+\phantomsection\label{extra-perspective-cheatsheets}
+\end{frame}
+
+\begin{frame}{Ex.1: Pro-Climate Policy Suggestions}
+\phantomsection\label{ex.1-pro-climate-policy-suggestions}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Aggressive Emission Reductions}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Implement strict carbon caps.
+  \item
+    Incentivize renewable energy adoption.
+  \end{itemize}
+\item
+  \textbf{Sustainable Infrastructure}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Invest in green public transport.
+  \item
+    Retrofit buildings for energy efficiency.
+  \end{itemize}
+\item
+  \textbf{Conservation Efforts}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Expand protected natural areas.
+  \item
+    Promote biodiversity restoration projects.
+  \end{itemize}
+\item
+  \textbf{Green Innovation}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Fund research in sustainable technologies.
+  \item
+    Support startups with green solutions.
+  \end{itemize}
+\item
+  \textbf{Global Cooperation}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Strengthen international climate agreements.
+  \item
+    Provide aid for vulnerable countries' climate resilience.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Ex.2: Pro-Development Policy Stances}
+\phantomsection\label{ex.2-pro-development-policy-stances}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Economic Growth Focus}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Prioritize policies that ensure economic stability.
+  \item
+    Balance environmental regulations with business interests.
+  \end{itemize}
+\item
+  \textbf{Energy Independence}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Support a diverse energy portfolio, including fossil fuels.
+  \item
+    Invest in clean coal and natural gas technologies.
+  \end{itemize}
+\item
+  \textbf{Market-Driven Solutions}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Encourage voluntary corporate sustainability initiatives.
+  \item
+    Leverage market forces to drive environmental innovation.
+  \end{itemize}
+\item
+  \textbf{Adaptation Strategies}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Focus on adapting infrastructure to withstand climate impacts.
+  \item
+    Invest in flood defenses and drought-resistant agriculture.
+  \end{itemize}
+\item
+  \textbf{Regulatory Caution}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Avoid over-regulation that could hinder industrial competitiveness.
+  \item
+    Implement flexible policies that allow for business innovation.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Ex.3 General Public Engagement and Response to Climate
+Challenges and Misinformation}
+\phantomsection\label{ex.3-general-public-engagement-and-response-to-climate-challenges-and-misinformation}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Logistics Professionals}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Sustainable Practices}: Adopt green logistics and
+    transportation methods.
+  \item
+    \textbf{Fact-Checking}: Verify sources when addressing
+    climate-related logistics issues.
+  \end{itemize}
+\item
+  \textbf{Policymakers/Bureaucrats}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Informed Policy Making}: Base policies on scientific
+    evidence and consensus.
+  \item
+    \textbf{Public Education}: Lead initiatives to educate the public on
+    climate facts vs.~misinformation.
+  \end{itemize}
+\item
+  \textbf{Light Workers (Community and Social Workers)}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Community Resilience}: Support community-led climate
+    resilience and adaptation projects.
+  \item
+    \textbf{Misinformation Awareness}: Organize workshops to improve
+    media literacy on climate topics.
+  \end{itemize}
+\item
+  \textbf{Essential Workers}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Workplace Sustainability}: Advocate for sustainable
+    practices in essential services sectors.
+  \item
+    \textbf{Critical Engagement}: Question and verify climate
+    information related to their fields.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Ex.3 (Continued)}
+\phantomsection\label{ex.3-continued}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Farmers}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Climate-Smart Agriculture}: Implement and share practices
+    that increase resilience to climate change.
+  \item
+    \textbf{Local Knowledge Sharing}: Counter misinformation by sharing
+    local, evidence-based agricultural successes.
+  \end{itemize}
+\end{itemize}
+
+\begin{block}{General Strategies for All:}
+\phantomsection\label{general-strategies-for-all}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Critical Consumption of Information}: Practice critical
+  thinking and verify information through reputable sources.
+\item
+  \textbf{Community Dialogue}: Engage in open discussions to address
+  climate change misinformation.
+\item
+  \textbf{Advocacy and Activism}: Support and participate in campaigns
+  that advocate for truthful, science-based climate communication.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+
+\end{document}

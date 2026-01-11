@@ -13,9 +13,6 @@ format:
     embed-resources: true
     incremental: true
     center: true
-  beamer:
-    aspect-ratio: "4:3"
-    slide-size: [1600, 1200] # This might not directly set dimensions in Beamer, as Beamer uses predefined sizes, but it's a way to suggest desired proportions.
 
 ---
 
