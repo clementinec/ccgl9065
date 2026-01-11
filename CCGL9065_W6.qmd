@@ -19,6 +19,54 @@ format:
 
 ---
 
+# This Week's Battlefield
+
+---
+
+## Two Sides. Two Economic Worldviews.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= System Change
+
+= "Capitalism caused this crisis"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Market Solutions
+
+= "Growth lifts all boats"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+| PRO-CLIMATE | PRO-DEVELOPMENT |
+|-------------|-----------------|
+| System change needed | Reform within system |
+| Degrowth / post-growth | Green growth |
+| Collective ownership | Private innovation |
+| Regulation & mandates | Market incentives |
+| Present suffering | Future prosperity |
+
+**This tension appears in every economic climate debate.**
+:::
+
+---
+
 ## From last: Energy as the source of GHG contributor
 
 Why do we care so much about understanding the role - and the lack thereof - of energy within the scope of understanding energy?
@@ -203,6 +251,69 @@ monitor and control individuals in the name of profit.
   - Grow your own food or support local, sustainable agriculture
   - Invest in renewable energy and electric vehicles/efficient appliances
 
+# Building Your Economic Spectacle
+
+---
+
+## The Formula (Reminder)
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Fact** + **Human Story** + **Stakes** = **Spectacle**
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Weak
+:::
+"Capitalism causes emissions"
+:::
+
+::: {style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Better
+:::
+"100 companies produce 71% of global emissions"
+:::
+
+::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Spectacle
+:::
+"While you recycle, Shell knew about climate change in 1988 and spent millions denying it"
+:::
+:::
+
+---
+
+## PRO-CLIMATE: Make It Personal
+
+::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Carbon pricing has limitations."
+
+**Say:** "They want you to pay more for petrol while ExxonMobil gets tax breaks. You're being charged for their mess."
+
+**Don't say:** "We need systemic change."
+
+**Say:** "Your grandfather could afford a house on one salary. You can't afford rent on two. That's not laziness — that's a system extracting everything from you."
+:::
+
+---
+
+## PRO-DEVELOPMENT: Paint the Picture
+
+::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Markets drive innovation."
+
+**Say:** "In 2010, solar cost $378/MWh. Today: $36. That's not government mandates — that's competition. Capitalism did that."
+
+**Don't say:** "We need economic growth."
+
+**Say:** "My grandmother grew up without electricity in rural China. Capitalism gave her grandchildren air conditioning, smartphones, and choices. Don't take that away in the name of the planet."
+:::
+
+---
+
 # A broader debate between pro-climate change advocates who support <span style="color:red">_dynamic market solutions_</span> and anti-climate change voices who <span style="color:blue">_caution against departures from traditional economic practices_</span>.
 
 # Think Tesla (<span style="color:orange">if you have to.</span>)
@@ -218,7 +329,7 @@ monitor and control individuals in the name of profit.
 - Social and Economic Inequality: Unfair to those without means of transition, exacerbating inequalities
 - Resistance and Backlash
 
-##  Pro-CC Arguments/Solutions for a Resilient HK Economy
+##  PRO-CLIMATE Arguments for a Resilient HK Economy
 
 - **Innovative Market Solutions**:
   - Embrace green tech startups and innovations.
@@ -240,7 +351,7 @@ monitor and control individuals in the name of profit.
   - Increase public awareness campaigns on environmental issues.
   - Support community-led sustainability initiatives for broader impact.
 
-## Anti-CC Arguments/Solutions for HK's Economy
+## PRO-DEVELOPMENT Arguments for HK's Economy
 
 - **Economic Stability Focus**:
   - Prioritize economic growth and stability over experimental green policies.
@@ -261,4 +372,82 @@ monitor and control individuals in the name of profit.
 - **Incremental Improvements**:
   - Focus on gradual enhancements in energy efficiency and waste management.
   - Support small-scale, low-risk green initiatives with clear benefits.
+
+---
+
+# Activity: Economic Futures Debate
+
+---
+
+## Create Your Persona
+
+::: {style="font-size: 1.4em;"}
+**PRO-CLIMATE personas:**
+
+- Labor union organizer fighting for just transition
+- Economist advocating degrowth
+- Community activist in polluted industrial zone
+- Youth climate striker
+
+**PRO-DEVELOPMENT personas:**
+
+- Hong Kong business owner worried about regulations
+- Developing-nation finance minister
+- Tech entrepreneur building "green" startups
+- Traditional economist focused on GDP growth
+:::
+
+::: {style="font-size: 1.5em; font-weight: bold; margin-top: 30px;"}
+Who are you? What's your story? What do you fear losing?
+:::
+
+---
+
+## Remember: Fact-Check Your Stories
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #c0392b; text-align: center;"}
+Every story must be **fact-checkable**.
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+OK to Say
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "Shell knew about climate change in 1988" *(documented)*
+- "Solar costs dropped 89% since 2010" *(IEA data)*
+- "Bhutan measures Gross National Happiness" *(policy fact)*
+:::
+:::
+
+::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+NOT OK
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "Capitalism has killed millions" *(vague, unverifiable)*
+- "Green policies destroy all jobs" *(exaggeration)*
+- "Degrowth will solve everything" *(unfounded claim)*
+:::
+:::
+:::
+
+---
+
+## Human Story: The Shenzhen Factory Worker
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Mei Li** worked 12-hour shifts making electronics for $400/month. Her factory was shut down for "environmental violations."
+
+**PRO-CLIMATE says:** "Finally! That factory was poisoning the river. Workers like Mei deserve clean air."
+
+**PRO-DEVELOPMENT says:** "Mei lost her job. Her family went hungry. Now she begs on the street. Was the clean river worth it?"
+
+**The real question:** How do we transition without leaving Mei behind?
+:::
+
+::: {style="font-size: 1.3em; margin-top: 30px; color: #7f8c8d;"}
+*Both narratives are emotionally powerful. Both are incomplete. Your job: Find the fuller story.*
+:::
 

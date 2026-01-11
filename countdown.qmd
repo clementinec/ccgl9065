@@ -112,8 +112,8 @@ const GroupAssignment = {
     'Policy-makers/decision makers',
     'Technology and Innovation',
     'Service Provider/Essential Workers',
-    'Pro-CC expert',
-    'Anti-CC expert'
+    'Pro-Climate expert',
+    'Pro-Development expert'
   ],
 
   shuffleArray: function(array) {

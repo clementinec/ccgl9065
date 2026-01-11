@@ -14,7 +14,56 @@ format:
     incremental: true
     center: true
 ---
-## 
+
+# This Week's Battlefield
+
+---
+
+## Two Sides. Two Futures for Humanity.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Fix Earth First
+
+= "Space is escapism for billionaires"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Explore & Expand
+
+= "Humanity needs a backup plan"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+| PRO-CLIMATE | PRO-DEVELOPMENT |
+|-------------|-----------------|
+| Fix problems here first | Innovation needs frontiers |
+| Resources for Earth | Investment in future tech |
+| Billionaire vanity projects | Human species survival |
+| Rocket emissions matter | Space tech benefits everyone |
+| One planet is enough | Don't put all eggs in one basket |
+
+**This tension defines debates about humanity's future.**
+:::
+
+---
+
+##
 ![](data/kp720.jpg)
 
 ## 1: Introduction to the Modern Space Race
@@ -201,6 +250,113 @@ Following the Second World War, the United States and the Soviet Union competed 
 - **Ethical Exploration**:
   - Advocating for responsible and ethical conduct in all space endeavors.
   - Ensuring space exploration benefits humanity without compromising Earth's ecological balance.
+
+---
+
+# Building Your Space Spectacle
+
+---
+
+## The Formula (Reminder)
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Fact** + **Human Story** + **Stakes** = **Spectacle**
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Weak
+:::
+"Space exploration costs money"
+:::
+
+::: {style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Better
+:::
+"SpaceX is worth $100 billion"
+:::
+
+::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Spectacle
+:::
+"Elon Musk's rocket company is worth more than the entire climate adaptation budget of the 50 poorest countries combined."
+:::
+:::
+
+---
+
+## PRO-CLIMATE: Make It Personal
+
+::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Space exploration wastes resources."
+
+**Say:** "Jeff Bezos spent $5.5 billion on 11 minutes in space. That's more than the entire annual budget for UNICEF clean water programs. You're watching billionaires play astronaut while children die of thirst."
+
+**Don't say:** "We should focus on Earth."
+
+**Say:** "Mars has no oxygen, no water, no life. Earth has all three — and we're destroying them. The 'backup planet' fantasy is just rich people planning their escape."
+:::
+
+---
+
+## PRO-DEVELOPMENT: Paint the Picture
+
+::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Space technology has spinoffs."
+
+**Say:** "GPS, weather satellites, fire detection from orbit — space technology saves more lives per year than all climate NGOs combined. You want to cut that?"
+
+**Don't say:** "Humans need a backup planet."
+
+**Say:** "The dinosaurs didn't have a space program. They're extinct. One asteroid and everything we've built — every symphony, every cure, every child's laugh — gone forever. Space isn't escape. It's insurance."
+:::
+
+---
+
+## Human Story: The Overview Effect
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Every astronaut** who sees Earth from space reports the same thing: profound awe at Earth's fragility and unity. Borders disappear. The atmosphere looks impossibly thin.
+
+**PRO-CLIMATE says:** "That's the point! They realize Earth is all we have. Stop going to space — start protecting home."
+
+**PRO-DEVELOPMENT says:** "That's also the point! Only by going to space do we truly understand Earth. The environmental movement was born from the Apollo 8 'Earthrise' photo."
+
+**The real question:** Does space exploration wake us up to Earth's fragility — or distract us from saving it?
+:::
+
+---
+
+## Remember: Fact-Check Your Stories
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+OK to Say
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "One rocket launch = 300 tons CO₂" *(documented)*
+- "SpaceX valuation >$100 billion" *(financial records)*
+- "500,000+ debris pieces in orbit" *(ESA tracking)*
+:::
+:::
+
+::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+NOT OK
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "Billionaires don't care about Earth" *(mind-reading)*
+- "Space will save humanity" *(unfounded prophecy)*
+- "Rockets are the main cause of emissions" *(false — tiny %)*
+:::
+:::
+:::
+
+---
 
 ## 20. Change of Plan with role-finding this week
 

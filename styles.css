@@ -16,7 +16,8 @@
   --color-bg-alt: #f7fafc;
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-serif: "Source Serif Pro", Georgia, serif;
-  --max-width: 900px;
+  --max-width: 1100px;
+  --max-width-narrow: 900px;
   --spacing-unit: 1rem;
 }
 
@@ -293,9 +294,97 @@ li::before {
   letter-spacing: 0.02em;
 }
 
-/* ---------- Hide TOC on this page ---------- */
+/* ---------- Table of Contents ---------- */
 #TOC {
+  position: sticky;
+  top: 2rem;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+  padding-right: 1rem;
+  font-size: 0.875rem;
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#TOC li {
+  padding: 0.25rem 0;
+}
+
+#TOC li::before {
   display: none;
+}
+
+#TOC a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+
+#TOC a:hover {
+  color: var(--color-accent);
+}
+
+/* Pages with TOC get wider layout */
+.quarto-layout-page.toc-left #quarto-content,
+body.toc-left #quarto-content {
+  max-width: 1200px;
+}
+
+/* ---------- Wide Content Pages ---------- */
+.page-full #quarto-content,
+body:has(#TOC) #quarto-content {
+  max-width: 1200px;
+}
+
+/* Tables should be full width */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+th {
+  font-weight: 600;
+  color: var(--color-heading);
+  background: var(--color-bg-alt);
+}
+
+tr:hover {
+  background: var(--color-bg-alt);
+}
+
+/* Code blocks */
+pre {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin: 1.5rem 0;
+}
+
+code {
+  font-family: "SF Mono", "Fira Code", Consolas, monospace;
+  font-size: 0.875em;
+}
+
+/* Inline code */
+:not(pre) > code {
+  background: var(--color-bg-alt);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  color: var(--color-text);
 }
 
 /* ---------- Interactive Components (from original) ---------- */

@@ -15,10 +15,58 @@ format:
     center: true
 
 ---
- 
+
+# This Week's Battlefield
+
+---
+
+## Two Sides. Two Food Futures.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Transform the Food System
+
+= "Meat is murder (of the planet)"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Improve, Don't Replace
+
+= "Let people eat what they want"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+| PRO-CLIMATE | PRO-DEVELOPMENT |
+|-------------|-----------------|
+| Reduce meat consumption | Improve meat production |
+| Plant-based is the future | Choice and tradition matter |
+| Systemic dietary change | Individual freedom |
+| Global emissions focus | Local livelihoods focus |
+| Health + planet aligned | Economic stability priority |
+
+**This tension defines every food policy debate.**
+:::
+
+---
+
 #  Quick Recap From Two Weeks Ago
 - ‘Us against the AI’
-- Role-played as Pro/Anti-CC experts and diﬀerent professions
+- Role-played as Pro-Climate/Pro-Development experts and diﬀerent professions
 - Did a little bit of work on Notion
 - Skipped the Group Discussion
 
@@ -35,7 +83,7 @@ format:
 
 # CCGL9065: Our Response to Climate Change
 
-## Address Common Concerns on Pro/Anti-CC
+## Address Common Concerns on Pro-Climate/Pro-Development
 
 - Take Climate Change Pro/Against as stances
 - Discuss complex issues each week from various angles
@@ -43,7 +91,7 @@ format:
 - Role-play as people from diﬀerent social pockets
 
 
-## A little Brain-Storming with Pro-CC Stances
+## A little Brain-Storming with Pro-Climate Stances
 - Highlight how climate change impacts these areas and propose sustainable solutions or
 adaptations.
 - Tailor arguments to weekly themes to win more support through narratives/visuals/videos that shapes different people's perceptions
@@ -162,7 +210,112 @@ Meat alternatives offer significant potential for climate change mitigation, but
 
 ![](data/dai_bea_food.jpg)
 
+---
 
+# Building Your Food Spectacle
+
+---
+
+## The Formula (Reminder)
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Fact** + **Human Story** + **Stakes** = **Spectacle**
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Weak
+:::
+"Beef production causes emissions"
+:::
+
+::: {style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Better
+:::
+"1kg beef = 60kg CO₂. 1kg tofu = 2kg."
+:::
+
+::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Spectacle
+:::
+"Your steak emits more carbon than your car commute. You grill it on Sundays while lecturing kids to save the planet."
+:::
+:::
+
+---
+
+## PRO-CLIMATE: Make It Personal
+
+::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Livestock contributes to deforestation."
+
+**Say:** "Every burger in Hong Kong has a piece of the Amazon in it. You're eating rainforest."
+
+**Don't say:** "We should reduce meat consumption."
+
+**Say:** "Your grandparents ate meat once a week. Now you eat it twice a day. Guess which generation is destroying the planet?"
+:::
+
+---
+
+## PRO-DEVELOPMENT: Paint the Picture
+
+::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Dietary choices are personal."
+
+**Say:** "My grandmother survived famine. Now they want to tell her she can't have pork at Chinese New Year? That's not climate action — that's cultural erasure."
+
+**Don't say:** "Traditional farming supports livelihoods."
+
+**Say:** "Kill the cattle industry and you kill 50,000 farmers in the New Territories. Who retrains them? You? The activists?"
+:::
+
+---
+
+## Human Story: The Sai Kung Fisherman
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Uncle Wong** has fished Hong Kong waters for 40 years. Climate activists say his catch is unsustainable.
+
+**PRO-CLIMATE says:** "The fish stocks are collapsing. Wong is part of the problem. Buy farmed fish instead."
+
+**PRO-DEVELOPMENT says:** "Wong's family fished here for five generations. Now some university kid with a degree tells him he's destroying the ocean? He can barely afford rent."
+
+**The real question:** How do we protect both the ocean and Uncle Wong?
+:::
+
+---
+
+## Remember: Fact-Check Your Stories
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+OK to Say
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "Beef produces 60kg CO₂ per kg" *(FAO data)*
+- "Livestock uses 80% of agricultural land" *(documented)*
+- "Lab meat uses 90% less land" *(peer-reviewed studies)*
+:::
+:::
+
+::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+NOT OK
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "Meat is murder" *(moral claim, not fact)*
+- "Plant-based diets cure cancer" *(exaggeration)*
+- "All farmers are destroying the planet" *(false generalization)*
+:::
+:::
+:::
+
+---
 
 ## 
 
@@ -261,8 +414,8 @@ const GroupAssignment = {
     'Policy-makers/decision makers',
     'Technology and Innovation',
     'Service/Urban Workers',
-    'Pro-CC expert',
-    'Anti-CC expert'
+    'Pro-Climate expert',
+    'Pro-Development expert'
   ],
 
   shuffleArray: function(array) {

@@ -1,0 +1,346 @@
+---
+title: "Evaluation Criteria"
+subtitle: "What Gets an A? What Gets a D?"
+toc: true
+---
+
+## Assessment Overview
+
+| Component | Weight | What It Is |
+|-----------|--------|------------|
+| **Weekly Research & Reflection** | 20% | Your Notion portfolio + Slack contributions |
+| **Video Essay** | 20% | 1-minute video on how climate change affects you |
+| **Final Reflective Essay** | 20% | 750-word narrative that moves people to action |
+| **Visual Creation** | 20% | Collage communicating your climate solution |
+| **Participation** | 20% | In-class debates + tutorial engagement |
+
+---
+
+## Weekly Research & Reflection
+
+::: {.callout-tip}
+## What does "Reflection" mean?
+This isn't just journaling. Each week you **research** (find facts, stories, sources) AND **reflect** (what does this mean for you? how does it change your thinking? what surprised you?). Your Notion portfolio should show both: the evidence you gathered AND your thinking about it.
+:::
+
+Your weekly contributions are graded on **three equally important criteria**:
+
+```{=html}
+<div style="display: flex; justify-content: space-around; margin: 30px 0;">
+  <div style="text-align: center; width: 30%; background: #27ae60; color: white; padding: 20px; border-radius: 10px;">
+    <h3 style="margin: 0;">Verifiability</h3>
+    <p style="margin: 10px 0 0 0;">Can it be fact-checked?</p>
+  </div>
+  <div style="text-align: center; width: 30%; background: #3498db; color: white; padding: 20px; border-radius: 10px;">
+    <h3 style="margin: 0;">Creativity</h3>
+    <p style="margin: 10px 0 0 0;">Is your spectacle compelling?</p>
+  </div>
+  <div style="text-align: center; width: 30%; background: #9b59b6; color: white; padding: 20px; border-radius: 10px;">
+    <h3 style="margin: 0;">Conciseness</h3>
+    <p style="margin: 10px 0 0 0;">Did you say it efficiently?</p>
+  </div>
+</div>
+```
+
+---
+
+## Pillar 1: Verifiability (Can It Be Fact-Checked?)
+
+**This is non-negotiable.** Every fact, statistic, and story must have a source.
+
+| Grade | What It Looks Like |
+|-------|-------------------|
+| **A** | Every claim has a credible source (academic papers, major news outlets, official reports). Sources are recent and relevant. You could defend this in a court of fact-checkers. |
+| **B** | Most claims sourced, sources are credible. One or two minor claims might lack citation but are easily verifiable. |
+| **C** | Some sources provided, but quality is inconsistent. Some claims come from questionable sources (random blogs, old data, biased outlets). |
+| **D** | Few or no sources. Claims are vague ("studies show...") without specifics. Would fail a basic fact-check. |
+| **F** | Invented facts, fabricated statistics, or made-up stories. **This is academic dishonesty.** |
+
+### Acceptable Sources
+
+- Academic journals, peer-reviewed papers
+- Major news outlets (Reuters, AP, BBC, NYT, SCMP, etc.)
+- Government reports, UN/IPCC data
+- Official company reports, press releases
+- Reputable NGOs (WHO, Greenpeace, WWF, etc.)
+
+### Unacceptable Sources
+
+- Random blogs, personal websites
+- Social media posts (unless citing the original source)
+- Wikipedia (use it to *find* sources, not *as* a source)
+- "I heard that..." or "Everyone knows..."
+- AI-generated "facts" (ChatGPT can hallucinate)
+
+---
+
+## Pillar 2: Creativity (Is Your Spectacle Compelling?)
+
+You're not just reporting facts — you're **crafting narratives that move people**.
+
+| Grade | What It Looks Like |
+|-------|-------------------|
+| **A** | Your spectacle makes people *feel* something. Original framing that connects facts to human stakes. Memorable, quotable, emotionally resonant. Would work in a real campaign. |
+| **B** | Good attempt at emotional framing. The connection between fact and feeling is clear. Competent but not striking. |
+| **C** | Basic restatement of facts with some emotional language added. Feels formulaic. "AI is bad because it uses energy." |
+| **D** | Just listing facts with no narrative craft. No attempt to make it memorable or emotional. Reads like a Wikipedia summary. |
+| **F** | No original thought. Copy-pasted from sources. Or: fabricated emotional stories (see Verifiability). |
+
+### The Transformation Test
+
+**Weak (D):** "AI data centers consume 415 TWh of electricity annually."
+
+**Better (C):** "AI data centers use a huge amount of electricity — more than many countries."
+
+**Good (B):** "AI data centers consume more electricity than Pakistan, a country of 240 million people." *(Source: IEA 2024)*
+
+**Excellent (A):** "Training one large AI model emits as much carbon as five cars over their entire lifetimes. And we're building thousands of them — while telling kids to recycle." *(Source: Strubell et al. 2019)*
+
+::: {.callout-note}
+## Real example of fact-checking failure
+An earlier draft of this page claimed "one ChatGPT query powers a Pakistani home for a week." That sounded dramatic — but the math doesn't check out (a query uses ~0.01 kWh; a home uses ~50+ kWh/week). **We caught it because we applied the same test we're teaching you.** Always verify before you amplify.
+:::
+
+---
+
+## Pillar 3: Conciseness (Did You Say It Efficiently?)
+
+**Longer is not better.** Verbose writing signals unclear thinking.
+
+| Grade | What It Looks Like |
+|-------|-------------------|
+| **A** | Every word earns its place. Dense with insight, zero filler. Clear, punchy, memorable. |
+| **B** | Mostly efficient. Some sentences could be tightened but overall well-edited. |
+| **C** | Noticeable padding. Repetitive points. Could cut 30% without losing meaning. |
+| **D** | Rambling, unfocused. Buries good points in walls of text. Reader loses interest. |
+| **F** | Incoherent or clearly padded to meet a word count that doesn't exist. |
+
+### Word Count Guidelines
+
+| Component | Target | Maximum |
+|-----------|--------|---------|
+| **Weekly Notion entry** | 300-500 words | 750 words |
+| **Slack post** | 100-150 words | 200 words |
+| **Spectacle draft** | 1-2 sentences | 3 sentences |
+| **Final essay** | 600-750 words | 750 words (hard cap) |
+
+**Penalty for excessive length:** If you exceed the maximum by more than 20%, you lose one grade step (e.g., A → A-, B+ → B).
+
+---
+
+## Weekly Contribution Examples
+
+### Example A: Excellent
+
+```markdown
+**[PRO CLIMATE]**
+
+📊 **My Fact:**
+Training GPT-4 emitted an estimated 552 tons of CO₂ — equivalent to
+driving a car around Earth 22 times.
+Source: Strubell et al., 2019 (updated estimates via MIT Tech Review 2023)
+
+📖 **My Story:**
+In 2024, a Rice University engineering student took their own life.
+Friends reported overwhelming pressure from AI replacing entry-level jobs
+— the very jobs students train years to get.
+Source: Houston Chronicle, March 2024
+
+💥 **My Spectacle:**
+"You're training for jobs that won't exist by graduation. And every time
+you cheer for AI progress, you're cheering for your own obsolescence —
+powered by coal plants that give kids asthma."
+
+🔗 Full research: [Notion link]
+```
+
+**Why this is an A:**
+- Facts are specific, sourced, verifiable
+- Story is real, documented, emotionally resonant
+- Spectacle connects personal stakes (your job) to systemic harm (coal plants)
+- Concise — says a lot in few words
+
+---
+
+### Example B: Good
+
+```markdown
+**[PRO CLIMATE]**
+
+📊 **My Fact:**
+AI data centers are projected to use 945 TWh by 2030, more than
+doubling from 2024 levels.
+Source: IEA Energy and AI Report 2024
+
+📖 **My Story:**
+Microsoft pledged to be carbon negative by 2030, but their emissions
+increased 29% in 2023, largely due to AI infrastructure expansion.
+Source: Microsoft Sustainability Report 2024
+
+💥 **My Spectacle:**
+"Tech companies promise green AI while their emissions skyrocket.
+The pledge is marketing; the coal plant is real."
+
+🔗 Full research: [Notion link]
+```
+
+**Why this is a B:**
+- Well-sourced, verifiable facts
+- Story is corporate-level (less personal resonance)
+- Spectacle is clear but less emotionally punchy than an A
+
+---
+
+### Example C: Adequate
+
+```markdown
+**[PRO CLIMATE]**
+
+📊 **My Fact:**
+AI uses a lot of energy and this is growing fast.
+Source: Various news articles
+
+📖 **My Story:**
+Many tech workers are worried about AI taking their jobs and
+causing environmental problems.
+
+💥 **My Spectacle:**
+"AI is bad for the environment and we should be concerned about it."
+
+🔗 Full research: [Notion link]
+```
+
+**Why this is a C:**
+- Fact is vague, source is "various"
+- Story is generic, no specific case
+- Spectacle is a bland statement, not emotionally compelling
+- Would pass a fact-check but doesn't demonstrate mastery
+
+---
+
+### Example D: Poor
+
+```markdown
+**[PRO CLIMATE]**
+
+📊 **My Fact:**
+Studies show AI is destroying the planet.
+
+📖 **My Story:**
+I heard that lots of people are dying because of AI pollution.
+
+💥 **My Spectacle:**
+AI is killing us all and nobody cares.
+
+🔗 Full research: None
+```
+
+**Why this is a D:**
+- No sources
+- "Studies show" and "I heard" are red flags
+- Story is unverifiable
+- Spectacle is hyperbolic without factual backing
+- Would fail a fact-check
+
+---
+
+### Example F: Failing
+
+```markdown
+**[PRO CLIMATE]**
+
+📊 **My Fact:**
+AI has already killed 50,000 people from pollution-related deaths
+in the US alone.
+
+📖 **My Story:**
+There was a village in China where everyone died because a data
+center poisoned their water supply.
+
+💥 **My Spectacle:**
+"Big Tech is literally committing genocide and the government is
+covering it up."
+
+🔗 Full research: None needed, it's obvious
+```
+
+**Why this is an F:**
+- Fabricated statistics
+- Invented story
+- Inflammatory claims without evidence
+- This is misinformation, not persuasion
+- **Academic integrity violation**
+
+---
+
+## Video Essay (20%)
+
+A **1-minute video** using your own voice, images, and text on how climate change affects you personally.
+
+| Criterion | What We're Looking For |
+|-----------|----------------------|
+| **Personal Connection** | It's about *you* — your life, your community, your future. Not abstract facts. |
+| **Narrative Arc** | Has a beginning, middle, end. Takes the viewer somewhere. |
+| **Production Quality** | Clear audio, readable text, intentional visuals. Doesn't need to be fancy — needs to be watchable. |
+| **Fact-Grounded** | Any claims you make should be verifiable (same rules as weekly work). |
+
+---
+
+## Final Reflective Essay (20%)
+
+A **750-word narrative** that synthesizes what you've learned and advocates for a climate solution that could move people to action.
+
+| Criterion | What We're Looking For |
+|-----------|----------------------|
+| **Synthesis** | Draws on arguments and evidence from across the semester — not just one week. |
+| **Persuasive Narrative** | Tells a story, not a report. Makes the reader *feel* something. |
+| **Actionable** | Points toward something people can actually do. Not despair — direction. |
+| **Polished Writing** | Clear, concise, well-structured. Every sentence earns its place. |
+
+---
+
+## Visual Creation (20%)
+
+A **collage or visual piece** that communicates your climate solution alongside your final essay.
+
+| Criterion | What We're Looking For |
+|-----------|----------------------|
+| **Coherence with Essay** | The visual and written work tell the same story in different languages. |
+| **Visual Impact** | Grabs attention. Would work on a gallery wall or protest sign. |
+| **Intentional Choices** | Colors, composition, imagery — all deliberate, all meaningful. |
+| **Craft** | Shows effort and care. Medium doesn't matter (digital, collage, illustration) — execution does. |
+
+---
+
+## The Golden Rule
+
+```{=html}
+<div style="background: #1a1a2e; padding: 40px; border-radius: 12px; text-align: center; margin: 30px 0; border: 2px solid #f39c12;">
+  <h2 style="margin: 0; color: #f39c12; font-size: 1.8em;">Everything must be fact-checkable.</h2>
+  <p style="margin: 20px 0 0 0; font-size: 1.25em; color: #ffffff; line-height: 1.6;">
+    You're learning to persuade with <strong style="color: #4ade80;">real stories</strong>, not to deceive with fake ones.<br>
+    The power of a spectacle comes from its <strong style="color: #4ade80;">truth</strong> — not from invention.
+  </p>
+</div>
+```
+
+---
+
+## Quick Self-Check Before Submitting
+
+Ask yourself:
+
+1. ✅ Can someone Google my facts and find them true?
+2. ✅ Did I cite specific, credible sources?
+3. ✅ Is my story about real people/events, not hypotheticals?
+4. ✅ Does my spectacle make people *feel* something?
+5. ✅ Could I cut 20% without losing meaning?
+6. ✅ Would I be comfortable defending this in a debate?
+
+If you answered "no" to any of these, revise before submitting.
+
+---
+
+## Questions?
+
+Unclear about whether something counts as a credible source? Ask in `#general` on Slack or come to office hours. Better to check than to lose marks.

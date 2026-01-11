@@ -9,8 +9,8 @@ group = [
     "Social scientists and ethicists",
     "Tech industry professionals",
     "Self-defined (Pick as you wish)",
-    "Space Exploration Advocacy (Anti-CC)",
-    "Space exploration should be paused (Pro-CC)"
+    "Space Exploration Advocacy (Pro-Development)",
+    "Space exploration should be paused (Pro-Climate)"
 ]
 
 # Initialize session state variables if they don't exist
@@ -30,7 +30,7 @@ def select_item_phase_one():
     if st.session_state.remaining_group:
         st.session_state.occurrences += 1
         selected = random.choice(st.session_state.remaining_group)
-        if selected not in ["Space Exploration Advocacy (Anti-CC)", "Space exploration should be paused (Pro-CC)"]:
+        if selected not in ["Space Exploration Advocacy (Pro-Development)", "Space exploration should be paused (Pro-Climate)"]:
             st.session_state.phase_two_group.append(selected)
         st.session_state.selected_group.append((st.session_state.occurrences, selected))
         st.session_state.remaining_group.remove(selected)

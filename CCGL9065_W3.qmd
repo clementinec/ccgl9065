@@ -15,6 +15,53 @@ format:
     center: true
 ---
 
+# This Week's Battlefield
+
+---
+
+## Two Sides. Two Views on Consumption.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Consume Less, Better
+
+= "Fast fashion is a climate crime"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Affordable Access
+
+= "Fashion jobs lift millions from poverty"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+| PRO-CLIMATE | PRO-DEVELOPMENT |
+|-------------|-----------------|
+| Reduce consumption | Enable affordable clothing |
+| Slow fashion movement | Market-driven innovation |
+| Regulation of industry | Consumer choice |
+| Environmental costs matter | Jobs and livelihoods matter |
+| Quality over quantity | Accessibility for all |
+
+**This tension defines every fashion sustainability debate.**
+:::
+
+---
 
 ## The Impact of Fast Fashion
 - **Environmental Footprint**: Discuss the water usage, chemical pollution, and carbon emissions resulting from fast fashion production.
@@ -152,7 +199,7 @@ __Cons__:
 - Workers may be exposed to hazardous materials.
 - Downcycled products may ultimately still contribute to landfill waste.
 
-## Comparing Pro-CC and Anti-CC
+## Comparing Pro-Climate and Pro-Development
 
 | Sustainable Fashion Benefits | Potential Negative Environmental Impacts |
 |------------------------------|-------------------------------------------|
@@ -221,7 +268,86 @@ __Cons__:
 - **Negative Impacts**: Identifies hotspots of environmental concern, guiding efforts for reduction or mitigation.
 - **Comparative Analysis**: Allows for the comparison of products or processes for relative benefits/drawbacks.
 
-## Pro-CC on Fashion Sustainability
+---
+
+# Building Your Fashion Spectacle
+
+---
+
+## The Formula (Reminder)
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Fact** + **Human Story** + **Stakes** = **Spectacle**
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Weak
+:::
+"Jeans use a lot of water"
+:::
+
+::: {style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Better
+:::
+"One pair of jeans requires 7,500 liters of water"
+:::
+
+::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Spectacle
+:::
+"Your jeans drank more water than you will in 7 years. And you'll throw them away in 18 months."
+:::
+:::
+
+---
+
+## PRO-CLIMATE: Make It Personal
+
+::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Fast fashion causes pollution."
+
+**Say:** "The river in Dhaka where they dye your $15 dress runs blue one day, red the next. Children play in that water. You wear their poisoned river."
+
+**Don't say:** "We should buy less clothing."
+
+**Say:** "In 1960, the average American bought 25 garments a year. Now: 70. Your great-grandmother had one Sunday dress. You have a closet crisis."
+:::
+
+---
+
+## PRO-DEVELOPMENT: Paint the Picture
+
+::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Fashion provides jobs."
+
+**Say:** "Fatima in Bangladesh earns $100 a month sewing clothes. It's not much — but it's more than her mother made as a farm laborer. She sends her daughter to school. Want to close the factory?"
+
+**Don't say:** "Sustainable fashion is expensive."
+
+**Say:** "A $200 organic cotton shirt is a 'conscious choice' for a HKU student. For a cleaner in Sham Shui Po, it's a month's food budget. Who gets to be ethical?"
+:::
+
+---
+
+## Human Story: The Rana Plaza Collapse
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**In 2013**, the Rana Plaza factory in Bangladesh collapsed. 1,134 workers died. They were making clothes for Western brands.
+
+**PRO-CLIMATE says:** "This is fast fashion's true cost. Cheap clothes, dead workers. Every $5 t-shirt has blood on it."
+
+**PRO-DEVELOPMENT says:** "After Rana Plaza, safety standards improved. Jobs stayed. Boycotting Bangladesh doesn't save workers — it starves them."
+
+**The real question:** How do we make fashion ethical without making millions unemployed?
+:::
+
+---
+
+## PRO-CLIMATE on Fashion Sustainability
 
 - **Urgency in Fashion Reform**:
   - **Resource Intensity**: Highlight fashion's heavy water and energy use.
@@ -236,7 +362,7 @@ __Cons__:
   - **Fair Labor**: Stress the importance of ethical labor practices in sustainable brands.
 
 
-## Anti-CC on Fashion Sustainability
+## PRO-DEVELOPMENT on Fashion Sustainability
 
 - **Economic Considerations**:
   - **Cost Challenges**: Argue sustainable fashion's higher costs could limit access.
@@ -433,8 +559,8 @@ const GroupAssignment = {
     'Policy-makers/decision makers',
     'Technology and Innovation',
     'Service Provider/Essential Workers',
-    'Pro-CC expert',
-    'Anti-CC expert'
+    'Pro-Climate expert',
+    'Pro-Development expert'
   ],
 
   shuffleArray: function(array) {

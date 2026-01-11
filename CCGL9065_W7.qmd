@@ -18,7 +18,55 @@ format:
     slide-size: [1600, 1200] # This might not directly set dimensions in Beamer, as Beamer uses predefined sizes, but it's a way to suggest desired proportions.
 
 ---
- 
+
+# This Week's Battlefield
+
+---
+
+## Two Sides. Two Views on Truth.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Scientific Consensus Matters
+
+= "Denialism is dangerous"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Question Everything
+
+= "Skepticism is healthy"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+| PRO-CLIMATE | PRO-DEVELOPMENT |
+|-------------|-----------------|
+| Trust the science | Question the models |
+| Expert consensus | Healthy skepticism |
+| Urgency requires action | Uncertainty requires caution |
+| Denialism is funded | Alarmism is funded too |
+| Facts over feelings | Predictions often fail |
+
+**This tension defines debates about truth, expertise, and action.**
+:::
+
+---
+
 ## 1: Introduction to Futurology
 - **Futurology Defined**: Systematic study of future possibilities.
 - **Diverse Practitioners**: Wide range of contributors.
@@ -172,9 +220,74 @@ format:
   - **Impact on Climate Change Discourse**: 
     The controversy has fueled discussions about the reliability of climate models and historical climate data reconstructions.
 
-## Climate-Change as Fake, News from Trump's Claim
+---
 
-> “The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.”  
+# Building Your Truth Spectacle
+
+---
+
+## The Formula (Reminder)
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Fact** + **Human Story** + **Stakes** = **Spectacle**
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Weak
+:::
+"Misinformation is a problem"
+:::
+
+::: {style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Better
+:::
+"Oil companies funded climate denial for 40 years"
+:::
+
+::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Spectacle
+:::
+"ExxonMobil's own scientists predicted climate change in 1982. Then the company spent millions telling you it wasn't real. They knew. They lied. You paid."
+:::
+:::
+
+---
+
+## PRO-CLIMATE: Make It Personal
+
+::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Climate denial is funded by fossil fuel companies."
+
+**Say:** "The same playbook. The same PR firms. Tobacco companies denied cancer for decades. Oil companies denied warming for decades. You were the mark both times."
+
+**Don't say:** "Trust the scientific consensus."
+
+**Say:** "97% of climate scientists agree. That's the same consensus level as 'smoking causes cancer.' You wouldn't bet your life on the 3%. Why bet your grandchildren's?"
+:::
+
+---
+
+## PRO-DEVELOPMENT: Paint the Picture
+
+::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Predictions have been wrong before."
+
+**Say:** "In 1970, scientists predicted an ice age. In 1989, they said the Maldives would be underwater by 2018. The Maldives just opened 8 new luxury resorts. Excuse us for being skeptical."
+
+**Don't say:** "Healthy skepticism is scientific."
+
+**Say:** "They called Galileo a denier too. Science advances by questioning consensus, not by silencing dissent. Who's the real anti-science side?"
+:::
+
+---
+
+## Climate-Change as Fake, News from Trump's Claim (Case 1)
+
+> "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive."
 > *(Trump, Tweet, 2012)*
 
 :::{.notes}
@@ -271,7 +384,7 @@ IPCC projects global sea levels could rise approximately 0.3–1.1 meters by 210
 ### What We Are Doing:
 
   - Engaging in a role-play activity that simulates a debate around the theme of Decolonizing Ocean Science within the Hong Kong context.
-  - You will assume roles advocating for “pro-climate-change” (Pro-CC) policies and anti-climate-change (Anti-CC) viewpoints, as well as various stakeholder positions.
+  - You will assume roles advocating for Pro-Climate policies and Pro-Development viewpoints, as well as various stakeholder positions.
 
 ### Why We Are Doing It:
   - To explore diverse perspectives on complex issues that intersects futurologists, fake news, and power of narratives in face of historical accounts.
@@ -312,7 +425,7 @@ IPCC projects global sea levels could rise approximately 0.3–1.1 meters by 210
 ## Extra: Perspective Cheatsheets
 
 
-## Ex.1: Pro-CC Policy Suggestions
+## Ex.1: Pro-Climate Policy Suggestions
 
 - **Aggressive Emission Reductions**:
   - Implement strict carbon caps.
@@ -334,7 +447,7 @@ IPCC projects global sea levels could rise approximately 0.3–1.1 meters by 210
   - Strengthen international climate agreements.
   - Provide aid for vulnerable countries' climate resilience.
 
-## Ex.2: Anti-CC Policy Stances
+## Ex.2: Pro-Development Policy Stances
 
 - **Economic Growth Focus**:
   - Prioritize policies that ensure economic stability.

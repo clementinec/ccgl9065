@@ -15,6 +15,53 @@ format:
     incremental: false    
 ---
 
+# This Week's Battlefield
+
+---
+
+## Two Sides. Two Ways of Seeing.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Systems Thinking
+
+= "Everything is connected"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Targeted Solutions
+
+= "Fix what's broken, one thing at a time"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+| PRO-CLIMATE | PRO-DEVELOPMENT |
+|-------------|-----------------|
+| Holistic, interconnected | Focused, targeted |
+| Long-term ecosystem health | Short-term measurable wins |
+| Accept uncertainty | Demand proven solutions |
+| Precautionary principle | Cost-benefit analysis |
+| Everything affects everything | Solve one problem at a time |
+
+**This tension defines how we approach every climate intervention.**
+:::
+
+---
 
 ## 1: Revisiting Progress - At What Cost?
 
@@ -144,6 +191,71 @@ format:
 ## 5.4 Interconnectedness of species
 
 ![](https://kevinhesterdotlive.files.wordpress.com/2018/06/jenga_extinction.jpg){fig-align="center"}
+
+---
+
+# Building Your Systems Spectacle
+
+---
+
+## The Formula (Reminder)
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Fact** + **Human Story** + **Stakes** = **Spectacle**
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Weak
+:::
+"Ecosystems are interconnected"
+:::
+
+::: {style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Better
+:::
+"Removing wolves changed the course of rivers in Yellowstone"
+:::
+
+::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Spectacle
+:::
+"We killed the wolves. The rivers moved. Now we're surprised the planet fights back?"
+:::
+:::
+
+---
+
+## PRO-CLIMATE: Make It Personal
+
+::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Feedback loops amplify climate change."
+
+**Say:** "The ice melts. The dark water absorbs more heat. More ice melts. Your grandchildren inherit a feedback loop you started with your SUV."
+
+**Don't say:** "Systems thinking is important."
+
+**Say:** "You thought killing the wolves was about wolves. You didn't realize you were killing the rivers, the trees, the fish, the birds. What else are you killing right now without knowing?"
+:::
+
+---
+
+## PRO-DEVELOPMENT: Paint the Picture
+
+::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "We need targeted solutions."
+
+**Say:** "While they debate 'interconnectedness,' children in Delhi choke on smog. Install the air filters. Save the kids. Philosophize later."
+
+**Don't say:** "Precaution leads to paralysis."
+
+**Say:** "Waiting for perfect systems understanding means watching people die of preventable causes. A doctor doesn't wait for complete knowledge — they act. So should we."
+:::
+
+---
 
 ## 6: Urgent Climate Issues We Cannot Ignore
 
@@ -300,5 +412,84 @@ Certainly, let's break down the responses into shorter sub-bullets for clarity:
 ## 14.2 Collage Examples (Cont'd)
 ![](https://media.gettyimages.com/id/157398278/photo/global-warming-related-collage-of-newspaper-headlines.jpg?s=1024x1024&w=gi&k=20&c=RzoWeWVELCW5OalV07BArZhRgKY3U7xVgBJT2MoctwE=){fig-align="center"}
 
-## 14.3 Colalge Examples (Cont'd)
+## 14.3 Collage Examples (Cont'd)
 ![](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0c466d85713249.5d83bdaca50ae.png){fig-align="center"}
+
+---
+
+# Activity: Systems vs. Solutions Debate
+
+---
+
+## Create Your Persona
+
+::: {style="font-size: 1.4em;"}
+**PRO-CLIMATE (Systems Thinkers):**
+
+- Ecologist studying cascade effects
+- Indigenous elder with traditional knowledge
+- Climate scientist modeling feedback loops
+- Philosopher questioning reductionist thinking
+
+**PRO-DEVELOPMENT (Targeted Solutions):**
+
+- Engineer building air purification systems
+- Economist measuring intervention ROI
+- Public health official with limited budget
+- Politician needing visible wins before election
+:::
+
+::: {style="font-size: 1.5em; font-weight: bold; margin-top: 30px;"}
+Who are you? What's your story? What do you fear losing?
+:::
+
+---
+
+## Human Story: The Aral Sea
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**The USSR diverted rivers** to irrigate cotton fields. Simple, targeted solution. More cotton, more exports.
+
+**The Aral Sea disappeared.** Fishing communities died. Toxic dust storms now poison children 1000km away. The climate shifted.
+
+**PRO-DEVELOPMENT says:** "Hindsight is easy. They needed cotton. We need action, not paralysis."
+
+**PRO-CLIMATE says:** "They ignored the system. We're still ignoring it. How many more Aral Seas?"
+:::
+
+::: {style="font-size: 1.3em; margin-top: 30px; color: #7f8c8d;"}
+*Both sides have a point. Your job: Find the story that moves people without lying.*
+:::
+
+---
+
+## Remember: Fact-Check Your Stories
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #c0392b; text-align: center;"}
+Every story must be **fact-checkable**.
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+OK to Say
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "Wolves changed river courses in Yellowstone" *(documented)*
+- "Permafrost holds 2x atmospheric carbon" *(IPCC data)*
+- "The Aral Sea lost 90% of its volume" *(satellite images)*
+:::
+:::
+
+::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+NOT OK
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "All targeted interventions fail" *(false generalization)*
+- "Systems thinking solves everything" *(unfounded)*
+- "We've passed all the tipping points" *(exaggeration)*
+:::
+:::
+:::
+

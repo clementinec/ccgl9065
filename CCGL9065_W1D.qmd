@@ -1,8 +1,8 @@
 ---
 title: "CCGL9065: Our Response to Climate Change: HK2100"
-subtitle: "What is Climate Change, and How Do We See It? <br> and _Us vs. the AI_"
+subtitle: "Week 1: Us vs. the AI"
 author: "Dr. Hongshan Guo"
-format: 
+format:
   revealjs:
     slide-level: 2
     center: true
@@ -12,278 +12,1186 @@ format:
     height: 1300
     preview-links: auto
     embed-resources: true
-    incremental: false   
+    incremental: false
 ---
 
-<!-- # Welcome to HK2100: Our Response to Climate Change -->
-
-
-# Welcome to <span style="color:red">**CCGL9065 Our Response to Climate Change: HK2100**</span>
+# Part 1: Welcome
 
 ---
 
-## 1: **Why This Course?**
+##
 
-- Explore **climate change** as more than a scientific issue.
-- Understand **why** climate action is deprioritized, debated, or ignored.
-- Develop **skills to analyze narratives** and shape arguments for or against climate action.
-
----
-
-## 2: Framing the Semester's Focus
-
-**Big Question for This Course:**
-- Why is climate change, a crisis backed by science, often ignored or deprioritized?
-
-> *This semester is about exploring why science isn't enough—and how we structure and understand the narratives around climate action.*
-
----
-
-## 3: Do <span style="color:red">YOU</span> Believe in Climate Change?
-
-<!-- **Question 1:**  
-- "Do you believe climate change is real?"  
-    - Options: **Yes**, **No**, **Unsure**
-
-**Question 2:**  
-- "Do you believe humans are the primary cause of climate change?"  
-    - Options: Strongly Agree / Agree / Neutral / Disagree / Strongly Disagree -->
-- Do you think it's real?
-- How urgent do you believe it is to act upon it?
-
-::: {.notes}
-- Use Mentimeter to collect responses.
-- Move to the mentimeter page.
-- Frame results neutrally, emphasizing the diversity of views.
+::: {style="font-size: 2.5em; font-weight: bold;"}
+Welcome to
 :::
 
-<!-- ---
+::: {style="font-size: 4em; font-weight: bold; color: #c0392b;"}
+CCGL9065
+:::
 
-## 4: Interactive Poll 2: Priority vs. Belief Mapping
-
-**Poll Question:**  
-"Where do you stand on this coordinate system?"  
-
-- **X-axis**: "Climate Change is Real (True/False)"  
-- **Y-axis**: "How Urgent is Action? (Low/High Priority)"
-
-**Activity:**  
-- Use a live polling tool to plot responses visually. -->
-
----
-
-## 4: What do we make of the poll results?
-
-**Discussion Questions:**  
-1. "What do these results reveal about our class’s perspectives?"  
-2. "Why do you think some people deprioritize climate action, even if they believe it is real?"  
-
----
-
-## 5: Climate Change as A Scientific Fact
-- **Evidence**:  
-  - CO₂ levels > 420 ppm.  
-  - Global temperature rise: **+1.2°C since pre-industrial times.**  
-  - Impacts: sea-level rise, extreme weather, biodiversity loss, increasing wild fire.
-
-::: {.notes}
-- Co2 is a GHG that traps heat in the earth's atmosphere that amplifies the GH effect causing global warming.
-- Most of human history median is 280ppm. CO2 has risen dramatically since industrial revolution (~1750) from burning fossil fuels, deforestation and industrial processes - highest in at least 800,000 years data from ice cores.
-- It's current increasing by 2-3 PPM/year is unprecendented in earth's history outpacing natural changes that occurs over milennia.
-- Challenge the students: Expand and check on the global temperature rise/impacts accordingly? 
+::: {style="font-size: 2em;"}
+Our Response to Climate Change: Hong Kong 2100
 :::
 
 ---
 
+## This Course in 3 Lines
 
-## 6: The Challenge – No Action
+::: {style="font-size: 1.8em; line-height: 2;"}
+1. This is **not** a science course.
 
-Despite overwhelming evidence...  
+2. This is a course about **narratives, choices, and power**.
 
-- Climate change is often **ignored or deprioritized**.  
-
----
-
-### **Key Barriers to Action:**  
-1. **Cognitive Dissonance**:  
-   - Climate feels abstract or distant.  
-2. **Competing Narratives**:  
-   - Conflicts in media, politics, and corporate messaging.  
-- Poll again?
-
-::: {.notes}
-- Emphasize the disconnect between scientific evidence and societal response.  
-- Transition to *Don’t Look Up* to frame how pop culture illustrates this challenge.
+3. You will **debate, role-play, and design futures**.
 :::
 
-
-<!-- ## 10: Class Discussion on *Don’t Look Up*
-
-**Discussion Questions:**  
-1. "What do you think the movie says about how society handles urgent crises like climate change?"  
-2. "What are the biggest obstacles to communicating the urgency of climate action?"  
-
 ---
- -->
-## 7: Wrapping Up on First Half
 
-### Core Message:  
-- Climate change is a **scientific fact**, but narratives influence our willingness to act.  
-- This semester, we’ll learn to critically analyze these narratives and develop effective arguments.  
+## Quick Logistics
 
-**Next Steps:**  
-
-- Learn more and prepare for role-playing exercises next session after the break!
-
-
-
-## 8. Assessment Overview
-
-- **Participation Grades**:
-  - **7/10**: Presented once during the semester.
-  - **8.5/10**: Presented twice.
-  - **10/10**: Presented three or more times.
-- Participation is cumulative and rewards consistent engagement.
-- Other assessment items:
-  - Midterm and final projects (details in future sessions).
+::: {style="font-size: 1.5em;"}
+| | |
+|---|---|
+| **When** | Wednesdays, 15:00–16:50 |
+| **Where** | LE4 |
+| **Structure** | 50 min lecture + 50 min activity |
+| **Assessment** | Participation + Midterm + Final Portfolio |
+| **Handout** | [Week 1 PDF](data/W1_Handout.pdf) |
+:::
 
 ---
 
-## 9. Why Role-Playing Matters
-
-- **Purpose**: Explore diverse perspectives on climate change.
-- **Method**: Simulate real-world tensions and decision-making processes.
-- **Outcome**: Learn to structure arguments and craft narratives tied to societal roles.
+# How Each Week Works
 
 ---
 
-## 10. This Week’s Groups
+## The Weekly Battlefield
 
-- **Pro-CC Specialists:**  
-  - Advocate for prioritizing climate action.  
-  - Grounded in scientific consensus, long-term benefits, and moral responsibility.
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+Every week = a **new battlefield** of arguments.
 
-- **Anti-CC Specialists:**  
-  - Argue against prioritizing climate action.  
-  - Highlight economic costs, competing priorities, and feasibility concerns.
+A new topic. New facts. New angles of attack.
 
----
-
-## 11. Starting Next Week: Vocational Groups
-
-- **Six Vocational Groups:**  
-  1. Logistics/Transportation  
-  2. Farming/Food Procurement  
-  3. Energy and Industry  
-  4. Policy-Makers/Decision Makers  
-  5. Technology and Innovation  
-  6. Service/Urban Workers  
-
-- **Logistics for Next Week:**  
-  - Groups will be assigned via a lottery system at the start of class.
-  - You will define a persona within your assigned group to deeply engage with the topic.
+**Your job:** Research, build arguments, and debate.
+:::
 
 ---
 
-## 12. Persona Creation for Today
+## The Weekly Rhythm
 
-- Define your **Pro/Anti-CC Specialist persona**:
-  - **Pro-CC Example:**  
-    - A climate scientist, renewable energy CEO, or youth activist.
-  - **Anti-CC Example:**  
-    - A corporate lobbyist, skeptical journalist, or concerned taxpayer.
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 40px; border-radius: 15px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+First 50 min
+:::
+::: {style="font-size: 1.3em; margin-top: 20px; line-height: 1.6;"}
+**I present:**
 
-- Take **5 minutes** to decide:
-  - **Who are you?**
-  - **What motivates your stance?**
+- The facts
+- The stakes
+- Angles of attack
+- Both sides' ammunition
+:::
+:::
 
----
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 40px; border-radius: 15px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+Second 50 min
+:::
+::: {style="font-size: 1.3em; margin-top: 20px; line-height: 1.6;"}
+**You work:**
 
-## 13. Today’s Topic: US vs. AI
-
-- How should humanity approach the development of AI, especially in the context of climate change?
-    - Should we be **hostile** to AI development, focusing on its risks and energy costs?
-    - Or should we seek **co-existence**, leveraging AI's potential to address climate change?
-
-
-
-## 14. Pro-AI Arguments
-
-- AI can be a powerful tool to combat climate change:
-  1. **Optimizing energy use**:  
-     - AI models can optimize renewable energy grids and improve efficiency.
-  2. **Climate solutions**:  
-     - AI can model climate scenarios and suggest actionable policies.
-  3. **Promoting acceptance**:  
-     - AI-driven communication tools (e.g., personalized messaging) can increase public awareness and engagement.
-
-- AI increases **productivity**:  
-  - By automating repetitive tasks, AI frees up resources for innovation in green technologies.
+- Share your homework
+- Build group arguments
+- Present to the class
+- Debate the other side
+:::
+:::
+:::
 
 ---
 
-## 15. Anti-AI Arguments
+## Your Tools: Notion + Slack
 
-- **Energy-intensive technology**:  
-  - AI training models (e.g., large language models) consume enormous amounts of energy.  
-    - Example: Training one large model can emit as much carbon as five cars over their lifetime.  
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.8em; font-weight: bold;"}
+Your Notion Page
+:::
+::: {style="font-size: 1.3em; line-height: 1.6; margin-top: 15px;"}
+**Your personal portfolio**
 
-- **Risk of distraction**:  
-  - Over-reliance on AI may shift focus from simpler, more immediate solutions (e.g., lifestyle changes, policy enforcement).
+- Add research each week
+- Grows all semester
+- Becomes your final project
+- **You own it**
+:::
+:::
 
-- **Social challenges**:  
-  1. AI might exacerbate inequality, leaving vulnerable populations further behind.  
-  2. AI-driven misinformation can hinder climate action.
+::: {style="text-align: left; width: 45%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.8em; font-weight: bold;"}
+Slack Battlefield
+:::
+::: {style="font-size: 1.3em; line-height: 1.6; margin-top: 15px;"}
+**Weekly debate channels**
 
----
-
-## 16. Group Discussions
-
-- Spend **10 minutes** discussing in your groups:
-  - **Pro-CC Specialists**: Argue for embracing AI as a key tool in the fight against climate change.  
-  - **Anti-CC Specialists**: Argue that AI poses more risks than benefits in the climate context.  
-
-- Prepare 2-3 key points tied to:
-  - Energy use.
-  - Solutions or distractions.
-  - Social impacts.
-
----
-
-## 17. Group Presentations
-
-- Each group presents their stance:
-  - **Pro-AI Specialists**: 5 minutes.
-  - **Anti-AI Specialists**: 5 minutes.
-
-- Focus on the interplay between AI development and the urgency of addressing climate change.
+- Share your best findings
+- Discuss with classmates
+- Build group arguments
+- **Everyone can see**
+:::
+:::
+:::
 
 ---
 
-## 18. Debrief and Takeaways
+## The Flow
 
-- **Pro-AI Highlights**:  
-  - AI as a tool for innovation, efficiency, and public engagement.
-- **Anti-AI Highlights**:  
-  - AI’s energy costs and potential social risks outweigh its benefits.
+::: {style="font-size: 1.6em; line-height: 2;"}
+1. **Before class:** Research the topic → Add to your Notion page
 
-- **Broader Question**:  
-  - "How do societal priorities shape our relationship with technology and climate action?"
+2. **Post to Slack:** Share your best fact/story to the battlefield channel
+
+3. **In class (first half):** I present the ammunition for both sides
+
+4. **In class (second half):** Groups synthesize, present, debate
+
+5. **After class:** Best arguments get curated into the Channel Canvas
+:::
+
+---
+
+## No Fixed Groups
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+You're **not** locked into a position or group.
+
+Week 1: Maybe you argue PRO-AI.
+
+Week 2: Maybe you switch to PRO-Climate.
+
+**Drift around. Explore different angles.**
+
+The goal is to understand **all sides** — so you can build better stories.
+:::
+
+---
+
+# Part 2: The Problem
+
+---
+
+##
+
+::: {style="font-size: 3em; font-weight: bold;"}
+Let's start with a question.
+:::
+
+---
+
+## Mentimeter Time
+
+::: {style="font-size: 2em; text-align: center;"}
+**Go to menti.com**
+
+Enter code: **XXXX XXXX**
+:::
+
+::: {style="font-size: 1.5em; margin-top: 50px;"}
+**Question 1:**
+Do you believe climate change is real and caused by humans?
+:::
+
+::: {.notes}
+- Pull up Mentimeter
+- Wait for responses
+- Don't comment yet — let the data speak
+:::
+
+---
+
+## Mentimeter: Question 2
+
+::: {style="font-size: 1.5em;"}
+**On a scale of 1–10:**
+
+How urgent do you think it is to act on climate change **right now**?
+:::
+
+---
+
+## Mentimeter: Question 3
+
+::: {style="font-size: 1.5em;"}
+**Open response:**
+
+Why do you think climate action has been so slow, despite decades of warnings?
+:::
+
+::: {.notes}
+- Collect word cloud responses
+- Highlight interesting/diverse answers
+- Transition: "Let's see what the data says..."
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #2c3e50;"}
+Most of you probably said:
+:::
+
+::: {style="font-size: 3em; font-weight: bold; color: #27ae60; margin-top: 30px;"}
+"Yes, it's real."
+:::
+
+::: {style="font-size: 3em; font-weight: bold; color: #e74c3c; margin-top: 30px;"}
+"Yes, it's urgent."
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold;"}
+So here's the real question:
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.8em; font-weight: bold; color: #c0392b; line-height: 1.4;"}
+If most people believe climate change is real...
+
+Why hasn't anything changed?
+:::
+
+---
+
+# The Science Is Settled
+
+---
+
+## Climate Change: The Numbers (2025)
+
+::: {style="font-size: 1.6em;"}
+| Metric | Status |
+|--------|--------|
+| **CO₂** | 426 ppm — highest in 800,000 years |
+| **Temperature** | +1.5°C above pre-industrial |
+| **Rate** | Adding 2–3 ppm CO₂/year |
+:::
+
+---
+
+## The Evidence Is Everywhere
+
+::: {style="display: flex; justify-content: space-around; font-size: 1.4em; margin-top: 40px;"}
+::: {style="text-align: center; width: 22%;"}
+**Rising Seas**
+
+Coastal cities flooding
+:::
+
+::: {style="text-align: center; width: 22%;"}
+**Extreme Weather**
+
+Hurricanes, droughts, floods
+:::
+
+::: {style="text-align: center; width: 22%;"}
+**Wildfires**
+
+California, Australia, Canada
+:::
+
+::: {style="text-align: center; width: 22%;"}
+**Biodiversity**
+
+Mass extinction underway
+:::
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold;"}
+Scientists have been warning us for
+:::
+
+::: {style="font-size: 6em; font-weight: bold; color: #e74c3c;"}
+50+ years
+:::
+
+---
+
+## A Brief History of Warnings
+
+::: {style="font-size: 1.4em;"}
+| Year | Event |
+|------|-------|
+| **1972** | Club of Rome: "Limits to Growth" |
+| **1988** | NASA's James Hansen testifies to US Congress |
+| **1992** | Rio Earth Summit — 154 nations sign |
+| **1997** | Kyoto Protocol |
+| **2015** | Paris Agreement — "limit to 1.5°C" |
+| **2025** | We've hit 1.5°C. Still debating. |
+:::
+
+---
+
+##
+
+::: {style="font-size: 3em; font-weight: bold; color: #c0392b;"}
+50 years of science.
+
+50 years of conferences.
+
+50 years of... nothing?
+:::
+
+---
+
+# Why Science Doesn't Win
+
+---
+
+##
+
+::: {style="font-size: 3.5em; font-weight: bold;"}
+Here's the uncomfortable truth:
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; line-height: 1.6; color: #2c3e50;"}
+Facts don't change minds.
+
+**Stories do.**
+:::
+
+---
+
+## The Problem with Scientific Arguments
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Science says:** "Here's the data. Act rationally."
+
+**People hear:** *Abstract. Distant. Not my problem today.*
+:::
+
+---
+
+## What Actually Changes Behavior?
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 3em;"}
+**Identity**
+:::
+"Who am I? What do people like me do?"
+:::
+
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 3em;"}
+**Emotion**
+:::
+Fear, hope, anger, pride
+:::
+
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 3em;"}
+**Narrative**
+:::
+A story I can see myself in
+:::
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.2em; font-weight: bold; line-height: 1.6;"}
+Think about how you spend your time online.
+
+Do you remember **data**?
+
+Or do you remember **stories, drama, spectacle**?
+:::
+
+---
+
+## Social Media Knows This
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+What goes viral?
+
+- **Conflict** — people fighting
+- **Outrage** — "Can you believe this?!"
+- **Identity** — "Us vs. Them"
+- **Simple narratives** — good guys, bad guys
+
+What doesn't go viral?
+
+- Nuanced scientific papers
+- Careful policy analysis
+- "It's complicated"
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #8e44ad;"}
+People don't need more facts.
+
+People need **spectacles**.
+
+People need **sides to pick**.
+:::
+
+---
+
+## What This Course Is Really About
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+We're not here to recite science.
+
+We're here to learn **how to stitch facts together with narratives** — arguments that are **factual**, but told in ways that leave **bigger impressions**.
+
+The goal: Turn data into **spectacles** that move people to action.
+:::
+
+---
+
+## That's Why This Course Uses Debate
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+**You will argue positions you may not believe.**
+
+Why? Because understanding both sides is the only way to craft persuasive narratives.
+
+You'll learn to construct, deconstruct, and **weaponize** stories for climate action.
+:::
+
+---
+
+# Part 3: Today's Debate
+
+---
+
+##
+
+::: {style="font-size: 3em; font-weight: bold;"}
+Case Study #1:
+:::
+
+::: {style="font-size: 4.5em; font-weight: bold; color: #c0392b;"}
+Us vs. the AI
+:::
+
+---
+
+## Why AI? Why Now?
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+While scientists publish papers...
+
+While activists march...
+
+While politicians debate...
+
+**A new force is quietly making everything worse.**
+:::
+
+---
+
+##
+
+::: {style="font-size: 4em; font-weight: bold;"}
+Artificial Intelligence
+:::
+
+::: {style="font-size: 2em; margin-top: 30px;"}
+is **eating the planet**.
+:::
+
+---
+
+## AI's Energy Appetite
+
+::: {style="font-size: 2em; background: #ffeaa7; padding: 40px; border-radius: 10px; margin: 30px;"}
+> "A generative AI training cluster consumes **7–8x more energy** than a typical computing workload."
+
+— **Noman Bashir, MIT**
+:::
+
+---
+
+## The Numbers
+
+::: {style="font-size: 1.5em;"}
+| | 2024 | 2030 |
+|---|---:|---:|
+| **Global Data Centers** | 415 TWh | 945 TWh |
+| **US Data Centers** | 183 TWh | 426 TWh |
+| **AI Servers (US only)** | 53–76 TWh | 165–326 TWh |
+:::
+
+::: {style="font-size: 1.2em; margin-top: 30px; color: #7f8c8d;"}
+*Source: IEA Energy and AI Report*
+:::
+
+---
+
+## To Put That In Perspective
+
+::: {style="display: flex; justify-content: space-around; margin-top: 40px;"}
+::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 40px; border-radius: 10px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+Pakistan
+:::
+US data centers use **more electricity** than this entire country (240M people)
+:::
+
+::: {style="text-align: center; width: 30%; background: #e67e22; color: white; padding: 40px; border-radius: 10px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
++8%
+:::
+Expected rise in US electricity bills by 2030 due to data centers
+:::
+
+::: {style="text-align: center; width: 30%; background: #9b59b6; color: white; padding: 40px; border-radius: 10px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+5 Cars
+:::
+Training one large AI model = lifetime emissions of 5 cars
+:::
+:::
+
+---
+
+## Where Does AI Get Its Power?
+
+::: {style="font-size: 1.6em;"}
+US Data Centers (2024):
+:::
+
+::: {style="display: flex; justify-content: center; margin-top: 30px;"}
+::: {style="width: 60%;"}
+| Source | Share |
+|--------|------:|
+| **Natural Gas** | 40%+ |
+| Renewables | 24% |
+| Nuclear | 20% |
+| **Coal** | 15% |
+:::
+:::
+
+::: {style="font-size: 2em; font-weight: bold; color: #c0392b; margin-top: 40px;"}
+Most AI runs on fossil fuels.
+:::
+
+---
+
+## AI's Carbon & Water Footprint (2025)
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #2c3e50; color: white; padding: 50px; border-radius: 10px;"}
+::: {style="font-size: 3em; font-weight: bold;"}
+32–80M tons
+:::
+CO₂ emissions from AI
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 10px;"}
+::: {style="font-size: 3em; font-weight: bold;"}
+312–765B liters
+:::
+Water consumed
+:::
+:::
+
+---
+
+# Meanwhile: Countries Are Retreating
+
+---
+
+## The Retreat Is Real
+
+::: {style="font-size: 1.8em; line-height: 1.6;"}
+As AI demand grows...
+
+Nations are **abandoning** their climate promises.
+:::
+
+---
+
+## United States
+
+::: {style="display: flex; align-items: center;"}
+::: {style="width: 60%;"}
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+- Biden: Net zero by 2050
+- **Trump: Withdrew entirely**
+- No federal net zero target anymore
+- 19 states still trying independently
+:::
+:::
+
+::: {style="width: 40%; text-align: center; font-size: 8em;"}
+🇺🇸
+:::
+:::
+
+---
+
+## Turkey
+
+::: {style="display: flex; align-items: center;"}
+::: {style="width: 60%;"}
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+- Pushed net zero from **2053 → 2070**
+- Reason: "Economic constraints"
+- Coal production **up 18%** in 2024
+:::
+:::
+
+::: {style="width: 40%; text-align: center; font-size: 8em;"}
+🇹🇷
+:::
+:::
+
+---
+
+## Poland
+
+::: {style="display: flex; align-items: center;"}
+::: {style="width: 60%;"}
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+- Extended net zero from **2050 → 2060**
+- Blocked EU methane limits
+- Renewable subsidies **cut 35%**
+:::
+:::
+
+::: {style="width: 40%; text-align: center; font-size: 8em;"}
+🇵🇱
+:::
+:::
+
+---
+
+## Indonesia
+
+::: {style="display: flex; align-items: center;"}
+::: {style="width: 60%;"}
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+- Renewable targets: **23% → 18%**
+- Coal plants: **extended permits**
+- EV/solar subsidies: **cancelled**
+:::
+:::
+
+::: {style="width: 40%; text-align: center; font-size: 8em;"}
+🇮🇩
+:::
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.2em; font-weight: bold; line-height: 1.6;"}
+The pattern is clear:
+
+**Short-term economic interests**
+
+beat
+
+**Long-term climate action**
+
+Every. Single. Time.
+:::
+
+---
+
+# The Debate Framework
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold;"}
+Today, we simplify the climate debate into two camps:
+:::
+
+---
+
+## Two Sides. Two Worldviews.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-AI
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Pro-Development
+
+= "Pragmatic Progress"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-US
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Pro-Human
+
+= "People & Planet First"
+:::
+:::
+:::
+
+---
+
+## PRO-AI: The Development Narrative
+
+::: {style="background: #3498db; color: white; padding: 40px; border-radius: 10px; font-size: 1.4em; line-height: 1.8;"}
+**Core belief:** Progress is the solution, not the problem.
+
+**On AI:** Technology will solve climate change — we need *more* innovation, not less.
+
+**On economy:** We can't afford to slow down. Jobs, growth, and stability come first.
+
+**On climate activists:** Well-intentioned but naive. They don't understand how the real world works.
+
+**Identity:** Pragmatists. Builders. Realists.
+:::
+
+---
+
+## PRO-AI: Typical Arguments
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+1. **AI optimizes everything** — energy grids, supply chains, agriculture
+
+2. **Economic growth lifts people out of poverty** — that's the real humanitarian priority
+
+3. **Renewables need AI** — to manage intermittent power, predict demand
+
+4. **The IEA says** AI could reduce emissions by ~5% by 2035
+
+5. **Slowing down = falling behind** — China won't wait for us
+:::
+
+---
+
+## PRO-US: The Human Narrative
+
+::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 10px; font-size: 1.4em; line-height: 1.8;"}
+**Core belief:** We can't tech our way out of a crisis caused by tech.
+
+**On AI:** It's making things worse *right now*. The benefits are speculative; the harms are measurable.
+
+**On economy:** "Growth" that destroys the planet isn't growth — it's suicide.
+
+**On tech optimists:** They're selling hope to avoid responsibility.
+
+**Identity:** Humanists. Protectors. Truth-tellers.
+:::
+
+---
+
+## PRO-US: Typical Arguments
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+1. **AI's energy costs are real and growing** — the benefits are theoretical
+
+2. **We already have solutions** — policy, behavior change, existing tech. We just won't use them.
+
+3. **The poor pay the price** — climate impacts hit the vulnerable; AI benefits the rich
+
+4. **Tech companies have no accountability** — they promise "green AI" while burning coal
+
+5. **Every delay = lives lost** — we don't have time to wait for innovation
+:::
+
+---
+
+## Why This Framing?
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+This isn't really about AI.
+
+It's about **two competing stories** of what matters:
+
+| PRO-AI | PRO-US |
+|--------|--------|
+| Progress | Preservation |
+| Economy | Environment |
+| Innovation | Restraint |
+| Future potential | Present harm |
+| Systems | People |
+
+**These tensions appear in every climate debate.**
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #8e44ad;"}
+Your job today:
+
+Pick a side.
+
+Build a narrative.
+
+**Make people care.**
+:::
+
+---
+
+# How to Build a Story
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; line-height: 1.5;"}
+Facts inform.
+
+**Spectacles** persuade.
+:::
+
+::: {style="font-size: 1.5em; margin-top: 40px; color: #7f8c8d;"}
+This course is about stitching facts with arguments that are factual — but narrated in a way that **leaves a bigger impression**.
+:::
+
+---
+
+## The Formula
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Fact** + **Human Story** + **Stakes** = **Spectacle**
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Weak
+:::
+"AI uses a lot of energy"
+:::
+
+::: {style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Better
+:::
+"AI uses more electricity than Pakistan"
+:::
+
+::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Spectacle
+:::
+"Your ChatGPT query costs a town its drinking water"
+:::
+:::
+
+---
+
+## PRO-US: Stories That Scare
+
+::: {style="font-size: 1.4em; line-height: 1.7;"}
+**The Human Cost:**
+
+- A Rice University student took their own life — the pressure of competing with AI, feeling replaceable, was part of their struggle.
+- "AI is taking your job" — not in 10 years, but **now**. Customer service, coding, writing, design.
+
+**The Corporate Villain:**
+
+- Big Tech is profiting off job opportunities that **went to PEOPLE** — and replacing them with algorithms.
+- *"Every time you cheer for AI, you're voting to make yourself obsolete."*
+
+**The Exploitation Angle:**
+
+- Data centers are built in poor communities. They get the pollution. Tech workers get the raises.
+- "Green AI" is marketing. The coal plants are real.
+:::
+
+---
+
+## PRO-US: Make It Personal
+
+::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "AI contributes to carbon emissions."
+
+**Say:** "Your kid's asthma inhaler? That's because a data center needed to generate your meme."
+
+**Don't say:** "Automation displaces workers."
+
+**Say:** "Your dad worked 30 years in logistics. ChatGPT just made him obsolete. And you're celebrating?"
+:::
+
+---
+
+## PRO-AI: Stories That Inspire
+
+::: {style="font-size: 1.4em; line-height: 1.7;"}
+**The Productivity Revolution:**
+
+- A single person can now do what took a team of 10.
+- Students in developing countries can access world-class tutoring — for free.
+- Small businesses compete with giants because AI levels the playing field.
+
+**The Innovation Hope:**
+
+- AI is discovering new materials for solar panels, optimizing wind farms, predicting floods.
+- *"The same technology that causes problems can solve them — if we invest."*
+
+**The Realism Card:**
+
+- "China isn't slowing down. Do you want to fall behind and have zero influence on how AI develops?"
+- Stopping AI won't bring jobs back. Adapting will create new ones.
+:::
+
+---
+
+## PRO-AI: Paint the Picture
+
+::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "AI improves efficiency."
+
+**Say:** "A farmer in Kenya used AI to diagnose her crop disease in 30 seconds. Her village didn't starve."
+
+**Don't say:** "We need technological progress."
+
+**Say:** "My grandmother was diagnosed with cancer. AI caught it 6 months earlier than her doctor would have. She's alive because of that."
+:::
+
+---
+
+## The Key Insight
+
+::: {style="font-size: 2em; font-weight: bold; line-height: 1.6; text-align: center;"}
+You're not lying.
+
+You're **selecting** which truths to emphasize.
+
+You're **framing** facts inside stories people can feel.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 40px; text-align: center; color: #7f8c8d;"}
+This is how every debate is won — climate, politics, business, life.
+:::
+
+---
+
+## But Here's the Rule
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #c0392b; text-align: center;"}
+Every story must be **fact-checkable**.
+:::
+
+::: {style="font-size: 1.6em; margin-top: 40px; text-align: center;"}
+This is the line between **persuasion** and **propaganda**.
+:::
+
+---
+
+## Spectacle ≠ Fake News
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+Persuasion (OK)
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- Selecting **real** facts
+- Framing **verified** stories
+- Emphasizing **documented** impacts
+- Using **sourced** statistics
+- Making real data **vivid**
+:::
+:::
+
+::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+Propaganda (NOT OK)
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- Inventing stories
+- Fabricating statistics
+- Making up "examples"
+- Exaggerating beyond evidence
+- Claiming things you can't verify
+:::
+:::
+:::
+
+---
+
+## The Test
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+Before you use a story, ask:
+
+1. **Can I cite a source?** (news article, study, report)
+
+2. **Could someone fact-check this?** (and find it's true)
+
+3. **Am I framing reality or inventing it?**
+:::
+
+::: {style="font-size: 1.5em; margin-top: 40px; background: #f39c12; padding: 20px; border-radius: 10px;"}
+**If you can't answer YES to all three — don't use it.**
+:::
+
+---
+
+## Example: The Rice University Story
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Fact-checkable:** Yes — this was reported in news media.
+
+**Verifiable:** The student's struggles with AI pressure were documented.
+
+**Framing:** We're emphasizing a real case to illustrate broader concerns about AI's psychological impact on young people.
+
+**NOT OK:** Claiming "hundreds of students have died because of AI" without evidence.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 30px; color: #7f8c8d;"}
+*The story is powerful because it's real — not because we invented it.*
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.2em; font-weight: bold; line-height: 1.6;"}
+Emotions need **reality** backing them.
+
+Your job: Find the **real stories** that make people feel.
+
+Not invent them.
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #c0392b; line-height: 1.6;"}
+Your audience doesn't remember data.
+
+They remember how you made them **feel**.
+
+Angry. Hopeful. Scared. Inspired.
+
+**That's the spectacle.**
+:::
+
+---
+
+# Activity Instructions
+
+---
+
+## Step 1: Divide Into Groups
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Left side of room:** PRO-AI (Development)
+
+**Right side of room:** PRO-US (Human)
+
+Move now.
+:::
+
+---
+
+## Step 2: Create Your Persona (5 min)
+
+::: {style="font-size: 1.4em;"}
+**PRO-AI personas:**
+
+- Tech CEO building "green AI"
+- Economist focused on growth
+- Developing-nation minister needing energy
+- Engineer optimizing power grids
+
+**PRO-US personas:**
+
+- Climate activist
+- Community organizer in a polluted town
+- Public health researcher
+- Indigenous rights advocate
+:::
+
+::: {style="font-size: 1.5em; font-weight: bold; margin-top: 30px;"}
+Who are you? What's your story? What do you fear losing?
+:::
+
+---
+
+## Step 3: Group Discussion (10 min)
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Prepare **3 key arguments** for your side:
+
+1. **Energy**: Is AI's cost justified?
+
+2. **Solutions vs. Distractions**: Does tech help or delay action?
+
+3. **Who pays?**: Who benefits, who suffers?
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+Remember: Don't just list facts. **Tell a story.** Make it emotional.
+:::
+
+---
+
+## Step 4: Presentations
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 40px; border-radius: 10px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+PRO-AI
+:::
+5 minutes
+:::
+
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 40px; border-radius: 10px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+PRO-US
+:::
+5 minutes
+:::
+:::
+
+---
 
 ## Presentation Countdown
 
 <div id="timer-container" style="text-align: center;">
-  <!-- Timer Display -->
   <div id="timer" style="
-    font-size: 348px;
+    font-size: 300px;
     color: black;
-    margin-bottom: 20px;">00:00</div>
-  
-  <!-- Control Buttons -->
+    margin-bottom: 20px;">05:00</div>
+
   <button id="start-button" style="
     font-size: 24px;
     padding: 20px 40px;
-    background-color: #007ACC;
+    background-color: #3498db;
     color: white;
     border: none;
     border-radius: 8px;
@@ -294,7 +1202,7 @@ Despite overwhelming evidence...
   <button id="reset-button" style="
     font-size: 24px;
     padding: 20px 40px;
-    background-color: #DC3545;
+    background-color: #e74c3c;
     color: white;
     border: none;
     border-radius: 8px;
@@ -304,59 +1212,191 @@ Despite overwhelming evidence...
 </div>
 
 <script>
-  let countdownDuration = 300; // 5 minutes
-  let initialDuration = 300; // Store the initial time
+  let countdownDuration = 300;
+  let initialDuration = 300;
   let timerInterval;
 
-  // Format time as MM:SS
   function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
     return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
   }
 
-  // Update the timer display
   function updateTimer() {
     const timerElement = document.getElementById("timer");
     if (countdownDuration > 0) {
       countdownDuration--;
       timerElement.innerText = formatTime(countdownDuration);
-
-      // Change color to red when time is below 60 seconds
       if (countdownDuration < 60) {
-        timerElement.style.color = "red";
+        timerElement.style.color = "#e74c3c";
       } else {
         timerElement.style.color = "black";
       }
     } else {
-      timerElement.innerText = "Time's up!";
+      timerElement.innerText = "TIME";
+      timerElement.style.color = "#e74c3c";
       clearInterval(timerInterval);
     }
   }
 
-  // Start the countdown when the button is clicked
   document.getElementById("start-button").addEventListener("click", function () {
-    clearInterval(timerInterval); // Ensure no duplicate intervals
+    clearInterval(timerInterval);
     timerInterval = setInterval(updateTimer, 1000);
-
-    // Disable the start button while the timer is running
     this.disabled = true;
-    this.innerText = "Timer Running...";
+    this.innerText = "Running...";
   });
 
-  // Reset the timer when the reset button is clicked
   document.getElementById("reset-button").addEventListener("click", function () {
-    clearInterval(timerInterval); // Stop the timer
-    countdownDuration = initialDuration; // Reset time to initial value
-
-    // Reset the timer display
+    clearInterval(timerInterval);
+    countdownDuration = initialDuration;
     const timerElement = document.getElementById("timer");
     timerElement.innerText = formatTime(countdownDuration);
-    timerElement.style.color = "black"; // Reset color to black
-
-    // Re-enable the start button
+    timerElement.style.color = "black";
     const startButton = document.getElementById("start-button");
     startButton.disabled = false;
     startButton.innerText = "Start Timer";
   });
 </script>
+
+---
+
+# Debrief
+
+---
+
+## Mentimeter: Quick Reflection
+
+::: {style="font-size: 1.8em;"}
+**Go to menti.com** — same code
+
+**Question:** Which side made you *feel* something? Why?
+:::
+
+::: {.notes}
+- Collect responses
+- Highlight that "feeling something" is the point
+- Facts inform; emotions move
+:::
+
+---
+
+## What Did We Learn?
+
+::: {style="display: flex; justify-content: space-around; margin-top: 40px;"}
+::: {style="width: 45%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.8em; font-weight: bold; color: #3498db;"}
+PRO-AI
+:::
+::: {style="font-size: 1.3em; line-height: 1.6;"}
+- Innovation as hope
+- Economic pragmatism
+- "We can fix this with better tools"
+:::
+:::
+
+::: {style="width: 45%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.8em; font-weight: bold; color: #27ae60;"}
+PRO-US
+:::
+::: {style="font-size: 1.3em; line-height: 1.6;"}
+- Human cost is real now
+- Tech is part of the problem
+- "We already know what to do"
+:::
+:::
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; line-height: 1.6;"}
+Notice:
+
+Both sides have **valid points**.
+
+Both sides have **blind spots**.
+
+This is why climate action is hard.
+:::
+
+---
+
+## The Real Lesson
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Science gives us facts.**
+
+**Narratives give us action.**
+
+To change the world, you need both — but narrative comes first.
+
+This semester: You'll learn to construct, deconstruct, and weaponize narratives for climate action.
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #c0392b;"}
+"We cannot solve our problems with the same thinking we used to create them."
+
+— Einstein
+:::
+
+---
+
+# Looking Ahead
+
+---
+
+## Next Week: Food Systems
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+- What we eat is a climate choice
+- You'll be assigned to **vocational groups**
+- Same format: Pro-Climate vs. Pro-Development debate
+
+**Vocational Groups:**
+
+1. Logistics/Transportation
+2. Farming/Food Procurement
+3. Energy and Industry
+4. Policy-Makers
+5. Technology and Innovation
+6. Service/Urban Workers
+:::
+
+---
+
+## Key Takeaways
+
+::: {style="font-size: 1.6em; line-height: 2;"}
+1. **Science is necessary but not sufficient** — narratives drive action
+
+2. **AI is accelerating the crisis** — real costs, speculative benefits
+
+3. **Countries are retreating** — short-term wins over long-term survival
+
+4. **Your job this semester:** Argue all sides. Understand all sides. Build better stories.
+:::
+
+---
+
+##
+
+::: {style="font-size: 3em; font-weight: bold;"}
+Questions?
+:::
+
+---
+
+##
+
+::: {style="font-size: 2em;"}
+**Next week:** Check Moodle for readings
+
+**Start thinking:** Which vocational group fits your interests?
+
+**Remember:** This is a participation-heavy course. Speak up!
+:::

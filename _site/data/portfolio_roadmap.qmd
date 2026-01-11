@@ -1,0 +1,324 @@
+---
+title: "Roadmap to Final Portfolio"
+subtitle: "CCGL9065: Our Response to Climate Change"
+author: "Dr. Hongshan Guo"
+date: today
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    geometry:
+      - margin=1in
+  html:
+    toc: true
+    theme: cosmo
+---
+
+# The Big Picture
+
+Your final portfolio demonstrates your ability to **move people to action** on climate change. Everything you've learned — the debates, the storytelling, the fact-checking — comes together here.
+
+::: {.callout-important}
+## The Golden Rule
+**Everything must be fact-checkable.** You're learning to persuade with *real stories*, not to deceive with fake ones. The power of a spectacle comes from its **truth**.
+:::
+
+## The Formula You've Practiced
+
+Throughout this course, you've been building spectacles using:
+
+$$\text{Fact} + \text{Human Story} + \text{Stakes} = \text{Spectacle}$$
+
+Your final deliverables must demonstrate mastery of this formula.
+
+## The Three Pillars (All Deliverables)
+
+| Pillar | Question | What It Means |
+|--------|----------|---------------|
+| **Verifiability** | Can it be fact-checked? | Every claim has a credible source |
+| **Creativity** | Is your spectacle compelling? | Facts transformed into emotional narratives |
+| **Conciseness** | Did you say it efficiently? | Every word earns its place |
+
+---
+
+# Weekly Themes Reference
+
+Your final work should draw from themes explored across the semester:
+
+| Week | Theme | Key Tensions |
+|------|-------|--------------|
+| 1 | AI & Climate | Technology as savior vs. energy burden |
+| 2 | Food Systems | Transform diet vs. preserve choice |
+| 3 | Fashion/LCA | Consume less vs. affordable access |
+| 4 | Energy | Transition now vs. pragmatic approach |
+| 5 | Cities | Green infrastructure vs. housing needs |
+| 6 | Economics | System change vs. market solutions |
+| 7 | Truth & Narratives | Scientific consensus vs. healthy skepticism |
+| 8 | Oceans | Conservation vs. livelihoods |
+| 9 | Refugees | Open borders vs. local stability |
+| 10 | Systems Thinking | Holistic view vs. targeted solutions |
+| 11 | Space | Fix Earth first vs. explore & expand |
+
+**Your final work should synthesize insights from multiple weeks** — not just one topic.
+
+---
+
+# Deliverable 1: Final Reflective Essay (20%)
+
+## Specifications
+
+- **Length:** 750 words maximum (hard cap)
+- **Format:** 12pt Times New Roman, double-spaced, APA citations
+- **Sources:** Minimum 4 credible sources (peer-reviewed, major news, official reports)
+
+## Structure
+
+| Section | Words | Purpose |
+|---------|-------|---------|
+| **Hook** | 50–75 | A vivid fact or human story that grabs attention |
+| **Context** | 100 | Local (Hong Kong) and global stakes |
+| **Solution** | 300 | What you propose, why it works, how to implement |
+| **Impact + Action** | 150 | Who benefits + specific next step for reader |
+| **Conclusion** | 50 | Memorable takeaway |
+
+## Applying the Formula
+
+::: {.callout-tip}
+## Weak vs. Strong Opening
+
+**Weak:** "Climate change is a serious problem that affects many people."
+
+**Strong:** "In 2024, a fisherman in Sai Kung pulled up his nets and found jellyfish where grouper used to be. The water is too warm now. His grandfather fished these waters for sixty years — he lasted three."
+
+The strong version has a **fact** (warming waters), a **human story** (the fisherman), and **stakes** (a livelihood destroyed).
+:::
+
+## What Gets an A
+
+- Crystal clear thesis with one memorable solution
+- Compelling evidence that moves readers emotionally
+- Seamless structure that builds to an inevitable conclusion
+- Polished prose with zero filler
+- Call to action that readers could do *today*
+
+## What Gets a D
+
+- Vague claims without sources ("studies show...")
+- Generic statements that could apply to any topic
+- Chaotic structure that loses the reader
+- Padding to reach word count
+- No clear action for the reader
+
+---
+
+# Deliverable 2: Video Essay (20%)
+
+## Specifications
+
+- **Length:** 60 seconds maximum
+- **Script:** ≤150 spoken words in English
+- **Format:** HD (1080p), MP4, ≤100MB
+- **Components:** Your voice + visuals + subtitles
+- **Credits:** All media must be CC0, Creative Commons, or original
+
+## Structure
+
+| Segment | Duration | Content |
+|---------|----------|---------|
+| **Hook** | 5–8 sec | Shocking stat or personal story |
+| **Core** | 40–45 sec | Problem + your solution, succinctly |
+| **CTA** | 10–15 sec | Direct, specific next step |
+
+## Applying the Formula
+
+Your 60 seconds must be a **spectacle** — not a lecture.
+
+::: {.callout-tip}
+## Weak vs. Strong Video Opening
+
+**Weak:** "Today I want to talk about climate change and why it matters..."
+
+**Strong:** [Image of dried-up reservoir] "This used to be Hong Kong's water supply. By 2050, it could look like this every summer. I'm going to tell you how to stop it."
+
+The strong version hooks immediately with stakes the viewer can *see*.
+:::
+
+## Reference Videos (Required Viewing)
+
+Study these for pacing, visuals, and emotional impact:
+
+1. [Video Example 1](https://www.youtube.com/watch?v=38Gbw-j__ck)
+2. [Video Example 2](https://www.youtube.com/watch?v=xl9y85IQ1Zo)
+3. [Video Example 3](https://www.youtube.com/watch?v=C_vKJFUpqrY)
+
+## Rubric
+
+| Criterion | Weight | What It Means |
+|-----------|--------|---------------|
+| Message Clarity | 25% | One idea, understood in 5 seconds |
+| Visual Storytelling | 25% | Images that support (not decorate) your message |
+| Audio Quality | 20% | Clear voice, no background noise, good pacing |
+| Creativity | 20% | Fresh angle, memorable framing |
+| CTA Strength | 10% | Specific, doable action |
+
+---
+
+# Deliverable 3: Collage/Poster (20%)
+
+## Specifications
+
+- **Size:** A3 (297 × 420 mm), 300dpi
+- **Format:** PDF
+- **Text:** ≤50 words total (headline + CTA only)
+- **Required:** At least 1 data visualization + 1 powerful image
+- **Credits:** APA citations in small font (not overpowering visuals)
+
+## Layout
+
+```
+┌─────────────────────────────────┐
+│     HEADLINE (8-10 words)       │
+├─────────────────────────────────┤
+│                                 │
+│       CENTRAL GRAPHIC           │
+│     (your most powerful image)  │
+│                                 │
+├─────────────────────────────────┤
+│  Data 1  │  Data 2  │  Data 3   │
+│  (stat)  │  (stat)  │  (stat)   │
+├─────────────────────────────────┤
+│     CTA: URL or QR Code         │
+└─────────────────────────────────┘
+```
+
+## Applying the Formula
+
+Your collage IS a spectacle — visual instead of verbal.
+
+::: {.callout-tip}
+## Weak vs. Strong Headline
+
+**Weak:** "Climate Change Is Bad For The Environment"
+
+**Strong:** "Your Jeans Drank More Water Than You Will This Year"
+
+The strong version is specific, surprising, and personal.
+:::
+
+## Reference Collages (Study These)
+
+- [Collage Example 1](https://i.pinimg.com/originals/9f/15/a0/9f15a009f7f09b7882b81a36ffa1cc5b.jpg)
+- [Collage Example 2](https://i.pinimg.com/originals/2e/b7/6a/2eb76a0f2b2bd7d73dd605176b72ad08.jpg)
+- [Collage Example 3](https://i.pinimg.com/originals/76/ea/87/76ea87a78624065defcc4590f1c688f5.png)
+
+## Rubric
+
+| Criterion | Weight | What It Means |
+|-----------|--------|---------------|
+| Visual Impact | 30% | Grabs attention from across the room |
+| Clarity of Message | 25% | Understood in ≤3 seconds |
+| Design Excellence | 25% | Professional layout, clear hierarchy |
+| Data Integrity | 10% | Accurate stats with citations |
+| CTA Visibility | 10% | Impossible to miss |
+
+---
+
+# Weekly Research & Reflection (20%)
+
+Your Notion portfolio documents your journey through the semester.
+
+## Weekly Requirements
+
+Each week, your Notion entry should include:
+
+1. **Fact** — A specific, sourced statistic or claim
+2. **Story** — A real human example (not hypothetical)
+3. **Spectacle** — Your transformation of fact + story into emotional narrative
+
+## Format Template
+
+```markdown
+**[PRO-CLIMATE or PRO-DEVELOPMENT]**
+
+📊 **My Fact:**
+[Specific claim with source]
+
+📖 **My Story:**
+[Real person/event with source]
+
+💥 **My Spectacle:**
+[Your 1-2 sentence transformation]
+
+🔗 Full research: [Notion link]
+```
+
+## Word Limits
+
+| Component | Target | Maximum |
+|-----------|--------|---------|
+| Weekly Notion entry | 300–500 words | 750 words |
+| Slack post | 100–150 words | 200 words |
+| Spectacle draft | 1–2 sentences | 3 sentences |
+
+**Penalty:** Exceeding maximum by >20% loses one grade step (A → A-, B+ → B).
+
+---
+
+# Participation (20%)
+
+Participation is graded on engagement in:
+
+- **Lectures:** Contributing to discussions, asking questions
+- **Tutorials:** Active role-play as PRO-CLIMATE or PRO-DEVELOPMENT personas
+- **Debates:** Defending positions with evidence and emotional resonance
+
+## What Counts
+
+- Speaking up (even briefly) in every session
+- Playing your assigned persona convincingly
+- Challenging others with fact-checked counterarguments
+- Building on classmates' points constructively
+
+---
+
+# Quick Self-Check Before Submitting
+
+Ask yourself:
+
+- [ ] Can someone Google my facts and find them true?
+- [ ] Did I cite specific, credible sources?
+- [ ] Is my story about real people/events, not hypotheticals?
+- [ ] Does my spectacle make people *feel* something?
+- [ ] Could I cut 20% without losing meaning?
+- [ ] Would I be comfortable defending this in a debate?
+- [ ] Is my call to action specific and doable *today*?
+
+If you answered "no" to any of these, **revise before submitting**.
+
+---
+
+# Resources & Support
+
+- **Office Hours:** After class, tutorials, or by appointment
+- **Slack:** Reach out to Dr. Guo, Yichun, or Johnson
+- **Course Website:** [CCGL9065 Materials](https://hongshanguo.github.io/ccgl9065/)
+
+::: {.callout-note}
+## Quality Over Quantity
+Aim to create something you'd proudly share on LinkedIn, Instagram, or hang on a public bulletin board — something that truly **moves people to act**.
+:::
+
+---
+
+# Timeline Summary
+
+| Deliverable | Weight | Format | Key Requirement |
+|-------------|--------|--------|-----------------|
+| Weekly Research | 20% | Notion + Slack | Fact + Story + Spectacle each week |
+| Video Essay | 20% | 60s MP4 | Hook → Core → CTA |
+| Reflective Essay | 20% | 750w PDF | Synthesis across weeks |
+| Collage/Poster | 20% | A3 PDF | ≤50 words, visual impact |
+| Participation | 20% | In-class | PRO-CLIMATE vs PRO-DEVELOPMENT debates |
+
+**Remember:** Every deliverable must pass the fact-check test. Truth is not optional.

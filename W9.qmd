@@ -15,6 +15,55 @@ format:
     incremental: false
     
 ---
+
+# This Week's Battlefield
+
+---
+
+## Two Sides. Two Responses to Displacement.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Open Borders, Shared Responsibility
+
+= "We caused this — we must help"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Secure Borders, Local Solutions
+
+= "Help there, not here"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+| PRO-CLIMATE | PRO-DEVELOPMENT |
+|-------------|-----------------|
+| Rich nations caused this | National security matters |
+| Moral obligation to accept refugees | Aid in origin countries |
+| Climate refugees need legal status | "Climate refugee" is imprecise |
+| Open doors save lives | Uncontrolled migration destabilizes |
+| Global solidarity | Protect local communities first |
+
+**This tension drives every migration and climate justice debate.**
+:::
+
+---
+
 ## 0: Logistics on Final Assessment Items: Quick Q&A
 
 - Q: What topic should I pick? From wi ?thin or outside of the in-lecture ones? Can I have one consistent theme across all three items? Can I have multiple topics covered in one assessment item?
@@ -295,7 +344,86 @@ format:
 
 
 
-## 13.1 Progressive (Pro-Climate Change Action) Responses:
+---
+
+# Building Your Refugee Spectacle
+
+---
+
+## The Formula (Reminder)
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Fact** + **Human Story** + **Stakes** = **Spectacle**
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Weak
+:::
+"Climate change causes displacement"
+:::
+
+::: {style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Better
+:::
+"1.2 billion climate refugees by 2050"
+:::
+
+::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Spectacle
+:::
+"Your air conditioner in Kowloon drowns a village in Bangladesh. The survivors will knock on your door by 2050."
+:::
+:::
+
+---
+
+## PRO-CLIMATE: Make It Personal
+
+::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Rich nations should accept climate refugees."
+
+**Say:** "Europe industrialized on coal. America grew rich on oil. Now a farmer in the Mekong Delta loses his home because the sea rose. You made his world flood — and you want to close the door?"
+
+**Don't say:** "Climate displacement is a human rights issue."
+
+**Say:** "Kiribati is sinking. The entire country will disappear. 120,000 people with nowhere to go. The UN says they're not refugees because water, not war, took their home."
+:::
+
+---
+
+## PRO-DEVELOPMENT: Paint the Picture
+
+::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Uncontrolled migration causes instability."
+
+**Say:** "In 2015, one million refugees entered Germany. Merkel said 'Wir schaffen das.' Now AfD is the second-largest party. Open borders created closed minds."
+
+**Don't say:** "We should help in origin countries."
+
+**Say:** "Every dollar spent resettling one refugee in Hong Kong could support 100 people in a camp closer to home. Math isn't cruel — misallocated compassion is."
+:::
+
+---
+
+## Human Story: The Carteret Islands
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**The Carteret Islanders** in Papua New Guinea were the world's first official climate refugees. Rising seas contaminated their freshwater. Crops failed. Their home became unlivable.
+
+**PRO-CLIMATE says:** "They did nothing to cause this. Their carbon footprint is zero. Yet they pay for our emissions with their homeland."
+
+**PRO-DEVELOPMENT says:** "Resettling 3,000 people is manageable. Resettling 1.2 billion is a fantasy. We need to be honest about what's possible."
+
+**The real question:** Who decides who gets to be a refugee — and who gets to stay home?
+:::
+
+---
+
+## 13.1 PRO-CLIMATE (Progressive) Responses:
 
 1. **Urban Resilience and Infrastructure**:
    - **Expert/KOL**: "To combat rising sea levels threatening Hong Kong's coastal areas, we must invest in resilient infrastructure, such as enhanced flood barriers and sustainable urban planning, to protect vulnerable communities."
@@ -309,7 +437,7 @@ format:
    - **Expert/KOL**: "Policymakers in Hong Kong must listen to scientific consensus on climate change and enact policies that prioritize sustainability and support for climate refugees."
    - **General Public (Educator/Activist)**: "Educating our students and communities about climate change and advocating for sustainable practices is crucial for driving policy change."
 
-## 13.2 Conservative (Skeptical of Climate Change Action) Responses:
+## 13.2 PRO-DEVELOPMENT (Conservative) Responses:
 
 1. **Economic Implications**:
    - **Expert/KOL**: "While we recognize the need for environmental conservation, we must also consider the economic impact. Sudden shifts in policy could disrupt Hong Kong's economy, affecting jobs and livelihoods."

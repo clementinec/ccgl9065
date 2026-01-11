@@ -14,6 +14,53 @@ format:
     center: true
 ---
 
+# This Week's Battlefield
+
+---
+
+## Two Sides. Two Energy Futures.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Transition Now
+
+= "Renewables at any cost"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Pragmatic Transition
+
+= "Don't wreck the economy"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+| PRO-CLIMATE | PRO-DEVELOPMENT |
+|-------------|-----------------|
+| Rapid decarbonization | Gradual transition |
+| Accept higher costs now | Keep energy affordable |
+| Government mandates | Market incentives |
+| End fossil fuels immediately | Bridge fuels (gas) acceptable |
+| Future generations | Current livelihoods |
+
+**This tension drives every energy policy debate.**
+:::
+
+---
 
 # Session Overview
 
@@ -189,6 +236,69 @@ Introducing the Duck Curve.
 - **Omitted Nuances**:  
   - Detailed discussions on integration costs and long-term environmental impacts. -->
 
+# Building Your Energy Spectacle
+
+---
+
+## The Formula (Reminder)
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+**Fact** + **Human Story** + **Stakes** = **Spectacle**
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Weak
+:::
+"Solar energy costs have decreased"
+:::
+
+::: {style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Better
+:::
+"Solar costs dropped 89% since 2010"
+:::
+
+::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Spectacle
+:::
+"In 2010, solar was for hippies. In 2025, it's cheaper than coal. The oil companies knew — and lied."
+:::
+:::
+
+---
+
+## PRO-CLIMATE: Make It Personal
+
+::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Fossil fuels cause emissions."
+
+**Say:** "Every breath your child takes in Tsim Sha Tsui contains particles from coal plants 100km away. You're paying for cheap electricity with their lungs."
+
+**Don't say:** "We need renewable energy mandates."
+
+**Say:** "Germany did it. California did it. Hong Kong says 'too expensive.' Is your child's health too expensive?"
+:::
+
+---
+
+## PRO-DEVELOPMENT: Paint the Picture
+
+::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
+**Don't say:** "Energy transitions are complex."
+
+**Say:** "Ontario rushed renewables. Electricity bills doubled. Factories closed. Workers lost jobs. Is that the transition you want?"
+
+**Don't say:** "We need reliable baseload power."
+
+**Say:** "Germany spent €500 billion on renewables. When the wind doesn't blow, they import nuclear power from France. Guess who pays? The same families who can't afford heating."
+:::
+
+---
+
 # Scenario: Bringing It Back to Hong Kong
 
 ## Renewable Energy Landscape in Hong Kong
@@ -247,9 +357,80 @@ Hong Kong's current renewable energy usage is modest, with the government target
 - **Policy and Implementation**:  
   - Considering Hong Kong’s space and cost constraints, what strategies could the government adopt to enhance renewable energy integration (e.g., technological innovations, grid improvements, energy storage)?
 
-- **Long-Term Vision**:  
+- **Long-Term Vision**:
   - How might Hong Kong's energy landscape evolve by 2100 or 2200? What realistic pathways can be envisioned to achieve energy security and sustainability?
 
+---
+
+# Activity: Energy Futures Debate
+
+---
+
+## Create Your Persona
+
+::: {style="font-size: 1.4em;"}
+**PRO-CLIMATE personas:**
+
+- Environmentalist pushing for immediate coal phase-out
+- Parent in Tuen Mun near power station
+- Youth climate activist
+- Renewable energy startup founder
+
+**PRO-DEVELOPMENT personas:**
+
+- CLP executive managing grid stability
+- Factory owner worried about electricity costs
+- Energy minister balancing competing demands
+- Coal worker facing job uncertainty
+:::
+
+::: {style="font-size: 1.5em; font-weight: bold; margin-top: 30px;"}
+Who are you? What's your story? What do you fear losing?
+:::
+
+---
+
+## Human Story: The Lignite Worker
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Klaus** worked in German lignite mines for 30 years. His father and grandfather did too. The Energiewende shut his mine.
+
+**PRO-CLIMATE says:** "Lignite is the dirtiest fuel. Closing the mines saved lives. Klaus can retrain."
+
+**PRO-DEVELOPMENT says:** "Klaus is 55. He lost his pension. His town is dying. No one hired him. He voted for the far-right. Was the transition worth it?"
+
+**The real question:** How do we transition justly — fast enough to save the planet, slow enough not to destroy communities?
+:::
+
+---
+
+## Remember: Fact-Check Your Stories
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+OK to Say
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "Solar costs dropped 89% since 2010" *(IEA data)*
+- "Ontario electricity prices doubled" *(Ontario Energy Board)*
+- "Duck Curve creates grid challenges" *(CAISO documented)*
+:::
+:::
+
+::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+NOT OK
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "Renewables can power everything now" *(ignores intermittency)*
+- "Green energy destroys economies" *(exaggeration)*
+- "Oil companies are literally killing people" *(unverifiable as stated)*
+:::
+:::
+:::
+
+---
 
 #
 
@@ -348,8 +529,8 @@ const GroupAssignment = {
     'Policy-makers/decision makers',
     'Technology and Innovation',
     'Service Provider/Essential Workers',
-    'Pro-CC expert',
-    'Anti-CC expert'
+    'Pro-Climate expert',
+    'Pro-Development expert'
   ],
 
   shuffleArray: function(array) {
