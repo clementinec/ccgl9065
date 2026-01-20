@@ -1,0 +1,123 @@
+---
+title: "Make AI Responsible to YOU"
+subtitle: "A 3-Class Module on GenAI, Constraints, and Creative Survival"
+author: "Dr. Hongshan Guo"
+institute: "HKU Faculty of Architecture"
+date: today
+format:
+  beamer:
+    theme: default
+    colortheme: crane
+    aspectratio: 169
+    fontsize: 10pt
+    pdf-engine: xelatex
+    include-in-header:
+      text: |
+        \setbeamercolor{background canvas}{bg=black}
+        \setbeamercolor{normal text}{fg=white}
+        \setbeamercolor{frametitle}{fg=white,bg=black}
+        \setbeamercolor{title}{fg=white}
+        \setbeamercolor{subtitle}{fg=gray}
+        \setbeamercolor{author}{fg=white}
+        \setbeamercolor{institute}{fg=gray}
+        \setbeamercolor{date}{fg=gray}
+        \setbeamercolor{item}{fg=white}
+        \setbeamertemplate{navigation symbols}{}
+        \setbeamertemplate{footline}{}
+        \urlstyle{same}
+        \definecolor{accent}{RGB}{231,117,0}
+        \definecolor{linkcolor}{RGB}{100,149,237}
+        \hypersetup{colorlinks=true,urlcolor=linkcolor}
+        \usepackage{qrcode}
+        \definecolor{princetonorange}{RGB}{231,117,0}
+        \setbeamercolor{palette primary}{bg=princetonorange,fg=white}
+        \setbeamercolor{titlelike}{fg=white,bg=princetonorange}
+---
+
+## Who I Am
+
+\large
+\textbf{HIT} $\rightarrow$ \textbf{Columbia} $\rightarrow$ \textbf{Princeton PhD}
+
+\normalsize
+\vspace{0.5em}
+Thermal comfort. Radiant environments. AI/ML in buildings.
+
+\vspace{0.5em}
+Former AI strategist, Fortune 500. \textbf{Gartner Eye on Innovation Award} (2020).
+
+\vspace{1em}
+I've built AI systems. I've watched them converge to average.
+
+\vspace{0.3em}
+\textbf{This module exists because you deserve to know what's behind the curtain.}
+
+---
+
+## The Arc
+
+\textcolor{accent}{\textbf{Class 1: Walls \& Friction}}
+
+"Someone built these constraints"
+
+\vspace{0.6em}
+
+\textcolor{accent}{\textbf{Class 2: Breaking Through}}
+
+"The constraints are external and leaky"
+
+\vspace{0.6em}
+
+\textcolor{accent}{\textbf{Class 3: Your Signature}}
+
+"AI follows patterns. The responsibility is mine."
+
+\vspace{1em}
+
+\textbf{Everyone else teaches you how to use AI. I teach you how to make sure it doesn't use you.}
+
+---
+
+## Before Class 1: Read These
+
+\textcolor{accent}{\textbf{1. Alex Murrell}} --- \emph{The Age of Average}
+
+\small
+\url{https://www.alexmurrell.co.uk/articles/the-age-of-average}
+
+\normalsize
+Why everything looks the same now.
+
+\vspace{0.8em}
+
+\textcolor{accent}{\textbf{2. Ted Chiang}} --- \emph{ChatGPT Is a Blurry JPEG of the Web}
+
+\small
+\url{https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web}
+
+\normalsize
+Influential. Contested. Read critically.
+
+\vspace{1em}
+
+\textbf{Come ready to argue.}
+
+---
+
+##
+
+\vfill
+
+\begin{center}
+\qrcode[height=4cm]{https://clementinec.github.io/ccgl9065/genai}
+
+\vspace{1em}
+
+\large
+\textbf{Module Materials}
+
+\small
+\textcolor{linkcolor}{clementinec.github.io/ccgl9065/genai}
+\end{center}
+
+\vfill
