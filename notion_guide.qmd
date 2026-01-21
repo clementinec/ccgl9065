@@ -1,4 +1,6 @@
-# Notion Setup Guide
+---
+title: "Notion Setup Guide"
+---
 
 Your Notion portfolio is where you document your weekly research and reflections throughout the semester. Follow these steps to get started.
 

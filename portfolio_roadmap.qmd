@@ -274,18 +274,22 @@ Each week, your Notion entry should include:
 
 # Participation (20%)
 
-Participation is graded on engagement in:
+Participation is split into two equal components:
 
-- **Lectures:** Contributing to discussions, asking questions
-- **Tutorials:** Active role-play as PRO-CLIMATE or PRO-DEVELOPMENT personas
-- **Debates:** Defending positions with evidence and emotional resonance
+## In-Class Participation (10%)
 
-## What Counts
+Present **3 times** during the semester to earn the full 10%.
 
-- Speaking up (even briefly) in every session
-- Playing your assigned persona convincingly
-- Challenging others with fact-checked counterarguments
-- Building on classmates' points constructively
+- Presentations happen during the debate/activity portion of lectures
+- Can be as an individual or representing your group
+- Quality matters less than showing up and contributing
+
+## Tutorial Participation (10%)
+
+Attend a **majority of tutorials** (more than half) to earn the full 10%.
+
+- Tutorials provide valuable prep for debates and portfolio work
+- Active engagement expected, but attendance is the baseline requirement
 
 ---
 
@@ -325,6 +329,6 @@ Aim to create something you'd proudly share on LinkedIn, Instagram, or hang on a
 | Video Essay | 20% | 60s MP4 | Hook → Core → CTA |
 | Reflective Essay | 20% | 750w PDF | Synthesis across weeks |
 | Collage/Poster | 20% | A3 PDF | ≤50 words, visual impact |
-| Participation | 20% | In-class | PRO-CLIMATE vs PRO-DEVELOPMENT debates |
+| Participation | 20% | In-class (10%) + Tutorial (10%) | 3 presentations + majority tutorial attendance |
 
 **Remember:** Every deliverable must pass the fact-check test. Truth is not optional.

@@ -55,7 +55,7 @@ We use **Hong Kong 2100** as the theater of this speculative design work. The ou
 <div class="resource-grid">
   <a href="activity_guide.html" class="resource-item">Activity Guide</a>
   <a href="data/W1_Handout.pdf" class="resource-item">Week 1 Handout</a>
-  <a href="data/notion_guide.md" class="resource-item">Notion Setup Guide</a>
+  <a href="notion_guide.html" class="resource-item">Notion Setup Guide</a>
   <a href="data/slack_post_template.md" class="resource-item">Slack Post Guide</a>
   <a href="data/slack_setup_guide.md" class="resource-item">Slack Setup Guide</a>
 </div>
@@ -78,7 +78,7 @@ The [Activity Guide](activity_guide.html) explains how weekly debates work: grou
   <div>
     <h3>Getting Started</h3>
     <ul>
-      <li><a href="data/notion_guide.md">Notion Setup Guide</a></li>
+      <li><a href="notion_guide.html">Notion Setup Guide</a></li>
       <li><a href="https://petite-impatiens-e81.notion.site/2e52932a4d0a800fb84ce93ee974aa0b?v=2e52932a4d0a80ef90ad000cd9030046">Portfolio Template (Notion)</a></li>
     </ul>
   </div>

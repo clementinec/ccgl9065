@@ -55,8 +55,8 @@ Our Response to Climate Change: Hong Kong 2100
 | **When** | Wednesdays, 15:00–16:50 |
 | **Where** | LE4 |
 | **Structure** | 50 min lecture + 50 min activity |
-| **Assessment** | Participation + Midterm + Final Portfolio |
-| **Handout** | [Week 1 PDF](data/W1_Handout.pdf) |
+| **Assessment** | Participation (20%) + Weekly Work (20%) + Final Portfolio (60%) |
+| **Handout** | [Activity Showflow](genai/showflow.html) |
 :::
 
 ---
@@ -145,6 +145,40 @@ Slack Battlefield
 
 ---
 
+## Get Set Up
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: center; width: 45%; background: #f8f9fa; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.8em; font-weight: bold;"}
+📓 Notion
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+Set up your personal portfolio on your own device.
+
+[📖 Setup Guide](notion_guide.html){.btn style="display: inline-block; background: #000; color: white; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-size: 1.2em; margin-top: 15px;"}
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #f8f9fa; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.8em; font-weight: bold;"}
+💬 Slack
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+Join the course workspace for announcements & discussions.
+
+![](images/slack_qr.png){width="180px" style="margin: 15px 0;"}
+
+[JOIN](https://join.slack.com/t/ccgl9065workspace/shared_invite/zt-3numifxer-eIQBWkj34S5k3_fZ9gstoQ){.btn style="display: inline-block; background: #4A154B; color: white; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-size: 1.2em;"}
+
+::: {style="font-size: 0.9em; color: #666; margin-top: 10px;"}
+*Web version available for device constraints*
+:::
+:::
+:::
+:::
+
+---
+
 ## The Flow
 
 ::: {style="font-size: 1.6em; line-height: 2;"}
@@ -194,7 +228,7 @@ Let's start with a question.
 ::: {style="font-size: 2em; text-align: center;"}
 **Go to menti.com**
 
-Enter code: **XXXX XXXX**
+Enter code: **7932 0786**
 :::
 
 ::: {style="font-size: 1.5em; margin-top: 50px;"}
@@ -909,22 +943,31 @@ Spectacle
 
 ---
 
-## PRO-US: Stories That Scare
+## PRO-US: The Human Cost
 
-::: {style="font-size: 1.4em; line-height: 1.7;"}
-**The Human Cost:**
-
+::: {style="font-size: 1.5em; line-height: 1.8;"}
 - A Rice University student took their own life — the pressure of competing with AI, feeling replaceable, was part of their struggle.
+
 - "AI is taking your job" — not in 10 years, but **now**. Customer service, coding, writing, design.
+:::
 
-**The Corporate Villain:**
+---
 
+## PRO-US: The Corporate Villain
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
 - Big Tech is profiting off job opportunities that **went to PEOPLE** — and replacing them with algorithms.
+
 - *"Every time you cheer for AI, you're voting to make yourself obsolete."*
+:::
 
-**The Exploitation Angle:**
+---
 
+## PRO-US: The Exploitation Angle
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
 - Data centers are built in poor communities. They get the pollution. Tech workers get the raises.
+
 - "Green AI" is marketing. The coal plants are real.
 :::
 
@@ -944,23 +987,33 @@ Spectacle
 
 ---
 
-## PRO-AI: Stories That Inspire
+## PRO-AI: The Productivity Revolution
 
-::: {style="font-size: 1.4em; line-height: 1.7;"}
-**The Productivity Revolution:**
-
+::: {style="font-size: 1.5em; line-height: 1.8;"}
 - A single person can now do what took a team of 10.
+
 - Students in developing countries can access world-class tutoring — for free.
+
 - Small businesses compete with giants because AI levels the playing field.
+:::
 
-**The Innovation Hope:**
+---
 
+## PRO-AI: The Innovation Hope
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
 - AI is discovering new materials for solar panels, optimizing wind farms, predicting floods.
+
 - *"The same technology that causes problems can solve them — if we invest."*
+:::
 
-**The Realism Card:**
+---
 
+## PRO-AI: The Realism Card
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
 - "China isn't slowing down. Do you want to fall behind and have zero influence on how AI develops?"
+
 - Stopping AI won't bring jobs back. Adapting will create new ones.
 :::
 
