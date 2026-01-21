@@ -1,67 +1,242 @@
 ---
 title: "Activity Guide"
-subtitle: "CCGL9065: How to Run Weekly Debates"
+subtitle: "CCGL9065: How In-Class Activities Work"
 author: "Dr. Hongshan Guo"
 toc: true
 ---
 
-This guide explains the structure of weekly in-class activities. Keep this handy throughout the semester.
+This guide explains the structure of weekly in-class activities. The semester uses a **leveling system** — you start with a teaser, build skills in small groups, and unlock cross-room debates when the class is ready.
 
 ---
 
-## The Weekly Rhythm
+## Semester Structure
 
-Every week follows the same pattern:
+| Level | When | Format | Goal |
+|-------|------|--------|------|
+| **Level 0** | Week 1 only | Two-side teaser debate | Get a taste of cross-room confrontation |
+| **Level 1** | Week 2+ (default) | Vocational groups, individual presentations | Build persona, practice spectacles |
+| **Level 2** | Unlocked by class | Cross-room Assembly Debates | Hardcore argumentation and cross-fire |
+
+---
+
+## How Level 2 Gets Unlocked
+
+We don't rush into Assembly Debates — the class earns it.
+
+1. **Slack tracker**: A pinned post in the Slack workspace tracks interest in "Level 2"
+2. **Like to vote**: React to the post if you want to try Level 2
+3. **Threshold reached**: When enough likes accumulate, we kick off Level 2 the following week
+4. **After the experiment**: Class votes in person — continue Level 2, or fall back to Level 1 if it's too much
+
+This keeps the energy student-driven without putting anyone on the spot.
+
+---
+
+# Level 0: Week 1 Teaser
+
+*One session only — a taste of what's to come*
+
+In Week 1, we skip straight to a simplified two-side debate:
+
+- **Left side of room**: PRO-AI (Pro-Development)
+- **Right side of room**: PRO-US (Pro-Climate)
+
+*Note: From Week 2 onwards, we drop the AI framing and use **Pro-Dev** vs **Pro-CC** — same idea, broader scope.*
+
+This is a teaser — chaotic, unpolished, but energizing. It shows you what Assembly Debates feel like before you've built the skills. Counts toward your attendance participation.
+
+After Week 1, we step back and build properly.
+
+---
+
+# Level 1: Vocational Groups
+
+*Week 2 onwards — the default mode*
+
+## How It Works
+
+Students are organized into **vocational (occupation-based) groups**:
+
+| Group | Perspective |
+|-------|-------------|
+| **Logistics/Transportation** | Supply chains, shipping, mobility |
+| **Farming/Food Procurement** | Agriculture, food systems, land use |
+| **Energy and Industry** | Power generation, manufacturing |
+| **Policy-Makers** | Governance, regulation, international agreements |
+| **Technology and Innovation** | Tech solutions, R&D, digital tools |
+| **Service/Urban Workers** | Cities, daily life, consumer perspective |
+
+### Choosing Your Group
+
+- **Week 2**: You'll be assigned a starting group based on seating
+- **Any week after**: You can **stay** with your group or **switch** to a different one
+- Switching is fine — maybe you want to explore a new perspective, or a topic fits another vocation better
+- Staying is also fine — depth in one persona can be just as valuable as breadth
+
+Just move to the new group's seating area at the start of the activity. No permission needed.
+
+### Within Each Group
+
+Students choose their stance based on their collected research profile:
+
+- **Pro-Climate (Pro-CC)**: Prioritize environmental protection, sustainability
+- **Pro-Development (Pro-Dev)**: Prioritize economic growth, pragmatic progress
+
+---
+
+## Weekly Activity Flow (50 min)
 
 | Phase | Time | What Happens |
 |-------|------|--------------|
-| **Lecture** | 50 min | Facts, stakes, ammunition for both sides |
-| **Activity** | 50 min | Groups form, synthesize, present, debate |
+| **Settle into Groups** | 2 min | Find your vocational group by seating |
+| **Position Declaration** | 3 min | Declare Pro-CC or Pro-Dev based on your research |
+| **Persona Creation** | 5 min | Who are you? What's your story? What do you fear losing? |
+| **Research Sharing** | 10 min | Share findings within your group |
+| **Individual Prep** | 10 min | Each person prepares their 5-min presentation |
+| **Presentations** | 15 min | 2-3 speakers present (5 min each) |
+| **Group Discussion** | 5 min | React, question, build on each other's points |
 
 ---
 
-## Activity Flow (50 min)
+## The 5-Minute Presentation
 
-### The Standard Structure
+Each speaker gets 5 minutes to present their argument.
 
-| Phase | Time | What to Do |
-|-------|------|------------|
-| **Form Groups** | 2 min | Split into PRO and CON sides |
-| **Assign Roles** | 3 min | Each person takes a role |
-| **Persona Creation** | 5 min | Who are you? What's your story? |
-| **Research Synthesis** | 10 min | Pool your homework, build arguments |
-| **Presentation Prep** | 10 min | Craft your 3 key points as stories |
-| **Presentations** | 10 min | Each side presents (5 min each) |
-| **Open Debate** | 8 min | Cross-fire, rebuttals, questions |
-| **Debrief** | 2 min | Key takeaways, what worked |
+| Segment | Time | Content |
+|---------|------|---------|
+| **Hook** | 30 sec | Open with your most powerful story or image |
+| **Argument 1** | 90 sec | Your strongest point as a spectacle |
+| **Argument 2** | 90 sec | Your second-strongest point |
+| **Argument 3** | 60 sec | Third point or preemptive defense |
+| **Close** | 30 sec | Call to action or memorable line |
+
+### Presenter Tips
+
+- **Don't read** — know your points, speak naturally
+- **Make eye contact** — with the audience, not your notes
+- **Use pauses** — let your big moments land
+- **End strong** — last line should be memorable
 
 ---
 
-## Group Roles
+## Persona Creation
 
-Assign these at the start of each activity. Rotate weekly so everyone tries different roles.
+This is your warmup for role-playing. Your **vocational group** is the foundation of your persona — use it as a label that grounds your arguments.
+
+Answer these questions:
+
+1. **Who are you?** (Name, job within your vocational group, location)
+2. **What's your daily reality?** (How does climate/development affect your work?)
+3. **What do you fear losing?** (Job? Community? Future?)
+4. **What do you hope for?** (What's your vision of success?)
+
+Think of your vocational label as your argumentative superpower: *"As a logistics worker..."* or *"Speaking from the farming sector..."* gives your points immediate credibility and specificity.
+
+### Example Personas
+
+**Pro-CC Farmer:**
+> "I'm Maria, a rice farmer in the Mekong Delta. Every year the floods get worse. Last year I lost 40% of my harvest. My children want to move to the city. I fear my family's land — farmed for three generations — will be underwater by 2050."
+
+**Pro-Dev Energy Worker:**
+> "I'm James, a power plant technician in Guangdong. My plant employs 200 families from my village. When people talk about shutting down coal, they're talking about my neighbors losing their homes. I want clean energy too — but not if it means my community starves first."
+
+---
+
+## Participation Tracking
+
+To earn the full **10% in-class participation**:
+
+- Present **3 times** throughout the semester
+- Can be individual presentations or representing your group
+- Quality matters less than showing up and contributing
+
+### What Counts as a Presentation
+
+| Week | Opportunity |
+|------|-------------|
+| **Week 1** | Level 0 teaser debate — counts if you speak |
+| **Weeks 2–11** | Level 1 or Level 2 presentations |
+| **Week 12** | Portfolio presentation — counts for everyone |
+
+So realistically: present in **Week 1 + Week 12 + one other week** and you're done.
+
+---
+
+# Level 2: Assembly Debates
+
+*Unlocked when the class is ready*
+
+## The Shift
+
+After weeks of building comfort with personas and individual presentations, the final sessions bring the class together for **cross-room debates**.
+
+| What Changes | Level 1 | Level 2 |
+|--------------|------------------|----------------|
+| **Room Layout** | Groups by occupation | Two sides: PRO-CC vs PRO-DEV |
+| **Format** | Individual presentations | Cross-fire debates across the room |
+| **Intensity** | Warmup, exploration | High-stakes argumentation |
+| **Goal** | Build skills | Deploy skills |
+
+### Vocational Groups Still Matter
+
+You keep your vocational identity in Level 2 — it becomes part of your persona:
+
+- *"As someone in Energy and Industry, I see this differently..."*
+- *"From a Policy-Maker's perspective, the real issue is..."*
+- *"Speaking as a farmer, let me tell you what this means on the ground..."*
+
+Your vocational lens makes your arguments more grounded and specific.
+
+---
+
+## Assembly Debate Flow (50 min)
+
+| Phase | Time | What Happens |
+|-------|------|--------------|
+| **Form Sides** | 2 min | Move to your side of the room (PRO-CC left, PRO-DEV right) |
+| **Vocational Check-in** | 3 min | Within your side, note which vocational groups are represented |
+| **Strategy Session** | 10 min | Pool best arguments, leverage vocational perspectives |
+| **Presentation Prep** | 10 min | Craft your side's case |
+| **Team Presentations** | 10 min | Each side presents (5 min each) |
+| **Cross-Fire** | 12 min | Debate across the room — rebuttals, questions, challenges |
+| **Debrief** | 3 min | What worked? What surprised you? |
+
+---
+
+## Team Roles (Level 2)
 
 | Role | Responsibility |
 |------|----------------|
-| **Facilitator** | Keeps time, moves discussion forward, ensures everyone contributes |
-| **Researcher** | Pulls key facts from everyone's homework, checks sources |
+| **Facilitator** | Keeps time, ensures everyone contributes |
+| **Researcher** | Pulls key facts, checks sources |
 | **Storyteller** | Turns facts into narratives using the Spectacle Formula |
 | **Devil's Advocate** | Stress-tests arguments: "But what about...?" |
-| **Presenter** | Delivers the group's case to the class |
-
-### Why Roles Matter
-
-Without roles, groups default to:
-- One person doing all the work
-- Circular discussions that go nowhere
-- Arguments that stay at the "fact" level
-
-With roles:
-- Everyone has a job
-- Discussion has direction
-- Arguments become stories
+| **Presenter** | Delivers the team's case |
 
 ---
+
+## Open Debate Rules
+
+### Rules of Engagement
+
+1. **Address the argument, not the person**
+2. **Ask questions, don't just attack**
+3. **Concede good points** — "That's fair, but..."
+4. **Redirect, don't deny** — "Even if that's true, it doesn't address..."
+
+### Useful Phrases
+
+| To Do | Say |
+|-------|-----|
+| Challenge a claim | "Where's the source for that?" |
+| Reframe | "You're focusing on X, but the real issue is Y" |
+| Concede and counter | "That's a valid concern, but consider..." |
+| Call out exaggeration | "That's one case. Is it representative?" |
+| Redirect | "Even if true, does that justify...?" |
+
+---
+
+# Core Skills (All Levels)
 
 ## The Spectacle Formula
 
@@ -84,7 +259,9 @@ $$\text{Fact} + \text{Human Story} + \text{Stakes} = \text{Spectacle}$$
 3. **Raise the stakes** — what's at risk? What's lost?
 4. **Make it personal** — connect to your audience's life
 
-### The Line: Persuasion vs. Propaganda
+---
+
+## The Line: Persuasion vs. Propaganda
 
 | Persuasion (OK) | Propaganda (NOT OK) |
 |-----------------|---------------------|
@@ -103,80 +280,6 @@ If you can't answer YES to all three — don't use it.
 
 ---
 
-## Research Synthesis (10 min)
-
-This is where your pre-class homework becomes group ammunition.
-
-### The Flow
-
-| Step | Time | What to Do |
-|------|------|------------|
-| **Share** | 3 min | Everyone reads out their best finding from Slack/Notion |
-| **Sort** | 3 min | Group findings by theme: Energy? Jobs? Equity? |
-| **Select** | 2 min | Pick your 3 strongest facts |
-| **Story** | 2 min | Storyteller drafts narratives for each |
-
-### Synthesis Questions
-
-- What's the **most surprising** fact we have?
-- What's the **most human** story we can tell?
-- What fact do we have that the **other side can't counter**?
-- What's our **weakest point** and how do we defend it?
-
----
-
-## Presentation Prep (10 min)
-
-### Structure Your 5 Minutes
-
-| Segment | Time | Content |
-|---------|------|---------|
-| **Hook** | 30 sec | Open with your most powerful story/image |
-| **Argument 1** | 90 sec | Your strongest point as a spectacle |
-| **Argument 2** | 90 sec | Your second-strongest point |
-| **Argument 3** | 60 sec | Third point or preemptive defense |
-| **Close** | 30 sec | Call to action or memorable line |
-
-### Presenter Tips
-
-- **Don't read** — know your points, speak naturally
-- **Make eye contact** — with the other side, not just your team
-- **Use pauses** — let your big moments land
-- **End strong** — last line should be memorable
-
----
-
-## Open Debate (8 min)
-
-### Rules of Engagement
-
-1. **Address the argument, not the person**
-2. **Ask questions, don't just attack**
-3. **Concede good points** — "That's fair, but..."
-4. **Redirect, don't deny** — "Even if that's true, it doesn't address..."
-
-### Useful Phrases
-
-| To Do | Say |
-|-------|-----|
-| Challenge a claim | "Where's the source for that?" |
-| Reframe | "You're focusing on X, but the real issue is Y" |
-| Concede and counter | "That's a valid concern, but consider..." |
-| Call out exaggeration | "That's one case. Is it representative?" |
-| Redirect | "Even if true, does that justify...?" |
-
----
-
-## Debrief (2 min)
-
-Quick reflection at the end:
-
-- What argument from the **other side** actually worked on you?
-- What was your side's **weakest moment**?
-- What would you do **differently** next time?
-
----
-
 ## Weekly Documentation
 
 ### What to Track in Your Notion Portfolio
@@ -186,7 +289,9 @@ Each week, add:
 ```
 WEEK [#]: [Topic]
 
-MY POSITION THIS WEEK: [PRO-X / PRO-Y]
+MY POSITION THIS WEEK: [PRO-CC / PRO-DEV]
+
+MY VOCATIONAL GROUP: [e.g., Energy and Industry]
 
 BEST FACT I FOUND:
 - Source:
@@ -206,29 +311,25 @@ WHAT I LEARNED:
 - About argumentation:
 ```
 
-### Why Document?
-
-1. Your portfolio grows all semester
-2. Final project draws from your weekly work
-3. Patterns emerge — you'll see what kinds of arguments you're good at
-4. You own your intellectual development
-
 ---
 
-## Quick Reference: Activity Checklist
+## Quick Reference Checklist
 
-Before class:
+**Before class:**
+
 - [ ] Research done
 - [ ] Best finding posted to Slack
+- [ ] Position chosen (Pro-CC or Pro-Dev)
 
-During activity:
-- [ ] Role assigned
+**During activity:**
+
+- [ ] Joined vocational group (Level 1) or assembly side (Level 2)
 - [ ] Persona created
-- [ ] 3 arguments prepared
-- [ ] Spectacle formula applied
-- [ ] Presentation delivered
+- [ ] Arguments prepared with Spectacle Formula
+- [ ] Presentation delivered (aim for 3 total this semester)
 
-After class:
+**After class:**
+
 - [ ] Week documented in Notion
 - [ ] Best arguments noted
 - [ ] Lessons learned captured
@@ -239,9 +340,10 @@ After class:
 
 You're not here to "win" debates. You're here to:
 
-1. **Understand all sides** — argue PRO one week, CON the next
-2. **Build narrative skills** — turn data into stories people feel
-3. **Recognize persuasion** — know it when you see it, know how to do it
-4. **Stay honest** — powerful arguments that are also true
+1. **Build comfort** — with role-play, public speaking, argumentation
+2. **Understand all sides** — argue PRO-CC one week, PRO-DEV the next
+3. **Develop narrative skills** — turn data into stories people feel
+4. **Recognize persuasion** — know it when you see it, know how to do it
+5. **Stay honest** — powerful arguments that are also true
 
 **Facts don't change minds. Stories do. Your job: Tell true stories that move people.**
