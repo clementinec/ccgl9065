@@ -101,12 +101,15 @@ Students choose their stance based on their collected research profile:
 | Phase | Time | What Happens |
 |-------|------|--------------|
 | **Settle into Groups** | 2 min | Find your vocational group by seating |
-| **Position Declaration** | 3 min | Declare Pro-CC or Pro-Dev based on your research |
-| **Persona Creation** | 5 min | Who are you? What's your story? What do you fear losing? |
-| **Research Sharing** | 10 min | Share findings within your group |
-| **Individual Prep** | 10 min | Each person prepares their 5-min presentation |
-| **Presentations** | 15 min | 2-3 speakers present (5 min each) |
-| **Group Discussion** | 5 min | React, question, build on each other's points |
+| **Position Exchange** | 3 min | Quick round: declare Pro-CC or Pro-Dev, share one-line take |
+| **Group Presentations** | 35 min | Each group presents (~5 min max per group) |
+| **Wrap-Up** | 5 min | Reactions, standout moments, preview next week |
+| *Buffer* | 5 min | Overflow / transition time |
+
+::: {.callout-tip}
+## On Presentation Length
+5 minutes is the **maximum**, not a target. Brevity is memorable — if you can land your point in 2 minutes, do it. Each of the 6 vocational groups should get a chance to present each week.
+:::
 
 ---
 
