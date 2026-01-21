@@ -105,6 +105,48 @@
     "text": "Finding out more about historical climate data\nReach out to us direclty if you are interested in leveraging your data mining techniques on historical weather data.\n\nHistorical Data Analysis (Meta)1\n1 Image source: IPCC AR4 WG 1 figure 6.10."
   },
   {
+    "objectID": "slack_post_template.html",
+    "href": "slack_post_template.html",
+    "title": "How to Post to the Weekly Battlefield",
+    "section": "",
+    "text": "Each week, share your research to the battlefield channel using this format."
+  },
+  {
+    "objectID": "slack_post_template.html#slack-post-template",
+    "href": "slack_post_template.html#slack-post-template",
+    "title": "How to Post to the Weekly Battlefield",
+    "section": "Slack Post Template",
+    "text": "Slack Post Template\nCopy and paste this into the weekly channel:\n**[PRO CLIMATE]** or **[PRO DEVELOPMENT]**\n\n📊 **My Fact:**\n[One key statistic or data point]\nSource: [link]\n\n📖 **My Story:**\n[One real case in 2-3 sentences]\nSource: [link]\n\n💥 **My Spectacle:**\n\"[Your emotionally compelling version of the fact]\"\n\n🔗 **Full research:** [Link to your Notion page]\n\n---"
+  },
+  {
+    "objectID": "slack_post_template.html#example-post",
+    "href": "slack_post_template.html#example-post",
+    "title": "How to Post to the Weekly Battlefield",
+    "section": "Example Post",
+    "text": "Example Post\n**[PRO CLIMATE]**\n\n📊 **My Fact:**\nAI data centers will consume 945 TWh globally by 2030 — more than Japan's entire electricity consumption.\nSource: IEA Energy and AI Report 2024\n\n📖 **My Story:**\nA Rice University student took their own life in 2024. Friends reported the pressure of competing with AI, feeling replaceable, contributed to their mental health crisis.\nSource: Houston Chronicle\n\n💥 **My Spectacle:**\n\"Every time you ask ChatGPT to write your essay, you're voting to make yourself obsolete — and burning coal to do it.\"\n\n🔗 **Full research:** notion.so/myname/week1\n\n---"
+  },
+  {
+    "objectID": "slack_post_template.html#after-posting",
+    "href": "slack_post_template.html#after-posting",
+    "title": "How to Post to the Weekly Battlefield",
+    "section": "After Posting",
+    "text": "After Posting\n\nReact to teammates’ posts (👍 for good facts, 🔥 for great spectacles)\nReply with counter-arguments or builds on their ideas\nNominate the best contributions for the Channel Canvas"
+  },
+  {
+    "objectID": "slack_post_template.html#what-gets-added-to-the-canvas",
+    "href": "slack_post_template.html#what-gets-added-to-the-canvas",
+    "title": "How to Post to the Weekly Battlefield",
+    "section": "What Gets Added to the Canvas?",
+    "text": "What Gets Added to the Canvas?\nThe channel Canvas curates the best contributions: - Most compelling facts (verified, sourced) - Most powerful stories (real, documented) - Best spectacles (emotional, memorable)\nGetting into the Canvas = you did great research"
+  },
+  {
+    "objectID": "slack_post_template.html#quick-tips",
+    "href": "slack_post_template.html#quick-tips",
+    "title": "How to Post to the Weekly Battlefield",
+    "section": "Quick Tips",
+    "text": "Quick Tips\n\nBe concise — the channel moves fast\nAlways cite sources — no source = didn’t happen\nTag your position — [PRO CLIMATE] or [PRO DEVELOPMENT]\nLink your Notion — so people can dig deeper\nEngage with others — this is a conversation, not a bulletin board"
+  },
+  {
     "objectID": "notion_guide.html",
     "href": "notion_guide.html",
     "title": "Notion Setup Guide",
@@ -3476,7 +3518,7 @@
     "href": "index.html#assets-handouts",
     "title": "Our Response to Climate Change",
     "section": "Assets & Handouts",
-    "text": "Assets & Handouts\n\n  Activity Guide\n  Week 1 Handout\n  Notion Setup Guide\n  Slack Post Guide\n  Slack Setup Guide\n\nThe Activity Guide explains how weekly debates work: group roles, the Spectacle Formula, synthesis flow, and documentation templates."
+    "text": "Assets & Handouts\n\n  Activity Guide\n  Notion Setup Guide\n  Slack Post Guide\n  Slack Setup Guide\n\nThe Activity Guide explains how weekly debates work: group roles, the Spectacle Formula, synthesis flow, and documentation templates."
   },
   {
     "objectID": "index.html#resources",
@@ -3652,5 +3694,61 @@
     "title": "Roadmap to Final Portfolio",
     "section": "Tutorial Participation (10%)",
     "text": "Tutorial Participation (10%)\nAttend a majority of tutorials (more than half) to earn the full 10%.\n\nTutorials provide valuable prep for debates and portfolio work\nActive engagement expected, but attendance is the baseline requirement"
+  },
+  {
+    "objectID": "slack_setup_guide.html",
+    "href": "slack_setup_guide.html",
+    "title": "Slack Workspace Setup",
+    "section": "",
+    "text": "Students maintain a personal Notion page (their portfolio) and share findings to weekly Slack battlefield channels. No fixed groups — students drift between positions and topics based on interest."
+  },
+  {
+    "objectID": "slack_setup_guide.html#the-model-weekly-battlefields",
+    "href": "slack_setup_guide.html#the-model-weekly-battlefields",
+    "title": "Slack Workspace Setup",
+    "section": "",
+    "text": "Students maintain a personal Notion page (their portfolio) and share findings to weekly Slack battlefield channels. No fixed groups — students drift between positions and topics based on interest."
+  },
+  {
+    "objectID": "slack_setup_guide.html#channel-structure",
+    "href": "slack_setup_guide.html#channel-structure",
+    "title": "Slack Workspace Setup",
+    "section": "Channel Structure",
+    "text": "Channel Structure\n\nCore Channels\n\n#announcements — Instructor posts only\n#general — Open discussion, questions\n#resources — Shared articles, videos, useful links\n\n\n\nWeekly Battlefield Channels\nCreated fresh each week:\n\n#w1-battlefield-ai — Week 1: Us vs. the AI\n#w2-battlefield-food — Week 2: Food Systems\n#w3-battlefield-energy — Week 3: Energy\n#w4-battlefield-cities — Week 4: Cities & Architecture\n… (continue for each week)"
+  },
+  {
+    "objectID": "slack_setup_guide.html#how-it-works",
+    "href": "slack_setup_guide.html#how-it-works",
+    "title": "Slack Workspace Setup",
+    "section": "How It Works",
+    "text": "How It Works\n\nBefore Class (Homework)\n\nResearch the week’s topic\nAdd findings to your personal Notion page\nPost to Slack — share your best fact/story to the battlefield channel\nTag your position: [PRO CLIMATE] or [PRO DEVELOPMENT]\n\n\n\nDuring Class\nFirst 50 minutes: Instructor presents facts, stakes, and angles of attack for both sides.\nSecond 50 minutes: 1. Students find others with similar positions 2. Groups synthesize their best arguments 3. Groups present to the class 4. Debate between sides\n\n\nAfter Class\n\nBest contributions get added to the Channel Canvas\nStudents can continue discussing in the channel\nBrowse other weeks’ channels for ideas"
+  },
+  {
+    "objectID": "slack_setup_guide.html#slack-post-format",
+    "href": "slack_setup_guide.html#slack-post-format",
+    "title": "Slack Workspace Setup",
+    "section": "Slack Post Format",
+    "text": "Slack Post Format\nWhen posting to a battlefield channel:\n**[PRO CLIMATE]** or **[PRO DEVELOPMENT]**\n\n📊 **My Fact:**\n[One key statistic or data point]\nSource: [link]\n\n📖 **My Story:**\n[One real case in 2-3 sentences]\nSource: [link]\n\n💥 **My Spectacle:**\n\"[Your emotionally compelling version]\"\n\n🔗 **Full research:** [Link to your Notion page]"
+  },
+  {
+    "objectID": "slack_setup_guide.html#channel-canvas",
+    "href": "slack_setup_guide.html#channel-canvas",
+    "title": "Slack Workspace Setup",
+    "section": "Channel Canvas",
+    "text": "Channel Canvas\nEach battlefield channel has a Canvas that curates the best contributions:\n# W1 AI Battlefield — Best Arguments\n\n## 🟢 PRO Climate Action\n### Top Facts\n- [Sarah] AI data centers use more electricity than Pakistan...\n- [Mike] Training GPT-4 emitted 552 tons of CO₂...\n\n### Best Stories\n- [Amy] Rice University student case...\n\n### Killer Spectacles\n- \"Every ChatGPT query costs a village its drinking water\" — Sarah\n\n---\n\n## 🔵 PRO Development\n### Top Facts\n- [James] AI could reduce emissions 5% by 2035 (IEA)...\n\n### Best Stories\n- [Lisa] Kenya farmer diagnosed crop disease in 30 seconds...\n\n### Killer Spectacles\n- \"My grandmother is alive because AI caught her cancer early\" — Lisa"
+  },
+  {
+    "objectID": "slack_setup_guide.html#why-this-structure",
+    "href": "slack_setup_guide.html#why-this-structure",
+    "title": "Slack Workspace Setup",
+    "section": "Why This Structure?",
+    "text": "Why This Structure?\n\n\n\nBenefit\nHow\n\n\n\n\nNo lock-in\nStudents choose their position each week\n\n\nCross-pollination\nEveryone can browse all channels\n\n\nAccountability\nContributions are visible and attributed\n\n\nPortfolio building\nNotion page grows all semester\n\n\nNatural clustering\nPassionate people self-select\n\n\nLiving archive\nCanvas preserves the best arguments"
+  },
+  {
+    "objectID": "slack_setup_guide.html#student-checklist",
+    "href": "slack_setup_guide.html#student-checklist",
+    "title": "Slack Workspace Setup",
+    "section": "Student Checklist",
+    "text": "Student Checklist\nEach week:\n\nResearch the topic\nAdd findings to my Notion page\nPost to the battlefield channel (before class)\nTag my position [PRO CLIMATE] or [PRO DEVELOPMENT]\nInclude sources for everything\nParticipate in class discussion\nReact to and engage with classmates’ posts\n\n\nRemember: Every story must be fact-checkable. Emotions need reality backing them."
   }
 ]

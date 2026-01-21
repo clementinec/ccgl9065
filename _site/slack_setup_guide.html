@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CCGL9065 - Our Response to Climate Change</title>
+<title>CCGL9065 - Slack Workspace Setup</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -89,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -122,19 +156,41 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-model-weekly-battlefields" id="toc-the-model-weekly-battlefields" class="nav-link active" data-scroll-target="#the-model-weekly-battlefields">The Model: Weekly Battlefields</a></li>
+  <li><a href="#channel-structure" id="toc-channel-structure" class="nav-link" data-scroll-target="#channel-structure">Channel Structure</a>
+  <ul class="collapse">
+  <li><a href="#core-channels" id="toc-core-channels" class="nav-link" data-scroll-target="#core-channels">Core Channels</a></li>
+  <li><a href="#weekly-battlefield-channels" id="toc-weekly-battlefield-channels" class="nav-link" data-scroll-target="#weekly-battlefield-channels">Weekly Battlefield Channels</a></li>
+  </ul></li>
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a>
+  <ul class="collapse">
+  <li><a href="#before-class-homework" id="toc-before-class-homework" class="nav-link" data-scroll-target="#before-class-homework">Before Class (Homework)</a></li>
+  <li><a href="#during-class" id="toc-during-class" class="nav-link" data-scroll-target="#during-class">During Class</a></li>
+  <li><a href="#after-class" id="toc-after-class" class="nav-link" data-scroll-target="#after-class">After Class</a></li>
+  </ul></li>
+  <li><a href="#slack-post-format" id="toc-slack-post-format" class="nav-link" data-scroll-target="#slack-post-format">Slack Post Format</a></li>
+  <li><a href="#channel-canvas" id="toc-channel-canvas" class="nav-link" data-scroll-target="#channel-canvas">Channel Canvas</a></li>
+  <li><a href="#why-this-structure" id="toc-why-this-structure" class="nav-link" data-scroll-target="#why-this-structure">Why This Structure?</a></li>
+  <li><a href="#student-checklist" id="toc-student-checklist" class="nav-link" data-scroll-target="#student-checklist">Student Checklist</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Our Response to Climate Change</h1>
-<p class="subtitle lead">CCGL9065 | Hong Kong 2100</p>
+<h1 class="title">Slack Workspace Setup</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -146,80 +202,160 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Climate Change is the single greatest challenge of our generation. The quality of life of future generations will depend on the decisions we make, and how we design our planet today.</p>
-<p>Prompted by Einstein’s well-known quote that “we cannot solve our problems with the same thinking we used to create them,” this course guides students into exploring both mainstream and controversial responses to climate change. We will criticise, debate, role play and imagine new narratives, models and metrics of success — and ultimately design and advocate for a future we want.</p>
-<p>We use <strong>Hong Kong 2100</strong> as the theater of this speculative design work. The outcome: an interactive public Art &amp; Science exhibition with illustrations, short-essays, and discussions with strangers to share our work and spark further innovation.</p>
-<div class="course-info">
-  <div class="course-info-item">
-    <span class="course-info-label">Schedule</span>
-    <span class="course-info-value">Wednesdays, 15:00–16:50</span>
-  </div>
-  <div class="course-info-item">
-    <span class="course-info-label">Location</span>
-    <span class="course-info-value">LE4</span>
-  </div>
-  <div class="course-info-item">
-    <span class="course-info-label">Syllabus</span>
-    <span class="course-info-value"><a href="data/CCGL9065_2425.pdf">Download PDF</a></span>
-  </div>
-  <div class="course-info-item">
-    <span class="course-info-label">Grading</span>
-    <span class="course-info-value"><a href="evaluation.html">Evaluation Criteria</a></span>
-  </div>
-</div>
-<section id="weekly-materials" class="level2">
-<h2 class="anchored" data-anchor-id="weekly-materials">Weekly Materials</h2>
-<div class="resource-grid">
-  <a href="CCGL9065_W1D.html" class="resource-item">Week 1</a>
-  <a href="CCGL9065_W2.html" class="resource-item">Week 2</a>
-  <a href="CCGL9065_W3.html" class="resource-item">Week 3</a>
-  <a href="CCGL9065_W4.html" class="resource-item">Week 4</a>
-  <a href="data/W5_Architecture_Cities.pdf" class="resource-item">Week 5</a>
-  <a href="CCGL9065_W6.html" class="resource-item">Week 6</a>
-  <a href="CCGL9065_W7.html" class="resource-item">Week 7</a>
-  <a href="data/W8.pdf" class="resource-item">Week 8</a>
-  <a href="W9.html" class="resource-item">Week 9</a>
-  <a href="W10.html" class="resource-item">Week 10</a>
-  <a href="CCGL9065_W11.html" class="resource-item">Week 11</a>
-</div>
+<section id="the-model-weekly-battlefields" class="level2">
+<h2 class="anchored" data-anchor-id="the-model-weekly-battlefields">The Model: Weekly Battlefields</h2>
+<p>Students maintain a <strong>personal Notion page</strong> (their portfolio) and share findings to <strong>weekly Slack battlefield channels</strong>. No fixed groups — students drift between positions and topics based on interest.</p>
+<hr>
 </section>
-<section id="assets-handouts" class="level2">
-<h2 class="anchored" data-anchor-id="assets-handouts">Assets &amp; Handouts</h2>
-<div class="resource-grid">
-  <a href="activity_guide.html" class="resource-item">Activity Guide</a>
-  <a href="notion_guide.html" class="resource-item">Notion Setup Guide</a>
-  <a href="slack_post_template.html" class="resource-item">Slack Post Guide</a>
-  <a href="slack_setup_guide.html" class="resource-item">Slack Setup Guide</a>
-</div>
-<p>The <a href="activity_guide.html">Activity Guide</a> explains how weekly debates work: group roles, the Spectacle Formula, synthesis flow, and documentation templates.</p>
-</section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<div class="two-col">
-  <div>
-    <h3 class="anchored">Tutorials</h3>
-    <ul>
-      <li><a href="9065_tut_01.html">Tutorial Primer</a></li>
-      <li><a href="portfolio_roadmap.html">Portfolio Roadmap</a></li>
-      <li><a href="genai/">GenAI Module</a></li>
-    </ul>
-  </div>
-  <div>
-    <h3 class="anchored">Getting Started</h3>
-    <ul>
-      <li><a href="notion_guide.html">Notion Setup Guide</a></li>
-      <li><a href="https://petite-impatiens-e81.notion.site/2e52932a4d0a800fb84ce93ee974aa0b?v=2e52932a4d0a80ef90ad000cd9030046">Portfolio Template (Notion)</a></li>
-    </ul>
-  </div>
-</div>
-</section>
-<section id="student-work" class="level2">
-<h2 class="anchored" data-anchor-id="student-work">Student Work</h2>
-<p>This site hosts student portfolios from CCGL9065. Browse creative responses to climate change from current and past cohorts.</p>
+<section id="channel-structure" class="level2">
+<h2 class="anchored" data-anchor-id="channel-structure">Channel Structure</h2>
+<section id="core-channels" class="level3">
+<h3 class="anchored" data-anchor-id="core-channels">Core Channels</h3>
 <ul>
-<li><a href="./ind.html">Browse Student Portfolios</a></li>
-<li><a href="./finalpre.html">Final Showcase</a></li>
+<li><code>#announcements</code> — Instructor posts only</li>
+<li><code>#general</code> — Open discussion, questions</li>
+<li><code>#resources</code> — Shared articles, videos, useful links</li>
 </ul>
+</section>
+<section id="weekly-battlefield-channels" class="level3">
+<h3 class="anchored" data-anchor-id="weekly-battlefield-channels">Weekly Battlefield Channels</h3>
+<p>Created fresh each week:</p>
+<ul>
+<li><code>#w1-battlefield-ai</code> — Week 1: Us vs.&nbsp;the AI</li>
+<li><code>#w2-battlefield-food</code> — Week 2: Food Systems</li>
+<li><code>#w3-battlefield-energy</code> — Week 3: Energy</li>
+<li><code>#w4-battlefield-cities</code> — Week 4: Cities &amp; Architecture</li>
+<li>… (continue for each week)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="how-it-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-works">How It Works</h2>
+<section id="before-class-homework" class="level3">
+<h3 class="anchored" data-anchor-id="before-class-homework">Before Class (Homework)</h3>
+<ol type="1">
+<li><strong>Research</strong> the week’s topic</li>
+<li><strong>Add findings</strong> to your personal Notion page</li>
+<li><strong>Post to Slack</strong> — share your best fact/story to the battlefield channel</li>
+<li><strong>Tag your position:</strong> <code>[PRO CLIMATE]</code> or <code>[PRO DEVELOPMENT]</code></li>
+</ol>
+</section>
+<section id="during-class" class="level3">
+<h3 class="anchored" data-anchor-id="during-class">During Class</h3>
+<p><strong>First 50 minutes:</strong> Instructor presents facts, stakes, and angles of attack for both sides.</p>
+<p><strong>Second 50 minutes:</strong> 1. Students find others with similar positions 2. Groups synthesize their best arguments 3. Groups present to the class 4. Debate between sides</p>
+</section>
+<section id="after-class" class="level3">
+<h3 class="anchored" data-anchor-id="after-class">After Class</h3>
+<ul>
+<li>Best contributions get added to the <strong>Channel Canvas</strong></li>
+<li>Students can continue discussing in the channel</li>
+<li>Browse other weeks’ channels for ideas</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="slack-post-format" class="level2">
+<h2 class="anchored" data-anchor-id="slack-post-format">Slack Post Format</h2>
+<p>When posting to a battlefield channel:</p>
+<pre><code>**[PRO CLIMATE]** or **[PRO DEVELOPMENT]**
+
+📊 **My Fact:**
+[One key statistic or data point]
+Source: [link]
+
+📖 **My Story:**
+[One real case in 2-3 sentences]
+Source: [link]
+
+💥 **My Spectacle:**
+"[Your emotionally compelling version]"
+
+🔗 **Full research:** [Link to your Notion page]</code></pre>
+<hr>
+</section>
+<section id="channel-canvas" class="level2">
+<h2 class="anchored" data-anchor-id="channel-canvas">Channel Canvas</h2>
+<p>Each battlefield channel has a <strong>Canvas</strong> that curates the best contributions:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># W1 AI Battlefield — Best Arguments</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🟢 PRO Climate Action</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">### Top Facts</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Sarah</span><span class="co">]</span> AI data centers use more electricity than Pakistan...</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Mike</span><span class="co">]</span> Training GPT-4 emitted 552 tons of CO₂...</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">### Best Stories</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Amy</span><span class="co">]</span> Rice University student case...</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">### Killer Spectacles</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Every ChatGPT query costs a village its drinking water" — Sarah</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔵 PRO Development</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="fu">### Top Facts</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">James</span><span class="co">]</span> AI could reduce emissions 5% by 2035 (IEA)...</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="fu">### Best Stories</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Lisa</span><span class="co">]</span> Kenya farmer diagnosed crop disease in 30 seconds...</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="fu">### Killer Spectacles</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"My grandmother is alive because AI caught her cancer early" — Lisa</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="why-this-structure" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-structure">Why This Structure?</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Benefit</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>No lock-in</strong></td>
+<td>Students choose their position each week</td>
+</tr>
+<tr class="even">
+<td><strong>Cross-pollination</strong></td>
+<td>Everyone can browse all channels</td>
+</tr>
+<tr class="odd">
+<td><strong>Accountability</strong></td>
+<td>Contributions are visible and attributed</td>
+</tr>
+<tr class="even">
+<td><strong>Portfolio building</strong></td>
+<td>Notion page grows all semester</td>
+</tr>
+<tr class="odd">
+<td><strong>Natural clustering</strong></td>
+<td>Passionate people self-select</td>
+</tr>
+<tr class="even">
+<td><strong>Living archive</strong></td>
+<td>Canvas preserves the best arguments</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="student-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="student-checklist">Student Checklist</h2>
+<p>Each week:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Research the topic</label></li>
+<li><label><input type="checkbox">Add findings to my Notion page</label></li>
+<li><label><input type="checkbox">Post to the battlefield channel (before class)</label></li>
+<li><label><input type="checkbox">Tag my position <code>[PRO CLIMATE]</code> or <code>[PRO DEVELOPMENT]</code></label></li>
+<li><label><input type="checkbox">Include sources for everything</label></li>
+<li><label><input type="checkbox">Participate in class discussion</label></li>
+<li><label><input type="checkbox">React to and engage with classmates’ posts</label></li>
+</ul>
+<hr>
+<p><em>Remember: Every story must be fact-checkable. Emotions need reality backing them.</em></p>
 
 
 </section>
