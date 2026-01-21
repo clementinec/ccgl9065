@@ -5,7 +5,15 @@ author: "Dr. Hongshan Guo"
 toc: true
 ---
 
-This guide explains the structure of weekly in-class activities. The semester uses a **leveling system** — you start with a teaser, build skills in small groups, and unlock cross-room debates when the class is ready.
+::: {.callout-note}
+## 30-Second Summary
+
+- **Level 0** (Week 1): Two-side teaser debate — jump in, get a taste
+- **Level 1** (Week 2+): Small vocational groups, individual 5-min presentations
+- **Level 2** (unlocked): Cross-room debates when the class votes ready
+- **Participation**: Present 3 times → full 10% (Week 1 + Week 12 + one other)
+- **Core skill**: Turn facts into spectacles using the formula: *Fact + Human Story + Stakes*
+:::
 
 ---
 
@@ -28,13 +36,14 @@ We don't rush into Assembly Debates — the class earns it.
 3. **Threshold reached**: When enough likes accumulate, we kick off Level 2 the following week
 4. **After the experiment**: Class votes in person — continue Level 2, or fall back to Level 1 if it's too much
 
-This keeps the energy student-driven without putting anyone on the spot.
-
 ---
 
 # Level 0: Week 1 Teaser
 
-*One session only — a taste of what's to come*
+::: {.callout-warning}
+## Level 0 at a Glance
+**When**: Week 1 only | **Format**: Full class, two sides | **Vibe**: Chaotic but energizing
+:::
 
 In Week 1, we skip straight to a simplified two-side debate:
 
@@ -43,7 +52,7 @@ In Week 1, we skip straight to a simplified two-side debate:
 
 *Note: From Week 2 onwards, we drop the AI framing and use **Pro-Dev** vs **Pro-CC** — same idea, broader scope.*
 
-This is a teaser — chaotic, unpolished, but energizing. It shows you what Assembly Debates feel like before you've built the skills. Counts toward your attendance participation.
+This is a teaser — chaotic, unpolished, but energizing. It shows you what Assembly Debates feel like before you've built the skills. Counts toward your participation if you speak.
 
 After Week 1, we step back and build properly.
 
@@ -51,7 +60,10 @@ After Week 1, we step back and build properly.
 
 # Level 1: Vocational Groups
 
-*Week 2 onwards — the default mode*
+::: {.callout-tip}
+## Level 1 at a Glance
+**When**: Week 2 onwards (default) | **Format**: Small groups by occupation | **Vibe**: Skill-building, low pressure
+:::
 
 ## How It Works
 
@@ -100,7 +112,8 @@ Students choose their stance based on their collected research profile:
 
 ## The 5-Minute Presentation
 
-Each speaker gets 5 minutes to present their argument.
+::: {.callout-tip collapse="true"}
+## Presentation Structure (click to expand)
 
 | Segment | Time | Content |
 |---------|------|---------|
@@ -110,18 +123,19 @@ Each speaker gets 5 minutes to present their argument.
 | **Argument 3** | 60 sec | Third point or preemptive defense |
 | **Close** | 30 sec | Call to action or memorable line |
 
-### Presenter Tips
+**Presenter Tips:**
 
 - **Don't read** — know your points, speak naturally
 - **Make eye contact** — with the audience, not your notes
 - **Use pauses** — let your big moments land
 - **End strong** — last line should be memorable
+:::
 
 ---
 
 ## Persona Creation
 
-This is your warmup for role-playing. Your **vocational group** is the foundation of your persona — use it as a label that grounds your arguments.
+Your **vocational group** is the foundation of your persona — use it as a label that grounds your arguments.
 
 Answer these questions:
 
@@ -132,25 +146,24 @@ Answer these questions:
 
 Think of your vocational label as your argumentative superpower: *"As a logistics worker..."* or *"Speaking from the farming sector..."* gives your points immediate credibility and specificity.
 
-### Example Personas
+::: {.callout-note collapse="true"}
+## Example Personas (click to expand)
 
 **Pro-CC Farmer:**
 > "I'm Maria, a rice farmer in the Mekong Delta. Every year the floods get worse. Last year I lost 40% of my harvest. My children want to move to the city. I fear my family's land — farmed for three generations — will be underwater by 2050."
 
 **Pro-Dev Energy Worker:**
 > "I'm James, a power plant technician in Guangdong. My plant employs 200 families from my village. When people talk about shutting down coal, they're talking about my neighbors losing their homes. I want clean energy too — but not if it means my community starves first."
+:::
 
 ---
 
 ## Participation Tracking
 
-To earn the full **10% in-class participation**:
+::: {.callout-important}
+## How to Get Full Marks (10%)
 
-- Present **3 times** throughout the semester
-- Can be individual presentations or representing your group
-- Quality matters less than showing up and contributing
-
-### What Counts as a Presentation
+Present **3 times** throughout the semester. That's it.
 
 | Week | Opportunity |
 |------|-------------|
@@ -158,20 +171,24 @@ To earn the full **10% in-class participation**:
 | **Weeks 2–11** | Level 1 or Level 2 presentations |
 | **Week 12** | Portfolio presentation — counts for everyone |
 
-So realistically: present in **Week 1 + Week 12 + one other week** and you're done.
+**Realistically**: Week 1 + Week 12 + one other week = done.
+:::
 
 ---
 
 # Level 2: Assembly Debates
 
-*Unlocked when the class is ready*
+::: {.callout-important}
+## Level 2 at a Glance
+**When**: Unlocked by class vote | **Format**: Full class, cross-room | **Vibe**: High-stakes, deploy your skills
+:::
 
 ## The Shift
 
 After weeks of building comfort with personas and individual presentations, the final sessions bring the class together for **cross-room debates**.
 
 | What Changes | Level 1 | Level 2 |
-|--------------|------------------|----------------|
+|--------------|---------|---------|
 | **Room Layout** | Groups by occupation | Two sides: PRO-CC vs PRO-DEV |
 | **Format** | Individual presentations | Cross-fire debates across the room |
 | **Intensity** | Warmup, exploration | High-stakes argumentation |
@@ -217,6 +234,9 @@ Your vocational lens makes your arguments more grounded and specific.
 
 ## Open Debate Rules
 
+::: {.callout-tip collapse="true"}
+## Rules & Useful Phrases (click to expand)
+
 ### Rules of Engagement
 
 1. **Address the argument, not the person**
@@ -233,6 +253,7 @@ Your vocational lens makes your arguments more grounded and specific.
 | Concede and counter | "That's a valid concern, but consider..." |
 | Call out exaggeration | "That's one case. Is it representative?" |
 | Redirect | "Even if true, does that justify...?" |
+:::
 
 ---
 
@@ -240,9 +261,10 @@ Your vocational lens makes your arguments more grounded and specific.
 
 ## The Spectacle Formula
 
-This is how you turn facts into arguments that land.
-
+::: {.callout-note}
+## The Formula
 $$\text{Fact} + \text{Human Story} + \text{Stakes} = \text{Spectacle}$$
+:::
 
 ### Levels of Argument
 
@@ -263,6 +285,9 @@ $$\text{Fact} + \text{Human Story} + \text{Stakes} = \text{Spectacle}$$
 
 ## The Line: Persuasion vs. Propaganda
 
+::: {.callout-warning}
+## Know the Difference
+
 | Persuasion (OK) | Propaganda (NOT OK) |
 |-----------------|---------------------|
 | Selecting real facts | Inventing facts |
@@ -277,12 +302,14 @@ $$\text{Fact} + \text{Human Story} + \text{Stakes} = \text{Spectacle}$$
 3. Am I framing reality or inventing it?
 
 If you can't answer YES to all three — don't use it.
+:::
 
 ---
 
 ## Weekly Documentation
 
-### What to Track in Your Notion Portfolio
+::: {.callout-tip collapse="true"}
+## Notion Portfolio Template (click to expand)
 
 Each week, add:
 
@@ -310,10 +337,14 @@ WHAT I LEARNED:
 - About the topic:
 - About argumentation:
 ```
+:::
 
 ---
 
 ## Quick Reference Checklist
+
+::: {.callout-note}
+## Weekly Checklist
 
 **Before class:**
 
@@ -333,6 +364,7 @@ WHAT I LEARNED:
 - [ ] Week documented in Notion
 - [ ] Best arguments noted
 - [ ] Lessons learned captured
+:::
 
 ---
 
@@ -346,4 +378,7 @@ You're not here to "win" debates. You're here to:
 4. **Recognize persuasion** — know it when you see it, know how to do it
 5. **Stay honest** — powerful arguments that are also true
 
+::: {.callout-important}
+## The Bottom Line
 **Facts don't change minds. Stories do. Your job: Tell true stories that move people.**
+:::
