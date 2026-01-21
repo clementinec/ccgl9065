@@ -186,6 +186,11 @@ Present **3 times** throughout the semester. That's it.
 **When**: Unlocked by class vote | **Format**: Full class, cross-room | **Vibe**: High-stakes, deploy your skills
 :::
 
+::: {.callout-note}
+## The Real Goal of Level 2
+Level 2 isn't just about being persuasive — it's about **winning personas**. Can you craft an argument that makes the farmer on the other side think twice? Can you speak in a way that a policy-maker *hears*? The goal is to understand how different personas experience the debate — and reach them where they are.
+:::
+
 ## The Shift
 
 After weeks of building comfort with personas and individual presentations, the final sessions bring the class together for **cross-room debates**.
@@ -206,6 +211,11 @@ You keep your vocational identity in Level 2 — it becomes part of your persona
 - *"Speaking as a farmer, let me tell you what this means on the ground..."*
 
 Your vocational lens makes your arguments more grounded and specific.
+
+::: {.callout-tip}
+## Vocational Prep is Optional
+During Level 2 strategy sessions, groups with members from the same vocation **may choose to huddle together** first — your shared perspective can help you prep faster. Then rejoin your PRO-CC or PRO-DEV side.
+:::
 
 ---
 
@@ -381,7 +391,14 @@ You're not here to "win" debates. You're here to:
 4. **Recognize persuasion** — know it when you see it, know how to do it
 5. **Stay honest** — powerful arguments that are also true
 
+::: {.callout-note}
+## Wear Your Persona
+Throughout the semester, you're encouraged to **wear your hand-selected persona** in every class. Reflect on how "being" a farmer, a policy-maker, or an energy worker changes what you notice, what bothers you, and what arguments *land* for you.
+
+The deeper insight: by wearing a persona, you start to **hear** other personas differently. That's the real skill — not just speaking persuasively, but understanding how others receive what you say.
+:::
+
 ::: {.callout-important}
 ## The Bottom Line
-**Facts don't change minds. Stories do. Your job: Tell true stories that move people.**
+**Facts don't change minds. Stories do. Your job: Tell true stories that move people — and learn to hear how different people hear those stories.**
 :::
