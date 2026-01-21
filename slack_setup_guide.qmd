@@ -1,4 +1,6 @@
-# CCGL9065 Slack Workspace Setup
+---
+title: "Slack Workspace Setup"
+---
 
 ## The Model: Weekly Battlefields
 
@@ -120,25 +122,6 @@ Each battlefield channel has a **Canvas** that curates the best contributions:
 
 ---
 
-## Instructor Workflow
-
-### Before Each Week
-1. Create the battlefield channel (`#w2-battlefield-food`)
-2. Post the topic, key questions, and due date for pre-class posts
-3. Pin the Slack post template
-
-### During Class
-1. Present facts and angles (first 50 min)
-2. Facilitate group formation and discussion (second 50 min)
-3. Moderate presentations and debate
-
-### After Class
-1. Curate best contributions into the Channel Canvas
-2. Highlight great examples of fact-checked spectacles
-3. Call out any "fake news" attempts (teachable moments)
-
----
-
 ## Student Checklist
 
 Each week:
@@ -150,14 +133,6 @@ Each week:
 - [ ] Include sources for everything
 - [ ] Participate in class discussion
 - [ ] React to and engage with classmates' posts
-
----
-
-## Files & Templates
-
-- **Notion Portfolio Template:** `data/notion_portfolio_template.md`
-- **Slack Post Template:** `data/slack_post_template.md`
-- **Week 1 Handout:** `data/W1_Handout.pdf`
 
 ---
 

@@ -54,10 +54,9 @@ We use **Hong Kong 2100** as the theater of this speculative design work. The ou
 ```{=html}
 <div class="resource-grid">
   <a href="activity_guide.html" class="resource-item">Activity Guide</a>
-  <a href="data/W1_Handout.pdf" class="resource-item">Week 1 Handout</a>
   <a href="notion_guide.html" class="resource-item">Notion Setup Guide</a>
-  <a href="data/slack_post_template.md" class="resource-item">Slack Post Guide</a>
-  <a href="data/slack_setup_guide.md" class="resource-item">Slack Setup Guide</a>
+  <a href="slack_post_template.html" class="resource-item">Slack Post Guide</a>
+  <a href="slack_setup_guide.html" class="resource-item">Slack Setup Guide</a>
 </div>
 ```
 
