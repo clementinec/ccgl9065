@@ -1,0 +1,85 @@
+---
+title: "The Persuasion Playbook"
+subtitle: "Week 8 Strategy Takeaway"
+author: Dr. Hongshan Guo
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1200
+    preview-links: auto
+    embed-resources: true
+    center: true
+---
+
+# Last Week's Strategy: The Pre-Mortem
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **The Pre-Mortem**
+
+*Assume you failed. Now fix it.*
+
+**Anyone try it?** Did you imagine your argument bombing and then strengthen the weak points?
+:::
+
+---
+
+# The Persuasion Playbook | Strategy #7
+
+---
+
+## The Fork
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+*"Are you going to let your family suffer, or are you going to act now?"*
+
+The trick isn't the answer.
+
+**The trick is that both options accept your frame.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is the **False Dilemma** — or in sales, **The Fork**.
+
+Present two choices that both serve your goal.
+
+*"Do you want the red one or the blue one?"*
+(Not: "Do you want to buy a car?")
+
+The brain loves binary choices. Multiple options = paralysis.
+
+**Two options = decision.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+When someone said:
+
+*"We can either regulate AI now, or let corporations decide for us."*
+
+Notice what's missing?
+
+**"Do nothing" wasn't an option.** Because they didn't put it there.
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**End with two options — both of which support your case.**
+
+Remove the third option before they think of it.
+:::

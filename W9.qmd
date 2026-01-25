@@ -16,6 +16,22 @@ format:
     
 ---
 
+# Last Week's Strategy: The Fork
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **The Fork**
+
+*Two options, both yours.*
+
+**Anyone try it?** Did you present two choices that both supported your case?
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -486,3 +502,61 @@ Spectacle
 - **Financial Sector Professional**: "The financial industry in Hong Kong has a pivotal role in supporting sustainable investments and divesting from industries harmful to the environment, aligning profit with planet."
 - **Hospitality and Tourism Worker**: "Sustainable tourism can help preserve Hong Kong's natural beauty for future generations, ensuring our industry remains vibrant and responsible."
 - **Retail Sector Employee**: "Adopting sustainable practices in our retail operations, from reducing waste to sourcing ethically, can help mitigate climate change impacts and appeal to environmentally conscious consumers."
+
+---
+
+# The Persuasion Playbook | Strategy #8
+
+---
+
+## The Invisible Bandwagon
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+Researchers changed one line in a tax notice:
+
+*"9 out of 10 people in your area pay their taxes on time."*
+
+**Compliance jumped 15%.**
+
+Not moral appeal. Not threats. Just: *you're the weird one if you don't.*
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Social Proof** + **Normative Messaging**.
+
+But the key is: **local and specific**.
+
+- "Most people" → weak
+- "Most people in your building" → strong
+- "Most people in your building with kids your age" → irresistible
+
+**The more similar the reference group, the more powerful the pull.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The best arguments today didn't say "people care about climate."
+
+They said:
+
+*"Engineers at HKU are already shifting their research priorities."*
+
+A bandwagon that didn't exist until you named it.
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Create a bandwagon for your argument.**
+
+Make it local. Make it specific. Make them the outlier if they disagree.
+:::

@@ -1,0 +1,572 @@
+---
+title: "Weekly Strategy Cards"
+subtitle: "Persuasion Tactics Beyond the Battlefield"
+author: "Dr. Hongshan Guo"
+toc: true
+---
+
+::: {.callout-note}
+## How to Use These
+Each week, reveal one strategy at the **end of the activity** (3-5 min). The rhythm:
+
+1. **Hook** — a grabby example
+2. **The Science** — one paragraph, name the effect
+3. **You Just Saw It** — connect to what happened in class
+4. **Next Week's Challenge** — something to try
+
+At the **start of the following week**, do a 1-min callback: "Last week's strategy was X — anyone try it?"
+:::
+
+---
+
+# Week 2: The Open Loop
+
+## The Hook
+
+::: {style="font-size: 1.8em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+In 1927, a psychologist noticed waiters could remember complex orders perfectly — until the bill was paid.
+
+**Then they forgot everything instantly.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is the **Zeigarnik Effect**.
+
+The brain can't let go of incomplete tasks. It allocates background processing — like a browser tab you can't close.
+
+Netflix forces a 3-second hook before "Skip Intro" appears. Marketers call this an **open loop**: start a pattern, don't close it.
+
+**The brain will stay to close the loop.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The best presentations today didn't start with conclusions.
+
+They started with a question. A tension. Something unresolved.
+
+*"There's one fact that made me switch sides on this issue. I'll get to it."*
+
+Did you stay to hear it? That's the loop.
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Open a loop in your first 10 seconds.**
+
+Don't close it until the end.
+:::
+
+---
+
+# Week 3: The Barnum Slide
+
+## The Hook
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+*"You have a tendency to be critical of yourself. You have a great need for others to like you. You have considerable unused capacity that you haven't turned to your advantage."*
+
+**85% of people rate this as "highly accurate" for them.**
+
+It's the same text for everyone.
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is the **Barnum Effect** (Forer, 1949).
+
+Statements that feel specific but apply to almost everyone create false intimacy. Horoscopes, psychics, personality tests — all exploit this.
+
+The trick: **moderate specificity + universal anxiety**.
+
+People remember the hits, forget the misses.
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+When a speaker said something like:
+
+*"Some of you are thinking, 'This doesn't affect me.' But you're also wondering if you're doing enough..."*
+
+Did it feel personal? It wasn't. It was statistical.
+
+But it **worked**.
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Write one sentence that sounds personal but applies to everyone in the room.**
+
+Test it. Watch faces.
+:::
+
+---
+
+# Week 4: Sensory Hijack
+
+## The Hook
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+People holding a **warm cup of coffee** rated strangers as more trustworthy than those holding iced drinks.
+
+They had no idea the cup mattered.
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Embodied Cognition** (Williams & Bargh, 2008).
+
+The body doesn't just receive information — it **shapes judgment**.
+
+- Physical warmth → social warmth
+- Heaviness → seriousness
+- Roughness → difficulty
+
+**The brain takes sensory shortcuts constantly.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The arguments that landed today weren't abstract.
+
+They made you **feel something in your body**.
+
+Not "rising temperatures cause problems."
+
+But: *"Your grandmother's lungs filling with smoke from a wildfire that didn't exist 20 years ago."*
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Make your audience physically uncomfortable — on purpose.**
+
+One image. One sentence. Body-first.
+:::
+
+---
+
+# Week 5: The Anchoring Trap
+
+## The Hook
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+Realtors show you a terrible, overpriced house **first**.
+
+The second house — still overpriced — looks reasonable.
+
+**You don't evaluate houses. You evaluate differences from the anchor.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Anchoring** (Tversky & Kahneman, 1974).
+
+The first number you hear distorts all subsequent judgment — even when it's obviously irrelevant.
+
+In experiments, people estimated higher values after spinning a **random wheel** with higher numbers.
+
+**The brain cannot ignore the anchor.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+When someone opened with an extreme number:
+
+*"AI could consume 30% of global electricity by 2040. Even the conservative estimate is 12%."*
+
+Now 12% sounds reasonable. But 12% is still catastrophic.
+
+**The anchor did its job.**
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Lead with the extreme. Then offer the "reasonable" version.**
+
+Set the anchor before they do.
+:::
+
+---
+
+# Week 6: The Specificity Illusion
+
+## The Hook
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+Which is more believable?
+
+A: *"The project will take a few weeks."*
+
+B: *"The project will take 17 days."*
+
+**B. Always B.** Even if both are equally made up.
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is the **Specificity Heuristic**.
+
+The brain uses detail as a proxy for credibility. Specific = precise = probably measured = probably true.
+
+Con artists and skilled liars know this: add irrelevant detail and people stop questioning.
+
+*"I was at the corner of 5th and Main at 3:47pm"* beats *"I was downtown that afternoon."*
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Arguments that landed today had **unnecessary precision**:
+
+- Not "lots of energy" → "415 TWh"
+- Not "many people" → "240 million people"
+- Not "recently" → "March 2024"
+
+The detail signals: *I didn't make this up.*
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Replace every vague word with a specific number, date, or name.**
+
+Even if no one checks — they'll believe you more.
+:::
+
+---
+
+# Week 7: The Pre-Mortem
+
+## The Hook
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+The CIA developed a technique:
+
+Before launching an operation, assume it **failed catastrophically**.
+
+Then ask: *"What went wrong?"*
+
+**Teams using pre-mortems catch 30% more risks.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Prospective Hindsight** (Mitchell et al., 1989).
+
+Imagining failure as *already happened* unlocks different cognitive pathways than "what could go wrong?"
+
+The brain is better at **explaining the past** than predicting the future.
+
+So you trick it: treat the future as past.
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The teams that did well today **anticipated the counterattack**.
+
+They didn't ask "what might they say?"
+
+They assumed: *"We lost. Why?"*
+
+Then they fixed it before it happened.
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Before you present, assume it bombed.**
+
+Write three reasons why. Fix them.
+:::
+
+---
+
+# Week 8: The Fork
+
+## The Hook
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+*"Are you going to let your family suffer, or are you going to act now?"*
+
+The trick isn't the answer.
+
+**The trick is that both options accept your frame.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is the **False Dilemma** — or in sales, **The Fork**.
+
+Present two choices that both serve your goal.
+
+*"Do you want the red one or the blue one?"*
+(Not: "Do you want to buy a car?")
+
+The brain loves binary choices. Multiple options = paralysis.
+
+**Two options = decision.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+When someone said:
+
+*"We can either regulate AI now, or let corporations decide for us."*
+
+Notice what's missing?
+
+**"Do nothing" wasn't an option.** Because they didn't put it there.
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**End with two options — both of which support your case.**
+
+Remove the third option before they think of it.
+:::
+
+---
+
+# Week 9: The Invisible Bandwagon
+
+## The Hook
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+Researchers changed one line in a tax notice:
+
+*"9 out of 10 people in your area pay their taxes on time."*
+
+**Compliance jumped 15%.**
+
+Not moral appeal. Not threats. Just: *you're the weird one if you don't.*
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Social Proof** + **Normative Messaging**.
+
+But the key is: **local and specific**.
+
+- "Most people" → weak
+- "Most people in your building" → strong
+- "Most people in your building with kids your age" → irresistible
+
+**The more similar the reference group, the more powerful the pull.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The best arguments today didn't say "people care about climate."
+
+They said:
+
+*"Engineers at HKU are already shifting their research priorities."*
+
+A bandwagon that didn't exist until you named it.
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Create a bandwagon for your argument.**
+
+Make it local. Make it specific. Make them the outlier if they disagree.
+:::
+
+---
+
+# Week 10: The Cliffhanger Return
+
+## The Hook
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+Every TV episode ends mid-scene.
+
+Not at resolution — at **maximum tension**.
+
+*Breaking Bad* ended seasons on unresolved gunshots, half-spoken sentences.
+
+**Because you will come back to close the loop.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+The **Zeigarnik Effect** again — now applied to structure.
+
+But here's the twist: **anticipation is often more pleasurable than completion itself**.
+
+Dopamine spikes in anticipation, not reward.
+
+Open strong. Return at the end — **transformed**.
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The presentations that stuck opened with an image or person.
+
+Built the argument.
+
+Then **returned** to that image at the close — but now you saw it differently.
+
+*"Remember the farmer I mentioned? She's watching this debate. What do you want her to hear?"*
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Your last line should echo your first — transformed.**
+
+The bookend is the memory anchor.
+:::
+
+---
+
+# Week 11: The Self-Persuasion Trick
+
+## The Hook
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+People paid **$1** to lie about a boring task later *believed the task was interesting*.
+
+People paid **$20** didn't change their beliefs.
+
+**Why?**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Cognitive Dissonance** (Festinger, 1957).
+
+$1 wasn't enough justification, so the brain invented one: *"I must have actually liked it."*
+
+Cults don't brainwash. They get you to **do things**.
+
+Then your brain rewrites the story.
+
+**Behavior first. Belief follows.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The most powerful moments today weren't when someone *told* you what to think.
+
+They were when someone asked you to **do something**:
+
+*"Raise your hand if you've ever felt hopeless about climate."*
+
+Now you've publicly identified. Your brain needs to reconcile that.
+:::
+
+---
+
+## The Final Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Don't tell them the conclusion.**
+
+Make them say it. Make them do something.
+
+**They'll persuade themselves.**
+:::
+
+---
+
+# Quick Reference
+
+::: {style="font-size: 1.2em;"}
+| Week | Strategy | One-Liner |
+|------|----------|-----------|
+| 2 | **The Open Loop** | Incomplete = unforgettable |
+| 3 | **The Barnum Slide** | Vague + universal = feels personal |
+| 4 | **Sensory Hijack** | The body believes what the mind resists |
+| 5 | **The Anchoring Trap** | First number wins |
+| 6 | **The Specificity Illusion** | Detail = credibility |
+| 7 | **The Pre-Mortem** | Assume you failed. Now fix it. |
+| 8 | **The Fork** | Two options, both yours |
+| 9 | **The Invisible Bandwagon** | You're the weird one if you don't |
+| 10 | **The Cliffhanger Return** | End where you started — transformed |
+| 11 | **The Self-Persuasion Trick** | Make them do it. They'll believe it. |
+:::

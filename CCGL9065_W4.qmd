@@ -14,6 +14,24 @@ format:
     center: true
 ---
 
+# Last Week's Strategy: The Barnum Slide
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **The Barnum Slide**
+
+*Statements that feel specific but apply to everyone create false intimacy.*
+
+**Anyone try it?** Did you write a sentence that felt personal but was actually universal?
+
+Did faces react?
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -666,3 +684,56 @@ GroupAssignment.init();
     startButton.innerText = "Start Timer";
   });
 </script>
+---
+
+# The Persuasion Playbook | Strategy #3
+
+---
+
+## Sensory Hijack
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+People holding a **warm cup of coffee** rated strangers as more trustworthy than those holding iced drinks.
+
+They had no idea the cup mattered.
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Embodied Cognition** (Williams & Bargh, 2008).
+
+The body doesn't just receive information — it **shapes judgment**.
+
+- Physical warmth → social warmth
+- Heaviness → seriousness  
+- Roughness → difficulty
+
+**The brain takes sensory shortcuts constantly.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The arguments that landed today weren't abstract.
+
+They made you **feel something in your body**.
+
+Not "rising temperatures cause problems."
+
+But: *"Your grandmother's lungs filling with smoke from a wildfire that didn't exist 20 years ago."*
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Make your audience physically uncomfortable — on purpose.**
+
+One image. One sentence. Body-first.
+:::

@@ -16,6 +16,22 @@ format:
 
 ---
 
+# Last Week's Strategy: The Specificity Illusion
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **The Specificity Illusion**
+
+*Detail = credibility.*
+
+**Anyone try it?** Did you replace vague words with specific numbers, dates, or names?
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -495,4 +511,60 @@ IPCC projects global sea levels could rise approximately 0.3–1.1 meters by 210
   - **Critical Consumption of Information**: Practice critical thinking and verify information through reputable sources.
   - **Community Dialogue**: Engage in open discussions to address climate change misinformation.
   - **Advocacy and Activism**: Support and participate in campaigns that advocate for truthful, science-based climate communication.
+
+---
+
+# The Persuasion Playbook | Strategy #6
+
+---
+
+## The Pre-Mortem
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+The CIA developed a technique:
+
+Before launching an operation, assume it **failed catastrophically**.
+
+Then ask: *"What went wrong?"*
+
+**Teams using pre-mortems catch 30% more risks.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Prospective Hindsight** (Mitchell et al., 1989).
+
+Imagining failure as *already happened* unlocks different cognitive pathways than "what could go wrong?"
+
+The brain is better at **explaining the past** than predicting the future.
+
+So you trick it: treat the future as past.
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The teams that did well today **anticipated the counterattack**.
+
+They didn't ask "what might they say?"
+
+They assumed: *"We lost. Why?"*
+
+Then they fixed it before it happened.
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Before you present, assume it bombed.**
+
+Write three reasons why. Fix them.
+:::
 

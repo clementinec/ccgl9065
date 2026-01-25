@@ -15,6 +15,24 @@ format:
     center: true
 ---
 
+# Last Week's Strategy: The Open Loop
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **The Open Loop**
+
+*Start with something unresolved. The brain can't let go.*
+
+**Anyone try it?** Did you open a loop in your first 10 seconds?
+
+What happened?
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -696,3 +714,56 @@ GroupAssignment.init();
     startButton.innerText = "Start Timer";
   });
 </script>
+---
+
+# The Persuasion Playbook | Strategy #2
+
+---
+
+## The Barnum Slide
+
+::: {style="font-size: 1.5em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+*"You have a tendency to be critical of yourself. You have a great need for others to like you. You have considerable unused capacity that you haven't turned to your advantage."*
+
+**85% of people rate this as "highly accurate" for them.**
+
+It's the same text for everyone.
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is the **Barnum Effect** (Forer, 1949).
+
+Statements that feel specific but apply to almost everyone create false intimacy. Horoscopes, psychics, personality tests — all exploit this.
+
+The trick: **moderate specificity + universal anxiety**.
+
+People remember the hits, forget the misses.
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+When a speaker said something like:
+
+*"Some of you are thinking, 'This doesn't affect me.' But you're also wondering if you're doing enough..."*
+
+Did it feel personal? It wasn't. It was statistical.
+
+But it **worked**.
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Write one sentence that sounds personal but applies to everyone in the room.**
+
+Test it. Watch faces.
+:::

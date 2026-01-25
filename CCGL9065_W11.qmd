@@ -15,6 +15,22 @@ format:
     center: true
 ---
 
+# Last Week's Strategy: The Cliffhanger Return
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **The Cliffhanger Return**
+
+*Your last line should echo your first — transformed.*
+
+**Anyone try it?** Did you bookend your presentation by returning to your opening image or story?
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -392,4 +408,97 @@ NOT OK
   - present clear, logical argument from various perspectives, including counter-evidence if any
   - coherent structure with clear call of action and conclusion, proper paragraphing, minimal language errors  
 - **Final Note**: The essay and visual should not only reflect academic insights but also aim to inspire broader awareness and action on climate change.
+
+---
+
+# The Persuasion Playbook | Strategy #10 (Final)
+
+---
+
+## The Self-Persuasion Trick
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+People paid **$1** to lie about a boring task later *believed the task was interesting*.
+
+People paid **$20** didn't change their beliefs.
+
+**Why?**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Cognitive Dissonance** (Festinger, 1957).
+
+$1 wasn't enough justification, so the brain invented one: *"I must have actually liked it."*
+
+Cults don't brainwash. They get you to **do things**.
+
+Then your brain rewrites the story.
+
+**Behavior first. Belief follows.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The most powerful moments this semester weren't when someone *told* you what to think.
+
+They were when someone asked you to **do something**:
+
+*"Raise your hand if you've ever felt hopeless about climate."*
+
+Now you've publicly identified. Your brain needs to reconcile that.
+:::
+
+---
+
+## The Final Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Don't tell them the conclusion.**
+
+Make them say it. Make them do something.
+
+**They'll persuade themselves.**
+:::
+
+---
+
+# Strategy Recap: Your Persuasion Toolkit
+
+---
+
+## The Complete Arsenal
+
+::: {style="font-size: 1.1em;"}
+| # | Strategy | One-Liner | Week |
+|---|----------|-----------|------|
+| 1 | **The Open Loop** | Incomplete = unforgettable | W2 |
+| 2 | **The Barnum Slide** | Vague + universal = feels personal | W3 |
+| 3 | **Sensory Hijack** | The body believes what the mind resists | W4 |
+| 4 | **The Anchoring Trap** | First number wins | W5 |
+| 5 | **The Specificity Illusion** | Detail = credibility | W6 |
+| 6 | **The Pre-Mortem** | Assume you failed. Now fix it. | W7 |
+| 7 | **The Fork** | Two options, both yours | W8 |
+| 8 | **The Invisible Bandwagon** | You're the weird one if you don't | W9 |
+| 9 | **The Cliffhanger Return** | End where you started — transformed | W10 |
+| 10 | **The Self-Persuasion Trick** | Make them do it. They'll believe it. | W11 |
+:::
+
+---
+
+## Go Build Something That Matters
+
+::: {style="font-size: 1.8em; background: #27ae60; color: white; padding: 50px; border-radius: 15px; text-align: center;"}
+You've learned the techniques.
+
+Now use them for something real.
+
+**The climate doesn't care about your GPA. It cares about what you do next.**
+:::
 

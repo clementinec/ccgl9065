@@ -1,0 +1,82 @@
+---
+title: "The Persuasion Playbook"
+subtitle: "Week 5 Strategy Takeaway"
+author: Dr. Hongshan Guo
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1200
+    preview-links: auto
+    embed-resources: true
+    center: true
+---
+
+# Last Week's Strategy: Sensory Hijack
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **Sensory Hijack**
+
+*The body believes what the mind resists.*
+
+**Anyone try it?** Did you make your audience physically uncomfortable — on purpose?
+:::
+
+---
+
+# The Persuasion Playbook | Strategy #4
+
+---
+
+## The Anchoring Trap
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+Realtors show you a terrible, overpriced house **first**.
+
+The second house — still overpriced — looks reasonable.
+
+**You don't evaluate houses. You evaluate differences from the anchor.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Anchoring** (Tversky & Kahneman, 1974).
+
+The first number you hear distorts all subsequent judgment — even when it's obviously irrelevant.
+
+In experiments, people estimated higher values after spinning a **random wheel** with higher numbers.
+
+**The brain cannot ignore the anchor.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+When someone opened with an extreme number:
+
+*"AI could consume 30% of global electricity by 2040. Even the conservative estimate is 12%."*
+
+Now 12% sounds reasonable. But 12% is still catastrophic.
+
+**The anchor did its job.**
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Lead with the extreme. Then offer the "reasonable" version.**
+
+Set the anchor before they do.
+:::

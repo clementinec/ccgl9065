@@ -15,6 +15,22 @@ format:
     incremental: false    
 ---
 
+# Last Week's Strategy: The Invisible Bandwagon
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **The Invisible Bandwagon**
+
+*You're the weird one if you don't.*
+
+**Anyone try it?** Did you create a local, specific bandwagon for your argument?
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -491,5 +507,61 @@ NOT OK
 - "We've passed all the tipping points" *(exaggeration)*
 :::
 :::
+:::
+
+---
+
+# The Persuasion Playbook | Strategy #9
+
+---
+
+## The Cliffhanger Return
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+Every TV episode ends mid-scene.
+
+Not at resolution — at **maximum tension**.
+
+*Breaking Bad* ended seasons on unresolved gunshots, half-spoken sentences.
+
+**Because you will come back to close the loop.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+The **Zeigarnik Effect** again — now applied to structure.
+
+But here's the twist: **anticipation is often more pleasurable than completion itself**.
+
+Dopamine spikes in anticipation, not reward.
+
+Open strong. Return at the end — **transformed**.
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The presentations that stuck opened with an image or person.
+
+Built the argument.
+
+Then **returned** to that image at the close — but now you saw it differently.
+
+*"Remember the farmer I mentioned? She's watching this debate. What do you want her to hear?"*
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Your last line should echo your first — transformed.**
+
+The bookend is the memory anchor.
 :::
 

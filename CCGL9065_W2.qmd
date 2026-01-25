@@ -505,3 +505,92 @@ GroupAssignment.init();
     startButton.innerText = "Start Timer";
   });
 </script>
+
+---
+
+# The Persuasion Playbook
+
+---
+
+## Rhetorical Engineering 101
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Throughout this course, you'll learn **10 persuasion techniques** — one per week.
+
+Each technique is grounded in **psychology and behavioral science**. Each one is used by marketers, politicians, lawyers, and anyone who needs to move people.
+
+By Week 11, you'll have a complete **rhetorical toolkit** to engineer arguments that don't just inform — they *persuade*.
+
+**The goal:** Make your climate arguments impossible to ignore.
+:::
+
+---
+
+## How This Works
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Each week, at the end of class:**
+
+1. **The Hook** — a grabby example that shows the technique in action
+2. **The Science** — the psychology behind why it works
+3. **You Just Saw It** — how it appeared in today's debates
+4. **Next Week's Challenge** — try it yourself
+
+**At the start of the following week:** Quick callback — did anyone try it?
+:::
+
+::: {style="font-size: 1.6em; font-weight: bold; margin-top: 40px; color: #e74c3c;"}
+Let's begin.
+:::
+
+---
+
+# The Persuasion Playbook | Strategy #1
+
+---
+
+## The Open Loop
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+In 1927, a psychologist noticed waiters could remember complex orders perfectly — until the bill was paid.
+
+**Then they forgot everything instantly.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is the **Zeigarnik Effect**.
+
+The brain can't let go of incomplete tasks. It allocates background processing — like a browser tab you can't close.
+
+Netflix forces a 3-second hook before "Skip Intro" appears. Marketers call this an **open loop**: start a pattern, don't close it.
+
+**The brain will stay to close the loop.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The best presentations today didn't start with conclusions.
+
+They started with a question. A tension. Something unresolved.
+
+*"There's one fact that made me switch sides on this issue. I'll get to it."*
+
+Did you stay to hear it? **That's the loop.**
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Open a loop in your first 10 seconds.**
+
+Don't close it until the end.
+:::

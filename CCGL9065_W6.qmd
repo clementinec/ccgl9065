@@ -16,6 +16,22 @@ format:
 
 ---
 
+# Last Week's Strategy: The Anchoring Trap
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **The Anchoring Trap**
+
+*First number wins.*
+
+**Anyone try it?** Did you lead with an extreme number before offering your "reasonable" version?
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -448,3 +464,59 @@ NOT OK
 *Both narratives are emotionally powerful. Both are incomplete. Your job: Find the fuller story.*
 :::
 
+
+---
+
+# The Persuasion Playbook | Strategy #5
+
+---
+
+## The Specificity Illusion
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+Which is more believable?
+
+A: *"The project will take a few weeks."*
+
+B: *"The project will take 17 days."*
+
+**B. Always B.** Even if both are equally made up.
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is the **Specificity Heuristic**.
+
+The brain uses detail as a proxy for credibility. Specific = precise = probably measured = probably true.
+
+Con artists and skilled liars know this: add irrelevant detail and people stop questioning.
+
+*"I was at the corner of 5th and Main at 3:47pm"* beats *"I was downtown that afternoon."*
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Arguments that landed today had **unnecessary precision**:
+
+- Not "lots of energy" → "415 TWh"
+- Not "many people" → "240 million people"
+- Not "recently" → "March 2024"
+
+The detail signals: *I didn't make this up.*
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Replace every vague word with a specific number, date, or name.**
+
+Even if no one checks — they'll believe you more.
+:::
