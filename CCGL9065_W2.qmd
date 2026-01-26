@@ -15,7 +15,31 @@ format:
 
 ---
 
+# The Hook
+
+---
+
+## Before We Begin...
+
+::: {style="font-size: 1.8em; line-height: 1.8; background: #1a1a2e; color: white; padding: 50px; border-radius: 15px;"}
+In 2013, a scientist grew a hamburger in a lab.
+
+It cost [**$330,000**]{style="color: #f39c12;"}.
+
+A food critic tasted it on live TV. He paused. Then he said something that changed the meat industry forever.
+
+[**I'll tell you what he said at the end of today's class.**]{style="color: #e74c3c;"}
+:::
+
+::: {style="font-size: 1.4em; text-align: center; margin-top: 30px; color: #7f8c8d;"}
+*(That's an open loop. You'll learn why it works today.)*
+:::
+
+---
+
 # This Week's Battlefield
+
+---
 
 ## Two Sides. Two Food Futures.
 
@@ -47,122 +71,283 @@ PRO-DEVELOPMENT
 
 ## The Core Tension
 
-::: {style="font-size: 1.6em; line-height: 1.8;"}
-| PRO-CLIMATE | PRO-DEVELOPMENT |
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+| [PRO-CLIMATE]{style="color: #27ae60; font-weight: bold;"} | [PRO-DEVELOPMENT]{style="color: #3498db; font-weight: bold;"} |
 |-------------|-----------------|
-| Reduce meat consumption | Improve meat production |
-| Plant-based is the future | Choice and tradition matter |
-| Systemic dietary change | Individual freedom |
-| Global emissions focus | Local livelihoods focus |
-| Health + planet aligned | Economic stability priority |
+| [Reduce]{style="color: #27ae60;"} meat consumption | [Improve]{style="color: #3498db;"} meat production |
+| Plant-based is the [future]{style="color: #27ae60;"} | [Choice]{style="color: #3498db;"} and tradition matter |
+| [Systemic]{style="color: #27ae60;"} dietary change | [Individual]{style="color: #3498db;"} freedom |
+| [Global]{style="color: #27ae60;"} emissions focus | [Local]{style="color: #3498db;"} livelihoods focus |
+| Health + [planet]{style="color: #27ae60;"} aligned | [Economic]{style="color: #3498db;"} stability priority |
 
 **This tension defines every food policy debate.**
 :::
 
 ---
 
-#  Quick Recap From Two Weeks Ago
-- ‘Us against the AI’
-- Role-played as Pro-Climate/Pro-Development experts and diﬀerent professions
-- Did a little bit of work on Notion
-- Skipped the Group Discussion
-
-
-# Logistic Questions
-
-- Tutorial Assignments?
-  - Pick your time slots
-  - CIC-Badged so starting off with reflective writing for T1/T2 (W2/W3)
-- Notion Pages and how that works?
-  - Refer to Annoucement Email on publishing and submitting
-  - Submit <span style="color:red">URL Only</span> shared as **published site**
-  - Due EOD every Wednesday
-
-# CCGL9065: Our Response to Climate Change
-
-## Address Common Concerns on Pro-Climate/Pro-Development
-
-- Take Climate Change Pro/Against as stances
-- Discuss complex issues each week from various angles
-- Familiarize with common/uncommon narratives
-- Role-play as people from diﬀerent social pockets
-
-
-## A little Brain-Storming with Pro-Climate Stances
-- Highlight how climate change impacts these areas and propose sustainable solutions or
-adaptations.
-- Tailor arguments to weekly themes to win more support through narratives/visuals/videos that shapes different people's perceptions
-- Raise awareness from public on why being more/less climate-friendly is relevant to everybody.
-- Propose Solutions to <span style="color:red">theme-related challenges</span>
-
-## Food Systems - What do we know about them?
-
-## Some of the hottest topics on food systems
-
-- Plant-based diets/meat alternatives
-  - Shifting towards plant-based eating and rise of lab-grown meat
-- Food waste reduction
-  - Strategies to minimize food waste throughout the supply chain from farm to table
-- Regenerative agriculture: 
-  - Farming practices that sequester carbon in soil, improve biodiversity and enhance ecosystem resilience.
-- Vertical farming and urban agriculture
-- Sustainable fishing: over-fishing?
-- Carbon labeling of food products
-
-
-## Meat Alternatives & Climate Change: The Debate
-
-
-### Scientific Pros
-
-- 30-90% fewer greenhouse gas emissions
-- Significantly reduced land use
-- Lower water consumption
-
-### Scientific Cons
-
-- Energy-intensive processing for some alternatives
-- Potential monoculture issues (e.g., soy, peas)
-- Nutritional profile differences
-
-
-### Narrative Pros
-
-- Innovative tech solution to climate change
-- Enables "ethical consumption"
-- Potential to improve global food security
-
-### Narrative Cons
-
-- Perception as "overly processed" food
-- Cultural resistance to traditional dish substitutes
-- Accusations of "greenwashing"
+# Let's Start With a Fact
 
 ---
 
-## Cutting-Edge Discussions
+## An Inconvenient Truth on Hong Kong Food
 
-1. Cell-based meat: Promise vs. reality
-2. Hybrid products: A transitional solution?
-3. Algae and mycoprotein: The next frontier
-4. Local vs. imported: Which is better?
-5. Holistic assessments: Beyond just emissions
-6. Policy impacts on climate benefits
+::: {style="font-size: 2.2em; text-align: center; padding: 40px;"}
+Hong Kong imports [**90%**]{style="color: #e74c3c;"} of its food.
 
+If shipping stopped tomorrow, we'd have [**2 weeks**]{style="color: #e74c3c;"} of reserves.
 
-## Key Takeaway
+Every meal you eat traveled [**thousands of kilometers**]{style="color: #c0392b;"} to reach your plate.
+:::
 
-Meat alternatives offer significant potential for climate change mitigation, but challenges remain. The debate is complex, involving science, culture, and policy.
+::: {style="font-size: 1.6em; text-align: center; margin-top: 40px; background: #2c3e50; color: white; padding: 20px; border-radius: 10px;"}
+**Now let's talk about food systems.**
+:::
 
+---
 
+## Quick Pulse Check
 
-## Some Interesting Representation of those ideas - For-CC on Meat
+::: {style="font-size: 1.8em; line-height: 2;"}
+**Raise your hand if...**
 
-![](data/sci_am_food.jpg)
+- You ate meat in the last 24 hours
+- You could go a full month without meat
+- You've tried plant-based meat (Impossible, Beyond, OmniPork)
+- You'd eat lab-grown "real" meat if it was cheaper
 
-## Some Interesting Representation of those ideas - Against-CC on Meat
+*Look around. Remember these numbers.*
+:::
 
-![](data/dai_bea_food.jpg)
+---
+
+# The Great Protein War
+
+---
+
+## Three Contenders. One Plate.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: center; width: 30%; background: #c0392b; color: white; padding: 40px; border-radius: 15px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+🥩 Traditional Meat
+:::
+::: {style="font-size: 1.2em; margin-top: 15px;"}
+Factory farms, feedlots, generations of culture
+
+*"Real food for real people"*
+:::
+:::
+
+::: {style="text-align: center; width: 30%; background: #27ae60; color: white; padding: 40px; border-radius: 15px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+🥬 Plant-Based
+:::
+::: {style="font-size: 1.2em; margin-top: 15px;"}
+Impossible, Beyond, OmniPork, whole foods
+
+*"Save the planet, one bite at a time"*
+:::
+:::
+
+::: {style="text-align: center; width: 30%; background: #9b59b6; color: white; padding: 40px; border-radius: 15px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+🧫 Lab-Grown
+:::
+::: {style="font-size: 1.2em; margin-top: 15px;"}
+Cultured cells, bioreactors, sci-fi made real
+
+*"Real meat, no slaughter"*
+:::
+:::
+:::
+
+::: {style="font-size: 1.5em; text-align: center; margin-top: 40px;"}
+**Which one wins? It's not as obvious as you think.**
+:::
+
+---
+
+# Myth-Busting: Carbon Edition
+
+---
+
+## "Vegetables Are Always Better"
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Think again.**
+
+| Food | kg CO₂ per kg |
+|------|---------------|
+| Beef (industrial) | 60 |
+| Lamb | 24 |
+| Cheese | 21 |
+| Asparagus (flown from Peru) | **18** |
+| Chocolate | 19 |
+| Local chicken | 6 |
+| Tofu | 2 |
+
+**Asparagus flown 10,000km beats local chicken in emissions.**
+
+*"Eat your vegetables" isn't always climate advice.*
+:::
+
+---
+
+## "Lab-Grown Meat Will Save Us"
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**The uncomfortable truth:**
+
+- Lab-grown meat requires **bioreactors** running 24/7
+- Energy source matters: coal-powered lab meat could be **worse** than beef
+- Current estimates: 7-25 kg CO₂ per kg (vs. 60 for beef, 2 for tofu)
+- Scaling up is **massively expensive** — $300,000 for the first burger (2013)
+
+::: {style="background: #f39c12; color: white; padding: 20px; border-radius: 10px; margin-top: 20px;"}
+**The catch:** Lab meat is only "green" if powered by renewable energy. Otherwise, you're just trading cow farts for coal emissions.
+:::
+:::
+
+---
+
+## "Plant-Based Meat Is Healthy & Green"
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Not so fast:**
+
+- Impossible Burger has **more sodium** than a Big Mac
+- Beyond Meat is **ultra-processed** — 20+ ingredients
+- Soy monocultures are **destroying the Amazon** too
+- Almond milk uses **6x more water** than oat milk
+
+::: {style="background: #3498db; color: white; padding: 20px; border-radius: 10px; margin-top: 20px;"}
+**The irony:** The same people who won't eat "processed food" are promoting Impossible Burgers as health food.
+:::
+:::
+
+---
+
+## The Real Carbon Scoreboard
+
+::: {style="font-size: 1.3em;"}
+| Food | CO₂/kg | Land Use | Water Use | Verdict |
+|------|--------|----------|-----------|---------|
+| Industrial Beef | 🔴 60 | 🔴 High | 🔴 High | Worst overall |
+| Grass-fed Beef | 🟡 25 | 🔴 Higher | 🟡 Medium | Better, but land-hungry |
+| Lab-Grown Meat | 🟡 7-25 | 🟢 Low | 🟢 Low | *Depends on energy source* |
+| Plant-Based Meat | 🟢 4-8 | 🟢 Low | 🟡 Medium | Good, but processed |
+| Chicken | 🟡 6 | 🟡 Medium | 🟡 Medium | Often overlooked |
+| Tofu/Legumes | 🟢 2 | 🟢 Low | 🟢 Low | Clear winner |
+
+:::
+
+::: {style="font-size: 1.5em; text-align: center; margin-top: 30px; color: #c0392b;"}
+**Notice: There's no single "right answer." That's the point.**
+:::
+
+---
+
+# Would You Rather?
+
+---
+
+## The Dinner Table Dilemma
+
+::: {style="font-size: 1.6em; line-height: 2; background: #ecf0f1; padding: 40px; border-radius: 15px;"}
+**Scenario 1:**
+Lab-grown char siu is now cheaper than real pork. It tastes identical. Your grandmother says she'd rather die than eat "fake meat" at Chinese New Year.
+
+*Do you serve it anyway?*
+
+**Scenario 2:**
+A study shows that if Hong Kong went fully vegetarian, we'd cut food emissions by 70%. But Sham Shui Po's last dai pai dong — run by the same family for 60 years — would close.
+
+*Do you support the policy?*
+:::
+
+---
+
+## The Ethics Get Messy
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.4em; font-weight: bold;"}
+PRO-CLIMATE says:
+:::
+::: {style="font-size: 1.2em; margin-top: 15px;"}
+"Tradition isn't an excuse to destroy the planet. Your grandmother's nostalgia doesn't outweigh your grandchildren's future."
+:::
+:::
+
+::: {style="text-align: left; width: 45%; background: #3498db; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.4em; font-weight: bold;"}
+PRO-DEVELOPMENT says:
+:::
+::: {style="font-size: 1.2em; margin-top: 15px;"}
+"You want to save the climate by erasing culture? My grandmother survived the Cultural Revolution. Now you want to take her char siu too?"
+:::
+:::
+:::
+
+---
+
+# Reading the Propaganda
+
+---
+
+## Two Magazines. Two Realities.
+
+::: {style="display: flex; justify-content: space-around; align-items: center;"}
+::: {style="width: 45%; text-align: center;"}
+![](data/sci_am_food.jpg){width=80%}
+:::
+::: {style="width: 45%; text-align: center;"}
+![](data/dai_bea_food.jpg){width=80%}
+:::
+:::
+
+---
+
+## What Do You Notice?
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Look at the LEFT image (Pro-Climate):**
+
+- What colors dominate? Why?
+- What's the visual metaphor?
+- Who is the implied audience?
+- What emotion is it trying to trigger?
+
+**Look at the RIGHT image (Pro-Development):**
+
+- How is food presented differently?
+- What values does the imagery appeal to?
+- What's being defended?
+
+::: {style="background: #2c3e50; color: white; padding: 20px; border-radius: 10px; margin-top: 20px;"}
+**Key question:** Which cover would make YOUR grandmother pick up the magazine?
+:::
+:::
+
+---
+
+# Now It's Your Turn
+
+---
+
+## Today's Debate Motion
+
+::: {style="font-size: 2em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
+**"Hong Kong should ban the import of factory-farmed meat by 2035."**
+:::
+
+::: {style="font-size: 1.4em; text-align: center; margin-top: 30px;"}
+PRO-CLIMATE must argue **for** the ban.
+
+PRO-DEVELOPMENT must argue **against**.
+
+You have the facts. Now make them **feel** something.
+:::
 
 ---
 
@@ -231,14 +416,20 @@ Spectacle
 
 ## Human Story: The Sai Kung Fisherman
 
+::: {style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; border-radius: 15px;"}
 ::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Uncle Wong** has fished Hong Kong waters for 40 years. Climate activists say his catch is unsustainable.
+**Uncle Wong**, 63, has fished Hong Kong waters for 40 years. His father did the same. So did his grandfather. His boat is worth less than a parking space in Tai Koo.
 
-**PRO-CLIMATE says:** "The fish stocks are collapsing. Wong is part of the problem. Buy farmed fish instead."
+Climate activists say his catch is unsustainable. Supermarkets want him to sell farmed salmon instead.
 
-**PRO-DEVELOPMENT says:** "Wong's family fished here for five generations. Now some university kid with a degree tells him he's destroying the ocean? He can barely afford rent."
+**PRO-CLIMATE says:** "The fish stocks are collapsing. Wong is part of the problem. Every wild fish he catches accelerates extinction."
 
-**The real question:** How do we protect both the ocean and Uncle Wong?
+**PRO-DEVELOPMENT says:** "Wong's family survived the Japanese occupation, the '67 riots, and SARS. Now some NGO wants to end his livelihood because of a chart? He can barely afford rent."
+
+::: {style="font-size: 1.5em; font-weight: bold; margin-top: 20px; text-align: center;"}
+**The real question:** Who decides what "sustainable" means — the scientist, the politician, or Uncle Wong?
+:::
+:::
 :::
 
 ---
@@ -248,23 +439,25 @@ Spectacle
 ::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
 ::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
 ::: {style="font-size: 1.5em; font-weight: bold;"}
-OK to Say
+✓ OK to Say
 :::
 ::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
 - "Beef produces 60kg CO₂ per kg" *(FAO data)*
-- "Livestock uses 80% of agricultural land" *(documented)*
-- "Lab meat uses 90% less land" *(peer-reviewed studies)*
+- "HK imports 90% of food" *(Census & Statistics)*
+- "Lab meat uses 90% less land" *(peer-reviewed)*
+- "Char siu pork: 12kg CO₂/kg" *(calculable)*
 :::
 :::
 
 ::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
 ::: {style="font-size: 1.5em; font-weight: bold;"}
-NOT OK
+✗ NOT OK
 :::
 ::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
 - "Meat is murder" *(moral claim, not fact)*
-- "Plant-based diets cure cancer" *(exaggeration)*
-- "All farmers are destroying the planet" *(false generalization)*
+- "Lab meat is 100% safe" *(too early to know)*
+- "All farmers destroy the planet" *(false generalization)*
+- "Vegetarians live longer" *(correlation ≠ causation)*
 :::
 :::
 :::
@@ -358,18 +551,16 @@ NOT OK
 // Create a namespace for our group assignment functionality
 const GroupAssignment = {
   groups: [
-    'Group One', 'Group Two', 'Group Three', 'Group Four', 
-    'Group Five', 'Group Six', 'Group Seven', 'Group Eight'
+    'Group One', 'Group Two', 'Group Three', 'Group Four',
+    'Group Five', 'Group Six'
   ],
   vocations: [
     'Logistics/Transportation',
     'Farming/Food Procurement',
     'Energy and Industry',
-    'Policy-makers/decision makers',
+    'Policy-Makers',
     'Technology and Innovation',
-    'Service/Urban Workers',
-    'Pro-Climate expert',
-    'Pro-Development expert'
+    'Service/Urban Workers'
   ],
 
   shuffleArray: function(array) {
@@ -505,6 +696,53 @@ GroupAssignment.init();
     startButton.innerText = "Start Timer";
   });
 </script>
+
+---
+
+# Before We Go: Housekeeping
+
+---
+
+## Quick Logistics
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Tutorial Assignments**
+
+- Pick your time slots if you haven't already
+- CIC-Badged: reflective writing starts T1/T2 (W2/W3)
+
+**Notion Portfolios**
+
+- Submit **URL only** as published site
+- Due: **End of day every Wednesday**
+- Refer to announcement email for publishing guide
+:::
+
+---
+
+# Closing the Loop
+
+---
+
+## Remember the $330,000 Burger?
+
+::: {style="font-size: 1.6em; line-height: 1.8; background: #1a1a2e; color: white; padding: 50px; border-radius: 15px;"}
+The food critic took a bite. Paused. Then said:
+
+[**"It's close to meat. It's not that juicy. But the bite feels like a conventional hamburger."**]{style="color: #f39c12;"}
+
+Not a triumph. Not a disaster. Just... *close*.
+
+That was 2013. Today, lab-grown meat costs under **$10/kg** to produce.
+
+Singapore already sells it in restaurants. The US approved it in 2023.
+
+::: {style="text-align: center; margin-top: 30px;"}
+**The question isn't whether it will replace your char siu.**
+
+**The question is whether your grandmother will eat it.**
+:::
+:::
 
 ---
 

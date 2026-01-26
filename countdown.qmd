@@ -102,18 +102,16 @@ format:
 // Create a namespace for our group assignment functionality
 const GroupAssignment = {
   groups: [
-    'Group One', 'Group Two', 'Group Three', 'Group Four', 
-    'Group Five', 'Group Six', 'Group Seven', 'Group Eight'
+    'Group One', 'Group Two', 'Group Three', 'Group Four',
+    'Group Five', 'Group Six'
   ],
   vocations: [
     'Logistics/Transportation',
     'Farming/Food Procurement',
     'Energy and Industry',
-    'Policy-makers/decision makers',
+    'Policy-Makers',
     'Technology and Innovation',
-    'Service Provider/Essential Workers',
-    'Pro-Climate expert',
-    'Pro-Development expert'
+    'Service/Urban Workers'
   ],
 
   shuffleArray: function(array) {
