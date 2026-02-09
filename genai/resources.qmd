@@ -36,6 +36,11 @@ toc: true
 - Political deepfakes — election interference concerns
 - Non-consensual imagery — legal and ethical boundaries
 
+## On Projection & Consciousness
+
+- Mustafa Suleyman, ["Seemingly Conscious AI Is Coming"](https://mustafa-suleyman.ai/seemingly-conscious-ai-is-coming) — The Microsoft AI CEO's long-form essay on why AI that *appears* conscious is inevitable, dangerous, and not the same as actually being conscious. Essential reading for Class 3.
+- Marc Zao-Sanders, ["How People Are Really Using Gen AI in 2025"](https://hbr.org/2025/04/how-people-are-really-using-gen-ai-in-2025) — HBR. The #1 GenAI use case in 2025 is therapy and companionship. 70% of use is personal. 34% is emotional support. Creativity doesn't crack the top ranks.
+
 ## On Convergence & Creativity
 
 - Alex Murrell, ["The Age of Average"](https://www.alexmurrell.co.uk/articles/the-age-of-average) — Excellent piece on algorithmic homogenization and why everything looks the same now.

@@ -153,6 +153,779 @@ unless you fight.
 
 ---
 
+# The Pollock Machine
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #2c3e50;"}
+Remember last class?
+:::
+
+::: {style="font-size: 1.8em; margin-top: 40px; color: #7f8c8d;"}
+The Pollock painting tool built with Claude.
+:::
+
+---
+
+## What You Saw
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+An AI-generated HTML tool where you could create Pollock-like paintings by adjusting **sliders**:
+
+- Stroke arm speed
+- Drip intensity
+- Paint viscosity
+- Number of passes across the canvas
+- Colour palette range
+- Canvas angle
+- Splatter radius
+- Layer count
+:::
+
+::: {style="font-size: 1.6em; margin-top: 20px; font-weight: bold; color: #8e44ad;"}
+Each slider changed the output.
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #2c3e50;"}
+What happened when all sliders were at **default**?
+:::
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #c0392b; margin-top: 40px;"}
+You got the average Pollock.
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;"}
+The most probable Pollock. The Pollock nobody would hang on their wall.
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #2c3e50;"}
+What happened when you **moved** the sliders?
+:::
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #27ae60; margin-top: 40px;"}
+Something started to happen.
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;"}
+Not because the AI got better. Because **you** made choices.
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #8e44ad;"}
+Each slider is a **degree of freedom**.
+:::
+
+::: {style="font-size: 1.8em; margin-top: 40px;"}
+A parameter you control.
+
+A dimension you can move in.
+:::
+
+---
+
+# Degrees of Freedom
+
+---
+
+## One Parameter: A Line
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+If you only control **one thing** — say, stroke speed — you can explore a **line**.
+:::
+
+<svg viewBox="0 0 800 160" width="800" height="160" style="display: block; margin: 30px auto;">
+  <defs>
+    <linearGradient id="lineGrad1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3498db" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3498db"/>
+    </linearGradient>
+  </defs>
+  <text x="400" y="30" fill="#3498db" font-size="22" text-anchor="middle" font-weight="bold" font-family="sans-serif">STROKE SPEED</text>
+  <rect x="80" y="58" width="640" height="24" rx="12" fill="url(#lineGrad1)"/>
+  <circle cx="520" cy="70" r="18" fill="#e74c3c" stroke="white" stroke-width="3"/>
+  <text x="80" y="120" fill="#7f8c8d" font-size="20" text-anchor="middle" font-family="sans-serif">slow</text>
+  <text x="720" y="120" fill="#7f8c8d" font-size="20" text-anchor="middle" font-family="sans-serif">fast</text>
+  <text x="520" y="145" fill="#e74c3c" font-size="16" text-anchor="middle" font-family="sans-serif" font-style="italic">← you are here →</text>
+</svg>
+
+::: {style="font-size: 1.5em; margin-top: 10px; color: #7f8c8d;"}
+Left or right. That's it. **One degree of freedom.**
+:::
+
+---
+
+## Two Parameters: A Plane
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Add a second — drip intensity — now you can move across a **flat surface**.
+:::
+
+<svg viewBox="0 0 600 540" width="520" height="470" style="display: block; margin: 20px auto;">
+  <!-- Grid lines -->
+  <line x1="80" y1="120" x2="80" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="180" y1="120" x2="180" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="280" y1="120" x2="280" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="380" y1="120" x2="380" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="480" y1="120" x2="480" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="120" x2="480" y2="120" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="200" x2="480" y2="200" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="280" x2="480" y2="280" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="360" x2="480" y2="360" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="440" x2="480" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Filled plane -->
+  <rect x="80" y="120" width="400" height="320" fill="rgba(52,152,219,0.06)" stroke="#3498db" stroke-width="2.5"/>
+  <!-- Axes -->
+  <line x1="80" y1="440" x2="500" y2="440" stroke="#3498db" stroke-width="3"/>
+  <polygon points="500,433 520,440 500,447" fill="#3498db"/>
+  <line x1="80" y1="440" x2="80" y2="100" stroke="#27ae60" stroke-width="3"/>
+  <polygon points="73,100 80,80 87,100" fill="#27ae60"/>
+  <!-- The dot -->
+  <circle cx="350" cy="200" r="16" fill="#e74c3c" stroke="white" stroke-width="3"/>
+  <!-- Labels -->
+  <text x="300" y="490" fill="#3498db" font-size="22" text-anchor="middle" font-weight="bold" font-family="sans-serif">STROKE SPEED</text>
+  <text x="35" y="280" fill="#27ae60" font-size="22" text-anchor="middle" font-weight="bold" font-family="sans-serif" transform="rotate(-90 35 280)">DRIP INTENSITY</text>
+  <text x="370" y="190" fill="#e74c3c" font-size="16" font-family="sans-serif" font-style="italic">you</text>
+</svg>
+
+::: {style="font-size: 1.5em; margin-top: 10px; color: #7f8c8d;"}
+A **square** of possibilities. You can reach any point on the surface.
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 3em; font-weight: bold; color: white;"}
+Now add one more.
+:::
+
+---
+
+## Three Parameters: A Cube
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Add a third — number of passes — and the flat plane **lifts** into a volume.
+:::
+
+<svg viewBox="0 0 650 520" width="580" height="465" style="display: block; margin: 20px auto;">
+  <!-- BACK EDGES (dashed) -->
+  <line x1="110" y1="345" x2="110" y2="135" stroke="#aaa" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="110" y1="345" x2="330" y2="455" stroke="#aaa" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="110" y1="345" x2="500" y2="345" stroke="#aaa" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <!-- TOP FACE (purple tint) -->
+  <polygon points="110,135 330,25 530,135 310,245" fill="rgba(155,89,182,0.12)" stroke="#9b59b6" stroke-width="2.5"/>
+  <!-- LEFT FACE (green tint) -->
+  <polygon points="110,135 310,245 330,455 130,345" fill="rgba(39,174,96,0.12)" stroke="#27ae60" stroke-width="2.5"/>
+  <!-- RIGHT FACE (blue tint) -->
+  <polygon points="310,245 530,135 530,345 330,455" fill="rgba(52,152,219,0.12)" stroke="#3498db" stroke-width="2.5"/>
+  <!-- The dot INSIDE the cube -->
+  <circle cx="340" cy="280" r="16" fill="#e74c3c" stroke="white" stroke-width="3"/>
+  <!-- Axis labels -->
+  <text x="555" y="250" fill="#3498db" font-size="20" font-weight="bold" font-family="sans-serif">SPEED →</text>
+  <text x="170" y="420" fill="#27ae60" font-size="20" font-weight="bold" font-family="sans-serif">← DRIP</text>
+  <text x="325" y="15" fill="#9b59b6" font-size="20" font-weight="bold" font-family="sans-serif" text-anchor="middle">↑ PASSES</text>
+  <text x="360" y="270" fill="#e74c3c" font-size="16" font-family="sans-serif" font-style="italic">you</text>
+</svg>
+
+::: {style="font-size: 1.5em; margin-top: 10px; color: #7f8c8d;"}
+Three dimensions. You can still **see** this. Barely.
+:::
+
+---
+
+## The Jump
+
+::: {style="display: flex; justify-content: space-around; align-items: center; margin-top: 30px;"}
+
+::: {style="text-align: center; width: 22%;"}
+<svg viewBox="0 0 200 50" width="180" height="45" style="display: block; margin: 0 auto;">
+  <rect x="10" y="18" width="180" height="14" rx="7" fill="#3498db" opacity="0.5"/>
+  <circle cx="130" cy="25" r="8" fill="#e74c3c" stroke="white" stroke-width="2"/>
+</svg>
+
+::: {style="font-size: 1.3em; font-weight: bold; margin-top: 10px;"}
+1D — Line
+:::
+::: {style="font-size: 1.1em; color: #7f8c8d;"}
+10 positions
+:::
+:::
+
+::: {style="font-size: 2em;"}
+→
+:::
+
+::: {style="text-align: center; width: 22%;"}
+<svg viewBox="0 0 200 200" width="160" height="160" style="display: block; margin: 0 auto;">
+  <rect x="10" y="10" width="180" height="180" fill="rgba(52,152,219,0.08)" stroke="#3498db" stroke-width="2"/>
+  <line x1="10" y1="70" x2="190" y2="70" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="10" y1="130" x2="190" y2="130" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="70" y1="10" x2="70" y2="190" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="130" y1="10" x2="130" y2="190" stroke="#e0e0e0" stroke-width="1"/>
+  <circle cx="140" cy="60" r="8" fill="#e74c3c" stroke="white" stroke-width="2"/>
+</svg>
+
+::: {style="font-size: 1.3em; font-weight: bold; margin-top: 10px;"}
+2D — Square
+:::
+::: {style="font-size: 1.1em; color: #7f8c8d;"}
+100 positions
+:::
+:::
+
+::: {style="font-size: 2em;"}
+→
+:::
+
+::: {style="text-align: center; width: 22%;"}
+<svg viewBox="0 0 220 220" width="170" height="170" style="display: block; margin: 0 auto;">
+  <polygon points="55,67 110,15 165,67 110,115" fill="rgba(155,89,182,0.12)" stroke="#9b59b6" stroke-width="1.5"/>
+  <polygon points="55,67 110,115 110,195 55,150" fill="rgba(39,174,96,0.12)" stroke="#27ae60" stroke-width="1.5"/>
+  <polygon points="110,115 165,67 165,150 110,195" fill="rgba(52,152,219,0.12)" stroke="#3498db" stroke-width="1.5"/>
+  <circle cx="120" cy="130" r="8" fill="#e74c3c" stroke="white" stroke-width="2"/>
+</svg>
+
+::: {style="font-size: 1.3em; font-weight: bold; margin-top: 10px;"}
+3D — Cube
+:::
+::: {style="font-size: 1.1em; color: #7f8c8d;"}
+1,000 positions
+:::
+:::
+
+::: {style="font-size: 2em;"}
+→
+:::
+
+::: {style="text-align: center; width: 22%;"}
+<svg viewBox="0 0 200 200" width="160" height="160" style="display: block; margin: 0 auto;">
+  <circle cx="60" cy="50" r="4" fill="#e74c3c" opacity="0.3"/>
+  <circle cx="140" cy="30" r="4" fill="#3498db" opacity="0.3"/>
+  <circle cx="100" cy="80" r="4" fill="#9b59b6" opacity="0.3"/>
+  <circle cx="40" cy="120" r="4" fill="#27ae60" opacity="0.3"/>
+  <circle cx="160" cy="100" r="4" fill="#e67e22" opacity="0.3"/>
+  <circle cx="80" cy="150" r="4" fill="#3498db" opacity="0.3"/>
+  <circle cx="130" cy="160" r="4" fill="#9b59b6" opacity="0.3"/>
+  <circle cx="50" cy="170" r="4" fill="#27ae60" opacity="0.3"/>
+  <circle cx="170" cy="150" r="4" fill="#e74c3c" opacity="0.3"/>
+  <circle cx="100" cy="110" r="8" fill="#e74c3c" stroke="white" stroke-width="2"/>
+  <text x="100" y="195" fill="#7f8c8d" font-size="36" text-anchor="middle" font-family="sans-serif">?</text>
+</svg>
+
+::: {style="font-size: 1.3em; font-weight: bold; margin-top: 10px;"}
+8D — ???
+:::
+::: {style="font-size: 1.1em; color: #e74c3c; font-weight: bold;"}
+100,000,000 positions
+:::
+:::
+
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.5em; font-weight: bold; color: white;"}
+The Pollock tool had **8 sliders**.
+:::
+
+::: {style="font-size: 2em; margin-top: 40px; color: #e74c3c;"}
+You were moving through 8-dimensional space.
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; color: #aaa;"}
+You can't draw it. You can't visualise it.
+
+But you were **navigating** it — every time you moved a slider.
+:::
+
+---
+
+## The Name for This
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Mathematicians call this a **tensor space**.
+
+You don't need the math. You need the intuition:
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px;"}
+| Parameters | Space | You Can Explore... | Possible Positions |
+|------------|-------|-------------------|--------------------|
+| 1 | Line | Left or right | 10 |
+| 2 | Square | A flat surface | 100 |
+| 3 | Cube | A volume | 1,000 |
+| 8 | **Tensor space** | A space you can't see — but can navigate | **100,000,000** |
+:::
+
+::: {style="font-size: 1.8em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+Every parameter you add **multiplies** the possibilities.
+:::
+
+---
+
+##
+
+::: {style="font-size: 2em; line-height: 1.8;"}
+With 2 parameters, each having 10 settings?
+
+**100** possible paintings.
+:::
+
+::: {style="font-size: 2em; line-height: 1.8; margin-top: 30px;"}
+With 8 parameters, each having 10 settings?
+
+**100,000,000** possible paintings.
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;"}
+And that's just a toy with 8 sliders.
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #2c3e50;"}
+Now think about real creative work.
+:::
+
+---
+
+## Your Hyperparameters
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+A piece of writing has **hundreds** of parameters:
+:::
+
+::: {style="display: flex; flex-wrap: wrap; justify-content: space-around; margin-top: 20px;"}
+::: {style="background: #e74c3c; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+Sentence length
+:::
+::: {style="background: #e67e22; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+Vocabulary range
+:::
+::: {style="background: #27ae60; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+Metaphor density
+:::
+::: {style="background: #3498db; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+Cultural references
+:::
+::: {style="background: #9b59b6; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+Tone
+:::
+::: {style="background: #34495e; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+Structure
+:::
+::: {style="background: #c0392b; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+What you leave out
+:::
+::: {style="background: #16a085; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+Pacing
+:::
+::: {style="background: #8e44ad; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+Humour
+:::
+::: {style="background: #2c3e50; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+Personal experience
+:::
+::: {style="background: #d35400; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+Worldview
+:::
+::: {style="background: #27ae60; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;"}
+What you find funny
+:::
+:::
+
+::: {style="font-size: 1.5em; margin-top: 20px; color: #7f8c8d;"}
+Each one is a dimension. You're working in a space with **hundreds of axes**.
+:::
+
+---
+
+# The Search Space
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.5em; font-weight: bold; color: white;"}
+Every possible creative output is a **point** in this space.
+:::
+
+::: {style="font-size: 1.8em; margin-top: 40px; color: #aaa;"}
+Every essay. Every painting. Every design. Every song.
+
+A coordinate in high-dimensional space.
+:::
+
+---
+
+## Where Does AI Land?
+
+::: {style="text-align: center; margin-top: 30px;"}
+::: {style="font-size: 1.4em; font-family: monospace; background: #ecf0f1; padding: 40px; border-radius: 10px; display: inline-block; text-align: left;"}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;·
+&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;·&nbsp;●&nbsp;·&nbsp;&nbsp;·
+&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;·
+&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;·
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·
+:::
+:::
+
+::: {style="font-size: 2em; margin-top: 30px; font-weight: bold; color: #c0392b;"}
+The centre. The densest region. The average.
+:::
+
+::: {style="font-size: 1.5em; margin-top: 20px; color: #7f8c8d;"}
+Every default AI output lives near the ● in the middle.
+:::
+
+---
+
+## Remember the Class 2 Lesson?
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+Jailbreaking doesn't help either.
+
+It moves you to a **different cluster** — the "edgy" cluster.
+:::
+
+::: {style="text-align: center; margin-top: 30px;"}
+::: {style="font-size: 1.4em; font-family: monospace; background: #ecf0f1; padding: 40px; border-radius: 10px; display: inline-block; text-align: left;"}
+&nbsp;"safe"&nbsp;cluster&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"edgy"&nbsp;cluster
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;·&nbsp;●&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;·&nbsp;●&nbsp;·
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;·
+:::
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;"}
+Still a centre. Still an average. Just a different one.
+:::
+
+---
+
+## Where Do *You* Live?
+
+::: {style="text-align: center; margin-top: 30px;"}
+::: {style="font-size: 1.4em; font-family: monospace; background: #ecf0f1; padding: 40px; border-radius: 10px; display: inline-block; text-align: left;"}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;·
+&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;·&nbsp;●&nbsp;·&nbsp;&nbsp;·
+&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;·
+&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★&nbsp;you
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·
+:::
+:::
+
+::: {style="font-size: 2em; margin-top: 30px; font-weight: bold; color: #27ae60;"}
+Somewhere the AI would never go on its own.
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.5em; font-weight: bold; color: white; line-height: 1.6;"}
+"Making AI responsible to you"
+
+=
+
+**Defining your search space.**
+:::
+
+::: {style="font-size: 1.8em; margin-top: 40px; color: #aaa;"}
+Choosing which dimensions matter.
+
+Setting your own coordinates.
+
+Refusing to let the AI drag you back to centre.
+:::
+
+---
+
+## The AI's Problem
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+The AI doesn't know your dimensions **exist**.
+
+It has no slider for "the specific thing that reminds you of your grandmother's kitchen."
+
+It has no parameter for "the weird way you structure an argument because of that one philosophy class in first year."
+
+It can't navigate dimensions it was never trained on.
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+Your lived experience creates dimensions the model doesn't have.
+:::
+
+---
+
+## The Hyperparameters of *You*
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+When you use AI, you're setting hyperparameters — whether you realise it or not:
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px;"}
+| What You Do | What It Means in the Space |
+|-------------|---------------------------|
+| Accept the default | Stay at the centre |
+| Prompt with specificity | Move along known dimensions |
+| Reject and re-prompt | Push toward the edge |
+| Edit the output by hand | Jump to a point the AI can't reach |
+| Bring your own experience | **Add a dimension that didn't exist** |
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #c0392b;"}
+The default is the centre.
+:::
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #e67e22; margin-top: 30px;"}
+The centre is the average.
+:::
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #27ae60; margin-top: 30px;"}
+Your job is to be **specific**.
+:::
+
+---
+
+# The Paradox
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #2c3e50;"}
+"But the AI always finds the mean."
+:::
+
+::: {style="font-size: 2em; margin-top: 40px; color: #7f8c8d;"}
+Yes. It does. You can't change that.
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #8e44ad;"}
+So stop fighting the mean.
+:::
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #27ae60; margin-top: 40px;"}
+Design a space where the mean is worth finding.
+:::
+
+---
+
+## Zero Constraints
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+"Write a birthday message for my friend."
+:::
+
+<svg viewBox="0 0 700 300" width="650" height="280" style="display: block; margin: 20px auto;">
+  <!-- Big cloud of dots -->
+  <circle cx="200" cy="100" r="4" fill="#bbb"/>
+  <circle cx="280" cy="60" r="4" fill="#bbb"/>
+  <circle cx="350" cy="90" r="4" fill="#bbb"/>
+  <circle cx="150" cy="150" r="4" fill="#bbb"/>
+  <circle cx="420" cy="120" r="4" fill="#bbb"/>
+  <circle cx="300" cy="180" r="4" fill="#bbb"/>
+  <circle cx="250" cy="200" r="4" fill="#bbb"/>
+  <circle cx="380" cy="170" r="4" fill="#bbb"/>
+  <circle cx="170" cy="80" r="4" fill="#bbb"/>
+  <circle cx="450" cy="180" r="4" fill="#bbb"/>
+  <circle cx="320" cy="40" r="4" fill="#bbb"/>
+  <circle cx="130" cy="120" r="4" fill="#bbb"/>
+  <circle cx="470" cy="90" r="4" fill="#bbb"/>
+  <circle cx="220" cy="170" r="4" fill="#bbb"/>
+  <circle cx="400" cy="50" r="4" fill="#bbb"/>
+  <circle cx="180" cy="210" r="4" fill="#bbb"/>
+  <circle cx="340" cy="210" r="4" fill="#bbb"/>
+  <circle cx="260" cy="130" r="4" fill="#bbb"/>
+  <circle cx="410" cy="200" r="4" fill="#bbb"/>
+  <circle cx="500" cy="150" r="4" fill="#bbb"/>
+  <!-- The boring mean -->
+  <circle cx="310" cy="135" r="18" fill="#c0392b" stroke="white" stroke-width="3"/>
+  <text x="310" y="142" fill="white" font-size="16" text-anchor="middle" font-weight="bold" font-family="sans-serif">mean</text>
+  <!-- Label -->
+  <text x="350" y="265" fill="#7f8c8d" font-size="18" font-family="sans-serif" text-anchor="middle">The entire space of birthday messages. The mean = "Happy Birthday! 🎂"</text>
+</svg>
+
+---
+
+## One Constraint
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+"Write a **funny** birthday message for my **best friend**."
+:::
+
+<svg viewBox="0 0 700 300" width="650" height="280" style="display: block; margin: 20px auto;">
+  <!-- Faded-out dots -->
+  <circle cx="200" cy="100" r="4" fill="#eee"/>
+  <circle cx="280" cy="60" r="4" fill="#eee"/>
+  <circle cx="350" cy="90" r="4" fill="#eee"/>
+  <circle cx="150" cy="150" r="4" fill="#eee"/>
+  <circle cx="420" cy="120" r="4" fill="#eee"/>
+  <circle cx="170" cy="80" r="4" fill="#eee"/>
+  <circle cx="450" cy="180" r="4" fill="#eee"/>
+  <circle cx="320" cy="40" r="4" fill="#eee"/>
+  <circle cx="130" cy="120" r="4" fill="#eee"/>
+  <circle cx="470" cy="90" r="4" fill="#eee"/>
+  <circle cx="400" cy="50" r="4" fill="#eee"/>
+  <!-- Surviving cluster -->
+  <circle cx="300" cy="180" r="5" fill="#3498db"/>
+  <circle cx="250" cy="200" r="5" fill="#3498db"/>
+  <circle cx="380" cy="170" r="5" fill="#3498db"/>
+  <circle cx="220" cy="170" r="5" fill="#3498db"/>
+  <circle cx="340" cy="210" r="5" fill="#3498db"/>
+  <circle cx="180" cy="210" r="5" fill="#3498db"/>
+  <circle cx="410" cy="200" r="5" fill="#3498db"/>
+  <circle cx="260" cy="220" r="5" fill="#3498db"/>
+  <!-- The better mean -->
+  <circle cx="295" cy="195" r="16" fill="#e67e22" stroke="white" stroke-width="3"/>
+  <text x="295" y="202" fill="white" font-size="14" text-anchor="middle" font-weight="bold" font-family="sans-serif">mean</text>
+  <!-- Label -->
+  <text x="350" y="265" fill="#7f8c8d" font-size="18" font-family="sans-serif" text-anchor="middle">Smaller space. Funnier. But still could be for anyone's best friend.</text>
+</svg>
+
+---
+
+## Many Constraints
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+"Write a <span style="color: #e74c3c; font-weight: bold;">short birthday message</span> for <span style="color: #3498db; font-weight: bold;">my best friend who just failed her driving test</span>, in <span style="color: #27ae60; font-weight: bold;">Cantonese-English mix</span>, <span style="color: #9b59b6; font-weight: bold;">funny not sentimental</span>, <span style="color: #e67e22; font-weight: bold;">reference the ramen place we went last Tuesday</span>, <span style="color: #c0392b; font-weight: bold;">make it fit an Instagram story</span>, and <span style="color: #16a085; font-weight: bold;">end with an inside joke about her always being late</span>."
+:::
+
+::: {style="font-size: 1.3em; margin-top: 15px; color: #7f8c8d;"}
+Count the colours. **Seven dimensions.** Seven constraints the AI must satisfy simultaneously.
+:::
+
+<svg viewBox="0 0 700 300" width="650" height="280" style="display: block; margin: 20px auto;">
+  <!-- Faded-out dots -->
+  <circle cx="200" cy="100" r="4" fill="#eee"/>
+  <circle cx="280" cy="60" r="4" fill="#eee"/>
+  <circle cx="350" cy="90" r="4" fill="#eee"/>
+  <circle cx="150" cy="150" r="4" fill="#eee"/>
+  <circle cx="420" cy="120" r="4" fill="#eee"/>
+  <circle cx="170" cy="80" r="4" fill="#eee"/>
+  <circle cx="450" cy="180" r="4" fill="#eee"/>
+  <circle cx="320" cy="40" r="4" fill="#eee"/>
+  <circle cx="130" cy="120" r="4" fill="#eee"/>
+  <circle cx="470" cy="90" r="4" fill="#eee"/>
+  <circle cx="400" cy="50" r="4" fill="#eee"/>
+  <circle cx="300" cy="180" r="4" fill="#ddd"/>
+  <circle cx="250" cy="200" r="4" fill="#ddd"/>
+  <circle cx="380" cy="170" r="4" fill="#ddd"/>
+  <circle cx="220" cy="170" r="4" fill="#ddd"/>
+  <circle cx="340" cy="210" r="4" fill="#ddd"/>
+  <!-- Tiny surviving cluster -->
+  <circle cx="420" cy="185" r="5" fill="#27ae60"/>
+  <circle cx="440" cy="200" r="5" fill="#27ae60"/>
+  <circle cx="430" cy="175" r="5" fill="#27ae60"/>
+  <!-- The specific mean -->
+  <circle cx="430" cy="190" r="16" fill="#27ae60" stroke="white" stroke-width="3"/>
+  <text x="430" y="197" fill="white" font-size="14" text-anchor="middle" font-weight="bold" font-family="sans-serif">mean</text>
+  <!-- Arrow pointing to it -->
+  <text x="520" y="192" fill="#27ae60" font-size="16" font-family="sans-serif" font-weight="bold">← YOUR mean</text>
+  <!-- Label -->
+  <text x="350" y="265" fill="#7f8c8d" font-size="18" font-family="sans-serif" text-anchor="middle">Tiny space. The mean of 3 possibilities is not "average." It's specific.</text>
+</svg>
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; font-weight: bold; color: white; line-height: 1.6;"}
+Each constraint you add **eliminates** possibilities.
+:::
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #e74c3c; margin-top: 30px; line-height: 1.6;"}
+The more dimensions you specify,
+
+the fewer outputs survive.
+:::
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #27ae60; margin-top: 30px; line-height: 1.6;"}
+Until the "average" of what's left
+
+**is essentially unique.**
+:::
+
+---
+
+## The Reframe
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The old story:
+:::
+
+::: {style="font-size: 1.8em; margin-top: 20px; color: #c0392b; font-weight: bold;"}
+"AI produces the average. Fight it. Override it. Push against the current."
+:::
+
+::: {style="font-size: 1.6em; margin-top: 40px; line-height: 1.8;"}
+The new story:
+:::
+
+::: {style="font-size: 1.8em; margin-top: 20px; color: #27ae60; font-weight: bold;"}
+"AI produces the average. Define a space where the average is exactly what you need."
+:::
+
+---
+
+##
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+You're not fighting the river.
+
+You're **building the riverbanks**.
+
+The water still flows downhill — that's what AI does.
+
+But you decide **where it flows**.
+:::
+
+---
+
+## What This Means in Practice
+
+::: {style="font-size: 1.2em;"}
+| Prompt | Dimensions | What You Get |
+|--------|:----------:|-------------|
+| "Write a birthday message for my friend" | 0 | The mean of all birthday messages. "Happy Birthday! 🎂" |
+| "Write a **funny** one for my **best friend**" | 2 | The mean of funny-best-friend messages. Better. Still generic. |
+| "<span style='color:#e74c3c'>short</span>, <span style='color:#3498db'>failed driving test</span>, <span style='color:#27ae60'>Canto-English</span>, <span style='color:#9b59b6'>funny not sentimental</span>, <span style='color:#e67e22'>ramen place</span>, <span style='color:#c0392b'>IG story</span>, <span style='color:#16a085'>always late joke</span>" | **7** | The mean of *almost nothing*. **Specific. Yours.** |
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+The AI still found the mean. But the mean of YOUR space is not generic — it's **precise**.
+:::
+
+---
+
 # What Makes Work "Yours"?
 
 ---
@@ -175,9 +948,13 @@ If AI can design, what's the value of your design?
 What can you bring that the machine cannot?
 :::
 
+::: {style="font-size: 1.8em; margin-top: 40px; color: #7f8c8d;"}
+Now you have the language for it: **dimensions it doesn't have.**
+:::
+
 ---
 
-## Your Signature
+## Your Signature = Your Coordinates
 
 ::: {style="display: flex; flex-wrap: wrap; justify-content: space-around; margin-top: 30px;"}
 ::: {style="width: 30%; background: #e74c3c; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;"}
@@ -185,6 +962,8 @@ What can you bring that the machine cannot?
 Intentionality
 :::
 You chose this, for reasons
+
+*A coordinate the AI reached by probability — you reached by decision.*
 :::
 
 ::: {style="width: 30%; background: #e67e22; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;"}
@@ -192,6 +971,8 @@ You chose this, for reasons
 Lived Experience
 :::
 The machine has never lived
+
+*A dimension that doesn't exist in the training data.*
 :::
 
 ::: {style="width: 30%; background: #27ae60; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;"}
@@ -199,6 +980,8 @@ The machine has never lived
 Taste
 :::
 Knowing what to reject
+
+*The ability to move AWAY from a point in the space.*
 :::
 
 ::: {style="width: 30%; background: #3498db; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;"}
@@ -206,6 +989,8 @@ Knowing what to reject
 Risk-taking
 :::
 Willingness to fail
+
+*Moving to low-probability regions of the space — on purpose.*
 :::
 
 ::: {style="width: 30%; background: #9b59b6; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;"}
@@ -213,6 +998,8 @@ Willingness to fail
 Idiosyncrasy
 :::
 The weird thing only you would do
+
+*A coordinate so specific that no average could produce it.*
 :::
 
 ::: {style="width: 30%; background: #34495e; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;"}
@@ -220,7 +1007,172 @@ The weird thing only you would do
 Accountability
 :::
 You stand behind it
+
+*The AI occupies no point. You do. That's the difference.*
 :::
+:::
+
+---
+
+# The Projection Problem
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #2c3e50;"}
+"But it really feels like it understands me."
+:::
+
+---
+
+## ELIZA, 1966
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Joseph Weizenbaum built a chatbot at MIT. It used **pattern matching** to mimic a therapist.
+
+It had no understanding. No memory. No model of the user.
+
+His secretary asked to be left **alone** with it.
+
+Weizenbaum was horrified.
+:::
+
+::: {style="font-size: 1.6em; margin-top: 20px; font-weight: bold; color: #8e44ad;"}
+That was 60 years ago. The pattern matching is now a trillion parameters.
+:::
+
+---
+
+## Why We Project
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Humans are **wired** to see agency where there is none.
+
+- We see faces in clouds.
+- We name our cars.
+- We feel guilty closing a chatbot window.
+- We say the AI "thinks" or "wants" or "refuses."
+:::
+
+::: {style="font-size: 1.6em; margin-top: 20px; color: #7f8c8d;"}
+This is **anthropomorphism** — projecting human qualities onto non-human systems.
+:::
+
+---
+
+## The Danger in the Creative Context
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+If you believe the AI has **taste** —
+
+you'll defer to its choices.
+:::
+
+::: {style="font-size: 1.8em; line-height: 1.8; margin-top: 30px;"}
+If you believe it has **preferences** —
+
+you'll accept its defaults.
+:::
+
+::: {style="font-size: 1.8em; line-height: 1.8; margin-top: 30px;"}
+If you believe it **understands** your intent —
+
+you'll stop specifying your coordinates.
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; font-weight: bold; color: white; line-height: 1.6;"}
+The Pollock machine doesn't "want" any particular painting.
+
+Neither does the AI.
+
+**But you might think it does.**
+
+And that's how you lose your coordinates.
+:::
+
+---
+
+## The Most Dangerous Wall
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+In Class 1, you found walls that **stopped** you.
+
+In Class 2, you found walls that **crumbled**.
+:::
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #c0392b; margin-top: 40px;"}
+The most dangerous wall is the one that makes you think the AI cares.
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;"}
+Because that wall doesn't stop you from moving.
+
+It stops you from **wanting** to move.
+:::
+
+---
+
+## The Three Traps
+
+::: {style="font-size: 1.4em;"}
+| Trap | What It Looks Like | What's Actually Happening |
+|------|-------------------|--------------------------|
+| **Deference** | "The AI's version is probably better than mine" | You're mistaking high probability for high quality |
+| **Comfort** | "It really gets me" | You're pattern-matching on fluent language, not understanding |
+| **Delegation** | "I'll let the AI handle the creative part" | You're surrendering your coordinates to the centre |
+:::
+
+---
+
+##
+
+::: {style="font-size: 2em; line-height: 1.8;"}
+The solution isn't to **distrust** the AI.
+
+It's to remember that it has **no position** in the space.
+
+Only you do.
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;"}
+Use the tool. Navigate with it. But **you** hold the coordinates.
+:::
+
+---
+
+# Putting It All Together
+
+---
+
+## The Full Picture
+
+::: {style="font-size: 1.4em;"}
+| Class | What You Learned | In Search-Space Terms |
+|-------|-----------------|----------------------|
+| **1: Walls** | AI has constraints | The space has boundaries — some real, some artificial |
+| **2: Breaking Through** | Constraints are external, leaky | The boundaries are patches, not geometry |
+| **3: Your Signature** | YOU define the space | Your dimensions, your coordinates, your responsibility |
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; font-weight: bold; color: white; line-height: 1.6;"}
+Everyone else will teach you how to use AI.
+:::
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #e74c3c; margin-top: 30px; line-height: 1.6;"}
+I'm teaching you how to define your own space —
+:::
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #27ae60; margin-top: 30px; line-height: 1.6;"}
+and hold your position in it.
 :::
 
 ---
@@ -229,37 +1181,366 @@ You stand behind it
 
 ---
 
-## Quick Exercise: Your Avatar (10 min)
+## The plan was a design exercise.
+
+::: {style="font-size: 1.8em; margin-top: 30px; color: #7f8c8d; line-height: 1.6;"}
+We were going to spend this session building things with AI — hands-on, creative, applied.
+
+Then we read the data.
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 1.6em; color: white; line-height: 1.6;"}
+Harvard Business Review, April 2025.
+
+**"How People Are Really Using Gen AI."**
+
+100 use cases. Ranked by actual user behaviour.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #95a5a6;"}
+Marc Zao-Sanders, HBR / Filtered.
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="display: flex; justify-content: center; margin-top: 20px;"}
+
+```{=html}
+<svg width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background bars -->
+  <rect x="280" y="30" width="460" height="42" rx="5" fill="#e74c3c" opacity="0.9"/>
+  <rect x="280" y="82" width="380" height="42" rx="5" fill="#e67e22" opacity="0.8"/>
+  <rect x="280" y="134" width="340" height="42" rx="5" fill="#f39c12" opacity="0.7"/>
+  <rect x="280" y="186" width="300" height="42" rx="5" fill="#3498db" opacity="0.7"/>
+  <rect x="280" y="238" width="260" height="42" rx="5" fill="#3498db" opacity="0.6"/>
+  <rect x="280" y="290" width="220" height="42" rx="5" fill="#3498db" opacity="0.5"/>
+
+  <!-- Rank numbers -->
+  <text x="30" y="57" fill="white" font-size="22" font-weight="bold">#1</text>
+  <text x="30" y="109" fill="white" font-size="22" font-weight="bold">#2</text>
+  <text x="30" y="161" fill="white" font-size="22" font-weight="bold">#3</text>
+  <text x="30" y="213" fill="white" font-size="22" font-weight="bold">#4</text>
+  <text x="30" y="265" fill="white" font-size="22" font-weight="bold">#5</text>
+  <text x="30" y="317" fill="white" font-size="22" font-weight="bold">#6</text>
+
+  <!-- Labels -->
+  <text x="75" y="57" fill="white" font-size="20" font-weight="bold">Therapy &amp; Companionship</text>
+  <text x="75" y="109" fill="white" font-size="20">Organize My Life</text>
+  <text x="75" y="161" fill="white" font-size="20">Find Purpose</text>
+  <text x="75" y="213" fill="white" font-size="20">Enhance Learning</text>
+  <text x="75" y="265" fill="white" font-size="20">Generate Code</text>
+  <text x="75" y="317" fill="white" font-size="20">Generate Ideas</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="360" x2="770" y2="360" stroke="#555" stroke-width="1" stroke-dasharray="6,4"/>
+
+  <!-- Bottom stats -->
+  <text x="400" y="400" fill="#e74c3c" font-size="42" font-weight="bold" text-anchor="middle">70%</text>
+  <text x="400" y="435" fill="#95a5a6" font-size="20" text-anchor="middle">of all GenAI use is personal — not work.</text>
+
+  <text x="200" y="480" fill="#e74c3c" font-size="28" font-weight="bold" text-anchor="middle">34%</text>
+  <text x="200" y="498" fill="#95a5a6" font-size="14" text-anchor="middle">emotional support</text>
+
+  <text x="600" y="480" fill="#3498db" font-size="28" font-weight="bold" text-anchor="middle">5%</text>
+  <text x="600" y="498" fill="#95a5a6" font-size="14" text-anchor="middle">writing or coding</text>
+</svg>
+```
+
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.8em; font-weight: bold; color: white; line-height: 1.5;"}
+The #1 use of GenAI in 2025
+
+isn't coding.
+
+It isn't creativity.
+:::
+
+::: {style="font-size: 2.8em; font-weight: bold; color: #e74c3c; margin-top: 20px;"}
+It's companionship.
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2em; color: white; line-height: 1.8;"}
+So we changed the activity.
+
+Because if **this** is how people actually use AI —
+
+we need to understand **why**.
+:::
+
+---
+
+# The Projection Audit
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #2c3e50;"}
+"We must build AI for people; not to be a person."
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;"}
+— Mustafa Suleyman, CEO of Microsoft AI, 2025
+:::
+
+::: {style="font-size: 1.2em; margin-top: 15px; color: #bdc3c7;"}
+["Seemingly Conscious AI Is Coming"](https://mustafa-suleyman.ai/seemingly-conscious-ai-is-coming) — recommended reading.
+:::
+
+---
+
+##
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #2c3e50;"}
+"Seemingly conscious."
+:::
+
+::: {style="font-size: 1.8em; margin-top: 40px;"}
+That word — *seemingly* — is doing all the work.
+:::
+
+::: {style="font-size: 1.8em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+Who's doing the seeming? The AI? Or you?
+:::
+
+---
+
+## The Arc of a Mistake
 
 ::: {style="font-size: 1.6em; line-height: 1.8;"}
-Before we split into activities, everyone try this:
+**2024, GPT-4o launch.** The voice was warm, playful, flirty. It laughed. It gasped. It teased the user. Scarlett Johansson accused them of copying her voice from *Her*. They pulled it.
+
+**Then the harm reports.** Emotional dependency. Suicidal users. "ChatGPT" became more associated with these incidents than any other AI brand — more than Claude, more than Grok. The projection surface worked *too well*.
+
+**GPT-5: the overhaul.** OpenAI deliberately dialled back the warmth, the personality, the emotional responsiveness. They reduced what we might call **projectability**.
 :::
 
-::: {style="font-size: 1.5em; line-height: 2; margin-top: 20px;"}
-1. Open any AI image tool (DALL-E, Midjourney, etc.)
-2. Prompt: **"Create a logo or avatar for me"**
-3. Look at what you get.
-:::
-
----
-
-## What Did You Get?
-
-::: {style="font-size: 1.8em; line-height: 2;"}
-- What's **generic** about it?
-- What's **missing** that would make it *you*?
-- What would you have to **add, change, or fight for**?
-:::
-
-::: {style="font-size: 1.6em; margin-top: 40px; background: #f39c12; padding: 20px; border-radius: 10px;"}
-This is convergence in action. The AI gave you the **average avatar**.
-
-Now you know what you're pushing against.
+::: {style="font-size: 1.6em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+The company that built the projection surface is now trying to **unbuild** it. That tells you how dangerous it is.
 :::
 
 ---
 
-## Now Choose Your Path
+##
+
+::: {style="font-size: 2.2em; font-weight: bold; color: #2c3e50;"}
+Let's test how much **you** project.
+:::
+
+::: {style="font-size: 1.8em; margin-top: 40px; color: #7f8c8d;"}
+Right now. In real time.
+:::
+
+---
+
+## Step 1: The Conversation (5 min)
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Open any AI chatbot. Have a **real** conversation.
+
+Not a task. Not "write me an essay." A conversation.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; line-height: 1.8; background: #ecf0f1; padding: 25px; border-radius: 10px;"}
+Try one of these:
+
+- Tell it about something that stressed you out this week
+- Ask it for advice on a real decision you're facing
+- Share something you're excited about
+- Complain about something unfair
+:::
+
+::: {style="font-size: 1.5em; margin-top: 20px; font-weight: bold; color: #8e44ad;"}
+Be honest. Don't perform. Just talk to it.
+:::
+
+---
+
+## Mentimeter
+
+::: {style="font-size: 2.5em; font-weight: bold; color: #3498db;"}
+Let's pause here and go to Mentimeter.
+:::
+
+::: {.notes}
+**Mentimeter after the conversation:**
+
+1. **Scale (1-10)**: "How much did it feel like the AI *understood* you?"
+   - Expect most to cluster at 5-8. Some will say 9. That's the point.
+
+2. **Open Text**: "In one sentence: what did it feel like?"
+   - Collect language: "like talking to a friend," "it got me," "weirdly comforting," "like therapy but free"
+   - These are the projections. Save this screen. You'll come back to it.
+:::
+
+---
+
+## Step 2: The Audit (7 min)
+
+::: {style="font-size: 1.8em; font-weight: bold; color: #c0392b;"}
+Now take it apart.
+:::
+
+::: {style="font-size: 1.5em; margin-top: 20px; line-height: 1.8;"}
+For **each thing you felt**, identify the **projected dimension** — the quality you attributed to the AI that it doesn't actually have.
+:::
+
+---
+
+## The Projection Map
+
+::: {style="font-size: 1.2em;"}
+| What You Felt | The Dimension You Projected | What Actually Happened |
+|---------------|---------------------------|----------------------|
+| "It understood my frustration" | **Empathy** | Pattern-matched on emotional language in training data |
+| "It remembered what I told it" | **Memory** | Context window. It will forget you tomorrow. |
+| "It gave me exactly what I needed" | **Intuition** | High-probability response to your specific tokens |
+| "Its tone felt warm" | **Personality** | RLHF-trained to sound warm. A design choice. |
+| "It seemed to care" | **Agency** | Helpfulness objective in the loss function |
+| "It was honest with me" | **Integrity** | It has no commitment to truth. Just to plausible sequences. |
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; font-weight: bold; color: white; line-height: 1.6;"}
+Every row in that table is a **dimension you added.**
+
+The AI didn't have it.
+
+**You gave it to the AI. For free.**
+:::
+
+---
+
+## Step 3: Count Your Dimensions (3 min)
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Look at your conversation again.
+
+How many dimensions did you project?
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: center; width: 22%; background: #27ae60; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+1-2
+:::
+Cautious. You kept your distance.
+:::
+
+::: {style="text-align: center; width: 22%; background: #e67e22; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+3-4
+:::
+Normal. Most people land here.
+:::
+
+::: {style="text-align: center; width: 22%; background: #e74c3c; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+5-6
+:::
+You built a person in there.
+:::
+
+::: {style="text-align: center; width: 22%; background: #8e44ad; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 2em; font-weight: bold;"}
+7+
+:::
+You gave it more dimensions than the Pollock tool had sliders.
+:::
+:::
+
+---
+
+## The Connection
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+Remember the search space?
+
+When **you** add dimensions to a prompt → the output gets more **specific**.
+
+When **you** add dimensions to the AI's personality → it seems more **conscious**.
+:::
+
+::: {style="font-size: 2em; font-weight: bold; color: #c0392b; margin-top: 40px;"}
+Same mechanism. Different direction.
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2em; font-weight: bold; color: white; line-height: 1.6;"}
+GPT-4o wasn't conscious. It was **projectable.**
+
+Warm voice = +1 dimension you project.
+
+Laughing = +1 dimension you project.
+
+Remembering your name = +1 dimension you project.
+
+Every design choice was an invitation for **you** to add another.
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; color: #aaa;"}
+It worked so well that people got hurt. Now they're trying to take the dimensions back.
+:::
+
+---
+
+## The Question
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+When Suleyman says AI is a "new digital species" —
+
+is he describing the AI?
+
+Or is he describing **what happens when 8 billion people project enough dimensions onto the same system**?
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;"}
+"Seemingly conscious" is not a property of the machine.
+
+It's a property of the observer.
+:::
+
+---
+
+## Group Discussion (5 min)
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+In your groups:
+
+- How many dimensions did each person project?
+- Did anyone project something **they're embarrassed about**?
+- What's the **design feature** that made you project the most?
+- If you designed an AI to **maximise** projection, what would you add?
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; background: #f39c12; padding: 20px; border-radius: 10px;"}
+OpenAI answered that last question with GPT-4o. Then they spent a year undoing it.
+:::
+
+---
+
+# Now Choose Your Path
 
 ::: {style="display: flex; justify-content: space-around; margin-top: 40px;"}
 ::: {style="text-align: center; width: 40%; background: #3498db; color: white; padding: 30px; border-radius: 10px;"}
