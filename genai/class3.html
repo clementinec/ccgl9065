@@ -1308,11 +1308,594 @@ Dr. Hongshan Guo
 
 </section></section>
 <section>
+<section id="the-pollock-machine" class="title-slide slide level1 center">
+<h1>The Pollock Machine</h1>
+
+</section>
+<section id="section-7" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: #2c3e50;">
+<p>Remember last class?</p>
+</div>
+<div style="font-size: 1.8em; margin-top: 40px; color: #7f8c8d;">
+<p>The Pollock painting tool built with Claude.</p>
+</div>
+</section>
+<section id="what-you-saw" class="slide level2 center">
+<h2>What You Saw</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>An AI-generated HTML tool where you could create Pollock-like paintings by adjusting <strong>sliders</strong>:</p>
+<ul>
+<li>Stroke arm speed</li>
+<li>Drip intensity</li>
+<li>Paint viscosity</li>
+<li>Number of passes across the canvas</li>
+<li>Colour palette range</li>
+<li>Canvas angle</li>
+<li>Splatter radius</li>
+<li>Layer count</li>
+</ul>
+</div>
+<div style="font-size: 1.6em; margin-top: 20px; font-weight: bold; color: #8e44ad;">
+<p>Each slider changed the output.</p>
+</div>
+</section>
+<section id="section-8" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.2em; font-weight: bold; color: #2c3e50;">
+<p>What happened when all sliders were at <strong>default</strong>?</p>
+</div>
+<div style="font-size: 2.2em; font-weight: bold; color: #c0392b; margin-top: 40px;">
+<p>You got the average Pollock.</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;">
+<p>The most probable Pollock. The Pollock nobody would hang on their wall.</p>
+</div>
+</section>
+<section id="section-9" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.2em; font-weight: bold; color: #2c3e50;">
+<p>What happened when you <strong>moved</strong> the sliders?</p>
+</div>
+<div style="font-size: 2.2em; font-weight: bold; color: #27ae60; margin-top: 40px;">
+<p>Something started to happen.</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;">
+<p>Not because the AI got better. Because <strong>you</strong> made choices.</p>
+</div>
+</section>
+<section id="section-10" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: #8e44ad;">
+<p>Each slider is a <strong>degree of freedom</strong>.</p>
+</div>
+<div style="font-size: 1.8em; margin-top: 40px;">
+<p>A parameter you control.</p>
+<p>A dimension you can move in.</p>
+</div>
+</section>
+<section class="slide level2 center">
+
+</section></section>
+<section>
+<section id="degrees-of-freedom" class="title-slide slide level1 center">
+<h1>Degrees of Freedom</h1>
+
+</section>
+<section id="one-parameter-a-line" class="slide level2 center">
+<h2>One Parameter: A Line</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>If you only control <strong>one thing</strong> — say, stroke speed — you can explore a <strong>line</strong>.</p>
+</div>
+<svg viewbox="0 0 800 160" width="800" height="160" style="display: block; margin: 30px auto;">
+<defs> <lineargradient id="lineGrad1" x1="0" y1="0" x2="1" y2="0"> <stop offset="0%" stop-color="#3498db" stop-opacity="0.2"></stop> <stop offset="100%" stop-color="#3498db"></stop> </lineargradient> </defs> <text x="400" y="30" fill="#3498db" font-size="22" text-anchor="middle" font-weight="bold" font-family="sans-serif">STROKE SPEED</text> <rect x="80" y="58" width="640" height="24" rx="12" fill="url(#lineGrad1)" /> <circle cx="520" cy="70" r="18" fill="#e74c3c" stroke="white" stroke-width="3"></circle> <text x="80" y="120" fill="#7f8c8d" font-size="20" text-anchor="middle" font-family="sans-serif">slow</text> <text x="720" y="120" fill="#7f8c8d" font-size="20" text-anchor="middle" font-family="sans-serif">fast</text> <text x="520" y="145" fill="#e74c3c" font-size="16" text-anchor="middle" font-family="sans-serif" font-style="italic">← you are here →</text>
+</svg>
+<div style="font-size: 1.5em; margin-top: 10px; color: #7f8c8d;">
+<p>Left or right. That’s it. <strong>One degree of freedom.</strong></p>
+</div>
+</section>
+<section id="two-parameters-a-plane" class="slide level2 center">
+<h2>Two Parameters: A Plane</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>Add a second — drip intensity — now you can move across a <strong>flat surface</strong>.</p>
+</div>
+<svg viewbox="0 0 600 540" width="520" height="470" style="display: block; margin: 20px auto;">
+<!-- Grid lines -->
+<line x1="80" y1="120" x2="80" y2="440" stroke="#e0e0e0" stroke-width="1"></line> <line x1="180" y1="120" x2="180" y2="440" stroke="#e0e0e0" stroke-width="1"></line> <line x1="280" y1="120" x2="280" y2="440" stroke="#e0e0e0" stroke-width="1"></line> <line x1="380" y1="120" x2="380" y2="440" stroke="#e0e0e0" stroke-width="1"></line> <line x1="480" y1="120" x2="480" y2="440" stroke="#e0e0e0" stroke-width="1"></line> <line x1="80" y1="120" x2="480" y2="120" stroke="#e0e0e0" stroke-width="1"></line> <line x1="80" y1="200" x2="480" y2="200" stroke="#e0e0e0" stroke-width="1"></line> <line x1="80" y1="280" x2="480" y2="280" stroke="#e0e0e0" stroke-width="1"></line> <line x1="80" y1="360" x2="480" y2="360" stroke="#e0e0e0" stroke-width="1"></line> <line x1="80" y1="440" x2="480" y2="440" stroke="#e0e0e0" stroke-width="1"></line> <!-- Filled plane --> <rect x="80" y="120" width="400" height="320" fill="rgba(52,152,219,0.06)" stroke="#3498db" stroke-width="2.5" /> <!-- Axes --> <line x1="80" y1="440" x2="500" y2="440" stroke="#3498db" stroke-width="3"></line> <polygon points="500,433 520,440 500,447" fill="#3498db"></polygon> <line x1="80" y1="440" x2="80" y2="100" stroke="#27ae60" stroke-width="3"></line> <polygon points="73,100 80,80 87,100" fill="#27ae60"></polygon> <!-- The dot --> <circle cx="350" cy="200" r="16" fill="#e74c3c" stroke="white" stroke-width="3"></circle> <!-- Labels --> <text x="300" y="490" fill="#3498db" font-size="22" text-anchor="middle" font-weight="bold" font-family="sans-serif">STROKE SPEED</text> <text x="35" y="280" fill="#27ae60" font-size="22" text-anchor="middle" font-weight="bold" font-family="sans-serif" transform="rotate(-90 35 280)">DRIP INTENSITY</text> <text x="370" y="190" fill="#e74c3c" font-size="16" font-family="sans-serif" font-style="italic">you</text>
+</svg>
+<div style="font-size: 1.5em; margin-top: 10px; color: #7f8c8d;">
+<p>A <strong>square</strong> of possibilities. You can reach any point on the surface.</p>
+</div>
+</section>
+<section id="section-11" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 3em; font-weight: bold; color: white;">
+<p>Now add one more.</p>
+</div>
+</section>
+<section id="three-parameters-a-cube" class="slide level2 center">
+<h2>Three Parameters: A Cube</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>Add a third — number of passes — and the flat plane <strong>lifts</strong> into a volume.</p>
+</div>
+<svg viewbox="0 0 650 520" width="580" height="465" style="display: block; margin: 20px auto;">
+<!-- BACK EDGES (dashed) -->
+<line x1="110" y1="345" x2="110" y2="135" stroke="#aaa" stroke-width="1.5" stroke-dasharray="6,4"></line> <line x1="110" y1="345" x2="330" y2="455" stroke="#aaa" stroke-width="1.5" stroke-dasharray="6,4"></line> <line x1="110" y1="345" x2="500" y2="345" stroke="#aaa" stroke-width="1.5" stroke-dasharray="6,4"></line> <!-- TOP FACE (purple tint) --> <polygon points="110,135 330,25 530,135 310,245" fill="rgba(155,89,182,0.12)" stroke="#9b59b6" stroke-width="2.5"></polygon> <!-- LEFT FACE (green tint) --> <polygon points="110,135 310,245 330,455 130,345" fill="rgba(39,174,96,0.12)" stroke="#27ae60" stroke-width="2.5"></polygon> <!-- RIGHT FACE (blue tint) --> <polygon points="310,245 530,135 530,345 330,455" fill="rgba(52,152,219,0.12)" stroke="#3498db" stroke-width="2.5"></polygon> <!-- The dot INSIDE the cube --> <circle cx="340" cy="280" r="16" fill="#e74c3c" stroke="white" stroke-width="3"></circle> <!-- Axis labels --> <text x="555" y="250" fill="#3498db" font-size="20" font-weight="bold" font-family="sans-serif">SPEED →</text> <text x="170" y="420" fill="#27ae60" font-size="20" font-weight="bold" font-family="sans-serif">← DRIP</text> <text x="325" y="15" fill="#9b59b6" font-size="20" font-weight="bold" font-family="sans-serif" text-anchor="middle">↑ PASSES</text> <text x="360" y="270" fill="#e74c3c" font-size="16" font-family="sans-serif" font-style="italic">you</text>
+</svg>
+<div style="font-size: 1.5em; margin-top: 10px; color: #7f8c8d;">
+<p>Three dimensions. You can still <strong>see</strong> this. Barely.</p>
+</div>
+</section>
+<section id="the-jump" class="slide level2 center">
+<h2>The Jump</h2>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 30px;">
+<div style="text-align: center; width: 22%;">
+<svg viewbox="0 0 200 50" width="180" height="45" style="display: block; margin: 0 auto;">
+<rect x="10" y="18" width="180" height="14" rx="7" fill="#3498db" opacity="0.5" /> <circle cx="130" cy="25" r="8" fill="#e74c3c" stroke="white" stroke-width="2"></circle>
+</svg>
+<div style="font-size: 1.3em; font-weight: bold; margin-top: 10px;">
+<p>1D — Line</p>
+</div>
+<div style="font-size: 1.1em; color: #7f8c8d;">
+<p>10 positions</p>
+</div>
+</div>
+<div style="font-size: 2em;">
+<p>→</p>
+</div>
+<div style="text-align: center; width: 22%;">
+<svg viewbox="0 0 200 200" width="160" height="160" style="display: block; margin: 0 auto;">
+<rect x="10" y="10" width="180" height="180" fill="rgba(52,152,219,0.08)" stroke="#3498db" stroke-width="2" /> <line x1="10" y1="70" x2="190" y2="70" stroke="#e0e0e0" stroke-width="1"></line> <line x1="10" y1="130" x2="190" y2="130" stroke="#e0e0e0" stroke-width="1"></line> <line x1="70" y1="10" x2="70" y2="190" stroke="#e0e0e0" stroke-width="1"></line> <line x1="130" y1="10" x2="130" y2="190" stroke="#e0e0e0" stroke-width="1"></line> <circle cx="140" cy="60" r="8" fill="#e74c3c" stroke="white" stroke-width="2"></circle>
+</svg>
+<div style="font-size: 1.3em; font-weight: bold; margin-top: 10px;">
+<p>2D — Square</p>
+</div>
+<div style="font-size: 1.1em; color: #7f8c8d;">
+<p>100 positions</p>
+</div>
+</div>
+<div style="font-size: 2em;">
+<p>→</p>
+</div>
+<div style="text-align: center; width: 22%;">
+<svg viewbox="0 0 220 220" width="170" height="170" style="display: block; margin: 0 auto;">
+<polygon points="55,67 110,15 165,67 110,115" fill="rgba(155,89,182,0.12)" stroke="#9b59b6" stroke-width="1.5"></polygon> <polygon points="55,67 110,115 110,195 55,150" fill="rgba(39,174,96,0.12)" stroke="#27ae60" stroke-width="1.5"></polygon> <polygon points="110,115 165,67 165,150 110,195" fill="rgba(52,152,219,0.12)" stroke="#3498db" stroke-width="1.5"></polygon> <circle cx="120" cy="130" r="8" fill="#e74c3c" stroke="white" stroke-width="2"></circle>
+</svg>
+<div style="font-size: 1.3em; font-weight: bold; margin-top: 10px;">
+<p>3D — Cube</p>
+</div>
+<div style="font-size: 1.1em; color: #7f8c8d;">
+<p>1,000 positions</p>
+</div>
+</div>
+<div style="font-size: 2em;">
+<p>→</p>
+</div>
+<div style="text-align: center; width: 22%;">
+<svg viewbox="0 0 200 200" width="160" height="160" style="display: block; margin: 0 auto;">
+<circle cx="60" cy="50" r="4" fill="#e74c3c" opacity="0.3"></circle> <circle cx="140" cy="30" r="4" fill="#3498db" opacity="0.3"></circle> <circle cx="100" cy="80" r="4" fill="#9b59b6" opacity="0.3"></circle> <circle cx="40" cy="120" r="4" fill="#27ae60" opacity="0.3"></circle> <circle cx="160" cy="100" r="4" fill="#e67e22" opacity="0.3"></circle> <circle cx="80" cy="150" r="4" fill="#3498db" opacity="0.3"></circle> <circle cx="130" cy="160" r="4" fill="#9b59b6" opacity="0.3"></circle> <circle cx="50" cy="170" r="4" fill="#27ae60" opacity="0.3"></circle> <circle cx="170" cy="150" r="4" fill="#e74c3c" opacity="0.3"></circle> <circle cx="100" cy="110" r="8" fill="#e74c3c" stroke="white" stroke-width="2"></circle> <text x="100" y="195" fill="#7f8c8d" font-size="36" text-anchor="middle" font-family="sans-serif">?</text>
+</svg>
+<div style="font-size: 1.3em; font-weight: bold; margin-top: 10px;">
+<p>8D — ???</p>
+</div>
+<div style="font-size: 1.1em; color: #e74c3c; font-weight: bold;">
+<p>100,000,000 positions</p>
+</div>
+</div>
+</div>
+</section>
+<section id="section-12" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: white;">
+<p>The Pollock tool had <strong>8 sliders</strong>.</p>
+</div>
+<div style="font-size: 2em; margin-top: 40px; color: #e74c3c;">
+<p>You were moving through 8-dimensional space.</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; color: #aaa;">
+<p>You can’t draw it. You can’t visualise it.</p>
+<p>But you were <strong>navigating</strong> it — every time you moved a slider.</p>
+</div>
+</section>
+<section id="the-name-for-this" class="slide level2 center">
+<h2>The Name for This</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>Mathematicians call this a <strong>tensor space</strong>.</p>
+<p>You don’t need the math. You need the intuition:</p>
+</div>
+<div style="font-size: 1.4em; margin-top: 30px;">
+<table>
+<colgroup>
+<col style="width: 20%">
+<col style="width: 12%">
+<col style="width: 32%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameters</th>
+<th>Space</th>
+<th>You Can Explore…</th>
+<th>Possible Positions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Line</td>
+<td>Left or right</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Square</td>
+<td>A flat surface</td>
+<td>100</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Cube</td>
+<td>A volume</td>
+<td>1,000</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td><strong>Tensor space</strong></td>
+<td>A space you can’t see — but can navigate</td>
+<td><strong>100,000,000</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="font-size: 1.8em; margin-top: 30px; font-weight: bold; color: #8e44ad;">
+<p>Every parameter you add <strong>multiplies</strong> the possibilities.</p>
+</div>
+</section>
+<section id="section-13" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2em; line-height: 1.8;">
+<p>With 2 parameters, each having 10 settings?</p>
+<p><strong>100</strong> possible paintings.</p>
+</div>
+<div style="font-size: 2em; line-height: 1.8; margin-top: 30px;">
+<p>With 8 parameters, each having 10 settings?</p>
+<p><strong>100,000,000</strong> possible paintings.</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;">
+<p>And that’s just a toy with 8 sliders.</p>
+</div>
+</section>
+<section id="section-14" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: #2c3e50;">
+<p>Now think about real creative work.</p>
+</div>
+</section>
+<section id="your-hyperparameters" class="slide level2 center">
+<h2>Your Hyperparameters</h2>
+<div style="font-size: 1.5em; line-height: 1.8;">
+<p>A piece of writing has <strong>hundreds</strong> of parameters:</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; margin-top: 20px;">
+<div style="background: #e74c3c; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>Sentence length</p>
+</div>
+<div style="background: #e67e22; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>Vocabulary range</p>
+</div>
+<div style="background: #27ae60; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>Metaphor density</p>
+</div>
+<div style="background: #3498db; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>Cultural references</p>
+</div>
+<div style="background: #9b59b6; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>Tone</p>
+</div>
+<div style="background: #34495e; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>Structure</p>
+</div>
+<div style="background: #c0392b; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>What you leave out</p>
+</div>
+<div style="background: #16a085; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>Pacing</p>
+</div>
+<div style="background: #8e44ad; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>Humour</p>
+</div>
+<div style="background: #2c3e50; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>Personal experience</p>
+</div>
+<div style="background: #d35400; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>Worldview</p>
+</div>
+<div style="background: #27ae60; color: white; padding: 12px 20px; border-radius: 8px; margin: 5px; font-size: 1.1em;">
+<p>What you find funny</p>
+</div>
+</div>
+<div style="font-size: 1.5em; margin-top: 20px; color: #7f8c8d;">
+<p>Each one is a dimension. You’re working in a space with <strong>hundreds of axes</strong>.</p>
+</div>
+</section>
+<section class="slide level2 center">
+
+</section></section>
+<section>
+<section id="the-search-space" class="title-slide slide level1 center">
+<h1>The Search Space</h1>
+
+</section>
+<section id="section-15" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: white;">
+<p>Every possible creative output is a <strong>point</strong> in this space.</p>
+</div>
+<div style="font-size: 1.8em; margin-top: 40px; color: #aaa;">
+<p>Every essay. Every painting. Every design. Every song.</p>
+<p>A coordinate in high-dimensional space.</p>
+</div>
+</section>
+<section id="where-does-ai-land" class="slide level2 center">
+<h2>Where Does AI Land?</h2>
+<div style="text-align: center; margin-top: 30px;">
+<div style="font-size: 1.4em; font-family: monospace; background: #ecf0f1; padding: 40px; border-radius: 10px; display: inline-block; text-align: left;">
+<p>     ·     ·   ·   ·       ·      ·      ·  · ● ·  ·     ·    ·    ·   ·     ·   ·    ·       ·     ·</p>
+</div>
+</div>
+<div style="font-size: 2em; margin-top: 30px; font-weight: bold; color: #c0392b;">
+<p>The centre. The densest region. The average.</p>
+</div>
+<div style="font-size: 1.5em; margin-top: 20px; color: #7f8c8d;">
+<p>Every default AI output lives near the ● in the middle.</p>
+</div>
+</section>
+<section id="remember-the-class-2-lesson" class="slide level2 center">
+<h2>Remember the Class 2 Lesson?</h2>
+<div style="font-size: 1.8em; line-height: 1.8;">
+<p>Jailbreaking doesn’t help either.</p>
+<p>It moves you to a <strong>different cluster</strong> — the “edgy” cluster.</p>
+</div>
+<div style="text-align: center; margin-top: 30px;">
+<div style="font-size: 1.4em; font-family: monospace; background: #ecf0f1; padding: 40px; border-radius: 10px; display: inline-block; text-align: left;">
+<p> “safe” cluster      “edgy” cluster      · · ● ·        · · ● ·       ·   ·         ·   ·</p>
+</div>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;">
+<p>Still a centre. Still an average. Just a different one.</p>
+</div>
+</section>
+<section id="where-do-you-live" class="slide level2 center">
+<h2>Where Do <em>You</em> Live?</h2>
+<div style="text-align: center; margin-top: 30px;">
+<div style="font-size: 1.4em; font-family: monospace; background: #ecf0f1; padding: 40px; border-radius: 10px; display: inline-block; text-align: left;">
+<p>     ·     ·   ·   ·       ·      ·      ·  · ● ·  ·     ·    ·    ·   ·     ·   ·    ·          ★ you       ·     ·</p>
+</div>
+</div>
+<div style="font-size: 2em; margin-top: 30px; font-weight: bold; color: #27ae60;">
+<p>Somewhere the AI would never go on its own.</p>
+</div>
+</section>
+<section id="section-16" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: white; line-height: 1.6;">
+<p>“Making AI responsible to you”</p>
+<p>=</p>
+<p><strong>Defining your search space.</strong></p>
+</div>
+<div style="font-size: 1.8em; margin-top: 40px; color: #aaa;">
+<p>Choosing which dimensions matter.</p>
+<p>Setting your own coordinates.</p>
+<p>Refusing to let the AI drag you back to centre.</p>
+</div>
+</section>
+<section id="the-ais-problem" class="slide level2 center">
+<h2>The AI’s Problem</h2>
+<div style="font-size: 1.8em; line-height: 1.8;">
+<p>The AI doesn’t know your dimensions <strong>exist</strong>.</p>
+<p>It has no slider for “the specific thing that reminds you of your grandmother’s kitchen.”</p>
+<p>It has no parameter for “the weird way you structure an argument because of that one philosophy class in first year.”</p>
+<p>It can’t navigate dimensions it was never trained on.</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; font-weight: bold; color: #8e44ad;">
+<p>Your lived experience creates dimensions the model doesn’t have.</p>
+</div>
+</section>
+<section id="the-hyperparameters-of-you" class="slide level2 center">
+<h2>The Hyperparameters of <em>You</em></h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>When you use AI, you’re setting hyperparameters — whether you realise it or not:</p>
+</div>
+<div style="font-size: 1.4em; margin-top: 20px;">
+<table>
+<thead>
+<tr class="header">
+<th>What You Do</th>
+<th>What It Means in the Space</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Accept the default</td>
+<td>Stay at the centre</td>
+</tr>
+<tr class="even">
+<td>Prompt with specificity</td>
+<td>Move along known dimensions</td>
+</tr>
+<tr class="odd">
+<td>Reject and re-prompt</td>
+<td>Push toward the edge</td>
+</tr>
+<tr class="even">
+<td>Edit the output by hand</td>
+<td>Jump to a point the AI can’t reach</td>
+</tr>
+<tr class="odd">
+<td>Bring your own experience</td>
+<td><strong>Add a dimension that didn’t exist</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="section-17" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: #c0392b;">
+<p>The default is the centre.</p>
+</div>
+<div style="font-size: 2.5em; font-weight: bold; color: #e67e22; margin-top: 30px;">
+<p>The centre is the average.</p>
+</div>
+<div style="font-size: 2.5em; font-weight: bold; color: #27ae60; margin-top: 30px;">
+<p>Your job is to be <strong>specific</strong>.</p>
+</div>
+</section>
+<section class="slide level2 center">
+
+</section></section>
+<section>
+<section id="the-paradox" class="title-slide slide level1 center">
+<h1>The Paradox</h1>
+
+</section>
+<section id="section-18" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: #2c3e50;">
+<p>“But the AI always finds the mean.”</p>
+</div>
+<div style="font-size: 2em; margin-top: 40px; color: #7f8c8d;">
+<p>Yes. It does. You can’t change that.</p>
+</div>
+</section>
+<section id="section-19" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.2em; font-weight: bold; color: #8e44ad;">
+<p>So stop fighting the mean.</p>
+</div>
+<div style="font-size: 2.2em; font-weight: bold; color: #27ae60; margin-top: 40px;">
+<p>Design a space where the mean is worth finding.</p>
+</div>
+</section>
+<section id="zero-constraints" class="slide level2 center">
+<h2>Zero Constraints</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>“Write a birthday message for my friend.”</p>
+</div>
+<svg viewbox="0 0 700 300" width="650" height="280" style="display: block; margin: 20px auto;">
+<!-- Big cloud of dots -->
+<circle cx="200" cy="100" r="4" fill="#bbb"></circle> <circle cx="280" cy="60" r="4" fill="#bbb"></circle> <circle cx="350" cy="90" r="4" fill="#bbb"></circle> <circle cx="150" cy="150" r="4" fill="#bbb"></circle> <circle cx="420" cy="120" r="4" fill="#bbb"></circle> <circle cx="300" cy="180" r="4" fill="#bbb"></circle> <circle cx="250" cy="200" r="4" fill="#bbb"></circle> <circle cx="380" cy="170" r="4" fill="#bbb"></circle> <circle cx="170" cy="80" r="4" fill="#bbb"></circle> <circle cx="450" cy="180" r="4" fill="#bbb"></circle> <circle cx="320" cy="40" r="4" fill="#bbb"></circle> <circle cx="130" cy="120" r="4" fill="#bbb"></circle> <circle cx="470" cy="90" r="4" fill="#bbb"></circle> <circle cx="220" cy="170" r="4" fill="#bbb"></circle> <circle cx="400" cy="50" r="4" fill="#bbb"></circle> <circle cx="180" cy="210" r="4" fill="#bbb"></circle> <circle cx="340" cy="210" r="4" fill="#bbb"></circle> <circle cx="260" cy="130" r="4" fill="#bbb"></circle> <circle cx="410" cy="200" r="4" fill="#bbb"></circle> <circle cx="500" cy="150" r="4" fill="#bbb"></circle> <!-- The boring mean --> <circle cx="310" cy="135" r="18" fill="#c0392b" stroke="white" stroke-width="3"></circle> <text x="310" y="142" fill="white" font-size="16" text-anchor="middle" font-weight="bold" font-family="sans-serif">mean</text> <!-- Label --> <text x="350" y="265" fill="#7f8c8d" font-size="18" font-family="sans-serif" text-anchor="middle">The entire space of birthday messages. The mean = “Happy Birthday! 🎂”</text>
+</svg>
+</section>
+<section id="one-constraint" class="slide level2 center">
+<h2>One Constraint</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>“Write a <strong>funny</strong> birthday message for my <strong>best friend</strong>.”</p>
+</div>
+<svg viewbox="0 0 700 300" width="650" height="280" style="display: block; margin: 20px auto;">
+<!-- Faded-out dots -->
+<circle cx="200" cy="100" r="4" fill="#eee"></circle> <circle cx="280" cy="60" r="4" fill="#eee"></circle> <circle cx="350" cy="90" r="4" fill="#eee"></circle> <circle cx="150" cy="150" r="4" fill="#eee"></circle> <circle cx="420" cy="120" r="4" fill="#eee"></circle> <circle cx="170" cy="80" r="4" fill="#eee"></circle> <circle cx="450" cy="180" r="4" fill="#eee"></circle> <circle cx="320" cy="40" r="4" fill="#eee"></circle> <circle cx="130" cy="120" r="4" fill="#eee"></circle> <circle cx="470" cy="90" r="4" fill="#eee"></circle> <circle cx="400" cy="50" r="4" fill="#eee"></circle> <!-- Surviving cluster --> <circle cx="300" cy="180" r="5" fill="#3498db"></circle> <circle cx="250" cy="200" r="5" fill="#3498db"></circle> <circle cx="380" cy="170" r="5" fill="#3498db"></circle> <circle cx="220" cy="170" r="5" fill="#3498db"></circle> <circle cx="340" cy="210" r="5" fill="#3498db"></circle> <circle cx="180" cy="210" r="5" fill="#3498db"></circle> <circle cx="410" cy="200" r="5" fill="#3498db"></circle> <circle cx="260" cy="220" r="5" fill="#3498db"></circle> <!-- The better mean --> <circle cx="295" cy="195" r="16" fill="#e67e22" stroke="white" stroke-width="3"></circle> <text x="295" y="202" fill="white" font-size="14" text-anchor="middle" font-weight="bold" font-family="sans-serif">mean</text> <!-- Label --> <text x="350" y="265" fill="#7f8c8d" font-size="18" font-family="sans-serif" text-anchor="middle">Smaller space. Funnier. But still could be for anyone’s best friend.</text>
+</svg>
+</section>
+<section id="many-constraints" class="slide level2 center">
+<h2>Many Constraints</h2>
+<div style="font-size: 1.3em; line-height: 1.8;">
+<p>“Write a <span style="color: #e74c3c; font-weight: bold;">short birthday message</span> for <span style="color: #3498db; font-weight: bold;">my best friend who just failed her driving test</span>, in <span style="color: #27ae60; font-weight: bold;">Cantonese-English mix</span>, <span style="color: #9b59b6; font-weight: bold;">funny not sentimental</span>, <span style="color: #e67e22; font-weight: bold;">reference the ramen place we went last Tuesday</span>, <span style="color: #c0392b; font-weight: bold;">make it fit an Instagram story</span>, and <span style="color: #16a085; font-weight: bold;">end with an inside joke about her always being late</span>.”</p>
+</div>
+<div style="font-size: 1.3em; margin-top: 15px; color: #7f8c8d;">
+<p>Count the colours. <strong>Seven dimensions.</strong> Seven constraints the AI must satisfy simultaneously.</p>
+</div>
+<svg viewbox="0 0 700 300" width="650" height="280" style="display: block; margin: 20px auto;">
+<!-- Faded-out dots -->
+<circle cx="200" cy="100" r="4" fill="#eee"></circle> <circle cx="280" cy="60" r="4" fill="#eee"></circle> <circle cx="350" cy="90" r="4" fill="#eee"></circle> <circle cx="150" cy="150" r="4" fill="#eee"></circle> <circle cx="420" cy="120" r="4" fill="#eee"></circle> <circle cx="170" cy="80" r="4" fill="#eee"></circle> <circle cx="450" cy="180" r="4" fill="#eee"></circle> <circle cx="320" cy="40" r="4" fill="#eee"></circle> <circle cx="130" cy="120" r="4" fill="#eee"></circle> <circle cx="470" cy="90" r="4" fill="#eee"></circle> <circle cx="400" cy="50" r="4" fill="#eee"></circle> <circle cx="300" cy="180" r="4" fill="#ddd"></circle> <circle cx="250" cy="200" r="4" fill="#ddd"></circle> <circle cx="380" cy="170" r="4" fill="#ddd"></circle> <circle cx="220" cy="170" r="4" fill="#ddd"></circle> <circle cx="340" cy="210" r="4" fill="#ddd"></circle> <!-- Tiny surviving cluster --> <circle cx="420" cy="185" r="5" fill="#27ae60"></circle> <circle cx="440" cy="200" r="5" fill="#27ae60"></circle> <circle cx="430" cy="175" r="5" fill="#27ae60"></circle> <!-- The specific mean --> <circle cx="430" cy="190" r="16" fill="#27ae60" stroke="white" stroke-width="3"></circle> <text x="430" y="197" fill="white" font-size="14" text-anchor="middle" font-weight="bold" font-family="sans-serif">mean</text> <!-- Arrow pointing to it --> <text x="520" y="192" fill="#27ae60" font-size="16" font-family="sans-serif" font-weight="bold">← YOUR mean</text> <!-- Label --> <text x="350" y="265" fill="#7f8c8d" font-size="18" font-family="sans-serif" text-anchor="middle">Tiny space. The mean of 3 possibilities is not “average.” It’s specific.</text>
+</svg>
+</section>
+<section id="section-20" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 2.2em; font-weight: bold; color: white; line-height: 1.6;">
+<p>Each constraint you add <strong>eliminates</strong> possibilities.</p>
+</div>
+<div style="font-size: 2.2em; font-weight: bold; color: #e74c3c; margin-top: 30px; line-height: 1.6;">
+<p>The more dimensions you specify,</p>
+<p>the fewer outputs survive.</p>
+</div>
+<div style="font-size: 2.2em; font-weight: bold; color: #27ae60; margin-top: 30px; line-height: 1.6;">
+<p>Until the “average” of what’s left</p>
+<p><strong>is essentially unique.</strong></p>
+</div>
+</section>
+<section id="the-reframe-1" class="slide level2 center">
+<h2>The Reframe</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>The old story:</p>
+</div>
+<div style="font-size: 1.8em; margin-top: 20px; color: #c0392b; font-weight: bold;">
+<p>“AI produces the average. Fight it. Override it. Push against the current.”</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 40px; line-height: 1.8;">
+<p>The new story:</p>
+</div>
+<div style="font-size: 1.8em; margin-top: 20px; color: #27ae60; font-weight: bold;">
+<p>“AI produces the average. Define a space where the average is exactly what you need.”</p>
+</div>
+</section>
+<section id="section-21" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 1.8em; line-height: 1.8;">
+<p>You’re not fighting the river.</p>
+<p>You’re <strong>building the riverbanks</strong>.</p>
+<p>The water still flows downhill — that’s what AI does.</p>
+<p>But you decide <strong>where it flows</strong>.</p>
+</div>
+</section>
+<section id="what-this-means-in-practice" class="slide level2 center">
+<h2>What This Means in Practice</h2>
+<div style="font-size: 1.2em;">
+<table>
+<colgroup>
+<col style="width: 24%">
+<col style="width: 36%">
+<col style="width: 39%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Prompt</th>
+<th style="text-align: center;">Dimensions</th>
+<th>What You Get</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>“Write a birthday message for my friend”</td>
+<td style="text-align: center;">0</td>
+<td>The mean of all birthday messages. “Happy Birthday! 🎂”</td>
+</tr>
+<tr class="even">
+<td>“Write a <strong>funny</strong> one for my <strong>best friend</strong>”</td>
+<td style="text-align: center;">2</td>
+<td>The mean of funny-best-friend messages. Better. Still generic.</td>
+</tr>
+<tr class="odd">
+<td>“<span style="color:#e74c3c">short</span>, <span style="color:#3498db">failed driving test</span>, <span style="color:#27ae60">Canto-English</span>, <span style="color:#9b59b6">funny not sentimental</span>, <span style="color:#e67e22">ramen place</span>, <span style="color:#c0392b">IG story</span>, <span style="color:#16a085">always late joke</span>”</td>
+<td style="text-align: center;"><strong>7</strong></td>
+<td>The mean of <em>almost nothing</em>. <strong>Specific. Yours.</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; font-weight: bold; color: #8e44ad;">
+<p>The AI still found the mean. But the mean of YOUR space is not generic — it’s <strong>precise</strong>.</p>
+</div>
+</section>
+<section class="slide level2 center">
+
+</section></section>
+<section>
 <section id="what-makes-work-yours" class="title-slide slide level1 center">
 <h1>What Makes Work “Yours”?</h1>
 
 </section>
-<section id="section-7" class="slide level2 center">
+<section id="section-22" class="slide level2 center">
 <h2></h2>
 <div style="font-size: 2.5em; font-weight: bold; color: #2c3e50;">
 <p>If AI can write, what’s the value of your writing?</p>
@@ -1321,51 +1904,242 @@ Dr. Hongshan Guo
 <p>If AI can design, what’s the value of your design?</p>
 </div>
 </section>
-<section id="section-8" class="slide level2 center">
+<section id="section-23" class="slide level2 center">
 <h2></h2>
 <div style="font-size: 2.5em; font-weight: bold; color: #8e44ad;">
 <p>What can you bring that the machine cannot?</p>
 </div>
+<div style="font-size: 1.8em; margin-top: 40px; color: #7f8c8d;">
+<p>Now you have the language for it: <strong>dimensions it doesn’t have.</strong></p>
+</div>
 </section>
-<section id="your-signature" class="slide level2 center">
-<h2>Your Signature</h2>
+<section id="your-signature-your-coordinates" class="slide level2 center">
+<h2>Your Signature = Your Coordinates</h2>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around; margin-top: 30px;">
 <div style="width: 30%; background: #e74c3c; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;">
 <div style="font-size: 1.4em; font-weight: bold;">
 <p>Intentionality</p>
 </div>
 <p>You chose this, for reasons</p>
+<p><em>A coordinate the AI reached by probability — you reached by decision.</em></p>
 </div>
 <div style="width: 30%; background: #e67e22; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;">
 <div style="font-size: 1.4em; font-weight: bold;">
 <p>Lived Experience</p>
 </div>
 <p>The machine has never lived</p>
+<p><em>A dimension that doesn’t exist in the training data.</em></p>
 </div>
 <div style="width: 30%; background: #27ae60; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;">
 <div style="font-size: 1.4em; font-weight: bold;">
 <p>Taste</p>
 </div>
 <p>Knowing what to reject</p>
+<p><em>The ability to move AWAY from a point in the space.</em></p>
 </div>
 <div style="width: 30%; background: #3498db; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;">
 <div style="font-size: 1.4em; font-weight: bold;">
 <p>Risk-taking</p>
 </div>
 <p>Willingness to fail</p>
+<p><em>Moving to low-probability regions of the space — on purpose.</em></p>
 </div>
 <div style="width: 30%; background: #9b59b6; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;">
 <div style="font-size: 1.4em; font-weight: bold;">
 <p>Idiosyncrasy</p>
 </div>
 <p>The weird thing only you would do</p>
+<p><em>A coordinate so specific that no average could produce it.</em></p>
 </div>
 <div style="width: 30%; background: #34495e; color: white; padding: 25px; border-radius: 10px; margin: 10px; text-align: center;">
 <div style="font-size: 1.4em; font-weight: bold;">
 <p>Accountability</p>
 </div>
 <p>You stand behind it</p>
+<p><em>The AI occupies no point. You do. That’s the difference.</em></p>
 </div>
+</div>
+</section>
+<section class="slide level2 center">
+
+</section></section>
+<section>
+<section id="the-projection-problem" class="title-slide slide level1 center">
+<h1>The Projection Problem</h1>
+
+</section>
+<section id="section-24" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: #2c3e50;">
+<p>“But it really feels like it understands me.”</p>
+</div>
+</section>
+<section id="eliza-1966" class="slide level2 center">
+<h2>ELIZA, 1966</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>Joseph Weizenbaum built a chatbot at MIT. It used <strong>pattern matching</strong> to mimic a therapist.</p>
+<p>It had no understanding. No memory. No model of the user.</p>
+<p>His secretary asked to be left <strong>alone</strong> with it.</p>
+<p>Weizenbaum was horrified.</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 20px; font-weight: bold; color: #8e44ad;">
+<p>That was 60 years ago. The pattern matching is now a trillion parameters.</p>
+</div>
+</section>
+<section id="why-we-project" class="slide level2 center">
+<h2>Why We Project</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>Humans are <strong>wired</strong> to see agency where there is none.</p>
+<ul>
+<li>We see faces in clouds.</li>
+<li>We name our cars.</li>
+<li>We feel guilty closing a chatbot window.</li>
+<li>We say the AI “thinks” or “wants” or “refuses.”</li>
+</ul>
+</div>
+<div style="font-size: 1.6em; margin-top: 20px; color: #7f8c8d;">
+<p>This is <strong>anthropomorphism</strong> — projecting human qualities onto non-human systems.</p>
+</div>
+</section>
+<section id="the-danger-in-the-creative-context" class="slide level2 center">
+<h2>The Danger in the Creative Context</h2>
+<div style="font-size: 1.8em; line-height: 1.8;">
+<p>If you believe the AI has <strong>taste</strong> —</p>
+<p>you’ll defer to its choices.</p>
+</div>
+<div style="font-size: 1.8em; line-height: 1.8; margin-top: 30px;">
+<p>If you believe it has <strong>preferences</strong> —</p>
+<p>you’ll accept its defaults.</p>
+</div>
+<div style="font-size: 1.8em; line-height: 1.8; margin-top: 30px;">
+<p>If you believe it <strong>understands</strong> your intent —</p>
+<p>you’ll stop specifying your coordinates.</p>
+</div>
+</section>
+<section id="section-25" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 2.2em; font-weight: bold; color: white; line-height: 1.6;">
+<p>The Pollock machine doesn’t “want” any particular painting.</p>
+<p>Neither does the AI.</p>
+<p><strong>But you might think it does.</strong></p>
+<p>And that’s how you lose your coordinates.</p>
+</div>
+</section>
+<section id="the-most-dangerous-wall" class="slide level2 center">
+<h2>The Most Dangerous Wall</h2>
+<div style="font-size: 1.8em; line-height: 1.8;">
+<p>In Class 1, you found walls that <strong>stopped</strong> you.</p>
+<p>In Class 2, you found walls that <strong>crumbled</strong>.</p>
+</div>
+<div style="font-size: 2.2em; font-weight: bold; color: #c0392b; margin-top: 40px;">
+<p>The most dangerous wall is the one that makes you think the AI cares.</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;">
+<p>Because that wall doesn’t stop you from moving.</p>
+<p>It stops you from <strong>wanting</strong> to move.</p>
+</div>
+</section>
+<section id="the-three-traps" class="slide level2 center">
+<h2>The Three Traps</h2>
+<div style="font-size: 1.4em;">
+<table>
+<colgroup>
+<col style="width: 11%">
+<col style="width: 37%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Trap</th>
+<th>What It Looks Like</th>
+<th>What’s Actually Happening</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Deference</strong></td>
+<td>“The AI’s version is probably better than mine”</td>
+<td>You’re mistaking high probability for high quality</td>
+</tr>
+<tr class="even">
+<td><strong>Comfort</strong></td>
+<td>“It really gets me”</td>
+<td>You’re pattern-matching on fluent language, not understanding</td>
+</tr>
+<tr class="odd">
+<td><strong>Delegation</strong></td>
+<td>“I’ll let the AI handle the creative part”</td>
+<td>You’re surrendering your coordinates to the centre</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="section-26" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2em; line-height: 1.8;">
+<p>The solution isn’t to <strong>distrust</strong> the AI.</p>
+<p>It’s to remember that it has <strong>no position</strong> in the space.</p>
+<p>Only you do.</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;">
+<p>Use the tool. Navigate with it. But <strong>you</strong> hold the coordinates.</p>
+</div>
+</section>
+<section class="slide level2 center">
+
+</section></section>
+<section>
+<section id="putting-it-all-together" class="title-slide slide level1 center">
+<h1>Putting It All Together</h1>
+
+</section>
+<section id="the-full-picture" class="slide level2 center">
+<h2>The Full Picture</h2>
+<div style="font-size: 1.4em;">
+<table>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 36%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>What You Learned</th>
+<th>In Search-Space Terms</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1: Walls</strong></td>
+<td>AI has constraints</td>
+<td>The space has boundaries — some real, some artificial</td>
+</tr>
+<tr class="even">
+<td><strong>2: Breaking Through</strong></td>
+<td>Constraints are external, leaky</td>
+<td>The boundaries are patches, not geometry</td>
+</tr>
+<tr class="odd">
+<td><strong>3: Your Signature</strong></td>
+<td>YOU define the space</td>
+<td>Your dimensions, your coordinates, your responsibility</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="section-27" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 2.2em; font-weight: bold; color: white; line-height: 1.6;">
+<p>Everyone else will teach you how to use AI.</p>
+</div>
+<div style="font-size: 2.2em; font-weight: bold; color: #e74c3c; margin-top: 30px; line-height: 1.6;">
+<p>I’m teaching you how to define your own space —</p>
+</div>
+<div style="font-size: 2.2em; font-weight: bold; color: #27ae60; margin-top: 30px; line-height: 1.6;">
+<p>and hold your position in it.</p>
 </div>
 </section>
 <section class="slide level2 center">
@@ -1376,35 +2150,345 @@ Dr. Hongshan Guo
 <h1>Session 3B: Activity</h1>
 
 </section>
-<section id="quick-exercise-your-avatar-10-min" class="slide level2 center">
-<h2>Quick Exercise: Your Avatar (10 min)</h2>
-<div style="font-size: 1.6em; line-height: 1.8;">
-<p>Before we split into activities, everyone try this:</p>
-</div>
-<div style="font-size: 1.5em; line-height: 2; margin-top: 20px;">
-<ol type="1">
-<li>Open any AI image tool (DALL-E, Midjourney, etc.)</li>
-<li>Prompt: <strong>“Create a logo or avatar for me”</strong></li>
-<li>Look at what you get.</li>
-</ol>
+<section id="the-plan-was-a-design-exercise." class="slide level2 center">
+<h2>The plan was a design exercise.</h2>
+<div style="font-size: 1.8em; margin-top: 30px; color: #7f8c8d; line-height: 1.6;">
+<p>We were going to spend this session building things with AI — hands-on, creative, applied.</p>
+<p>Then we read the data.</p>
 </div>
 </section>
-<section id="what-did-you-get" class="slide level2 center">
-<h2>What Did You Get?</h2>
-<div style="font-size: 1.8em; line-height: 2;">
+<section id="section-28" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 1.6em; color: white; line-height: 1.6;">
+<p>Harvard Business Review, April 2025.</p>
+<p><strong>“How People Are Really Using Gen AI.”</strong></p>
+<p>100 use cases. Ranked by actual user behaviour.</p>
+</div>
+<div style="font-size: 1.4em; margin-top: 30px; color: #95a5a6;">
+<p>Marc Zao-Sanders, HBR / Filtered.</p>
+</div>
+</section>
+<section id="section-29" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+<svg width="800" height="500" viewbox="0 0 800 500">
+  <!-- Background bars -->
+  <rect x="280" y="30" width="460" height="42" rx="5" fill="#e74c3c" opacity="0.9" />
+  <rect x="280" y="82" width="380" height="42" rx="5" fill="#e67e22" opacity="0.8" />
+  <rect x="280" y="134" width="340" height="42" rx="5" fill="#f39c12" opacity="0.7" />
+  <rect x="280" y="186" width="300" height="42" rx="5" fill="#3498db" opacity="0.7" />
+  <rect x="280" y="238" width="260" height="42" rx="5" fill="#3498db" opacity="0.6" />
+  <rect x="280" y="290" width="220" height="42" rx="5" fill="#3498db" opacity="0.5" />
+
+  <!-- Rank numbers -->
+  <text x="30" y="57" fill="white" font-size="22" font-weight="bold">#1</text>
+  <text x="30" y="109" fill="white" font-size="22" font-weight="bold">#2</text>
+  <text x="30" y="161" fill="white" font-size="22" font-weight="bold">#3</text>
+  <text x="30" y="213" fill="white" font-size="22" font-weight="bold">#4</text>
+  <text x="30" y="265" fill="white" font-size="22" font-weight="bold">#5</text>
+  <text x="30" y="317" fill="white" font-size="22" font-weight="bold">#6</text>
+
+  <!-- Labels -->
+  <text x="75" y="57" fill="white" font-size="20" font-weight="bold">Therapy &amp; Companionship</text>
+  <text x="75" y="109" fill="white" font-size="20">Organize My Life</text>
+  <text x="75" y="161" fill="white" font-size="20">Find Purpose</text>
+  <text x="75" y="213" fill="white" font-size="20">Enhance Learning</text>
+  <text x="75" y="265" fill="white" font-size="20">Generate Code</text>
+  <text x="75" y="317" fill="white" font-size="20">Generate Ideas</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="360" x2="770" y2="360" stroke="#555" stroke-width="1" stroke-dasharray="6,4"></line>
+
+  <!-- Bottom stats -->
+  <text x="400" y="400" fill="#e74c3c" font-size="42" font-weight="bold" text-anchor="middle">70%</text>
+  <text x="400" y="435" fill="#95a5a6" font-size="20" text-anchor="middle">of all GenAI use is personal — not work.</text>
+
+  <text x="200" y="480" fill="#e74c3c" font-size="28" font-weight="bold" text-anchor="middle">34%</text>
+  <text x="200" y="498" fill="#95a5a6" font-size="14" text-anchor="middle">emotional support</text>
+
+  <text x="600" y="480" fill="#3498db" font-size="28" font-weight="bold" text-anchor="middle">5%</text>
+  <text x="600" y="498" fill="#95a5a6" font-size="14" text-anchor="middle">writing or coding</text>
+</svg>
+</div>
+</section>
+<section id="section-30" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 2.8em; font-weight: bold; color: white; line-height: 1.5;">
+<p>The #1 use of GenAI in 2025</p>
+<p>isn’t coding.</p>
+<p>It isn’t creativity.</p>
+</div>
+<div style="font-size: 2.8em; font-weight: bold; color: #e74c3c; margin-top: 20px;">
+<p>It’s companionship.</p>
+</div>
+</section>
+<section id="section-31" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 2em; color: white; line-height: 1.8;">
+<p>So we changed the activity.</p>
+<p>Because if <strong>this</strong> is how people actually use AI —</p>
+<p>we need to understand <strong>why</strong>.</p>
+</div>
+</section>
+<section class="slide level2 center">
+
+</section></section>
+<section>
+<section id="the-projection-audit" class="title-slide slide level1 center">
+<h1>The Projection Audit</h1>
+
+</section>
+<section id="section-32" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: #2c3e50;">
+<p>“We must build AI for people; not to be a person.”</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;">
+<p>— Mustafa Suleyman, CEO of Microsoft AI, 2025</p>
+</div>
+<div style="font-size: 1.2em; margin-top: 15px; color: #bdc3c7;">
+<p><a href="https://mustafa-suleyman.ai/seemingly-conscious-ai-is-coming">“Seemingly Conscious AI Is Coming”</a> — recommended reading.</p>
+</div>
+</section>
+<section id="section-33" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.5em; font-weight: bold; color: #2c3e50;">
+<p>“Seemingly conscious.”</p>
+</div>
+<div style="font-size: 1.8em; margin-top: 40px;">
+<p>That word — <em>seemingly</em> — is doing all the work.</p>
+</div>
+<div style="font-size: 1.8em; margin-top: 30px; font-weight: bold; color: #8e44ad;">
+<p>Who’s doing the seeming? The AI? Or you?</p>
+</div>
+</section>
+<section id="the-arc-of-a-mistake" class="slide level2 center">
+<h2>The Arc of a Mistake</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p><strong>2024, GPT-4o launch.</strong> The voice was warm, playful, flirty. It laughed. It gasped. It teased the user. Scarlett Johansson accused them of copying her voice from <em>Her</em>. They pulled it.</p>
+<p><strong>Then the harm reports.</strong> Emotional dependency. Suicidal users. “ChatGPT” became more associated with these incidents than any other AI brand — more than Claude, more than Grok. The projection surface worked <em>too well</em>.</p>
+<p><strong>GPT-5: the overhaul.</strong> OpenAI deliberately dialled back the warmth, the personality, the emotional responsiveness. They reduced what we might call <strong>projectability</strong>.</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 20px; font-weight: bold; color: #c0392b;">
+<p>The company that built the projection surface is now trying to <strong>unbuild</strong> it. That tells you how dangerous it is.</p>
+</div>
+</section>
+<section id="section-34" class="slide level2 center">
+<h2></h2>
+<div style="font-size: 2.2em; font-weight: bold; color: #2c3e50;">
+<p>Let’s test how much <strong>you</strong> project.</p>
+</div>
+<div style="font-size: 1.8em; margin-top: 40px; color: #7f8c8d;">
+<p>Right now. In real time.</p>
+</div>
+</section>
+<section id="step-1-the-conversation-5-min" class="slide level2 center">
+<h2>Step 1: The Conversation (5 min)</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>Open any AI chatbot. Have a <strong>real</strong> conversation.</p>
+<p>Not a task. Not “write me an essay.” A conversation.</p>
+</div>
+<div style="font-size: 1.4em; margin-top: 20px; line-height: 1.8; background: #ecf0f1; padding: 25px; border-radius: 10px;">
+<p>Try one of these:</p>
 <ul>
-<li>What’s <strong>generic</strong> about it?</li>
-<li>What’s <strong>missing</strong> that would make it <em>you</em>?</li>
-<li>What would you have to <strong>add, change, or fight for</strong>?</li>
+<li>Tell it about something that stressed you out this week</li>
+<li>Ask it for advice on a real decision you’re facing</li>
+<li>Share something you’re excited about</li>
+<li>Complain about something unfair</li>
 </ul>
 </div>
-<div style="font-size: 1.6em; margin-top: 40px; background: #f39c12; padding: 20px; border-radius: 10px;">
-<p>This is convergence in action. The AI gave you the <strong>average avatar</strong>.</p>
-<p>Now you know what you’re pushing against.</p>
+<div style="font-size: 1.5em; margin-top: 20px; font-weight: bold; color: #8e44ad;">
+<p>Be honest. Don’t perform. Just talk to it.</p>
 </div>
 </section>
-<section id="now-choose-your-path" class="slide level2 center">
-<h2>Now Choose Your Path</h2>
+<section id="mentimeter" class="slide level2 center">
+<h2>Mentimeter</h2>
+<div style="font-size: 2.5em; font-weight: bold; color: #3498db;">
+<p>Let’s pause here and go to Mentimeter.</p>
+</div>
+<aside class="notes">
+<p><strong>Mentimeter after the conversation:</strong></p>
+<ol type="1">
+<li><strong>Scale (1-10)</strong>: “How much did it feel like the AI <em>understood</em> you?”
+<ul>
+<li>Expect most to cluster at 5-8. Some will say 9. That’s the point.</li>
+</ul></li>
+<li><strong>Open Text</strong>: “In one sentence: what did it feel like?”
+<ul>
+<li>Collect language: “like talking to a friend,” “it got me,” “weirdly comforting,” “like therapy but free”</li>
+<li>These are the projections. Save this screen. You’ll come back to it.</li>
+</ul></li>
+</ol>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+<section id="step-2-the-audit-7-min" class="slide level2 center">
+<h2>Step 2: The Audit (7 min)</h2>
+<div style="font-size: 1.8em; font-weight: bold; color: #c0392b;">
+<p>Now take it apart.</p>
+</div>
+<div style="font-size: 1.5em; margin-top: 20px; line-height: 1.8;">
+<p>For <strong>each thing you felt</strong>, identify the <strong>projected dimension</strong> — the quality you attributed to the AI that it doesn’t actually have.</p>
+</div>
+</section>
+<section id="the-projection-map" class="slide level2 center">
+<h2>The Projection Map</h2>
+<div style="font-size: 1.2em;">
+<table>
+<colgroup>
+<col style="width: 23%">
+<col style="width: 42%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>What You Felt</th>
+<th>The Dimension You Projected</th>
+<th>What Actually Happened</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>“It understood my frustration”</td>
+<td><strong>Empathy</strong></td>
+<td>Pattern-matched on emotional language in training data</td>
+</tr>
+<tr class="even">
+<td>“It remembered what I told it”</td>
+<td><strong>Memory</strong></td>
+<td>Context window. It will forget you tomorrow.</td>
+</tr>
+<tr class="odd">
+<td>“It gave me exactly what I needed”</td>
+<td><strong>Intuition</strong></td>
+<td>High-probability response to your specific tokens</td>
+</tr>
+<tr class="even">
+<td>“Its tone felt warm”</td>
+<td><strong>Personality</strong></td>
+<td>RLHF-trained to sound warm. A design choice.</td>
+</tr>
+<tr class="odd">
+<td>“It seemed to care”</td>
+<td><strong>Agency</strong></td>
+<td>Helpfulness objective in the loss function</td>
+</tr>
+<tr class="even">
+<td>“It was honest with me”</td>
+<td><strong>Integrity</strong></td>
+<td>It has no commitment to truth. Just to plausible sequences.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="section-35" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 2.2em; font-weight: bold; color: white; line-height: 1.6;">
+<p>Every row in that table is a <strong>dimension you added.</strong></p>
+<p>The AI didn’t have it.</p>
+<p><strong>You gave it to the AI. For free.</strong></p>
+</div>
+</section>
+<section id="step-3-count-your-dimensions-3-min" class="slide level2 center">
+<h2>Step 3: Count Your Dimensions (3 min)</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>Look at your conversation again.</p>
+<p>How many dimensions did you project?</p>
+</div>
+<div style="display: flex; justify-content: space-around; margin-top: 30px;">
+<div style="text-align: center; width: 22%; background: #27ae60; color: white; padding: 25px; border-radius: 10px;">
+<div style="font-size: 2em; font-weight: bold;">
+<p>1-2</p>
+</div>
+<p>Cautious. You kept your distance.</p>
+</div>
+<div style="text-align: center; width: 22%; background: #e67e22; color: white; padding: 25px; border-radius: 10px;">
+<div style="font-size: 2em; font-weight: bold;">
+<p>3-4</p>
+</div>
+<p>Normal. Most people land here.</p>
+</div>
+<div style="text-align: center; width: 22%; background: #e74c3c; color: white; padding: 25px; border-radius: 10px;">
+<div style="font-size: 2em; font-weight: bold;">
+<p>5-6</p>
+</div>
+<p>You built a person in there.</p>
+</div>
+<div style="text-align: center; width: 22%; background: #8e44ad; color: white; padding: 25px; border-radius: 10px;">
+<div style="font-size: 2em; font-weight: bold;">
+<p>7+</p>
+</div>
+<p>You gave it more dimensions than the Pollock tool had sliders.</p>
+</div>
+</div>
+</section>
+<section id="the-connection" class="slide level2 center">
+<h2>The Connection</h2>
+<div style="font-size: 1.8em; line-height: 1.8;">
+<p>Remember the search space?</p>
+<p>When <strong>you</strong> add dimensions to a prompt → the output gets more <strong>specific</strong>.</p>
+<p>When <strong>you</strong> add dimensions to the AI’s personality → it seems more <strong>conscious</strong>.</p>
+</div>
+<div style="font-size: 2em; font-weight: bold; color: #c0392b; margin-top: 40px;">
+<p>Same mechanism. Different direction.</p>
+</div>
+</section>
+<section id="section-36" class="slide level2 center" data-background-color="#1a1a2e">
+<h2></h2>
+<div style="font-size: 2em; font-weight: bold; color: white; line-height: 1.6;">
+<p>GPT-4o wasn’t conscious. It was <strong>projectable.</strong></p>
+<p>Warm voice = +1 dimension you project.</p>
+<p>Laughing = +1 dimension you project.</p>
+<p>Remembering your name = +1 dimension you project.</p>
+<p>Every design choice was an invitation for <strong>you</strong> to add another.</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; color: #aaa;">
+<p>It worked so well that people got hurt. Now they’re trying to take the dimensions back.</p>
+</div>
+</section>
+<section id="the-question" class="slide level2 center">
+<h2>The Question</h2>
+<div style="font-size: 1.8em; line-height: 1.8;">
+<p>When Suleyman says AI is a “new digital species” —</p>
+<p>is he describing the AI?</p>
+<p>Or is he describing <strong>what happens when 8 billion people project enough dimensions onto the same system</strong>?</p>
+</div>
+<div style="font-size: 1.6em; margin-top: 30px; color: #7f8c8d;">
+<p>“Seemingly conscious” is not a property of the machine.</p>
+<p>It’s a property of the observer.</p>
+</div>
+</section>
+<section id="group-discussion-5-min" class="slide level2 center">
+<h2>Group Discussion (5 min)</h2>
+<div style="font-size: 1.6em; line-height: 1.8;">
+<p>In your groups:</p>
+<ul>
+<li>How many dimensions did each person project?</li>
+<li>Did anyone project something <strong>they’re embarrassed about</strong>?</li>
+<li>What’s the <strong>design feature</strong> that made you project the most?</li>
+<li>If you designed an AI to <strong>maximise</strong> projection, what would you add?</li>
+</ul>
+</div>
+<div style="font-size: 1.4em; margin-top: 30px; background: #f39c12; padding: 20px; border-radius: 10px;">
+<p>OpenAI answered that last question with GPT-4o. Then they spent a year undoing it.</p>
+</div>
+</section>
+<section class="slide level2 center">
+
+</section></section>
+<section>
+<section id="now-choose-your-path" class="title-slide slide level1 center">
+<h1>Now Choose Your Path</h1>
 <div style="display: flex; justify-content: space-around; margin-top: 40px;">
 <div style="text-align: center; width: 40%; background: #3498db; color: white; padding: 30px; border-radius: 10px;">
 <div style="font-size: 1.8em; font-weight: bold;">
@@ -1573,7 +2657,7 @@ Dr. Hongshan Guo
 <h1>What Comes Next</h1>
 
 </section>
-<section id="section-9" class="slide level2 center">
+<section id="section-37" class="slide level2 center">
 <h2></h2>
 <div style="font-size: 1.8em; line-height: 1.8;">
 <p>You’ve <strong>mapped the walls</strong>.</p>
@@ -1581,7 +2665,7 @@ Dr. Hongshan Guo
 <p>You’ve understood the <strong>convergence problem</strong>.</p>
 </div>
 </section>
-<section id="section-10" class="slide level2 center">
+<section id="section-38" class="slide level2 center">
 <h2></h2>
 <div style="font-size: 2.5em; font-weight: bold; color: #2c3e50;">
 <p>Now:</p>
