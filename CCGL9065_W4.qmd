@@ -32,6 +32,54 @@ Did faces react?
 
 ---
 
+## Something You Took Away Last Week
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Week 3 gave you a tool: **Life Cycle Assessment.**
+
+You learned that where you **draw the system boundary** changes the entire answer.
+
+- Cotton tote vs. plastic bag? Depends on *how many times you reuse it.*
+- Beyond Burger vs. chicken? Depends on *whether you count land use.*
+- Organic cotton vs. conventional? Depends on *which impact you measure.*
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+That's not just an LCA skill — that's **systems thinking.** And you'll need it again today.
+:::
+
+---
+
+## From Products → Energy Systems
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Last week: *"Is this product really green?"*
+
+This week: *"Is this energy source really clean?"*
+
+**Same question. Bigger system boundary.**
+
+Solar panels look perfect — until you widen the boundary to include **timing** (when the sun shines vs. when you need power), **storage** (where does the excess go?), and **grid stability** (who fills the gap at sunset?).
+:::
+
+::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
+This is your portable toolkit — system-boundary thinking works for fashion, energy, food, transport. Every week builds on it.
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="text-align: center;"}
+![The Duck Curve — California ISO, 2016. The shape that changed the energy debate.](https://upload.wikimedia.org/wikipedia/commons/a/ab/Duck_Curve_CA-ISO_2016-10-22.agr.png){width="85%"}
+:::
+
+::: {style="font-size: 1.2em; text-align: center; color: #aaa; margin-top: 20px;"}
+*This one graph explains why solar energy alone can't save us.*
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -142,134 +190,7 @@ Rooftop installation falls. Manufacturing accidents. Mining for rare earth miner
 
 ---
 
-## Do We Need Nuclear Energy to Stop Climate Change?
-{{< video https://www.youtube.com/embed/EhAemz1v7dQ width="1600" height="900" >}}
-
-::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
-*Kurzgesagt — In a Nutshell (~10 min). Spoiler: they conclude nuclear and renewables should be partners, not opponents.*
-:::
-
----
-
-# Things You Think Are Green (Energy Edition)
-
----
-
-## Your Energy Instincts Are Often Wrong
-
-::: {style="font-size: 1.6em; line-height: 1.8;"}
-If your gut can be wrong about something as basic as "which energy kills people"...
-
-**What else might you be wrong about?**
-:::
-
----
-
-## Germany Spent €500 Billion on Renewables...
-
-::: {style="font-size: 1.6em; line-height: 1.8;"}
-**Assumption:** Germany's Energiewende made it greener.
-
-**Reality:** Germany's CO₂ emissions **barely decreased for a decade** (2009–2019). Why? They shut down zero-carbon **nuclear plants** at the same time and temporarily burned **more coal** to fill the gap.
-:::
-
-::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
-€500 billion. And for years, the carbon needle barely moved.
-:::
-
-::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
-*Source: Agora Energiewende Annual Review; Clean Energy Wire; Federal Environment Agency (UBA)*
-:::
-
----
-
-## Wind Turbine Blades Go to Landfill
-
-::: {style="font-size: 1.6em; line-height: 1.8;"}
-**Assumption:** Wind energy is fully "clean."
-
-**Reality:** A single wind turbine blade is **longer than a Boeing 747 wing** (up to 80m). Made of composite fiberglass. Currently **cannot be economically recycled.**
-
-Thousands of blades are buried in landfills across the American Midwest every year.
-:::
-
-::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
-The clean energy icon has a dirty secret at the end of its life.
-:::
-
-::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
-*Source: Bloomberg (2020) "Wind Turbine Blades Can't Be Recycled"; Liu & Barlow (2017) Waste Management*
-:::
-
----
-
-## California Pays Other States to Take Its Solar Power
-
-::: {style="font-size: 1.6em; line-height: 1.8;"}
-**Assumption:** More solar = always better.
-
-**Reality:** On sunny spring days, California produces **so much solar** that wholesale electricity prices go **negative**. The state literally pays Arizona and Nevada to absorb the excess.
-
-Meanwhile, at 7pm when the sun sets, California must fire up gas plants at full blast to cover demand. This is the **Duck Curve**.
-:::
-
-::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
-*Source: CAISO (California ISO) market data; EIA reports on negative pricing*
-:::
-
----
-
-## Your Hong Kong EV Runs on Coal
-
-::: {style="font-size: 1.6em; line-height: 1.8;"}
-**Assumption:** Electric cars are always greener.
-
-**Reality:** Hong Kong's grid is **~70% fossil fuels** (coal + natural gas). Only ~25% comes from Daya Bay nuclear imports.
-
-An EV charged on Hong Kong's grid produces roughly **100-120g CO₂/km**. A fuel-efficient petrol hybrid? About **90-110g CO₂/km**.
-:::
-
-::: {style="font-size: 1.4em; margin-top: 30px; background: #e74c3c; color: white; padding: 20px; border-radius: 10px;"}
-**The car isn't the whole story. The grid is.** Clean the grid first, then EVs become truly green.
-:::
-
-::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
-*Source: HK Electric & CLP annual reports; IEA lifecycle assessments; HK Environment Bureau*
-:::
-
----
-
-## Why Am I Telling You This?
-
-::: {style="font-size: 1.8em; line-height: 1.8;"}
-Not to make you anti-renewable.
-
-Not to say "nothing works."
-
-But to show you: **the truth is complicated**.
-
-And complicated truths make **better arguments**.
-:::
-
----
-
-## The System Boundary Returns
-
-::: {style="font-size: 1.5em; line-height: 1.8;"}
-Remember from last week? **"Sustainable compared to what, measured how, ending where?"**
-
-- **Nuclear** looks terrifying if your boundary is "worst-case accident." Looks safest if your boundary is "deaths per TWh over all time."
-- **Solar** looks perfect if you stop at the rooftop. Looks complicated if you include manufacturing, grid storage, and end-of-life disposal.
-- **Wind** looks clean if you stop at generation. Looks messy if you include blade disposal.
-:::
-
-::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
-Same data. Different boundaries. Completely different arguments.
-:::
-
----
-
-# The Renewable Energy Landscape — At a Glance
+# The Renewable Energy Landscape
 
 ---
 
@@ -292,7 +213,11 @@ For Hong Kong, only three matter in practice: **Solar, Wind, and Waste-to-Energy
 
 ---
 
-## The Duck Curve — Why Solar Creates Problems {background-image="https://elements.visualcapitalist.com/wp-content/uploads/2022/06/VCE-The-Duck-Curve-Mar-31.jpg" background-size="cover"}
+# The Duck Curve: Solar's Achilles Heel
+
+---
+
+## {background-image="https://elements.visualcapitalist.com/wp-content/uploads/2022/06/VCE-The-Duck-Curve-Mar-31.jpg" background-size="cover"}
 
 :::{.notes}
 The Duck Curve: midday solar floods the grid, evening demand spikes when the sun disappears. The gap is the problem.
@@ -300,37 +225,48 @@ The Duck Curve: midday solar floods the grid, evening demand spikes when the sun
 
 ---
 
-## The Duck Curve Explained
-{{< video https://www.youtube.com/embed/YYLzss58CLs width="1600" height="900" >}}
+## The Duck Curve: Three Problems in One
 
-::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
-*Vox (~5 min) — The best visual explainer of why more solar doesn't simply mean fewer problems.*
+::: {style="font-size: 1.3em; line-height: 1.7;"}
+
+::: {style="display: flex; justify-content: space-around; margin-top: 20px;"}
+::: {style="width: 30%; background: #f39c12; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+The Belly (Midday)
+:::
+::: {style="margin-top: 10px;"}
+Solar floods the grid when demand is moderate. Supply > demand. No battery storage at scale. Wholesale prices go **negative** — California pays Arizona to absorb the excess because it's physically easier than shutting off thousands of rooftop panels.
+:::
+:::
+
+::: {style="width: 30%; background: #e74c3c; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+The Neck (4–7 PM Ramp)
+:::
+::: {style="margin-top: 10px;"}
+Sun sets. Solar drops to zero in ~3 hours. But demand **spikes** — everyone comes home, cooks, runs AC. The grid must add **~13,000 MW in 3 hours**. Only gas peaker plants can ramp that fast. They're expensive and dirty.
+:::
+:::
+
+::: {style="width: 30%; background: #2c3e50; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+The Tail (Evening Peak)
+:::
+::: {style="margin-top: 10px;"}
+All that solar capacity contributes **nothing** at the moment demand is highest. The evening peak is met almost entirely by fossil fuels — just like before solar existed.
+:::
+:::
+:::
+
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #8e44ad; text-align: center;"}
+The cruel irony: the more solar you build, the deeper the belly and the steeper the ramp. More solar makes the duck *worse* — until storage catches up.
 :::
 
 ---
 
-## Solar Incoming {background-image="https://cdn.britannica.com/85/73585-050-AC0B6BA5/Reflection-absorption-solar-energy-surface-atmosphere-sunlight.jpg" }
-
----
-
-## Local Hydropower Plant
-{{< video https://www.youtube.com/embed/sXVeMwZgPLU?si=9r_KMzcTRwrLeu4E width="1600" height="900" >}}
-
----
-
-## [Local Geothermal Project](https://re.emsd.gov.hk/english/energy/thermal/ther_re.html) {background-image="https://re.emsd.gov.hk/english/energy/thermal/images/ther_re_01.jpg" background-size="contain"}
-
----
-
-## [Tidal Farm @ CityU](https://www.cityu.edu.hk/see_mer/tidal-Intro.htm) {background-image="https://green.org/wp-content/uploads/2024/01/Tidal-generator-1024x724-1.webp" background-size="contain"}
-
----
-
 # Case Studies: Real People, Real Consequences
-
----
-
-## {background-image="https://upload.wikimedia.org/wikipedia/commons/1/16/Topaz_Solar_Farm%2C_California_Valley.jpg" background-size="cover"}
 
 ---
 
@@ -356,11 +292,7 @@ Meanwhile, California was **paying Arizona to take its excess solar power** — 
 
 ---
 
-## {background-image="https://upload.wikimedia.org/wikipedia/commons/e/e6/Aerial_image_of_the_Hambach_surface_mine_%28view_from_the_southeast%29.jpg" background-size="cover"}
-
----
-
-## Germany: Klaus and the Dead Town
+## Germany: Klaus and the Dead Town {background-image="https://upload.wikimedia.org/wikipedia/commons/e/e6/Aerial_image_of_the_Hambach_surface_mine_%28view_from_the_southeast%29.jpg" background-size="cover" background-opacity="0.3"}
 
 ::: {style="font-size: 1.35em; line-height: 1.8;"}
 **Klaus** worked in the lignite mines of Schwarze Pumpe, Lausitz, for 30 years. His father mined there. His grandfather too. Three generations of brown coal.
@@ -379,18 +311,6 @@ And Germany's CO₂ emissions? **Barely changed for years** — because Berlin s
 ::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
 *Sources: Agora Energiewende; IW Köln regional labor studies; Clean Energy Wire; UBA emissions data*
 :::
-
----
-
-## {background-image="https://upload.wikimedia.org/wikipedia/commons/b/b8/Wind_turbines_and_lignite_power_plants_Germany_2019-09-10.jpg" background-size="cover"}
-
-::: {style="font-size: 1.3em; position: absolute; bottom: 40px; left: 40px; background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 10px;"}
-Wind turbines in front of lignite power plants. Germany, 2019. Old and new, side by side.
-:::
-
----
-
-## {background-image="https://upload.wikimedia.org/wikipedia/commons/7/75/Wolfe_island_wind_farm%2C_Kingston_Ontario_Canada_-_Laslovarga_%28158%29.JPG" background-size="cover"}
 
 ---
 
@@ -471,13 +391,13 @@ The pollution isn't accidental. The location was chosen because the people livin
 
 > *"I coughed uncontrollably, drawing odd stares and dirty looks from people around me on the street."*
 
-She became a Greenpeace volunteer, helping attach air monitoring tubes across Hong Kong. **Dr Loretta So Kit-ying**, respiratory medicine specialist at Pamela Youde Nethersole Eastern Hospital, confirmed: *"Nitrogen dioxide will cause irritation to the airways, leading to a range of respiratory diseases."*
+**Dr Loretta So Kit-ying**, respiratory medicine specialist: *"Nitrogen dioxide will cause irritation to the airways, leading to a range of respiratory diseases."*
 
 In 2015, Tuen Mun recorded [**395 hours**]{style="color: orangered;"} of "high" or above air quality readings — the **worst in Hong Kong** for the second consecutive year.
 :::
 
 ::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
-*Sources: SCMP, Victor Ting, July 19, 2019; SCMP, Ernest Kao, November 30, 2015 (Green Power data)*
+*Sources: SCMP, Victor Ting, July 19, 2019; SCMP, Ernest Kao, November 30, 2015*
 :::
 
 ---
@@ -523,26 +443,6 @@ Prof **Anthony Hedley** (HKU School of Public Health): *"Probably 100 per cent o
 
 ---
 
-## Meanwhile, on Anita Tang's Roof
-
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Anita Tang** (56) and her architect husband **Stephen** (62) installed solar panels at their home in Fairview Park, Yuen Long, in October 2018.
-
-- Installation cost: **HK$180,000**
-- Monthly earnings from CLP Feed-in Tariff: **HK$2,500–3,000**
-- Expected payback: ~6 years
-
-But approval took **two months** instead of two weeks. The supplier market was chaotic — Anita: *"Some suppliers said they were registered, but we couldn't find their address."*
-
-Hong Kong targets [**7.5%–10%**]{style="color: orangered;"} renewables by 2035. The Tangs are doing their part. But village house owners like **Newman Lau Man-choi** in Clear Water Bay can only use half their rooftop — by regulation.
-:::
-
-::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
-*Sources: SCMP, Athena Chan, July 14, 2019; HKFP, December 25, 2018*
-:::
-
----
-
 ## Hong Kong's Energy Reality
 
 ::: {style="font-size: 1.3em; line-height: 1.6;"}
@@ -552,52 +452,68 @@ Hong Kong targets [**7.5%–10%**]{style="color: orangered;"} renewables by 2035
 | **2035 target** | 7.5–10% renewables |
 | **Largest clean source** | Daya Bay nuclear import (~25% of supply) |
 | **Main fossil fuels** | Coal (~25%) + Natural Gas (~45%) |
-| **Space constraint** | 1,100 km² total — one of densest cities on Earth |
-| **Solar potential** | Limited rooftop area; buildings shade each other |
-| **Offshore wind** | South China Sea potential, but typhoon risk + shipping lanes |
-| **Waste-to-energy** | T-Park operational; I-Park under construction |
-
+| **Offshore wind potential** | Could generate **32%** of HK's electricity |
+| **Solar rooftop potential** | Could generate another **16%** |
+| **Government's plan (CLP, 2024)** | *"Mostly nuclear"* — import from Guangdong |
 :::
 
-::: {style="font-size: 1.3em; margin-top: 20px; color: #7f8c8d;"}
-HK's biggest "clean" move was importing nuclear from Guangdong. The irony: the energy source the public fears most contributes the most to decarbonization.
-:::
-
----
-
-## The "Wait, What?" of Hong Kong Energy
-
-::: {style="font-size: 1.5em; line-height: 1.8;"}
-HK's **offshore wind potential** alone could generate **32% of the city's electricity**.
-
-HK's **solar rooftop potential** could generate another **16%**.
-
-Together: nearly **half** of Hong Kong's electricity needs.
-
-The government's 2035 target? **7.5–10%.**
-:::
-
-::: {style="font-size: 1.4em; margin-top: 30px; background: #2c3e50; color: white; padding: 30px; border-radius: 10px;"}
-And in 2024, CLP stated that Hong Kong's clean energy future will be **"mostly nuclear"** — importing from Guangdong, not building local renewables.
-
-*The city with 1,100 km² chose to outsource its energy conscience.*
+::: {style="font-size: 1.4em; margin-top: 30px; background: #2c3e50; color: white; padding: 25px; border-radius: 10px;"}
+HK's renewable potential could cover nearly **half** its electricity. The target is 7.5–10%. CLP says the future is nuclear imports. *The city chose to outsource its energy conscience.*
 :::
 
 ::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
-*Sources: HK RE potential estimates (EMSD); Energy Connects, August 2024 (CLP statement)*
+*Sources: EMSD; CLP & HK Electric annual reports; Energy Connects, August 2024*
 :::
 
 ---
 
-## Places to Start Considering Your Position Statement
+# Today's Debate
 
-- **Global vs. Local**: How do California, Germany, and Ontario's lessons apply — or not apply — to a city of 7.5 million people on 1,100 km²?
+---
 
-- **Simplified Messaging**: What nuances are omitted when politicians say "renewables by 2035"? Why might these omissions be deliberate?
+## The Motion
 
-- **Policy Levers**: Given HK's constraints, what strategies could actually work? More nuclear imports? Floating solar? Regional grid sharing with Guangdong?
+::: {style="font-size: 1.8em; text-align: center; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
+**"Hong Kong should double its nuclear energy imports from mainland China to achieve carbon neutrality, rather than investing in local renewable energy."**
+:::
 
-- **Long-Term Vision**: How might HK's energy landscape look in 2100? What realistic pathways exist for energy security?
+::: {style="font-size: 1.3em; text-align: center; margin-top: 30px;"}
+PRO-CLIMATE argues **against**. PRO-DEVELOPMENT argues **for**.
+
+*(Or does it? Which side are you really on?)*
+:::
+
+---
+
+## Why This Motion Is Hard
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.4em; font-weight: bold;"}
+Against (PRO-CLIMATE?)
+:::
+::: {style="font-size: 1.2em; margin-top: 15px; line-height: 1.6;"}
+- Energy dependence on mainland China
+- Nuclear waste and accident risk
+- HK has wind + solar potential (48%)
+- Local jobs in renewable sector
+- **But...** nuclear is zero-carbon. Opposing it means more fossil fuels *now*.
+:::
+:::
+
+::: {style="text-align: left; width: 45%; background: #3498db; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.4em; font-weight: bold;"}
+For (PRO-DEVELOPMENT?)
+:::
+::: {style="font-size: 1.2em; margin-top: 15px; line-height: 1.6;"}
+- Nuclear is safest per kWh (0.03 deaths/TWh)
+- Reliable baseload — no Duck Curve problem
+- HK has no space for large-scale renewables
+- Proven, affordable, already 25% of supply
+- **But...** you're outsourcing your energy future to another jurisdiction.
+:::
+:::
+:::
 
 ---
 
@@ -664,70 +580,39 @@ Spectacle
 
 ---
 
-## PRO-TIP: Use the "Wait, What?" Technique
+## Still Unsure About Your Persona?
 
-::: {style="font-size: 1.3em; line-height: 1.8;"}
-| Topic | "Wait, What?" Opening |
-|-------|----------------------|
-| Nuclear safety | "Nuclear has killed fewer people per kWh than solar. Yes, including Chernobyl." |
-| Solar limits | "California has so much solar it pays other states to take it — then fires up gas plants at sunset." |
-| Germany | "Germany spent €500B on green energy. Its CO₂ emissions barely changed for a decade." |
-| Wind disposal | "A single turbine blade is longer than a 747 wing. It goes to landfill." |
-| HK EVs | "Your Tesla charged in Hong Kong might be dirtier than a Prius." |
+::: {style="font-size: 1.1em; color: #666; margin-bottom: 20px;"}
+If you're still deciding on some traits, here are some starting points — mix, match, or invent your own:
 :::
 
-::: {style="font-size: 1.3em; margin-top: 30px; color: #7f8c8d;"}
-Always include your source. "Wait, what?" only works if it's **true**.
+:::: {.columns}
+::: {.column width="48%"}
+::: {style="background: #e8f5e9; padding: 20px; border-radius: 10px; font-size: 1.1em;"}
+**Lean PRO-CLIMATE?** Try being a...
+
+- Parent living downwind from Castle Peak
+- Youth activist who just read the IPCC report
+- Renewable energy entrepreneur
+- Doctor treating pollution-related illness
 :::
-
----
-
-## One More Thing Before We Debate
-{{< video https://www.youtube.com/embed/yiw6_JakZFc width="1600" height="900" >}}
-
-::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
-*Kurzgesagt "Can YOU Fix Climate Change?" (~15 min) — Watch for: who invented the "personal carbon footprint"?*
 :::
-
----
-
-# Activity: Energy Futures Debate
-
----
-
-## Create Your Persona
-
-::: {style="font-size: 1.4em;"}
-**PRO-CLIMATE personas:**
-
-- Environmentalist pushing for immediate coal phase-out
-- Parent in Tuen Mun near power station (like Mr. Wong)
-- Youth climate activist
-- Renewable energy startup founder
-
-**PRO-DEVELOPMENT personas:**
-
-- CLP executive managing grid stability
-- Factory owner worried about electricity costs
-- Energy minister balancing competing demands
-- Coal worker facing job uncertainty
+::: {.column width="4%"}
 :::
+::: {.column width="48%"}
+::: {style="background: #e3f2fd; padding: 20px; border-radius: 10px; font-size: 1.1em;"}
+**Lean PRO-DEVELOPMENT?** Try being a...
 
-::: {style="font-size: 1.5em; font-weight: bold; margin-top: 30px;"}
-Who are you? What's your story? What do you fear losing?
+- Grid engineer keeping the lights on
+- Factory owner watching electricity bills climb
+- Government official balancing budgets
+- Coal worker whose town depends on the plant
 :::
+:::
+::::
 
----
-
-## The Real Question
-
-::: {style="font-size: 1.6em; line-height: 1.8; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
-
-**PRO-CLIMATE says:** "Coal is killing children. Close the plants. Klaus can retrain."
-
-**PRO-DEVELOPMENT says:** "Klaus is 55. He lost his pension. His town is dying. No one hired him. He voted for the far-right. Was the transition worth it?"
-
-**The real question:** How do we transition justly — fast enough to save the planet, slow enough not to destroy communities?
+::: {style="font-size: 1.3em; font-style: italic; margin-top: 25px; text-align: center;"}
+Ask yourself: **What do I stand to lose?** That's where your story begins.
 :::
 
 ---
@@ -744,7 +629,7 @@ OK to Say
 - "Ontario electricity prices doubled" *(Ontario Energy Board)*
 - "Duck Curve creates grid challenges" *(CAISO documented)*
 - "Nuclear kills 0.03 per TWh" *(Markandya & Wilkinson)*
-- "Wind blades go to landfill" *(Bloomberg, 2020)*
+- "HK air pollution: 3,508 deaths/year" *(Clean Air Network)*
 :::
 :::
 
@@ -755,8 +640,8 @@ NOT OK
 ::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
 - "Renewables can power everything now" *(ignores intermittency)*
 - "Green energy destroys economies" *(exaggeration)*
-- "Oil companies are literally killing people" *(unverifiable as stated)*
 - "Nuclear is perfectly safe" *(overstated — low risk ≠ no risk)*
+- "Oil companies are literally killing people" *(unverifiable as stated)*
 :::
 :::
 :::
@@ -847,7 +732,6 @@ NOT OK
 </div>
 
 <script>
-// Create a namespace for our group assignment functionality
 const GroupAssignment = {
   groups: [
     'Group One', 'Group Two', 'Group Three', 'Group Four',
@@ -892,15 +776,12 @@ const GroupAssignment = {
   init: function() {
     const startButton = document.getElementById('groupAssignment_startButton');
     const closeButton = document.getElementById('groupAssignment_closeButton');
-
     startButton.addEventListener('click', () => this.displayAssignment());
     closeButton.addEventListener('click', () => {
       document.getElementById('groupAssignment_overlay').style.display = 'none';
     });
   }
 };
-
-// Initialize the group assignment functionality
 GroupAssignment.init();
 </script>
 ```
@@ -908,13 +789,10 @@ GroupAssignment.init();
 ## Presentation Countdown
 
 <div id="timer-container" style="text-align: center;">
-  <!-- Timer Display -->
   <div id="timer" style="
     font-size: 348px;
     color: black;
     margin-bottom: 20px;">00:00</div>
-
-  <!-- Control Buttons -->
   <button id="start-button" style="
     font-size: 24px;
     padding: 20px 40px;
@@ -939,25 +817,19 @@ GroupAssignment.init();
 </div>
 
 <script>
-  let countdownDuration = 300; // 5 minutes
-  let initialDuration = 300; // Store the initial time
+  let countdownDuration = 300;
+  let initialDuration = 300;
   let timerInterval;
-
-  // Format time as MM:SS
   function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
     return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
   }
-
-  // Update the timer display
   function updateTimer() {
     const timerElement = document.getElementById("timer");
     if (countdownDuration > 0) {
       countdownDuration--;
       timerElement.innerText = formatTime(countdownDuration);
-
-      // Change color to red when time is below 60 seconds
       if (countdownDuration < 60) {
         timerElement.style.color = "red";
       } else {
@@ -968,28 +840,18 @@ GroupAssignment.init();
       clearInterval(timerInterval);
     }
   }
-
-  // Start the countdown when the button is clicked
   document.getElementById("start-button").addEventListener("click", function () {
-    clearInterval(timerInterval); // Ensure no duplicate intervals
+    clearInterval(timerInterval);
     timerInterval = setInterval(updateTimer, 1000);
-
-    // Disable the start button while the timer is running
     this.disabled = true;
     this.innerText = "Timer Running...";
   });
-
-  // Reset the timer when the reset button is clicked
   document.getElementById("reset-button").addEventListener("click", function () {
-    clearInterval(timerInterval); // Stop the timer
-    countdownDuration = initialDuration; // Reset time to initial value
-
-    // Reset the timer display
+    clearInterval(timerInterval);
+    countdownDuration = initialDuration;
     const timerElement = document.getElementById("timer");
     timerElement.innerText = formatTime(countdownDuration);
-    timerElement.style.color = "black"; // Reset color to black
-
-    // Re-enable the start button
+    timerElement.style.color = "black";
     const startButton = document.getElementById("start-button");
     startButton.disabled = false;
     startButton.innerText = "Start Timer";
@@ -1059,65 +921,113 @@ One image. One sentence. Body-first.
 
 ---
 
-# Appendix: Detailed Renewable Energy Data
+# Appendix: Reference & Self-Study Material
 
 ---
 
-## Appendix A: Solar Energy — Full Detail
+## Appendix: Videos to Watch on Your Own
 
-::: {style="font-size: 1.2em; line-height: 1.6;"}
-- **Pros**: Abundant sunlight; low operating costs; reduces electricity bills
-- **Cons**: High initial installation costs; requires significant space; production variability due to weather
-- **Short-term Impact**: Immediate reduction in carbon emissions and energy costs
-- **Long-term Impact**: Enhances energy security and sustainability, but poses challenges for grid stability and storage solutions
+**Do We Need Nuclear Energy to Stop Climate Change?**
 
-**The Duck Curve Problem**: As solar capacity increases, midday generation floods the grid while evening demand spikes. The difference between midday minimum and evening peak creates the "duck" shape. California ISO documented this phenomenon extensively.
+{{< video https://www.youtube.com/embed/EhAemz1v7dQ width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Kurzgesagt (~10 min). Concludes nuclear and renewables should be partners, not opponents.*
 :::
 
 ---
 
-## Appendix B: Wind Energy — Full Detail
+## Appendix: The Duck Curve Explained (Video)
 
-::: {style="font-size: 1.2em; line-height: 1.6;"}
-- **Pros**: Clean and renewable; potential for offshore installations
-- **Cons**: Limited land availability; high installation and maintenance costs; marine and bird life impact
-- **Short-term Impact**: Diversifies energy sources, reducing reliance on fossil fuels
-- **Long-term Impact**: Steady energy supply if technological and environmental challenges addressed
+{{< video https://www.youtube.com/embed/YYLzss58CLs width="1600" height="900" >}}
 
-**Blade Disposal Problem**: Turbine blades are made of composite fiberglass — strong, light, and nearly impossible to recycle economically. Average blade lifespan: 20-25 years. Tens of thousands will need replacement in the coming decade.
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Vox (~5 min) — Visual deep-dive into why more solar creates grid problems.*
 :::
 
 ---
 
-## Appendix C: Hydropower, Geothermal, Biomass, Tidal — Full Detail
+## Appendix: Can YOU Fix Climate Change?
+
+{{< video https://www.youtube.com/embed/yiw6_JakZFc width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Kurzgesagt (~15 min). The concept of "personal carbon footprint" was invented by BP's ad agency in 2005.*
+:::
+
+---
+
+## Appendix: More "Wait, What?" Energy Facts
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+| Topic | "Wait, What?" Opening |
+|-------|----------------------|
+| Nuclear safety | "Nuclear has killed fewer people per kWh than solar. Yes, including Chernobyl." |
+| Solar limits | "California has so much solar it pays other states to take it — then fires up gas plants at sunset." |
+| Wind disposal | "A single turbine blade is longer than a 747 wing. It goes to landfill." |
+| HK EVs | "Your Tesla charged in HK might be dirtier than a Prius — the grid is 70% fossil." |
+| Germany | "Germany spent €500B on green energy. Its CO₂ barely changed for a decade." |
+| Scale | "More solar hits the Earth in one hour than humanity uses in a year." |
+| Carbon footprint | "Your 'personal carbon footprint'? BP's ad agency invented that in 2005." |
+:::
+
+---
+
+## Appendix: Local Energy Projects
+
+## Local Hydropower Plant
+{{< video https://www.youtube.com/embed/sXVeMwZgPLU?si=9r_KMzcTRwrLeu4E width="1600" height="900" >}}
+
+---
+
+## [Local Geothermal Project](https://re.emsd.gov.hk/english/energy/thermal/ther_re.html) {background-image="https://re.emsd.gov.hk/english/energy/thermal/images/ther_re_01.jpg" background-size="contain"}
+
+---
+
+## [Tidal Farm @ CityU](https://www.cityu.edu.hk/see_mer/tidal-Intro.htm) {background-image="https://green.org/wp-content/uploads/2024/01/Tidal-generator-1024x724-1.webp" background-size="contain"}
+
+---
+
+## Appendix: Anita Tang's Rooftop Solar
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Anita Tang** (56) and her architect husband **Stephen** (62) installed solar panels at Fairview Park, Yuen Long, in October 2018.
+
+- Installation cost: **HK$180,000**
+- Monthly earnings from CLP Feed-in Tariff: **HK$2,500–3,000**
+- Expected payback: ~6 years
+- Approval took **two months** instead of two weeks
+
+Anita: *"Some suppliers said they were registered, but we couldn't find their address."*
+
+Village house owner **Newman Lau Man-choi** in Clear Water Bay can only use half his rooftop — by regulation.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
+*Sources: SCMP, Athena Chan, July 14, 2019; HKFP, December 25, 2018*
+:::
+
+---
+
+## Appendix: Detailed Renewable Energy Data
 
 ::: {style="font-size: 1.1em; line-height: 1.5;"}
-**Hydropower**: Reliable and consistent; low GHG emissions. But: ecosystem disruption, high construction costs, and essentially zero feasibility in Hong Kong due to geography.
+**Solar**: Abundant sunlight; low operating costs. But: high initial costs, requires significant space, production variability. Duck Curve problem at scale.
 
-**Geothermal**: Consistent and reliable; small land footprint. But: requires specific geological conditions Hong Kong lacks. Local project via [EMSD](https://re.emsd.gov.hk/english/energy/thermal/ther_re.html) is small-scale ground-source heat pumps, not power generation.
+**Wind**: Clean and renewable; offshore potential. But: high installation/maintenance costs, marine and bird life impact. Blade disposal problem.
 
-**Biomass**: Utilizes organic waste; reduces landfill. But: can lead to deforestation; emits pollutants during combustion; requires significant land and water.
+**Hydropower**: Reliable, low GHG. But: ecosystem disruption, zero feasibility in HK.
 
-**Tidal/Wave**: Predictable energy source; minimal visual impact. But: high installation costs; early-stage technology; impact on marine ecosystems. [CityU research](https://www.cityu.edu.hk/see_mer/tidal-Intro.htm) is exploring local potential.
+**Geothermal**: Consistent, small footprint. But: wrong geology for HK. [EMSD project](https://re.emsd.gov.hk/english/energy/thermal/ther_re.html) is ground-source heat pumps only.
+
+**Biomass**: Uses organic waste. But: deforestation risk, combustion emissions.
+
+**Tidal/Wave**: Predictable, minimal visual impact. But: high cost, early-stage. [CityU research](https://www.cityu.edu.hk/see_mer/tidal-Intro.htm) exploring potential.
 :::
 
 ---
 
-## Appendix D: Hong Kong Renewable Energy — Detailed Landscape
-
-::: {style="font-size: 1.2em; line-height: 1.6;"}
-**Solar in HK**: Utilizes rooftop and building façade space. Limited by Hong Kong's dense urban environment — buildings shade each other. Government Feed-in Tariff (FiT) scheme pays up to HK$5/kWh for small installations.
-
-**Wind in HK**: Offshore potential in South China Sea. CLP's Hok Un wind turbine was a pilot. Challenges: typhoons, shipping lanes, cost.
-
-**Waste-to-Energy in HK**: T-Park (sludge treatment, operational). I-Park (integrated waste management, under construction in Shek Kwu Chau). Addresses waste crisis while generating power.
-
-**Nuclear Import**: Daya Bay Nuclear Power Station provides ~25% of Hong Kong's electricity via CLP. This single contract is Hong Kong's largest decarbonization achievement — and it's not even "renewable" by most definitions.
-:::
-
----
-
-## Appendix E: Case Study Data — Full Sources
+## Appendix: Full Sources
 
 ::: {style="font-size: 1.1em; line-height: 1.6;"}
 | Claim | Source |
@@ -1127,29 +1037,15 @@ One image. One sentence. Body-first.
 | Germany CO₂ stagnation 2009-2019 | Agora Energiewende; UBA |
 | Germany €500B+ Energiewende cost | DIW Berlin; BMWi federal reports |
 | Ontario bills doubled | Ontario Energy Board; Auditor General (2015) |
-| Ontario lost 300K manufacturing jobs | Statistics Canada (multiple factors) |
 | California negative pricing | CAISO market reports |
 | HK grid ~70% fossil | CLP & HK Electric annual reports (2023) |
+| HK air pollution 3,508 deaths | Clean Air Network / HKU (2024) |
 | Wind blade landfill | Bloomberg (2020); Liu & Barlow (2017) |
 | Solar costs dropped 89% | IRENA Renewable Power Generation Costs (2023) |
-:::
-
----
-
-## Appendix F: "Wait, What?" Energy Facts — Full Sources
-
-::: {style="font-size: 1.1em; line-height: 1.6;"}
-| Claim | Source |
-|-------|--------|
-| Nuclear safest per kWh | Our World in Data; Markandya & Wilkinson (2007) |
-| Solar/wind deaths from manufacturing | Sovacool (2016); Fthenakis & Kim (2010) |
-| Germany shut nuclear, burned more coal | Clean Energy Wire; Fraunhofer ISE data |
-| Wind blades can't be recycled | Bloomberg (2020); NREL studies |
-| California negative electricity prices | CAISO market data; EIA |
-| HK EV ~100-120g CO₂/km on grid | Calculated from grid emissions factor × EV efficiency |
-| Efficient hybrid ~90-110g CO₂/km | ICCT lifecycle analysis |
+| CLP "mostly nuclear" future | Energy Connects, August 2024 |
+| HK offshore wind 32% potential | EMSD estimates |
 :::
 
 ::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
-*Note: Energy data evolves rapidly. Always check for most recent reports. Regional and temporal variations are significant.*
+*Note: Energy data evolves rapidly. Always check for most recent reports.*
 :::

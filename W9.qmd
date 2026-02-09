@@ -32,6 +32,54 @@ Last week's strategy: **The Fork**
 
 ---
 
+## Something You Took Away Last Week
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Week 8 showed you that the **ocean — invisible to most of us — is doing the heavy lifting.**
+
+It absorbs 30% of our CO₂. It traps 90% of excess heat. It feeds 500 million people through coral reefs alone.
+
+And yet: the Great Pacific Garbage Patch exists. 46% of it is fishing nets, not consumer plastic. The biggest damage comes from industries most people never see.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+What you can't see still matters most. And today: the people who suffer most are also **invisible.**
+:::
+
+---
+
+## From Invisible Systems → Invisible People
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Last week: *"What we can't see (the ocean) matters most."*
+
+This week: *"The people who suffer aren't the ones who caused it."*
+
+**Responsibility asymmetry.**
+
+The Carteret Islands are sinking. Their residents produce virtually zero carbon. The nations that do? They're building sea walls for themselves.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
+Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → Epistemic Humility → Invisible Infrastructure → **now: Responsibility Asymmetry.**
+:::
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+{{< video https://www.youtube.com/embed/jBBsv0QyscE width="1400" height="788" >}}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+**Tuvalu's Foreign Minister addressed COP26 standing in the ocean.**
+
+*The podium was where dry land used to be.*
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -421,6 +469,24 @@ Spectacle
 **Don't say:** "We should help in origin countries."
 
 **Say:** "Every dollar spent resettling one refugee in Hong Kong could support 100 people in a camp closer to home. Math isn't cruel — misallocated compassion is."
+:::
+
+---
+
+## One Image. One Speech.
+
+::: {style="font-size: 1.6em; text-align: center; padding: 50px; background: #0a3d62; color: white; border-radius: 15px; line-height: 1.8;"}
+In November 2021, Tuvalu's Foreign Minister **Simon Kofe** addressed COP26 in Glasgow.
+
+He wore a suit and tie. He stood at a formal podium.
+
+[**The water was up to his knees.**]{style="color: #e74c3c; font-size: 1.3em;"}
+
+He was standing where dry land used to be.
+:::
+
+::: {style="font-size: 1.4em; text-align: center; margin-top: 20px;"}
+{{< video https://www.youtube.com/embed/jBBsv0QyscE width="1600" height="900" >}}
 :::
 
 ---

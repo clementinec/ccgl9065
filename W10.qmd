@@ -31,6 +31,57 @@ Last week's strategy: **The Invisible Bandwagon**
 
 ---
 
+## Something You Took Away Last Week
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Week 9 showed you **responsibility asymmetry** — the cruel arithmetic of climate change.
+
+The Carteret Islanders produce virtually zero carbon. They're losing their homes. Meanwhile, the highest emitters are building defences for *themselves.*
+
+There's no "climate refugee" in international law. The 1951 Convention doesn't cover it. 216 million people may be displaced by 2050.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+Asymmetry means the system is entangled. Pull one thread, **everything moves.**
+:::
+
+---
+
+## From Who Suffers → How Everything Connects
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Last week: *"The people who suffer aren't the ones who caused it."*
+
+This week: *"Everything is connected — and some connections are irreversible."*
+
+**Cascade effects and tipping points.**
+
+Wolves change rivers. Permafrost melts into methane. One feedback loop triggers another. This week, you'll see why systems thinking isn't abstract — it's survival-critical.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
+Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → Epistemic Humility → Invisible Infrastructure → Responsibility Asymmetry → **now: Cascade Effects.**
+:::
+
+---
+
+## {background-color="#000000"}
+
+::: {style="display: flex; justify-content: space-around; align-items: center;"}
+::: {style="text-align: center; width: 48%;"}
+![**Aral Sea, 2000**](https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/84000/84437/aralsea_tmo_2000238.jpg){width="100%"}
+:::
+::: {style="text-align: center; width: 48%;"}
+![**Aral Sea, 2014**](https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/84000/84437/aralsea_tmo_2014231.jpg){width="100%"}
+:::
+:::
+
+::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
+*Once the world's 4th largest lake. Drained for cotton. A cascade effect visible from space.*
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -199,6 +250,34 @@ PRO-DEVELOPMENT
 ## 5.3 Wolves' Reintroduction to Yellowstone: Saga from 1920s to 1995
 
 ![](https://cdn.yellowstonepark.com/wp-content/uploads/2021/06/Wolf-Gray-YS_NPSJimPeacoPD_2400.jpg?crop=535:301&width=1070&enable=upscale)
+
+---
+
+## See It: How Wolves Changed Rivers
+
+{{< video https://www.youtube.com/embed/ysa5OBhXz-Q width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Sustainable Human (~4.5 min, narrated by George Monbiot). 43 million views. The most famous cascade effect ever documented.*
+:::
+
+---
+
+## One Image. One Chain.
+
+::: {style="font-size: 2em; text-align: center; padding: 50px; background: #1a1a2e; color: white; border-radius: 15px; line-height: 2;"}
+We killed the [**wolves**]{style="color: #e74c3c;"}.
+
+The [**deer**]{style="color: #f39c12;"} ate the riverbanks.
+
+The [**trees**]{style="color: #27ae60;"} disappeared.
+
+The [**rivers**]{style="color: #3498db;"} moved.
+
+**Everything connects. Everything.**
+:::
+
+---
 
 ## 5.3.1 ReIntroduction of the Wolves
 

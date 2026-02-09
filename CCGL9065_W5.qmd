@@ -1,0 +1,590 @@
+---
+title: "CCGL9065: Our Response to Climate Change: HK2100"
+subtitle: "Architecture and Cities"
+author: Dr. Hongshan Guo and Class
+
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1200
+    embed-resources: true
+    incremental: true
+    center: true
+
+---
+
+# Last Week's Strategy: Sensory Hijack
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **Sensory Hijack**
+
+*The body believes what the mind resists.*
+
+**Anyone try it?** Did you make your audience physically uncomfortable — on purpose?
+:::
+
+---
+
+## Something You Took Away Last Week
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Week 4 gave you a new lens: **timing changes everything.**
+
+The Duck Curve showed you that solar energy isn't just about *how much* — it's about *when.*
+
+- The sun shines when you don't need power.
+- Demand peaks exactly when supply drops.
+- A "clean" grid can collapse if you ignore the clock.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+System boundaries aren't just spatial — they're **temporal.** And that matters even more when you scale up to cities.
+:::
+
+---
+
+## From Energy Grids → The Built Environment
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Last week: *"When does the energy flow?"*
+
+This week: *"What did we build — and what does it cost the planet?"*
+
+**Same systems thinking. Biggest system boundary yet.**
+
+A city is the ultimate system — energy, water, waste, transport, people — all interacting inside a boundary of concrete and glass that traps heat, consumes resources, and reshapes the climate around it.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
+Your toolkit is growing: Spectacle Formula → Complexity → System Boundaries → Timing → **now: the built environment as climate actor.**
+:::
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Atlanta, Georgia — NASA thermal satellite image. Red = heat. The grey grid of roads and buildings burns. The green patches of forest stay cool.](https://eoimages.gsfc.nasa.gov/images/imagerecords/7000/7205/atlantatmp_etm_2000241.jpg){width="80%"}
+:::
+
+::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
+*This is what a city looks like to a thermometer.*
+:::
+
+---
+
+# This Week's Battlefield
+
+---
+
+## Two Sides. Two Visions for Our Cities.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Redesign the City
+
+= "Density done right saves the planet"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Build for Growth
+
+= "Cities drive prosperity — don't slow them down"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+| [PRO-CLIMATE]{style="color: #27ae60; font-weight: bold;"} | [PRO-DEVELOPMENT]{style="color: #3498db; font-weight: bold;"} |
+|-------------|-----------------|
+| [Green infrastructure]{style="color: #27ae60;"} mandatory | [Economic growth]{style="color: #3498db;"} comes first |
+| [Compact]{style="color: #27ae60;"} cities, less sprawl | [Expand]{style="color: #3498db;"} to meet demand |
+| [Regulate]{style="color: #27ae60;"} building emissions | [Incentivize]{style="color: #3498db;"}, don't restrict |
+| [Retrofit]{style="color: #27ae60;"} old buildings | [Build]{style="color: #3498db;"} new efficient ones |
+:::
+
+::: {style="font-size: 1.3em; text-align: center; margin-top: 30px; font-weight: bold;"}
+Keep this tension in mind. It'll shape everything we discuss today.
+:::
+
+---
+
+# But First: A Number That Should Bother You
+
+---
+
+## Wait, What?
+
+::: {style="font-size: 2.2em; text-align: center; padding: 40px; background: #1a1a2e; color: white; border-radius: 15px;"}
+Cities cover just [**3%**]{style="color: #e74c3c;"} of the Earth's land surface.
+
+They produce [**over 70%**]{style="color: #e74c3c;"} of global CO₂ emissions.
+
+And consume [**78%**]{style="color: #e74c3c;"} of the world's energy.
+:::
+
+::: {style="font-size: 1.6em; text-align: center; margin-top: 30px;"}
+**The built environment isn't just affected by climate change. It's *driving* it.**
+:::
+
+---
+
+## More Numbers That Don't Add Up
+
+::: {style="font-size: 1.6em; line-height: 2.0;"}
+- By 2050, [**68%**]{style="color: #e74c3c;"} of the world's population will live in cities (UN)
+
+- NYC's Central Park can be [**up to 5°C cooler**]{style="color: #3498db;"} than the streets just 200 metres away — same day, same city
+
+- Vienna turns [**250,000 tonnes of garbage**]{style="color: #27ae60;"} into heat for 60,000 homes — in a building designed by an artist
+
+- Hong Kong buildings account for [**over 60%**]{style="color: #e74c3c;"} of the city's electricity consumption — and [**90%**]{style="color: #e74c3c;"} of that electricity comes from fossil fuels
+:::
+
+---
+
+# Anthropogenic Behaviour
+
+---
+
+## A Word You Already Know
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+[**Anthropogenic**]{style="color: #c0392b; font-size: 1.2em;"}: of, relating to, or resulting from the influence of human beings on nature.
+
+You've heard this in Week 2 (food systems), Week 3 (fashion), Week 4 (energy).
+
+But this week it becomes *architectural*. The question isn't just what we consume — it's **what we build.**
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; background: #f9e79f; padding: 20px; border-radius: 10px;"}
+Buildings don't just *use* energy. They **shape the microclimate** of the city around them.
+:::
+
+---
+
+# The Metropolis
+
+---
+
+## Fritz Lang Saw It Coming
+
+::: {style="display: flex; gap: 40px;"}
+::: {style="width: 55%;"}
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Metropolis** (1927)
+
+A film set in the year **2026.**
+
+That's... *this year.*
+
+Fritz Lang imagined a city of towering skyscrapers, underground workers, and a society split between those who plan and those who labour.
+
+**How wrong was he?**
+:::
+:::
+::: {style="width: 40%; font-size: 0.9em; color: #888;"}
+*Fritz Lang's Metropolis (1927) — a vision of the year 2026*
+:::
+:::
+
+---
+
+## What Makes a Metropolis?
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Characteristics:**
+
+- High population density
+- Diverse cultural and economic activities
+- Complex infrastructure systems
+- Unique blend of modern and traditional architecture
+- Hub for innovation, entrepreneurship, and creativity
+- Centre for education, healthcare, and entertainment
+
+**Challenges:**
+
+- Traffic congestion and air pollution
+- Inadequate housing and overcrowding
+- Strain on public services and infrastructure
+- Affordability crises
+- **Reverse Urbanization** — the suburban pull
+:::
+
+---
+
+## Why Does ANYBODY Want to Stay?
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+- **Economic Opportunities**: Jobs, pay grades, larger talent pool, startup ecosystems
+- **Cultural Diversity & Entertainment**: Theatre, museums, people
+- **Education & Research**: Universities, institutions
+- **Infrastructure & Transportation**: Connectivity
+- **Networking & Collaboration**: Proximity = opportunity
+:::
+
+::: {style="font-size: 1.5em; margin-top: 20px; background: #2c3e50; color: white; padding: 20px; border-radius: 10px;"}
+**The metropolis is a climate problem *and* a climate solution.** That's the paradox.
+:::
+
+---
+
+## Reverse Urbanization
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Definition**: The process of metropolitan residents moving *out.*
+
+**Known causes:**
+
+- Housing affordability
+- High cost of living
+- Crowdedness
+
+**Impact:**
+
+- Shift in population dynamics
+- Growth in smaller cities and towns
+- [**What does it mean for the metropolis?**]{style="color: #f1c40f;"}
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic;"}
+When people flee cities, does the climate problem follow them — or just spread out?
+:::
+
+---
+
+# The Climate Footprint of a City
+
+---
+
+## Urban Heat Island: The Invisible Architecture
+
+::: {style="font-size: 1.6em; line-height: 1.8; background: #1a1a2e; color: white; padding: 40px; border-radius: 15px;"}
+Every surface you see in a city — **concrete, glass, asphalt, steel** — absorbs heat during the day and radiates it at night.
+
+This makes metropolitan areas [**1–3°C hotter**]{style="color: #e74c3c;"} than surrounding rural areas.
+
+That's not weather. That's **architecture.**
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; text-align: center;"}
+This is the **Urban Heat Island** (UHI) effect — and it's why your city is literally hotter than the countryside.
+:::
+
+---
+
+## Why UHI Matters More Than You Think
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+It's not just discomfort. The UHI effect triggers a **cascade**:
+
+1. **Higher temperatures** → more air conditioning demand
+2. **More AC** → more electricity consumption
+3. **More electricity** → more fossil fuel burning (remember: HK is 90% fossil-powered)
+4. **More burning** → more heat → [**the city gets even hotter**]{style="color: #e74c3c;"}
+
+This is a **positive feedback loop.** The hotter the city gets, the more energy it uses to cool down, which makes it hotter.
+:::
+
+::: {style="font-size: 1.5em; margin-top: 20px; background: #e74c3c; color: white; padding: 20px; border-radius: 10px; text-align: center;"}
+**UHI is Week 10's "systems thinking" in miniature.** Remember this when we get there.
+:::
+
+---
+
+## See It: How a City Traps Heat
+
+{{< video https://www.youtube.com/embed/ZQ6fSHr5TJg width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Vox (~7 min). Thermal cameras reveal Phoenix's UHI. The twist: wealthy neighbourhoods are cooler than poor ones. Heat is an inequality problem.*
+:::
+
+---
+
+## One Image. One Number.
+
+::: {style="font-size: 4em; text-align: center; padding: 80px; background: #1a1a2e; color: white; border-radius: 15px;"}
+[**3%**]{style="color: #e74c3c;"} of land.
+
+[**70%**]{style="color: #e74c3c;"} of CO₂.
+:::
+
+::: {style="font-size: 1.6em; text-align: center; margin-top: 30px;"}
+That's cities. That's *us.*
+:::
+
+---
+
+## Metropolis & Climate Change
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+Five ways growing architecture affects climate:
+
+| Impact | Detail |
+|--------|--------|
+| **Urban Heat Island** | Concrete & glass trap heat; cities 1–3°C hotter |
+| **Energy Consumption** | Per capita energy demand concentrates in cities |
+| **Transportation Emissions** | Cities as logistics hubs — commuting, freight |
+| **Waste Management** | More waste per area; burning → GHG; landfills → methane |
+| **Water Scarcity** | Large, concentrated demands strain supply |
+:::
+
+---
+
+# Case Study 1: New York City
+
+---
+
+## The Paradox of Central Park
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+NYC's population has remained relatively steady despite everything — because of:
+
+- **Diverse economy** (finance, tech, creative industries)
+- **World-class cultural offerings** (museums, Broadway, food)
+- **Continued investment** in infrastructure and public services
+
+The city continues to attract people due to its unique combination of known and unknown opportunity.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; background: #27ae60; color: white; padding: 20px; border-radius: 10px;"}
+But here's the thing: NYC's Central Park — 3.4 km² of green — drops the temperature around it by up to **5°C** compared to Midtown. **One park. Five degrees.**
+:::
+
+---
+
+# Waste-to-Energy: Turning the Problem Into the Solution
+
+---
+
+## WtE: Harvesting Energy From Anthropogenic Activity
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**How it works:**
+
+- Converts solid waste materials into usable energy
+- Combustion/thermal treatment of waste
+- Heat produces steam → drives turbines → generates electricity
+
+**Why it matters:**
+
+- Worldwide WtE market to reach **USD $66 billion by 2032** (Spherical Insights, 2023)
+- Recovers resources, reduces landfill use (methane drop)
+- Reduces reliance on fossil fuels
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic;"}
+But is burning waste really "clean"? That depends on where you draw the system boundary. (Sound familiar?)
+:::
+
+---
+
+# Case Study 2: Vienna's Spittelau Incinerator
+
+---
+
+## The World's Most Beautiful Trash Plant
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+A 1960s incinerator, redesigned in the 1980s by artist **Friedensreich Hundertwasser.**
+
+**The numbers:**
+
+- Processes **250,000 tonnes** of waste per year
+- Generates **60 GWh** of electricity
+- Produces **500 GWh** of district heating
+- Heats **~60,000 Viennese homes**
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; background: #8e44ad; color: white; padding: 20px; border-radius: 10px;"}
+An incinerator that people *want* to visit. A tourist attraction. Architecture solving a climate problem while **looking good doing it.**
+:::
+
+---
+
+# Case Study 3: Los Angeles Water Conservation
+
+---
+
+## When a Metropolis Runs Dry
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+LA's approach to water scarcity — a preview of what many cities will face:
+
+- **TIP 1:** Leverage to save water *while* using water (efficiency at point of use)
+- **TIP 2:** Limit/stop using water under certain scenarios (restrictions)
+- **TIP 3:** Free government service to audit your private water system
+- **TIP 4:** Rebate for changing landscaping to drought-tolerant plants ("Cash for Grass")
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic;"}
+Notice: these are a mix of individual behaviour change and structural incentives. That tension will explode in Week 6 when we talk about capitalism.
+:::
+
+---
+
+# Let's Bring It Back to HK
+
+---
+
+## Hong Kong: A Metropolis Under Pressure
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**What/how/why might you care about this topic?**
+
+- **Livelihood planning:** Future career/family plans — choosing between metropolis and countryside/suburbs
+- **Beyond simple engagement:** Tree-planting campaigns, local community gardens, community-based sustainability efforts
+- **Alternatives to city life:** What does it mean to move to suburbs — economically *and* environmentally?
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; background: #e67e22; color: white; padding: 20px; border-radius: 10px;"}
+HeGang (鶴崗) in China: a city where apartments cost less than a phone. Is *that* the future — or just urban decay with a viral marketing campaign?
+:::
+
+---
+
+## This Week's Debate Motion
+
+::: {style="font-size: 2em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
+**"This house believes that Hong Kong should prioritise green retrofitting of existing buildings over new development to meet its 2050 carbon neutrality target."**
+:::
+
+::: {style="font-size: 1.3em; margin-top: 30px; text-align: center;"}
+PRO-CLIMATE: Retrofit first — new builds are carbon-heavy.
+
+PRO-DEVELOPMENT: Build new, build efficient — retrofitting old buildings is a money pit.
+:::
+
+---
+
+# Your Cheatsheet
+
+---
+
+## Pro-Climate Expert/KOLs Cheatsheet {.smaller}
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Issues and Actions Proposed:**
+
+- **Compact Urban Design** — less sprawl, more density with green spaces
+- **Renewables in Buildings** — rooftop solar and alternatives
+- **Green Infrastructure** — eco-certified buildings (LEED, BEAM Plus)
+- **Sustainable Transit** — MTR expansion, electric buses
+- **Actionable HK2100 solutions:**
+  - Urban greenery expanded — vertical gardens, expanded parks
+  - More efficient HVAC options
+  - Mandatory energy audits for commercial buildings
+:::
+
+---
+
+## Pro-Development Expert/KOLs Cheatsheet {.smaller}
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Issues and Actions Proposed:**
+
+- **Economic Prioritisation** — urbanisation is a major driver of HK's economy
+- **Efficiency Overhaul** — existing building renovation/retrofit needs to happen *and will result in more GHG emissions* (during construction)
+- **Loosened Regulation** via public policy to improve development
+- **Practical next steps:**
+  - Integrated Waste Management Facilities — Waste Incineration Plants Expansion (HK EPD)
+  - Public-private partnerships for infrastructure
+  - Smart city technology investment
+:::
+
+---
+
+# This Week's Conceptual Takeaway
+
+---
+
+## The Built Environment Is a Climate Actor
+
+::: {style="font-size: 1.6em; line-height: 1.8; background: #1a1a2e; color: white; padding: 40px; border-radius: 15px;"}
+Before this week, "climate change" might have felt like an *atmosphere* problem.
+
+Now you know: **every building is a climate decision.**
+
+- What it's made of (concrete = 8% of global CO₂)
+- How it's cooled (AC → fossil fuels → more heat)
+- Where it's placed (UHI feedback loop)
+- What happens to its waste (landfill vs. WtE)
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad; text-align: center;"}
+**Your portable takeaway:** The built environment isn't background — it's the biggest system boundary we've seen yet.
+:::
+
+---
+
+# The Persuasion Playbook | Strategy #4
+
+---
+
+## The Anchoring Trap
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+Realtors show you a terrible, overpriced house **first**.
+
+The second house — still overpriced — looks reasonable.
+
+**You don't evaluate houses. You evaluate differences from the anchor.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is **Anchoring** (Tversky & Kahneman, 1974).
+
+The first number you hear distorts all subsequent judgment — even when it's obviously irrelevant.
+
+In experiments, people estimated higher values after spinning a **random wheel** with higher numbers.
+
+**The brain cannot ignore the anchor.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+When someone opened with an extreme number:
+
+*"AI could consume 30% of global electricity by 2040. Even the conservative estimate is 12%."*
+
+Now 12% sounds reasonable. But 12% is still catastrophic.
+
+**The anchor did its job.**
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**Lead with the extreme. Then offer the "reasonable" version.**
+
+Set the anchor before they do.
+:::

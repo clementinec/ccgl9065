@@ -1,0 +1,539 @@
+---
+title: "CCGL9065: Our Response to Climate Change: HK2100"
+subtitle: "Ocean, Decolonized"
+author: Dr. Hongshan Guo and Class
+
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1200
+    embed-resources: true
+    incremental: true
+    center: true
+
+---
+
+# Last Week's Strategy: The Pre-Mortem
+
+---
+
+## Quick Callback
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Last week's strategy: **The Pre-Mortem**
+
+*Assume you failed. Now fix it.*
+
+**Anyone try it?** Did you imagine your argument bombing and then strengthen the weak points?
+:::
+
+---
+
+## Something You Took Away Last Week
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Week 7 taught you about **narrative power** — who controls the story controls the future.
+
+The Hockey Stick Graph, Climategate, moon landing conspiracies — you saw how facts can be manufactured, distorted, or weaponised depending on who's telling the story and why.
+
+**Epistemic humility:** the recognition that what you "know" depends on who collected the data and who framed the question.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+Now apply that lens to the biggest thing on Earth that most people never think about.
+:::
+
+---
+
+## From Contested Truth → Invisible Infrastructure
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Last week: *"What if the truth itself is contested?"*
+
+This week: *"What if the most important system on Earth is one you can't even see?"*
+
+**The ocean.**
+
+It covers 71% of the planet. It absorbs 30% of our CO₂. It traps 90% of excess heat. And the way we study it — who gets to research it, who profits from it, whose knowledge counts — is shaped by the same power structures you studied last week.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
+Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → Epistemic Humility → **now: Invisible Infrastructure.**
+:::
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![A sea turtle entangled in a ghost net — abandoned fishing gear drifting through the ocean. 46% of the Great Pacific Garbage Patch is fishing nets.](https://upload.wikimedia.org/wikipedia/commons/7/7b/Sea_turtle_entangled_in_a_ghost_net.jpg){width="75%"}
+:::
+
+::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
+*You were told to stop using plastic straws. This is what's actually killing the ocean.*
+:::
+
+---
+
+# This Week's Battlefield
+
+---
+
+## Two Sides. Two Approaches to the Ocean.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Decolonize Ocean Science
+
+= "Indigenous knowledge is science too"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Science-Led Solutions
+
+= "Rigour first, sentiment second"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+| [PRO-CLIMATE]{style="color: #27ae60; font-weight: bold;"} | [PRO-DEVELOPMENT]{style="color: #3498db; font-weight: bold;"} |
+|-------------|-----------------|
+| [Integrate]{style="color: #27ae60;"} indigenous knowledge | [Prioritize]{style="color: #3498db;"} peer-reviewed science |
+| [Community-led]{style="color: #27ae60;"} marine management | [Expert-led]{style="color: #3498db;"} resource management |
+| [Restrict]{style="color: #27ae60;"} industrial fishing | [Manage]{style="color: #3498db;"} fishing sustainably |
+| [Redistribute]{style="color: #27ae60;"} research benefits | [Scale]{style="color: #3498db;"} up proven technology |
+:::
+
+::: {style="font-size: 1.3em; text-align: center; margin-top: 30px; font-weight: bold;"}
+This week, the debate isn't just "climate vs. growth." It's about **whose knowledge counts.**
+:::
+
+---
+
+# The Ocean You Don't See
+
+---
+
+## A Quote to Sit With
+
+::: {style="font-size: 1.8em; text-align: center; padding: 50px; background: #1a1a2e; color: white; border-radius: 15px; line-height: 1.6;"}
+*"The critical [state of the oceans]{style="color: #e74c3c;"} and the intersection of [marine science]{style="color: #e74c3c;"}, [colonial legacies]{style="color: #e74c3c;"}, and [indigenous knowledge]{style="color: #e74c3c;"}."*
+:::
+
+---
+
+## Wait, What?
+
+::: {style="font-size: 2.0em; text-align: center; padding: 40px; background: #0a3d62; color: white; border-radius: 15px;"}
+The ocean covers [**71%**]{style="color: #3498db;"} of Earth's surface.
+
+It circulates [**83%**]{style="color: #3498db;"} of global CO₂.
+
+It absorbs [**30%**]{style="color: #3498db;"} of our CO₂ emissions.
+
+It traps [**90%**]{style="color: #3498db;"} of excess greenhouse heat.
+:::
+
+::: {style="font-size: 1.6em; text-align: center; margin-top: 30px;"}
+And yet — we've explored less than **20%** of it. We know more about the surface of Mars.
+:::
+
+---
+
+# The Ocean's Plight
+
+---
+
+## Two Crises, One System
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**1. Climate Regulation Under Threat**
+
+- The ocean is the planet's thermostat — absorbing solar radiation, sequestering carbon, regulating weather
+- But it's reaching saturation: ocean acidification, warming currents, disrupted circulation patterns
+- Vulnerability to overexploitation is accelerating
+
+**2. Biodiversity Loss**
+
+- Plastic pollution — 400 million tonnes produced each year
+- Coral reef degradation — affecting the 0.5 billion people who depend on them
+- Decline in marine biodiversity — cascading through global ecosystems
+:::
+
+---
+
+## Coral Reefs: The Rainforests of the Sea
+
+::: {style="font-size: 1.5em; line-height: 1.8; background: #0a3d62; color: white; padding: 40px; border-radius: 15px;"}
+**Coral reefs** protect coastlines from storms and erosion, provide jobs for local communities, and offer opportunities for recreation.
+
+Over [**0.5 Billion people**]{style="color: #e74c3c;"} depend on reefs for food, income and protection. (NOAA)
+
+Losing the coral reefs is not only losing coastal line/development and the job opportunity — it will be an **economic disaster.**
+:::
+
+---
+
+# Anthropogenic Plastic
+
+---
+
+## The Numbers Are Staggering
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+- **Synthetic organic polymer** made from petroleum
+- Over **400 million tonnes** produced each year
+- Sources: stormwater runoff, sewer overflows, littering, inadequate waste management, industrial activities, tyre abrasion, construction, illegal dumping
+- Breaks down into **microplastics** (≤ 5mm) under UV light
+  - Found in **human blood**
+  - Possible biomagnification up the food chain
+- Degrades over **hundreds to thousands of years**
+:::
+
+::: {style="font-size: 1.5em; margin-top: 20px; background: #e74c3c; color: white; padding: 20px; border-radius: 10px; text-align: center;"}
+**Plastic is turning the ocean into a minefield.**
+:::
+
+---
+
+## See It: The World We're Making
+
+{{< video https://www.youtube.com/embed/RS7IzU2VJIQ width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Kurzgesagt (~9 min). The scale of plastic pollution made visceral. The twist: the Great Pacific Garbage Patch is invisible — it's a "plastic soup" of microparticles, not a floating island.*
+:::
+
+---
+
+## One Image. One Fact.
+
+::: {style="font-size: 3em; text-align: center; padding: 80px; background: #0a3d62; color: white; border-radius: 15px;"}
+[**46%**]{style="color: #e74c3c;"} of the Great Pacific Garbage Patch
+
+is **fishing nets.**
+
+[Not your plastic straw.]{style="color: #7f8c8d; font-size: 0.6em;"}
+:::
+
+---
+
+## Story-Telling With ONE Image
+
+::: {style="font-size: 1.8em; text-align: center; line-height: 1.8; padding: 40px;"}
+*A sea turtle tangled in a fishing net.*
+
+One image. One punchline. The audience does the rest.
+
+**This is the Spectacle Formula from Week 1 — in its purest form.**
+
+Fact + Human (animal) Story + Stakes = an image you can't unsee.
+:::
+
+---
+
+# The Great Pacific Garbage Patch
+
+---
+
+## Not What You Think It Is
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+The world's largest collection of floating trash — "larger than Texas."
+
+But here's what most people get wrong:
+
+- **94%** of it is microplastics — you can't see most of it
+- **46%** of the patch (by tonnage) is **fishing nets** — not plastic bags or bottles
+- [**Consumer plastics are NOT the #1 culprit**]{style="color: #e74c3c; font-weight: bold;"}
+
+A sea of plastic that will not grow smaller.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; background: #f9e79f; padding: 20px; border-radius: 10px;"}
+This is epistemic humility in action: what you *think* the problem is (consumer waste) isn't actually the biggest contributor (industrial fishing gear). **The narrative shapes the policy.**
+:::
+
+---
+
+# Who Gets to Study the Ocean?
+
+---
+
+## Status-Quo & Issues With Marine Research
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Why studying and protecting the ocean is particularly difficult:**
+
+- High costs & tech demands
+- Natural challenges from ocean-based, observation-driven research
+- Research output dominated by **G7 countries** (Canada, France, Germany, Italy, Japan, UK, USA)
+- China rose post-2010 to follow USA
+- **Extractive model**: resources and data extracted, often **without fair compensation or involvement** of local communities
+
+**Colonial Legacies Unkept:**
+
+- Less-resourced waters perpetuate colonial dynamics
+- Western scientific approaches viewed as superior to indigenous ones
+:::
+
+---
+
+## Rethinking Marine Research
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Historical Context:** Ocean exploration in less financially-resourced regions has focused on **extracting resources or data**, often without fair compensation or involvement of local communities.
+
+**Marginalization of Indigenous Knowledge:**
+
+- Indigenous peoples have a deep understanding of marine environments developed over millennia
+- Often overlooked or undervalued by mainstream marine science
+
+**How to Decolonize Ocean Science?**
+
+- Inclusive Research Collaborations
+- Benefit Sharing
+- Integrating Knowledge Systems
+- Policy and Governance reform
+- Education and Capacity Building
+:::
+
+---
+
+## Examples of Decolonized Research
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Community-Based Monitoring:**
+
+- In the Arctic, Inuit communities have been involved in **monitoring sea ice changes**, combining traditional knowledge with scientific methods to track climate change impacts.
+
+**Co-Managed Marine Protected Areas:**
+
+- In the Pacific Islands, marine protected areas are **co-managed by indigenous communities** and governments, blending traditional conservation practices with scientific research.
+
+**Coral Reef Restoration:**
+
+- In the Caribbean, **local and indigenous practices** in managing fisheries and protecting marine habitats are integrated into coral reef restoration projects.
+:::
+
+---
+
+# Let's Bring It Back to HK
+
+---
+
+## Overfishing in Hong Kong
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Historical Fishing Grounds:**
+
+- Once rich, Hong Kong's surrounding waters have seen a significant decline in fish populations due to overfishing
+
+**Modern Pressures:**
+
+- The rise in **commercial fishing practices**, coupled with **increased demand** from the city's population, exacerbates the problem
+
+**Biodiversity Loss:**
+
+- Key species have been depleted, affecting the marine ecosystem's balance and resilience
+- Potential cuts to obvious traditional food options (fish balls)
+
+**Indigenous Fishermen Knowledge:**
+
+- Local fishermen possess **generational knowledge** on sustainable fishing practices, seasonal cycles, and the behaviour of local fish populations — unbeknownst to commercial fishing operations
+- **Observational Insights:** Recognising early signs of ecosystem changes or stress
+:::
+
+---
+
+## Overfishing in Hong Kong: Solutions
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Connecting Indigenous Knowledge and Overfishing Solutions:**
+
+- **Collaborative Management** — fishermen + scientists + government
+- **No-Take Zones** — areas where fishing is prohibited to allow recovery
+- **Seasonal Restrictions** — following traditional knowledge of breeding cycles
+- **Sustainable Techniques** — traditional methods over industrial trawling
+
+**Challenges and Opportunities:**
+
+- **Regulatory Integration** — policies should reflect on-the-ground realities
+- **Cultural and Knowledge Preservation** — before it's lost
+- **Community Involvement** — local fishing communities in decision-making fosters stewardship
+:::
+
+---
+
+## This Week's Debate Motion
+
+::: {style="font-size: 2em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
+**"This house believes that Hong Kong should integrate indigenous fishermen's knowledge into its marine conservation policy, even where it contradicts conventional scientific recommendations."**
+:::
+
+::: {style="font-size: 1.3em; margin-top: 30px; text-align: center;"}
+PRO-CLIMATE: Local knowledge is irreplaceable data. Ignoring it is colonial thinking.
+
+PRO-DEVELOPMENT: Anecdotal knowledge can't replace rigorous, reproducible science.
+:::
+
+---
+
+# Role-Play Activity: Decolonizing Ocean Science
+
+---
+
+## Embracing Perspectives
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**What We Are Doing:**
+
+A **role-play activity** simulating a debate around **Decolonizing Ocean Science** within the Hong Kong context.
+
+You will assume roles: **Pro-CC** and **Anti-CC** viewpoints, as well as **stakeholder positions** (Local Fishermen, Marine Scientists, Policy Makers, Conservation NGOs — or whatever you see fit).
+
+**Why We Are Doing It:**
+
+- To **explore diverse perspectives** on issues intersecting ocean conservation, traditional knowledge, and modern science
+- To understand the **implications** of policy decisions on different communities
+- To foster **empathy and critical thinking** by stepping into others' shoes
+:::
+
+---
+
+## Ground Rules
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+- This is a [**safe space**]{style="color: #27ae60;"} for exploration and discussion. There are [**no wrong answers**]{style="color: #e74c3c;"}, only opportunities to learn.
+
+- **Respect** and **open-mindedness** are our guiding principles. Every opinion shared contributes to collective learning.
+
+- **Feedback** and **reflection** are encouraged. This is a chance to voice thoughts, ask questions, and grow from the experience.
+:::
+
+---
+
+# Your Cheatsheet
+
+---
+
+## Pro-Climate / Pro-Decolonization Talking Points {.smaller}
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Progressive Actions to Address Climate Change:**
+
+- **Urgent integration** of indigenous knowledge on par with scientific data for holistic ocean conservation
+- **Drastic policy reforms** recognising indigenous rights and community leadership in marine resource management
+- **Adoption of inclusive research models** that disrupt traditional hierarchies and empower local communities
+- **Economic redistribution** to ensure equitable benefits from marine resources for indigenous and local communities
+:::
+
+---
+
+## Pro-Development / Pro-Traditional Science Talking Points {.smaller}
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Pragmatic Approaches to Ocean Management:**
+
+- **Peer-reviewed science** must remain the foundation of policy — anecdotal knowledge has limitations
+- **Scalable technology** (satellite monitoring, AI-driven fish stock modelling) is more efficient than community-based methods
+- **Economic stability** of fishing industries supports millions of livelihoods — abrupt restrictions cause harm
+- **International coordination** through established scientific bodies is more effective than fragmented local governance
+- **Hong Kong's food security** depends on reliable supply chains, not romanticised traditional practices
+:::
+
+---
+
+# This Week's Conceptual Takeaway
+
+---
+
+## What You Can't See Still Matters Most
+
+::: {style="font-size: 1.6em; line-height: 1.8; background: #0a3d62; color: white; padding: 40px; border-radius: 15px;"}
+Before this week, "climate change" might have felt like a *land* problem — cities, farms, factories.
+
+Now you know: the **ocean is the planet's invisible life support.**
+
+- It absorbs our CO₂ (30%)
+- It traps our heat (90%)
+- It feeds half a billion people through reefs alone
+- And the way we study it replicates the power structures that caused the crisis
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad; text-align: center;"}
+**Your portable takeaway:** Invisible infrastructure — what you can't see is doing the heavy lifting. And who gets to see it is a political question.
+:::
+
+---
+
+# The Persuasion Playbook | Strategy #7
+
+---
+
+## The Fork
+
+::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
+*"Are you going to let your family suffer, or are you going to act now?"*
+
+The trick isn't the answer.
+
+**The trick is that both options accept your frame.**
+:::
+
+---
+
+## The Science
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+This is the **False Dilemma** — or in sales, **The Fork**.
+
+Present two choices that both serve your goal.
+
+*"Do you want the red one or the blue one?"*
+(Not: "Do you want to buy a car?")
+
+The brain loves binary choices. Multiple options = paralysis.
+
+**Two options = decision.**
+:::
+
+---
+
+## You Just Saw It
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+When someone said:
+
+*"We can either regulate AI now, or let corporations decide for us."*
+
+Notice what's missing?
+
+**"Do nothing" wasn't an option.** Because they didn't put it there.
+:::
+
+---
+
+## Next Week's Challenge
+
+::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
+**End with two options — both of which support your case.**
+
+Remove the third option before they think of it.
+:::

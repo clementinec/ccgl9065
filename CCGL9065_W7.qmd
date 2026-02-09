@@ -32,6 +32,52 @@ Last week's strategy: **The Specificity Illusion**
 
 ---
 
+## Something You Took Away Last Week
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Week 6 gave you a name for the problem: **the Tragedy of the Commons.**
+
+Individual action can't fix structural problems. Carbon pricing, cap-and-trade, green taxes — these are attempts to *redesign the incentives* so the system stops rewarding destruction.
+
+But you also saw that even well-designed policies get blocked — by politics, by money, by power.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+So what happens when even the **truth itself** is contested?
+:::
+
+---
+
+## From Structural Incentives → Contested Truth
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Last week: *"Why don't we build better, and whose fault is that?"*
+
+This week: *"What if people disagree on whether there's even a problem?"*
+
+**The ultimate structural barrier: narrative control.**
+
+Climate denial, historical revisionism, manufactured doubt — these aren't just "misinformation." They're **strategic tools** deployed to protect structural incentives.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
+Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → **now: Epistemic Humility.**
+:::
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Supran et al., Science (2023) — Exxon's own scientists predicted global warming with shocking accuracy. The company spent decades denying it publicly.](https://news.harvard.edu/gazette/wp-content/uploads/2023/01/01.10-exxon_graf_dinamit2213.jpg){width="80%"}
+:::
+
+::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
+*They knew. They lied. The graph proves it.*
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -266,6 +312,30 @@ Spectacle
 :::
 "ExxonMobil's own scientists predicted climate change in 1982. Then the company spent millions telling you it wasn't real. They knew. They lied. You paid."
 :::
+:::
+
+---
+
+## One Image. One Timeline.
+
+::: {style="font-size: 1.8em; line-height: 2.2; background: #1a1a2e; color: white; padding: 50px; border-radius: 15px;"}
+[**1977**]{style="color: #3498db;"} — Exxon's own scientists warn: fossil fuels will warm the planet.
+
+[**1989**]{style="color: #f39c12;"} — Exxon funds the Global Climate Coalition to manufacture doubt.
+
+[**2023**]{style="color: #e74c3c;"} — Harvard study confirms: Exxon's 1977 projections were **remarkably accurate.**
+
+They knew. They chose profit. [**You inherited the bill.**]{style="color: #e74c3c;"}
+:::
+
+---
+
+## See It: Who Is Really Responsible?
+
+{{< video https://www.youtube.com/embed/ipVxxxqwBQw width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Kurzgesagt (~10 min). The answer to "who is responsible?" changes completely depending on your metric — per-capita, annual, or cumulative. The narrative shapes the blame.*
 :::
 
 ---

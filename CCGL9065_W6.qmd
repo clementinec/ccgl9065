@@ -32,6 +32,52 @@ Last week's strategy: **The Anchoring Trap**
 
 ---
 
+## Something You Took Away Last Week
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Week 5 showed you that **every building is a climate decision.**
+
+The Urban Heat Island effect — concrete absorbs heat, cities get hotter, AC demand rises, more fossil fuels burn, cities get *even hotter.*
+
+You saw it in NYC (one park = 5°C difference), Vienna (turning trash into heat for 60,000 homes), and LA (paying people to rip out their lawns).
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+The built environment is a climate actor. But here's the question: **even if we know the right design, who decides what gets built?**
+:::
+
+---
+
+## From Buildings → The Rules That Build Them
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Last week: *"What did we build, and what does it cost the planet?"*
+
+This week: *"Why don't we build better — and whose fault is that?"*
+
+**Same system. Bigger question.**
+
+You can design the greenest building in the world, but if the economic incentives reward cheap construction and short-term profit, it won't get built. The problem isn't engineering — it's **structural incentives.**
+:::
+
+::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
+Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → **now: Structural Incentives.**
+:::
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Rondônia, Brazil — NASA satellite, 2006. Each fishbone is a road. Each branch is a cleared farm. This used to be unbroken rainforest.](https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/7000/7548/rondonia_ast_2006238_lrg.jpg){width="75%"}
+:::
+
+::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
+*No one decided to destroy the Amazon. Everyone just followed the incentives.*
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -174,10 +220,36 @@ monitor and control individuals in the name of profit.
 
 ## Breaking it down a bit further with possible angles to propose solutions/interventions: 
 
-### The tragedy of the commons: 
+### The tragedy of the commons:
 - Prioritize own interests over common goods
-- Individuals and Corporations 
+- Individuals and Corporations
 - New economic system may help, but how?
+
+---
+
+## See It: The Pattern That Keeps Repeating
+
+{{< video https://www.youtube.com/embed/CxC161GvMPc width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*TED-Ed (~5 min). The Tragedy of the Commons — from medieval grazing to climate collapse. The twist: communal management often works better than privatisation.*
+:::
+
+---
+
+## One Image. One Question.
+
+::: {style="font-size: 2.5em; text-align: center; padding: 60px; background: #1a1a2e; color: white; border-radius: 15px; line-height: 1.6;"}
+BP invented the concept of a **"personal carbon footprint"** in 2005.
+
+It was an ad campaign.
+
+[**You were the product.**]{style="color: #e74c3c;"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; margin-top: 30px;"}
+Structural problems require structural solutions. Individual guilt is a distraction.
+:::
 
 ### The limitations of carbon pricing: price GHGs emissions(aka pay to pollute)
 - usual solution to climate change

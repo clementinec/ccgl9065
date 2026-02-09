@@ -15,6 +15,41 @@ format:
 
 ---
 
+## Something You Took Away Last Week
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Week 1 gave you a formula: **Fact + Human Story + Stakes = Spectacle.**
+
+You learned that facts alone don't change minds. *Stories* do.
+
+- A graph of AI energy use? Forgettable.
+- A grandmother who can't afford electricity because of a data centre next door? **Unforgettable.**
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+That's your first portable tool. It works everywhere — and you'll see it again today.
+:::
+
+---
+
+## From Debate → The Dinner Table
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Last week: *"Can humans out-persuade AI?"*
+
+This week: *"What should you eat — and who decides?"*
+
+**Same Spectacle Formula. New battlefield.**
+
+The food system is one of the most emotionally charged climate topics because it's *personal.* Everyone eats. Everyone has opinions. And the data is... complicated.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
+Today's conceptual tool: **complexity.** You'll learn that there's rarely one right answer — and that's not a bug, it's the point.
+:::
+
+---
+
 # The Hook
 
 ---

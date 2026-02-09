@@ -31,6 +31,54 @@ Last week's strategy: **The Cliffhanger Return**
 
 ---
 
+## Something You Took Away Last Week
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Week 10 gave you the full picture: **cascade effects and tipping points.**
+
+Wolves reintroduced to Yellowstone literally changed the course of rivers. The Aral Sea disappeared because of cotton. Permafrost holds 1,700 gigatonnes of carbon — twice what's in the atmosphere right now.
+
+Everything connects. And some thresholds, once crossed, **don't come back.**
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+So what if you could see all of those connections at once? What if you could see Earth from *outside?*
+:::
+
+---
+
+## From Cascade Effects → The View From Above
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Last week: *"Everything is connected — pull one thread, everything moves."*
+
+This week: *"What if perspective itself is the tool?"*
+
+**The Overview Effect.**
+
+Astronauts who see Earth from space report a permanent shift in how they think about borders, nations, and environmental destruction. They call it the Overview Effect.
+
+This is our final week. It's not an accident that we end here.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
+Your full toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → Epistemic Humility → Invisible Infrastructure → Responsibility Asymmetry → Cascade Effects → **Perspective.**
+:::
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![**Earthrise** — Apollo 8, December 24, 1968. The first photograph of Earth from lunar orbit. It changed how humanity saw itself.](https://www.nasa.gov/wp-content/uploads/2023/03/apollo08_earthrise.jpg){width="75%"}
+:::
+
+::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
+*"We came all this way to explore the Moon, and the most important thing is that we discovered the Earth." — Bill Anders*
+:::
+
+---
+
 # This Week's Battlefield
 
 ---
@@ -328,6 +376,30 @@ Spectacle
 **Don't say:** "Humans need a backup planet."
 
 **Say:** "The dinosaurs didn't have a space program. They're extinct. One asteroid and everything we've built — every symphony, every cure, every child's laugh — gone forever. Space isn't escape. It's insurance."
+:::
+
+---
+
+## See It: The Overview Effect
+
+{{< video https://vimeo.com/55073825 width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Planetary Collective (~19 min). Five astronauts describe what happens when you see Earth from space. Watch the first 5-7 minutes — that's enough to feel it.*
+:::
+
+---
+
+## One Image. One Astronaut.
+
+::: {style="font-size: 1.8em; text-align: center; padding: 60px; background: #0a0a2e; color: white; border-radius: 15px; line-height: 1.8;"}
+*"You develop an instant global consciousness, a people orientation, an intense dissatisfaction with the state of the world, and a compulsion to do something about it."*
+
+— **Edgar Mitchell**, Apollo 14
+:::
+
+::: {style="font-size: 1.5em; text-align: center; margin-top: 30px; font-weight: bold;"}
+That's not poetry. That's a **data point from someone who saw the system from outside.**
 :::
 
 ---
