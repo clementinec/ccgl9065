@@ -53,127 +53,275 @@ Your closet probably contains clothes you haven't worn in [**over a year**]{styl
 
 ---
 
-# This Week's Battlefield
+# But First: A Test of Your Instincts
 
 ---
 
-## Two Sides. Two Views on Consumption.
+## Quick Poll
 
-::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
-::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
-::: {style="font-size: 2.5em; font-weight: bold;"}
-PRO-CLIMATE
-:::
-::: {style="font-size: 1.3em; margin-top: 20px;"}
-= Consume Less, Better
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+Which is better for the environment?
 
-= "Fast fashion is a climate crime"
-:::
-:::
+A) A Beyond Burger (plant-based)
 
-::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
-::: {style="font-size: 2.5em; font-weight: bold;"}
-PRO-DEVELOPMENT
-:::
-::: {style="font-size: 1.3em; margin-top: 20px;"}
-= Affordable Access
+B) A chicken breast
 
-= "Fashion jobs lift millions from poverty"
-:::
-:::
+**Vote now.**
 :::
 
 ---
 
-## The Core Tension
+## The Answer Might Surprise You
 
 ::: {style="font-size: 1.6em; line-height: 1.8;"}
-| PRO-CLIMATE | PRO-DEVELOPMENT |
-|-------------|-----------------|
-| Reduce consumption | Enable affordable clothing |
-| Slow fashion movement | Market-driven innovation |
-| Regulation of industry | Consumer choice |
-| Environmental costs matter | Jobs and livelihoods matter |
-| Quality over quantity | Accessibility for all |
+A Beyond Burger produces approximately **3.5 kg CO₂e per kg**.
 
-**This tension defines every fashion sustainability debate.**
+A chicken breast produces approximately **4.5-6 kg CO₂e per kg**.
+
+So Beyond Burger wins... right?
+:::
+
+::: {style="font-size: 1.5em; margin-top: 30px; color: #7f8c8d;"}
+Not so fast.
 :::
 
 ---
 
-# Voices From the Battlefield
+## The Uncomfortable Details
 
----
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Beyond Burger requires **heavy processing** — extrusion, isolation, flavoring.
 
-## Real Words, Real Stakes
+A 2023 study found that when you account for **full supply chain processing**, some plant-based meats approach or exceed chicken's footprint.
 
-::: {style="font-size: 1.3em; line-height: 1.9;"}
+And chicken? It's the **lowest-emission meat** by a wide margin — 5-10x lower than beef.
+:::
 
-> "Fast fashion isn't free. Someone, somewhere is paying."
->
-> — **Lucy Siegle**, journalist and author of *To Die For: Is Fashion Wearing Out the World?* (2011)
+::: {style="font-size: 1.4em; margin-top: 30px; background: #e74c3c; color: white; padding: 20px; border-radius: 10px;"}
+**The point:** "Plant-based" doesn't automatically mean "green." You have to check the actual numbers.
+:::
 
-> "The most sustainable garment is the one already in your wardrobe."
->
-> — **Orsola de Castro**, co-founder of Fashion Revolution, *Loved Clothes Last* (2021)
-
-> "We are not asking brands to leave Bangladesh. We are asking them to stay — and pay fair wages."
->
-> — **Kalpona Akter**, garment worker turned labor activist, Executive Director of the Bangladesh Center for Worker Solidarity (2019 interview, The Guardian)
-
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Sources: Poore & Nemecek (2018) Science; Saget et al. (2021) Nature Food; UC Davis LCA studies*
 :::
 
 ---
 
-## The Other Side Speaks
+# Things You Think Are Green (But Aren't)
 
-::: {style="font-size: 1.3em; line-height: 1.9;"}
+---
 
-> "Fashion has always been about making beautiful things accessible. The question is how we do it responsibly."
->
-> — **Karl-Johan Persson**, former CEO of H&M, responding to sustainability criticism (2019)
+## Your Environmental Instincts Are Often Wrong
 
-> "Telling poor people to buy less is not a climate strategy. It's class warfare disguised as environmentalism."
->
-> — **Pietra Rivoli**, economist, author of *The Travels of a T-Shirt in the Global Economy* (2014 edition)
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+If your gut can be wrong about something as simple as a burger...
 
-> "When we closed one factory for violations, 3,000 workers lost their jobs. The activists celebrated. The workers didn't."
->
-> — **Rubana Huq**, President of BGMEA (Bangladesh Garment Manufacturers Association), 2022
-
-:::
-
-::: {style="font-size: 1.1em; text-align: center; margin-top: 30px; color: #7f8c8d;"}
-*All quotes verifiable via Google Scholar, The Guardian, or named publications. This is how you build credibility.*
+**What else might you be wrong about?**
 :::
 
 ---
 
-## The Impact of Fast Fashion
-- **Environmental Footprint**: Discuss the water usage, chemical pollution, and carbon emissions resulting from fast fashion production.
-- **Resource Consumption**: Highlight how fast fashion contributes to the illusion of infinite resources, leading to overconsumption and waste.
-- **Waste and Landfill Overload**: Examine how the rapid turnover of fashion items exacerbates landfill waste, with millions of tons of clothing discarded annually.
+## Organic Cotton vs. Conventional Cotton
 
-## The True Cost of Fashion
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+**Assumption:** Organic cotton is more sustainable.
 
-- **Economic vs. Environmental Costs**: Contrast the low upfront cost of fast fashion items with their high environmental toll.
-- **Hidden Costs**: Discuss the hidden costs of fast fashion, including labor exploitation, resource depletion, and ecological damage.
-- **Consumer Awareness**: Explore the gap between consumer price and the true cost of fashion production on the environment and society.
+**Reality:** Organic cotton uses **up to 91% more water** than conventional cotton in many regions, with **20-50% lower yields** — meaning more land required.
+:::
 
-## Sustainable Fashion and Climate Change
-- **Sustainable Practices**: Introduce sustainable fashion concepts such as eco-friendly materials, ethical labor practices, and circular fashion models.
-- **Climate Change Link**: Explain how adopting sustainable fashion practices can mitigate the fashion industry's impact on climate change.
-- **Innovations in Fashion**: Highlight technological and material innovations aimed at reducing the fashion industry's carbon footprint.
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+Organic avoids pesticides (good), but trades one environmental problem for another.
+:::
 
-## Pro-Climate Change Arguments in Fashion
-- **Urgency of Action**: Emphasize the urgent need for the fashion industry to adopt sustainable practices to combat climate change.
-- **Regulatory and Market Solutions**: Discuss potential policy measures, industry standards, and consumer-driven demand for sustainable fashion.
-- **Long-term Sustainability**: Argue that sustainable fashion is not only necessary for environmental reasons but also for long-term economic and social sustainability.
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: Textile Exchange Organic Cotton Market Report; Mekonnen & Hoekstra (2011) Water Footprint Network*
+:::
 
-## Anti-Climate Change Perspectives on Fashion
-- **Economic Prioritization**: Present arguments that prioritize economic growth and job creation in the fashion industry over environmental concerns.
-- **Questioning the Impact**: Some may argue that the fashion industry's impact on climate change is overstated and that there are more significant sectors to target.
-- **Market-Driven Solutions**: Suggest that market forces and consumer choice, rather than regulatory intervention, are the best ways to address any environmental issues within the fashion industry.
+---
+
+## "Recycling" Your Old Clothes
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+**Assumption:** Donating clothes = recycling = good.
+
+**Reality:** Only **about 10-15% of donated clothes** are resold locally. Much of the rest is shipped to Ghana, Chile, and Kenya — where up to **40% ends up in landfills** because the volume overwhelms local markets.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+You're not recycling. You're exporting your guilt.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: OR Foundation (2022); ABC News "Dead White Man's Clothes"; UNEP (2023)*
+:::
+
+---
+
+## The Cotton Tote Bag
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+**Assumption:** Reusable cotton bags are better than plastic.
+
+**Reality:** A cotton tote must be used **131 times** to have lower climate impact than a single disposable plastic bag.
+
+An organic cotton tote? **20,000 times.**
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+How many of you have used the same tote 131 times?
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: UK Environment Agency Life Cycle Assessment (2011)*
+:::
+
+---
+
+## Local vs. Imported Food
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+**Assumption:** Local food = lower carbon footprint.
+
+**Reality:** A tomato **shipped from Spain to the UK** produces less CO₂ than one grown in a **heated British greenhouse**.
+
+Transport is often only **5-10% of food's carbon footprint**. Growing conditions matter more.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: Weber & Matthews (2008) Environmental Science & Technology; Poore & Nemecek (2018)*
+:::
+
+---
+
+## Electric Cars (Sometimes)
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+**Assumption:** Electric cars are always greener.
+
+**Reality:** An EV charged on a **coal-heavy grid** (parts of China, Poland, India) can have **comparable or higher lifecycle emissions** than a fuel-efficient hybrid.
+
+The car isn't the whole story. The grid is.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: IEA Global EV Outlook (2023); Lifecycle assessments vary by region*
+:::
+
+---
+
+## Why Am I Telling You This?
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+Not to make you cynical.
+
+Not to say "nothing matters."
+
+But to show you: **the truth is complicated**.
+
+And complicated truths make **better arguments**.
+:::
+
+---
+
+# The "Wait, What?" Technique
+
+---
+
+## How to Crack Open Attention
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The facts you just saw all share something:
+
+They **violate expectations**.
+
+Your brain can't ignore information that contradicts what it "knows."
+:::
+
+::: {style="font-size: 1.8em; font-weight: bold; color: #8e44ad; margin-top: 40px;"}
+This is your most powerful rhetorical tool.
+:::
+
+---
+
+## The Formula
+
+::: {style="font-size: 1.8em; line-height: 1.8; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
+**Common Assumption** + **Contradicting Fact** + **Source** = **"Wait, what?"**
+:::
+
+::: {style="font-size: 1.5em; margin-top: 30px;"}
+Once you have their attention, you can make your argument.
+
+Without it, you're just noise.
+:::
+
+---
+
+## Examples for Your Presentations
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+| Topic | "Wait, What?" Opening |
+|-------|----------------------|
+| Fast fashion | "Your 'recycled' H&M clothes are probably in a Ghanaian landfill right now." |
+| Sustainable fashion | "The organic cotton dress used more water than the synthetic one." |
+| Veganism & climate | "Almonds require 4x more water per gram of protein than chicken." |
+| Local food | "That Kent tomato has a higher carbon footprint than one from Spain." |
+| Electric vehicles | "Your Tesla might be dirtier than a Prius — depending where you charge it." |
+:::
+
+::: {style="font-size: 1.3em; margin-top: 30px; color: #7f8c8d;"}
+Always include your source. "Wait, what?" only works if it's **true**.
+:::
+
+---
+
+## PRO-TIP: Use This Against Yourself
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+The strongest debaters **acknowledge complexity** on their own side.
+
+PRO-CLIMATE: "Yes, organic cotton uses more water. That's why we advocate for systemic change, not just material substitution."
+
+PRO-DEVELOPMENT: "Yes, fast fashion has environmental costs. That's why we push for innovation within the industry, not destruction of it."
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+Acknowledging nuance makes you credible. Ignoring it makes you a propagandist.
+:::
+
+---
+
+# A Challenge
+
+---
+
+## What Comes Next Will Sound Dry
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+I'm about to show you a **detailed case study** on denim production.
+
+It will include a lot of facts. Some of it will feel like a textbook.
+
+**But there's a reason.**
+:::
+
+---
+
+## Your Task
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+As you listen, look for **one key concept** that anyone interested in fashion-related carbon emissions should walk away with:
+
+**Where do you draw the boundary?**
+
+I might do a small quiz before end of class.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+Pay attention to what happens when you expand or contract the "system" you're measuring.
+:::
+
+---
 
 ## Let's start with fabric {background-image='https://palaisdeleau.com/app/uploads/2019/06/PdL-denimproject-03-1-1024x385.jpg' background-size="contain"}
 denim, a quick case-study^1^.
@@ -305,6 +453,239 @@ __Cons__:
 
 ---
 
+# The Key Concept: System Boundaries
+
+---
+
+## Life Cycle Assessment (LCA)
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+All those numbers you just saw depend on **one crucial decision**:
+
+**Where do you draw the boundary of what you're measuring?**
+:::
+
+![](https://ecochain.com/wp-content/uploads/2019/05/Product-Life-Cycle-version-1-English-2.png){width=70%}
+
+---
+
+## The Boundary Problem
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Cradle-to-gate**: Raw materials → Factory door
+
+**Cradle-to-grave**: Raw materials → Consumer disposal
+
+**Cradle-to-cradle**: Raw materials → Recycling → New product
+:::
+
+::: {style="font-size: 1.6em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+Same product. Different boundaries. Completely different conclusions.
+:::
+
+---
+
+## Remember the Ghana Statistic?
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+"40% of donated clothes end up in Ghanaian landfills."
+
+If your system boundary stops at **"clothes donated"** — recycling looks great.
+
+If your system boundary extends to **"where clothes actually end up"** — you're just exporting waste.
+:::
+
+::: {style="font-size: 1.5em; margin-top: 30px; font-weight: bold; color: #e74c3c;"}
+The boundary you choose determines the story you tell.
+:::
+
+---
+
+## This Is Why Nuance Matters
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+- **Organic cotton** looks good if you stop at pesticides. Looks worse if you include water usage.
+- **Recycling** looks good if you stop at the donation bin. Looks worse if you follow it to Africa.
+- **Electric cars** look good if you stop at tailpipe emissions. Depends on the grid if you include electricity source.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+Anyone who gives you a simple answer is hiding their system boundary from you.
+:::
+
+---
+
+## The Quiz Question
+
+::: {style="font-size: 1.8em; line-height: 1.8; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
+**What is the single most important question to ask when someone tells you a product is "sustainable" or "green"?**
+:::
+
+::: {style="font-size: 1.5em; margin-top: 30px;"}
+Answer: **"What system boundary are you using?"**
+
+Or more simply: **"Sustainable compared to what, measured how, ending where?"**
+:::
+
+---
+
+# Now: This Week's Battlefield
+
+---
+
+## Two Sides. Two Views on Consumption.
+
+::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
+::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-CLIMATE
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Consume Less, Better
+
+= "Fast fashion is a climate crime"
+:::
+:::
+
+::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+PRO-DEVELOPMENT
+:::
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+= Affordable Access
+
+= "Fashion jobs lift millions from poverty"
+:::
+:::
+:::
+
+---
+
+## The Core Tension
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+| PRO-CLIMATE | PRO-DEVELOPMENT |
+|-------------|-----------------|
+| Reduce consumption | Enable affordable clothing |
+| Slow fashion movement | Market-driven innovation |
+| Regulation of industry | Consumer choice |
+| Environmental costs matter | Jobs and livelihoods matter |
+| Quality over quantity | Accessibility for all |
+
+**This tension defines every fashion sustainability debate.**
+:::
+
+---
+
+## Today's Debate Motion
+
+::: {style="font-size: 1.8em; text-align: center; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
+**"Hong Kong should impose a mandatory Extended Producer Responsibility scheme on all fashion retailers by 2030."**
+:::
+
+::: {style="font-size: 1.3em; text-align: center; margin-top: 30px;"}
+*(EPR = brands must take back and recycle/dispose of products they sell)*
+
+PRO-CLIMATE argues **for**. PRO-DEVELOPMENT argues **against**.
+:::
+
+---
+
+# Voices From the Battlefield
+
+---
+
+## Real Words, Real Stakes
+
+::: {style="font-size: 1.3em; line-height: 1.9;"}
+
+> "Fast fashion isn't free. Someone, somewhere is paying."
+>
+> — **Lucy Siegle**, journalist and author of *To Die For: Is Fashion Wearing Out the World?* (2011)
+
+> "The most sustainable garment is the one already in your wardrobe."
+>
+> — **Orsola de Castro**, co-founder of Fashion Revolution, *Loved Clothes Last* (2021)
+
+> "We are not asking brands to leave Bangladesh. We are asking them to stay — and pay fair wages."
+>
+> — **Kalpona Akter**, garment worker turned labor activist, Executive Director of the Bangladesh Center for Worker Solidarity (2019 interview, The Guardian)
+
+:::
+
+---
+
+## The Other Side Speaks
+
+::: {style="font-size: 1.3em; line-height: 1.9;"}
+
+> "Fashion has always been about making beautiful things accessible. The question is how we do it responsibly."
+>
+> — **Karl-Johan Persson**, former CEO of H&M, responding to sustainability criticism (2019)
+
+> "Telling poor people to buy less is not a climate strategy. It's class warfare disguised as environmentalism."
+>
+> — **Pietra Rivoli**, economist, author of *The Travels of a T-Shirt in the Global Economy* (2014 edition)
+
+> "When we closed one factory for violations, 3,000 workers lost their jobs. The activists celebrated. The workers didn't."
+>
+> — **Rubana Huq**, President of BGMEA (Bangladesh Garment Manufacturers Association), 2022
+
+:::
+
+::: {style="font-size: 1.1em; text-align: center; margin-top: 30px; color: #7f8c8d;"}
+*All quotes verifiable via Google Scholar, The Guardian, or named publications. This is how you build credibility.*
+:::
+
+---
+
+## The Hidden Price Tag
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+Your $15 H&M dress has a price tag.
+
+It also has a **shadow price** — paid by someone else, somewhere else.
+:::
+
+---
+
+## What $15 Doesn't Cover
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="width: 30%; background: #3498db; color: white; padding: 25px; border-radius: 10px; text-align: center;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+Water
+:::
+::: {style="font-size: 1.1em; margin-top: 10px;"}
+2,700L per cotton t-shirt — enough drinking water for one person for 2.5 years
+:::
+:::
+
+::: {style="width: 30%; background: #e74c3c; color: white; padding: 25px; border-radius: 10px; text-align: center;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+Carbon
+:::
+::: {style="font-size: 1.1em; margin-top: 10px;"}
+Fashion = 10% of global emissions — more than aviation and shipping combined
+:::
+:::
+
+::: {style="width: 30%; background: #9b59b6; color: white; padding: 25px; border-radius: 10px; text-align: center;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+Waste
+:::
+::: {style="font-size: 1.1em; margin-top: 10px;"}
+One garbage truck of textiles landfilled or burned every second globally
+:::
+:::
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d; text-align: center;"}
+*Sources: WRAP; Ellen MacArthur Foundation; UN Environment Programme*
+:::
+
+---
+
 # Would You Rather?
 
 ---
@@ -346,57 +727,6 @@ PRO-DEVELOPMENT says:
 :::
 :::
 :::
-
----
-
-## Introduction to Life Cycle Analysis (LCA)
-
-## What is LCA?
-
-![](https://ecochain.com/wp-content/uploads/2019/05/Product-Life-Cycle-version-1-English-2.png)
-
-
-## What is LCA? (Continued)
-
-- A systematic approach to assess the environmental aspects and potential impacts associated with a product, process, or service.
-- Considers all stages from raw material extraction through materials processing, manufacture, distribution, use, repair and maintenance, and disposal or recycling.
-
-## Tied to Upcycling or Downsampling?
-
-![](https://ecochain.com/wp-content/uploads/2022/12/Lifecycle-Models_LCA_Ecochain.png)
-
-## LCA, Scope and Stages 
-
-- **Goal and Scope Definition**: Identifying the LCA's purpose and the system boundaries.
-- **Inventory Analysis**: Collecting data on energy inputs, material inputs, and environmental releases.
-- **Impact Assessment**: Evaluating the significance of potential environmental impacts.
-- **Interpretation**: Analyzing results to make informed decisions.
-
-## Role and Importance of LCA
-
-**Role in Environmental Sustainability**
-
-- **Decision-Making Tool**: Aids businesses and policymakers in making more environmentally informed choices.
-- **Benchmarking**: Establishes benchmarks for improving product or process sustainability.
-
-**Importance of LCA**
-
-- **Holistic View**: Offers a comprehensive assessment of environmental impacts across a product's entire life cycle.
-- **Transparency**: Provides a transparent method for assessing the environmental performance of products.
-- **Prevention**: Identifies areas for potential environmental improvement and pollution prevention early in the product development phase.
-
-## LCA as a Tool
-
-**Storytelling Through Data**
-
-- **Narrative Building**: LCA results can be used to create compelling narratives about a product's environmental footprint, aiding in consumer education and engagement.
-- **Marketing and Communication**: Businesses can use LCA data to communicate sustainability efforts and product benefits to consumers and stakeholders.
-
-**Understanding Environmental Impacts**
-
-- **Positive Impacts**: Showcase practices and areas where a product excels in environmental performance.
-- **Negative Impacts**: Identifies hotspots of environmental concern, guiding efforts for reduction or mitigation.
-- **Comparative Analysis**: Allows for the comparison of products or processes for relative benefits/drawbacks.
 
 ---
 
@@ -463,32 +793,46 @@ Spectacle
 
 ---
 
-## Human Story: Reshma from Rana Plaza
+## Two Stories, One Industry
 
-::: {style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; border-radius: 15px;"}
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Reshma Begum**, 19, worked on the 2nd floor of Rana Plaza in Dhaka. On April 23, 2013, large cracks appeared in the building. An engineer declared it unsafe. But the factory bosses ordered workers back the next morning — or lose a month's wages.
+::: {style="display: flex; justify-content: space-around; margin-top: 20px;"}
+::: {style="width: 48%; background: #e74c3c; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+Reshma — Rana Plaza, 2013
+:::
+::: {style="font-size: 1.1em; margin-top: 10px; line-height: 1.5;"}
+Cracks appeared in the building. Engineer declared it unsafe. Bosses ordered workers back — or lose a month's wages.
 
-On April 24, the building collapsed. **1,134 workers died. 2,500 were injured.** Reshma was buried in the rubble for 17 days. Rescuers found her alive on May 10, surviving on rainwater and dried food.
+**1,134 died.** Reshma buried 17 days. Found alive.
 
-> "I heard voices for days, then they stopped. I thought no one would come."
->
-> — **Reshma Begum**, BBC interview, May 2013
+> *"I heard voices for days, then they stopped."*
 
-The clothes being sewn that morning? Labels found in the rubble included **Primark, Benetton, Mango, and Walmart**.
+Labels in rubble: Primark, Benetton, Walmart.
+:::
+:::
 
-**PRO-CLIMATE says:** "The cracks were visible. They sent workers back anyway — for a $15 dress. The brands knew their suppliers cut corners. We all chose not to ask."
+::: {style="width: 48%; background: #3498db; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+Nasreen — Rangpur to Dhaka
+:::
+::: {style="font-size: 1.1em; margin-top: 10px; line-height: 1.5;"}
+Family were sharecroppers: $1-2/day. One meal during floods. At 16, factory job: $68/month.
 
-**PRO-DEVELOPMENT says:** "After Rana Plaza, the Bangladesh Accord was signed — over 200 brands committed to factory safety. 2 million workers now have safer conditions. Boycotts would have killed the reform, not accelerated it."
+**First in family to own property.** Sister finished school.
 
-::: {style="font-size: 1.5em; font-weight: bold; margin-top: 20px; text-align: center;"}
-**The real question:** Who bears responsibility — the brand, the factory owner, the government, or the consumer who wanted a $15 dress?
+> *"My mother worked fields her whole life and owned nothing. I own a home."*
+
+Now a line supervisor: $180/month.
 :::
 :::
 :::
 
-::: {style="font-size: 1em; text-align: center; margin-top: 10px; color: #7f8c8d;"}
-*Sources: BBC News, The Guardian, Clean Clothes Campaign, ILO reports — all verifiable.*
+::: {style="font-size: 1.5em; text-align: center; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+Both stories are true. Both are the fashion industry.
+:::
+
+::: {style="font-size: 1.1em; text-align: center; margin-top: 15px; color: #7f8c8d;"}
+*Sources: BBC, Guardian, ILO, World Bank, Clean Clothes Campaign — all verifiable*
 :::
 
 ---
@@ -523,71 +867,7 @@ The clothes being sewn that morning? Labels found in the rubble included **Prima
 
 ---
 
-## PRO-CLIMATE on Fashion Sustainability
-
-- **Urgency in Fashion Reform**:
-  - **Resource Intensity**: Highlight fashion's heavy water and energy use.
-  - **Pollution**: Point out dyeing and treatment chemicals contaminating water.
-
-- **Sustainable Fashion Benefits**:
-  - **Waste Reduction**: Emphasize less landfill waste with sustainable practices.
-  - **Lower Emissions**: Advocate for reduced carbon footprint in eco-friendly production.
-
-- **Consumer Health & Ethics**:
-  - **Chemical Exposure**: Less chemical use reduces health risks.
-  - **Fair Labor**: Stress the importance of ethical labor practices in sustainable brands.
-
-
-## PRO-DEVELOPMENT on Fashion Sustainability
-
-- **Economic Considerations**:
-  - **Cost Challenges**: Argue sustainable fashion's higher costs could limit access.
-  - **Industry Impact**: Highlight potential job losses in traditional manufacturing sectors.
-
-- **Questioning Effectiveness**:
-  - **Real Impact**: Debate the actual environmental benefit of sustainable practices.
-  - **Greenwashing**: Caution against brands that falsely claim sustainability without substantial action.
-
-- **Innovation & Market Forces**:
-  - **Technological Solutions**: Propose innovation in materials and processes as an alternative.
-  - **Consumer Choice**: Advocate for market-driven solutions rather than regulatory mandates.
-
-
-## Public Insights: Fashion's Environmental Footprint
-
-- **Understanding Fast Fashion**:
-  - **High Turnover**: Recognize the rapid consumption model's role in waste.
-  - **Resource Depletion**: Note the extensive resource use from production to disposal.
-
-- **Evaluating Sustainable Fashion**:
-  - **Longevity vs. Trend**: Balance the appeal of trends with the durability of sustainable items.
-  - **Lifecycle Analysis**: Consider the full environmental cost, from production to end-of-life.
-
-- **Consumer Role**:
-  - **Mindful Purchasing**: Encourage thoughtful buying decisions to reduce waste.
-  - **Advocacy**: Support brands with transparent and genuine sustainable practices.
-
----
-
 # Now It's Your Turn
-
----
-
-## Today's Debate Motion
-
-::: {style="font-size: 2em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
-**"Hong Kong should impose a mandatory Extended Producer Responsibility scheme on all fashion retailers by 2030."**
-:::
-
-::: {style="font-size: 1.4em; text-align: center; margin-top: 30px;"}
-*(EPR = brands must take back and recycle/dispose of products they sell)*
-
-PRO-CLIMATE must argue **for** the mandate.
-
-PRO-DEVELOPMENT must argue **against**.
-
-You have the facts. Now make them **feel** something.
-:::
 
 ---
 
@@ -919,4 +1199,166 @@ That's the Barnum Slide: universal truths disguised as personal insights.
 **Write one sentence that sounds personal but applies to everyone in the room.**
 
 Test it. Watch faces.
+:::
+
+---
+
+# Appendix: Reference Material
+
+---
+
+## Appendix A: Fashion Industry Impact — Detailed Data
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+**Environmental Footprint**
+
+- Water usage: Fashion consumes ~93 billion cubic meters of water annually (UNEP)
+- Chemical pollution: 20% of industrial water pollution comes from textile dyeing (World Bank)
+- Carbon emissions: 10% of global emissions, ~1.2 billion tonnes CO₂/year (Ellen MacArthur Foundation)
+
+**Resource Consumption**
+
+- Synthetic fibers: 60% of clothing contains plastic (polyester, nylon, acrylic)
+- Cotton: 2.5% of global agricultural land, but 16% of insecticide use
+- Microplastics: 500,000 tonnes of microfibers enter oceans annually from washing
+
+**Waste and Landfill**
+
+- One garbage truck of textiles landfilled/burned every second globally
+- Average garment worn 7-10 times before disposal (McKinsey)
+- Less than 1% of clothing recycled into new clothing (Ellen MacArthur)
+:::
+
+---
+
+## Appendix B: Pro-Climate Arguments — Full Detail
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+**Urgency in Fashion Reform**
+
+- Resource Intensity: 700 gallons of water for one cotton shirt
+- Pollution: Dyeing and treatment chemicals contaminate waterways
+- Waste: 92 million tonnes of textile waste created annually
+
+**Sustainable Fashion Benefits**
+
+- Waste Reduction: Circular models could reduce waste by 80%
+- Lower Emissions: Sustainable production can cut carbon by 50%+
+- Extended Use: Doubling garment lifespan cuts emissions 44%
+
+**Consumer Health & Ethics**
+
+- Chemical Exposure: Conventional textiles contain formaldehyde, heavy metals
+- Fair Labor: Sustainable certifications require living wages
+- Transparency: Supply chain visibility enables accountability
+:::
+
+---
+
+## Appendix C: Pro-Development Arguments — Full Detail
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+**Economic Considerations**
+
+- Employment: Fashion employs 75 million people globally, mostly women
+- Poverty Reduction: Garment work is entry point to formal economy
+- Cost Challenges: Sustainable fashion 50-400% more expensive
+
+**Questioning Effectiveness**
+
+- Scale: Individual consumer choices have limited systemic impact
+- Greenwashing: Many "sustainable" claims lack verification
+- Priorities: Other sectors (energy, transport) have higher emissions
+
+**Innovation & Market Forces**
+
+- Technology: New materials, recycling tech emerging rapidly
+- Market Demand: Consumer pressure driving brand changes
+- Investment: $50B+ invested in sustainable fashion startups
+:::
+
+---
+
+## Appendix D: Life Cycle Assessment — Technical Detail
+
+**What is LCA?**
+
+![](https://ecochain.com/wp-content/uploads/2019/05/Product-Life-Cycle-version-1-English-2.png)
+
+---
+
+## Appendix D (cont.): LCA Models
+
+![](https://ecochain.com/wp-content/uploads/2022/12/Lifecycle-Models_LCA_Ecochain.png)
+
+---
+
+## Appendix D (cont.): LCA Technical Summary
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+**LCA Stages**
+
+1. **Goal and Scope Definition**: Purpose, system boundaries, functional unit
+2. **Inventory Analysis**: Energy inputs, material inputs, emissions, waste
+3. **Impact Assessment**: Climate change, water use, toxicity, land use
+4. **Interpretation**: Identify hotspots, compare alternatives, recommendations
+
+**Fashion LCA Considerations**
+
+- System boundary: Cradle-to-gate vs cradle-to-grave vs cradle-to-cradle
+- Use phase: Consumer washing/drying often dominates energy use
+- End of life: Landfill, incineration, recycling, resale — very different impacts
+- Allocation: How to split impacts across co-products (e.g., cotton seeds)?
+:::
+
+---
+
+## Appendix E: Denim Case Study — Full Technical Detail
+
+::: {style="font-size: 1.1em; line-height: 1.5;"}
+**Water Usage**
+
+- One pair of jeans: 7,500-10,000 liters (cotton growing + dyeing + finishing)
+- "Wash" effects (stone washing, acid washing) add 20-50 liters per garment
+- Indigo dyeing requires multiple dip cycles
+
+**Chemical Use**
+
+- Synthetic indigo dyes (historically natural, now 95%+ synthetic)
+- Finishing chemicals: softeners, anti-crease, water repellents
+- Sandblasting (now largely banned) caused silicosis in workers
+
+**Energy Consumption**
+
+- Cotton cultivation: irrigation pumping, fertilizer production
+- Spinning, weaving, dyeing: energy-intensive industrial processes
+- Transport: Raw cotton → spinning → weaving → dyeing → cutting → sewing → retail
+
+**Recycling Challenges**
+
+- Blended fibers (cotton-elastane) difficult to separate
+- Mechanical recycling shortens fibers, reduces quality
+- Chemical recycling exists but not yet at scale
+- Post-consumer denim often too degraded for fiber recovery
+:::
+
+---
+
+## Appendix F: "Wait, What?" Facts — Full Sources
+
+::: {style="font-size: 1.1em; line-height: 1.6;"}
+| Claim | Source |
+|-------|--------|
+| Beyond Burger ~3.5 kg CO₂e/kg | Saget et al. (2021) Nature Food; Heller & Keoleian (2018) |
+| Chicken ~4.5-6 kg CO₂e/kg | Poore & Nemecek (2018) Science |
+| Organic cotton 91% more water | Mekonnen & Hoekstra (2011); varies by region |
+| Cotton tote 131 uses | UK Environment Agency (2011) LCA |
+| 40% donated clothes to landfill | OR Foundation (2022); varies by destination |
+| Fashion 10% of emissions | UNEP (2019); Ellen MacArthur Foundation |
+| Spanish vs UK tomatoes | Weber & Matthews (2008); Garnett (2011) |
+| EV emissions vary by grid | IEA (2023); Lifecycle studies vary significantly |
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Note: Environmental data evolves. Always check for most recent LCA studies. Regional variations are significant.*
 :::

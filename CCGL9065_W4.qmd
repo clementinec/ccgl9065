@@ -80,179 +80,526 @@ PRO-DEVELOPMENT
 
 ---
 
-# Session Overview
+# But First: A Test of Your Instincts
 
-- A review of six renewable energy types with their pros, cons, and short- and long-term impacts.
-- Enhanced case studies illustrating how public messaging simplifies complex energy issues.
-- A detailed scenario focusing on Hong Kong's renewable energy landscape and its unique challenges.
+---
 
-# Top 6 Types of Renewable Energy
+## Quick Poll
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+Which energy source has killed the **most** people per unit of electricity produced?
+
+A) Nuclear
+
+B) Coal
+
+C) Solar
+
+D) Wind
+
+**Vote now.**
+:::
+
+---
+
+## The Answer (You Probably Got It Right)
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Coal kills approximately **24.6 people per TWh** of electricity produced.
+
+That includes mining accidents, air pollution, respiratory disease.
+
+Nuclear? **0.03 deaths per TWh.** Even including Chernobyl and Fukushima.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+OK, that one was easy. But here's where it gets weird...
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: Markandya & Wilkinson (2007) The Lancet; Our World in Data (2023)*
+:::
+
+---
+
+## Wait — Solar and Wind Kill People?
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Solar: **0.05 deaths per TWh.** Wind: **0.04 deaths per TWh.**
+
+Both are *higher* than nuclear.
+
+Rooftop installation falls. Manufacturing accidents. Mining for rare earth minerals.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; background: #e74c3c; color: white; padding: 20px; border-radius: 10px;"}
+**The point:** The energy source the public fears most (nuclear) is statistically the safest. The one they trust most (solar) is slightly more dangerous per kWh. Perception ≠ reality.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: Markandya & Wilkinson (2007); Sovacool et al. (2016) Journal of Cleaner Production*
+:::
+
+---
+
+## Do We Need Nuclear Energy to Stop Climate Change?
+{{< video https://www.youtube.com/embed/EhAemz1v7dQ width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Kurzgesagt — In a Nutshell (~10 min). Spoiler: they conclude nuclear and renewables should be partners, not opponents.*
+:::
+
+---
+
+# Things You Think Are Green (Energy Edition)
+
+---
+
+## Your Energy Instincts Are Often Wrong
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+If your gut can be wrong about something as basic as "which energy kills people"...
+
+**What else might you be wrong about?**
+:::
+
+---
+
+## Germany Spent €500 Billion on Renewables...
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+**Assumption:** Germany's Energiewende made it greener.
+
+**Reality:** Germany's CO₂ emissions **barely decreased for a decade** (2009–2019). Why? They shut down zero-carbon **nuclear plants** at the same time and temporarily burned **more coal** to fill the gap.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+€500 billion. And for years, the carbon needle barely moved.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: Agora Energiewende Annual Review; Clean Energy Wire; Federal Environment Agency (UBA)*
+:::
+
+---
+
+## Wind Turbine Blades Go to Landfill
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+**Assumption:** Wind energy is fully "clean."
+
+**Reality:** A single wind turbine blade is **longer than a Boeing 747 wing** (up to 80m). Made of composite fiberglass. Currently **cannot be economically recycled.**
+
+Thousands of blades are buried in landfills across the American Midwest every year.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+The clean energy icon has a dirty secret at the end of its life.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: Bloomberg (2020) "Wind Turbine Blades Can't Be Recycled"; Liu & Barlow (2017) Waste Management*
+:::
+
+---
+
+## California Pays Other States to Take Its Solar Power
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+**Assumption:** More solar = always better.
+
+**Reality:** On sunny spring days, California produces **so much solar** that wholesale electricity prices go **negative**. The state literally pays Arizona and Nevada to absorb the excess.
+
+Meanwhile, at 7pm when the sun sets, California must fire up gas plants at full blast to cover demand. This is the **Duck Curve**.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: CAISO (California ISO) market data; EIA reports on negative pricing*
+:::
+
+---
+
+## Your Hong Kong EV Runs on Coal
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+**Assumption:** Electric cars are always greener.
+
+**Reality:** Hong Kong's grid is **~70% fossil fuels** (coal + natural gas). Only ~25% comes from Daya Bay nuclear imports.
+
+An EV charged on Hong Kong's grid produces roughly **100-120g CO₂/km**. A fuel-efficient petrol hybrid? About **90-110g CO₂/km**.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; background: #e74c3c; color: white; padding: 20px; border-radius: 10px;"}
+**The car isn't the whole story. The grid is.** Clean the grid first, then EVs become truly green.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Source: HK Electric & CLP annual reports; IEA lifecycle assessments; HK Environment Bureau*
+:::
+
+---
+
+## Why Am I Telling You This?
+
+::: {style="font-size: 1.8em; line-height: 1.8;"}
+Not to make you anti-renewable.
+
+Not to say "nothing works."
+
+But to show you: **the truth is complicated**.
+
+And complicated truths make **better arguments**.
+:::
+
+---
+
+## The System Boundary Returns
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Remember from last week? **"Sustainable compared to what, measured how, ending where?"**
+
+- **Nuclear** looks terrifying if your boundary is "worst-case accident." Looks safest if your boundary is "deaths per TWh over all time."
+- **Solar** looks perfect if you stop at the rooftop. Looks complicated if you include manufacturing, grid storage, and end-of-life disposal.
+- **Wind** looks clean if you stop at generation. Looks messy if you include blade disposal.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;"}
+Same data. Different boundaries. Completely different arguments.
+:::
+
+---
+
+# The Renewable Energy Landscape — At a Glance
+
+---
+
+## Six Sources, One Table
+
+::: {style="font-size: 1.15em; line-height: 1.6;"}
+| Source | Best For | Biggest Problem | HK Viability |
+|--------|----------|----------------|--------------|
+| **Solar** | Rooftops, building façades | Intermittent; storage needed; Duck Curve | **Medium** — limited rooftop space |
+| **Wind** | Offshore (South China Sea) | High cost; marine/bird impact | **Medium** — offshore potential |
+| **Hydropower** | Dams, river systems | Ecosystem disruption; land required | **Very Low** — no rivers |
+| **Geothermal** | Volcanic/tectonic regions | Drilling cost; seismic risk | **Very Low** — wrong geology |
+| **Biomass** | Waste processing | Deforestation; emissions from combustion | **Low** — limited feedstock |
+| **Tidal/Wave** | Coastal areas with strong currents | High cost; early-stage technology | **Low-Medium** — research stage |
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+For Hong Kong, only three matter in practice: **Solar, Wind, and Waste-to-Energy.**
+:::
+
+---
+
+## The Duck Curve — Why Solar Creates Problems {background-image="https://elements.visualcapitalist.com/wp-content/uploads/2022/06/VCE-The-Duck-Curve-Mar-31.jpg" background-size="cover"}
+
+:::{.notes}
+The Duck Curve: midday solar floods the grid, evening demand spikes when the sun disappears. The gap is the problem.
+:::
+
+---
+
+## The Duck Curve Explained
+{{< video https://www.youtube.com/embed/YYLzss58CLs width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Vox (~5 min) — The best visual explainer of why more solar doesn't simply mean fewer problems.*
+:::
+
+---
 
 ## Solar Incoming {background-image="https://cdn.britannica.com/85/73585-050-AC0B6BA5/Reflection-absorption-solar-energy-surface-atmosphere-sunlight.jpg" }
 
-## 1. Solar Energy
-- **Pros**: 
-  - Abundant sunlight
-  - Low operating costs
-  - Reduces electricity bills
-- **Cons**:
-  - High initial installation costs
-  - Requires significant space (rooftops/ground)
-  - Production variability due to weather conditions
-- **Short-term Impact**: 
-  - Immediate reduction in carbon emissions and energy costs.
-- **Long-term Impact**: 
-  - Enhances energy security and sustainability, but poses challenges for grid stability and storage solutions.
-
-:::{.notes}
-
-Introducing the Duck Curve.
-:::
-
-## Duck Curve {background-image="https://elements.visualcapitalist.com/wp-content/uploads/2022/06/VCE-The-Duck-Curve-Mar-31.jpg" background-size="cover"}
-
-## Wind Turbine {background-image="https://www.foe.org.hk/FileUpload/ImageText/c26c86de-2963-4fd0-b573-a814c33f8341.png" background-size="cover"}
-
-## 2. Wind Energy
-
-- **Pros**: 
-  - Clean and renewable energy source
-  - Potential for offshore installations
-- **Cons**:
-  - Limited land availability
-  - High installation and maintenance costs
-  - Potential impact on marine and bird life
-- **Short-term Impact**: 
-  - Diversifies energy sources, reducing reliance on fossil fuels.
-- **Long-term Impact**: 
-  - Offers a steady energy supply if technological and environmental challenges are addressed.
-
-
-## 3. Hydropower
-
-- **Pros**: 
-  - Reliable and consistent energy production
-  - Low greenhouse gas emissions
-- **Cons**:
-  - Environmental impact on aquatic ecosystems
-  - High upfront construction costs
-  - Limited feasibility in Hong Kong due to geography
-- **Short-term Impact**: 
-  - Minimal application in Hong Kong.
-- **Long-term Impact**: 
-  - Not a significant contributor to Hong Kong's energy mix.
+---
 
 ## Local Hydropower Plant
 {{< video https://www.youtube.com/embed/sXVeMwZgPLU?si=9r_KMzcTRwrLeu4E width="1600" height="900" >}}
 
+---
 
-##  {background-image="https://www.greenesa.com/uploads/news/1631205661Geothermalenergydetailgreenesa.png" background-size="cover"}
+## [Local Geothermal Project](https://re.emsd.gov.hk/english/energy/thermal/ther_re.html) {background-image="https://re.emsd.gov.hk/english/energy/thermal/images/ther_re_01.jpg" background-size="contain"}
 
-## 4. Geothermal Energy
-
-- **Pros**: 
-  - Consistent and reliable energy source
-  - Low emissions and small land footprint
-- **Cons**:
-  - High initial costs and drilling requirements
-  - Limited to regions with favorable geological conditions
-  - Potential for induced seismic activity
-- **Short-term Impact**: 
-  - Limited applicability in Hong Kong.
-- **Long-term Impact**: 
-  - Not a primary option without significant technological breakthroughs.
-
-## [Local Project](https://re.emsd.gov.hk/english/energy/thermal/ther_re.html) {background-image="https://re.emsd.gov.hk/english/energy/thermal/images/ther_re_01.jpg" background-size="contain"}
-
-## 5. Biomass Energy
-
-- **Pros**: 
-  - Utilizes organic waste materials
-  - Reduces landfill usage
-  - Provides a continuous energy source
-- **Cons**:
-  - Can lead to deforestation if not managed sustainably
-  - Emission of pollutants during combustion
-  - Requires significant land and water resources
-- **Short-term Impact**: 
-  - Aids in waste management while generating energy.
-- **Long-term Impact**: 
-  - Potential contributor to sustainability if implemented with strict environmental controls.
+---
 
 ## [Tidal Farm @ CityU](https://www.cityu.edu.hk/see_mer/tidal-Intro.htm) {background-image="https://green.org/wp-content/uploads/2024/01/Tidal-generator-1024x724-1.webp" background-size="contain"}
 
+---
 
-## 6. Tidal and Wave Energy
+# Case Studies: Real People, Real Consequences
 
-- **Pros**: 
-  - Predictable energy source
-  - Minimal visual impact
-  - Low operating costs in theory
-- **Cons**:
-  - High installation and maintenance costs
-  - Potential impact on marine ecosystems
-  - Limited to coastal areas with suitable conditions
-- **Short-term Impact**: 
-  - Currently limited due to high costs and technological challenges.
-- **Long-term Impact**: 
-  - Could significantly contribute to renewable energy if costs decrease and technology advances.
+---
 
+## {background-image="https://upload.wikimedia.org/wikipedia/commons/1/16/Topaz_Solar_Farm%2C_California_Valley.jpg" background-size="cover"}
 
-# Enhanced Case Studies with Key Details
+---
 
-## 1. California's Solar Energy Boom
+## California: The Paradox on Maria's Roof
 
-- **Public Messaging**:  
-  - **Quote/Spread**: *Governor Arnold Schwarzenegger: "<span style="color:red">Our goal is to see solar panels on every rooftop and solar power in every state.</span>"*
-- **Benefit Highlighted**:  
-  - Emphasis on environmental benefits and reduced energy costs.
-- **Adoption**:  
-  - Rapid increase in residential solar installations driven by strong incentives and tax breaks.
-- **Aftermath**:  
-  - Emergence of the Duck Curve, where excess midday energy challenges grid management.
-- **Omitted Nuances**:  
-  - Detailed grid capacity challenges and the need for advanced energy storage solutions.
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Maria** in San Diego installed rooftop solar in 2015. Her electricity bill dropped from **$200/month to $12**. She told everyone: *"Solar pays for itself."*
 
-## 2. Germany's Energiewende
+Then San Diego Gas & Electric changed the rules. **Time-of-use pricing** meant Maria was selling power at midday — when it was worth almost nothing — and buying it back at peak evening rates.
 
-- **Public Messaging**:  
-  - **Quote/Spread**: *Former Chancellor Angela Merkel (paraphrased): "<span style="color:red">The shift to renewable energy is a central project of the future.</span>"*
-- **Benefit Highlighted**:  
-  - Transition from nuclear and fossil fuels to cleaner energy, with broad public support.
-- **Adoption**:  
-  - Heavy investments in wind and solar, making Germany a leader in renewable energy.
-- **Aftermath**:  
-  - Issues with intermittency and higher consumer costs; occasional reliance on fossil fuels during shortfalls.
-- **Omitted Nuances**:  
-  - The complexities of integrating intermittent sources and the need for comprehensive grid modernization.
+Her savings dropped to **$40/month**. Her panels still worked perfectly. The economics didn't.
 
-## 3. Ontario's Green Energy Act
+Meanwhile, California was **paying Arizona to take its excess solar power** — negative wholesale prices. The grid couldn't handle what it asked for.
+:::
 
-- **Public Messaging**:  
-  - **Quote/Spread**: *Premier Dalton McGuinty: "<span style="color:red">We will create a new industry and thousands of jobs.</span>"*
-- **Benefit Highlighted**:  
-  - Job creation and positioning Ontario as a leader in renewable energy.
-- **Adoption**:  
-  - Rapid expansion in wind and solar energy projects following the act.
-- **Aftermath**:  
-  - Increased electricity prices and grid management issues leading to public backlash and policy re-evaluation.
-- **Omitted Nuances**:  
-  - Detailed cost-benefit analyses and long-term sustainability challenges in grid integration.
+::: {style="font-size: 1.3em; margin-top: 20px; font-weight: bold; color: #e74c3c;"}
+*Governor Schwarzenegger said "solar panels on every rooftop." Nobody mentioned what happens when every rooftop turns on at the same time.*
+:::
 
-<!-- 
-## 4. UK's Wind Energy Push
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
+*Sources: CAISO Duck Curve data; CPUC NEM 3.0 proceedings; San Diego Union-Tribune reporting*
+:::
 
-- **Public Messaging**:  
-  - **Quote/Spread**: *Prime Minister David Cameron (example): "We are making the big six energy companies look at their tariffs and offer the lowest available."*  
-    *(Note: Replace with an exact quote if available.)*
-- **Benefit Highlighted**:  
-  - Emphasis on energy independence and reduced emissions.
-- **Adoption**:  
-  - Significant investment in offshore wind farms and supportive policies.
-- **Aftermath**:  
-  - Concerns regarding intermittency, high operational costs, and the visual impact on landscapes.
-- **Omitted Nuances**:  
-  - Detailed discussions on integration costs and long-term environmental impacts. -->
+---
+
+## {background-image="https://upload.wikimedia.org/wikipedia/commons/e/e6/Aerial_image_of_the_Hambach_surface_mine_%28view_from_the_southeast%29.jpg" background-size="cover"}
+
+---
+
+## Germany: Klaus and the Dead Town
+
+::: {style="font-size: 1.35em; line-height: 1.8;"}
+**Klaus** worked in the lignite mines of Schwarze Pumpe, Lausitz, for 30 years. His father mined there. His grandfather too. Three generations of brown coal.
+
+The Energiewende shut his mine. The government promised retraining. Klaus was 55.
+
+Five years later: **60% of retrained workers** in the Lausitz region were unemployed or in worse-paying jobs. The town's population **halved**. The local school closed. The pub closed.
+
+And Germany's CO₂ emissions? **Barely changed for years** — because Berlin simultaneously shut down zero-carbon nuclear plants and temporarily burned *more coal* to fill the gap.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-weight: bold; color: #3498db;"}
+*Klaus lost his livelihood for a transition that, for a decade, didn't even reduce emissions.*
+:::
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
+*Sources: Agora Energiewende; IW Köln regional labor studies; Clean Energy Wire; UBA emissions data*
+:::
+
+---
+
+## {background-image="https://upload.wikimedia.org/wikipedia/commons/b/b8/Wind_turbines_and_lignite_power_plants_Germany_2019-09-10.jpg" background-size="cover"}
+
+::: {style="font-size: 1.3em; position: absolute; bottom: 40px; left: 40px; background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 10px;"}
+Wind turbines in front of lignite power plants. Germany, 2019. Old and new, side by side.
+:::
+
+---
+
+## {background-image="https://upload.wikimedia.org/wikipedia/commons/7/75/Wolfe_island_wind_farm%2C_Kingston_Ontario_Canada_-_Laslovarga_%28158%29.JPG" background-size="cover"}
+
+---
+
+## Ontario: The Bill That Brought Down a Government
+
+::: {style="font-size: 1.35em; line-height: 1.8;"}
+The **Henderson family** in rural Ontario had a $120/month electricity bill in 2009. That year, Premier Dalton McGuinty signed the **Green Energy Act**. *"We will create a new industry and thousands of jobs."*
+
+Feed-in tariffs guaranteed solar producers **80 cents per kWh** — when market price was 3–5 cents. Someone had to pay the difference. The Hendersons did.
+
+By 2016, their bill was **$250/month**. The "Global Adjustment" charge — the hidden cost of renewable subsidies — was *larger than the cost of actual electricity*.
+
+Ontario lost **300,000 manufacturing jobs** (energy costs were one factor). In 2018, the governing Liberals won **one seat**. The worst electoral defeat in the province's history.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
+*Sources: Ontario Energy Board rate data; Ontario Auditor General (2015); Statistics Canada*
+:::
+
+---
+
+## What Do These Stories Have in Common?
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+None of them are anti-renewable.
+
+All of them are **anti-simplicity**.
+
+- California proves: **timing and storage matter** as much as generation.
+- Germany proves: **sequencing matters** — don't kill nuclear before renewables can replace it.
+- Ontario proves: **cost distribution matters** — who pays for the transition?
+:::
+
+::: {style="font-size: 1.5em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
+The transition is necessary. The question is how to not destroy people along the way.
+:::
+
+---
+
+# Bringing It Home: Hong Kong
+
+---
+
+## {background-image="https://upload.wikimedia.org/wikipedia/commons/8/83/Castle_Peak_Power_Station_%28Hong_Kong%29.jpg" background-size="cover"}
+
+::: {style="font-size: 1.3em; position: absolute; bottom: 40px; left: 40px; background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 10px;"}
+Castle Peak Power Station, Tuen Mun — one of the largest coal-fired plants in Asia.
+:::
+
+---
+
+## "Why Tuen Mun Again?"
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+In 2007, when the government proposed building *another* polluting facility in Tuen Mun, District Councillor **Lung Shui-hing** stood up:
+
+> *"Why Tuen Mun again? The government is treating the district like a garbage dump where all the unwanted facilities are found."*
+
+All 13 councillors voted unanimously against. They noted Tuen Mun already housed: Castle Peak Power Station, a recycling park, a steel mill, oil tanks, and a landfill.
+
+Government officials later acknowledged that **easterly winds — which carry pollutants away from the main urban areas — influenced site selection.**
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-weight: bold; color: #e74c3c;"}
+The pollution isn't accidental. The location was chosen because the people living downwind were deemed less likely to complain.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
+*Source: SCMP, August 18, 2007*
+:::
+
+---
+
+## Mrs Ho Can't Stop Coughing
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Mrs Ho**, 56, developed an airway allergy she attributes partly to Hong Kong's air pollution. She described it to SCMP:
+
+> *"I coughed uncontrollably, drawing odd stares and dirty looks from people around me on the street."*
+
+She became a Greenpeace volunteer, helping attach air monitoring tubes across Hong Kong. **Dr Loretta So Kit-ying**, respiratory medicine specialist at Pamela Youde Nethersole Eastern Hospital, confirmed: *"Nitrogen dioxide will cause irritation to the airways, leading to a range of respiratory diseases."*
+
+In 2015, Tuen Mun recorded [**395 hours**]{style="color: orangered;"} of "high" or above air quality readings — the **worst in Hong Kong** for the second consecutive year.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
+*Sources: SCMP, Victor Ting, July 19, 2019; SCMP, Ernest Kao, November 30, 2015 (Green Power data)*
+:::
+
+---
+
+## The Price Tag on Hong Kong's Air
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="width: 30%; background: #e74c3c; color: white; padding: 25px; border-radius: 10px; text-align: center;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+3,508
+:::
+::: {style="font-size: 1.1em; margin-top: 10px;"}
+premature deaths from air pollution in Hong Kong (2024)
+:::
+:::
+
+::: {style="width: 30%; background: #2c3e50; color: white; padding: 25px; border-radius: 10px; text-align: center;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+HK$42B
+:::
+::: {style="font-size: 1.1em; margin-top: 10px;"}
+economic loss from pollution-related health costs annually
+:::
+:::
+
+::: {style="width: 30%; background: #8e44ad; color: white; padding: 25px; border-radius: 10px; text-align: center;"}
+::: {style="font-size: 2.5em; font-weight: bold;"}
+550%
+:::
+::: {style="font-size: 1.1em; margin-top: 10px;"}
+how much HK's roadside NO₂ exceeds WHO guidelines
+:::
+:::
+:::
+
+::: {style="font-size: 1.3em; margin-top: 30px; text-align: center;"}
+Prof **Anthony Hedley** (HKU School of Public Health): *"Probably 100 per cent of the population is exposed, at unacceptable levels, to this environmental hazard."*
+:::
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Sources: Clean Air Network / HKU (2024 Review); Hedley Environmental Index ([hedleyindex.hku.hk](https://hedleyindex.hku.hk/en/health-economic-loss))*
+:::
+
+---
+
+## Meanwhile, on Anita Tang's Roof
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Anita Tang** (56) and her architect husband **Stephen** (62) installed solar panels at their home in Fairview Park, Yuen Long, in October 2018.
+
+- Installation cost: **HK$180,000**
+- Monthly earnings from CLP Feed-in Tariff: **HK$2,500–3,000**
+- Expected payback: ~6 years
+
+But approval took **two months** instead of two weeks. The supplier market was chaotic — Anita: *"Some suppliers said they were registered, but we couldn't find their address."*
+
+Hong Kong targets [**7.5%–10%**]{style="color: orangered;"} renewables by 2035. The Tangs are doing their part. But village house owners like **Newman Lau Man-choi** in Clear Water Bay can only use half their rooftop — by regulation.
+:::
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
+*Sources: SCMP, Athena Chan, July 14, 2019; HKFP, December 25, 2018*
+:::
+
+---
+
+## Hong Kong's Energy Reality
+
+::: {style="font-size: 1.3em; line-height: 1.6;"}
+| Factor | Reality |
+|--------|---------|
+| **Current renewable share** | ~1% (one of the lowest in developed economies) |
+| **2035 target** | 7.5–10% renewables |
+| **Largest clean source** | Daya Bay nuclear import (~25% of supply) |
+| **Main fossil fuels** | Coal (~25%) + Natural Gas (~45%) |
+| **Space constraint** | 1,100 km² total — one of densest cities on Earth |
+| **Solar potential** | Limited rooftop area; buildings shade each other |
+| **Offshore wind** | South China Sea potential, but typhoon risk + shipping lanes |
+| **Waste-to-energy** | T-Park operational; I-Park under construction |
+
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; color: #7f8c8d;"}
+HK's biggest "clean" move was importing nuclear from Guangdong. The irony: the energy source the public fears most contributes the most to decarbonization.
+:::
+
+---
+
+## The "Wait, What?" of Hong Kong Energy
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+HK's **offshore wind potential** alone could generate **32% of the city's electricity**.
+
+HK's **solar rooftop potential** could generate another **16%**.
+
+Together: nearly **half** of Hong Kong's electricity needs.
+
+The government's 2035 target? **7.5–10%.**
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; background: #2c3e50; color: white; padding: 30px; border-radius: 10px;"}
+And in 2024, CLP stated that Hong Kong's clean energy future will be **"mostly nuclear"** — importing from Guangdong, not building local renewables.
+
+*The city with 1,100 km² chose to outsource its energy conscience.*
+:::
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d;"}
+*Sources: HK RE potential estimates (EMSD); Energy Connects, August 2024 (CLP statement)*
+:::
+
+---
+
+## Places to Start Considering Your Position Statement
+
+- **Global vs. Local**: How do California, Germany, and Ontario's lessons apply — or not apply — to a city of 7.5 million people on 1,100 km²?
+
+- **Simplified Messaging**: What nuances are omitted when politicians say "renewables by 2035"? Why might these omissions be deliberate?
+
+- **Policy Levers**: Given HK's constraints, what strategies could actually work? More nuclear imports? Floating solar? Regional grid sharing with Guangdong?
+
+- **Long-Term Vision**: How might HK's energy landscape look in 2100? What realistic pathways exist for energy security?
+
+---
 
 # Building Your Energy Spectacle
 
@@ -294,7 +641,7 @@ Spectacle
 ::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
 **Don't say:** "Fossil fuels cause emissions."
 
-**Say:** "Every breath your child takes in Tsim Sha Tsui contains particles from coal plants 100km away. You're paying for cheap electricity with their lungs."
+**Say:** "Mrs Ho coughs uncontrollably on the street and strangers give her dirty looks. She lives downwind from Castle Peak. You're paying for cheap electricity with her lungs."
 
 **Don't say:** "We need renewable energy mandates."
 
@@ -308,75 +655,39 @@ Spectacle
 ::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
 **Don't say:** "Energy transitions are complex."
 
-**Say:** "Ontario rushed renewables. Electricity bills doubled. Factories closed. Workers lost jobs. Is that the transition you want?"
+**Say:** "Ontario rushed renewables. Electricity bills doubled. Factories closed. Workers lost jobs. The government was wiped out. One seat. Is that the transition you want?"
 
 **Don't say:** "We need reliable baseload power."
 
-**Say:** "Germany spent €500 billion on renewables. When the wind doesn't blow, they import nuclear power from France. Guess who pays? The same families who can't afford heating."
+**Say:** "Germany spent €500 billion on renewables. When the wind doesn't blow, they import nuclear from France. Klaus lost his job, his pension, his town. The carbon needle barely moved."
 :::
 
 ---
 
-# Scenario: Bringing It Back to Hong Kong
+## PRO-TIP: Use the "Wait, What?" Technique
 
-## Renewable Energy Landscape in Hong Kong
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+| Topic | "Wait, What?" Opening |
+|-------|----------------------|
+| Nuclear safety | "Nuclear has killed fewer people per kWh than solar. Yes, including Chernobyl." |
+| Solar limits | "California has so much solar it pays other states to take it — then fires up gas plants at sunset." |
+| Germany | "Germany spent €500B on green energy. Its CO₂ emissions barely changed for a decade." |
+| Wind disposal | "A single turbine blade is longer than a 747 wing. It goes to landfill." |
+| HK EVs | "Your Tesla charged in Hong Kong might be dirtier than a Prius." |
+:::
 
-Hong Kong's current renewable energy usage is modest, with the government targeting <span style="color:orangered">**7.5% to 10%**</span> of its electricity from renewables by 2035, and **15%** beyond that. This landscape includes:
+::: {style="font-size: 1.3em; margin-top: 30px; color: #7f8c8d;"}
+Always include your source. "Wait, what?" only works if it's **true**.
+:::
 
-## **Solar Energy**:  
-  - **Pros**:  
-    - Utilizes available rooftop and building façade space.
-    - Offers environmental benefits and potential cost savings.
-  - **Cons**:  
-    - Requires significant rooftop space, which is limited.
-    - Variable output due to weather conditions.
-  - **Short-term Impact**:  
-    - Reduction in carbon emissions and potential energy savings.
-  - **Long-term Impact**:  
-    - Increased energy security if grid challenges (storage and integration) are managed.
+---
 
-## **Wind Energy**:  
-  - **Pros**:  
-    - Potential for offshore wind farms using the South China Sea.
-    - Clean energy source that diversifies the energy mix.
-  - **Cons**:  
-    - High installation and maintenance costs.
-    - Limited land availability for onshore installations.
-  - **Short-term Impact**:  
-    - Diversification of energy sources.
-  - **Long-term Impact**:  
-    - Could provide a stable renewable supply if technological and cost challenges are overcome.
+## One More Thing Before We Debate
+{{< video https://www.youtube.com/embed/yiw6_JakZFc width="1600" height="900" >}}
 
-## **Waste-to-Energy**:  
-  - **Pros**:  
-    - Addresses waste management issues.
-    - Provides a steady and controllable energy source.
-  - **Cons**:  
-    - High operational costs and potential public opposition due to emissions.
-  - **Short-term Impact**:  
-    - Immediate benefits in waste reduction and energy generation.
-  - **Long-term Impact**:  
-    - Sustainable waste management, assuming strict environmental controls are in place.
-
-## **Other Renewable Options (Hydro, Geothermal, Biomass, Tidal/Wave)**:  
-  - **Application**:  
-    - Limited due to Hong Kong’s geographic constraints.
-  - **Impact**:  
-    - Minimal short-term or long-term contribution compared to solar, wind, and waste-to-energy.
-
-## Places to start considering your position statement
-
-- **Global vs. Local Perspectives**:  
-  - How do the global case studies differ from Hong Kong’s renewable energy potential and challenges?
-  
-- **Understanding Simplified Messaging**:  
-  - What nuances are often omitted in public messaging about renewable energy? Why might these omissions be deliberate, and what are their consequences?
-
-- **Policy and Implementation**:  
-  - Considering Hong Kong’s space and cost constraints, what strategies could the government adopt to enhance renewable energy integration (e.g., technological innovations, grid improvements, energy storage)?
-
-- **Long-Term Vision**:
-  - How might Hong Kong's energy landscape evolve by 2100 or 2200? What realistic pathways can be envisioned to achieve energy security and sustainability?
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Kurzgesagt "Can YOU Fix Climate Change?" (~15 min) — Watch for: who invented the "personal carbon footprint"?*
+:::
 
 ---
 
@@ -390,7 +701,7 @@ Hong Kong's current renewable energy usage is modest, with the government target
 **PRO-CLIMATE personas:**
 
 - Environmentalist pushing for immediate coal phase-out
-- Parent in Tuen Mun near power station
+- Parent in Tuen Mun near power station (like Mr. Wong)
 - Youth climate activist
 - Renewable energy startup founder
 
@@ -408,12 +719,11 @@ Who are you? What's your story? What do you fear losing?
 
 ---
 
-## Human Story: The Lignite Worker
+## The Real Question
 
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Klaus** worked in German lignite mines for 30 years. His father and grandfather did too. The Energiewende shut his mine.
+::: {style="font-size: 1.6em; line-height: 1.8; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
 
-**PRO-CLIMATE says:** "Lignite is the dirtiest fuel. Closing the mines saved lives. Klaus can retrain."
+**PRO-CLIMATE says:** "Coal is killing children. Close the plants. Klaus can retrain."
 
 **PRO-DEVELOPMENT says:** "Klaus is 55. He lost his pension. His town is dying. No one hired him. He voted for the far-right. Was the transition worth it?"
 
@@ -433,6 +743,8 @@ OK to Say
 - "Solar costs dropped 89% since 2010" *(IEA data)*
 - "Ontario electricity prices doubled" *(Ontario Energy Board)*
 - "Duck Curve creates grid challenges" *(CAISO documented)*
+- "Nuclear kills 0.03 per TWh" *(Markandya & Wilkinson)*
+- "Wind blades go to landfill" *(Bloomberg, 2020)*
 :::
 :::
 
@@ -444,6 +756,7 @@ NOT OK
 - "Renewables can power everything now" *(ignores intermittency)*
 - "Green energy destroys economies" *(exaggeration)*
 - "Oil companies are literally killing people" *(unverifiable as stated)*
+- "Nuclear is perfectly safe" *(overstated — low risk ≠ no risk)*
 :::
 :::
 :::
@@ -579,7 +892,7 @@ const GroupAssignment = {
   init: function() {
     const startButton = document.getElementById('groupAssignment_startButton');
     const closeButton = document.getElementById('groupAssignment_closeButton');
-    
+
     startButton.addEventListener('click', () => this.displayAssignment());
     closeButton.addEventListener('click', () => {
       document.getElementById('groupAssignment_overlay').style.display = 'none';
@@ -600,7 +913,7 @@ GroupAssignment.init();
     font-size: 348px;
     color: black;
     margin-bottom: 20px;">00:00</div>
-  
+
   <!-- Control Buttons -->
   <button id="start-button" style="
     font-size: 24px;
@@ -706,7 +1019,7 @@ This is **Embodied Cognition** (Williams & Bargh, 2008).
 The body doesn't just receive information — it **shapes judgment**.
 
 - Physical warmth → social warmth
-- Heaviness → seriousness  
+- Heaviness → seriousness
 - Roughness → difficulty
 
 **The brain takes sensory shortcuts constantly.**
@@ -714,16 +1027,24 @@ The body doesn't just receive information — it **shapes judgment**.
 
 ---
 
-## You Just Saw It
+## You Just Saw It — In the Energy Debate
 
-::: {style="font-size: 1.6em; line-height: 1.8;"}
-The arguments that landed today weren't abstract.
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+The arguments that landed today weren't abstract policy statements.
 
 They made you **feel something in your body**.
 
-Not "rising temperatures cause problems."
+Not "coal combustion produces particulate matter affecting respiratory health."
 
-But: *"Your grandmother's lungs filling with smoke from a wildfire that didn't exist 20 years ago."*
+But: *"Mrs Ho coughs uncontrollably on the street. Strangers give her dirty looks. She doesn't know how to explain that the air itself is making her sick."*
+
+Not "energy transitions have economic costs."
+
+But: *"Klaus is 55. His mine closed. His pension vanished. His town is dying."*
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #8e44ad;"}
+That's sensory hijack. Body-first, logic second.
 :::
 
 ---
@@ -734,4 +1055,101 @@ But: *"Your grandmother's lungs filling with smoke from a wildfire that didn't e
 **Make your audience physically uncomfortable — on purpose.**
 
 One image. One sentence. Body-first.
+:::
+
+---
+
+# Appendix: Detailed Renewable Energy Data
+
+---
+
+## Appendix A: Solar Energy — Full Detail
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+- **Pros**: Abundant sunlight; low operating costs; reduces electricity bills
+- **Cons**: High initial installation costs; requires significant space; production variability due to weather
+- **Short-term Impact**: Immediate reduction in carbon emissions and energy costs
+- **Long-term Impact**: Enhances energy security and sustainability, but poses challenges for grid stability and storage solutions
+
+**The Duck Curve Problem**: As solar capacity increases, midday generation floods the grid while evening demand spikes. The difference between midday minimum and evening peak creates the "duck" shape. California ISO documented this phenomenon extensively.
+:::
+
+---
+
+## Appendix B: Wind Energy — Full Detail
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+- **Pros**: Clean and renewable; potential for offshore installations
+- **Cons**: Limited land availability; high installation and maintenance costs; marine and bird life impact
+- **Short-term Impact**: Diversifies energy sources, reducing reliance on fossil fuels
+- **Long-term Impact**: Steady energy supply if technological and environmental challenges addressed
+
+**Blade Disposal Problem**: Turbine blades are made of composite fiberglass — strong, light, and nearly impossible to recycle economically. Average blade lifespan: 20-25 years. Tens of thousands will need replacement in the coming decade.
+:::
+
+---
+
+## Appendix C: Hydropower, Geothermal, Biomass, Tidal — Full Detail
+
+::: {style="font-size: 1.1em; line-height: 1.5;"}
+**Hydropower**: Reliable and consistent; low GHG emissions. But: ecosystem disruption, high construction costs, and essentially zero feasibility in Hong Kong due to geography.
+
+**Geothermal**: Consistent and reliable; small land footprint. But: requires specific geological conditions Hong Kong lacks. Local project via [EMSD](https://re.emsd.gov.hk/english/energy/thermal/ther_re.html) is small-scale ground-source heat pumps, not power generation.
+
+**Biomass**: Utilizes organic waste; reduces landfill. But: can lead to deforestation; emits pollutants during combustion; requires significant land and water.
+
+**Tidal/Wave**: Predictable energy source; minimal visual impact. But: high installation costs; early-stage technology; impact on marine ecosystems. [CityU research](https://www.cityu.edu.hk/see_mer/tidal-Intro.htm) is exploring local potential.
+:::
+
+---
+
+## Appendix D: Hong Kong Renewable Energy — Detailed Landscape
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+**Solar in HK**: Utilizes rooftop and building façade space. Limited by Hong Kong's dense urban environment — buildings shade each other. Government Feed-in Tariff (FiT) scheme pays up to HK$5/kWh for small installations.
+
+**Wind in HK**: Offshore potential in South China Sea. CLP's Hok Un wind turbine was a pilot. Challenges: typhoons, shipping lanes, cost.
+
+**Waste-to-Energy in HK**: T-Park (sludge treatment, operational). I-Park (integrated waste management, under construction in Shek Kwu Chau). Addresses waste crisis while generating power.
+
+**Nuclear Import**: Daya Bay Nuclear Power Station provides ~25% of Hong Kong's electricity via CLP. This single contract is Hong Kong's largest decarbonization achievement — and it's not even "renewable" by most definitions.
+:::
+
+---
+
+## Appendix E: Case Study Data — Full Sources
+
+::: {style="font-size: 1.1em; line-height: 1.6;"}
+| Claim | Source |
+|-------|--------|
+| Nuclear 0.03 deaths/TWh | Markandya & Wilkinson (2007) The Lancet |
+| Solar 0.05 deaths/TWh | Sovacool et al. (2016) Journal of Cleaner Production |
+| Germany CO₂ stagnation 2009-2019 | Agora Energiewende; UBA |
+| Germany €500B+ Energiewende cost | DIW Berlin; BMWi federal reports |
+| Ontario bills doubled | Ontario Energy Board; Auditor General (2015) |
+| Ontario lost 300K manufacturing jobs | Statistics Canada (multiple factors) |
+| California negative pricing | CAISO market reports |
+| HK grid ~70% fossil | CLP & HK Electric annual reports (2023) |
+| Wind blade landfill | Bloomberg (2020); Liu & Barlow (2017) |
+| Solar costs dropped 89% | IRENA Renewable Power Generation Costs (2023) |
+:::
+
+---
+
+## Appendix F: "Wait, What?" Energy Facts — Full Sources
+
+::: {style="font-size: 1.1em; line-height: 1.6;"}
+| Claim | Source |
+|-------|--------|
+| Nuclear safest per kWh | Our World in Data; Markandya & Wilkinson (2007) |
+| Solar/wind deaths from manufacturing | Sovacool (2016); Fthenakis & Kim (2010) |
+| Germany shut nuclear, burned more coal | Clean Energy Wire; Fraunhofer ISE data |
+| Wind blades can't be recycled | Bloomberg (2020); NREL studies |
+| California negative electricity prices | CAISO market data; EIA |
+| HK EV ~100-120g CO₂/km on grid | Calculated from grid emissions factor × EV efficiency |
+| Efficient hybrid ~90-110g CO₂/km | ICCT lifecycle analysis |
+:::
+
+::: {style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;"}
+*Note: Energy data evolves rapidly. Always check for most recent reports. Regional and temporal variations are significant.*
 :::
