@@ -202,8 +202,12 @@ Fritz Lang imagined a city of towering skyscrapers, underground workers, and a s
 **How wrong was he?**
 :::
 :::
-::: {style="width: 40%; font-size: 0.9em; color: #888;"}
+::: {style="width: 40%;"}
+{{< video https://www.youtube.com/embed/gdtZv3XROnc width="100%" >}}
+
+::: {style="font-size: 0.9em; color: #888; margin-top: 8px;"}
 *Fritz Lang's Metropolis (1927) — a vision of the year 2026*
+:::
 :::
 :::
 
@@ -355,6 +359,12 @@ Five ways growing architecture affects climate:
 
 ---
 
+## {background-color="black"}
+
+![Central Park from above — a 3.4 km² green rectangle holding back the heat of Manhattan.](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_%2815351915006%29.jpg/1280px-Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_%2815351915006%29.jpg){width="85%"}
+
+---
+
 ## The Paradox of Central Park
 
 ::: {style="font-size: 1.5em; line-height: 1.8;"}
@@ -403,6 +413,12 @@ But is burning waste really "clean"? That depends on where you draw the system b
 
 ---
 
+## {background-color="black"}
+
+![Spittelau waste incineration plant, Vienna — redesigned by Friedensreich Hundertwasser. An incinerator that people *want* to visit.](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Spittelau_%28Wien%29_-_M%C3%BCllverbrennungsanlage_%282%29.JPG/1280px-Spittelau_%28Wien%29_-_M%C3%BCllverbrennungsanlage_%282%29.JPG){width="75%"}
+
+---
+
 ## The World's Most Beautiful Trash Plant
 
 ::: {style="font-size: 1.5em; line-height: 1.8;"}
@@ -423,6 +439,12 @@ An incinerator that people *want* to visit. A tourist attraction. Architecture s
 ---
 
 # Case Study 3: Los Angeles Water Conservation
+
+---
+
+## {background-color="black"}
+
+![Ivanhoe Reservoir, Los Angeles — 96 million shade balls deployed to reduce evaporation during California's drought.](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ivanhoe_Reservoir_view_from_north_2015-10-11.jpg/1280px-Ivanhoe_Reservoir_view_from_north_2015-10-11.jpg){width="85%"}
 
 ---
 
