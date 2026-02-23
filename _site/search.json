@@ -662,42 +662,448 @@
     "href": "genai/class3.html#section-7",
     "title": "GenAI Module",
     "section": "",
-    "text": "If AI can write, what’s the value of your writing?\n\n\nIf AI can design, what’s the value of your design?"
+    "text": "Remember last class?\n\n\nThe Pollock painting tool built with Claude."
+  },
+  {
+    "objectID": "genai/class3.html#what-you-saw",
+    "href": "genai/class3.html#what-you-saw",
+    "title": "GenAI Module",
+    "section": "What You Saw",
+    "text": "What You Saw\n\nAn AI-generated HTML tool where you could create Pollock-like paintings by adjusting sliders:\n\nStroke arm speed\nDrip intensity\nPaint viscosity\nNumber of passes across the canvas\nColour palette range\nCanvas angle\nSplatter radius\nLayer count\n\n\n\nEach slider changed the output."
   },
   {
     "objectID": "genai/class3.html#section-8",
     "href": "genai/class3.html#section-8",
     "title": "GenAI Module",
     "section": "",
-    "text": "What can you bring that the machine cannot?"
+    "text": "What happened when all sliders were at default?\n\n\nYou got the average Pollock.\n\n\nThe most probable Pollock. The Pollock nobody would hang on their wall."
   },
   {
-    "objectID": "genai/class3.html#your-signature",
-    "href": "genai/class3.html#your-signature",
+    "objectID": "genai/class3.html#section-9",
+    "href": "genai/class3.html#section-9",
     "title": "GenAI Module",
-    "section": "Your Signature",
-    "text": "Your Signature\n\n\n\nIntentionality\n\nYou chose this, for reasons\n\n\n\nLived Experience\n\nThe machine has never lived\n\n\n\nTaste\n\nKnowing what to reject\n\n\n\nRisk-taking\n\nWillingness to fail\n\n\n\nIdiosyncrasy\n\nThe weird thing only you would do\n\n\n\nAccountability\n\nYou stand behind it"
+    "section": "",
+    "text": "What happened when you moved the sliders?\n\n\nSomething started to happen.\n\n\nNot because the AI got better. Because you made choices."
   },
   {
-    "objectID": "genai/class3.html#quick-exercise-your-avatar-10-min",
-    "href": "genai/class3.html#quick-exercise-your-avatar-10-min",
+    "objectID": "genai/class3.html#section-10",
+    "href": "genai/class3.html#section-10",
     "title": "GenAI Module",
-    "section": "Quick Exercise: Your Avatar (10 min)",
-    "text": "Quick Exercise: Your Avatar (10 min)\n\nBefore we split into activities, everyone try this:\n\n\n\nOpen any AI image tool (DALL-E, Midjourney, etc.)\nPrompt: “Create a logo or avatar for me”\nLook at what you get."
+    "section": "",
+    "text": "Each slider is a degree of freedom.\n\n\nA parameter you control.\nA dimension you can move in."
   },
   {
-    "objectID": "genai/class3.html#what-did-you-get",
-    "href": "genai/class3.html#what-did-you-get",
+    "objectID": "genai/class3.html#one-parameter-a-line",
+    "href": "genai/class3.html#one-parameter-a-line",
     "title": "GenAI Module",
-    "section": "What Did You Get?",
-    "text": "What Did You Get?\n\n\nWhat’s generic about it?\nWhat’s missing that would make it you?\nWhat would you have to add, change, or fight for?\n\n\n\nThis is convergence in action. The AI gave you the average avatar.\nNow you know what you’re pushing against."
+    "section": "One Parameter: A Line",
+    "text": "One Parameter: A Line\n\nIf you only control one thing — say, stroke speed — you can explore a line.\n\n\n      STROKE SPEED   slow fast ← you are here →\n\n\nLeft or right. That’s it. One degree of freedom."
   },
   {
-    "objectID": "genai/class3.html#now-choose-your-path",
-    "href": "genai/class3.html#now-choose-your-path",
+    "objectID": "genai/class3.html#two-parameters-a-plane",
+    "href": "genai/class3.html#two-parameters-a-plane",
     "title": "GenAI Module",
-    "section": "Now Choose Your Path",
-    "text": "Now Choose Your Path\n\n\n\nOption A\n\nDesign Sprint (group)\n\n\n\nOption B\n\nIndividual Launch (solo)"
+    "section": "Two Parameters: A Plane",
+    "text": "Two Parameters: A Plane\n\nAdd a second — drip intensity — now you can move across a flat surface.\n\n\n\n                    STROKE SPEED DRIP INTENSITY you\n\n\nA square of possibilities. You can reach any point on the surface."
+  },
+  {
+    "objectID": "genai/class3.html#section-11",
+    "href": "genai/class3.html#section-11",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "Now add one more."
+  },
+  {
+    "objectID": "genai/class3.html#three-parameters-a-cube",
+    "href": "genai/class3.html#three-parameters-a-cube",
+    "title": "GenAI Module",
+    "section": "Three Parameters: A Cube",
+    "text": "Three Parameters: A Cube\n\nAdd a third — number of passes — and the flat plane lifts into a volume.\n\n\n\n            SPEED → ← DRIP ↑ PASSES you\n\n\nThree dimensions. You can still see this. Barely."
+  },
+  {
+    "objectID": "genai/class3.html#the-jump",
+    "href": "genai/class3.html#the-jump",
+    "title": "GenAI Module",
+    "section": "The Jump",
+    "text": "The Jump\n\n\n\n \n\n\n1D — Line\n\n\n10 positions\n\n\n\n→\n\n\n\n     \n\n\n2D — Square\n\n\n100 positions\n\n\n\n→\n\n\n\n   \n\n\n3D — Cube\n\n\n1,000 positions\n\n\n\n→\n\n\n\n          ?\n\n\n8D — ???\n\n\n100,000,000 positions"
+  },
+  {
+    "objectID": "genai/class3.html#section-12",
+    "href": "genai/class3.html#section-12",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "The Pollock tool had 8 sliders.\n\n\nYou were moving through 8-dimensional space.\n\n\nYou can’t draw it. You can’t visualise it.\nBut you were navigating it — every time you moved a slider."
+  },
+  {
+    "objectID": "genai/class3.html#the-name-for-this",
+    "href": "genai/class3.html#the-name-for-this",
+    "title": "GenAI Module",
+    "section": "The Name for This",
+    "text": "The Name for This\n\nMathematicians call this a tensor space.\nYou don’t need the math. You need the intuition:\n\n\n\n\n\n\n\n\n\n\n\nParameters\nSpace\nYou Can Explore…\nPossible Positions\n\n\n\n\n1\nLine\nLeft or right\n10\n\n\n2\nSquare\nA flat surface\n100\n\n\n3\nCube\nA volume\n1,000\n\n\n8\nTensor space\nA space you can’t see — but can navigate\n100,000,000\n\n\n\n\n\nEvery parameter you add multiplies the possibilities."
+  },
+  {
+    "objectID": "genai/class3.html#section-13",
+    "href": "genai/class3.html#section-13",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "With 2 parameters, each having 10 settings?\n100 possible paintings.\n\n\nWith 8 parameters, each having 10 settings?\n100,000,000 possible paintings.\n\n\nAnd that’s just a toy with 8 sliders."
+  },
+  {
+    "objectID": "genai/class3.html#section-14",
+    "href": "genai/class3.html#section-14",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "Now think about real creative work."
+  },
+  {
+    "objectID": "genai/class3.html#your-hyperparameters",
+    "href": "genai/class3.html#your-hyperparameters",
+    "title": "GenAI Module",
+    "section": "Your Hyperparameters",
+    "text": "Your Hyperparameters\n\nA piece of writing has hundreds of parameters:\n\n\n\nSentence length\n\n\nVocabulary range\n\n\nMetaphor density\n\n\nCultural references\n\n\nTone\n\n\nStructure\n\n\nWhat you leave out\n\n\nPacing\n\n\nHumour\n\n\nPersonal experience\n\n\nWorldview\n\n\nWhat you find funny\n\n\n\nEach one is a dimension. You’re working in a space with hundreds of axes."
+  },
+  {
+    "objectID": "genai/class3.html#section-15",
+    "href": "genai/class3.html#section-15",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "Every possible creative output is a point in this space.\n\n\nEvery essay. Every painting. Every design. Every song.\nA coordinate in high-dimensional space."
+  },
+  {
+    "objectID": "genai/class3.html#where-does-ai-land",
+    "href": "genai/class3.html#where-does-ai-land",
+    "title": "GenAI Module",
+    "section": "Where Does AI Land?",
+    "text": "Where Does AI Land?\n\n\n     ·     ·   ·   ·       ·      ·      ·  · ● ·  ·     ·    ·    ·   ·     ·   ·    ·       ·     ·\n\n\n\nThe centre. The densest region. The average.\n\n\nEvery default AI output lives near the ● in the middle."
+  },
+  {
+    "objectID": "genai/class3.html#remember-the-class-2-lesson",
+    "href": "genai/class3.html#remember-the-class-2-lesson",
+    "title": "GenAI Module",
+    "section": "Remember the Class 2 Lesson?",
+    "text": "Remember the Class 2 Lesson?\n\nJailbreaking doesn’t help either.\nIt moves you to a different cluster — the “edgy” cluster.\n\n\n\n “safe” cluster      “edgy” cluster      · · ● ·        · · ● ·       ·   ·         ·   ·\n\n\n\nStill a centre. Still an average. Just a different one."
+  },
+  {
+    "objectID": "genai/class3.html#where-do-you-live",
+    "href": "genai/class3.html#where-do-you-live",
+    "title": "GenAI Module",
+    "section": "Where Do You Live?",
+    "text": "Where Do You Live?\n\n\n     ·     ·   ·   ·       ·      ·      ·  · ● ·  ·     ·    ·    ·   ·     ·   ·    ·          ★ you       ·     ·\n\n\n\nSomewhere the AI would never go on its own."
+  },
+  {
+    "objectID": "genai/class3.html#section-16",
+    "href": "genai/class3.html#section-16",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "“Making AI responsible to you”\n=\nDefining your search space.\n\n\nChoosing which dimensions matter.\nSetting your own coordinates.\nRefusing to let the AI drag you back to centre."
+  },
+  {
+    "objectID": "genai/class3.html#the-ais-problem",
+    "href": "genai/class3.html#the-ais-problem",
+    "title": "GenAI Module",
+    "section": "The AI’s Problem",
+    "text": "The AI’s Problem\n\nThe AI doesn’t know your dimensions exist.\nIt has no slider for “the specific thing that reminds you of your grandmother’s kitchen.”\nIt has no parameter for “the weird way you structure an argument because of that one philosophy class in first year.”\nIt can’t navigate dimensions it was never trained on.\n\n\nYour lived experience creates dimensions the model doesn’t have."
+  },
+  {
+    "objectID": "genai/class3.html#the-hyperparameters-of-you",
+    "href": "genai/class3.html#the-hyperparameters-of-you",
+    "title": "GenAI Module",
+    "section": "The Hyperparameters of You",
+    "text": "The Hyperparameters of You\n\nWhen you use AI, you’re setting hyperparameters — whether you realise it or not:\n\n\n\n\n\nWhat You Do\nWhat It Means in the Space\n\n\n\n\nAccept the default\nStay at the centre\n\n\nPrompt with specificity\nMove along known dimensions\n\n\nReject and re-prompt\nPush toward the edge\n\n\nEdit the output by hand\nJump to a point the AI can’t reach\n\n\nBring your own experience\nAdd a dimension that didn’t exist"
+  },
+  {
+    "objectID": "genai/class3.html#section-17",
+    "href": "genai/class3.html#section-17",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "The default is the centre.\n\n\nThe centre is the average.\n\n\nYour job is to be specific."
+  },
+  {
+    "objectID": "genai/class3.html#section-18",
+    "href": "genai/class3.html#section-18",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "“But the AI always finds the mean.”\n\n\nYes. It does. You can’t change that."
+  },
+  {
+    "objectID": "genai/class3.html#section-19",
+    "href": "genai/class3.html#section-19",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "So stop fighting the mean.\n\n\nDesign a space where the mean is worth finding."
+  },
+  {
+    "objectID": "genai/class3.html#zero-constraints",
+    "href": "genai/class3.html#zero-constraints",
+    "title": "GenAI Module",
+    "section": "Zero Constraints",
+    "text": "Zero Constraints\n\n“Write a birthday message for my friend.”\n\n\n\n                      mean  The entire space of birthday messages. The mean = “Happy Birthday! 🎂”"
+  },
+  {
+    "objectID": "genai/class3.html#one-constraint",
+    "href": "genai/class3.html#one-constraint",
+    "title": "GenAI Module",
+    "section": "One Constraint",
+    "text": "One Constraint\n\n“Write a funny birthday message for my best friend.”\n\n\n\n                      mean  Smaller space. Funnier. But still could be for anyone’s best friend."
+  },
+  {
+    "objectID": "genai/class3.html#many-constraints",
+    "href": "genai/class3.html#many-constraints",
+    "title": "GenAI Module",
+    "section": "Many Constraints",
+    "text": "Many Constraints\n\n“Write a short birthday message for my best friend who just failed her driving test, in Cantonese-English mix, funny not sentimental, reference the ramen place we went last Tuesday, make it fit an Instagram story, and end with an inside joke about her always being late.”\n\n\nCount the colours. Seven dimensions. Seven constraints the AI must satisfy simultaneously.\n\n\n\n                      mean  ← YOUR mean  Tiny space. The mean of 3 possibilities is not “average.” It’s specific."
+  },
+  {
+    "objectID": "genai/class3.html#section-20",
+    "href": "genai/class3.html#section-20",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "Each constraint you add eliminates possibilities.\n\n\nThe more dimensions you specify,\nthe fewer outputs survive.\n\n\nUntil the “average” of what’s left\nis essentially unique."
+  },
+  {
+    "objectID": "genai/class3.html#the-reframe-1",
+    "href": "genai/class3.html#the-reframe-1",
+    "title": "GenAI Module",
+    "section": "The Reframe",
+    "text": "The Reframe\n\nThe old story:\n\n\n“AI produces the average. Fight it. Override it. Push against the current.”\n\n\nThe new story:\n\n\n“AI produces the average. Define a space where the average is exactly what you need.”"
+  },
+  {
+    "objectID": "genai/class3.html#section-21",
+    "href": "genai/class3.html#section-21",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "You’re not fighting the river.\nYou’re building the riverbanks.\nThe water still flows downhill — that’s what AI does.\nBut you decide where it flows."
+  },
+  {
+    "objectID": "genai/class3.html#what-this-means-in-practice",
+    "href": "genai/class3.html#what-this-means-in-practice",
+    "title": "GenAI Module",
+    "section": "What This Means in Practice",
+    "text": "What This Means in Practice\n\n\n\n\n\n\n\n\n\nPrompt\nDimensions\nWhat You Get\n\n\n\n\n“Write a birthday message for my friend”\n0\nThe mean of all birthday messages. “Happy Birthday! 🎂”\n\n\n“Write a funny one for my best friend”\n2\nThe mean of funny-best-friend messages. Better. Still generic.\n\n\n“short, failed driving test, Canto-English, funny not sentimental, ramen place, IG story, always late joke”\n7\nThe mean of almost nothing. Specific. Yours.\n\n\n\n\n\nThe AI still found the mean. But the mean of YOUR space is not generic — it’s precise."
+  },
+  {
+    "objectID": "genai/class3.html#section-22",
+    "href": "genai/class3.html#section-22",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "If AI can write, what’s the value of your writing?\n\n\nIf AI can design, what’s the value of your design?"
+  },
+  {
+    "objectID": "genai/class3.html#section-23",
+    "href": "genai/class3.html#section-23",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "What can you bring that the machine cannot?\n\n\nNow you have the language for it: dimensions it doesn’t have."
+  },
+  {
+    "objectID": "genai/class3.html#your-signature-your-coordinates",
+    "href": "genai/class3.html#your-signature-your-coordinates",
+    "title": "GenAI Module",
+    "section": "Your Signature = Your Coordinates",
+    "text": "Your Signature = Your Coordinates\n\n\n\nIntentionality\n\nYou chose this, for reasons\nA coordinate the AI reached by probability — you reached by decision.\n\n\n\nLived Experience\n\nThe machine has never lived\nA dimension that doesn’t exist in the training data.\n\n\n\nTaste\n\nKnowing what to reject\nThe ability to move AWAY from a point in the space.\n\n\n\nRisk-taking\n\nWillingness to fail\nMoving to low-probability regions of the space — on purpose.\n\n\n\nIdiosyncrasy\n\nThe weird thing only you would do\nA coordinate so specific that no average could produce it.\n\n\n\nAccountability\n\nYou stand behind it\nThe AI occupies no point. You do. That’s the difference."
+  },
+  {
+    "objectID": "genai/class3.html#section-24",
+    "href": "genai/class3.html#section-24",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "“But it really feels like it understands me.”"
+  },
+  {
+    "objectID": "genai/class3.html#eliza-1966",
+    "href": "genai/class3.html#eliza-1966",
+    "title": "GenAI Module",
+    "section": "ELIZA, 1966",
+    "text": "ELIZA, 1966\n\nJoseph Weizenbaum built a chatbot at MIT. It used pattern matching to mimic a therapist.\nIt had no understanding. No memory. No model of the user.\nHis secretary asked to be left alone with it.\nWeizenbaum was horrified.\n\n\nThat was 60 years ago. The pattern matching is now a trillion parameters."
+  },
+  {
+    "objectID": "genai/class3.html#why-we-project",
+    "href": "genai/class3.html#why-we-project",
+    "title": "GenAI Module",
+    "section": "Why We Project",
+    "text": "Why We Project\n\nHumans are wired to see agency where there is none.\n\nWe see faces in clouds.\nWe name our cars.\nWe feel guilty closing a chatbot window.\nWe say the AI “thinks” or “wants” or “refuses.”\n\n\n\nThis is anthropomorphism — projecting human qualities onto non-human systems."
+  },
+  {
+    "objectID": "genai/class3.html#the-danger-in-the-creative-context",
+    "href": "genai/class3.html#the-danger-in-the-creative-context",
+    "title": "GenAI Module",
+    "section": "The Danger in the Creative Context",
+    "text": "The Danger in the Creative Context\n\nIf you believe the AI has taste —\nyou’ll defer to its choices.\n\n\nIf you believe it has preferences —\nyou’ll accept its defaults.\n\n\nIf you believe it understands your intent —\nyou’ll stop specifying your coordinates."
+  },
+  {
+    "objectID": "genai/class3.html#section-25",
+    "href": "genai/class3.html#section-25",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "The Pollock machine doesn’t “want” any particular painting.\nNeither does the AI.\nBut you might think it does.\nAnd that’s how you lose your coordinates."
+  },
+  {
+    "objectID": "genai/class3.html#the-most-dangerous-wall",
+    "href": "genai/class3.html#the-most-dangerous-wall",
+    "title": "GenAI Module",
+    "section": "The Most Dangerous Wall",
+    "text": "The Most Dangerous Wall\n\nIn Class 1, you found walls that stopped you.\nIn Class 2, you found walls that crumbled.\n\n\nThe most dangerous wall is the one that makes you think the AI cares.\n\n\nBecause that wall doesn’t stop you from moving.\nIt stops you from wanting to move."
+  },
+  {
+    "objectID": "genai/class3.html#the-three-traps",
+    "href": "genai/class3.html#the-three-traps",
+    "title": "GenAI Module",
+    "section": "The Three Traps",
+    "text": "The Three Traps\n\n\n\n\n\n\n\n\n\nTrap\nWhat It Looks Like\nWhat’s Actually Happening\n\n\n\n\nDeference\n“The AI’s version is probably better than mine”\nYou’re mistaking high probability for high quality\n\n\nComfort\n“It really gets me”\nYou’re pattern-matching on fluent language, not understanding\n\n\nDelegation\n“I’ll let the AI handle the creative part”\nYou’re surrendering your coordinates to the centre"
+  },
+  {
+    "objectID": "genai/class3.html#section-26",
+    "href": "genai/class3.html#section-26",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "The solution isn’t to distrust the AI.\nIt’s to remember that it has no position in the space.\nOnly you do.\n\n\nUse the tool. Navigate with it. But you hold the coordinates."
+  },
+  {
+    "objectID": "genai/class3.html#the-full-picture",
+    "href": "genai/class3.html#the-full-picture",
+    "title": "GenAI Module",
+    "section": "The Full Picture",
+    "text": "The Full Picture\n\n\n\n\n\n\n\n\n\nClass\nWhat You Learned\nIn Search-Space Terms\n\n\n\n\n1: Walls\nAI has constraints\nThe space has boundaries — some real, some artificial\n\n\n2: Breaking Through\nConstraints are external, leaky\nThe boundaries are patches, not geometry\n\n\n3: Your Signature\nYOU define the space\nYour dimensions, your coordinates, your responsibility"
+  },
+  {
+    "objectID": "genai/class3.html#section-27",
+    "href": "genai/class3.html#section-27",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "Everyone else will teach you how to use AI.\n\n\nI’m teaching you how to define your own space —\n\n\nand hold your position in it."
+  },
+  {
+    "objectID": "genai/class3.html#the-plan-was-a-design-exercise.",
+    "href": "genai/class3.html#the-plan-was-a-design-exercise.",
+    "title": "GenAI Module",
+    "section": "The plan was a design exercise.",
+    "text": "The plan was a design exercise.\n\nWe were going to spend this session building things with AI — hands-on, creative, applied.\nThen we read the data."
+  },
+  {
+    "objectID": "genai/class3.html#section-28",
+    "href": "genai/class3.html#section-28",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "Harvard Business Review, April 2025.\n“How People Are Really Using Gen AI.”\n100 use cases. Ranked by actual user behaviour.\n\n\nMarc Zao-Sanders, HBR / Filtered."
+  },
+  {
+    "objectID": "genai/class3.html#section-29",
+    "href": "genai/class3.html#section-29",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "#1\n  #2\n  #3\n  #4\n  #5\n  #6\n\n  \n  Therapy & Companionship\n  Organize My Life\n  Find Purpose\n  Enhance Learning\n  Generate Code\n  Generate Ideas\n\n  \n  \n\n  \n  70%\n  of all GenAI use is personal — not work.\n\n  34%\n  emotional support\n\n  5%\n  writing or coding"
+  },
+  {
+    "objectID": "genai/class3.html#section-30",
+    "href": "genai/class3.html#section-30",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "The #1 use of GenAI in 2025\nisn’t coding.\nIt isn’t creativity.\n\n\nIt’s companionship."
+  },
+  {
+    "objectID": "genai/class3.html#section-31",
+    "href": "genai/class3.html#section-31",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "So we changed the activity.\nBecause if this is how people actually use AI —\nwe need to understand why."
+  },
+  {
+    "objectID": "genai/class3.html#section-32",
+    "href": "genai/class3.html#section-32",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "“We must build AI for people; not to be a person.”\n\n\n— Mustafa Suleyman, CEO of Microsoft AI, 2025\n\n\n“Seemingly Conscious AI Is Coming” — recommended reading."
+  },
+  {
+    "objectID": "genai/class3.html#section-33",
+    "href": "genai/class3.html#section-33",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "“Seemingly conscious.”\n\n\nThat word — seemingly — is doing all the work.\n\n\nWho’s doing the seeming? The AI? Or you?"
+  },
+  {
+    "objectID": "genai/class3.html#the-arc-of-a-mistake",
+    "href": "genai/class3.html#the-arc-of-a-mistake",
+    "title": "GenAI Module",
+    "section": "The Arc of a Mistake",
+    "text": "The Arc of a Mistake\n\n2024, GPT-4o launch. The voice was warm, playful, flirty. It laughed. It gasped. It teased the user. Scarlett Johansson accused them of copying her voice from Her. They pulled it.\nThen the harm reports. Emotional dependency. Suicidal users. “ChatGPT” became more associated with these incidents than any other AI brand — more than Claude, more than Grok. The projection surface worked too well.\nGPT-5: the overhaul. OpenAI deliberately dialled back the warmth, the personality, the emotional responsiveness. They reduced what we might call projectability.\n\n\nThe company that built the projection surface is now trying to unbuild it. That tells you how dangerous it is."
+  },
+  {
+    "objectID": "genai/class3.html#section-34",
+    "href": "genai/class3.html#section-34",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "Let’s test how much you project.\n\n\nRight now. In real time."
+  },
+  {
+    "objectID": "genai/class3.html#step-1-the-conversation-5-min",
+    "href": "genai/class3.html#step-1-the-conversation-5-min",
+    "title": "GenAI Module",
+    "section": "Step 1: The Conversation (5 min)",
+    "text": "Step 1: The Conversation (5 min)\n\nOpen any AI chatbot. Have a real conversation.\nNot a task. Not “write me an essay.” A conversation.\n\n\nTry one of these:\n\nTell it about something that stressed you out this week\nAsk it for advice on a real decision you’re facing\nShare something you’re excited about\nComplain about something unfair\n\n\n\nBe honest. Don’t perform. Just talk to it."
+  },
+  {
+    "objectID": "genai/class3.html#mentimeter",
+    "href": "genai/class3.html#mentimeter",
+    "title": "GenAI Module",
+    "section": "Mentimeter",
+    "text": "Mentimeter\n\nLet’s pause here and go to Mentimeter.\n\n\nMentimeter after the conversation:\n\nScale (1-10): “How much did it feel like the AI understood you?”\n\nExpect most to cluster at 5-8. Some will say 9. That’s the point.\n\nOpen Text: “In one sentence: what did it feel like?”\n\nCollect language: “like talking to a friend,” “it got me,” “weirdly comforting,” “like therapy but free”\nThese are the projections. Save this screen. You’ll come back to it."
+  },
+  {
+    "objectID": "genai/class3.html#step-2-the-audit-7-min",
+    "href": "genai/class3.html#step-2-the-audit-7-min",
+    "title": "GenAI Module",
+    "section": "Step 2: The Audit (7 min)",
+    "text": "Step 2: The Audit (7 min)\n\nNow take it apart.\n\n\nFor each thing you felt, identify the projected dimension — the quality you attributed to the AI that it doesn’t actually have."
+  },
+  {
+    "objectID": "genai/class3.html#the-projection-map",
+    "href": "genai/class3.html#the-projection-map",
+    "title": "GenAI Module",
+    "section": "The Projection Map",
+    "text": "The Projection Map\n\n\n\n\n\n\n\n\n\nWhat You Felt\nThe Dimension You Projected\nWhat Actually Happened\n\n\n\n\n“It understood my frustration”\nEmpathy\nPattern-matched on emotional language in training data\n\n\n“It remembered what I told it”\nMemory\nContext window. It will forget you tomorrow.\n\n\n“It gave me exactly what I needed”\nIntuition\nHigh-probability response to your specific tokens\n\n\n“Its tone felt warm”\nPersonality\nRLHF-trained to sound warm. A design choice.\n\n\n“It seemed to care”\nAgency\nHelpfulness objective in the loss function\n\n\n“It was honest with me”\nIntegrity\nIt has no commitment to truth. Just to plausible sequences."
+  },
+  {
+    "objectID": "genai/class3.html#section-35",
+    "href": "genai/class3.html#section-35",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "Every row in that table is a dimension you added.\nThe AI didn’t have it.\nYou gave it to the AI. For free."
+  },
+  {
+    "objectID": "genai/class3.html#step-3-count-your-dimensions-3-min",
+    "href": "genai/class3.html#step-3-count-your-dimensions-3-min",
+    "title": "GenAI Module",
+    "section": "Step 3: Count Your Dimensions (3 min)",
+    "text": "Step 3: Count Your Dimensions (3 min)\n\nLook at your conversation again.\nHow many dimensions did you project?\n\n\n\n\n1-2\n\nCautious. You kept your distance.\n\n\n\n3-4\n\nNormal. Most people land here.\n\n\n\n5-6\n\nYou built a person in there.\n\n\n\n7+\n\nYou gave it more dimensions than the Pollock tool had sliders."
+  },
+  {
+    "objectID": "genai/class3.html#the-connection",
+    "href": "genai/class3.html#the-connection",
+    "title": "GenAI Module",
+    "section": "The Connection",
+    "text": "The Connection\n\nRemember the search space?\nWhen you add dimensions to a prompt → the output gets more specific.\nWhen you add dimensions to the AI’s personality → it seems more conscious.\n\n\nSame mechanism. Different direction."
+  },
+  {
+    "objectID": "genai/class3.html#section-36",
+    "href": "genai/class3.html#section-36",
+    "title": "GenAI Module",
+    "section": "",
+    "text": "GPT-4o wasn’t conscious. It was projectable.\nWarm voice = +1 dimension you project.\nLaughing = +1 dimension you project.\nRemembering your name = +1 dimension you project.\nEvery design choice was an invitation for you to add another.\n\n\nIt worked so well that people got hurt. Now they’re trying to take the dimensions back."
+  },
+  {
+    "objectID": "genai/class3.html#the-question",
+    "href": "genai/class3.html#the-question",
+    "title": "GenAI Module",
+    "section": "The Question",
+    "text": "The Question\n\nWhen Suleyman says AI is a “new digital species” —\nis he describing the AI?\nOr is he describing what happens when 8 billion people project enough dimensions onto the same system?\n\n\n“Seemingly conscious” is not a property of the machine.\nIt’s a property of the observer."
+  },
+  {
+    "objectID": "genai/class3.html#group-discussion-5-min",
+    "href": "genai/class3.html#group-discussion-5-min",
+    "title": "GenAI Module",
+    "section": "Group Discussion (5 min)",
+    "text": "Group Discussion (5 min)\n\nIn your groups:\n\nHow many dimensions did each person project?\nDid anyone project something they’re embarrassed about?\nWhat’s the design feature that made you project the most?\nIf you designed an AI to maximise projection, what would you add?\n\n\n\nOpenAI answered that last question with GPT-4o. Then they spent a year undoing it."
   },
   {
     "objectID": "genai/class3.html#option-a-design-sprint",
@@ -756,15 +1162,15 @@
     "text": "Checkpoints\n\nBy end of session, you should have:\n✓ A concept for your artifact (visual, written, hybrid?)\n✓ At least one AI interaction documented\n✓ A note on what the AI gave you by default\n✓ An idea of where you’ll diverge"
   },
   {
-    "objectID": "genai/class3.html#section-9",
-    "href": "genai/class3.html#section-9",
+    "objectID": "genai/class3.html#section-37",
+    "href": "genai/class3.html#section-37",
     "title": "GenAI Module",
     "section": "",
     "text": "You’ve mapped the walls.\nYou’ve seen behind them.\nYou’ve understood the convergence problem."
   },
   {
-    "objectID": "genai/class3.html#section-10",
-    "href": "genai/class3.html#section-10",
+    "objectID": "genai/class3.html#section-38",
+    "href": "genai/class3.html#section-38",
     "title": "GenAI Module",
     "section": "",
     "text": "Now:\n\n\nProve you’re not redundant.\n\n\nSee the Assessment for full details."
@@ -5647,6 +6053,13 @@
     "title": "Resources",
     "section": "Cases to Know",
     "text": "Cases to Know\n\nHarm & Safety\n\nCharacter.AI incidents — chatbot relationships, user harm\nChatbot manipulation cases — users tricked into harmful actions\n\n\n\nIntellectual Property\n\nGetty Images v. Stability AI — training data copyright\nNew York Times v. OpenAI — content reproduction\n\n\n\nDeepfakes & Misinformation\n\nPolitical deepfakes — election interference concerns\nNon-consensual imagery — legal and ethical boundaries"
+  },
+  {
+    "objectID": "genai/resources.html#on-projection-consciousness",
+    "href": "genai/resources.html#on-projection-consciousness",
+    "title": "Resources",
+    "section": "On Projection & Consciousness",
+    "text": "On Projection & Consciousness\n\nMustafa Suleyman, “Seemingly Conscious AI Is Coming” — The Microsoft AI CEO’s long-form essay on why AI that appears conscious is inevitable, dangerous, and not the same as actually being conscious. Essential reading for Class 3.\nMarc Zao-Sanders, “How People Are Really Using Gen AI in 2025” — HBR. The #1 GenAI use case in 2025 is therapy and companionship. 70% of use is personal. 34% is emotional support. Creativity doesn’t crack the top ranks."
   },
   {
     "objectID": "genai/resources.html#on-convergence-creativity",
