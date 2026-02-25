@@ -182,6 +182,22 @@ Buildings don't just *use* energy. They **shape the microclimate** of the city a
 
 ---
 
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; color: white; line-height: 1.6; font-style: italic;"}
+"We shape our buildings; thereafter they shape us."
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;"}
+— Winston Churchill, House of Commons, 28 October 1943, debating whether to rebuild the bombed chamber
+:::
+
+::: {style="font-size: 1.4em; color: #e74c3c; margin-top: 20px; font-weight: bold;"}
+He was talking about Parliament. He could have been talking about the climate.
+:::
+
+---
+
 # The Metropolis
 
 ---
@@ -277,6 +293,22 @@ When people flee cities, does the climate problem follow them — or just spread
 ---
 
 # The Climate Footprint of a City
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2em; color: white; line-height: 1.6; font-style: italic;"}
+"A city is not an accident but the result of coherent visions and aims."
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;"}
+— Léon Krier, *The Architecture of Community*, Island Press, 2009
+:::
+
+::: {style="font-size: 1.4em; color: #e74c3c; margin-top: 20px; font-weight: bold;"}
+If the city is designed, then its climate footprint is designed too. By us.
+:::
 
 ---
 
@@ -409,6 +441,22 @@ But is burning waste really "clean"? That depends on where you draw the system b
 
 ---
 
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2em; color: white; line-height: 1.6; font-style: italic;"}
+"The straight line is godless and immoral. The straight line is not a creative line, it is a duplicating line, an imitating line."
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;"}
+— Friedensreich Hundertwasser, *Mould Manifesto Against Rationalism in Architecture*, 1958
+:::
+
+::: {style="font-size: 1.4em; color: #27ae60; margin-top: 20px; font-weight: bold;"}
+The man who made a trash plant beautiful. You're about to see why.
+:::
+
+---
+
 # Case Study 2: Vienna's Spittelau Incinerator
 
 ---
@@ -485,6 +533,22 @@ HeGang (鶴崗) in China: a city where apartments cost less than a phone. Is *th
 
 ---
 
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2em; color: white; line-height: 1.6; font-style: italic;"}
+"The greenest building is the one that is already built."
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;"}
+— Carl Elefante, FAIA, *Forum Journal*, National Trust for Historic Preservation, 2007
+:::
+
+::: {style="font-size: 1.4em; color: #f39c12; margin-top: 20px; font-weight: bold;"}
+Or is it? That's what we're about to debate.
+:::
+
+---
+
 ## This Week's Debate Motion
 
 ::: {style="font-size: 2em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
@@ -533,6 +597,211 @@ PRO-DEVELOPMENT: Build new, build efficient — retrofitting old buildings is a 
   - Public-private partnerships for infrastructure
   - Smart city technology investment
 :::
+
+---
+
+#
+
+```{=html}
+<style>
+  #w5groupAssignment_container {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  #w5groupAssignment_startButton {
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  #w5groupAssignment_startButton:hover {
+    background-color: #2980b9;
+  }
+  #w5groupAssignment_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  #w5groupAssignment_display {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  #w5groupAssignment_display h2 {
+    color: #2c3e50;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  #w5groupAssignment_display ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #w5groupAssignment_display li {
+    margin: 20px 0;
+    font-size: 36px;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  #w5groupAssignment_closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+</style>
+
+<div id="w5groupAssignment_container">
+  <h1 style="font-size: 48px; color: #34495e;">Group Assignment Time!</h1>
+  <button id="w5groupAssignment_startButton">Start the assignment</button>
+</div>
+
+<div id="w5groupAssignment_overlay">
+  <div id="w5groupAssignment_display"></div>
+  <button id="w5groupAssignment_closeButton">Close</button>
+</div>
+
+<script>
+const W5GroupAssignment = {
+  groups: [
+    'Group One', 'Group Two', 'Group Three', 'Group Four',
+    'Group Five', 'Group Six'
+  ],
+  vocations: [
+    'Architecture/Building Design',
+    'Urban Planning/Housing',
+    'Waste Management/WtE',
+    'Public Health/Environment',
+    'Property Development/Finance',
+    'Community/Residents'
+  ],
+
+  shuffleArray: function(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  },
+
+  createAssignment: function() {
+    const shuffledVocations = this.shuffleArray([...this.vocations]);
+    return this.groups.map((group, index) => ({
+      group: group,
+      vocation: shuffledVocations[index]
+    }));
+  },
+
+  displayAssignment: function() {
+    const assignments = this.createAssignment();
+    let html = '<h2>Random Group Assignments</h2><ul>';
+    assignments.forEach(assignment => {
+      html += `<li><strong>${assignment.group}:</strong> ${assignment.vocation}</li>`;
+    });
+    html += '</ul>';
+    document.getElementById('w5groupAssignment_display').innerHTML = html;
+    document.getElementById('w5groupAssignment_overlay').style.display = 'flex';
+  },
+
+  init: function() {
+    const startButton = document.getElementById('w5groupAssignment_startButton');
+    const closeButton = document.getElementById('w5groupAssignment_closeButton');
+    startButton.addEventListener('click', () => this.displayAssignment());
+    closeButton.addEventListener('click', () => {
+      document.getElementById('w5groupAssignment_overlay').style.display = 'none';
+    });
+  }
+};
+W5GroupAssignment.init();
+</script>
+```
+
+## Presentation Countdown
+
+<div id="w5timer-container" style="text-align: center;">
+  <div id="w5timer" style="
+    font-size: 348px;
+    color: black;
+    margin-bottom: 20px;">00:00</div>
+  <button id="w5start-button" style="
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;" onclick="w5startTimer()">Start 5:00</button>
+  <button id="w5reset-button" style="
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;" onclick="w5resetTimer()">Reset</button>
+</div>
+
+<script>
+let w5timeLeft = 300;
+let w5timerInterval = null;
+
+function w5updateDisplay() {
+  const minutes = Math.floor(w5timeLeft / 60);
+  const seconds = w5timeLeft % 60;
+  document.getElementById('w5timer').textContent =
+    String(minutes).padStart(2, '0') + ':' + String(seconds).padStart(2, '0');
+  if (w5timeLeft <= 30) {
+    document.getElementById('w5timer').style.color = '#e74c3c';
+  } else {
+    document.getElementById('w5timer').style.color = 'black';
+  }
+}
+
+function w5startTimer() {
+  if (w5timerInterval) return;
+  w5timerInterval = setInterval(() => {
+    if (w5timeLeft > 0) {
+      w5timeLeft--;
+      w5updateDisplay();
+    } else {
+      clearInterval(w5timerInterval);
+      w5timerInterval = null;
+    }
+  }, 1000);
+}
+
+function w5resetTimer() {
+  clearInterval(w5timerInterval);
+  w5timerInterval = null;
+  w5timeLeft = 300;
+  w5updateDisplay();
+}
+
+w5updateDisplay();
+</script>
 
 ---
 
