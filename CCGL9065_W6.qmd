@@ -126,104 +126,191 @@ PRO-DEVELOPMENT
 
 ---
 
-## From last: Energy as the source of GHG contributor
+# From Energy to Capital
 
-Why do we care so much about understanding the role - and the lack thereof - of energy within the scope of understanding energy?
+---
 
-Pro/Cons
+## The Oldest Energy Source
 
-- Why is energy so important?
-- Why can we not make do with lesser available energy? 
-- What is causing the transition to pause?
-- Why have we came to this point where most of the energy sources are known to have issues?
+::: {style="font-size: 2.5em; text-align: center; padding: 60px; background: #1a1a2e; color: white; border-radius: 15px;"}
+When was the earliest of all times that humans started to harvest energy?
+:::
 
-# When was it the earliest of all times that humans started to harvest energy?
+::: {style="font-size: 3em; text-align: center; margin-top: 40px; font-weight: bold; color: #e67e22;"}
+Campfire.
+:::
 
-# CAMPFIRE
+---
 
-## But what about other energy sources and how they came to being?
-- Industrial processes
-- 1st and 2nd Industrial Revolution 
-- Energy & **SURPLUS**:
-	- Source
-	- Transportation
-	- End-User
-	- Importer (Much more complicated)
-- Energy issues arise when put out at scale
+## {background-color="black"}
 
-<span style="color: red">Surplus exchange fostered market and currency, an aggregated version of which ultimately becomes capital.</span>
+![Dark clouds of factory smoke obscure Clark Avenue Bridge, Cleveland, Ohio — US National Archives, 1970.](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DARK_CLOUDS_OF_FACTORY_SMOKE_OBSCURE_CLARK_AVENUE_BRIDGE_-_NARA_-_550179.jpg/1280px-DARK_CLOUDS_OF_FACTORY_SMOKE_OBSCURE_CLARK_AVENUE_BRIDGE_-_NARA_-_550179.jpg){width="85%"}
 
-## <span style="color: darkorange">What is capital?</span>
-The accumulated wealth of an individual, company or community, used as a fund for carrying on fresh production; wealth in any form used to help in producing more wealth.
+---
 
-## <span style="color: magenta">What is Capitalism?</span>
-"Capitalism and "Capitalist" are 19th (middle 1800s) Centry Pejoratives.
+## From Campfire to Capital
 
-- enormous productive capacity.
-- always on the edge of being o.ut of control
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Energy at scale created **surplus.** Surplus created **exchange.** Exchange created **markets.** Markets created **capital.**
 
-- attack the existing the economic system
-- not a highly productive system but an <span style="color: red">**unjust stystem**</span>
+- 1st Industrial Revolution → coal, steam, factory
+- 2nd Industrial Revolution → oil, electricity, mass production
+- Energy surplus at scale → source, transportation, end-user, importer
 
-## Who was this person whose photo was taken by Steichen?
+[**The chain: energy → surplus → market → currency → capital.**]{style="color: #e74c3c; font-weight: bold;"}
+:::
 
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic;"}
+Energy issues don't arise in isolation — they arise at **scale.**
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2em; color: white; line-height: 1.6; font-style: italic;"}
+"It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest."
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;"}
+— Adam Smith, *The Wealth of Nations*, Book I, Chapter 2, 1776
+:::
+
+::: {style="font-size: 1.4em; color: #e67e22; margin-top: 20px; font-weight: bold;"}
+Self-interest as engine. That's the promise of capitalism — and the root of its climate problem.
+:::
+
+---
+
+## What Is Capital?
+
+::: {style="font-size: 1.6em; line-height: 1.8; background: #ecf0f1; padding: 40px; border-radius: 15px;"}
+The accumulated wealth of an individual, company, or community, used as a fund for carrying on fresh production.
+
+**Wealth in any form used to help produce more wealth.**
+:::
+
+::: {style="font-size: 1.5em; margin-top: 30px; font-weight: bold; color: #e67e22;"}
+And what is capitalism?
+:::
+
+::: {style="font-size: 1.3em; margin-top: 15px;"}
+"Capitalism" and "Capitalist" are 19th-century pejoratives — names given by its enemies. But the system itself has two faces:
+
+- **Enormous productive capacity**
+- **Always on the edge of being out of control**
+:::
+
+---
+
+## Who Is This Man?
+
+::: {style="display: flex; gap: 40px;"}
+::: {style="width: 40%;"}
+![Photo by Edward Steichen.](data/john-pierpont-morgan.jpg){width="100%"}
+:::
+::: {style="width: 55%; font-size: 1.5em; line-height: 1.8;"}
 - Does he look warm and fuzzy?
 - What's he holding?
 
-![Do we know who this is?](data/john-pierpont-morgan.jpg){width=400}
+This is **J.P. Morgan** — the man who personally bailed out the US government. Twice.
 
-## Capitalism is... (per Karl Marx)
+Capitalism has always had a face. Usually holding a cigar.
+:::
+:::
 
-- Disease for which scientific socialism is the cure;
-- A method by which to steal the labor of the exploited masses;
-- _A system that undermines every traditionally established way of making a living_; (known trademark of capitalism)
-- <span style="color: red">A system that inevitably undermines its own foundations.</span>
+---
 
-## Capitalism is therefore per current definitions:
-- a name given by its enemies
-- a system relies heaviliy on the private use of capital combined with profit motive founded on self/family interests
-- has hundreds of variations in terms of capitalism system, but the essentials remains unchanged:
-  - private deployment of capital
-  - open acknowledgement of profit as a motive
-  - sympathetic understanding of self or household interests
-  - _tolerance for innovation_: characteristic fact of historical society is resistance to it as a kind of **human nature** to resist fresh innovations.
+## Capitalism Is... (Per Karl Marx)
 
-## Some side readings that I do recommend to take this class (and many more in the near future.)
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+- A disease for which scientific socialism is the cure
+- A method to steal the labour of the exploited masses
+- *A system that undermines every traditionally established way of making a living*
+- [A system that inevitably undermines its own foundations.]{style="color: #e74c3c; font-weight: bold;"}
+:::
 
-1. Wealth of Nations (Smith, Bantum Paperback)
-2. Manifesto (Marx)
-3. The Consititution of Liberty (Hayek, market conservative and conservative movement)
-4. Farewell to Alms (Gregory Clarke, capitalism more and better, polemical work written by economist)
-5. The Mystery of Capital (Hernando Desoto, why less developed countries exist in the world: formal and enforceable property rights are precondition to capital devleopment)
-6. A Failure of Capitalism (Posner, Judge, Conservative judge teaching at Chicago law school, no obvious ideological distortion)
-7. The Bottom Billion (Paul Collier, world bank economist, diagnosis and a strategy for using capital development to alleviate most of the world's poverty)
-8. The White Tiger (Fiction, describing the realworld penetrating novel written from the point of view of a very poor, smart and flawed young man in south india. Man booker prize. 2008.)
+---
 
+## Capitalism Is... (Per Current Definitions)
 
-## Quick Overview of Relevant Concepts Known to be tied to climate change
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+A system defined by:
 
-- **Capitalist Realism** (Frederic Jameson):
-	- Capitalism is the only viable economic system and that 
-	- alternatives are unimaginable.
-- **Disaster Capitalism** (Naomi Klein): exploitation of natural 
-disasters and crises for profit.
-- **Surveillance Capitalism** (Shoshana Zuboff): using technology to 
-monitor and control individuals in the name of profit.
-- **Zero Marginal Cost Society** (Jeremy Rifkin): 
-	- hypothetical society 
-	- technology and automation make goods and services virtually free, 
-	- potentially leading to a post-scarcity economy.
-- **Green New Deal**:  
-	- proposed economic plan
-	- aims to transition the economy to become carbon-neutral and environmentally sustainable while
-	- promoting social justice and economic growth. 
+- **Private deployment of capital**
+- **Open acknowledgement of profit as a motive**
+- **Sympathetic understanding of self/household interests**
+- **Tolerance for innovation** — though the characteristic fact of historical society is *resistance* to innovation as a kind of human nature
+:::
 
-## Breaking it down a bit further with possible angles to propose solutions/interventions: 
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic;"}
+Hundreds of variations exist, but the essentials remain unchanged.
+:::
 
-### The tragedy of the commons:
-- Prioritize own interests over common goods
-- Individuals and Corporations
-- New economic system may help, but how?
+---
+
+## Recommended Reading {.smaller}
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+| Book | Author | Why It Matters |
+|------|--------|----------------|
+| *Wealth of Nations* | Adam Smith | The founding text |
+| *The Communist Manifesto* | Karl Marx | The founding critique |
+| *The Constitution of Liberty* | Friedrich Hayek | The market conservative response |
+| *A Farewell to Alms* | Gregory Clark | Capitalism: more and better? |
+| *The Mystery of Capital* | Hernando de Soto | Why property rights precede development |
+| *A Failure of Capitalism* | Richard Posner | A conservative judge's honest assessment |
+| *The Bottom Billion* | Paul Collier | Capital development to alleviate poverty |
+| *The White Tiger* | Aravind Adiga | A poor, smart, flawed man in South India. Man Booker Prize, 2008. |
+:::
+
+---
+
+# Climate Change Meets Capitalism
+
+---
+
+## The Vocabulary You Need
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+| Concept | Thinker | Core Idea |
+|---------|---------|-----------|
+| **Capitalist Realism** | Fredric Jameson | Capitalism is the only viable system; alternatives are unimaginable |
+| **Disaster Capitalism** | Naomi Klein | Exploitation of crises for profit |
+| **Surveillance Capitalism** | Shoshana Zuboff | Using technology to monitor and control for profit |
+| **Zero Marginal Cost Society** | Jeremy Rifkin | Technology makes goods virtually free → post-scarcity |
+| **Green New Deal** | Various | Transition to carbon-neutral while promoting social justice |
+:::
+
+---
+
+## The Tragedy of the Commons
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+When individuals prioritise their own interests over common goods, the commons collapses.
+
+This applies to:
+
+- **Individuals** — driving, flying, consuming
+- **Corporations** — externalising pollution costs
+- **Nations** — free-riding on others' emission cuts
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+A new economic system may help. But how?
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2em; color: white; line-height: 1.6; font-style: italic;"}
+"Ruin is the destination toward which all men rush, each pursuing his own best interest in a society that believes in the freedom of the commons."
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;"}
+— Garrett Hardin, "The Tragedy of the Commons", *Science*, Vol. 162, 1968
+:::
 
 ---
 
@@ -251,90 +338,101 @@ It was an ad campaign.
 Structural problems require structural solutions. Individual guilt is a distraction.
 :::
 
-### The limitations of carbon pricing: price GHGs emissions(aka pay to pollute)
-- usual solution to climate change
-- TLDR explanation: pricing pollution
-- might include: carbon credit (right), carbon tax (all), carbon offset (+/-)
-- government selling right to pollute?
-- moving price target with carbon worsening/improving?
-- carbon-for-trade or carbon-for-profit?
+---
 
-## Continued: The need for a post-growth economy: 
-- Continued growth mindset is unsustainable
-- New economic system that prioritize environmental sustainability with a focus on well-being, equity and sustainability over GDP growth
+## {background-color="#1a1a2e"}
 
-#### Bhutan's Gross National Happiness
-- Measuring progress through Gross National Happiness Index
-- Emphasize well-being, environmental conervation and cultural preservation
+::: {style="font-size: 2em; color: white; line-height: 1.6; font-style: italic;"}
+"It is difficult to get a man to understand something, when his salary depends upon his not understanding it."
+:::
 
-## Collective ownership:
-- Shift from individual ownership to collective models
-- Prioritize community and environmental needs
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;"}
+— Upton Sinclair, *I, Candidate for Governor: And How I Got Licked*, 1935, p. 109
+:::
 
-#### Mondragon Corporation in Spain
-- Corporation and federation of worker cooperative based in Basque region of spain
-- One of the largest cooperatives, owned and operated by workers
-- Emphasize social and community benefits over individual profit
+::: {style="font-size: 1.4em; color: #e74c3c; margin-top: 20px; font-weight: bold;"}
+This is why oil executives don't "believe in" climate change. They understand it fine. They're paid not to.
+:::
 
-#### Community Land Trusts
-- Nonprofit, community-based orgnization
-- Aim to propvide affordable housing by owning and managing land collectively (e.g. Boston, London)
+---
 
-## Paradigm Shift in Economics
-- Exploration of steady-state and circular economies
-- Long-term sustainability and meeting societal needs
-- Reevaluating values and assumptions in capitalism
+## Carbon Pricing: Pay to Pollute?
 
-#### New Zealand's Wellbeing Budget: 
-- prioritize national well-being over traditional economic measures
-- spending focused on mental health, child poverty, and environmental preservation.
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+The usual market solution to climate change: **price the pollution.**
 
-#### Nordic Model: 
-- Scandinavian countries (Sweden, Norway, Denmark, Finland, and Iceland) 
-- free market capitalism + comprehensive welfare state and collective bargaining at national level
-- focusing on social equality and well-being.
+| Mechanism | How It Works | The Problem |
+|-----------|-------------|-------------|
+| **Carbon Tax** | Fixed price per tonne of CO₂ | Who sets the price? |
+| **Carbon Credit** | Right to emit, tradeable | Government selling right to pollute? |
+| **Carbon Offset** | Pay someone else to reduce | Does it actually reduce anything? |
+:::
 
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic;"}
+What happens when the price target moves? When carbon becomes a commodity to trade *for profit*?
+:::
 
-## Mixed Economy Approach
+---
 
-- Combining capitalism and socialism elements
-- Balancing economic growth with environmental sustainability
+# What If Growth Isn't the Answer?
 
-#### Germany's Social Market Economy: 
-- A capitalist economic system + a framework of social policies
-- balancing free enterprise with social welfare measures and environmental protection.
+---
 
-#### Singapore's Blend of Capitalism and Social Policies: 
-- competitive and open market policies + strong state intervention 
-- seen effect in housing, healthcare, and public transport to ensure social welfare.
+## {background-color="black"}
 
-## General Public's Obvious Response
+![Paro Taktsang (Tiger's Nest), Bhutan — a country that measures Gross National Happiness instead of GDP.](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Paro_Taktsang%2C_Bhutan_%28edited%29.jpg/1280px-Paro_Taktsang%2C_Bhutan_%28edited%29.jpg){width="75%"}
 
+---
 
-#### Understanding Role in a Sustainable Future
+## The Post-Growth Challenge
 
-- Every action counts  
-- Lead by example  
-- Inspire change in your community
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+A continued growth mindset is unsustainable. But what replaces it?
+:::
 
-#### Possible Actions to take
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.4em; font-weight: bold;"}
+Alternative Models
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- **Bhutan** — Gross National Happiness Index: well-being, conservation, cultural preservation
+- **New Zealand** — Wellbeing Budget: mental health, child poverty, environment over GDP
+- **Nordic Model** — free market + comprehensive welfare + collective bargaining
+:::
+:::
 
-- **Community Participation**:  
-  - Join or start local sustainability initiatives  
-  - Engage in community-based conservation projects
+::: {style="text-align: left; width: 45%; background: #3498db; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.4em; font-weight: bold;"}
+Collective Ownership
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- **Mondragon** (Spain) — largest worker cooperative; workers own and operate
+- **Community Land Trusts** (Boston, London) — nonprofit collective land ownership for affordable housing
+- **Germany** — social market economy: free enterprise + social welfare + environmental protection
+:::
+:::
+:::
 
-- **Educate and Spread Awareness**:  
-  - Share knowledge about sustainability practices  
-  - Encourage friends and family to adopt eco-friendly habits
+---
 
-- **Practice Responsible Consumption**:  
-  - Support ethical and sustainable brands  
-  - Reduce, reuse, recycle in daily life
+## {background-color="black"}
 
-- **Personal Investment in Sustainability**:  
-  - Use public transportation, bike, or walk when possible  
-  - Grow your own food or support local, sustainable agriculture
-  - Invest in renewable energy and electric vehicles/efficient appliances
+![Oil palm plantation, Cigudeg, Indonesia — monoculture replacing rainforest. The market's answer to "efficiency."](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Oil_palm_plantation_in_Cigudeg-03.jpg/1280px-Oil_palm_plantation_in_Cigudeg-03.jpg){width="85%"}
+
+---
+
+## Mixed Economy: The Singapore Question
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Singapore's blend:** competitive open markets + strong state intervention in housing, healthcare, and public transport.
+
+**Germany's blend:** capitalist economy + framework of social policies balancing enterprise with welfare and environmental protection.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; background: #f39c12; padding: 20px; border-radius: 10px;"}
+The question isn't capitalism vs. socialism. It's: **what mix — and who decides?**
+:::
 
 # Building Your Economic Spectacle
 
@@ -399,64 +497,68 @@ Spectacle
 
 ---
 
-# A broader debate between pro-climate change advocates who support <span style="color:red">_dynamic market solutions_</span> and anti-climate change voices who <span style="color:blue">_caution against departures from traditional economic practices_</span>.
+## What If the New Model Is Wrong?
 
-# Think Tesla (<span style="color:orange">if you have to.</span>)
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+Think Tesla. [*(If you have to.)*]{style="color: #e67e22;"}
 
-## What are the possible negative impact if as a society we switch to a new economy model that turns out to be wrong?
+What happens if we switch to a new economic model and it fails?
 
-- Economic Slowdown
-- Investment Displacement
-- Innovation Misdirection: innovation encouraged in the _wrong_ sector
-- Increased Cost of Living: carbon tax reflected in day-to-day expenses
-- Energy Insecurity
-- Unintended Environmental Consequences: e.g. promoting biofuels too much leading to deforestation
-- Social and Economic Inequality: Unfair to those without means of transition, exacerbating inequalities
-- Resistance and Backlash
+| Risk | What Goes Wrong |
+|------|----------------|
+| **Economic Slowdown** | Growth stalls, jobs disappear |
+| **Investment Displacement** | Capital moves to the wrong sectors |
+| **Innovation Misdirection** | We solve the wrong problem (e.g. biofuels → deforestation) |
+| **Cost of Living** | Carbon tax reflected in daily expenses |
+| **Inequality** | Transition costs fall on those who can't afford them |
+:::
 
-##  PRO-CLIMATE Arguments for a Resilient HK Economy
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic;"}
+The risk of changing is real. But so is the risk of not changing.
+:::
 
-- **Innovative Market Solutions**:
-  - Embrace green tech startups and innovations.
-  - Foster a competitive market for renewable energy.
+---
 
-- **Flexible Economic Models**:
-  - Test sustainable business practices and circular economy models.
-  - Encourage investment in green infrastructure and public transport upgrades.
+## Your Cheatsheet: PRO-CLIMATE {.smaller}
 
-- **Public-Private Partnerships**:
-  - Collaborate on sustainability projects, like smart city initiatives.
-  - Leverage private capital for public good, with government incentives.
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Arguments for a Resilient HK Economy:**
 
-- **Policy Reforms for Sustainability**:
-  - Implement progressive environmental regulations that encourage innovation.
-  - Introduce carbon pricing to incentivize low-carbon operations.
+- **Green tech startups** — foster a competitive market for renewable energy
+- **Circular economy models** — test sustainable business practices in HK
+- **Public-private partnerships** — leverage private capital for smart city initiatives
+- **Progressive regulation** — environmental rules that encourage (not punish) innovation
+- **Carbon pricing** — incentivise low-carbon operations
+- **Community-led initiatives** — public awareness + local sustainability projects
+:::
 
-- **Community Engagement and Education**:
-  - Increase public awareness campaigns on environmental issues.
-  - Support community-led sustainability initiatives for broader impact.
+---
 
-## PRO-DEVELOPMENT Arguments for HK's Economy
+## Your Cheatsheet: PRO-DEVELOPMENT {.smaller}
 
-- **Economic Stability Focus**:
-  - Prioritize economic growth and stability over experimental green policies.
-  - Maintain a business-friendly environment to ensure job security.
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Arguments for HK's Economic Stability:**
 
-- **Proven Strategies Only**:
-  - Rely on established, efficient technologies and practices.
-  - Avoid untested economic models that risk market disruption.
+- **Growth first** — maintain a business-friendly environment, ensure job security
+- **Proven strategies only** — avoid untested models that risk market disruption
+- **Minimal regulation** — voluntary corporate sustainability, not mandates
+- **Cost-benefit analysis** — evaluate green initiatives on ROI, protect SMEs
+- **Incremental improvements** — gradual energy efficiency gains, low-risk green projects
+:::
 
-- **Minimal Regulatory Changes**:
-  - Caution against over-regulation that could hinder business operations.
-  - Advocate for voluntary corporate sustainability measures.
+---
 
-- **Cost-Benefit Analysis**:
-  - Evaluate environmental initiatives based on ROI and economic impact.
-  - Ensure environmental policies do not overly burden SMEs.
+## This Week's Debate Motion
 
-- **Incremental Improvements**:
-  - Focus on gradual enhancements in energy efficiency and waste management.
-  - Support small-scale, low-risk green initiatives with clear benefits.
+::: {style="font-size: 2em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
+**"This house believes that Hong Kong should impose a mandatory carbon tax on all businesses to fund its 2050 carbon neutrality target."**
+:::
+
+::: {style="font-size: 1.3em; margin-top: 30px; text-align: center;"}
+PRO-CLIMATE: Make polluters pay — structural change requires structural funding.
+
+PRO-DEVELOPMENT: A carbon tax will kill HK's competitiveness — innovation, not taxation, drives change.
+:::
 
 ---
 
@@ -466,24 +568,33 @@ Spectacle
 
 ## Create Your Persona
 
-::: {style="font-size: 1.4em;"}
-**PRO-CLIMATE personas:**
+:::: {.columns}
+::: {.column width="48%"}
+::: {style="background: #e8f5e9; padding: 20px; border-radius: 10px; font-size: 1.1em;"}
+**Lean PRO-CLIMATE?** Try being a...
 
-- Labor union organizer fighting for just transition
+- Labour union organiser fighting for just transition
 - Economist advocating degrowth
-- Community activist in polluted industrial zone
+- Community activist in a polluted industrial zone
 - Youth climate striker
-
-**PRO-DEVELOPMENT personas:**
+:::
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+::: {style="background: #e3f2fd; padding: 20px; border-radius: 10px; font-size: 1.1em;"}
+**Lean PRO-DEVELOPMENT?** Try being a...
 
 - Hong Kong business owner worried about regulations
 - Developing-nation finance minister
 - Tech entrepreneur building "green" startups
 - Traditional economist focused on GDP growth
 :::
+:::
+::::
 
-::: {style="font-size: 1.5em; font-weight: bold; margin-top: 30px;"}
-Who are you? What's your story? What do you fear losing?
+::: {style="font-size: 1.3em; font-style: italic; margin-top: 25px; text-align: center;"}
+Ask yourself: **What do I stand to lose?** That's where your story begins.
 :::
 
 ---
@@ -536,6 +647,210 @@ NOT OK
 *Both narratives are emotionally powerful. Both are incomplete. Your job: Find the fuller story.*
 :::
 
+---
+
+#
+
+```{=html}
+<style>
+  #w6groupAssignment_container {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  #w6groupAssignment_startButton {
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  #w6groupAssignment_startButton:hover {
+    background-color: #2980b9;
+  }
+  #w6groupAssignment_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  #w6groupAssignment_display {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  #w6groupAssignment_display h2 {
+    color: #2c3e50;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  #w6groupAssignment_display ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #w6groupAssignment_display li {
+    margin: 20px 0;
+    font-size: 36px;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  #w6groupAssignment_closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+</style>
+
+<div id="w6groupAssignment_container">
+  <h1 style="font-size: 48px; color: #34495e;">Group Assignment Time!</h1>
+  <button id="w6groupAssignment_startButton">Start the assignment</button>
+</div>
+
+<div id="w6groupAssignment_overlay">
+  <div id="w6groupAssignment_display"></div>
+  <button id="w6groupAssignment_closeButton">Close</button>
+</div>
+
+<script>
+const W6GroupAssignment = {
+  groups: [
+    'Group One', 'Group Two', 'Group Three', 'Group Four',
+    'Group Five', 'Group Six'
+  ],
+  vocations: [
+    'Finance/Banking',
+    'Labour/Workers\' Rights',
+    'Policy/Government',
+    'Small Business/Entrepreneurs',
+    'Environmental Advocacy',
+    'Consumer/General Public'
+  ],
+
+  shuffleArray: function(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  },
+
+  createAssignment: function() {
+    const shuffledVocations = this.shuffleArray([...this.vocations]);
+    return this.groups.map((group, index) => ({
+      group: group,
+      vocation: shuffledVocations[index]
+    }));
+  },
+
+  displayAssignment: function() {
+    const assignments = this.createAssignment();
+    let html = '<h2>Random Group Assignments</h2><ul>';
+    assignments.forEach(assignment => {
+      html += `<li><strong>${assignment.group}:</strong> ${assignment.vocation}</li>`;
+    });
+    html += '</ul>';
+    document.getElementById('w6groupAssignment_display').innerHTML = html;
+    document.getElementById('w6groupAssignment_overlay').style.display = 'flex';
+  },
+
+  init: function() {
+    const startButton = document.getElementById('w6groupAssignment_startButton');
+    const closeButton = document.getElementById('w6groupAssignment_closeButton');
+    startButton.addEventListener('click', () => this.displayAssignment());
+    closeButton.addEventListener('click', () => {
+      document.getElementById('w6groupAssignment_overlay').style.display = 'none';
+    });
+  }
+};
+W6GroupAssignment.init();
+</script>
+```
+
+## Presentation Countdown
+
+<div id="w6timer-container" style="text-align: center;">
+  <div id="w6timer" style="
+    font-size: 348px;
+    color: black;
+    margin-bottom: 20px;">00:00</div>
+  <button id="w6start-button" style="
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;" onclick="w6startTimer()">Start 5:00</button>
+  <button id="w6reset-button" style="
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;" onclick="w6resetTimer()">Reset</button>
+</div>
+
+<script>
+let w6timeLeft = 300;
+let w6timerInterval = null;
+
+function w6updateDisplay() {
+  const minutes = Math.floor(w6timeLeft / 60);
+  const seconds = w6timeLeft % 60;
+  document.getElementById('w6timer').textContent =
+    String(minutes).padStart(2, '0') + ':' + String(seconds).padStart(2, '0');
+  if (w6timeLeft <= 30) {
+    document.getElementById('w6timer').style.color = '#e74c3c';
+  } else {
+    document.getElementById('w6timer').style.color = 'black';
+  }
+}
+
+function w6startTimer() {
+  if (w6timerInterval) return;
+  w6timerInterval = setInterval(() => {
+    if (w6timeLeft > 0) {
+      w6timeLeft--;
+      w6updateDisplay();
+    } else {
+      clearInterval(w6timerInterval);
+      w6timerInterval = null;
+    }
+  }, 1000);
+}
+
+function w6resetTimer() {
+  clearInterval(w6timerInterval);
+  w6timerInterval = null;
+  w6timeLeft = 300;
+  w6updateDisplay();
+}
+
+w6updateDisplay();
+</script>
 
 ---
 
