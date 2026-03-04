@@ -157,11 +157,11 @@ Energy at scale created **surplus.** Surplus created **exchange.** Exchange crea
 - 2nd Industrial Revolution → oil, electricity, mass production
 - Energy surplus at scale → source, transportation, end-user, importer
 
-[**The chain: energy → surplus → market → currency → capital.**]{style="color: #e74c3c; font-weight: bold;"}
+[**The chain: energy → surplus → market → currency → capital → and now, war.**]{style="color: #e74c3c; font-weight: bold;"}
 :::
 
 ::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic;"}
-Energy issues don't arise in isolation — they arise at **scale.**
+Energy issues don't arise in isolation — they arise at **scale.** And at scale, they become geopolitics.
 :::
 
 ---
@@ -249,38 +249,7 @@ Hundreds of variations exist, but the essentials remain unchanged.
 
 ---
 
-## Recommended Reading {.smaller}
-
-::: {style="font-size: 1.2em; line-height: 1.6;"}
-| Book | Author | Why It Matters |
-|------|--------|----------------|
-| *Wealth of Nations* | Adam Smith | The founding text |
-| *The Communist Manifesto* | Karl Marx | The founding critique |
-| *The Constitution of Liberty* | Friedrich Hayek | The market conservative response |
-| *A Farewell to Alms* | Gregory Clark | Capitalism: more and better? |
-| *The Mystery of Capital* | Hernando de Soto | Why property rights precede development |
-| *A Failure of Capitalism* | Richard Posner | A conservative judge's honest assessment |
-| *The Bottom Billion* | Paul Collier | Capital development to alleviate poverty |
-| *The White Tiger* | Aravind Adiga | A poor, smart, flawed man in South India. Man Booker Prize, 2008. |
-:::
-
----
-
 # Climate Change Meets Capitalism
-
----
-
-## The Vocabulary You Need
-
-::: {style="font-size: 1.3em; line-height: 1.8;"}
-| Concept | Thinker | Core Idea |
-|---------|---------|-----------|
-| **Capitalist Realism** | Fredric Jameson | Capitalism is the only viable system; alternatives are unimaginable |
-| **Disaster Capitalism** | Naomi Klein | Exploitation of crises for profit |
-| **Surveillance Capitalism** | Shoshana Zuboff | Using technology to monitor and control for profit |
-| **Zero Marginal Cost Society** | Jeremy Rifkin | Technology makes goods virtually free → post-scarcity |
-| **Green New Deal** | Various | Transition to carbon-neutral while promoting social justice |
-:::
 
 ---
 
@@ -374,6 +343,44 @@ What happens when the price target moves? When carbon becomes a commodity to tra
 
 ---
 
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2em; color: white; line-height: 1.6;"}
+Now imagine you're a government.
+
+Oil just jumped **9% overnight** because of a military strike 8,000 km away.
+
+Your citizens are paying more for petrol, electricity, groceries — **everything.**
+:::
+
+::: {style="font-size: 2.2em; color: #e74c3c; margin-top: 30px; font-weight: bold;"}
+And you want to add a carbon tax on top of that?
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;"}
+That's not policy. That's political suicide. And every fossil fuel lobby knows it.
+:::
+
+---
+
+## The Trap
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+This is the structural problem:
+
+- **Peacetime:** carbon tax is unpopular but survivable
+- **Crisis:** carbon tax becomes impossible — voters revolt
+- **Oil companies know this.** They don't need to fight the tax. They just need to wait for the next crisis.
+
+And there is **always** a next crisis.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+The PRO-CLIMATE position has a timing problem. The PRO-DEVELOPMENT position has a moral problem. Neither side wants to admit it.
+:::
+
+---
+
 # What If Growth Isn't the Answer?
 
 ---
@@ -433,6 +440,106 @@ Collective Ownership
 ::: {style="font-size: 1.4em; margin-top: 20px; background: #f39c12; padding: 20px; border-radius: 10px;"}
 The question isn't capitalism vs. socialism. It's: **what mix — and who decides?**
 :::
+
+---
+
+# Live Case Study: The War in Iran
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; color: white; line-height: 1.6;"}
+On 28 February 2026, the US and Israel launched strikes on Iran.
+
+Within **72 hours:**
+
+- Oil jumped [**~9%**]{style="color: #e74c3c;"}
+- The Strait of Hormuz effectively [**closed**]{style="color: #e74c3c;"}
+- [**15 million barrels/day**]{style="color: #e74c3c;"} stopped moving
+- Qatar's LNG facilities were [**hit by Iranian drones**]{style="color: #e74c3c;"}
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 20px;"}
+This isn't a history slide. This is happening **right now.**
+:::
+
+---
+
+## Every Player Has an Agenda
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+| Player | What "Winning" Looks Like | The Energy Angle |
+|--------|--------------------------|------------------|
+| [**USA**]{style="color: #3498db;"} | Regime change. Destroy nuclear programme. Declare victory in <30 days. | Controls narrative but not the oil price. Domestic gas prices already spiking. |
+| [**Israel**]{style="color: #3498db;"} | Iran implodes. Regional threat eliminated permanently. | No direct energy stake — but Gulf allies are furious. |
+| [**Iran**]{style="color: #e74c3c;"} | Survive. Drag it out. Make the cost unbearable. | Strait of Hormuz is the weapon. Close it = global recession. |
+| [**Saudi Arabia / Gulf States**]{style="color: #f39c12;"} | Don't get hit. Stay neutral. Protect oil infrastructure. | Iranian drones already struck airports, hotels, oil installations. Their worst nightmare. |
+| [**China**]{style="color: #f39c12;"} | Stability. Buys 90% of Iran's oil exports. | 40% of China's oil imports transit Hormuz. Acute supply risk. |
+| [**Europe**]{style="color: #95a5a6;"} | Was told "minutes" before strikes began. Struggling to be heard. | LNG from Qatar = 20% of global supply, now disrupted. |
+:::
+
+---
+
+## The Chain Effect
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Step 1:** Strait of Hormuz closes → 31% of global seaborne crude halts
+
+**Step 2:** Oil supertanker rates hit all-time high ([**$424,000/day**]{style="color: #e74c3c;"}, up 94%)
+
+**Step 3:** Insurers cancel war-risk cover in the Gulf → shipping freezes
+
+**Step 4:** Qatar LNG facilities hit → [**20% of global LNG supply**]{style="color: #e74c3c;"} offline
+
+**Step 5:** Asia absorbs the pain — 70% of Hormuz crude goes to China, India, Japan, South Korea
+
+**Step 6:** Thailand tells citizens not to panic-buy fuel. Pakistan and Bangladesh face blackouts.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic;"}
+One chokepoint. One week. The entire global energy system shudders.
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; color: white; line-height: 1.6;"}
+Where is Hong Kong in this chain?
+:::
+
+::: {style="font-size: 1.6em; color: #e74c3c; margin-top: 30px; font-weight: bold;"}
+90% of HK's electricity comes from fossil fuels.
+
+How much of that fuel transits the Strait of Hormuz?
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;"}
+The built environment from Week 5 doesn't just trap heat. It runs on a supply chain that passes through a war zone.
+:::
+
+---
+
+## Why This Belongs in a Capitalism Lecture
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Every concept from today is in this story:
+
+| This Week's Concept | Where It Shows Up |
+|---------------------|-------------------|
+| **Structural Incentives** | Every player acts rationally — the outcome is catastrophic |
+| **Tragedy of the Commons** | The Strait of Hormuz is the ultimate commons |
+| **Carbon Pricing** | Your carbon tax is meaningless when oil jumps 9% overnight |
+| **Disaster Capitalism** | Oil companies and arms manufacturers profit from the crisis |
+| **Energy → Capital → War** | The chain we traced from campfire ends here |
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+The market doesn't solve this. The market **is** this.
+:::
+
+---
 
 # Building Your Economic Spectacle
 
@@ -510,40 +617,12 @@ What happens if we switch to a new economic model and it fails?
 | **Investment Displacement** | Capital moves to the wrong sectors |
 | **Innovation Misdirection** | We solve the wrong problem (e.g. biofuels → deforestation) |
 | **Cost of Living** | Carbon tax reflected in daily expenses |
+| [**Energy Insecurity**]{style="color: #e74c3c;"} | [One military strike closes the Strait of Hormuz — 15M barrels/day vanish]{style="color: #e74c3c;"} |
 | **Inequality** | Transition costs fall on those who can't afford them |
 :::
 
 ::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic;"}
 The risk of changing is real. But so is the risk of not changing.
-:::
-
----
-
-## Your Cheatsheet: PRO-CLIMATE {.smaller}
-
-::: {style="font-size: 1.3em; line-height: 1.8;"}
-**Arguments for a Resilient HK Economy:**
-
-- **Green tech startups** — foster a competitive market for renewable energy
-- **Circular economy models** — test sustainable business practices in HK
-- **Public-private partnerships** — leverage private capital for smart city initiatives
-- **Progressive regulation** — environmental rules that encourage (not punish) innovation
-- **Carbon pricing** — incentivise low-carbon operations
-- **Community-led initiatives** — public awareness + local sustainability projects
-:::
-
----
-
-## Your Cheatsheet: PRO-DEVELOPMENT {.smaller}
-
-::: {style="font-size: 1.3em; line-height: 1.8;"}
-**Arguments for HK's Economic Stability:**
-
-- **Growth first** — maintain a business-friendly environment, ensure job security
-- **Proven strategies only** — avoid untested models that risk market disruption
-- **Minimal regulation** — voluntary corporate sustainability, not mandates
-- **Cost-benefit analysis** — evaluate green initiatives on ROI, protect SMEs
-- **Incremental improvements** — gradual energy efficiency gains, low-risk green projects
 :::
 
 ---
@@ -595,38 +674,6 @@ PRO-DEVELOPMENT: A carbon tax will kill HK's competitiveness — innovation, not
 
 ::: {style="font-size: 1.3em; font-style: italic; margin-top: 25px; text-align: center;"}
 Ask yourself: **What do I stand to lose?** That's where your story begins.
-:::
-
----
-
-## Remember: Fact-Check Your Stories
-
-::: {style="font-size: 2.5em; font-weight: bold; color: #c0392b; text-align: center;"}
-Every story must be **fact-checkable**.
-:::
-
-::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
-::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
-::: {style="font-size: 1.5em; font-weight: bold;"}
-OK to Say
-:::
-::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
-- "Shell knew about climate change in 1988" *(documented)*
-- "Solar costs dropped 89% since 2010" *(IEA data)*
-- "Bhutan measures Gross National Happiness" *(policy fact)*
-:::
-:::
-
-::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
-::: {style="font-size: 1.5em; font-weight: bold;"}
-NOT OK
-:::
-::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
-- "Capitalism has killed millions" *(vague, unverifiable)*
-- "Green policies destroy all jobs" *(exaggeration)*
-- "Degrowth will solve everything" *(unfounded claim)*
-:::
-:::
 :::
 
 ---
@@ -906,4 +953,96 @@ The detail signals: *I didn't make this up.*
 **Replace every vague word with a specific number, date, or name.**
 
 Even if no one checks — they'll believe you more.
+:::
+
+---
+
+# Appendix: Reference Materials
+
+---
+
+## Recommended Reading {.smaller}
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+| Book | Author | Why It Matters |
+|------|--------|----------------|
+| *Wealth of Nations* | Adam Smith | The founding text |
+| *The Communist Manifesto* | Karl Marx | The founding critique |
+| *The Constitution of Liberty* | Friedrich Hayek | The market conservative response |
+| *A Farewell to Alms* | Gregory Clark | Capitalism: more and better? |
+| *The Mystery of Capital* | Hernando de Soto | Why property rights precede development |
+| *A Failure of Capitalism* | Richard Posner | A conservative judge's honest assessment |
+| *The Bottom Billion* | Paul Collier | Capital development to alleviate poverty |
+| *The White Tiger* | Aravind Adiga | A poor, smart, flawed man in South India. Man Booker Prize, 2008. |
+:::
+
+---
+
+## Key Vocabulary {.smaller}
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+| Concept | Thinker | Core Idea |
+|---------|---------|-----------|
+| **Capitalist Realism** | Fredric Jameson | Capitalism is the only viable system; alternatives are unimaginable |
+| **Disaster Capitalism** | Naomi Klein | Exploitation of crises for profit |
+| **Surveillance Capitalism** | Shoshana Zuboff | Using technology to monitor and control for profit |
+| **Zero Marginal Cost Society** | Jeremy Rifkin | Technology makes goods virtually free → post-scarcity |
+| **Green New Deal** | Various | Transition to carbon-neutral while promoting social justice |
+:::
+
+---
+
+## Cheatsheet: PRO-CLIMATE {.smaller}
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Arguments for a Resilient HK Economy:**
+
+- **Green tech startups** — foster a competitive market for renewable energy
+- **Circular economy models** — test sustainable business practices in HK
+- **Public-private partnerships** — leverage private capital for smart city initiatives
+- **Progressive regulation** — environmental rules that encourage (not punish) innovation
+- **Carbon pricing** — incentivise low-carbon operations
+- **Community-led initiatives** — public awareness + local sustainability projects
+:::
+
+---
+
+## Cheatsheet: PRO-DEVELOPMENT {.smaller}
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Arguments for HK's Economic Stability:**
+
+- **Growth first** — maintain a business-friendly environment, ensure job security
+- **Proven strategies only** — avoid untested models that risk market disruption
+- **Minimal regulation** — voluntary corporate sustainability, not mandates
+- **Cost-benefit analysis** — evaluate green initiatives on ROI, protect SMEs
+- **Incremental improvements** — gradual energy efficiency gains, low-risk green projects
+:::
+
+---
+
+## Fact-Check Guide
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+OK to Say
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "Shell knew about climate change in 1988" *(documented)*
+- "Solar costs dropped 89% since 2010" *(IEA data)*
+- "Bhutan measures Gross National Happiness" *(policy fact)*
+:::
+:::
+
+::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.5em; font-weight: bold;"}
+NOT OK
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- "Capitalism has killed millions" *(vague, unverifiable)*
+- "Green policies destroy all jobs" *(exaggeration)*
+- "Degrowth will solve everything" *(unfounded claim)*
+:::
+:::
 :::
