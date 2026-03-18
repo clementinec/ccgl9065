@@ -34,11 +34,11 @@ Last week's strategy: **The Pre-Mortem**
 ## Something You Took Away Last Week
 
 ::: {style="font-size: 1.5em; line-height: 1.8;"}
-Week 7 taught you about **narrative power** — who controls the story controls the future.
+Week 7 showed you **the Doubt Machine** — how doubt is manufactured as a product, not discovered as a fact.
 
-The Hockey Stick Graph, Climategate, moon landing conspiracies — you saw how facts can be manufactured, distorted, or weaponised depending on who's telling the story and why.
+The Hockey Stick Graph attacked. Climategate emails cherry-picked. Exxon's own scientists silenced. Same playbook as tobacco — fund alternative research, amplify dissenters, delay action for decades.
 
-**Epistemic humility:** the recognition that what you "know" depends on who collected the data and who framed the question.
+**Epistemic humility:** when someone says "the science isn't settled," ask *who profits from your uncertainty?*
 :::
 
 ::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
