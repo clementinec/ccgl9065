@@ -47,7 +47,25 @@ Now apply that lens to the biggest thing on Earth that most people never think a
 
 ---
 
-## From Contested Truth → Invisible Infrastructure
+## Quick W7 Recap: The Doubt Machine
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+Three things from last week you need to hold onto:
+
+**1. "Doubt is our product"** — Brown & Williamson Tobacco, 1969. The same PR firms went from denying cancer to denying climate change.
+
+**2. The Hockey Stick** — a graph so dangerous to fossil fuel profits that a mining executive and an economist were recruited to attack its statistics. Dozens of independent teams have since confirmed it.
+
+**3. The pattern** — you don't need to win the debate. You just need to make people *think there is one.*
+:::
+
+::: {style="font-size: 1.5em; margin-top: 25px; font-weight: bold; color: #c0392b;"}
+Now: what happens when the Doubt Machine makes an entire **planet-scale system** invisible?
+:::
+
+---
+
+## From Manufactured Doubt → Invisible Infrastructure
 
 ::: {style="font-size: 1.5em; line-height: 1.8;"}
 Last week: *"What if the truth itself is contested?"*
@@ -60,7 +78,62 @@ It covers 71% of the planet. It absorbs 30% of our CO₂. It traps 90% of excess
 :::
 
 ::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
-Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → Epistemic Humility → **now: Invisible Infrastructure.**
+Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → The Doubt Machine → **now: Invisible Infrastructure.**
+:::
+
+---
+
+## Coming Up: Week 9 Preview
+
+::: {style="font-size: 1.5em; line-height: 1.8; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
+Next week, we meet the people who are **already drowning.**
+
+The Carteret Islands are sinking. Their residents produce virtually zero carbon. The nations that caused the crisis? They're building sea walls — for themselves.
+
+**Responsibility asymmetry:** the people who suffer most aren't the ones who caused it.
+:::
+
+---
+
+# The Story So Far
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 1.6em; color: white; text-align: center; line-height: 1.6;"}
+We've been building responses to climate change, **one topic after another.**
+
+Before we dive into today — a quick recap of where we've been.
+:::
+
+---
+
+## Weeks 1–4
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+| Week | Topic | What You Took Away |
+|------|-------|-------------------|
+| **W1** | The Spectacle Formula | How to turn a fact into something people **feel** — Fact + Human Story + Stakes |
+| **W2** | Complexity | Climate change is a **wicked problem** — no single cause, no single fix |
+| **W3** | System Boundaries (LCA) | Where you draw the boundary **changes** who looks responsible |
+| **W4** | Timing (The Duck Curve) | The right energy at the **wrong time** is as bad as no energy at all |
+:::
+
+---
+
+## Weeks 5–7
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+| Week | Topic | What You Took Away |
+|------|-------|-------------------|
+| **W5** | Built Environment (UHI) | Every building is a climate decision — concrete traps heat, cities get hotter |
+| **W6** | Structural Incentives | Tragedy of the Commons — the system **rewards** destruction, individual guilt is a distraction |
+| **W7** | The Doubt Machine | Doubt is a **manufactured product** — same playbook, tobacco to fossil fuels |
+:::
+
+::: {style="font-size: 1.4em; margin-top: 25px; font-weight: bold; color: #8e44ad; text-align: center;"}
+Today — **Week 8: The Ocean.** Let's go.
 :::
 
 ---
@@ -68,11 +141,31 @@ Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing 
 ## {background-color="#000000"}
 
 ::: {style="text-align: center;"}
-![A sea turtle entangled in a ghost net — abandoned fishing gear drifting through the ocean. 46% of the Great Pacific Garbage Patch is fishing nets.](https://upload.wikimedia.org/wikipedia/commons/7/7b/Sea_turtle_entangled_in_a_ghost_net.jpg){width="75%"}
+![A turtle entangled in a ghost net — abandoned fishing gear drifting through the ocean. 46% of the Great Pacific Garbage Patch is fishing nets, not consumer plastic.](https://upload.wikimedia.org/wikipedia/commons/5/50/Turtle_entangled_in_marine_debris_%28ghost_net%29.jpg){width="80%"}
 :::
 
-::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
 *You were told to stop using plastic straws. This is what's actually killing the ocean.*
+:::
+
+---
+
+## The Hero Image
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+That slide just did something to you. Let's name it.
+
+**A hero image is a single photograph that carries the entire argument.**
+
+No bullet points. No data tables. No charts. Just one frame — and your audience does the rest.
+
+This is the Spectacle Formula from Week 1, distilled:
+
+[**Fact**]{style="color: #3498db;"} (46% of ocean trash is fishing nets) + [**Story**]{style="color: #f39c12;"} (a living animal trapped) + [**Stakes**]{style="color: #e74c3c;"} (this is happening right now) = an image you can't unsee.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+Today, watch how we use hero images. Then use one in your own presentation.
 :::
 
 ---
@@ -89,9 +182,9 @@ Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing 
 PRO-CLIMATE
 :::
 ::: {style="font-size: 1.3em; margin-top: 20px;"}
-= Decolonize Ocean Science
+= The Ocean Is a Climate Machine
 
-= "Indigenous knowledge is science too"
+= "Protect the carbon sink first"
 :::
 :::
 
@@ -100,9 +193,9 @@ PRO-CLIMATE
 PRO-DEVELOPMENT
 :::
 ::: {style="font-size: 1.3em; margin-top: 20px;"}
-= Science-Led Solutions
+= The Ocean Is a Resource
 
-= "Rigour first, sentiment second"
+= "3 billion people depend on it for protein"
 :::
 :::
 :::
@@ -114,14 +207,105 @@ PRO-DEVELOPMENT
 ::: {style="font-size: 1.5em; line-height: 1.8;"}
 | [PRO-CLIMATE]{style="color: #27ae60; font-weight: bold;"} | [PRO-DEVELOPMENT]{style="color: #3498db; font-weight: bold;"} |
 |-------------|-----------------|
+| [Restrict]{style="color: #27ae60;"} industrial fishing to protect carbon sinks | [Scale]{style="color: #3498db;"} sustainable fishing to feed the world |
+| [Ban]{style="color: #27ae60;"} bottom trawling — it releases stored CO₂ | [Manage]{style="color: #3498db;"} trawling — banning it kills livelihoods |
 | [Integrate]{style="color: #27ae60;"} indigenous knowledge | [Prioritize]{style="color: #3498db;"} peer-reviewed science |
-| [Community-led]{style="color: #27ae60;"} marine management | [Expert-led]{style="color: #3498db;"} resource management |
-| [Restrict]{style="color: #27ae60;"} industrial fishing | [Manage]{style="color: #3498db;"} fishing sustainably |
-| [Redistribute]{style="color: #27ae60;"} research benefits | [Scale]{style="color: #3498db;"} up proven technology |
+| The ocean is a [climate system]{style="color: #27ae60;"} | The ocean is a [food system]{style="color: #3498db;"} |
 :::
 
 ::: {style="font-size: 1.3em; text-align: center; margin-top: 30px; font-weight: bold;"}
-This week, the debate isn't just "climate vs. growth." It's about **whose knowledge counts.**
+This week: **is the ocean a carbon sink to protect, or a resource to harvest?**
+:::
+
+---
+
+## Quick Exercise: What Comes to Mind?
+
+::: {style="font-size: 2em; text-align: center; padding: 50px; background: #0a3d62; color: white; border-radius: 15px;"}
+When I say **"ocean and climate change"** —
+
+what keywords come to mind?
+:::
+
+::: {style="font-size: 1.3em; margin-top: 30px; text-align: center;"}
+*Shout them out. Let's collect them.*
+:::
+
+---
+
+## What You Probably Said vs. What You Didn't
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.4em; font-weight: bold;"}
+Common Answers
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- Plastic pollution
+- Sea level rise
+- Polar bears / ice caps
+- Coral bleaching
+- Overfishing
+- Pollution / oil spills
+:::
+:::
+
+::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.4em; font-weight: bold;"}
+Rarely Mentioned
+:::
+::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
+- The carbon pump
+- Thermohaline circulation
+- Phytoplankton (50% of O₂)
+- Ocean acidification
+- Bottom trawling emissions
+- Ocean heat absorption (90%)
+:::
+:::
+:::
+
+::: {style="font-size: 1.4em; text-align: center; margin-top: 30px; font-weight: bold; color: #c0392b;"}
+The gap between those two columns? That's the invisible infrastructure.
+:::
+
+---
+
+## {background-color="#0a3d62"}
+
+::: {style="font-size: 2.5em; color: white; text-align: center; line-height: 1.4; padding: 40px;"}
+Let's talk about the single biggest blindspot of climate change.
+:::
+
+::: {style="font-size: 3.5em; color: #e74c3c; text-align: center; font-weight: bold; margin-top: 30px;"}
+The ocean.
+:::
+
+::: {style="font-size: 1.3em; color: #95a5a6; text-align: center; margin-top: 40px;"}
+It absorbs **90%** of excess heat. It absorbs **30%** of our CO₂. It produces **50%** of our oxygen.
+
+And it barely makes the news.
+:::
+
+---
+
+## Why "Blindspot"?
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Scientists know. The data is overwhelming. Thousands of papers, decades of research.
+
+**The blindspot isn't in science. It's in public discourse and policy.**
+
+- Climate debates focus on **land**: cars, factories, buildings, deforestation
+- The Paris Agreement barely mentions the ocean
+- The plastic crisis gets attention — but for **straws**, not for the carbon pump
+- Ocean acidification — "the evil twin" — gets almost zero airtime
+
+**Why?** Because no one profits from making the ocean visible. There's no fossil fuel lobby for the deep sea. No election won on phytoplankton.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic; color: #7f8c8d; text-align: center;"}
+Week 7's lesson: what gets attention is shaped by who profits from visibility.
 :::
 
 ---
@@ -130,15 +314,19 @@ This week, the debate isn't just "climate vs. growth." It's about **whose knowle
 
 ---
 
-## A Quote to Sit With
+## {background-color="#000000"}
 
-::: {style="font-size: 1.8em; text-align: center; padding: 50px; background: #1a1a2e; color: white; border-radius: 15px; line-height: 1.6;"}
-*"The critical [state of the oceans]{style="color: #e74c3c;"} and the intersection of [marine science]{style="color: #e74c3c;"}, [colonial legacies]{style="color: #e74c3c;"}, and [indigenous knowledge]{style="color: #e74c3c;"}."*
+::: {style="text-align: center;"}
+![The Blue Marble — Apollo 17, 1972. This is not a land planet with some water. This is an ocean planet with some land.](https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg){width="55%"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*You live on an ocean planet. You just forgot.*
 :::
 
 ---
 
-## Wait, What?
+## The Numbers
 
 ::: {style="font-size: 2.0em; text-align: center; padding: 40px; background: #0a3d62; color: white; border-radius: 15px;"}
 The ocean covers [**71%**]{style="color: #3498db;"} of Earth's surface.
@@ -156,75 +344,212 @@ And yet — we've explored less than **20%** of it. We know more about the surfa
 
 ---
 
-# The Ocean's Plight
+## Where Does the Heat Go?
+
+![Change in total heat content of Earth — the ocean absorbs over 93% of excess heat. Ice, land, and atmosphere share the rest.](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Change_in_total_heat_content_of_earth.svg/1200px-Change_in_total_heat_content_of_earth.svg.png){width="75%"}
+
+::: {style="font-size: 1.4em; text-align: center; margin-top: 10px;"}
+The ocean isn't just *near* the problem. **It's absorbing almost all of it.**
+:::
 
 ---
 
-## Two Crises, One System
+# The Ocean as Climate Machine
+
+---
+
+## The Global Conveyor Belt
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+The ocean isn't a bathtub. It's a **circulation engine.**
+
+**Thermohaline circulation** — driven by temperature (*thermo*) and salt (*haline*):
+
+- Warm surface water flows from the tropics toward the poles
+- At the poles, it cools, becomes denser, and **sinks** to the deep ocean
+- Deep water creeps back toward the equator over centuries
+- One full cycle takes roughly **1,000 years**
+
+If this conveyor slows down, Europe freezes. If it stops, global climate collapses.
+:::
+
+---
+
+## The Conveyor Belt, Visualised
+
+![Thermohaline circulation — red = warm surface currents, blue = cold deep currents. This system distributes heat, regulates weather, and drives nutrient cycles across the planet.](https://upload.wikimedia.org/wikipedia/commons/4/4c/Thermohaline_Circulation_2.png){width="85%"}
+
+---
+
+## The Biological Carbon Pump
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+The ocean sequesters carbon through a living machine:
+
+**1. Phytoplankton** — microscopic algae at the ocean surface
+
+- They produce [**50% of Earth's oxygen**]{style="color: #3498db;"} — more than all forests combined
+- They absorb CO₂ through photosynthesis, just like trees
+- When they die, they **sink** — carrying carbon to the deep ocean floor
+
+**2. Fish and whales** — the pump's delivery system
+
+- Fish eat plankton, excrete carbon-rich waste that sinks
+- Whales feed deep, defecate at the surface — **fertilising** phytoplankton with iron and nitrogen
+
+**3. The seabed** — the planet's largest carbon vault
+
+- Sediments on the ocean floor store [**billions of tonnes**]{style="color: #e74c3c;"} of carbon, accumulated over millennia
+:::
+
+---
+
+## The Carbon Pump, Visualised
+
+![The biological carbon pump — CO₂ absorbed at the surface, fixed by phytoplankton, sinks as particulate organic carbon, stored in deep sediments.](https://upload.wikimedia.org/wikipedia/commons/3/3a/Schematic_of_the_biological_carbon_pump.png){width="70%"}
+
+---
+
+## {background-color="#0a3d62"}
+
+::: {style="font-size: 2.5em; text-align: center; padding: 80px; color: white; line-height: 1.6;"}
+The ocean is not just *affected* by climate change.
+
+The ocean [**is**]{style="color: #e74c3c;"} the climate system.
+
+[Break the ocean, break the climate.]{style="color: #7f8c8d; font-size: 0.6em;"}
+:::
+
+---
+
+## Everything This Semester Connects Here {.smaller}
+
+::: {style="font-size: 1.15em; line-height: 1.6;"}
+| Week | Concept | How It Shows Up in the Ocean |
+|------|---------|------------------------------|
+| W1 | **Spectacle Formula** | The hero images today — one turtle, one argument |
+| W2 | **Complexity** | The ocean is a complex system — circulation, carbon pump, food webs — not reducible to "just pollution" |
+| W3 | **System Boundaries** | Where does plastic's lifecycle end? Oil well → factory → ocean → phytoplankton → your bloodstream |
+| W4 | **Timing** | The conveyor belt takes 1,000 years per cycle. Our damage is measured in decades. Timing mismatch. |
+| W5 | **Built Environment** | 40% of humanity lives within 100 km of the coast. The built environment meets the ocean. |
+| W6 | **Structural Incentives** | The ocean is the ultimate commons. $35B/year in subsidies to overexploit it. Tragedy of the Commons, at sea. |
+| W7 | **The Doubt Machine** | "The trawling science is debated" — but the physics of acidification is settled. Know the difference. |
+| **W8** | **Invisible Infrastructure** | **All of the above, happening beneath the surface where no one looks.** |
+:::
+
+---
+
+# What's Happening to the Machine?
+
+---
+
+## Two Layers of Damage
 
 ::: {style="font-size: 1.4em; line-height: 1.8;"}
-**1. Climate Regulation Under Threat**
+The ocean's capacity to regulate climate is being degraded. But we need to be honest about what we know:
+:::
 
-- The ocean is the planet's thermostat — absorbing solar radiation, sequestering carbon, regulating weather
-- But it's reaching saturation: ocean acidification, warming currents, disrupted circulation patterns
-- Vulnerability to overexploitation is accelerating
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 45%; background: #c0392b; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+Layer 1: Settled Physics
+:::
+::: {style="font-size: 1.1em; line-height: 1.6; margin-top: 15px;"}
+IPCC-grade, measurable, undeniable:
 
-**2. Biodiversity Loss**
+- Warmer water holds **less CO₂** (Henry's Law)
+- More CO₂ absorbed → more acidic → **harder to absorb more**
+- Warming creates **stratification** — surface layer won't mix with deep water
+- The ocean's efficiency as a carbon sink is **measurably declining**
+:::
+:::
 
-- Plastic pollution — 400 million tonnes produced each year
-- Coral reef degradation — affecting the 0.5 billion people who depend on them
-- Decline in marine biodiversity — cascading through global ecosystems
+::: {style="text-align: left; width: 45%; background: #e67e22; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+Layer 2: Emerging Science
+:::
+::: {style="font-size: 1.1em; line-height: 1.6; margin-top: 15px;"}
+Directionally alarming, still being quantified:
+
+- Bottom trawling may release **~1 Gt CO₂/year** (Sala et al., *Nature* 2021 — debated)
+- Microplastics appear to **reduce phytoplankton growth** (lab studies; ocean-scale impact uncertain)
+- Whale depletion reduces **phytoplankton fertilisation** (real mechanism; exact carbon impact still being estimated)
+:::
+:::
 :::
 
 ---
 
-## Coral Reefs: The Rainforests of the Sea
+## Why the Two-Layer Distinction Matters
 
-::: {style="font-size: 1.5em; line-height: 1.8; background: #0a3d62; color: white; padding: 40px; border-radius: 15px;"}
-**Coral reefs** protect coastlines from storms and erosion, provide jobs for local communities, and offer opportunities for recreation.
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Layer 1 alone is already catastrophic.** Even without trawling or plastic, the physics of warming + acidification is measurably reducing the ocean's capacity.
 
-Over [**0.5 Billion people**]{style="color: #e74c3c;"} depend on reefs for food, income and protection. (NOAA)
+**Layer 2 may be compounding the damage** — but we're still quantifying how much.
 
-Losing the coral reefs is not only losing coastal line/development and the job opportunity — it will be an **economic disaster.**
+This is **epistemic humility from Week 7** in action:
+
+- We don't need to wait for perfect Layer 2 data when Layer 1 is already a crisis
+- But we also shouldn't overstate emerging science — that's the Doubt Machine's trick in reverse
+- The honest position: *"The physics is certain. The biology is alarming. Both demand action."*
 :::
 
 ---
 
-# Anthropogenic Plastic
+# The Five Gyres and Two Islands of Trash
 
 ---
 
-## The Numbers Are Staggering
+## How Ocean Currents Create Garbage Patches
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+The ocean's surface currents form **5 massive circular systems** called **gyres** — driven by wind, the Earth's rotation, and temperature differences.
+
+Think of them as slow-motion whirlpools, each spanning thousands of kilometres:
+
+- **North Pacific Gyre** — between Asia and North America
+- **South Pacific Gyre** — the most remote water on Earth
+- **North Atlantic Gyre** — between Europe, Africa, and the Americas
+- **South Atlantic Gyre** — below the equator
+- **Indian Ocean Gyre** — between Africa, Asia, and Australia
+
+Anything that enters a gyre gets **trapped in the centre** — pulled inward by converging currents, with no way out.
+:::
+
+---
+
+## The Five Gyres, Mapped
+
+![The 5 major oceanic gyres — circular current systems that trap everything from nutrients to plastic. The two largest garbage patches sit in the North Pacific and North Atlantic gyres.](https://upload.wikimedia.org/wikipedia/commons/8/8a/Oceanic_gyres.png){width="80%"}
+
+---
+
+## Two Trash Patches. Same Mechanism.
 
 ::: {style="font-size: 1.4em; line-height: 1.8;"}
-- **Synthetic organic polymer** made from petroleum
-- Over **400 million tonnes** produced each year
-- Sources: stormwater runoff, sewer overflows, littering, inadequate waste management, industrial activities, tyre abrasion, construction, illegal dumping
-- Breaks down into **microplastics** (≤ 5mm) under UV light
-  - Found in **human blood**
-  - Possible biomagnification up the food chain
-- Degrades over **hundreds to thousands of years**
+**The Great Pacific Garbage Patch** (North Pacific Gyre)
+
+- Estimated at [**1.6 million km²**]{style="color: #e74c3c;"} — **3x the size of France**
+- ~80,000 tonnes of plastic trapped and circulating
+- **94%** is microplastics — invisible to the naked eye
+- **46%** by mass is abandoned fishing nets
+
+**The North Atlantic Garbage Patch** (North Atlantic Gyre)
+
+- Smaller but denser — concentrated between Bermuda and the Azores
+- Estimated at hundreds of kilometres across
+- Same composition: microplastics, fishing gear, industrial waste
 :::
 
-::: {style="font-size: 1.5em; margin-top: 20px; background: #e74c3c; color: white; padding: 20px; border-radius: 10px; text-align: center;"}
-**Plastic is turning the ocean into a minefield.**
-:::
-
----
-
-## See It: The World We're Making
-
-{{< video https://www.youtube.com/embed/RS7IzU2VJIQ width="1600" height="900" >}}
-
-::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
-*Kurzgesagt (~9 min). The scale of plastic pollution made visceral. The twist: the Great Pacific Garbage Patch is invisible — it's a "plastic soup" of microparticles, not a floating island.*
+::: {style="font-size: 1.4em; margin-top: 20px; background: #f9e79f; padding: 20px; border-radius: 10px;"}
+These aren't floating islands you can walk on. They're **plastic soups** — clouds of particles suspended in the water column. You could sail through one and never see it.
 :::
 
 ---
 
-## One Image. One Fact.
+## {background-color="#0a3d62"}
 
-::: {style="font-size: 3em; text-align: center; padding: 80px; background: #0a3d62; color: white; border-radius: 15px;"}
+::: {style="font-size: 3em; text-align: center; padding: 80px; color: white; border-radius: 15px;"}
 [**46%**]{style="color: #e74c3c;"} of the Great Pacific Garbage Patch
 
 is **fishing nets.**
@@ -234,40 +559,251 @@ is **fishing nets.**
 
 ---
 
-## Story-Telling With ONE Image
+# Plastic: A Climate Problem, Not Just Pollution
 
-::: {style="font-size: 1.8em; text-align: center; line-height: 1.8; padding: 40px;"}
-*A sea turtle tangled in a fishing net.*
+---
 
-One image. One punchline. The audience does the rest.
+## {background-color="#000000"}
 
-**This is the Spectacle Formula from Week 1 — in its purest form.**
+::: {style="text-align: center;"}
+![A blue plastic bag draped over a living fan coral — Wakatobi, Indonesia. Two crises in one frame.](https://upload.wikimedia.org/wikipedia/commons/a/a3/Blue_plastic_on_a_fan_coral%2C_turkey_beach%2C_wakatobi%2C_2018_%2845088490204%29.jpg){width="70%"}
+:::
 
-Fact + Human (animal) Story + Stakes = an image you can't unsee.
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*The coral took decades to grow. The bag took seconds to drop.*
 :::
 
 ---
 
-# The Great Pacific Garbage Patch
+## The Numbers
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+- Over **400 million tonnes** of plastic produced each year
+- Breaks down into **microplastics** (≤ 5mm) under UV light
+  - Found in **human blood**, **placental tissue**, and **breast milk**
+  - Biomagnification up the food chain
+- Degrades over **hundreds to thousands of years**
+:::
+
+::: {style="font-size: 1.5em; margin-top: 20px; background: #e74c3c; color: white; padding: 20px; border-radius: 10px; text-align: center;"}
+**You are eating, drinking, and breathing plastic. Right now.**
+:::
 
 ---
 
-## Not What You Think It Is
+## How Plastic Drives Climate Change
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+Plastic isn't just polluting the ocean. It connects to climate change at every stage:
+
+**Settled science:**
+
+- Plastic is made from **petroleum and natural gas** — production accounts for [**~3.4%**]{style="color: #e74c3c;"} of global greenhouse emissions
+- At current growth rates, plastic could consume [**20% of all oil**]{style="color: #e74c3c;"} production by 2050
+- When plastic degrades under UV light, it releases **methane and ethylene** — potent greenhouse gases
+
+**Emerging research (directionally alarming):**
+
+- Microplastics are ingested by **phytoplankton** — the organisms that produce 50% of Earth's oxygen
+- Lab studies suggest microplastics can significantly **reduce phytoplankton growth and photosynthesis**
+- If this scales to the real ocean: less phytoplankton → less CO₂ absorbed → more warming
+- *We don't yet know the full ocean-scale impact — but the direction is clear*
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2em; color: white; text-align: center; line-height: 1.6;"}
+The fossil fuel industry makes the plastic.
+
+The plastic enters the ocean.
+
+The ocean's carbon pump weakens.
+
+The climate gets worse.
+
+[**The industry that caused climate change is also degrading the system that regulates it.**]{style="color: #e74c3c;"}
+:::
+
+---
+
+# Overfishing: The Other Climate Problem
+
+---
+
+## How Fishing Connects to Climate Change
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Settled science:**
+
+- The ocean's **biological carbon pump** depends on healthy marine food webs — fish and whales transport carbon from the surface to the deep ocean
+- **Industrial whaling** reduced whale populations by [**66–90%**]{style="color: #e74c3c;"} — whales fertilise phytoplankton through iron-rich faeces at the surface. Fewer whales = less fertilisation = less CO₂ absorbed.
+
+**Emerging research (significant but debated):**
+
+- **Bottom trawling** scrapes the seabed, disturbing carbon-rich sediments accumulated over millennia
+- Sala et al. (*Nature*, 2021) estimated this releases [**~1 Gt CO₂/year**]{style="color: #e74c3c;"} — comparable to global aviation
+- *This figure is debated* — critics argue much of the disturbed carbon may be recaptured by the water column before reaching the atmosphere
+- But even conservative estimates put trawling emissions in the **hundreds of millions of tonnes** per year
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; color: white; text-align: center; line-height: 1.6;"}
+Bottom trawling releases an estimated [**0.5–1 Gt CO₂/year.**]{style="color: #e74c3c;"}
+
+Global aviation releases [**~1 Gt CO₂/year.**]{style="color: #e74c3c;"}
+
+One of them is regulated. One of them is **subsidised.**
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px; text-align: center;"}
+*Governments spend $35 billion per year subsidising fishing fleets. Many would be unprofitable without the subsidy.*
+:::
+
+---
+
+# Coral Reefs: The Rainforests of the Sea
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Coral under heat stress turns vivid, fluorescent colours — a last-ditch survival response before full bleaching and death.](https://upload.wikimedia.org/wikipedia/commons/9/9b/Colorful_Coral_Bleaching.jpg){width="75%"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*This is not beauty. This is a death signal.*
+:::
+
+---
+
+## Why Reefs Matter
+
+::: {style="font-size: 1.5em; line-height: 1.8; background: #0a3d62; color: white; padding: 40px; border-radius: 15px;"}
+Coral reefs protect coastlines from storms, provide jobs, and sustain fisheries.
+
+Over [**0.5 billion people**]{style="color: #e74c3c;"} depend on them for food, income, and protection. (NOAA)
+
+Reefs cover less than [**1%**]{style="color: #3498db;"} of the ocean floor — but support [**25%**]{style="color: #3498db;"} of all marine species.
+
+Losing them isn't just an ecological disaster. It's an **economic collapse** for entire coastlines.
+:::
+
+---
+
+## The Double Strike
 
 ::: {style="font-size: 1.5em; line-height: 1.8;"}
-The world's largest collection of floating trash — "larger than Texas."
+Coral is being hit by **two forces at once:**
 
-But here's what most people get wrong:
+**Warming → Bleaching**
 
-- **94%** of it is microplastics — you can't see most of it
-- **46%** of the patch (by tonnage) is **fishing nets** — not plastic bags or bottles
-- [**Consumer plastics are NOT the #1 culprit**]{style="color: #e74c3c; font-weight: bold;"}
+- Coral expels the algae that give it colour and food when water temperatures rise
+- Without the algae, coral starves. If temperatures don't drop within weeks, it dies.
 
-A sea of plastic that will not grow smaller.
+**Acidification → Dissolution**
+
+- Acidic seawater dissolves **calcium carbonate** — the material coral skeletons are made of
+- Coral can't build its skeleton as fast as the water dissolves it
+
+[**Warming bleaches them. Acidification dissolves them. Together, it's a death sentence.**]{style="color: #e74c3c;"}
 :::
 
-::: {style="font-size: 1.4em; margin-top: 20px; background: #f9e79f; padding: 20px; border-radius: 10px;"}
-This is epistemic humility in action: what you *think* the problem is (consumer waste) isn't actually the biggest contributor (industrial fishing gear). **The narrative shapes the policy.**
+---
+
+## {background-color="#0a3d62"}
+
+::: {style="font-size: 3em; text-align: center; padding: 80px; color: white; line-height: 1.6;"}
+[**50%**]{style="color: #e74c3c;"} of the world's coral reefs
+
+have died since [**1950.**]{style="color: #e74c3c;"}
+
+[At current rates, 90% will be gone by 2050.]{style="color: #7f8c8d; font-size: 0.5em;"}
+:::
+
+---
+
+## See It: How Dead Is the Great Barrier Reef?
+
+{{< video https://www.youtube.com/embed/BO44JlAElXM width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Vox (~6 min). "Have we really killed the Great Barrier Reef? No. But we sure are trying." Coral bleaching explained with the discomfort intact.*
+:::
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Healthy corals alongside bleaching corals on the same reef — the before and after, side by side.](https://upload.wikimedia.org/wikipedia/commons/6/60/Coral_reef_with_healthy_corals_and_corals_with_signs_of_bleaching.png){width="80%"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*Same reef. Same water. One side is alive. One side is dying. The difference is 2°C.*
+:::
+
+---
+
+# Ocean Acidification: The Evil Twin
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; color: white; text-align: center; line-height: 1.6;"}
+Everyone talks about the ocean **warming.**
+
+Almost no one talks about the ocean **dissolving.**
+:::
+
+::: {style="font-size: 1.5em; color: #e74c3c; margin-top: 30px; text-align: center; font-weight: bold;"}
+Ocean acidification is climate change's evil twin — and it's already here.
+:::
+
+---
+
+## The Chemistry, Simply
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+When CO₂ dissolves in seawater, it forms **carbonic acid.**
+
+The ocean's pH has dropped by **0.1 units** since the Industrial Revolution.
+
+That sounds tiny. It's not.
+
+- pH is a logarithmic scale — 0.1 = a [**26% increase**]{style="color: #e74c3c;"} in acidity
+- Acidic water dissolves **calcium carbonate** — the material shells and coral skeletons are made of
+- Shellfish, coral, plankton — the base of the marine food web — are literally dissolving
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+The ocean absorbed our CO₂ for centuries. Now it's paying the price.
+:::
+
+---
+
+## The Evidence: CO₂ Up, pH Down
+
+![Hawaii Carbon Dioxide Time-Series — atmospheric CO₂ (Mauna Loa) rising alongside ocean CO₂ (Aloha station), while ocean pH steadily declines. The "double whammy" graph.](https://upload.wikimedia.org/wikipedia/commons/a/af/Co2_time_series_aloha_08-09-2023.jpg){width="70%"}
+
+::: {style="font-size: 1.3em; text-align: center; margin-top: 10px;"}
+As atmospheric CO₂ rises, the ocean absorbs more — and its pH drops in lockstep.
+:::
+
+---
+
+## See It: The Evil Twin of Climate Change
+
+{{< video https://www.youtube.com/embed/KJPpJhQxaLw width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*Triona McGrath, TEDx (~9 min). An oceanographer explains how CO₂ is changing the ocean's chemistry — and why it matters for everything that lives in it.*
 :::
 
 ---
@@ -276,60 +812,21 @@ This is epistemic humility in action: what you *think* the problem is (consumer 
 
 ---
 
-## Status-Quo & Issues With Marine Research
+## The Decolonization Question
 
 ::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Why studying and protecting the ocean is particularly difficult:**
+**The research gap:**
 
-- High costs & tech demands
-- Natural challenges from ocean-based, observation-driven research
-- Research output dominated by **G7 countries** (Canada, France, Germany, Italy, Japan, UK, USA)
-- China rose post-2010 to follow USA
-- **Extractive model**: resources and data extracted, often **without fair compensation or involvement** of local communities
+- Ocean science is dominated by **G7 countries** — the same nations that industrialised first
+- Resources and data are extracted from less-resourced waters — often **without fair compensation**
+- Western scientific approaches are treated as the only valid lens
 
-**Colonial Legacies Unkept:**
+**Indigenous knowledge — systematically dismissed:**
 
-- Less-resourced waters perpetuate colonial dynamics
-- Western scientific approaches viewed as superior to indigenous ones
-:::
-
----
-
-## Rethinking Marine Research
-
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Historical Context:** Ocean exploration in less financially-resourced regions has focused on **extracting resources or data**, often without fair compensation or involvement of local communities.
-
-**Marginalization of Indigenous Knowledge:**
-
-- Indigenous peoples have a deep understanding of marine environments developed over millennia
-- Often overlooked or undervalued by mainstream marine science
-
-**How to Decolonize Ocean Science?**
-
-- Inclusive Research Collaborations
-- Benefit Sharing
-- Integrating Knowledge Systems
-- Policy and Governance reform
-- Education and Capacity Building
-:::
-
----
-
-## Examples of Decolonized Research
-
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Community-Based Monitoring:**
-
-- In the Arctic, Inuit communities have been involved in **monitoring sea ice changes**, combining traditional knowledge with scientific methods to track climate change impacts.
-
-**Co-Managed Marine Protected Areas:**
-
-- In the Pacific Islands, marine protected areas are **co-managed by indigenous communities** and governments, blending traditional conservation practices with scientific research.
-
-**Coral Reef Restoration:**
-
-- In the Caribbean, **local and indigenous practices** in managing fisheries and protecting marine habitats are integrated into coral reef restoration projects.
+- Indigenous peoples have understood marine environments for **millennia** — tidal patterns, breeding cycles, migration routes, reef health
+- In the Arctic, **Inuit communities** detected sea ice changes years before satellite monitoring confirmed them
+- In the Pacific Islands, **community-managed marine areas** consistently outperform government-managed ones
+- This knowledge is disappearing as fishing communities shrink
 :::
 
 ---
@@ -338,64 +835,63 @@ This is epistemic humility in action: what you *think* the problem is (consumer 
 
 ---
 
-## Overfishing in Hong Kong
+## {background-color="#000000"}
 
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Historical Fishing Grounds:**
+::: {style="text-align: center;"}
+![Fishing boats in Aberdeen Harbour, Hong Kong — where centuries of marine knowledge live alongside one of the world's most developed coastlines.](https://upload.wikimedia.org/wikipedia/commons/7/7b/Aberdeen_Harbour_Fishing_Boats.jpg){width="80%"}
+:::
 
-- Once rich, Hong Kong's surrounding waters have seen a significant decline in fish populations due to overfishing
-
-**Modern Pressures:**
-
-- The rise in **commercial fishing practices**, coupled with **increased demand** from the city's population, exacerbates the problem
-
-**Biodiversity Loss:**
-
-- Key species have been depleted, affecting the marine ecosystem's balance and resilience
-- Potential cuts to obvious traditional food options (fish balls)
-
-**Indigenous Fishermen Knowledge:**
-
-- Local fishermen possess **generational knowledge** on sustainable fishing practices, seasonal cycles, and the behaviour of local fish populations — unbeknownst to commercial fishing operations
-- **Observational Insights:** Recognising early signs of ecosystem changes or stress
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*This is Hong Kong's relationship with the sea. It's older than the skyline.*
 :::
 
 ---
 
-## Overfishing in Hong Kong: Solutions
+## Overfishing in Hong Kong
 
 ::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Connecting Indigenous Knowledge and Overfishing Solutions:**
+**The decline:** Hong Kong's once-rich waters have been dramatically depleted by decades of overfishing.
 
-- **Collaborative Management** — fishermen + scientists + government
-- **No-Take Zones** — areas where fishing is prohibited to allow recovery
-- **Seasonal Restrictions** — following traditional knowledge of breeding cycles
-- **Sustainable Techniques** — traditional methods over industrial trawling
+**The ban:** In 2012, Hong Kong **banned trawling** in its waters — one of the few places in the world to do so. Fish stocks have shown signs of recovery.
 
-**Challenges and Opportunities:**
+**The knowledge gap:** Local fishermen possess **generational knowledge** of sustainable practices, seasonal cycles, and early signs of ecosystem stress — knowledge that is disappearing as fishing communities shrink.
 
-- **Regulatory Integration** — policies should reflect on-the-ground realities
-- **Cultural and Knowledge Preservation** — before it's lost
-- **Community Involvement** — local fishing communities in decision-making fosters stewardship
+**The climate connection:** Hong Kong's marine ecosystem is part of the South China Sea carbon cycle. Healthy fisheries = healthy carbon pump. Depleted fisheries = broken pump.
+:::
+
+---
+
+## HK Trawling Ban: A Case Study
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+In **2012**, Hong Kong became one of the first places in the world to **ban bottom trawling** in its waters.
+
+**PRO-CLIMATE:** Fish stocks have recovered. Biodiversity is returning. The seabed — Hong Kong's underwater carbon store — is no longer being scraped open.
+
+**PRO-DEVELOPMENT:** Thousands of fishermen lost their livelihoods. Government compensation was inadequate. Many switched to illegal fishing or left the industry entirely.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+The right policy, with the wrong transition plan. Sound familiar? (Week 6: Tragedy of the Commons.)
 :::
 
 ---
 
 ## This Week's Debate Motion
 
-::: {style="font-size: 2em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
-**"This house believes that Hong Kong should integrate indigenous fishermen's knowledge into its marine conservation policy, even where it contradicts conventional scientific recommendations."**
+::: {style="font-size: 1.8em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
+**"This house believes that industrial fishing is a climate crime and should be regulated under the Paris Agreement."**
 :::
 
 ::: {style="font-size: 1.3em; margin-top: 30px; text-align: center;"}
-PRO-CLIMATE: Local knowledge is irreplaceable data. Ignoring it is colonial thinking.
+PRO-CLIMATE: Bottom trawling releases as much CO₂ as aviation. Fishing nets are 46% of ocean plastic. This isn't food production — it's climate destruction at industrial scale.
 
-PRO-DEVELOPMENT: Anecdotal knowledge can't replace rigorous, reproducible science.
+PRO-DEVELOPMENT: 3 billion people depend on fish for protein. Calling fishing a "climate crime" threatens food security for the world's poorest.
 :::
 
 ---
 
-# Role-Play Activity: Decolonizing Ocean Science
+# Role-Play Activity: Ocean and Climate
 
 ---
 
@@ -404,15 +900,15 @@ PRO-DEVELOPMENT: Anecdotal knowledge can't replace rigorous, reproducible scienc
 ::: {style="font-size: 1.4em; line-height: 1.8;"}
 **What We Are Doing:**
 
-A **role-play activity** simulating a debate around **Decolonizing Ocean Science** within the Hong Kong context.
+A **role-play debate** on whether industrial fishing should be classified as a climate-damaging activity — within the Hong Kong context.
 
-You will assume roles: **Pro-CC** and **Anti-CC** viewpoints, as well as **stakeholder positions** (Local Fishermen, Marine Scientists, Policy Makers, Conservation NGOs — or whatever you see fit).
+You will assume **stakeholder positions**: Local Fishermen, Marine Scientists, Policy Makers, Fishing Industry Representatives, Conservation NGOs, Consumer Advocates — or whatever you see fit.
 
 **Why We Are Doing It:**
 
-- To **explore diverse perspectives** on issues intersecting ocean conservation, traditional knowledge, and modern science
-- To understand the **implications** of policy decisions on different communities
-- To foster **empathy and critical thinking** by stepping into others' shoes
+- To explore the **tension between food security and climate protection**
+- To understand how the ocean connects to climate change — not just as a victim, but as an **active climate system**
+- To practice building arguments that connect **local issues to global frameworks**
 :::
 
 ---
@@ -433,29 +929,55 @@ You will assume roles: **Pro-CC** and **Anti-CC** viewpoints, as well as **stake
 
 ---
 
-## Pro-Climate / Pro-Decolonization Talking Points {.smaller}
+## Pro-Climate Talking Points {.smaller}
 
 ::: {style="font-size: 1.3em; line-height: 1.8;"}
-**Progressive Actions to Address Climate Change:**
+**The Ocean Is a Climate System — Treat It Like One:**
 
-- **Urgent integration** of indigenous knowledge on par with scientific data for holistic ocean conservation
-- **Drastic policy reforms** recognising indigenous rights and community leadership in marine resource management
-- **Adoption of inclusive research models** that disrupt traditional hierarchies and empower local communities
-- **Economic redistribution** to ensure equitable benefits from marine resources for indigenous and local communities
+- Bottom trawling releases an estimated **0.5–1 Gt CO₂/year** — comparable to global aviation, yet it receives $35B in government subsidies
+- Industrial fishing nets make up **46%** of ocean plastic by mass — the biggest contributor to the garbage patches
+- Overfishing disrupts the **biological carbon pump** — fewer fish = less carbon reaching the deep ocean
+- Hong Kong's trawling ban (2012) shows it can be done — fish stocks have recovered
+- Indigenous fishermen's knowledge can guide **sustainable alternatives** that protect both livelihoods and carbon sinks
 :::
 
 ---
 
-## Pro-Development / Pro-Traditional Science Talking Points {.smaller}
+## Pro-Development Talking Points {.smaller}
 
 ::: {style="font-size: 1.3em; line-height: 1.8;"}
-**Pragmatic Approaches to Ocean Management:**
+**Food Security Cannot Be Sacrificed:**
 
-- **Peer-reviewed science** must remain the foundation of policy — anecdotal knowledge has limitations
-- **Scalable technology** (satellite monitoring, AI-driven fish stock modelling) is more efficient than community-based methods
-- **Economic stability** of fishing industries supports millions of livelihoods — abrupt restrictions cause harm
-- **International coordination** through established scientific bodies is more effective than fragmented local governance
-- **Hong Kong's food security** depends on reliable supply chains, not romanticised traditional practices
+- **3 billion people** depend on fish as their primary source of protein — regulation must be gradual
+- The trawling CO₂ figure is **debated** — critics argue much disturbed carbon is recaptured before reaching the atmosphere
+- Classifying fishing as a "climate crime" will devastate **coastal economies** in developing nations
+- **Technology solutions** (selective gear, satellite monitoring, AI stock modelling) can reduce impact without banning industries
+- Hong Kong's trawling ban displaced **thousands of workers** — the transition was poorly managed
+- The Paris Agreement should focus on the **biggest emitters** (energy, transport), not food production
+:::
+
+---
+
+# The Hero Image Lesson
+
+---
+
+## What Just Happened?
+
+::: {style="font-size: 1.6em; line-height: 1.8;"}
+Notice what happened across today's slides.
+
+Every section opened with **one image, one caption.** No bullet points. No data. Just a frame that forces your brain to fill in the story.
+
+**Why it works:**
+
+- The brain processes images [**60,000x faster**]{style="color: #e74c3c;"} than text
+- Emotion precedes logic — the image lands before the argument
+- A hero image doesn't *explain* the problem. It makes the audience **feel** it first, then seek the explanation.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #8e44ad;"}
+Your challenge: find ONE image for your portfolio that does this. The rest of the slide deck is just commentary.
 :::
 
 ---
@@ -466,19 +988,18 @@ You will assume roles: **Pro-CC** and **Anti-CC** viewpoints, as well as **stake
 
 ## What You Can't See Still Matters Most
 
-::: {style="font-size: 1.6em; line-height: 1.8; background: #0a3d62; color: white; padding: 40px; border-radius: 15px;"}
+::: {style="font-size: 1.5em; line-height: 1.8; background: #0a3d62; color: white; padding: 40px; border-radius: 15px;"}
 Before this week, "climate change" might have felt like a *land* problem — cities, farms, factories.
 
-Now you know: the **ocean is the planet's invisible life support.**
+Now you know: the **ocean is the planet's climate machine.**
 
-- It absorbs our CO₂ (30%)
-- It traps our heat (90%)
-- It feeds half a billion people through reefs alone
-- And the way we study it replicates the power structures that caused the crisis
+- The **physics is certain:** warming and acidification are measurably reducing the ocean's capacity as a carbon sink
+- The **biology is alarming:** overfishing, plastic, and trawling appear to be compounding the damage
+- The **honest position:** we don't need perfect data on every mechanism when the settled science alone is already a crisis
 :::
 
 ::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad; text-align: center;"}
-**Your portable takeaway:** Invisible infrastructure — what you can't see is doing the heavy lifting. And who gets to see it is a political question.
+**Your portable takeaway:** The ocean isn't a victim of climate change. It *is* the climate system. Break the ocean, break the climate.
 :::
 
 ---
