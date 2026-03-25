@@ -8,7 +8,7 @@ format:
     slide-number: true
     theme: simple
     width: 1600
-    height: 1200
+    height: 1350
     embed-resources: true
     incremental: true
     center: true
@@ -310,6 +310,49 @@ Week 7's lesson: what gets attention is shaped by who profits from visibility.
 
 ---
 
+## So What Does "Ocean, Decolonized" Mean?
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+The ocean has been **colonized by three wrong narratives.** Today we strip them away.
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 30%; background: #0a3d62; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+1. The Resource Narrative
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+We think of the ocean as **fish, shipping lanes, oil.**
+
+Today: the ocean is a **climate machine** — carbon pump, thermostat, oxygen factory.
+:::
+:::
+
+::: {style="text-align: left; width: 30%; background: #c0392b; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+2. The Consumer Guilt Narrative
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+We think the problem is **our plastic straw.**
+
+Today: the real damage is **industrial trawling, acidification, and a broken carbon pump.**
+:::
+:::
+
+::: {style="text-align: left; width: 30%; background: #8e44ad; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+3. The Knowledge Narrative
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+We think Western science is the **only valid lens.**
+
+Today: indigenous communities understood the ocean for **millennia** before satellites existed.
+:::
+:::
+:::
+
+---
+
 # The Ocean You Don't See
 
 ---
@@ -544,6 +587,18 @@ Anything that enters a gyre gets **trapped in the centre** — pulled inward by 
 ::: {style="font-size: 1.4em; margin-top: 20px; background: #f9e79f; padding: 20px; border-radius: 10px;"}
 These aren't floating islands you can walk on. They're **plastic soups** — clouds of particles suspended in the water column. You could sail through one and never see it.
 :::
+
+---
+
+## The Great Pacific Garbage Patch: Mapped
+
+![Plastic mass concentration in the North Pacific — scientific model based on ocean surveys. The red core is 3x the size of France. (Lebreton et al., Nature Scientific Reports, 2018)](data/garbage_patch_map.jpg){width="80%"}
+
+---
+
+## Where the Patches Form
+
+![NOAA map of marine debris accumulation in the North Pacific Gyre — the Eastern and Western garbage patches form where converging currents trap everything that enters.](data/garbage_patch_noaa.jpg){width="80%"}
 
 ---
 
@@ -877,6 +932,43 @@ The right policy, with the wrong transition plan. Sound familiar? (Week 6: Trage
 
 ---
 
+## Why This Motion?
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+This debate connects three scales — and everything we covered today:
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 20px;"}
+::: {style="text-align: left; width: 30%; background: #27ae60; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Local (Hong Kong)
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+HK banned trawling in 2012. Fish stocks recovered. Fishermen lost livelihoods. The transition was messy. **Can this model scale?**
+:::
+:::
+
+::: {style="text-align: left; width: 30%; background: #3498db; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Global (Industry)
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+Industrial fishing fleets — subsidised by $35B/year — drag nets across the seabed and dump gear into the gyres. **46% of both garbage patches is fishing nets.** The industry that feeds 3 billion people is also breaking the ocean.
+:::
+:::
+
+::: {style="text-align: left; width: 30%; background: #c0392b; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Physics (The Machine)
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+Trawling releases stored seabed carbon. Plastic degrades into greenhouse gases. Both disrupt phytoplankton — the base of the carbon pump. **The settled physics says the ocean is losing capacity. The emerging science says we're accelerating it.**
+:::
+:::
+:::
+
+---
+
 ## This Week's Debate Motion
 
 ::: {style="font-size: 1.8em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
@@ -895,20 +987,22 @@ PRO-DEVELOPMENT: 3 billion people depend on fish for protein. Calling fishing a 
 
 ---
 
-## Embracing Perspectives
+## [Let's Assign Groups](countdown.qmd)
+
+---
+
+## The Debate
 
 ::: {style="font-size: 1.4em; line-height: 1.8;"}
-**What We Are Doing:**
-
-A **role-play debate** on whether industrial fishing should be classified as a climate-damaging activity — within the Hong Kong context.
-
 You will assume **stakeholder positions**: Local Fishermen, Marine Scientists, Policy Makers, Fishing Industry Representatives, Conservation NGOs, Consumer Advocates — or whatever you see fit.
 
-**Why We Are Doing It:**
+**Remember the three scales:**
 
-- To explore the **tension between food security and climate protection**
-- To understand how the ocean connects to climate change — not just as a victim, but as an **active climate system**
-- To practice building arguments that connect **local issues to global frameworks**
+- **Local** — what does this mean for Hong Kong's fishing communities?
+- **Global** — what does this mean for the $35B fishing subsidy system?
+- **Physics** — what does this mean for the carbon pump?
+
+Build arguments that connect all three. The strongest debaters today will be the ones who move between scales.
 :::
 
 ---
@@ -1000,6 +1094,27 @@ Now you know: the **ocean is the planet's climate machine.**
 
 ::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad; text-align: center;"}
 **Your portable takeaway:** The ocean isn't a victim of climate change. It *is* the climate system. Break the ocean, break the climate.
+:::
+
+---
+
+## Did We Decolonize?
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+At the start of today, we named three narratives that colonized the ocean:
+
+**1. The resource narrative** — "the ocean is fish and shipping lanes"
+→ Now you know it's a **climate machine**: carbon pump, thermostat, oxygen factory.
+
+**2. The consumer guilt narrative** — "stop using plastic straws"
+→ Now you know it's **industrial**: trawling emissions rival aviation, fishing nets are 46% of the garbage patch, plastic is a fossil fuel product.
+
+**3. The knowledge narrative** — "only peer-reviewed Western science counts"
+→ Now you know **indigenous communities** understood the ocean before satellites existed — and their marine areas often outperform government-managed ones.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic; text-align: center; color: #7f8c8d;"}
+Decolonizing doesn't mean rejecting science. It means asking: whose story shaped what you saw — and what you missed?
 :::
 
 ---
