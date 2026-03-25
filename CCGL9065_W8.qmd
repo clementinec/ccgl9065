@@ -141,7 +141,7 @@ Today — **Week 8: The Ocean.** Let's go.
 ## {background-color="#000000"}
 
 ::: {style="text-align: center;"}
-![A turtle entangled in a ghost net — abandoned fishing gear drifting through the ocean. 46% of the Great Pacific Garbage Patch is fishing nets, not consumer plastic.](https://upload.wikimedia.org/wikipedia/commons/5/50/Turtle_entangled_in_marine_debris_%28ghost_net%29.jpg){width="80%"}
+![A turtle entangled in a ghost net — abandoned fishing gear drifting through the ocean. 46% of the Great Pacific Garbage Patch is fishing nets, not consumer plastic.](data/turtle_ghostnet.jpg){width="80%"}
 :::
 
 ::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
@@ -317,7 +317,7 @@ Week 7's lesson: what gets attention is shaped by who profits from visibility.
 ## {background-color="#000000"}
 
 ::: {style="text-align: center;"}
-![The Blue Marble — Apollo 17, 1972. This is not a land planet with some water. This is an ocean planet with some land.](https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg){width="55%"}
+![The Blue Marble — Apollo 17, 1972. This is not a land planet with some water. This is an ocean planet with some land.](data/blue_marble.jpg){width="55%"}
 :::
 
 ::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
@@ -346,7 +346,7 @@ And yet — we've explored less than **20%** of it. We know more about the surfa
 
 ## Where Does the Heat Go?
 
-![Change in total heat content of Earth — the ocean absorbs over 93% of excess heat. Ice, land, and atmosphere share the rest.](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Change_in_total_heat_content_of_earth.svg/1200px-Change_in_total_heat_content_of_earth.svg.png){width="75%"}
+![Change in total heat content of Earth — the ocean absorbs over 93% of excess heat. Ice, land, and atmosphere share the rest.](data/ocean_heat.png){width="75%"}
 
 ::: {style="font-size: 1.4em; text-align: center; margin-top: 10px;"}
 The ocean isn't just *near* the problem. **It's absorbing almost all of it.**
@@ -377,7 +377,7 @@ If this conveyor slows down, Europe freezes. If it stops, global climate collaps
 
 ## The Conveyor Belt, Visualised
 
-![Thermohaline circulation — red = warm surface currents, blue = cold deep currents. This system distributes heat, regulates weather, and drives nutrient cycles across the planet.](https://upload.wikimedia.org/wikipedia/commons/4/4c/Thermohaline_Circulation_2.png){width="85%"}
+![Thermohaline circulation — red = warm surface currents, blue = cold deep currents. This system distributes heat, regulates weather, and drives nutrient cycles across the planet.](data/thermohaline.png){width="85%"}
 
 ---
 
@@ -406,7 +406,7 @@ The ocean sequesters carbon through a living machine:
 
 ## The Carbon Pump, Visualised
 
-![The biological carbon pump — CO₂ absorbed at the surface, fixed by phytoplankton, sinks as particulate organic carbon, stored in deep sediments.](https://upload.wikimedia.org/wikipedia/commons/3/3a/Schematic_of_the_biological_carbon_pump.png){width="70%"}
+![The biological carbon pump — CO₂ absorbed at the surface, fixed by phytoplankton, sinks as particulate organic carbon, stored in deep sediments.](data/carbon_pump.png){width="70%"}
 
 ---
 
@@ -520,7 +520,7 @@ Anything that enters a gyre gets **trapped in the centre** — pulled inward by 
 
 ## The Five Gyres, Mapped
 
-![The 5 major oceanic gyres — circular current systems that trap everything from nutrients to plastic. The two largest garbage patches sit in the North Pacific and North Atlantic gyres.](https://upload.wikimedia.org/wikipedia/commons/8/8a/Oceanic_gyres.png){width="80%"}
+![The 5 major oceanic gyres — circular current systems that trap everything from nutrients to plastic. The two largest garbage patches sit in the North Pacific and North Atlantic gyres.](data/oceanic_gyres.png){width="80%"}
 
 ---
 
@@ -566,7 +566,7 @@ is **fishing nets.**
 ## {background-color="#000000"}
 
 ::: {style="text-align: center;"}
-![A blue plastic bag draped over a living fan coral — Wakatobi, Indonesia. Two crises in one frame.](https://upload.wikimedia.org/wikipedia/commons/a/a3/Blue_plastic_on_a_fan_coral%2C_turkey_beach%2C_wakatobi%2C_2018_%2845088490204%29.jpg){width="70%"}
+![A blue plastic bag draped over a living fan coral — Wakatobi, Indonesia. Two crises in one frame.](data/plastic_on_coral.jpg){width="70%"}
 :::
 
 ::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
@@ -673,7 +673,7 @@ One of them is regulated. One of them is **subsidised.**
 ## {background-color="#000000"}
 
 ::: {style="text-align: center;"}
-![Coral under heat stress turns vivid, fluorescent colours — a last-ditch survival response before full bleaching and death.](https://upload.wikimedia.org/wikipedia/commons/9/9b/Colorful_Coral_Bleaching.jpg){width="75%"}
+![Coral under heat stress turns vivid, fluorescent colours — a last-ditch survival response before full bleaching and death.](data/coral_bleaching.jpg){width="75%"}
 :::
 
 ::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
@@ -741,7 +741,7 @@ have died since [**1950.**]{style="color: #e74c3c;"}
 ## {background-color="#000000"}
 
 ::: {style="text-align: center;"}
-![Healthy corals alongside bleaching corals on the same reef — the before and after, side by side.](https://upload.wikimedia.org/wikipedia/commons/6/60/Coral_reef_with_healthy_corals_and_corals_with_signs_of_bleaching.png){width="80%"}
+![Healthy corals alongside bleaching corals on the same reef — the before and after, side by side.](data/coral_healthy_bleached.png){width="80%"}
 :::
 
 ::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
@@ -790,7 +790,7 @@ The ocean absorbed our CO₂ for centuries. Now it's paying the price.
 
 ## The Evidence: CO₂ Up, pH Down
 
-![Hawaii Carbon Dioxide Time-Series — atmospheric CO₂ (Mauna Loa) rising alongside ocean CO₂ (Aloha station), while ocean pH steadily declines. The "double whammy" graph.](https://upload.wikimedia.org/wikipedia/commons/a/af/Co2_time_series_aloha_08-09-2023.jpg){width="70%"}
+![Hawaii Carbon Dioxide Time-Series — atmospheric CO₂ (Mauna Loa) rising alongside ocean CO₂ (Aloha station), while ocean pH steadily declines. The "double whammy" graph.](data/co2_ph_timeseries.jpg){width="70%"}
 
 ::: {style="font-size: 1.3em; text-align: center; margin-top: 10px;"}
 As atmospheric CO₂ rises, the ocean absorbs more — and its pH drops in lockstep.
@@ -838,7 +838,7 @@ As atmospheric CO₂ rises, the ocean absorbs more — and its pH drops in locks
 ## {background-color="#000000"}
 
 ::: {style="text-align: center;"}
-![Fishing boats in Aberdeen Harbour, Hong Kong — where centuries of marine knowledge live alongside one of the world's most developed coastlines.](https://upload.wikimedia.org/wikipedia/commons/7/7b/Aberdeen_Harbour_Fishing_Boats.jpg){width="80%"}
+![Fishing boats in Aberdeen Harbour, Hong Kong — where centuries of marine knowledge live alongside one of the world's most developed coastlines.](data/aberdeen_harbour.jpg){width="80%"}
 :::
 
 ::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
