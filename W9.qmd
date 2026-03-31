@@ -1,19 +1,19 @@
 ---
-title: "Our Response to Climate Change: HK2100"
+title: "CCGL9065: Our Response to Climate Change: HK2100"
 subtitle: "The (Climate) Refugee Crisis"
-author: Hongshan Guo
-format: 
+author: Dr. Hongshan Guo and Class
+
+format:
   revealjs:
-    slide-level: 2
-    center: true
     slide-number: true
     theme: simple
     width: 1600
     height: 1350
     preview-links: auto
     embed-resources: true
-    incremental: false
-    
+    incremental: true
+    center: true
+
 ---
 
 # Last Week's Strategy: The Fork
@@ -48,6 +48,24 @@ What you can't see still matters most. And today: the people who suffer most are
 
 ---
 
+## Quick W8 Recap: The Invisible Infrastructure
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+Three things from last week you need to hold onto:
+
+**1. The ocean is a climate machine** — thermohaline circulation, carbon pump, phytoplankton producing 50% of oxygen. Break the ocean, break the climate.
+
+**2. The physics is certain** — warming and acidification are measurably reducing the ocean's capacity. The emerging biology (trawling, microplastics) is compounding the damage.
+
+**3. The decolonization** — the ocean was colonized by the wrong narratives (resource, consumer guilt, Western-only knowledge). We stripped those away.
+:::
+
+::: {style="font-size: 1.5em; margin-top: 25px; font-weight: bold; color: #c0392b;"}
+Now: the ocean is rising. Who drowns first — and whose fault is it?
+:::
+
+---
+
 ## From Invisible Systems → Invisible People
 
 ::: {style="font-size: 1.5em; line-height: 1.8;"}
@@ -61,7 +79,19 @@ The Carteret Islands are sinking. Their residents produce virtually zero carbon.
 :::
 
 ::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
-Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → Epistemic Humility → Invisible Infrastructure → **now: Responsibility Asymmetry.**
+Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → The Doubt Machine → Invisible Infrastructure → **now: Responsibility Asymmetry.**
+:::
+
+---
+
+## Coming Up: Week 10 Preview
+
+::: {style="font-size: 1.5em; line-height: 1.8; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
+Next week, we watch a system **cascade.**
+
+One change triggers another, triggers another. Wolves reintroduced to Yellowstone changed the course of rivers. Remove one species, the whole ecosystem shifts.
+
+**Cascade effects:** small changes, catastrophic consequences.
 :::
 
 ---
@@ -103,9 +133,9 @@ PRO-CLIMATE
 PRO-DEVELOPMENT
 :::
 ::: {style="font-size: 1.3em; margin-top: 20px;"}
-= Secure Borders, Local Solutions
+= Invest in Resilience, Not Relocation
 
-= "Help there, not here"
+= "Absorption without integration is not rescue"
 :::
 :::
 :::
@@ -114,13 +144,13 @@ PRO-DEVELOPMENT
 
 ## The Core Tension
 
-::: {style="font-size: 1.6em; line-height: 1.8;"}
+::: {style="font-size: 1.5em; line-height: 1.8;"}
 | PRO-CLIMATE | PRO-DEVELOPMENT |
 |-------------|-----------------|
-| Rich nations caused this | National security matters |
-| Moral obligation to accept refugees | Aid in origin countries |
-| Climate refugees need legal status | "Climate refugee" is imprecise |
-| Open doors save lives | Uncontrolled migration destabilizes |
+| Rich nations caused this crisis | National security matters too |
+| Moral obligation to accept refugees | Aid in origin communities first |
+| Climate refugees need legal status | "Climate refugee" has no legal definition |
+| Open doors save lives | Uncontrolled absorption destabilizes |
 | Global solidarity | Protect local communities first |
 
 **This tension drives every migration and climate justice debate.**
@@ -128,285 +158,301 @@ PRO-DEVELOPMENT
 
 ---
 
-## 0: Logistics on Final Assessment Items: Quick Q&A
+# What Is a Climate Refugee?
 
-- Q: What topic should I pick? From wi ?thin or outside of the in-lecture ones? Can I have one consistent theme across all three items? Can I have multiple topics covered in one assessment item?
-  - A: Up to you.
-- Q: What should the final reflection paper be upon?
-  - A: What you think should be **our response to Climate Change at Hong Kong for 2100**.
-- Q: Can we see some collage/video examples?
-  - A: Refer to the 'Roadmap' document.
-- Q: How do I make videos? Any templates that can be leveraged?
-  - A: The quality of message delivery is valued above the quality of the video itself, i.e. script is more important than your visuals.
-  - Examples that might make the video-making easier for you:
-    - Voice-over on still images with some/no background music.
-    - Clips from documentaries/movies/promotional videos stitched together by slogans & scripts.
-  
+---
 
-## 1: Introduction to Climate Refugees
+## {background-color="#000000"}
 
-- **Definition of Climate Refugees**:
-  - Individuals or groups compelled to leave their habitual areas due to drastic changes in their environment directly attributed to climate change.
-  - Factors contributing to displacement:
-    - environmental degradation, escalating sea levels, and extreme weather phenomena.
+::: {style="text-align: center;"}
+![Flooding in Bangladesh — climate change is already displacing millions. An estimated 2,000 climate refugees arrive in Dhaka every single day.](data/bangladesh_climate.jpg){width="65%"}
+:::
 
-- **Known Environmental Catalysts**:
-  - **Environmental Degradation**: Land erosion and loss of arable land, as seen in the Sahel region of Africa, leading to decreased food security.
-  - **Sea-Level Rise**: Low-lying island nations like Kiribati facing existential threats, with some communities already relocating.
-  - **Extreme Weather**: Increasing frequency and severity of hurricanes and typhoons, such as Hurricane Maria in Puerto Rico, displacing thousands.
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*This family didn't burn fossil fuels. The river ate their home anyway.*
+:::
 
-## 1.1 Introduction to Climate Refugees (Conti'd)
+---
 
-- **Global Statistics**:
-  - As of 2020, the UNHCR reports over 80 million forcibly displaced people worldwide, a number that includes refugees, internally displaced persons, and asylum-seekers.
-  - Projections suggest a dramatic increase in climate refugees, potentially reaching 1.2 billion by 2050 due to intensifying climate impacts.
+## The Definition Problem
 
-- **Scope of Discussion**:
-  - The issue sits at the crossroads of climate change science, migration policies, and socio-political dynamics, necessitating a multidisciplinary approach to solutions.
-  - Local Perspectives: Coastal cities like Jakarta facing subsidence and flooding, amplifying urban migration pressures. _What does this mean for HK?_
-  - Global Perspectives: The Arctic's indigenous communities witnessing rapid environmental changes, affecting traditional lifestyles and leading to relocation.
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Climate refugees** are people forced to leave their homes because of climate-driven environmental change — sea-level rise, desertification, flooding, extreme weather.
 
+**The legal gap:** The 1951 UN Refugee Convention only covers people fleeing **war or persecution.** Water, not war, took these people's homes — so the UN says they're not refugees.
 
-##  2: Climate Change and Displacement Drivers
+**The numbers:**
 
-- **Direct Environmental Impacts**:
-  - **Desertification**: 
-    - desert landscapes expansion, e.g. encroachment of the Sahara Desert 
-    - diminishing arable land and affecting agricultural livelihoods.
-  - **Glacial Melt**: Regions dependent on glacial water sources like Andes, facing water scarcity as glaciers recede.
-  - **<span style="color:red">Rising Sea Levels</span>**: The gradual inundation of coastal areas, exemplified by the gradual submergence of parts of Bangladesh, displacing communities.
+- **80+ million** forcibly displaced people worldwide (UNHCR, 2020)
+- World Bank projects up to [**216 million**]{style="color: #e74c3c;"} displaced by climate by 2050
+- 86M in Sub-Saharan Africa, 49M in East Asia & Pacific, 40M in South Asia
+:::
 
-- **Socio-economic Consequences**:
-  - **Agricultural Disruption**: 
-    - Changing rainfall patterns and droughts, e.g. East Africa
-    - impacting food production and livelihoods.
-  - **Economic Instability**: 
-    - loss of homes and infrastructure, as seen in the aftermath of Typhoon Haiyan in the Philippines
-    - economic downturns and displacement.
-  - **Resource Competition**: Scarcity of water and other vital resources.
+---
 
-- **Conflict and Destabilization**:
-  - **Resource Conflicts**: Competition over dwindling natural resources, like water in the Middle East
-  - **Climate-Induced Migration and Conflict**: Movements of populations clashes with existing communities over resources.
-  - **Destabilization and Displacement**: where climate stressors contribute to political instability, e.g. Syria
+## {background-color="#1a1a2e"}
 
-##  3: The Concept of Climate Refugees
+::: {style="font-size: 2.5em; color: white; text-align: center; line-height: 1.6;"}
+[**216 million**]{style="color: #e74c3c;"} climate refugees by 2050.
 
-- **Legal and Conceptual Challenges**:
-  - **Non-recognition in International Law**: Not recognized in the 1951 Refugee Convention, legal gap.
-  - **Definitional Ambiguities**: lines between voluntary and forced migration blurred, complicating legal definitions.
+Zero have legal refugee status.
+:::
 
-- **Human Rights and Ethical Considerations**:
-  - **Right to a Safe Environment**: 
-    - Recognition that safe and stable environment as a fundamental human right
-    - in line with discussions around the _UN's Human Rights Council_.
-  - **Protection Gaps**: Identifying the need for international frameworks that specifically address and protect individuals displaced by environmental changes.
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px; text-align: center;"}
+*The UN doesn't recognise them. International law doesn't protect them. They're invisible.*
+:::
 
-- **Emerging Debates and Solutions**:
-  - **Expanding Legal Definitions**: Amending existing conventions or creating new frameworks to include climate refugees, e.g. Global Compact on Refugees.
-  - **National and Regional Policies**
-  - **Ethical Imperatives**: The moral obligation of the international community, especially high-emitters.
+---
 
+# What's Driving the Displacement?
 
-##  4: Global Projections and Trends
+---
 
-- **Rising Numbers of Climate Refugees**:
-  - Projections suggest escalating displacement, with climate change as a key driver.
-  - World Bank's "Groundswell" report predicts up to 216 million people could be displaced by 2050:
-    - 86 million in Sub-Saharan Africa, 
-    - 49 million in East Asia & Pacific, 
-    - 40 million in South Asian and 
-    - 38 million in North & Latin America due to climate impacts.
-  - Provided policy recommendations:
-    - Reducing global emissions and making every effort to meet the temperature goals of the Paris Agreement.
-    - Embedding internal climate migration in far-sighted green, resilient, and inclusive development planning.
-    - Preparing for each phase of migration, so that internal climate migration as an adaptation strategy can result in positive development outcomes.
-    - Investing in better understanding of the drivers of internal climate migration to inform well-targeted policies.
+## Three Forces, One Outcome
 
-## Slide 4.1: Hotspots of Global Projections
-- **Geographical Hotspots**:
-  - **Sub-Saharan Africa**: 
-    - Vulnerable due to a combination of high exposure to climate impacts and low adaptive capacity. 
-    - Countries like Nigeria and Sudan are already witnessing internal displacement due to desertification and flooding.
-  - **South Asia**: 
-    - Densely populated regions, including coastal areas of India and Bangladesh
-    - at significant risk from cyclones, flooding, and sea-level rise
-  - **Small Island Developing States (SIDS)**: 
-    - Nations such as Fiji, Maldives, and Tuvalu face existential threats from sea-level rise
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**1. Sea-Level Rise**
 
-- **Impact on Urbanization**:
-  - **Migration to Cities**: e.g. Dhaka (Bangladesh) 
-    - Larger cities experiencing significant influxes of climate migrants
-    - exacerbating urban challenges such as housing and infrastructure.
-  - **Urban Vulnerability**: e.g. Miami and Jakarta
-    - Coastal cities' own climate risks + sea-level rise and flooding, 
-    - interplay between migration and urban resilience.
+- Low-lying nations like Kiribati, Tuvalu, and the Maldives face existential threats
+- Bangladesh loses an estimated **500 km²** of land per year to river erosion and flooding
 
-##  5: Socio-economic Impacts of Climate Migration
+**2. Desertification**
 
-- **Effects on Origin Communities**:
-  - **Economic Strains**: 
-    - Agricultural productivity lost in rural areas can lead to reduced incomes and increased poverty
-    - e.g. Ethiopian communities affected by recurring droughts.
-  - **Demographic Shifts**: 
-    - The out-migration of working-age individuals leaves behind an aging population, 
-    - social fabric and community support systems changed
-    - parts of rural Latin America/northeastern China.
+- The Sahara expands southward. Lake Chad has shrunk by **90%** since the 1960s.
+- East Africa faces recurring droughts that destroy harvests and force migration
 
-- **Challenges for Host Communities**:
-  - **Resource Pressure**: 
-    - Influxes of migrants can strain local resources and services
-    - evident in cities like Beirut as significant population increase due to refugees from neighboring conflict zones.
-  - **Integration and Social Cohesion**: 
-    - integrating migrants into new communities while maintaining social cohesion
-    - asylum crisis and social welfare: Murder of Marrisa Shen (2017)
+**3. Extreme Weather**
 
-## 5.1 Socio-economic Impacts of Climate Migration (Cont'd)
+- Typhoons, hurricanes, and floods are intensifying — Typhoon Haiyan displaced **4 million** in the Philippines alone
+- Each event pushes more people past the threshold of recovery
+:::
 
-- **Global Inequality Dynamics**:
-  - **Disproportionate Impacts**: 
-    - Paradox that smallest emitters are usually the most impacted by climate change.
-    - exacerbating global inequalities.
-    
-  - **Adaptation and Mitigation Disparities**: 
-    - Wealthier nations' moral responsibility
-    - better equipped with resources for adaptation and mitigation
-    - need for equitable climate finance mechanisms, as discussed at UNFCCC COP meetings.
+---
 
-##  6: Case Study: Venice - Sinking City and Rising Waters
+# Case Study 1: Tuvalu — The Sinking Nation
 
-- **Venice's Unique Vulnerability**:
-  - cultural and historical heritage at risk due to climate change.
-  - experiences regular flooding, known as "Acqua Alta": sea-level rise & sinking foundations.
-  - Engineering interventions like the MOSE project (Modulo Sperimentale Elettromeccanico), a system of mobile barriers designed to protect Venice from flooding, underscore the complex interplay between human ingenuity and natural forces.
-  {{<video https://www.youtube.com/watch?v=MFrZLbjlrRY >}}
+---
 
-##  7: Case Study: Japan - Earthquakes, Typhoons, and Sea-Level Rise
+## {background-color="#000000"}
 
-- **Japan's Compound Risks**:
-  - geographical location makes it prone to natural disasters like earthquakes, tsunamis, and typhoons
-  - being intensified by climate change effects
-  - earthquake often followed by tsunami as tectonic plates movement allows large amounts of water at seabed displaced and amplified by Japanese coastal lines
-  - Historical events like the 2011 Tōhoku earthquake and tsunami highlight the catastrophic potential of these natural disasters.
-  - 2024 Noto earthquake.
+::: {style="text-align: center;"}
+![Funafuti Atoll, Tuvalu — the entire nation is a thin strip of land, average elevation 2 metres above sea level. Population: 11,000.](data/tuvalu_funafuti.jpg){width="80%"}
+:::
 
-- **Adaptive Strategies and Resilience**:
-  - Japan's comprehensive disaster risk management strategies
-  - advanced early warning systems and stringent building codes,
-  - combining technology, policy, and community preparedness to enhance resilience against climate-induced disasters.
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*This is a country. All of it. And it's disappearing.*
+:::
 
+---
 
-##  8: The Role of Developed Countries
+## Tuvalu in Numbers
 
-- **Historical Carbon Emissions**:
-  - **Cumulative Contributions**: 
-    - ID the biggest emitters (historically)
-    - e.g. The U.S. and the EU
-      - among the highest CO2 emitters over the past century
-      - their contribution to climate changes disproportionately affect less developed regions.
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+- **Population:** ~11,000 people across 9 atolls
+- **Highest point:** 4.6 metres above sea level
+- **Average elevation:** 2 metres
+- **Carbon emissions:** effectively **zero** in global terms
+- **Fate at current projections:** largely uninhabitable by 2100
 
-- **Responsibility and Aid**:
-  - **Climate Finance**: Green Climate Fund for developing countries
-  - **Technology Transfer**: access to green technologies for developing countries to avoid the high-emitting path.
+In 2023, Tuvalu signed an agreement with Australia granting climate refuge to its citizens — the first treaty of its kind.
 
-- **Policy and Advocacy**:
-  - **International Agreements**: the Paris Agreement
-  - **Advocacy for Climate Refugees**: platforms like UNHCR (United Nations High Commissioner for Refugees).
+[**An entire nation negotiating its own extinction.**]{style="color: #e74c3c;"}
+:::
 
-##  9: Nationalism and Border Policies
+---
 
-- **Tightening Borders**:
-  - **Physical Barriers**: U.S.-Mexico border aiming at controlling immigration
-  - **Policy Shifts**: stricter immigration policy in response to rising nationalism.
-  - **Political Rhetoric**: 
-    - framing migrants as a security threat
-  
-- **Balancing Acts**:
-  - **Security vs. Humanitarianism**
-  - **International Collaboration**: cooperative approaches to migration
-    - can they respect national sovereignty while 
-    - addressing global humanitarian responsibilities.
+# Case Study 2: Bangladesh — The Absorption Crisis
 
-##  10: Urban Challenges and Opportunities
+---
 
-- **Migration Magnets**:
-  - **Economic Attraction**: Cities often attract climate migrants seeking employment and better living conditions, exacerbating urban sprawl and slum development.
-  - **Infrastructure Strain**: Rapid urbanization challenges city planners to provide adequate housing, utilities, and services, as seen in mega-cities like Lagos and Dhaka.
+## {background-color="#000000"}
 
-- **Adaptive Urban Planning**:
-  - **Resilient Infrastructure**: Developing flood defenses, green spaces, and sustainable transportation to make cities more resilient to climate impacts and migration influxes.
-  - **Inclusive Policies**: Implementing policies that ensure climate migrants have access to employment, healthcare, and education, fostering social cohesion.
+::: {style="text-align: center;"}
+![Boshila slum, Dhaka — where climate refugees end up. Open sewers, no sanitation, no prospects. This is what "absorption" looks like.](data/dhaka_slum.jpg){width="65%"}
+:::
 
-- **Innovation Hubs**:
-  - **Creative Solutions**: Cities as testbeds for innovative solutions
-    - smart infrastructure
-    - community-based resilience projects.
-  - **Public-Private Partnerships**:
-    - collaborations between city governments, businesses, and NGOs
-    - address the multifaceted challenges posed by climate migration.
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*They were relocated. They were not rescued.*
+:::
 
-##  11: Economic Implications of Climate Migration
+---
 
-- **Labor Market Dynamics**:
-  - **Job Competition**: 
-    - Potential for increased competition for jobs in host regions
-    - particularly in low-skill sectors, can lead to social tensions.
-  - **Skills Integration**: 
-    - Opportunities to harness the diverse skills and perspectives of migrants can drive innovation and
-    - filling critical labor gaps in sectors like _technology and healthcare_.
+## The Bangladesh Trap
 
-- **Contribution to Host Economies**:
-  - **Entrepreneurship**: 
-    - economic diversity through entrepreneurship
-    - e.g. migrant-led startups revitalizing local economies.
-  - **Cultural Exchange**: new cultures and ideas into host that improves social frabric
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+Bangladesh is the world's laboratory for climate displacement — and the results are damning.
 
-- **Remittance Flows**:
-  - **Economic Support**: Remittances sent by climate migrants back to their home
-  - **Investment in Resilience**: funds directed towards climate adaptation measures 
+**The problem:** Rivers like the Meghna and Padma erode their banks, swallowing entire villages overnight. An estimated [**50,000–200,000 people**]{style="color: #e74c3c;"} are displaced by river erosion every year.
 
+**Where they go:** Dhaka. About [**2,000 climate refugees arrive daily**]{style="color: #e74c3c;"}, ending up in slums with no sanitation, no jobs, no infrastructure.
 
-# HK Context
+**The UN's offer:** Emergency shelter, temporary food aid, basic healthcare. Not a livelihood. Not a future.
 
-![](povertyrate_hk.png)
+**The result:** Permanent dependency. People can't go back (the land is gone). They can't build a new life (no legal status, no employment support). They're stuck.
+:::
 
-## 12.1: Climate Refugees - The Hong Kong Context
+---
 
-- **Geographical Vulnerability**:
-  - susceptible to rising sea levels and extreme weather events
-  - risks to its dense population and infrastructure.
-  - Typhoon Mangkhut in 2018 showcased the city's vulnerability to severe weather
-    - significant damage and 
-    - raising concerns about future climate resilience.
+## {background-color="#1a1a2e"}
 
-- **Socio-economic Challenges**:
-  - stark income inequality
-  - significant portion of the population living in poverty
-  - could be exacerbated by climate-related disruptions.
-  - The high concentration of millionaires juxtaposed with a poverty rate of 23.6% presents unique challenges
+::: {style="font-size: 2em; color: white; text-align: center; line-height: 1.6;"}
+Bangladesh shows us the future of climate refugee policy:
 
-- **Refugee and Asylum Seeker Policies**:
-  - city currently hosts about 13,000 asylum seekers and refugees
-  - one of the world's most unaffordable real estate markets
-  - Policy Stance: non-refoulement policy offers protection
-  - no path to permanent residency, aka no long-term stability of refugees and asylum seekers.
+**Absorb** without **integrating** = permanent displacement.
 
-## 12.2 Climate Refugee in Hong Kong (Cont'd)
+[**Relocation without livelihood is not rescue. It's warehousing.**]{style="color: #e74c3c;"}
+:::
 
-- **Adaptation and Resilience Strategies**:
-  - Urban Planning: Enhance flood defenses and climate-proof infrastructures
-  - Community Support: 
-    - Strengthening social services and 
-    - support networks for low-income and displaced individuals to mitigate the socio-economic impacts of climate events.
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px; text-align: center;"}
+*This is the "sponge" model: cities absorb refugees until they can't. Then what?*
+:::
 
-- **Role in Global Dialogue**:
-  - HK has potential to influence global climate finance and 
-  - support climate refugees through policy advocacy and international collaboration.
-  - Engaging in regional cooperation mechanisms within Asia to 
-    - address climate-induced displacement collectively, 
-    - sharing resources, and best practices.
+---
 
+## See It: Bangladesh's Climate Refugees
 
+{{< video https://www.youtube.com/embed/co5uywe-1Z8 width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*DW Documentary (~42 min — watch from 3:00 to 12:00 for the river erosion and Dhaka displacement). 2,000 climate refugees arrive in Dhaka every day. The city is at breaking point.*
+:::
+
+---
+
+# Case Study 3: Venice vs. Bangladesh — Same Water, Different Resources
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Acqua Alta, Venice, November 2019 — 187 cm, the second-highest flood ever recorded. St. Mark's Square is underwater.](data/venice_acqua_alta.jpg){width="55%"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*Venice floods. Venice also has a €5.5 billion flood barrier system.*
+:::
+
+---
+
+## The Contrast
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Venice** and **Bangladesh** face the same problem: water rising where people live.
+
+| | Venice | Bangladesh |
+|--|--------|------------|
+| **Response** | MOSE barrier (€5.5B) | Emergency shelters |
+| **Infrastructure** | Automated flood gates | Sandbags |
+| **Displacement** | Tourists inconvenienced | Villages erased |
+| **Global sympathy** | "Save Venice!" campaigns | Barely makes the news |
+| **CO₂ contribution** | Significant (Italy = industrialised) | Negligible per capita |
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+Same water. Same physics. Wildly different outcomes. **That's responsibility asymmetry.**
+:::
+
+---
+
+# The Responsibility Question
+
+---
+
+## Who Caused This?
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Cumulative historical emissions** (who put the most CO₂ in the atmosphere):
+
+1. **United States** — 25% of all cumulative emissions since 1750
+2. **EU** — 22%
+3. **China** — 13% (but rising fast)
+
+**Who suffers most:**
+
+- **Sub-Saharan Africa** — 4% of cumulative emissions, 86 million projected displaced
+- **South Asia** — 8% of emissions, 40 million projected displaced
+- **Small Island States** — statistically 0% of emissions, facing **national extinction**
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+The nations that industrialised on fossil fuels built sea walls. The nations that didn't are drowning.
+:::
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Rohingya Refugee Camp 26, Cox's Bazar, Bangladesh — shelters stretching to the horizon. This is the scale of displacement the world is heading toward.](data/rohingya_camp.jpg){width="80%"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*This camp holds over 800,000 people. Climate projections suggest 216 million displaced by 2050.*
+:::
+
+---
+
+## The Policy Gap
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+The tools we have don't fit the problem:
+
+- **The 1951 Refugee Convention** doesn't cover climate displacement
+- **The Paris Agreement** mentions "displacement" once — in a non-binding section
+- **The Green Climate Fund** exists but is chronically underfunded
+- **National policies** range from Australia's Tuvalu deal (progress) to most nations' approach (nothing)
+
+**The gap:** We have a framework for people fleeing war. We have no framework for people fleeing water.
+:::
+
+---
+
+# Let's Bring It Back to HK
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Central Harbourfront, Hong Kong — damaged by Super Typhoon Mangkhut, September 2018. The IFC tower looms behind the wreckage.](data/hk_mangkhut.jpg){width="55%"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*This happened here. To you. Mangkhut was a preview.*
+:::
+
+---
+
+## Hong Kong's Own Vulnerability
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Geographical risk:** Typhoon Mangkhut (2018) caused widespread flooding and damage — and storms are intensifying.
+
+**Housing crisis meets climate crisis:** HK already has one of the world's most unaffordable housing markets. Where would climate refugees go?
+
+**Current refugees:** HK hosts ~13,000 asylum seekers with no path to permanent residency. Non-refoulement policy offers protection but no stability.
+
+**Poverty:** 23.6% poverty rate alongside one of the highest concentrations of millionaires globally. Climate disruption hits the bottom hardest.
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+Hong Kong isn't just a spectator to this crisis. It's a coastal city with 7.5 million people, dense infrastructure, and rising seas.
+:::
+
+---
+
+## The Human Story: The Carteret Islands
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**The Carteret Islanders** in Papua New Guinea were the world's first official climate refugees. Rising seas contaminated their freshwater. Crops failed. Their home became unlivable.
+
+**PRO-CLIMATE says:** "They did nothing to cause this. Their carbon footprint is zero. Yet they pay for our emissions with their homeland."
+
+**PRO-DEVELOPMENT says:** "Resettling 3,000 people is manageable. Resettling 216 million is a fantasy. We need to be honest about what's possible."
+
+**The real question:** Who decides who gets to be a refugee — and who gets to stay home?
+:::
 
 ---
 
@@ -432,7 +478,7 @@ Weak
 ::: {style="font-size: 1.2em; font-weight: bold;"}
 Better
 :::
-"1.2 billion climate refugees by 2050"
+"216 million climate refugees by 2050"
 :::
 
 ::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
@@ -468,106 +514,200 @@ Spectacle
 
 **Don't say:** "We should help in origin countries."
 
-**Say:** "Every dollar spent resettling one refugee in Hong Kong could support 100 people in a camp closer to home. Math isn't cruel — misallocated compassion is."
+**Say:** "2,000 climate refugees arrive in Dhaka every day. They end up in slums with open sewers. No jobs. No future. That's what 'absorption' looks like. Is that really rescue?"
 :::
 
 ---
 
-## One Image. One Speech.
+## Why This Motion?
 
-::: {style="font-size: 1.6em; text-align: center; padding: 50px; background: #0a3d62; color: white; border-radius: 15px; line-height: 1.8;"}
-In November 2021, Tuvalu's Foreign Minister **Simon Kofe** addressed COP26 in Glasgow.
-
-He wore a suit and tie. He stood at a formal podium.
-
-[**The water was up to his knees.**]{style="color: #e74c3c; font-size: 1.3em;"}
-
-He was standing where dry land used to be.
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+This debate connects Bangladesh's lived reality to a global policy question:
 :::
 
-::: {style="font-size: 1.4em; text-align: center; margin-top: 20px;"}
-{{< video https://www.youtube.com/embed/jBBsv0QyscE width="1600" height="900" >}}
+::: {style="display: flex; justify-content: space-around; margin-top: 20px;"}
+::: {style="text-align: left; width: 30%; background: #27ae60; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+The Moral Case
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+You can't tell a farmer whose land is underwater to "adapt at home." When the land is **gone**, there is no home. Refusing relocation is a death sentence.
+:::
+:::
+
+::: {style="text-align: left; width: 30%; background: #3498db; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+The Pragmatic Case
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+Bangladesh proves absorption doesn't work. 2,000/day into Dhaka slums. No jobs, no sanitation, no future. **Relocation without livelihood is warehousing, not rescue.**
+:::
+:::
+
+::: {style="text-align: left; width: 30%; background: #8e44ad; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+The HK Question
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+HK can barely house its own population. 23.6% poverty rate. 13,000 asylum seekers with no residency path. **Could HK absorb climate refugees? Should it?**
+:::
+:::
 :::
 
 ---
 
-## Human Story: The Carteret Islands
+## This Week's Debate Motion
+
+::: {style="font-size: 1.8em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
+**"This house believes that relocating climate refugees to cities is a failed strategy, and that international funding should go to climate-proofing origin communities instead."**
+:::
+
+::: {style="font-size: 1.3em; margin-top: 30px; text-align: center;"}
+PRO-CLIMATE: Climate-proofing won't save sinking islands. When your land is underwater, there IS no home. Refusing relocation is abandonment.
+
+PRO-DEVELOPMENT: Bangladesh shows absorption fails — Dhaka's slums prove that relocation without integration creates permanent dependency, not rescue.
+:::
+
+---
+
+# Role-Play Activity: The Refugee Debate
+
+---
+
+#
+
+```{=html}
+<style>
+  #w9groupAssignment_container { text-align: center; margin-top: 20px; font-family: Arial, sans-serif; }
+  #w9groupAssignment_startButton { font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #3498db; color: white; border: none; border-radius: 5px; transition: background-color 0.3s; }
+  #w9groupAssignment_startButton:hover { background-color: #2980b9; }
+  #w9groupAssignment_overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255,255,255,0.9); display: none; justify-content: center; align-items: center; z-index: 1000; }
+  #w9groupAssignment_display { font-size: 36px; text-align: center; padding: 20px; max-width: 90%; max-height: 90%; overflow-y: auto; }
+  #w9groupAssignment_display h2 { color: #2c3e50; font-size: 48px; margin-bottom: 30px; }
+  #w9groupAssignment_display ul { list-style-type: none; padding: 0; }
+  #w9groupAssignment_display li { margin: 20px 0; font-size: 36px; background-color: #ecf0f1; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+  #w9groupAssignment_closeButton { position: absolute; top: 20px; right: 20px; font-size: 24px; cursor: pointer; background-color: #e74c3c; color: white; border: none; border-radius: 5px; padding: 10px 20px; }
+</style>
+<div id="w9groupAssignment_container">
+  <h1 style="font-size: 48px; color: #34495e;">Group Assignment Time!</h1>
+  <button id="w9groupAssignment_startButton">Start the assignment</button>
+</div>
+<div id="w9groupAssignment_overlay">
+  <div id="w9groupAssignment_display"></div>
+  <button id="w9groupAssignment_closeButton">Close</button>
+</div>
+<script>
+const W9GroupAssignment = {
+  groups: ['Group One','Group Two','Group Three','Group Four','Group Five','Group Six'],
+  vocations: ['Climate Refugee','Host City Official','UNHCR Representative','National Government Minister','NGO Aid Worker','Local Resident of Host Community'],
+  shuffleArray: function(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;},
+  createAssignment: function(){const s=this.shuffleArray([...this.vocations]);return this.groups.map((g,i)=>({group:g,vocation:s[i]}));},
+  displayAssignment: function(){const a=this.createAssignment();let h='<h2>Random Group Assignments</h2><ul>';a.forEach(x=>{h+=`<li><strong>${x.group}:</strong> ${x.vocation}</li>`;});h+='</ul>';document.getElementById('w9groupAssignment_display').innerHTML=h;document.getElementById('w9groupAssignment_overlay').style.display='flex';},
+  init: function(){document.getElementById('w9groupAssignment_startButton').addEventListener('click',()=>this.displayAssignment());document.getElementById('w9groupAssignment_closeButton').addEventListener('click',()=>{document.getElementById('w9groupAssignment_overlay').style.display='none';});}
+};
+W9GroupAssignment.init();
+</script>
+```
+
+## Presentation Countdown
+
+<div id="w9timer-container" style="text-align: center;">
+  <div id="w9timer" style="font-size: 348px; color: black; margin-bottom: 20px;">05:00</div>
+  <button id="w9start-button" style="font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #27ae60; color: white; border: none; border-radius: 8px;" onclick="w9startTimer()">Start 5:00</button>
+  <button id="w9reset-button" style="font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #e74c3c; color: white; border: none; border-radius: 8px; margin-left: 10px;" onclick="w9resetTimer()">Reset</button>
+</div>
+
+<script>
+let w9timeLeft = 300; let w9timerInterval = null;
+function w9updateDisplay(){const m=Math.floor(w9timeLeft/60);const s=w9timeLeft%60;document.getElementById('w9timer').textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');document.getElementById('w9timer').style.color=w9timeLeft<=30?'#e74c3c':'black';}
+function w9startTimer(){if(w9timerInterval)return;w9timerInterval=setInterval(()=>{if(w9timeLeft>0){w9timeLeft--;w9updateDisplay();}else{clearInterval(w9timerInterval);w9timerInterval=null;}},1000);}
+function w9resetTimer(){clearInterval(w9timerInterval);w9timerInterval=null;w9timeLeft=300;w9updateDisplay();}
+w9updateDisplay();
+</script>
+
+---
+
+## The Debate
 
 ::: {style="font-size: 1.4em; line-height: 1.8;"}
-**The Carteret Islanders** in Papua New Guinea were the world's first official climate refugees. Rising seas contaminated their freshwater. Crops failed. Their home became unlivable.
+You will assume **stakeholder positions**: Climate Refugees, Host City Officials, UNHCR Representatives, National Government Ministers, NGO Workers, Local Residents of Host Communities.
 
-**PRO-CLIMATE says:** "They did nothing to cause this. Their carbon footprint is zero. Yet they pay for our emissions with their homeland."
+**Think across scales:**
 
-**PRO-DEVELOPMENT says:** "Resettling 3,000 people is manageable. Resettling 1.2 billion is a fantasy. We need to be honest about what's possible."
+- **The person** — what does displacement feel like? What do you need?
+- **The city** — Dhaka, Hong Kong, Lagos. Can you absorb 2,000 people a day?
+- **The system** — who pays? Who decides? What framework would actually work?
 
-**The real question:** Who decides who gets to be a refugee — and who gets to stay home?
+The strongest debaters will make the abstract **personal** and the personal **structural**.
 :::
 
 ---
 
-## 13.1 PRO-CLIMATE (Progressive) Responses:
+## Ground Rules
 
-1. **Urban Resilience and Infrastructure**:
-   - **Expert/KOL**: "To combat rising sea levels threatening Hong Kong's coastal areas, we must invest in resilient infrastructure, such as enhanced flood barriers and sustainable urban planning, to protect vulnerable communities."
-   - **General Public (Engineer/Urban Planner)**: "In our projects, considering climate resilience is no longer optional; it's a necessity to safeguard our city's future."
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+- This is a [**safe space**]{style="color: #27ae60;"} for exploration and discussion. There are [**no wrong answers**]{style="color: #e74c3c;"}, only opportunities to learn.
 
-2. **Renewable Energy Transition**:
-   - **Expert/KOL**: "Hong Kong's reliance on fossil fuels not only contributes to global emissions but also puts our city at risk. Transitioning to renewable energy sources can reduce our carbon footprint and lead to a cleaner, sustainable future."
-   - **General Public (Energy Sector Professional)**: "Exploring renewable energy options, like solar panels on our buildings, could significantly reduce our reliance on imported fossil fuels."
+- **Respect** and **open-mindedness** are our guiding principles. Every opinion shared contributes to collective learning.
 
-3. **Community and Policy Engagement**:
-   - **Expert/KOL**: "Policymakers in Hong Kong must listen to scientific consensus on climate change and enact policies that prioritize sustainability and support for climate refugees."
-   - **General Public (Educator/Activist)**: "Educating our students and communities about climate change and advocating for sustainable practices is crucial for driving policy change."
+- **Feedback** and **reflection** are encouraged. This is a chance to voice thoughts, ask questions, and grow from the experience.
+:::
 
-## 13.2 PRO-DEVELOPMENT (Conservative) Responses:
+---
 
-1. **Economic Implications**:
-   - **Expert/KOL**: "While we recognize the need for environmental conservation, we must also consider the economic impact. Sudden shifts in policy could disrupt Hong Kong's economy, affecting jobs and livelihoods."
-   - **General Public (Business Owner)**: "Adopting green practices is important, but we need to balance this with the economic realities of running a business in one of the world's most competitive markets."
+# Your Cheatsheet
 
-2. **Technological Innovation and Adaptation**:
-   - **Expert/KOL**: "Rather than drastic policy changes, we should invest in technological innovations that allow us to adapt to changing climates while maintaining economic growth."
-   - **General Public (Tech Professional)**: "Innovations in technology can offer solutions to climate challenges without the need for overbearing regulations that stifle economic activity."
+---
 
-3. **Questioning Climate Refugee Projections**:
-   - **Expert/KOL**: "The projections of climate refugees are based on models with various assumptions. We need to critically assess these predictions and consider more balanced approaches to urban planning and development."
-   <!-- - **General Public (Analyst/Researcher)**: "It's essential to scrutinize data and projections about climate refugees to ensure our responses are proportionate and based on reliable evidence." -->
+## Pro-Climate Talking Points {.smaller}
 
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Moral Obligation and Global Solidarity:**
 
-## 13.3.1 Talking Points for General Public within Professions:
+- Rich nations produced **47%** of cumulative emissions — they owe a debt to those displaced by the consequences
+- Climate refugees have **no legal status** — the 1951 Convention must be expanded
+- Australia's Tuvalu deal (2023) shows it's possible — other nations must follow
+- Climate-proofing has limits — you can't climate-proof a nation 2 metres above sea level
+- Integration programs (housing, employment, education) make absorption sustainable — Dhaka's failure is a policy failure, not proof that relocation can't work
+:::
 
-### Policymakers (Bureaucrats):
-- **Adaptive Policy Frameworks**:
-  - "We are tasked with developing policies that not only address current climate challenges but are also adaptable to future uncertainties. This includes creating flexible frameworks for land use, urban planning, and disaster preparedness that can evolve as conditions change."
-- **Balancing Development and Conservation**:
-  - "Finding the right balance between economic development and environmental conservation is crucial. In Hong Kong, this means making tough decisions about land allocation, balancing the needs for housing and infrastructure with the imperative to preserve green spaces and coastal areas."
-- **International Cooperation and Commitments**:
-  - "As part of the global community, Hong Kong must align its policies with international climate commitments. This involves participating in global agreements, sharing best practices, and ensuring our local policies reflect these broader commitments."
+---
 
-## 13.3.2 Talking Points for General Public within Professions:
-### Farmers/Fishermen:
-- **Climate Impact on Livelihoods**:
-  - "Changes in weather patterns, such as unexpected storms or prolonged dry spells, directly affect our crops and fisheries. We need access to reliable weather information and support for adapting our traditional practices to these new challenges."
-- **Sustainable Practices and Innovation**:
-  - "Adopting sustainable farming and fishing practices is essential for the long term. This could mean exploring new methods like vertical farming or sustainable aquaculture to reduce environmental impact and ensure food security."
-- **Support and Training**:
-  - "We need more support from the government and NGOs in terms of training and resources to adapt to climate change. This includes learning about new, resilient crop varieties or fishing practices that can help mitigate the impacts of climate change on our livelihoods."
+## Pro-Development Talking Points {.smaller}
 
-## 13.3.3 Talking Points for General Public within Professions:
-### Logistics Sector Professionals:
-- **Supply Chain Resilience**:
-  - "Climate change poses significant risks to supply chains, from disrupted transportation routes due to extreme weather to delays caused by natural disasters. Building resilience into our logistics networks is key to maintaining the flow of goods and services."
-- **Green Logistics Solutions**:
-  - "Incorporating green logistics solutions, such as fuel-efficient transportation modes and eco-friendly packaging, can significantly reduce the carbon footprint of our industry. It's not just good for the planet; it's increasingly a demand from our customers."
-- **Policy and Infrastructure Support**:
-  - "We need clear policies and infrastructure support from the government to facilitate the transition to greener logistics. This includes incentives for adopting electric vehicles, improving port facilities for efficiency, and investing in technologies that minimize environmental impact."
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Pragmatic Sustainability:**
 
-## 13.3.4 Example Talking Points for General Public within Professions:
+- **216 million** projected displaced — no city or nation can absorb that. The maths doesn't work.
+- Bangladesh proves the "sponge model" fails — absorption without integration creates permanent slums
+- **$35 invested in climate adaptation** at origin saves more lives than **$1 in resettlement** (World Bank estimates)
+- Host communities suffer too — Germany's 2015 experience shows unmanaged absorption fuels nationalist backlash
+- Focus on **climate-proofing infrastructure**, sustainable agriculture, and early warning systems in vulnerable regions
+- For genuinely sinking islands: negotiate bilateral agreements (like Tuvalu-Australia) rather than open-border policies
+:::
 
-- **Essential Worker/Healthcare Professional**: "The health impacts of climate change, from respiratory problems due to poor air quality to new infectious diseases, require us to rethink public health strategies in Hong Kong."
-- **Financial Sector Professional**: "The financial industry in Hong Kong has a pivotal role in supporting sustainable investments and divesting from industries harmful to the environment, aligning profit with planet."
-- **Hospitality and Tourism Worker**: "Sustainable tourism can help preserve Hong Kong's natural beauty for future generations, ensuring our industry remains vibrant and responsible."
-- **Retail Sector Employee**: "Adopting sustainable practices in our retail operations, from reducing waste to sourcing ethically, can help mitigate climate change impacts and appeal to environmentally conscious consumers."
+---
+
+# This Week's Conceptual Takeaway
+
+---
+
+## Responsibility Asymmetry
+
+::: {style="font-size: 1.5em; line-height: 1.8; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
+Before this week, "climate refugee" might have sounded abstract — a future problem, a UN statistic.
+
+Now you know:
+
+- **2,000 people** arrive in Dhaka's slums every day because rivers ate their homes
+- **Tuvalu** is negotiating the extinction of an entire nation
+- **Venice** and **Bangladesh** face the same water — but Venice has a €5.5 billion barrier system
+- The nations that **caused** this are building walls. The nations that **didn't** are drowning.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad; text-align: center;"}
+**Your portable takeaway:** Responsibility asymmetry — the people who suffer most produced the least. And the system has no framework for them.
+:::
 
 ---
 
@@ -625,4 +765,22 @@ A bandwagon that didn't exist until you named it.
 **Create a bandwagon for your argument.**
 
 Make it local. Make it specific. Make them the outlier if they disagree.
+:::
+
+---
+
+## Logistics: Final Assessment Items — Quick Q&A
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Q: What topic should I pick?** Within or outside of in-lecture ones? Consistent theme across all three items?
+**A:** Up to you.
+
+**Q: What should the final reflection paper be about?**
+**A:** What you think should be **our response to Climate Change at Hong Kong for 2100.**
+
+**Q: Can we see collage/video examples?**
+**A:** Refer to the 'Roadmap' document.
+
+**Q: How do I make videos?**
+**A:** Script matters more than production quality. Voice-over on still images works. Clips stitched with slogans works.
 :::

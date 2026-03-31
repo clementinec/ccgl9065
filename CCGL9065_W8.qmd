@@ -987,7 +987,56 @@ PRO-DEVELOPMENT: 3 billion people depend on fish for protein. Calling fishing a 
 
 ---
 
-## [Let's Assign Groups](countdown.qmd)
+#
+
+```{=html}
+<style>
+  #w8groupAssignment_container { text-align: center; margin-top: 20px; font-family: Arial, sans-serif; }
+  #w8groupAssignment_startButton { font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #3498db; color: white; border: none; border-radius: 5px; transition: background-color 0.3s; }
+  #w8groupAssignment_startButton:hover { background-color: #2980b9; }
+  #w8groupAssignment_overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255,255,255,0.9); display: none; justify-content: center; align-items: center; z-index: 1000; }
+  #w8groupAssignment_display { font-size: 36px; text-align: center; padding: 20px; max-width: 90%; max-height: 90%; overflow-y: auto; }
+  #w8groupAssignment_display h2 { color: #2c3e50; font-size: 48px; margin-bottom: 30px; }
+  #w8groupAssignment_display ul { list-style-type: none; padding: 0; }
+  #w8groupAssignment_display li { margin: 20px 0; font-size: 36px; background-color: #ecf0f1; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+  #w8groupAssignment_closeButton { position: absolute; top: 20px; right: 20px; font-size: 24px; cursor: pointer; background-color: #e74c3c; color: white; border: none; border-radius: 5px; padding: 10px 20px; }
+</style>
+<div id="w8groupAssignment_container">
+  <h1 style="font-size: 48px; color: #34495e;">Group Assignment Time!</h1>
+  <button id="w8groupAssignment_startButton">Start the assignment</button>
+</div>
+<div id="w8groupAssignment_overlay">
+  <div id="w8groupAssignment_display"></div>
+  <button id="w8groupAssignment_closeButton">Close</button>
+</div>
+<script>
+const W8GroupAssignment = {
+  groups: ['Group One','Group Two','Group Three','Group Four','Group Five','Group Six'],
+  vocations: ['Local Fisherman','Marine Scientist','Policy Maker/Government','Fishing Industry Rep','Conservation NGO','Consumer/General Public'],
+  shuffleArray: function(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;},
+  createAssignment: function(){const s=this.shuffleArray([...this.vocations]);return this.groups.map((g,i)=>({group:g,vocation:s[i]}));},
+  displayAssignment: function(){const a=this.createAssignment();let h='<h2>Random Group Assignments</h2><ul>';a.forEach(x=>{h+=`<li><strong>${x.group}:</strong> ${x.vocation}</li>`;});h+='</ul>';document.getElementById('w8groupAssignment_display').innerHTML=h;document.getElementById('w8groupAssignment_overlay').style.display='flex';},
+  init: function(){document.getElementById('w8groupAssignment_startButton').addEventListener('click',()=>this.displayAssignment());document.getElementById('w8groupAssignment_closeButton').addEventListener('click',()=>{document.getElementById('w8groupAssignment_overlay').style.display='none';});}
+};
+W8GroupAssignment.init();
+</script>
+```
+
+## Presentation Countdown
+
+<div id="w8timer-container" style="text-align: center;">
+  <div id="w8timer" style="font-size: 348px; color: black; margin-bottom: 20px;">05:00</div>
+  <button id="w8start-button" style="font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #27ae60; color: white; border: none; border-radius: 8px;" onclick="w8startTimer()">Start 5:00</button>
+  <button id="w8reset-button" style="font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #e74c3c; color: white; border: none; border-radius: 8px; margin-left: 10px;" onclick="w8resetTimer()">Reset</button>
+</div>
+
+<script>
+let w8timeLeft = 300; let w8timerInterval = null;
+function w8updateDisplay(){const m=Math.floor(w8timeLeft/60);const s=w8timeLeft%60;document.getElementById('w8timer').textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');document.getElementById('w8timer').style.color=w8timeLeft<=30?'#e74c3c':'black';}
+function w8startTimer(){if(w8timerInterval)return;w8timerInterval=setInterval(()=>{if(w8timeLeft>0){w8timeLeft--;w8updateDisplay();}else{clearInterval(w8timerInterval);w8timerInterval=null;}},1000);}
+function w8resetTimer(){clearInterval(w8timerInterval);w8timerInterval=null;w8timeLeft=300;w8updateDisplay();}
+w8updateDisplay();
+</script>
 
 ---
 
