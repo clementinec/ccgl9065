@@ -7,8 +7,8 @@ format:
   revealjs:
     slide-number: true
     theme: simple
-    width: 1600
-    height: 1350
+    width: 1920
+    height: 1200
     preview-links: auto
     embed-resources: true
     incremental: true
@@ -108,6 +108,32 @@ One change triggers another, triggers another. Wolves reintroduced to Yellowston
 *The podium was where dry land used to be.*
 :::
 
+::: {.notes}
+**Engagement prompt:** "If Tuvalu disappears, is it still a country? Do its citizens keep their nationality? Who owns the ocean where the land used to be?"
+
+Quick poll: "Hands up if you'd ever heard of Tuvalu before this class." (Makes the "invisible people" point viscerally.)
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2em; color: white; text-align: center; line-height: 1.6;"}
+Before we go any further — a question.
+
+Should we consider the people displaced by the **Tai Po fire** in Hong Kong
+
+[**climate refugees?**]{style="color: #e74c3c; font-size: 1.3em;"}
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px; text-align: center;"}
+*Hold that thought. We'll come back to it.*
+:::
+
+::: {.notes}
+**Do NOT answer this yet.** Let it sit. This is an Open Loop (Strategy #1 from Week 1). Students will carry this question through the entire lecture — measuring every global example against it. When you return to it in the HK section with the dry season data, the payoff will be much stronger.
+:::
+
 ---
 
 # This Week's Battlefield
@@ -200,6 +226,10 @@ Zero have legal refugee status.
 
 ::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px; text-align: center;"}
 *The UN doesn't recognise them. International law doesn't protect them. They're invisible.*
+:::
+
+::: {.notes}
+**Engagement prompt:** "The 1951 Refugee Convention protects people fleeing war but not water. Should it be updated? Or is 'climate refugee' a category that would break the system — because the numbers are too large for any legal framework to handle?"
 :::
 
 ---
@@ -307,6 +337,12 @@ Bangladesh shows us the future of climate refugee policy:
 *This is the "sponge" model: cities absorb refugees until they can't. Then what?*
 :::
 
+::: {.notes}
+**Engagement prompt:** "2,000 people arrive in Dhaka every day. What if 2,000 climate refugees arrived in Hong Kong every day? Where would they live? What would they do? How long before you'd notice?"
+
+Alternative (more personal): "Your family's village just got swallowed by a river. You have 24 hours. What do you take? Where do you go? Who helps you?"
+:::
+
 ---
 
 ## See It: Bangladesh's Climate Refugees
@@ -353,6 +389,10 @@ Bangladesh shows us the future of climate refugee policy:
 Same water. Same physics. Wildly different outcomes. **That's responsibility asymmetry.**
 :::
 
+::: {.notes}
+**Engagement prompt:** "Venice gets a €5.5 billion flood barrier. Bangladesh gets sandbags. Both are coastal flooding. What's the actual difference?" Let them say "money." Then push: "So the right to not drown is a function of GDP?"
+:::
+
 ---
 
 # The Responsibility Question
@@ -377,6 +417,12 @@ Same water. Same physics. Wildly different outcomes. **That's responsibility asy
 
 ::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
 The nations that industrialised on fossil fuels built sea walls. The nations that didn't are drowning.
+:::
+
+::: {.notes}
+**Engagement prompt:** "Should historical emissions count, or only current ones? China says: 'you industrialised for 200 years, now it's our turn.' The US says: 'China is the biggest emitter RIGHT NOW.' Who's right?"
+
+Follow-up: "If your great-grandfather's factory caused the emissions, are YOU responsible? When does historical debt expire?"
 :::
 
 ---
@@ -422,6 +468,10 @@ The tools we have don't fit the problem:
 *This happened here. To you. Mangkhut was a preview.*
 :::
 
+::: {.notes}
+**Engagement prompt:** "Mangkhut was a Category 5. HK recovered in weeks. What happens when a Category 5 hits every year? At what point does HK become the place people flee FROM, not just TO?"
+:::
+
 ---
 
 ## Hong Kong's Own Vulnerability
@@ -438,6 +488,89 @@ The tools we have don't fit the problem:
 
 ::: {style="font-size: 1.3em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
 Hong Kong isn't just a spectator to this crisis. It's a coastal city with 7.5 million people, dense infrastructure, and rising seas.
+:::
+
+---
+
+## HK's Dry Season Is Changing
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+Hong Kong's **annual rainfall** isn't declining — it's actually slightly increasing. But look closer:
+
+- The **wet season** (May–Sept) is getting wetter — more rain in fewer, more intense storms
+- The **dry season** (Nov–Feb) is becoming more **extreme** — when it's dry, it's *very* dry
+- The **contrast** between wet and dry is intensifying — wetter wets, drier dries
+- Winter temperatures are rising faster than summer → higher evaporation → effectively drier even without less rain
+
+The Hong Kong Observatory's own climate projections: **dry spells will become more variable, with greater likelihood of prolonged dry periods.**
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic; color: #7f8c8d; text-align: center;"}
+Source: HKO climate summaries; IPCC AR6 on Hadley cell expansion in subtropical regions.
+:::
+
+---
+
+## When the Climate Shifts but Operations Don't
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+Hong Kong wraps its buildings in **bamboo scaffolding** — a practice older than the skyline. Cheap, fast, flexible. Used on buildings up to 70+ stories.
+
+Bamboo is wood. It burns. And it's wrapped in **nylon mesh sheeting** — highly flammable, acts as an accelerant, creates a chimney effect up the building facade.
+
+**What hasn't changed:**
+
+- Construction workers still smoke on site — the historical ignition source
+- Bamboo scaffolding is still erected the same way it was decades ago
+- Enforcement of fire-resistant sheeting requirements is inconsistent
+
+**What HAS changed:**
+
+- The dry season hits harder and lasts longer
+- Relative humidity drops lower
+- Dry bamboo + dry wind + nylon mesh + a cigarette = the same equation, with worse odds
+:::
+
+---
+
+## The Tai Po Question
+
+::: {style="font-size: 1.6em; line-height: 1.8; background: #1a1a2e; color: white; padding: 40px; border-radius: 15px;"}
+People were displaced by the Tai Po fire.
+
+The fire spread because conditions were dry.
+
+The conditions were dry because the climate is shifting.
+
+[**Are the people displaced by that fire climate refugees?**]{style="color: #e74c3c;"}
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px;"}
+The causal chain: climate change → intensified dry season → drier bamboo scaffolding → faster fire spread → homes destroyed → displacement.
+
+In some sense, **it's only climate that allowed the fire to behave the way it did.**
+:::
+
+---
+
+## Where Do You Draw the Line?
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**If the answer is yes** — then Hong Kong isn't just a potential *host* for climate refugees. It's already **producing** them. The crisis isn't over there. It's here.
+
+**If the answer is no** — then where exactly is the causal boundary? How direct does the climate link need to be?
+
+- Is a Bangladeshi farmer whose river eroded "more" of a climate refugee than a Tai Po family whose building burned?
+- What about a farmer in the Sahel whose crops failed because the rains shifted? Climate refugee?
+- What about someone in Phoenix who can't afford AC during a record heatwave? Climate refugee?
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #8e44ad;"}
+This is Week 3 again: **where you draw the system boundary determines whose problem it is.** And this time, the boundary might include you.
+:::
+
+::: {.notes}
+**Discussion prompt:** Let this sit for 30 seconds. Then ask: "Raise your hand if you think the Tai Po fire victims are climate refugees." Count hands. Then: "Keep your hand up if you think YOU could become a climate refugee without leaving Hong Kong." Watch the room shift.
 :::
 
 ---
@@ -568,6 +701,10 @@ PRO-CLIMATE: Climate-proofing won't save sinking islands. When your land is unde
 PRO-DEVELOPMENT: Bangladesh shows absorption fails — Dhaka's slums prove that relocation without integration creates permanent dependency, not rescue.
 :::
 
+::: {.notes}
+**Engagement prompt (right before debate):** "Here's the uncomfortable question nobody wants to answer: if 216 million people need to move by 2050, and no country wants them — what actually happens? Not what SHOULD happen. What WILL happen?"
+:::
+
 ---
 
 # Role-Play Activity: The Refugee Debate
@@ -692,21 +829,162 @@ The strongest debaters will make the abstract **personal** and the personal **st
 
 ---
 
+## Remember Week 3? System Boundaries.
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+In Week 3, you learned: **where you draw the boundary changes who looks responsible.**
+
+The same principle applies to climate refugees — and it explains why the "sponge" model fails:
+:::
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: left; width: 30%; background: #ecf0f1; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Boundary: The Refugee
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+It's a **shelter** problem. Give them a tent. Feed them. Move on.
+
+*This is the UN's current framework.*
+:::
+:::
+
+::: {style="text-align: left; width: 30%; background: #f39c12; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Boundary: The City
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+It's an **absorption** problem. Dhaka can't handle 2,000 arrivals/day. Build more infrastructure. Manage the flow.
+
+*This is the "sponge" model.*
+:::
+:::
+
+::: {style="text-align: left; width: 30%; background: #c0392b; color: white; padding: 25px; border-radius: 10px;"}
+::: {style="font-size: 1.2em; font-weight: bold;"}
+Boundary: The System
+:::
+::: {style="font-size: 1.1em; line-height: 1.5; margin-top: 10px;"}
+It's a **responsibility** problem. Who caused the emissions that raised the sea? Who profits from the inaction? Who should pay?
+
+*This is where the real debate begins.*
+:::
+:::
+:::
+
+---
+
+## Why the Sponge Model Fails
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+The "sponge" model — cities absorb displaced people until they can't — fails because it treats displacement as **logistics** instead of **systemic failure.**
+
+- **It ignores the cause.** Moving people from flooded village A to overcrowded city B doesn't address why A flooded.
+- **It ignores livelihood.** Dhaka's slums show that relocation without employment, sanitation, and integration creates permanent dependency — not recovery.
+- **It ignores the cascade.** Displacement doesn't end when people arrive. It *triggers* the next crisis: urban strain → resource competition → political backlash → more displacement.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+Displacement is not a destination problem. It's the **middle** of a chain — and next week, we follow that chain.
+:::
+
+---
+
+## But Wait — What If We're Framing This Wrong?
+
+::: {style="font-size: 1.8em; text-align: center; padding: 40px; background: #0a3d62; color: white; border-radius: 15px; line-height: 1.6;"}
+Everything so far assumes refugees are a **burden** to manage.
+
+What if they're a **resource** to leverage?
+:::
+
+---
+
+## The Case You Already Live In: Hong Kong
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+After 1949, **waves of refugees** fled mainland China to Hong Kong. They arrived with nothing.
+
+**What happened next:**
+
+- They brought **labour, skills, and entrepreneurial energy** that powered HK's economic miracle
+- The garment industry, manufacturing boom, and eventually finance — **driven by displaced people**
+- HK went from a colonial backwater to a global financial centre in **one generation**
+
+[**You are sitting in a city that was built by refugees.**]{style="color: #e74c3c;"}
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; background: #f9e79f; padding: 20px; border-radius: 10px;"}
+**But be honest about the conditions:** those refugees often brought education, capital, and shared language/culture with HK. That's very different from a Bangladeshi farmer arriving in Dhaka with nothing. **The success wasn't automatic — the conditions mattered.**
+:::
+
+::: {.notes}
+**Engagement prompt:** "Your grandparents — or their grandparents — may have been refugees. Ask your family this week: how did they get to Hong Kong? What did they arrive with?"
+
+Follow-up: "If HK closed its borders in 1949, what would this city look like today?"
+:::
+
+---
+
+## Refugees as Resources: The Evidence (and Its Limits)
+
+::: {style="font-size: 1.2em; line-height: 1.6;"}
+| Approach | The Claim | The Complication |
+|----------|-----------|------------------|
+| **Right to work** (Uganda) | 1.5M+ refugees get land, jobs, freedom of movement | System is under severe strain — food insecurity, underfunding, limited healthcare in settlements |
+| **Labour integration** (Germany) | Syrian doctors, engineers filled critical gaps in healthcare and tech | Political cost was enormous — AfD surged, housing strained, social tensions fuelled nationalist backlash |
+| **Private sponsorship** (Canada) | Community groups sponsor families; integration rates genuinely outperform government-only programs | Most defensible model — but scales slowly and relies on civil society willingness |
+| **Entrepreneurship** (US) | Some studies suggest refugees start businesses at higher rates | Data comes from advocacy orgs; contested and context-dependent. Not settled science. |
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-weight: bold; color: #e67e22;"}
+None of these is a clean success story. But all of them outperform the sponge model. **The question is whether "imperfect integration" beats "no integration at all."**
+:::
+
+::: {.notes}
+**Engagement prompt:** "Germany took in one million refugees. The economy got workers. The politics got AfD. Was it worth it? Is that even the right question?"
+
+Follow-up: "Canada's private sponsorship model works best — but it requires ordinary citizens to volunteer time and money. Would YOU sponsor a climate refugee family? What would it actually take?"
+:::
+
+---
+
+## The Real Choice
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Two models. Same displaced people. Neither is perfect.
+
+**Model A: Suppress** (Dhaka's sponge model)
+
+- No legal status → no employment → no integration → permanent dependency → political backlash
+
+**Model B: Leverage** (imperfect, costly, politically risky)
+
+- Right to work → economic contribution → social tension *and* social benefit → slow, messy integration
+
+The honest answer: **Model B is harder, more expensive, and politically dangerous.** Germany proves that. But Model A produces slums, dependency, and eventually the same backlash anyway — just slower.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #8e44ad;"}
+So the question for your debate isn't just "relocate or climate-proof?" — it's: **if people do move, what system are we building for them — and are we honest about the trade-offs?**
+:::
+
+---
+
 ## Responsibility Asymmetry
 
 ::: {style="font-size: 1.5em; line-height: 1.8; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
-Before this week, "climate refugee" might have sounded abstract — a future problem, a UN statistic.
-
 Now you know:
 
 - **2,000 people** arrive in Dhaka's slums every day because rivers ate their homes
 - **Tuvalu** is negotiating the extinction of an entire nation
 - **Venice** and **Bangladesh** face the same water — but Venice has a €5.5 billion barrier system
 - The nations that **caused** this are building walls. The nations that **didn't** are drowning.
+- And the "sponge" model — absorb, don't integrate — is already failing.
 :::
 
 ::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad; text-align: center;"}
-**Your portable takeaway:** Responsibility asymmetry — the people who suffer most produced the least. And the system has no framework for them.
+**Your portable takeaway:** When someone says "climate refugees," ask three questions: *whose boundary are you drawing?* *What cascade does it trigger?* And: *are you designing a system that suppresses — or one that leverages?*
 :::
 
 ---

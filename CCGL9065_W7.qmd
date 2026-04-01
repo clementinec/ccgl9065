@@ -7,7 +7,7 @@ format:
   revealjs:
     slide-number: true
     theme: simple
-    width: 1600
+    width: 1920
     height: 1200
     preview-links: auto
     embed-resources: true
