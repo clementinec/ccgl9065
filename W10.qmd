@@ -1,18 +1,19 @@
 ---
-title: "Our Response to Climate Change: HK2100"
+title: "CCGL9065: Our Response to Climate Change: HK2100"
 subtitle: "Our Planet, Climate Change and Systems Thinking"
-author: Hongshan Guo
-format: 
+author: Dr. Hongshan Guo and Class
+
+format:
   revealjs:
-    slide-level: 2
-    center: true
     slide-number: true
     theme: simple
-    width: 1600
-    height: 1300
+    width: 1920
+    height: 1200
     preview-links: auto
     embed-resources: true
-    incremental: false    
+    incremental: true
+    center: true
+
 ---
 
 # Last Week's Strategy: The Invisible Bandwagon
@@ -36,13 +37,31 @@ Last week's strategy: **The Invisible Bandwagon**
 ::: {style="font-size: 1.5em; line-height: 1.8;"}
 Week 9 showed you **responsibility asymmetry** — the cruel arithmetic of climate change.
 
-The Carteret Islanders produce virtually zero carbon. They're losing their homes. Meanwhile, the highest emitters are building defences for *themselves.*
+The Carteret Islanders produce virtually zero carbon. They're losing their homes. 2,000 climate refugees arrive in Dhaka's slums every day. Venice gets a €5.5B flood barrier; Bangladesh gets sandbags.
 
-There's no "climate refugee" in international law. The 1951 Convention doesn't cover it. 216 million people may be displaced by 2050.
+And we asked: **are the people displaced by the Tai Po fire climate refugees?**
 :::
 
 ::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
 Asymmetry means the system is entangled. Pull one thread, **everything moves.**
+:::
+
+---
+
+## Quick W9 Recap: Responsibility Asymmetry
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+Three things from last week you need to hold onto:
+
+**1. The sponge model fails** — absorbing refugees without integrating them creates permanent dependency (Dhaka proves it). Relocation without livelihood is warehousing.
+
+**2. System boundaries determine the answer** — draw the line around the refugee = shelter problem. Draw it around the system = responsibility problem. Where you draw it changes everything.
+
+**3. Refugees can be resources** — HK was built by post-1949 refugees. But the conditions matter, the policy matters, and none of the models is a clean success story.
+:::
+
+::: {style="font-size: 1.5em; margin-top: 25px; font-weight: bold; color: #c0392b;"}
+Now: what happens when the system itself starts to cascade?
 :::
 
 ---
@@ -56,28 +75,35 @@ This week: *"Everything is connected — and some connections are irreversible."
 
 **Cascade effects and tipping points.**
 
-Wolves change rivers. Permafrost melts into methane. One feedback loop triggers another. This week, you'll see why systems thinking isn't abstract — it's survival-critical.
+Wolves change rivers. Permafrost melts into methane. One feedback loop triggers another. Systems thinking isn't abstract — it's survival-critical.
 :::
 
 ::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
-Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → Epistemic Humility → Invisible Infrastructure → Responsibility Asymmetry → **now: Cascade Effects.**
+Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → The Doubt Machine → Invisible Infrastructure → Responsibility Asymmetry → **now: Cascade Effects.**
+:::
+
+---
+
+## Coming Up: Week 11 Preview
+
+::: {style="font-size: 1.5em; line-height: 1.8; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;"}
+Next week is the last. We zoom out — all the way out.
+
+**The Overview Effect:** astronauts who see Earth from space report a cognitive shift. Borders disappear. The atmosphere looks impossibly thin. The whole system is visible at once.
+
+That's where we're heading — and you'll need everything you've learned to get there.
 :::
 
 ---
 
 ## {background-color="#000000"}
 
-::: {style="display: flex; justify-content: space-around; align-items: center;"}
-::: {style="text-align: center; width: 48%;"}
-![**Aral Sea, 2000**](https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/84000/84437/aralsea_tmo_2000238.jpg){width="100%"}
-:::
-::: {style="text-align: center; width: 48%;"}
-![**Aral Sea, 2014**](https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/84000/84437/aralsea_tmo_2014231.jpg){width="100%"}
-:::
+::: {style="text-align: center;"}
+![The Aral Sea — 1989 vs. 2014. Once the world's 4th largest lake. Drained for cotton. A cascade effect visible from space.](data/aral_sea_comparison.jpg){width="70%"}
 :::
 
-::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
-*Once the world's 4th largest lake. Drained for cotton. A cascade effect visible from space.*
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*They wanted cotton. They got a desert. The fishermen, the farmers, the children breathing toxic dust — none of them were consulted.*
 :::
 
 ---
@@ -130,126 +156,7 @@ PRO-DEVELOPMENT
 
 ---
 
-## 1: Revisiting Progress - At What Cost?
-
-#### Introduction to Modern Progress:
-- Equating progress with industrial growth, tech advancements, and urban expansion.
-- Environmental costs often overlooked.
-- Key question: "What environmental losses have we accepted for progress?"
-
-#### Example 1: Deforestation in the Amazon:
-- Accelerated deforestation post-2010s for agriculture.
-- Impact: Loss of biodiversity, carbon storage, and indigenous habitats.
-- Trade-off: Global food supply vs. ecological preservation.
-
-#### Example 2: Urbanization of Green Spaces:
-- Cities like Jakarta and Beijing expanding into green areas.
-- Impact: Loss of natural spaces vital for air quality and biodiversity.
-- Trade-off: Economic growth and housing vs. green space conservation.
-
-#### Example 3: Intensive Energy Extraction:
-- Shale gas boom, especially in the U.S., post-2010s.
-- Impact: Groundwater contamination, seismic activity, methane emissions.
-- Trade-off: Energy independence vs. environmental health.
-
-## 2: Beyond CO2 - The Potent Greenhouse Gas Threat
-
-#### The Methane Concern:
-- **Methane's Potency**: Methane (CH4) is over 25 times more potent than CO2 in trapping heat in the atmosphere over a 100-year period.
-- **Permafrost Thaw**: Recent observations reveal accelerating permafrost thaw in the Arctic, unlocking vast methane reserves.
-- **Impact**: Methane release from permafrost could significantly amplify global warming, contributing to a feedback loop.
-
-#### Other Potent Gases:
-- **Nitrous Oxide (N2O)**: Emissions from agricultural activities, particularly fertilizer use, have been rising, with N2O being about 300 times more potent than CO2.
-- **Industrial Gases**: Hydrofluorocarbons (HFCs), used in air conditioning and refrigeration, have thousands of times the global warming potential of CO2.
-
-## 2.1: Beyond CO2 - The Potent Greenhouse Gas Threat (Cont'd)
-
-#### IPCC Models and Tipping Points:
-- **Inclusion in Models**: The IPCC has recently integrated permafrost melt and methane release into their climate models, highlighting the urgency of the issue.
-- **Tipping Point Concerns**: There's growing scientific consensus that we might be nearing or have crossed climate "tipping points," leading to irreversible changes.
-
-#### Examples and Analogies:
-- **Siberian Craters**: The discovery of massive craters in Siberia, believed to be caused by methane explosions from thawing permafrost, serves as a vivid illustration of the methane threat.
-- **The Ice-Albedo Feedback**: As Arctic ice melts, it reveals darker water that absorbs more heat, further accelerating ice melt and methane release from permafrost - a dangerous feedback loop.
-
-#### Reflection:
-- The rising threat of potent greenhouse gases challenges us to look beyond CO2 in our climate change mitigation strategies.
-- Understanding and addressing these less-discussed but highly impactful gases is crucial in our broader fight against global warming.
-
-
-## 3: Geoengineering - A Symptomatic Treatment?
-
-#### The Shift to Geoengineering:
-- Large-scale interventions in Earth's systems
-- Focus shifts from emission causes to climate symptoms management
-
-#### Key Approaches:
-- **Carbon Capture and Storage (CCS)**:
-  - Removes CO2 from the atmosphere
-  - Stores it underground
-- **Solar Radiation Management (SRM)**:
-  - Reflects sunlight away
-  - Aims to reduce global warming
-
-#### Ethical and Practical Concerns:
-- **Unintended Consequences**:
-  - Risk of unforeseen side effects
-  - Potential to worsen climate issues
-- **Moral Hazard**:
-  - Might reduce urgency for emission cuts
-  - Reliance on technological fixes
-
-## 4: Questioning "Progress" and "Modernity"
-
-#### The Untouchable Paradigms:
-- Associated with tech advancement
-- Often overlook environmental cost
-
-#### Need for Paradigm Shift:
-- **Sustainable Progress**:
-  - Incorporates sustainability
-  - Balances ecological concerns
-- **Inclusive Modernity**:
-  - Embraces diverse views
-  - Values indigenous knowledge
-
-#### Example: Transition to Renewable Energy:
-- Shift from fossil fuels to renewables
-- Symbolizes sustainable progress
-
-## 5: Academia's Pioneering Role
-
-#### Fostering Diversity and Experimentation:
-- Universities as idea incubators
-- Promote cross-disciplinary research
-
-#### Critical Thinking and Innovation:
-- Challenges established norms
-- Proposes innovative solutions
-
-## 5.1: Silent Spring, or Power of Narrative
-
-### Rachel Carson, Chemist | Writer | Activist
-![](https://www.environmentandsociety.org/sites/default/files/styles/esp_image_large_16_9/public/nyt-headline_0.jpg?itok=RBtFEcx-)
-
-## 5.2 Understanding System Thinking in Environmental Context
-
-### What is Systems Thinking?
-  - **Holistic Perspective:** Complex systems as interconnected wholes
-  - **Feedback Loops**: Recognizing how different elements within a system influence one another, non-linear
-
-### Interconnectivity in Nature
-  - Interaction of ecosystem
-  - Climate phenomena as result of interactions wtihin and between atmosphere, hydrosphere, geosphere and biosphere
-
-### Understanding System Thinking
-  - Empowers you to see the bigger picture and recognize the ripple effects of actions
-  - Encourages innovative and holistic solutions to environmental challenges through interconnectedness
-
-## 5.3 Wolves' Reintroduction to Yellowstone: Saga from 1920s to 1995
-
-![](https://cdn.yellowstonepark.com/wp-content/uploads/2021/06/Wolf-Gray-YS_NPSJimPeacoPD_2400.jpg?crop=535:301&width=1070&enable=upscale)
+# What Is a Cascade Effect?
 
 ---
 
@@ -277,15 +184,300 @@ The [**rivers**]{style="color: #3498db;"} moved.
 **Everything connects. Everything.**
 :::
 
+::: {.notes}
+**Engagement prompt:** "What's the 'wolf' in Hong Kong's system? What one thing, if removed, would cascade into consequences nobody predicted?"
+:::
+
 ---
 
-## 5.3.1 ReIntroduction of the Wolves
+## {background-color="#1a1a2e"}
 
-![](https://earthjustice.org/wp-content/uploads/infographic-wolves_1066.png){fig-align="center"}
+::: {style="font-size: 2.5em; color: white; text-align: center; line-height: 1.6;"}
+A cascade effect is what happens when
 
-## 5.4 Interconnectedness of species
+you change **one thing**
 
-![](https://kevinhesterdotlive.files.wordpress.com/2018/06/jenga_extinction.jpg){fig-align="center"}
+and [**everything else**]{style="color: #e74c3c;"} changes with it.
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px; text-align: center;"}
+*Wolves → deer → trees → soil → rivers. Cotton → Aral Sea → fisheries → dust storms → children's lungs.*
+:::
+
+---
+
+# The Permafrost Time Bomb
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![The Batagaika megaslump, Sakha Republic, Siberia — the world's largest permafrost crater. It's growing. You can see it from space.](data/batagaika_crater.jpg){width="75%"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*This is what happens when the ground itself starts to melt.*
+:::
+
+---
+
+## What Is Permafrost?
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Permafrost** = permanently frozen ground, found across the Arctic and sub-Arctic.
+
+- Covers [**24%**]{style="color: #3498db;"} of the Northern Hemisphere's land surface
+- Contains [**1,700 gigatonnes**]{style="color: #e74c3c;"} of carbon — **twice** what's currently in the entire atmosphere
+- Locked away for **tens of thousands of years**
+
+Now it's thawing. The Arctic is warming [**twice as fast**]{style="color: #e74c3c;"} as the global average.
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+When permafrost thaws, it releases methane and CO₂. Methane is 25x more potent than CO₂ as a greenhouse gas.
+:::
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Methane bubbles frozen in a thermokarst lake — each bubble is trapped greenhouse gas waiting to escape as the permafrost thaws.](data/methane_bubbles.jpg){width="70%"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*Every bubble is methane. Every bubble is a future we're trying not to trigger.*
+:::
+
+---
+
+## The Cascade
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Step 1:** Arctic warms → permafrost thaws → methane and CO₂ released
+
+**Step 2:** More greenhouse gases → more warming → more thawing
+
+**Step 3:** More thawing → ground collapses (Batagaika crater) → infrastructure destroyed → communities displaced
+
+**Step 4:** Released carbon enters atmosphere → accelerates global warming everywhere
+
+[**This is a positive feedback loop. Once it starts, it feeds itself.**]{style="color: #e74c3c;"}
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-style: italic; color: #7f8c8d;"}
+IPCC projects permafrost could decrease by 30–70% by the end of the 21st century. That's up to 1,200 Gt of carbon entering the system.
+:::
+
+---
+
+## See It: The Methane Beneath the Ice
+
+{{< video https://www.youtube.com/embed/6Z6RIQ0Bw-E width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*BBC Earth (~5 min). Scientists set frozen methane bubbles on fire on an Arctic lake. The sheer scale of trapped greenhouse gas, waiting to escape.*
+:::
+
+::: {.notes}
+**Engagement prompt:** "Permafrost holds twice the carbon of the entire atmosphere. If even 10% of it thaws uncontrollably, what happens to every climate target we've set? Is the Paris Agreement already obsolete?"
+:::
+
+---
+
+# Ice-Albedo: The Feedback Loop That Feeds Itself
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Arctic sea ice — white ice reflects sunlight back to space. Dark ocean water absorbs it. Less ice = more absorption = more warming = less ice.](data/arctic_ice_albedo.jpg){width="80%"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*White reflects. Dark absorbs. Once the ice goes, the warming accelerates.*
+:::
+
+---
+
+## The Mechanism
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**Albedo** = how much sunlight a surface reflects.
+
+- Ice and snow: reflect [**80–90%**]{style="color: #3498db;"} of incoming solar radiation
+- Dark ocean water: absorbs [**90%+**]{style="color: #e74c3c;"} of it
+
+As ice melts → darker water exposed → more heat absorbed → more ice melts → more dark water exposed...
+
+[**A self-reinforcing loop. The system accelerates its own destruction.**]{style="color: #e74c3c;"}
+:::
+
+---
+
+## The Ice-Albedo Feedback, Visualised
+
+![The ice-albedo positive feedback loop — each step reinforces the next. This is why Arctic ice loss accelerates rather than proceeding linearly.](data/ice_albedo_diagram.jpg){width="65%"}
+
+---
+
+# The Amazon: A Cascade We're Building
+
+---
+
+## {background-color="#000000"}
+
+::: {style="text-align: center;"}
+![Fires and deforestation on the Amazon frontier, Rondonia, Brazil — NASA satellite, 2007. Each light strip is cleared land. The dark green is what's left.](data/amazon_deforestation.jpg){width="75%"}
+:::
+
+::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
+*No one decided to destroy the Amazon. Everyone just followed the incentives.*
+:::
+
+---
+
+## The Chain
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+**The Amazon** is not just trees. It's a climate machine:
+
+- It generates [**50% of its own rainfall**]{style="color: #3498db;"} through transpiration — trees release moisture that becomes rain downwind
+- It stores [**150–200 billion tonnes**]{style="color: #3498db;"} of carbon
+
+**The cascade:**
+
+Deforestation → less transpiration → less rainfall → remaining forest dries out → **more fires** → more deforestation → less rainfall → the whole system flips
+
+Scientists estimate the Amazon is approaching a **tipping point** — somewhere between 20–25% deforestation, the system collapses from rainforest to savanna. We're at roughly [**17%**]{style="color: #e74c3c;"}.
+:::
+
+::: {.notes}
+**Engagement prompt:** "We're at 17% deforestation. The tipping point may be 20–25%. That's a 3–8% margin on the fate of the world's largest rainforest. Should we stop all deforestation now, or is that margin wide enough to keep going?"
+:::
+
+---
+
+# Tipping Points: The Point of No Return
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; color: white; text-align: center; line-height: 1.6;"}
+A **tipping point** is the moment when
+
+a system shifts to a new state
+
+[**and can't shift back.**]{style="color: #e74c3c;"}
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px; text-align: center;"}
+*Ice sheets that collapse don't refreeze. Permafrost that thaws doesn't refreeze. The Amazon that dries out doesn't regrow. These are one-way doors.*
+:::
+
+---
+
+## The Known Tipping Elements
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+| Tipping Element | Threshold | Cascade Effect |
+|----------------|-----------|----------------|
+| **Arctic sea ice** | Already declining | Albedo feedback → accelerated warming |
+| **Greenland ice sheet** | ~1.5°C global warming | 7m sea-level rise over centuries |
+| **West Antarctic ice sheet** | ~1.5–2°C | 3.3m sea-level rise |
+| **Amazon rainforest** | 20–25% deforestation (~17% now) | Flip to savanna → massive carbon release |
+| **Permafrost** | Already thawing | 1,700 Gt carbon → methane feedback loop |
+| **Atlantic circulation (AMOC)** | Freshwater influx from ice melt | Europe freezes, tropics overheat |
+| **Coral reefs** | Already at 50% loss | Ecosystem collapse, 500M people affected |
+:::
+
+::: {style="font-size: 1.3em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+The danger: crossing one tipping point can trigger the next. Ice melt → freshwater → AMOC slows → weather shifts → Amazon dries → carbon release → more warming → more ice melt...
+:::
+
+---
+
+## See It: Where We Stand on Tipping Points
+
+{{< video https://www.youtube.com/embed/EoYSToa2Yfw width="1600" height="900" >}}
+
+::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
+*TED-Ed (~4 min). Is our climate headed for a mathematical tipping point? Clear, animated, and deeply uncomfortable.*
+:::
+
+---
+
+# Geoengineering: Fixing the Symptoms?
+
+---
+
+## The Temptation
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+If cascade effects are this dangerous, can we **engineer** our way out?
+
+**Geoengineering** = large-scale intervention in Earth's climate system to counteract warming.
+
+Two main approaches:
+
+**1. Carbon Capture and Storage (CCS)** — remove CO₂ from the atmosphere and store it underground
+
+**2. Solar Radiation Management (SRM)** — reflect sunlight away from Earth (stratospheric aerosols, marine cloud brightening, space mirrors)
+:::
+
+---
+
+## The Approaches, Visualised
+
+![Solar climate intervention techniques — from stratospheric aerosol injection to space-based reflectors. Each carries its own cascade of unintended consequences.](data/geoengineering_diagram.png){width="70%"}
+
+---
+
+## The Honest Debate
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+| | The Promise | The Problem |
+|--|------------|-------------|
+| **CCS** | Remove CO₂ directly — address the cause | Expensive, unproven at scale, requires vast energy |
+| **SRM** | Fast — could cool the planet within months | Doesn't fix acidification; if stopped, warming rebounds instantly |
+| **Both** | Buy time for systemic change | **Moral hazard** — if we think we can fix it later, we stop cutting emissions now |
+:::
+
+::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
+The deepest risk: geoengineering treats **symptoms**, not causes. And every intervention creates its own cascade of unintended consequences.
+:::
+
+::: {.notes}
+**Engagement prompt:** "If someone offered to inject aerosols into the stratosphere tomorrow and cool the planet by 1°C, would you say yes? What if the side effects include disrupted monsoon patterns affecting 2 billion people in South Asia? Who gets to decide?"
+:::
+
+---
+
+# Rachel Carson: One Book Changed Everything
+
+---
+
+## {background-color="#000000"}
+
+::: {style="display: flex; justify-content: space-around; align-items: center;"}
+::: {style="width: 35%; text-align: center;"}
+![Rachel Carson, c. 1940 — chemist, writer, activist. She saw the cascade before anyone else.](data/rachel_carson.jpg){width="90%"}
+:::
+::: {style="width: 55%; font-size: 1.4em; line-height: 1.8; color: white;"}
+In 1962, Rachel Carson published **Silent Spring** — documenting how pesticides cascaded through ecosystems, killing not just insects but birds, fish, and eventually threatening human health.
+
+The chemical industry ran **the Doubt Machine** against her — the same playbook as tobacco, the same playbook as fossil fuels.
+
+She was called hysterical, unscientific, a communist.
+
+**She was right.** DDT was banned. The modern environmental movement was born.
+
+[*One book. One cascade. One person who saw the system.*]{style="color: #e74c3c;"}
+:::
+:::
 
 ---
 
@@ -352,163 +544,17 @@ Spectacle
 
 ---
 
-## 6: Urgent Climate Issues We Cannot Ignore
+## This Week's Debate Motion
 
-#### Rising Sea Levels:
-- Coastal erosion and flooding
-- Threatens communities and infrastructure
+::: {style="font-size: 1.8em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
+**"This house believes that geoengineering is a necessary emergency response to climate tipping points, even if the long-term consequences are unknown."**
+:::
 
-#### Biodiversity Loss:
-- Ecosystem collapse and species extinction
-- Undermines Earth's life support systems
+::: {style="font-size: 1.3em; margin-top: 30px; text-align: center;"}
+PRO-CLIMATE: Geoengineering is a moral hazard — it treats symptoms, not causes, and gives polluters an excuse to delay. The cascade of side effects could be worse than the disease.
 
-#### Water Scarcity:
-- Exacerbated by climate change
-- Threatens food security and stability
-
-## 7: Rethinking Cooperation for a Sustainable Future
-
-#### Beyond Competition:
-- Emphasizes global solidarity
-- Views Earth's resources as shared
-
-#### Innovative Governance:
-- Develops flexible, inclusive agreements
-- Empowers local action with global support
-
-
-## 8: The Permafrost Time Bomb
-
-#### Understanding Permafrost:
-- Frozen ground in polar regions: 24% of Northern Hemisphere land surface
-- Contains massive carbon reserves: 1700 Gigatons of carbon, 2x atmospheric carbon
-
-#### The Thawing Threat:
-- Warming temperatures causing thaw, twice as fast as global average
-- Releases stored methane (25x) and CO2
-- Permafrost to decrease by 30-70% by end of 21st century.
-
-#### Implications for Climate:
-- Accelerates global warming
-- Could trigger runaway climate effects
-
-
-## 9: Modernity and Sustainability Clash
-
-#### The Growth Paradigm:
-- Equates progress with economic growth
-- Often at the environment's expense
-
-#### Sustainable Alternatives:
-- Rethinks progress with ecological balance
-- Prioritizes long-term environmental health
-
-#### Cultural Shift Needed:
-- From consumption-driven to sustainability-focused
-- Values diversity and ecological integrity
-
-#### Example: Urban Green Initiatives:
-- Incorporates green spaces in cities
-- Promotes urban sustainability and well-being, connection to mindfulness
-
-## 10: Academia's Role in Shaping Futures
-
-#### Incubator for Ideas:
-- Nurtures diverse, innovative solutions
-- Encourages interdisciplinary collaboration
-
-#### Challenging the Status Quo:
-- Questions established progress narratives
-- Advocates for sustainable development models
-
-#### Fostering Global Citizens:
-- Educates on climate ethics and action
-- Prepares students for global challenges
-
-#### Example: Environmental Studies Programs:
-- Blend science, policy, and ethics
-- Equip students to tackle climate issues
-- How can you influence them with what you have learnt?
-
-## 11: Hall of Fame: Progressive Contributions to Climate Discourse
-
-#### Visionaries of Sustainability:
-- **Rachel Carson**: Her seminal work "Silent Spring" (1962) is often credited with launching the modern environmental movement, highlighting the adverse effects of pesticides on the environment.
-  - Sparked widespread public concern for environmental protection and conservation.
-- **Al Gore**: Former U.S. Vice President and environmentalist, known for his efforts in raising awareness about global warming, notably through his documentary "An Inconvenient Truth" (2006).
-  - Played a pivotal role in making climate change a mainstream issue.
-
-#### Pioneers of Climate Science:
-- **James Hansen**: A climatologist whose 1988 testimony before the U.S. Congress was crucial in bringing national attention to global warming.
-  - Advocated for reducing greenhouse gas emissions and conducted pivotal climate research.
-- **Intergovernmental Panel on Climate Change (IPCC)**: Established in 1988, this body has been instrumental in assessing and synthesizing climate research, providing a scientific basis for policy action.
-  - Its periodic assessment reports are crucial resources for understanding climate change.
-
-## 12: Hall of Fame: Conservative Perspectives on Environmental Policy
-
-#### Skeptics and Critics:
-- **Bjørn Lomborg**: An environmental writer known for his book "The Skeptical Environmentalist" (2001), where he argues that many environmental concerns are exaggerated.
-  - Advocates for prioritizing other global issues like poverty over climate change initiatives.
-- **The Heritage Foundation**: A conservative think tank that frequently critiques the economic impacts of environmental regulations.
-  - Emphasizes the potential negative effects on economic growth and personal freedoms.
-
-#### Proponents of Technological and Market Solutions:
-- **Julian Simon**: An economist who believed human ingenuity and innovation could overcome environmental challenges and resource scarcity.
-  - Famous for his bet with Paul Ehrlich, arguing against the predictive power of environmental doom.
-- **Indur Goklany**: An author and policy analyst who supports the use of technology and economic growth to address environmental problems, advocating for "adaptive" strategies rather than stringent regulations.
-  - Argues that wealthier societies are better equipped to solve environmental problems.
-
-## 13 People's Responses
-Certainly, let's break down the responses into shorter sub-bullets for clarity:
-
-### Acknowledging Interdependence:
-- **Mindful Consumption**:
-  - Everyday choices impact economy and environment.
-  - Opting for sustainable products.
-- **Waste Reduction**:
-  - Reducing personal waste to protect oceans and wildlife.
-  - Emphasizing reuse and recycling.
-
-### Advocacy and Community Action:
-- **Grassroots Movements**:
-  - Participation in local environmental initiatives.
-  - Organizing eco-friendly community events.
-- **Policy Advocacy**:
-  - Supporting green policies through petitions and outreach to representatives.
-  - Engaging in civic activities for environmental protection.
-
-### Sustainable Living & Dietary Choices
-
-## 13.1 People's Responses
-
-### Education and Awareness:
-- **Continuous Learning**:
-  - Staying updated on environmental issues.
-  - Spreading awareness among personal networks.
-- **Youth Engagement**:
-  - Teaching children about environmental responsibility.
-  - Family projects focused on sustainability.
-
-### Support for Innovation and Technology:
-- **Embracing Green Tech**:
-  - Investing in home solar panel systems.
-  - Supporting advancements in sustainable technology.
-- **Sustainable Investments**:
-  - Assessing the environmental impact of personal investments.
-  - Favoring companies with strong environmental policies.
-
-## 14 Collage Examples (As promised)
-
-![](https://sotp.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/12/James-A.G.-Kahn-Collage-637x425.jpg){fig-align="center"}
-
-## 14.1 Collage Examples (Cont'd)
-![](https://creativeresistance.org/wp-content/uploads/2014/08/chaos_collage_by_adriansalamandre-d3fkpbl-770x563.jpg){fig-align="center"}
-
-## 14.2 Collage Examples (Cont'd)
-![](https://media.gettyimages.com/id/157398278/photo/global-warming-related-collage-of-newspaper-headlines.jpg?s=1024x1024&w=gi&k=20&c=RzoWeWVELCW5OalV07BArZhRgKY3U7xVgBJT2MoctwE=){fig-align="center"}
-
-## 14.3 Collage Examples (Cont'd)
-![](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0c466d85713249.5d83bdaca50ae.png){fig-align="center"}
+PRO-DEVELOPMENT: We may have already crossed tipping points. Permafrost is thawing NOW. If we don't intervene, no amount of emissions cuts will save us. Perfect is the enemy of surviving.
+:::
 
 ---
 
@@ -516,76 +562,202 @@ Certainly, let's break down the responses into shorter sub-bullets for clarity:
 
 ---
 
-## Create Your Persona
+#
 
-::: {style="font-size: 1.4em;"}
-**PRO-CLIMATE (Systems Thinkers):**
+```{=html}
+<style>
+  #w10groupAssignment_container { text-align: center; margin-top: 20px; font-family: Arial, sans-serif; }
+  #w10groupAssignment_startButton { font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #3498db; color: white; border: none; border-radius: 5px; transition: background-color 0.3s; }
+  #w10groupAssignment_startButton:hover { background-color: #2980b9; }
+  #w10groupAssignment_overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255,255,255,0.9); display: none; justify-content: center; align-items: center; z-index: 1000; }
+  #w10groupAssignment_display { font-size: 36px; text-align: center; padding: 20px; max-width: 90%; max-height: 90%; overflow-y: auto; }
+  #w10groupAssignment_display h2 { color: #2c3e50; font-size: 48px; margin-bottom: 30px; }
+  #w10groupAssignment_display ul { list-style-type: none; padding: 0; }
+  #w10groupAssignment_display li { margin: 20px 0; font-size: 36px; background-color: #ecf0f1; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+  #w10groupAssignment_closeButton { position: absolute; top: 20px; right: 20px; font-size: 24px; cursor: pointer; background-color: #e74c3c; color: white; border: none; border-radius: 5px; padding: 10px 20px; }
+</style>
+<div id="w10groupAssignment_container">
+  <h1 style="font-size: 48px; color: #34495e;">Group Assignment Time!</h1>
+  <button id="w10groupAssignment_startButton">Start the assignment</button>
+</div>
+<div id="w10groupAssignment_overlay">
+  <div id="w10groupAssignment_display"></div>
+  <button id="w10groupAssignment_closeButton">Close</button>
+</div>
+<script>
+const W10GroupAssignment = {
+  groups: ['Group One','Group Two','Group Three','Group Four','Group Five','Group Six'],
+  vocations: ['Ecologist/Systems Scientist','Geoengineering Startup Founder','Arctic Indigenous Community Leader','Climate Policy Maker','Fossil Fuel Industry Strategist','General Public/Student'],
+  shuffleArray: function(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;},
+  createAssignment: function(){const s=this.shuffleArray([...this.vocations]);return this.groups.map((g,i)=>({group:g,vocation:s[i]}));},
+  displayAssignment: function(){const a=this.createAssignment();let h='<h2>Random Group Assignments</h2><ul>';a.forEach(x=>{h+=`<li><strong>${x.group}:</strong> ${x.vocation}</li>`;});h+='</ul>';document.getElementById('w10groupAssignment_display').innerHTML=h;document.getElementById('w10groupAssignment_overlay').style.display='flex';},
+  init: function(){document.getElementById('w10groupAssignment_startButton').addEventListener('click',()=>this.displayAssignment());document.getElementById('w10groupAssignment_closeButton').addEventListener('click',()=>{document.getElementById('w10groupAssignment_overlay').style.display='none';});}
+};
+W10GroupAssignment.init();
+</script>
+```
 
-- Ecologist studying cascade effects
-- Indigenous elder with traditional knowledge
-- Climate scientist modeling feedback loops
-- Philosopher questioning reductionist thinking
+## Presentation Countdown
 
-**PRO-DEVELOPMENT (Targeted Solutions):**
+<div id="w10timer-container" style="text-align: center;">
+  <div id="w10timer" style="font-size: 348px; color: black; margin-bottom: 20px;">05:00</div>
+  <button id="w10start-button" style="font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #27ae60; color: white; border: none; border-radius: 8px;" onclick="w10startTimer()">Start 5:00</button>
+  <button id="w10reset-button" style="font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #e74c3c; color: white; border: none; border-radius: 8px; margin-left: 10px;" onclick="w10resetTimer()">Reset</button>
+</div>
 
-- Engineer building air purification systems
-- Economist measuring intervention ROI
-- Public health official with limited budget
-- Politician needing visible wins before election
-:::
+<script>
+let w10timeLeft = 300; let w10timerInterval = null;
+function w10updateDisplay(){const m=Math.floor(w10timeLeft/60);const s=w10timeLeft%60;document.getElementById('w10timer').textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');document.getElementById('w10timer').style.color=w10timeLeft<=30?'#e74c3c':'black';}
+function w10startTimer(){if(w10timerInterval)return;w10timerInterval=setInterval(()=>{if(w10timeLeft>0){w10timeLeft--;w10updateDisplay();}else{clearInterval(w10timerInterval);w10timerInterval=null;}},1000);}
+function w10resetTimer(){clearInterval(w10timerInterval);w10timerInterval=null;w10timeLeft=300;w10updateDisplay();}
+w10updateDisplay();
+</script>
 
-::: {style="font-size: 1.5em; font-weight: bold; margin-top: 30px;"}
-Who are you? What's your story? What do you fear losing?
+---
+
+## The Debate
+
+::: {style="font-size: 1.4em; line-height: 1.8;"}
+**Think in cascades:**
+
+- **First order** — what does geoengineering do immediately?
+- **Second order** — what does it cause next? (political, ecological, social)
+- **Third order** — what cascades from *that*?
+
+The strongest debaters today won't just argue for or against. They'll **trace the chain** — and show where it breaks or where it holds.
 :::
 
 ---
 
-## Human Story: The Aral Sea
+## Ground Rules
+
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+- This is a [**safe space**]{style="color: #27ae60;"} for exploration and discussion. There are [**no wrong answers**]{style="color: #e74c3c;"}, only opportunities to learn.
+
+- **Respect** and **open-mindedness** are our guiding principles. Every opinion shared contributes to collective learning.
+
+- **Feedback** and **reflection** are encouraged. This is a chance to voice thoughts, ask questions, and grow from the experience.
+:::
+
+---
+
+# Your Cheatsheet
+
+---
+
+## Pro-Climate (Systems) Talking Points {.smaller}
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**Everything Connects — Don't Break the System Further:**
+
+- Geoengineering creates its own **cascade of unintended consequences** — SRM disrupts monsoons affecting 2 billion people
+- **Moral hazard** — if we think technology will save us, we stop cutting emissions. That's exactly what the fossil fuel lobby wants.
+- Rachel Carson warned us: the chemical industry said pesticides were safe. They cascaded through the food chain. Geoengineering is the same gamble at planetary scale.
+- Permafrost holds **1,700 Gt of carbon** — no geoengineering scheme addresses this. Only emissions cuts prevent more thawing.
+- The Aral Sea taught us: targeted interventions without systems thinking **create disasters**
+:::
+
+---
+
+## Pro-Development (Solutions) Talking Points {.smaller}
+
+::: {style="font-size: 1.3em; line-height: 1.8;"}
+**We May Not Have Time for Perfect Understanding:**
+
+- Permafrost is thawing **now**. Arctic ice is declining **now**. Some tipping points may already be crossed — emissions cuts alone can't reverse what's started.
+- CCS is proven technology — Norway's Sleipner project has stored CO₂ since 1996. Scale it.
+- **Paralysis kills more than imperfect action** — while systems thinkers debate interconnectedness, the ice keeps melting
+- SRM could buy **critical decades** of time while we transition energy systems — a bridge, not a destination
+- Every medical intervention has side effects. We don't refuse chemotherapy because it causes nausea. We manage the side effects and treat the disease.
+:::
+
+---
+
+# This Week's Conceptual Takeaway
+
+---
+
+## The Human Story: The Aral Sea
 
 ::: {style="font-size: 1.4em; line-height: 1.8;"}
 **The USSR diverted rivers** to irrigate cotton fields. Simple, targeted solution. More cotton, more exports.
 
-**The Aral Sea disappeared.** Fishing communities died. Toxic dust storms now poison children 1000km away. The climate shifted.
+**The Aral Sea disappeared.** Fishing communities died. Toxic dust storms now poison children 1,000 km away. The local climate shifted.
 
 **PRO-DEVELOPMENT says:** "Hindsight is easy. They needed cotton. We need action, not paralysis."
 
 **PRO-CLIMATE says:** "They ignored the system. We're still ignoring it. How many more Aral Seas?"
 :::
 
-::: {style="font-size: 1.3em; margin-top: 30px; color: #7f8c8d;"}
+::: {style="font-size: 1.3em; margin-top: 20px; color: #7f8c8d;"}
 *Both sides have a point. Your job: Find the story that moves people without lying.*
 :::
 
 ---
 
-## Remember: Fact-Check Your Stories
+## The Decision Tree
 
-::: {style="font-size: 2.5em; font-weight: bold; color: #c0392b; text-align: center;"}
-Every story must be **fact-checkable**.
+::: {style="font-size: 1.5em; line-height: 1.8;"}
+Before this week, "everything is connected" might have sounded like a bumper sticker.
+
+Now you know: **every climate decision is a fork in the path.** You don't "fix" something — you switch the system onto a new trajectory. And every fork determines all the branches after it.
 :::
 
 ::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
 ::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
-::: {style="font-size: 1.5em; font-weight: bold;"}
-OK to Say
+::: {style="font-size: 1.3em; font-weight: bold;"}
+Reversible Forks
 :::
-::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
-- "Wolves changed river courses in Yellowstone" *(documented)*
-- "Permafrost holds 2x atmospheric carbon" *(IPCC data)*
-- "The Aral Sea lost 90% of its volume" *(satellite images)*
+::: {style="font-size: 1.1em; line-height: 1.6; margin-top: 10px;"}
+- **Wolves** removed → landscape transformed → wolves reintroduced → *partial* recovery. Some damage undone. Not all.
+- **Emissions cuts** → if deep enough, some systems stabilise. The path bends back — slowly.
 :::
 :::
 
-::: {style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
-::: {style="font-size: 1.5em; font-weight: bold;"}
-NOT OK
+::: {style="text-align: left; width: 45%; background: #c0392b; color: white; padding: 30px; border-radius: 10px;"}
+::: {style="font-size: 1.3em; font-weight: bold;"}
+One-Way Doors
 :::
-::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
-- "All targeted interventions fail" *(false generalization)*
-- "Systems thinking solves everything" *(unfounded)*
-- "We've passed all the tipping points" *(exaggeration)*
+::: {style="font-size: 1.1em; line-height: 1.6; margin-top: 10px;"}
+- **Aral Sea** diverted → gone. That path doesn't exist anymore.
+- **Permafrost** thawing → self-reinforcing. Once it starts, it feeds itself.
+- **Amazon** at 17% → the fork to savanna may be 3% away. Once you step through, the rainforest doesn't come back.
 :::
 :::
+:::
+
+---
+
+## {background-color="#1a1a2e"}
+
+::: {style="font-size: 2.2em; color: white; text-align: center; line-height: 1.6;"}
+The tragedy of cascade effects:
+
+we often don't know if a fork is reversible
+
+[**until we've already walked through it.**]{style="color: #e74c3c;"}
+:::
+
+::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px; text-align: center;"}
+*Ice sheets that collapse don't refreeze. Permafrost that thaws doesn't refreeze. Species that go extinct don't come back. These are one-way doors.*
+:::
+
+---
+
+## Cascade Effects
+
+::: {style="font-size: 1.5em; line-height: 1.8; background: #0a3d62; color: white; padding: 40px; border-radius: 15px;"}
+Now you have the mechanisms:
+
+- **Wolves → rivers** — remove one species, the landscape forks
+- **Permafrost → methane → warming** — a one-way door already opening
+- **Ice → dark water → heat → less ice** — a self-reinforcing spiral
+- **Amazon → drying → savanna** — 3% from a fork we can't undo
+- **Geoengineering → moral hazard** — the "fix" forks us onto a path of delayed action
+:::
+
+::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad; text-align: center;"}
+**Your portable takeaway:** Every climate decision is a fork. Some you can walk back. Some are one-way doors. The skill is knowing which is which — before you step through.
 :::
 
 ---
@@ -644,3 +816,28 @@ Then **returned** to that image at the close — but now you saw it differently.
 The bookend is the memory anchor.
 :::
 
+---
+
+# Appendix: Collage Examples
+
+---
+
+## Collage Inspiration {.smaller}
+
+::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
+::: {style="text-align: center; width: 45%;"}
+Your collage should tell a **systems story** — not just collect images, but show how they **connect**.
+
+One image leads to another. Cause → effect → cascade.
+
+The best collages make the viewer **trace the chain** themselves.
+:::
+::: {style="text-align: center; width: 45%;"}
+**Remember:**
+
+- Script matters more than production quality
+- Voice-over on still images works
+- Clips stitched with slogans works
+- The quality of the **message** is valued above the quality of the video
+:::
+:::
