@@ -18,8 +18,8 @@ website:
             text: Weekly Reflection
           - href: portfolio_roadmap.qmd#deliverable-1-final-reflective-essay-20
             text: Final Portfolio
-      - href: ind.qmd
-        text: Portfolios|2024
+      - href: exhibition_2026.qmd
+        text: "Exhibition | 2026"
 
 format:
   html:
@@ -33,6 +33,10 @@ format:
 
 resources:
   - "data/*"
+  - "data/2026/thumbs/**"
+  - "data/2026/anon/**"
+  - "data/2026/videos/**"
+  - "assets/2026/**"
 
 
 

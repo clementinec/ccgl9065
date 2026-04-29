@@ -1,0 +1,5 @@
+Embedded Video for the Video Essay
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wkpwjB-L7zU?si=TVMHV-PYVcmI3Lqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Collage
+<a href="https://ibb.co/HLZKkhPS"><img src="https://i.ibb.co/1Yc0wzXg/Final-Collage-0426.png" alt="Final-Collage-0426" border="0"></a>

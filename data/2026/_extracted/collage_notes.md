@@ -1,0 +1,98 @@
+# Collage extraction notes
+
+- Source folder: `data/2026/collage_pass`
+- Non-manifest submissions processed: 36
+- Moodle filename parsing used the rightmost `_4021069_<id>` suffix when present; one file required a fallback pattern because the course-id segment was absent.
+- For uploaded `.png`, `.jpg`, and `.pdf` submissions, `local_collage_path` is populated. `ibb_image_link` is only populated for those when an embedded/extracted collage link was found.
+- Link priority was direct `i.ibb.co` image URL, then `ibb.co` page URL, then other non-video collage candidates such as Canva or Drive for text/link submissions.
+
+## Anomalies and ambiguous cases
+
+- **Martina Bianca Roman Sy (357632)**: `2933856400 - Martina Bianca Roman Sy - 357632_Martina_Bianca_Roman_Sy_Final_Video_and_Collage_4021069_771911060.txt`
+  - collage/link recorded: `https://i.ibb.co/CKYZFLRZ/I-HAVE-NOTHING-TO-WEAR.png`
+  - cross-links: video: https://www.youtube.com/watch?v=4FE_PVnP5HM
+- **Yung Mei Charlize Au-Yeung (361122)**: `2939012655 - Yung Mei Charlize Au-Yeung - 361122_Yung_Mei_Charlize_Au-Yeung_Final_Portfolio_Video_Collage_Charlize_Au-Yeung_3036567107_4021069_2109092146.txt`
+  - collage/link recorded: `https://i.ibb.co/bgbFjPsz/2-Collage.png`
+  - cross-links: video: https://youtu.be/Tq3Pcx2qxts ; https://www.youtube.com/embed/Tq3Pcx2qxts?si=koupc-tQb5sbvI-r
+- **Benjamin Alfons Hanusch (376319)**: `2939248399 - Benjamin Alfons Hanusch - 376319_Benjamin_Alfons_Hanusch_Collage_Link__Video_Link_4021069_1669199598.rtf`
+  - collage/link recorded: `https://drive.google.com/file/d/1l_u4MF0a30NacrGOB4dUZucK4xtzlmTm/view?usp=sharing`
+  - cross-links: video: https://youtu.be/T_XoIwKY6qU?si=q2XZTY4HaYBj2iwm
+  - notes: non-ibb collage/link candidate
+- **Daniel Poon (356878)**: `2940233956 - Daniel Poon - 356878_Daniel_Poon_Video_essay___collage_4021069_1919251735.pdf`
+  - collage/link recorded: `https://i.ibb.co/8DkmrTbC/DP-Collage.png`
+  - local upload recorded: `data/2026/collage_pass/2940233956 - Daniel Poon - 356878_Daniel_Poon_Video_essay___collage_4021069_1919251735.pdf`
+  - cross-links: video: https://www.youtube.com/watch?v=KiUAzKrr4nA ; https://www.youtube.com/embed/KiUAzKrr4nA?si=sH-baMpYRgHDfhf4
+  - notes: uploaded image/PDF submission also contains an embedded/extracted link
+- **Yu-Xuan Chiang (356826)**: `2941218613 - Yu-Xuan Chiang - 356826_Yu-Xuan_Chiang_Final_Portfolio_Chiang_Yu_Xuan_4021069_366838758.txt`
+  - collage/link recorded: `https://i.ibb.co/8gQfrMCd/Untitled-design-11.png`
+  - cross-links: video: https://youtu.be/n90F525wc0M
+- **Ismael Jibbril Youssef Lahriri (376403)**: `2942122925 - Ismael Jibbril Youssef Lahriri - 376403_Ismael_Jibbril_Youssef_Lahriri_Video_link_on_Notion_httpswww.notion.so2f4a36e3b5cb8195b99dd7385427da09v_2f4a36_1300988713.pdf`
+  - local upload recorded: `data/2026/collage_pass/2942122925 - Ismael Jibbril Youssef Lahriri - 376403_Ismael_Jibbril_Youssef_Lahriri_Video_link_on_Notion_httpswww.notion.so2f4a36e3b5cb8195b99dd7385427da09v_2f4a36_1300988713.pdf`
+  - notes: Moodle course id segment missing from filename; parsed with fallback pattern. | no embedded ibb/imgbb collage link found in local upload | uploaded image/PDF submission; no embedded collage link extracted
+- **Wing Lam Ng (372150)**: `2943389127 - Wing Lam Ng - 372150_Wing_Lam_Ng_CCGL9065_Final_Portfolio_Links_-_Ng_Wing_Lam_4021069_1464411166.docx`
+  - collage/link recorded: `https://i.ibb.co/rRpYjHpq/CCGL9065-Visual-Creation-Collage.png`
+  - cross-links: video: https://www.youtube.com/embed/3G01JIznyG8?si=yIVUR-7T8_pytkrt ; https://youtu.be/3G01JIznyG8?si=t8VYSbHyvQUKb7n_
+- **Ka Ho Tang (294341)**: `2943429013 - Ka Ho Tang - 294341_Ka_Ho_Tang_Video_Essay___Collage_4021069_1468433192.txt`
+  - collage/link recorded: `https://i.ibb.co/JRKmGMfB/CCGL9065-Collage-Tang-Ka-Ho-3036220371-Tutorial-5.png`
+  - cross-links: video: https://www.youtube.com/embed/wgO6ROKNJZ0?si=BPYkhqJ7B6dhjxUc
+- **Hui Cheung Matthew Mok (367928)**: `2943517738 - Hui Cheung Matthew Mok - 367928_Hui_Cheung_Matthew_Mok_Video_Essay_and_Collage_Embedded_Links_4021069_1918713154.txt`
+  - collage/link recorded: `https://i.ibb.co/1Yc0wzXg/Final-Collage-0426.png`
+  - cross-links: video: https://www.youtube.com/embed/wkpwjB-L7zU?si=TVMHV-PYVcmI3Lqm
+- **Anurag Roy (349345)**: `2943842773 - Anurag Roy - 349345_Anurag_Roy_3036468258_4021069_516008451.html`
+  - collage/link recorded: `https://i.ibb.co/pB3BmdNj/CCGL-9065-Collage-3036468258-1.png`
+  - cross-links: video: https://www.youtube.com/embed/LSPTkYWwsrY?si=lfJNfpbsKvGSqcH6
+- **Marshall Tang (364463)**: `2944033048 - Marshall Tang - 364463_Marshall_Tang_Portfolio_video_and_collage_links_4021069_961691124.txt`
+  - collage/link recorded: `https://i.ibb.co/Z6k9Pt6H/b00ffc58e4bed094b1e01897b356e03f-1.jpg`
+  - cross-links: video: https://www.youtube.com/embed/MboD-nLCsFY?si=sTCy6ER1yrmYFfLu
+- **Chun Hei Ting (363604)**: `2944090020 - Chun Hei Ting - 363604_Chun_Hei_Ting_vidoe_collage_4021069_750696116.txt`
+  - collage/link recorded: `https://i.ibb.co/219PRZTv/CCGL.png`
+  - cross-links: video: https://www.youtube.com/embed/jSKSVWJmWVI?si=kcGiT3AFKORI8mhN
+- **Sum Yau Cheung (364674)**: `2945129467 - Sum Yau Cheung - 364674_Sum_Yau_Cheung_3036596251_CCGL9065_Collage___Video_Essay_Link_4021069_786351577.pdf`
+  - local upload recorded: `data/2026/collage_pass/2945129467 - Sum Yau Cheung - 364674_Sum_Yau_Cheung_3036596251_CCGL9065_Collage___Video_Essay_Link_4021069_786351577.pdf`
+  - cross-links: video: https://youtu.be/4QxmfYwQdWo?si=v2BKPCdMuexNqeRr
+  - notes: no embedded ibb/imgbb collage link found in local upload | uploaded image/PDF submission; no embedded collage link extracted
+- **Jihoo Kim (356855)**: `2945266043 - Jihoo Kim - 356855_Jihoo_Kim_CCGL9065_-_Collage_4021069_59262020.pdf`
+  - local upload recorded: `data/2026/collage_pass/2945266043 - Jihoo Kim - 356855_Jihoo_Kim_CCGL9065_-_Collage_4021069_59262020.pdf`
+  - notes: no embedded ibb/imgbb collage link found in local upload | uploaded image/PDF submission; no embedded collage link extracted
+- **Yu Hei Mak (363028)**: `2945286470 - Yu Hei Mak - 363028_Yu_Hei_Mak_CCGL9065_collage_4021069_790455056.txt`
+  - collage/link recorded: `https://ibb.co/997wpZ0x`
+  - notes: ibb.co page link only; no direct i.ibb image URL found
+- **Yuen Ki Cheung (364699)**: `2945519042 - Yuen Ki Cheung - 364699_Yuen_Ki_Cheung_poster_4021069_458293840.pdf`
+  - local upload recorded: `data/2026/collage_pass/2945519042 - Yuen Ki Cheung - 364699_Yuen_Ki_Cheung_poster_4021069_458293840.pdf`
+  - notes: no embedded ibb/imgbb collage link found in local upload | uploaded image/PDF submission; no embedded collage link extracted
+- **Wanying Li (365248)**: `2945695067 - Wanying Li - 365248_Wanying_Li_Collage-Food_System_3036604565_4021069_270807106.txt`
+  - collage/link recorded: `https://www.canva.com/design/DAHFg6Kie0M/IDkYLTC2HYjELCCfGLC0BQ/view?embed`
+  - notes: non-ibb collage/link candidate
+- **Pak Man Fung (328919)**: `2946187242 - Pak Man Fung - 328919_Pak_Man_Fung_Collage_4021069_794748224.txt`
+  - collage/link recorded: `https://www.canva.com/design/DAHGFomhlP0/K_e73buFM-6QjcayrzWShg/view?embed`
+  - notes: non-ibb collage/link candidate
+- **Chi Kiu Chow (363047)**: `2946342193 - Chi Kiu Chow - 363047_Chi_Kiu_Chow_Video_Essay_4021069_2117693839.txt`
+  - cross-links: video: https://youtu.be/jWH8nxvkwiY
+  - notes: no collage/image link found | link/text submission with no collage/image link extracted
+- **Hua Zong (225592)**: `2946376691 - Hua Zong - 225592_Hua_Zong_collage_4021069_429399426.pdf`
+  - local upload recorded: `data/2026/collage_pass/2946376691 - Hua Zong - 225592_Hua_Zong_collage_4021069_429399426.pdf`
+  - notes: no embedded ibb/imgbb collage link found in local upload | uploaded image/PDF submission; no embedded collage link extracted
+- **Jason Yeung (357039)**: `2946488135 - Jason Yeung - 357039_Jason_Yeung_Collage_4021069_721140393.png`
+  - local upload recorded: `data/2026/collage_pass/2946488135 - Jason Yeung - 357039_Jason_Yeung_Collage_4021069_721140393.png`
+  - notes: no embedded ibb/imgbb collage link found in local upload | uploaded image/PDF submission; no embedded collage link extracted
+- **Tsz Ho Ngai (363110)**: `2946538289 - Tsz Ho Ngai - 363110_Tsz_Ho_Ngai_httpsi.ibb.copvRcd4zMCCGL9065-Collage.png_4021069_757546635.png`
+  - local upload recorded: `data/2026/collage_pass/2946538289 - Tsz Ho Ngai - 363110_Tsz_Ho_Ngai_httpsi.ibb.copvRcd4zMCCGL9065-Collage.png_4021069_757546635.png`
+  - notes: no embedded ibb/imgbb collage link found in local upload | uploaded image/PDF submission; no embedded collage link extracted | possible malformed i.ibb URL in filename
+- **Alexandre Olivier Oriol Gergele (376517)**: `2946567099 - Alexandre Olivier Oriol Gergele - 376517_Alexandre_Olivier_Oriol_Gergele_Climate_Change_Collage_4021069_1744992933.png`
+  - local upload recorded: `data/2026/collage_pass/2946567099 - Alexandre Olivier Oriol Gergele - 376517_Alexandre_Olivier_Oriol_Gergele_Climate_Change_Collage_4021069_1744992933.png`
+  - notes: no embedded ibb/imgbb collage link found in local upload | uploaded image/PDF submission; no embedded collage link extracted
+- **Anmol Kanwal (257025)**: `2946600000 - Anmol Kanwal - 257025_Anmol_Kanwal_CCGL9065_Collage_3036059899_4021069_262274078.pdf`
+  - collage/link recorded: `https://i.ibb.co/vCPyK1rF/CCGL9065-Collage-optimized-3036059899.png`
+  - local upload recorded: `data/2026/collage_pass/2946600000 - Anmol Kanwal - 257025_Anmol_Kanwal_CCGL9065_Collage_3036059899_4021069_262274078.pdf`
+  - cross-links: essay references: https://news.un.org/en/story/2026/01/1166800
+  - notes: uploaded image/PDF submission also contains an embedded/extracted link
+- **Shijun Feng (351352)**: `2946664783 - Shijun Feng - 351352_Shijun_Feng_Shijun_Feng_Collage_4021069_878714730.JPG`
+  - local upload recorded: `data/2026/collage_pass/2946664783 - Shijun Feng - 351352_Shijun_Feng_Shijun_Feng_Collage_4021069_878714730.JPG`
+  - notes: no embedded ibb/imgbb collage link found in local upload | uploaded image/PDF submission; no embedded collage link extracted
+- **Jeff Chun Fu Lam (351459)**: `2946716389 - Jeff Chun Fu Lam - 351459_Jeff_Chun_Fu_Lam_CCGL9059_Collage_4021069_574683138.txt`
+  - collage/link recorded: `https://ibb.co/BKnrWtBw`
+  - notes: ibb.co page link only; no direct i.ibb image URL found
+- **Hong Kiu Jamie Lee (364088)**: `2946752763 - Hong Kiu Jamie Lee - 364088_Hong_Kiu_Jamie_Lee_FinalPortfolio_LeeHongKiuJamie_3036594083_4021069_385523739.pdf`
+  - local upload recorded: `data/2026/collage_pass/2946752763 - Hong Kiu Jamie Lee - 364088_Hong_Kiu_Jamie_Lee_FinalPortfolio_LeeHongKiuJamie_3036594083_4021069_385523739.pdf`
+  - cross-links: video: https://youtu.be/6-kB0e9iY_Y?si=K5yVfQ0_fXFncDrR | essay references: https://economictimes.indiatimes.com/magazines/panache/why-is-elon-musk-obsessed-with-s ; https://www.nasa.gov/news-release/mars-terraforming-not-possible-using-present-day-techno ; https://www.forbes.com/sites/niallmccarthy/2018/11/27/missions-to-mars-have-had-a-high-fa ; https://www.bbc.com/future/article/20220713-how-to-make-rocket-launches-less-polluting ; https://www.nbcnews.com/science/environment/spacex-polluted-waters-texas-regulators-rcna ; https://www.pbs.org/exploringspace/mars/terraforming/page7.html
+  - notes: no embedded ibb/imgbb collage link found in local upload | uploaded image/PDF submission; no embedded collage link extracted

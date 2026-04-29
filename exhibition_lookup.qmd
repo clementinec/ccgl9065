@@ -1,0 +1,63 @@
+---
+title: ""
+pagetitle: "Exhibition · 2026 · Lookup"
+format:
+  html:
+    page-layout: full
+    toc: false
+    css: assets/2026/gallery.css
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex,nofollow">
+        <link rel="preconnect" href="https://www.youtube.com">
+    include-after-body:
+      text: |
+        <script src="assets/2026/gallery.js" defer></script>
+---
+
+```{=html}
+<div class="ex2026" data-mode="curator">
+
+  <section class="ex2026__hero">
+    <div class="ex2026__kicker">CCGL9065 · Presentation Tool</div>
+    <h1 class="ex2026__title">Author <em>Lookup</em></h1>
+    <p class="ex2026__lede">
+      Search by email or name to pull up an individual portfolio. This view is
+      for the live presentation only — it expires end of day, 29 April 2026.
+    </p>
+  </section>
+
+  <section class="ex2026__lookup">
+    <div class="ex2026__search">
+      <div>
+        <label>Email</label>
+        <input type="email" data-search-email placeholder="u3xxxxxx@connect.hku.hk" autocomplete="off">
+      </div>
+      <div>
+        <label>Name</label>
+        <input type="text" data-search-name placeholder="last or first name" autocomplete="off">
+      </div>
+    </div>
+  </section>
+
+  <section class="ex2026__results" data-results></section>
+
+  <section class="ex2026__stage" style="padding-top:0">
+    <header class="ex2026__stage-head">
+      <div class="ex2026__stage-label">Selected portfolio</div>
+      <div class="ex2026__stage-counter" data-counter>— / —</div>
+    </header>
+
+    <div data-stage>
+      <div class="ex2026__loading">Loading…</div>
+    </div>
+
+    <div class="ex2026__controls">
+      <button class="ex2026__btn ex2026__btn--ghost" data-prev type="button">← Previous</button>
+      <button class="ex2026__btn ex2026__btn--primary" data-next type="button">Next →</button>
+      <button class="ex2026__btn ex2026__btn--ghost" data-shuffle type="button">↻ Shuffle</button>
+    </div>
+  </section>
+
+</div>
+```
