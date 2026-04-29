@@ -3,15 +3,17 @@
 Build pipeline for the CCGL9065 2026 Exhibition.
 
 Reads:    data/2026/portfolio_master_2026.csv (canonical join, made by upstream agent)
+          data/2026/late_submissions.csv      (optional manual rows for late adds)
 Emits:    data/students_2026_public.json   (anonymous, numbered, no names/emails)
           data/students_2026_curator.json  (full info — names, emails, real paths)
+          data/2026/portfolio_id_map.csv   (stable student/email -> pXX map)
           data/2026/thumbs/pXX.jpg         (square-ish 1200px-wide collage thumbs)
           data/2026/anon/pXX/{collage,essay}.<ext>  (anonymized media copies)
 
 Idempotent — re-run when the master CSV changes.
 
-Numbering: portfolio numbers (p01 .. p38) are assigned by sorted email so
-they stay stable across rebuilds, even if the master CSV row order shifts.
+Numbering: portfolio numbers (p01 ..) are persisted in portfolio_id_map.csv.
+Late additions get the next available number instead of renumbering earlier work.
 """
 from __future__ import annotations
 
@@ -27,6 +29,8 @@ from typing import Any
 
 REPO = Path(__file__).resolve().parent.parent
 MASTER = REPO / "data/2026/portfolio_master_2026.csv"
+LATE = REPO / "data/2026/late_submissions.csv"
+ID_MAP = REPO / "data/2026/portfolio_id_map.csv"
 PUBLIC_JSON = REPO / "data/students_2026_public.json"
 CURATOR_JSON = REPO / "data/students_2026_curator.json"
 THUMBS = REPO / "data/2026/thumbs"
@@ -35,6 +39,86 @@ VIDEOS = REPO / "data/2026/videos"
 
 THUMB_WIDTH = 1200
 THUMB_QUALITY = 82
+
+
+def row_key(row: dict) -> str:
+    email = (row.get("email") or "").strip().lower()
+    if email:
+        return f"email:{email}"
+    student_number = (row.get("student_number") or "").strip()
+    if student_number:
+        return f"student_number:{student_number}"
+    name = (row.get("student_name") or "").strip().lower()
+    name = re.sub(r"[^a-z0-9]+", "", name)
+    return f"name:{name}"
+
+
+def read_csv_rows(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open(newline="") as f:
+        return [dict(row) for row in csv.DictReader(f) if any((v or "").strip() for v in row.values())]
+
+
+def next_portfolio_id(used_ids: set[str]) -> str:
+    n = 1
+    while True:
+        pid = f"p{n:02d}"
+        if pid not in used_ids:
+            return pid
+        n += 1
+
+
+def load_id_map(rows: list[dict]) -> dict[str, str]:
+    id_map: dict[str, str] = {}
+
+    if ID_MAP.exists():
+        with ID_MAP.open(newline="") as f:
+            for row in csv.DictReader(f):
+                key = (row.get("key") or "").strip()
+                pid = (row.get("portfolio_id") or "").strip()
+                if key and pid:
+                    id_map[key] = pid
+    elif CURATOR_JSON.exists():
+        # Bootstrap from the current built curator file so existing pXX labels do
+        # not shift when this persistent map is introduced.
+        try:
+            data = json.loads(CURATOR_JSON.read_text())
+            for item in data.get("portfolios", []):
+                key = row_key(item)
+                pid = (item.get("id") or "").strip()
+                if key and pid:
+                    id_map[key] = pid
+        except Exception as exc:
+            print(f"  ! could not bootstrap ID map from curator JSON: {exc}", file=sys.stderr)
+
+    used_ids = set(id_map.values())
+    for row in rows:
+        key = row_key(row)
+        explicit_pid = (row.get("portfolio_id") or "").strip().lower()
+        if explicit_pid:
+            id_map[key] = explicit_pid
+            used_ids.add(explicit_pid)
+        elif key not in id_map:
+            pid = next_portfolio_id(used_ids)
+            id_map[key] = pid
+            used_ids.add(pid)
+
+    ID_MAP.parent.mkdir(parents=True, exist_ok=True)
+    with ID_MAP.open("w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["key", "portfolio_id", "student_name", "email", "student_number"])
+        writer.writeheader()
+        rows_by_key = {row_key(row): row for row in rows}
+        for key, pid in sorted(id_map.items(), key=lambda kv: kv[1]):
+            row = rows_by_key.get(key, {})
+            writer.writerow({
+                "key": key,
+                "portfolio_id": pid,
+                "student_name": row.get("student_name", ""),
+                "email": row.get("email", ""),
+                "student_number": row.get("student_number", ""),
+            })
+    return id_map
 
 # Per-student overrides: when a student's collage PDF has the actual collage on
 # a page other than page 1, set email → 1-based page number here.
@@ -380,21 +464,27 @@ def main() -> int:
     ANON.mkdir(parents=True, exist_ok=True)
     VIDEOS.mkdir(parents=True, exist_ok=True)
 
-    with MASTER.open() as f:
-        rows = list(csv.DictReader(f))
+    rows = read_csv_rows(MASTER)
+    late_rows = read_csv_rows(LATE)
+    if late_rows:
+        print(f"Loaded {len(late_rows)} late submission row(s) from {LATE.relative_to(REPO)}")
+        rows.extend(late_rows)
 
-    # Stable numbering: sort by email
-    rows.sort(key=lambda r: (r["email"].lower(), r["student_number"]))
+    id_map = load_id_map(rows)
+
+    # Stable numbering: use the persisted pXX map, then student name for ties.
+    rows.sort(key=lambda r: (id_map[row_key(r)], r.get("student_name", "")))
 
     public_records: list[dict[str, Any]] = []
     curator_records: list[dict[str, Any]] = []
 
-    for i, r in enumerate(rows, start=1):
-        pid = f"p{i:02d}"
+    for r in rows:
+        pid = id_map[row_key(r)]
         coll_kind = classify_collage(r)
         vid_kind = classify_video(r)
 
         anon_dir = ANON / pid
+        thumb_jpg = THUMBS / f"{pid}.jpg"
 
         # ------ Collage ------
         thumb_url: str | None = None
@@ -508,6 +598,15 @@ def main() -> int:
                     thumb_url = f"data/2026/thumbs/{pid}.jpg"
                     collage_meta["preview_from_drive"] = True
         # else: "none" → no collage
+
+        if thumb_url is None and full_collage_url and thumb_jpg.exists():
+            thumb_url = f"data/2026/thumbs/{pid}.jpg"
+            if coll_kind == "canva":
+                collage_meta["preview_from_canva"] = True
+            elif coll_kind == "drive":
+                collage_meta["preview_from_drive"] = True
+            else:
+                collage_meta["thumbnail_reused"] = True
 
         # ------ Video ------
         v_src = r["video_best_link_or_path"]
