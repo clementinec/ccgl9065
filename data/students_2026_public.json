@@ -146,7 +146,7 @@
     },
     {
       "id": "p09",
-      "title": "Portfolio P09",
+      "title": "Bridge to Zero",
       "thumb": "data/2026/thumbs/p09.jpg",
       "collage": {
         "url": "data/2026/anon/p09/collage.jpg",
@@ -158,8 +158,8 @@
         "kind": "youtube"
       },
       "essay": {
-        "url": null,
-        "available": false
+        "url": "data/2026/anon/p09/essay.pdf",
+        "available": true
       }
     },
     {

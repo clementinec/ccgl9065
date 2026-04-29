@@ -257,8 +257,8 @@
       "last_name": "Hung",
       "email": "u3638636@connect.hku.hk",
       "student_number": "327816",
-      "anon_title": "Portfolio P09",
-      "essay_title": "",
+      "anon_title": "Bridge to Zero",
+      "essay_title": "The Bridge to Zero",
       "collage_title": "CCGL9065 collage",
       "video_title": "CCGL 9065 video essay",
       "thumb": "data/2026/thumbs/p09.jpg",
@@ -275,9 +275,9 @@
         "original_link": "https://www.youtube.com/embed/MhuL1cSuF2s"
       },
       "essay": {
-        "url": null,
-        "available": false,
-        "source_path": "",
+        "url": "data/2026/anon/p09/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/CCGL9065_essay_bio_3036386369.pdf",
         "converted_from_docx": false
       }
     },
