@@ -1,0 +1,680 @@
+{
+  "generated_at": "build_2026.py",
+  "count": 38,
+  "portfolios": [
+    {
+      "id": "p01",
+      "title": "Portfolio P01",
+      "thumb": "data/2026/thumbs/p01.jpg",
+      "collage": {
+        "url": "data/2026/anon/p01/collage.png",
+        "kind": "local_image"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/i5oi-7lM70Y",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p01/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p02",
+      "title": "Portfolio P02",
+      "thumb": "data/2026/thumbs/p02.jpg",
+      "collage": {
+        "url": "https://www.canva.com/design/DAHGFomhlP0/K_e73buFM-6QjcayrzWShg/view?embed",
+        "kind": "canva",
+        "preview_from_canva": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/7EW_t2GfFdc",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p02/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p03",
+      "title": "Portfolio P03",
+      "thumb": "data/2026/thumbs/p03.jpg",
+      "collage": {
+        "url": "data/2026/anon/p03/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/2SFShMJeZuk",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p03/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p04",
+      "title": "Portfolio P04",
+      "thumb": "data/2026/thumbs/p04.jpg",
+      "collage": {
+        "url": "data/2026/anon/p04/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/4FE_PVnP5HM",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p04/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p05",
+      "title": "Portfolio P05",
+      "thumb": "data/2026/thumbs/p05.jpg",
+      "collage": {
+        "url": "data/2026/anon/p05/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/wgO6ROKNJZ0",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p05/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p06",
+      "title": "Portfolio P06",
+      "thumb": "data/2026/thumbs/p06.jpg",
+      "collage": {
+        "url": "data/2026/anon/p06/collage.pdf",
+        "kind": "local_pdf"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/TvNRlEpA2T8",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p06/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p07",
+      "title": "Portfolio P07",
+      "thumb": "data/2026/thumbs/p07.jpg",
+      "collage": {
+        "url": "data/2026/anon/p07/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/Rya6icjGx6o",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p07/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p08",
+      "title": "Portfolio P08",
+      "thumb": "data/2026/thumbs/p08.jpg",
+      "collage": {
+        "url": "data/2026/anon/p08/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/ji_kNvoRJ30",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p08/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p09",
+      "title": "Portfolio P09",
+      "thumb": "data/2026/thumbs/p09.jpg",
+      "collage": {
+        "url": "data/2026/anon/p09/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/MhuL1cSuF2s",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": null,
+        "available": false
+      }
+    },
+    {
+      "id": "p10",
+      "title": "Portfolio P10",
+      "thumb": "data/2026/thumbs/p10.jpg",
+      "collage": {
+        "url": "data/2026/anon/p10/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/LYRDVAUTWYo",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p10/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p11",
+      "title": "Portfolio P11",
+      "thumb": "data/2026/thumbs/p11.jpg",
+      "collage": {
+        "url": "data/2026/anon/p11/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/LSPTkYWwsrY",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p11/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p12",
+      "title": "Portfolio P12",
+      "thumb": "data/2026/thumbs/p12.jpg",
+      "collage": {
+        "url": "data/2026/anon/p12/collage.jpg",
+        "kind": "local_image"
+      },
+      "video": {
+        "url": "data/2026/videos/p12.mp4",
+        "kind": "local"
+      },
+      "essay": {
+        "url": "data/2026/anon/p12/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p13",
+      "title": "Portfolio P13",
+      "thumb": null,
+      "collage": {
+        "url": null,
+        "kind": "none"
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p13/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p14",
+      "title": "Is Fast Fashion Destroying Earth",
+      "thumb": "data/2026/thumbs/p14.jpg",
+      "collage": {
+        "url": "data/2026/anon/p14/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/WpfU3dDiV7U",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p14/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p15",
+      "title": "Portfolio P15",
+      "thumb": "data/2026/thumbs/p15.jpg",
+      "collage": {
+        "url": "data/2026/anon/p15/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/Mny5ziQ9Xlc",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p15/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p16",
+      "title": "Portfolio P16",
+      "thumb": "data/2026/thumbs/p16.jpg",
+      "collage": {
+        "url": "data/2026/anon/p16/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/KiUAzKrr4nA",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p16/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p17",
+      "title": "Portfolio P17",
+      "thumb": "data/2026/thumbs/p17.jpg",
+      "collage": {
+        "url": "data/2026/anon/p17/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/-P8m1W5LTig",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p17/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p18",
+      "title": "Portfolio P18",
+      "thumb": "data/2026/thumbs/p18.jpg",
+      "collage": {
+        "url": "data/2026/anon/p18/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/h0CU1q4gJOI",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p18/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p19",
+      "title": "Portfolio P19",
+      "thumb": "data/2026/thumbs/p19.jpg",
+      "collage": {
+        "url": "data/2026/anon/p19/collage.pdf",
+        "kind": "local_pdf"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/3DVNfFCbO8o",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p19/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p20",
+      "title": "Portfolio P20",
+      "thumb": null,
+      "collage": {
+        "url": null,
+        "kind": "none"
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p20/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p21",
+      "title": "Portfolio P21",
+      "thumb": "data/2026/thumbs/p21.jpg",
+      "collage": {
+        "url": "data/2026/anon/p21/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/n90F525wc0M",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p21/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p22",
+      "title": "Portfolio P22",
+      "thumb": "data/2026/thumbs/p22.jpg",
+      "collage": {
+        "url": "data/2026/anon/p22/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/eF11f8r0miE",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": null,
+        "available": false
+      }
+    },
+    {
+      "id": "p23",
+      "title": "Portfolio P23",
+      "thumb": "data/2026/thumbs/p23.jpg",
+      "collage": {
+        "url": "data/2026/anon/p23/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/Tq3Pcx2qxts",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p23/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p24",
+      "title": "Portfolio P24",
+      "thumb": "data/2026/thumbs/p24.jpg",
+      "collage": {
+        "url": "data/2026/anon/p24/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/jWH8nxvkwiY",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p24/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p25",
+      "title": "Portfolio P25",
+      "thumb": "data/2026/thumbs/p25.jpg",
+      "collage": {
+        "url": "data/2026/anon/p25/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/25STTLouEv4",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p25/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p26",
+      "title": "Portfolio P26",
+      "thumb": "data/2026/thumbs/p26.jpg",
+      "collage": {
+        "url": "data/2026/anon/p26/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/5LrKTpaGd-0",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p26/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p27",
+      "title": "Portfolio P27",
+      "thumb": "data/2026/thumbs/p27.jpg",
+      "collage": {
+        "url": "data/2026/anon/p27/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/jSKSVWJmWVI",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p27/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p28",
+      "title": "Portfolio P28",
+      "thumb": "data/2026/thumbs/p28.jpg",
+      "collage": {
+        "url": "data/2026/anon/p28/collage.jpg",
+        "kind": "local_image",
+        "pdf_page_override": 6
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/6-kB0e9iY_Y",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p28/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p29",
+      "title": "Portfolio P29",
+      "thumb": "data/2026/thumbs/p29.jpg",
+      "collage": {
+        "url": "data/2026/anon/p29/collage.pdf",
+        "kind": "local_pdf"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/4QxmfYwQdWo",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p29/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p30",
+      "title": "Portfolio P30",
+      "thumb": "data/2026/thumbs/p30.jpg",
+      "collage": {
+        "url": "data/2026/anon/p30/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/MboD-nLCsFY",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p30/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p31",
+      "title": "Portfolio P31",
+      "thumb": "data/2026/thumbs/p31.jpg",
+      "collage": {
+        "url": "data/2026/anon/p31/collage.pdf",
+        "kind": "local_pdf"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/no3pSwkB3xA",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p31/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p32",
+      "title": "Portfolio P32",
+      "thumb": "data/2026/thumbs/p32.jpg",
+      "collage": {
+        "url": "data/2026/anon/p32/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/BNCqewlq4wQ",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p32/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p33",
+      "title": "Food System",
+      "thumb": "data/2026/thumbs/p33.jpg",
+      "collage": {
+        "url": "https://www.canva.com/design/DAHFg6Kie0M/IDkYLTC2HYjELCCfGLC0BQ/view?embed",
+        "kind": "canva",
+        "preview_from_canva": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/KFivGXObCmI",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p33/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p34",
+      "title": "Portfolio P34",
+      "thumb": "data/2026/thumbs/p34.jpg",
+      "collage": {
+        "url": "data/2026/anon/p34/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/wkpwjB-L7zU",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p34/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p35",
+      "title": "Portfolio P35",
+      "thumb": "data/2026/thumbs/p35.jpg",
+      "collage": {
+        "url": "data/2026/anon/p35/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/3G01JIznyG8",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p35/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p36",
+      "title": "Climate Change",
+      "thumb": "data/2026/thumbs/p36.jpg",
+      "collage": {
+        "url": "data/2026/anon/p36/collage.png",
+        "kind": "local_image"
+      },
+      "video": {
+        "url": "data/2026/videos/p36.mp4",
+        "kind": "local"
+      },
+      "essay": {
+        "url": "data/2026/anon/p36/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p37",
+      "title": "Portfolio P37",
+      "thumb": "data/2026/thumbs/p37.jpg",
+      "collage": {
+        "url": "https://drive.google.com/file/d/1l_u4MF0a30NacrGOB4dUZucK4xtzlmTm/view?usp=sharing",
+        "kind": "drive",
+        "preview_from_drive": true
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/T_XoIwKY6qU",
+        "kind": "youtube"
+      },
+      "essay": {
+        "url": "data/2026/anon/p37/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p38",
+      "title": "Singapore Breathes, Hong Kong Suffocates",
+      "thumb": "data/2026/thumbs/p38.jpg",
+      "collage": {
+        "url": "data/2026/anon/p38/collage.pdf",
+        "kind": "local_pdf"
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p38/essay.pdf",
+        "available": true
+      }
+    }
+  ]
+}
