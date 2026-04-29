@@ -3,7 +3,7 @@ title: ""
 pagetitle: "Exhibition · 2026"
 format:
   html:
-    page-layout: full
+    page-layout: custom
     toc: false
     css: assets/2026/gallery.css
     include-in-header:
