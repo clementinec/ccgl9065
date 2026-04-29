@@ -1,0 +1,1184 @@
+{
+  "generated_at": "build_2026.py",
+  "count": 38,
+  "portfolios": [
+    {
+      "id": "p01",
+      "name": "Jason Yeung",
+      "first_name": "Jason",
+      "last_name": "Yeung",
+      "email": "jasoooon@connect.hku.hk",
+      "student_number": "357039",
+      "anon_title": "Portfolio P01",
+      "essay_title": "Essay",
+      "collage_title": "Collage",
+      "video_title": "Youtube Video",
+      "thumb": "data/2026/thumbs/p01.jpg",
+      "collage": {
+        "url": "data/2026/anon/p01/collage.png",
+        "kind": "local_image",
+        "source_path": "data/2026/collage_pass/2946488135 - Jason Yeung - 357039_Jason_Yeung_Collage_4021069_721140393.png",
+        "original_link": "data/2026/collage_pass/2946488135 - Jason Yeung - 357039_Jason_Yeung_Collage_4021069_721140393.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/i5oi-7lM70Y",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946487823 - Jason Yeung - 357039_Jason_Yeung_Youtube_Video_4021069_1009299806.pdf",
+        "original_link": "https://www.youtube.com/embed/i5oi-7lM70Y"
+      },
+      "essay": {
+        "url": "data/2026/anon/p01/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946488371 - Jason Yeung - 357039_Jason_Yeung_Essay_4021069_1233913943.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p02",
+      "name": "Pak Man Fung",
+      "first_name": "Pak Man",
+      "last_name": "Fung",
+      "email": "jfpm23@connect.hku.hk",
+      "student_number": "328919",
+      "anon_title": "Portfolio P02",
+      "essay_title": "Final Essay",
+      "collage_title": "Collage",
+      "video_title": "Video Essay",
+      "thumb": "data/2026/thumbs/p02.jpg",
+      "collage": {
+        "url": "https://www.canva.com/design/DAHGFomhlP0/K_e73buFM-6QjcayrzWShg/view?embed",
+        "kind": "canva",
+        "source_path": "data/2026/collage_pass/2946187242 - Pak Man Fung - 328919_Pak_Man_Fung_Collage_4021069_794748224.txt",
+        "original_link": "https://www.canva.com/design/DAHGFomhlP0/K_e73buFM-6QjcayrzWShg/view?embed"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/7EW_t2GfFdc",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946145377 - Pak Man Fung - 328919_Pak_Man_Fung_Video_Essay_4021069_907964268.txt",
+        "original_link": "https://www.youtube.com/embed/7EW_t2GfFdc"
+      },
+      "essay": {
+        "url": "data/2026/anon/p02/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946146755 - Pak Man Fung - 328919_Pak_Man_Fung_Final_Essay_4021069_1752391614.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p03",
+      "name": "Hang Chi Lai",
+      "first_name": "Hang Chi",
+      "last_name": "Lai",
+      "email": "lhclai@connect.hku.hk",
+      "student_number": "295877",
+      "anon_title": "Portfolio P03",
+      "essay_title": "Lai Hang Chi Final Reflective Essay",
+      "collage_title": "Lai Hang Chi Collage Submission",
+      "video_title": "Lai Hang Chi Video Submission",
+      "thumb": "data/2026/thumbs/p03.jpg",
+      "collage": {
+        "url": "data/2026/anon/p03/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946536855 - Hang Chi Lai - 295877_Hang_Chi_Lai_Lai_Hang_Chi_Collage_Submission_4021069_1357290753.txt",
+        "original_link": "https://i.ibb.co/PzvMFGPJ/Lai-Hang-Chi-Collage-Poster-Submission.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/2SFShMJeZuk",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946533004 - Hang Chi Lai - 295877_Hang_Chi_Lai_Lai_Hang_Chi_Video_Submission_4021069_1074174202.txt",
+        "original_link": "https://www.youtube.com/embed/2SFShMJeZuk"
+      },
+      "essay": {
+        "url": "data/2026/anon/p03/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946533685 - Hang Chi Lai - 295877_Hang_Chi_Lai_Lai_Hang_Chi_Final_Reflective_Essay_4021069_1554188261.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p04",
+      "name": "Martina Bianca Roman Sy",
+      "first_name": "Martina Bianca Roman",
+      "last_name": "Sy",
+      "email": "martina7@connect.hku.hk",
+      "student_number": "357632",
+      "anon_title": "Portfolio P04",
+      "essay_title": "Final Reflection (Final Copy Revised)",
+      "collage_title": "Final Video and Collage",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p04.jpg",
+      "collage": {
+        "url": "data/2026/anon/p04/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2933856400 - Martina Bianca Roman Sy - 357632_Martina_Bianca_Roman_Sy_Final_Video_and_Collage_4021069_771911060.txt",
+        "original_link": "https://i.ibb.co/CKYZFLRZ/I-HAVE-NOTHING-TO-WEAR.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/4FE_PVnP5HM",
+        "kind": "youtube",
+        "source_path": "data/2026/collage_pass/2933856400 - Martina Bianca Roman Sy - 357632_Martina_Bianca_Roman_Sy_Final_Video_and_Collage_4021069_771911060.txt",
+        "original_link": "https://www.youtube.com/embed/4FE_PVnP5HM"
+      },
+      "essay": {
+        "url": "data/2026/anon/p04/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2933824627 - Martina Bianca Roman Sy - 357632_Martina_Bianca_Roman_Sy_Final_Reflection__Final_Copy_Revised__4021069_2050344738.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p05",
+      "name": "Ka Ho Tang",
+      "first_name": "Ka Ho",
+      "last_name": "Tang",
+      "email": "tkh0118@connect.hku.hk",
+      "student_number": "294341",
+      "anon_title": "Portfolio P05",
+      "essay_title": "CCGL9065 Final Essay",
+      "collage_title": "Video Essay + Collage",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p05.jpg",
+      "collage": {
+        "url": "data/2026/anon/p05/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2943429013 - Ka Ho Tang - 294341_Ka_Ho_Tang_Video_Essay___Collage_4021069_1468433192.txt",
+        "original_link": "https://i.ibb.co/JRKmGMfB/CCGL9065-Collage-Tang-Ka-Ho-3036220371-Tutorial-5.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/wgO6ROKNJZ0",
+        "kind": "youtube",
+        "source_path": "data/2026/collage_pass/2943429013 - Ka Ho Tang - 294341_Ka_Ho_Tang_Video_Essay___Collage_4021069_1468433192.txt",
+        "original_link": "https://www.youtube.com/embed/wgO6ROKNJZ0"
+      },
+      "essay": {
+        "url": "data/2026/anon/p05/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2943414588 - Ka Ho Tang - 294341_Ka_Ho_Tang_CCGL9065_Final_Essay_4021069_252681760.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p06",
+      "name": "Hua Zong",
+      "first_name": "Hua",
+      "last_name": "Zong",
+      "email": "u3585608@connect.hku.hk",
+      "student_number": "225592",
+      "anon_title": "Portfolio P06",
+      "essay_title": "essay",
+      "collage_title": "collage",
+      "video_title": "ve",
+      "thumb": "data/2026/thumbs/p06.jpg",
+      "collage": {
+        "url": "data/2026/anon/p06/collage.pdf",
+        "kind": "local_pdf",
+        "source_path": "data/2026/collage_pass/2946376691 - Hua Zong - 225592_Hua_Zong_collage_4021069_429399426.pdf",
+        "original_link": "data/2026/collage_pass/2946376691 - Hua Zong - 225592_Hua_Zong_collage_4021069_429399426.pdf"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/TvNRlEpA2T8",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946500880 - Hua Zong - 225592_Hua_Zong_ve_4021069_1944960467.pdf",
+        "original_link": "https://www.youtube.com/embed/TvNRlEpA2T8"
+      },
+      "essay": {
+        "url": "data/2026/anon/p06/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946489991 - Hua Zong - 225592_Hua_Zong_essay_4021069_2111720163.docx",
+        "converted_from_docx": true
+      }
+    },
+    {
+      "id": "p07",
+      "name": "Anmol Kanwal",
+      "first_name": "Anmol",
+      "last_name": "Kanwal",
+      "email": "u3605989@connect.hku.hk",
+      "student_number": "257025",
+      "anon_title": "Portfolio P07",
+      "essay_title": "3036059899_CCGL9065 Final Reflection Essay",
+      "collage_title": "CCGL9065 Collage 3036059899",
+      "video_title": "CCGL9065 Final Video Essay Link ((3036059899)",
+      "thumb": "data/2026/thumbs/p07.jpg",
+      "collage": {
+        "url": "data/2026/anon/p07/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946600000 - Anmol Kanwal - 257025_Anmol_Kanwal_CCGL9065_Collage_3036059899_4021069_262274078.pdf",
+        "original_link": "https://i.ibb.co/vCPyK1rF/CCGL9065-Collage-optimized-3036059899.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/Rya6icjGx6o",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946598961 - Anmol Kanwal - 257025_Anmol_Kanwal_CCGL9065_Final_Video_Essay_Link__3036059899__4021069_209510702.rtf",
+        "original_link": "https://www.youtube.com/embed/Rya6icjGx6o"
+      },
+      "essay": {
+        "url": "data/2026/anon/p07/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2939251662 - Anmol Kanwal - 257025_Anmol_Kanwal_3036059899_CCGL9065_Final_Reflection_Essay_4021069_1142319550.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p08",
+      "name": "Shengyi Tu",
+      "first_name": "Shengyi",
+      "last_name": "Tu",
+      "email": "u3632081@connect.hku.hk",
+      "student_number": "320482",
+      "anon_title": "Portfolio P08",
+      "essay_title": "Final essay pdf",
+      "collage_title": "Poster link",
+      "video_title": "Video essay",
+      "thumb": "data/2026/thumbs/p08.jpg",
+      "collage": {
+        "url": "data/2026/anon/p08/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946458129 - Shengyi Tu - 320482_Shengyi_Tu_Poster_link_4021069_1968796807.txt",
+        "original_link": "https://i.ibb.co/RpcShhNk/Poster-submit.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/ji_kNvoRJ30",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946455524 - Shengyi Tu - 320482_Shengyi_Tu_Video_essay_4021069_2111478739.txt",
+        "original_link": "https://www.youtube.com/embed/ji_kNvoRJ30"
+      },
+      "essay": {
+        "url": "data/2026/anon/p08/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946459053 - Shengyi Tu - 320482_Shengyi_Tu_Final_essay_pdf_4021069_1771372861.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p09",
+      "name": "Hei Yu Hung",
+      "first_name": "Hei Yu",
+      "last_name": "Hung",
+      "email": "u3638636@connect.hku.hk",
+      "student_number": "327816",
+      "anon_title": "Bridge to Zero",
+      "essay_title": "The Bridge to Zero",
+      "collage_title": "CCGL9065 collage",
+      "video_title": "CCGL 9065 video essay",
+      "thumb": "data/2026/thumbs/p09.jpg",
+      "collage": {
+        "url": "data/2026/anon/p09/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946669815 - Hei Yu Hung - 327816_Hei_Yu_Hung_CCGL9065_collage_4021069_947975046.txt",
+        "original_link": "https://i.ibb.co/sdxqyFw1/CCGL9065.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/MhuL1cSuF2s",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946657636 - Hei Yu Hung - 327816_Hei_Yu_Hung_CCGL_9065_video_essay_4021069_1093369758.txt",
+        "original_link": "https://www.youtube.com/embed/MhuL1cSuF2s"
+      },
+      "essay": {
+        "url": "data/2026/anon/p09/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/CCGL9065_essay_bio_3036386369.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p10",
+      "name": "Chi Yeung Chum",
+      "first_name": "Chi Yeung",
+      "last_name": "Chum",
+      "email": "u3639342@connect.hku.hk",
+      "student_number": "328581",
+      "anon_title": "Portfolio P10",
+      "essay_title": "essay",
+      "collage_title": "IMAGE LINK",
+      "video_title": "YOUTUBE LINK",
+      "thumb": "data/2026/thumbs/p10.jpg",
+      "collage": {
+        "url": "data/2026/anon/p10/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946468781 - Chi Yeung Chum - 328581_Chi_Yeung_Chum_IMAGE_LINK_4021069_1642535080.txt",
+        "original_link": "https://i.ibb.co/fdd9vRrd/3036393427-CCGL9065-VISUALCOLLAGE.jpg"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/LYRDVAUTWYo",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946470922 - Chi Yeung Chum - 328581_Chi_Yeung_Chum_YOUTUBE_LINK_4021069_1215288600.txt",
+        "original_link": "https://www.youtube.com/embed/LYRDVAUTWYo"
+      },
+      "essay": {
+        "url": "data/2026/anon/p10/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946470087 - Chi Yeung Chum - 328581_Chi_Yeung_Chum_essay_4021069_569669262.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p11",
+      "name": "Anurag Roy",
+      "first_name": "Anurag",
+      "last_name": "Roy",
+      "email": "u3646825@connect.hku.hk",
+      "student_number": "349345",
+      "anon_title": "Portfolio P11",
+      "essay_title": "3036468258",
+      "collage_title": "3036468258",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p11.jpg",
+      "collage": {
+        "url": "data/2026/anon/p11/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2943842773 - Anurag Roy - 349345_Anurag_Roy_3036468258_4021069_516008451.html",
+        "original_link": "https://i.ibb.co/pB3BmdNj/CCGL-9065-Collage-3036468258-1.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/LSPTkYWwsrY",
+        "kind": "youtube",
+        "source_path": "data/2026/collage_pass/2943842773 - Anurag Roy - 349345_Anurag_Roy_3036468258_4021069_516008451.html",
+        "original_link": "https://www.youtube.com/embed/LSPTkYWwsrY"
+      },
+      "essay": {
+        "url": "data/2026/anon/p11/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2945171510 - Anurag Roy - 349345_Anurag_Roy_3036468258_4021069_398349730.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p12",
+      "name": "Shijun Feng",
+      "first_name": "Shijun",
+      "last_name": "Feng",
+      "email": "u3648430@connect.hku.hk",
+      "student_number": "351352",
+      "anon_title": "Portfolio P12",
+      "essay_title": "Shijun Feng Essay",
+      "collage_title": "Shijun Feng Collage",
+      "video_title": "Shijun Feng Video",
+      "thumb": "data/2026/thumbs/p12.jpg",
+      "collage": {
+        "url": "data/2026/anon/p12/collage.jpg",
+        "kind": "local_image",
+        "source_path": "data/2026/collage_pass/2946664783 - Shijun Feng - 351352_Shijun_Feng_Shijun_Feng_Collage_4021069_878714730.JPG",
+        "original_link": "data/2026/collage_pass/2946664783 - Shijun Feng - 351352_Shijun_Feng_Shijun_Feng_Collage_4021069_878714730.JPG"
+      },
+      "video": {
+        "url": "data/2026/videos/p12.mp4",
+        "kind": "local",
+        "source_path": "data/2026/video_pass/2946669564 - Shijun Feng - 351352_Shijun_Feng_Shijun_Feng_Video_4021069_550210205.mov",
+        "original_link": "data/2026/video_pass/2946669564 - Shijun Feng - 351352_Shijun_Feng_Shijun_Feng_Video_4021069_550210205.mov"
+      },
+      "essay": {
+        "url": "data/2026/anon/p12/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946665379 - Shijun Feng - 351352_Shijun_Feng_Shijun_Feng_Essay_4021069_296110792.docx",
+        "converted_from_docx": true
+      }
+    },
+    {
+      "id": "p13",
+      "name": "Tin Hang Anthony Wong",
+      "first_name": "Tin Hang Anthony",
+      "last_name": "Wong",
+      "email": "u3648455@connect.hku.hk",
+      "student_number": "351460",
+      "anon_title": "Portfolio P13",
+      "essay_title": "Wong Tin Hang Anthony - CCGL9065 Final Reflection Paper",
+      "collage_title": "",
+      "video_title": "",
+      "thumb": null,
+      "collage": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p13/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2945727081 - Tin Hang Anthony Wong - 351460_Tin_Hang_Anthony_Wong_Wong_Tin_Hang_Anthony_-_CCGL9065_Final_Reflection_Paper_4021069_1065066838.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p14",
+      "name": "Jeff Chun Fu Lam",
+      "first_name": "Jeff Chun Fu",
+      "last_name": "Lam",
+      "email": "u3648459@connect.hku.hk",
+      "student_number": "351459",
+      "anon_title": "Is Fast Fashion Destroying Earth",
+      "essay_title": "Final Essay",
+      "collage_title": "CCGL9059 Collage",
+      "video_title": "CCGL9065 Video Essay - Is Fast Fashion Destroying The Earth",
+      "thumb": "data/2026/thumbs/p14.jpg",
+      "collage": {
+        "url": "data/2026/anon/p14/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946716389 - Jeff Chun Fu Lam - 351459_Jeff_Chun_Fu_Lam_CCGL9059_Collage_4021069_574683138.txt",
+        "original_link": "https://i.ibb.co/6JX19mFN/Your-super-sized-burgers-are-choking-coral-reefs.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/WpfU3dDiV7U",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946688893 - Jeff Chun Fu Lam - 351459_Jeff_Chun_Fu_Lam_CCGL9065_Video_Essay_-_Is_Fast_Fashion_Destroying_The_Earth_4021069_1993973461.txt",
+        "original_link": "https://www.youtube.com/embed/WpfU3dDiV7U"
+      },
+      "essay": {
+        "url": "data/2026/anon/p14/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946679798 - Jeff Chun Fu Lam - 351459_Jeff_Chun_Fu_Lam_Final_Essay_4021069_716020228.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p15",
+      "name": "Tsz Chun Yim",
+      "first_name": "Tsz Chun",
+      "last_name": "Yim",
+      "email": "u3651572@connect.hku.hk",
+      "student_number": "355649",
+      "anon_title": "Portfolio P15",
+      "essay_title": "CCGL9065 Final Essay",
+      "collage_title": "CCGL9065 Collage",
+      "video_title": "CCGL9065 Video Essay",
+      "thumb": "data/2026/thumbs/p15.jpg",
+      "collage": {
+        "url": "data/2026/anon/p15/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946796840 - Tsz Chun Yim - 355649_Tsz_Chun_Yim_CCGL9065_Collage_4021069_1374662957.docx",
+        "original_link": "https://i.ibb.co/tT6rXkg5/CCGL9065-Collage.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/Mny5ziQ9Xlc",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946759838 - Tsz Chun Yim - 355649_Tsz_Chun_Yim_CCGL9065_Video_Essay_4021069_260736902.docx",
+        "original_link": "https://www.youtube.com/embed/Mny5ziQ9Xlc"
+      },
+      "essay": {
+        "url": "data/2026/anon/p15/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946771322 - Tsz Chun Yim - 355649_Tsz_Chun_Yim_CCGL9065_Final_Essay_4021069_936423689.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p16",
+      "name": "Daniel Poon",
+      "first_name": "Daniel",
+      "last_name": "Poon",
+      "email": "u3651891@connect.hku.hk",
+      "student_number": "356878",
+      "anon_title": "Portfolio P16",
+      "essay_title": "Final essay",
+      "collage_title": "Video essay + collage",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p16.jpg",
+      "collage": {
+        "url": "data/2026/anon/p16/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2940233956 - Daniel Poon - 356878_Daniel_Poon_Video_essay___collage_4021069_1919251735.pdf",
+        "original_link": "https://i.ibb.co/8DkmrTbC/DP-Collage.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/KiUAzKrr4nA",
+        "kind": "youtube",
+        "source_path": "data/2026/collage_pass/2940233956 - Daniel Poon - 356878_Daniel_Poon_Video_essay___collage_4021069_1919251735.pdf",
+        "original_link": "https://www.youtube.com/embed/KiUAzKrr4nA"
+      },
+      "essay": {
+        "url": "data/2026/anon/p16/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2940244231 - Daniel Poon - 356878_Daniel_Poon_Final_essay_4021069_1823848387.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p17",
+      "name": "Matthew Kang You Situ",
+      "first_name": "Matthew Kang You",
+      "last_name": "Situ",
+      "email": "u3651939@connect.hku.hk",
+      "student_number": "356283",
+      "anon_title": "Portfolio P17",
+      "essay_title": "MatthewSitu-ReflectiveEssay",
+      "collage_title": "MatthewSitu-Collage",
+      "video_title": "MatthewSitu-EmbedLink",
+      "thumb": "data/2026/thumbs/p17.jpg",
+      "collage": {
+        "url": "data/2026/anon/p17/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946512954 - Matthew Kang You Situ - 356283_Matthew_Kang_You_Situ_MatthewSitu-Collage_4021069_2023779243.rtf",
+        "original_link": "https://i.ibb.co/JjY9mCjR/STOP-SEWAGE-WASTE-1.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/-P8m1W5LTig",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946513544 - Matthew Kang You Situ - 356283_Matthew_Kang_You_Situ_MatthewSitu-EmbedLink_4021069_1463575836.rtf",
+        "original_link": "https://www.youtube.com/embed/-P8m1W5LTig"
+      },
+      "essay": {
+        "url": "data/2026/anon/p17/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946517965 - Matthew Kang You Situ - 356283_Matthew_Kang_You_Situ_MatthewSitu-ReflectiveEssay_4021069_790243662.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p18",
+      "name": "Shiran Xu",
+      "first_name": "Shiran",
+      "last_name": "Xu",
+      "email": "u3651949@connect.hku.hk",
+      "student_number": "355713",
+      "anon_title": "Portfolio P18",
+      "essay_title": "XU SHIRAN_3036519497",
+      "collage_title": "XU SHIRAN_3036519497",
+      "video_title": "XU SHIRAN_3036519497_Video",
+      "thumb": "data/2026/thumbs/p18.jpg",
+      "collage": {
+        "url": "data/2026/anon/p18/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2943436610 - Shiran Xu - 355713_Shiran_Xu_XU_SHIRAN_3036519497_4021069_1715459051.txt",
+        "original_link": "https://i.ibb.co/FkkYjPCp/1.jpg"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/h0CU1q4gJOI",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2945244707 - Shiran Xu - 355713_Shiran_Xu_XU_SHIRAN_3036519497_Video_4021069_743697366.txt",
+        "original_link": "https://www.youtube.com/embed/h0CU1q4gJOI"
+      },
+      "essay": {
+        "url": "data/2026/anon/p18/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2941971186 - Shiran Xu - 355713_Shiran_Xu_XU_SHIRAN_3036519497_4021069_1391807949.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p19",
+      "name": "Jihoo Kim",
+      "first_name": "Jihoo",
+      "last_name": "Kim",
+      "email": "u3652505@connect.hku.hk",
+      "student_number": "356855",
+      "anon_title": "Portfolio P19",
+      "essay_title": "CCGL9065 Final Reflective Essay",
+      "collage_title": "CCGL9065 - Collage",
+      "video_title": "CCGL9065 Video Essay",
+      "thumb": "data/2026/thumbs/p19.jpg",
+      "collage": {
+        "url": "data/2026/anon/p19/collage.pdf",
+        "kind": "local_pdf",
+        "source_path": "data/2026/collage_pass/2945266043 - Jihoo Kim - 356855_Jihoo_Kim_CCGL9065_-_Collage_4021069_59262020.pdf",
+        "original_link": "data/2026/collage_pass/2945266043 - Jihoo Kim - 356855_Jihoo_Kim_CCGL9065_-_Collage_4021069_59262020.pdf"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/3DVNfFCbO8o",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946920428 - Jihoo Kim - 356855_Jihoo_Kim_CCGL9065_Video_Essay_4021069_870237045.txt",
+        "original_link": "https://www.youtube.com/embed/3DVNfFCbO8o"
+      },
+      "essay": {
+        "url": "data/2026/anon/p19/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2945369539 - Jihoo Kim - 356855_Jihoo_Kim_CCGL9065_Final_Reflective_Essay_4021069_1122180394.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p20",
+      "name": "Keira Ka Yan Hui",
+      "first_name": "Keira Ka Yan",
+      "last_name": "Hui",
+      "email": "u3652727@connect.hku.hk",
+      "student_number": "356789",
+      "anon_title": "Portfolio P20",
+      "essay_title": "Hui Keira Ka Yan - CCGL Final Reflection Essay",
+      "collage_title": "",
+      "video_title": "",
+      "thumb": null,
+      "collage": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p20/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2940980444 - Keira Ka Yan Hui - 356789_Keira_Ka_Yan_Hui_Hui_Keira_Ka_Yan_-_CCGL_Final_Reflection_Essay_4021069_909247902.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p21",
+      "name": "Yu-Xuan Chiang",
+      "first_name": "Yu-Xuan",
+      "last_name": "Chiang",
+      "email": "u3652747@connect.hku.hk",
+      "student_number": "356826",
+      "anon_title": "Portfolio P21",
+      "essay_title": "Final Portfolio Submission Essay Chiang Yu Xuan",
+      "collage_title": "Final Portfolio Chiang Yu Xuan",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p21.jpg",
+      "collage": {
+        "url": "data/2026/anon/p21/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2941218613 - Yu-Xuan Chiang - 356826_Yu-Xuan_Chiang_Final_Portfolio_Chiang_Yu_Xuan_4021069_366838758.txt",
+        "original_link": "https://i.ibb.co/8gQfrMCd/Untitled-design-11.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/n90F525wc0M",
+        "kind": "youtube",
+        "source_path": "data/2026/collage_pass/2941218613 - Yu-Xuan Chiang - 356826_Yu-Xuan_Chiang_Final_Portfolio_Chiang_Yu_Xuan_4021069_366838758.txt",
+        "original_link": "https://www.youtube.com/embed/n90F525wc0M"
+      },
+      "essay": {
+        "url": "data/2026/anon/p21/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2942195509 - Yu-Xuan Chiang - 356826_Yu-Xuan_Chiang_Final_Portfolio_Submission_Essay_Chiang_Yu_Xuan_4021069_1410292031.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p22",
+      "name": "Joan Yan Shing Wong",
+      "first_name": "Joan Yan Shing",
+      "last_name": "Wong",
+      "email": "u3656704@connect.hku.hk",
+      "student_number": "361119",
+      "anon_title": "Portfolio P22",
+      "essay_title": "",
+      "collage_title": "3036567042_Collage Link",
+      "video_title": "3036567042_Video Link",
+      "thumb": "data/2026/thumbs/p22.jpg",
+      "collage": {
+        "url": "data/2026/anon/p22/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946836619 - Joan Yan Shing Wong - 361119_Joan_Yan_Shing_Wong_3036567042_Collage_Link_4021069_1898739927.txt",
+        "original_link": "https://i.ibb.co/xqkC4bY3/Citations.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/eF11f8r0miE",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946837177 - Joan Yan Shing Wong - 361119_Joan_Yan_Shing_Wong_3036567042_Video_Link_4021069_2089964300.txt",
+        "original_link": "https://www.youtube.com/embed/eF11f8r0miE"
+      },
+      "essay": {
+        "url": null,
+        "available": false,
+        "source_path": "",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p23",
+      "name": "Yung Mei Charlize Au-Yeung",
+      "first_name": "Yung Mei Charlize",
+      "last_name": "Au-Yeung",
+      "email": "u3656710@connect.hku.hk",
+      "student_number": "361122",
+      "anon_title": "Portfolio P23",
+      "essay_title": "Final Portfolio Essay Charlize Au-Yeung 3036567107",
+      "collage_title": "Final Portfolio Video+Collage Charlize Au-Yeung 3036567107",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p23.jpg",
+      "collage": {
+        "url": "data/2026/anon/p23/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2939012655 - Yung Mei Charlize Au-Yeung - 361122_Yung_Mei_Charlize_Au-Yeung_Final_Portfolio_Video_Collage_Charlize_Au-Yeung_3036567107_4021069_2109092146.txt",
+        "original_link": "https://i.ibb.co/bgbFjPsz/2-Collage.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/Tq3Pcx2qxts",
+        "kind": "youtube",
+        "source_path": "data/2026/collage_pass/2939012655 - Yung Mei Charlize Au-Yeung - 361122_Yung_Mei_Charlize_Au-Yeung_Final_Portfolio_Video_Collage_Charlize_Au-Yeung_3036567107_4021069_2109092146.txt",
+        "original_link": "https://www.youtube.com/embed/Tq3Pcx2qxts"
+      },
+      "essay": {
+        "url": "data/2026/anon/p23/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2937905921 - Yung Mei Charlize Au-Yeung - 361122_Yung_Mei_Charlize_Au-Yeung_Final_Portfolio_Essay_Charlize_Au-Yeung_3036567107_4021069_210549030.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p24",
+      "name": "Chi Kiu Chow",
+      "first_name": "Chi Kiu",
+      "last_name": "Chow",
+      "email": "u3658271@connect.hku.hk",
+      "student_number": "363047",
+      "anon_title": "Portfolio P24",
+      "essay_title": "Reflection Paper",
+      "collage_title": "Video Essay",
+      "video_title": "Link for Collage and Video Essay",
+      "thumb": "data/2026/thumbs/p24.jpg",
+      "collage": {
+        "url": "data/2026/anon/p24/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946342193 - Chi Kiu Chow - 363047_Chi_Kiu_Chow_Video_Essay_4021069_2117693839.txt",
+        "original_link": "https://i.ibb.co/35w2DrQC/Your-paragraph-text.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/jWH8nxvkwiY",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946345575 - Chi Kiu Chow - 363047_Chi_Kiu_Chow_Link_for_Collage_and_Video_Essay_4021069_29839697.txt",
+        "original_link": "https://www.youtube.com/embed/jWH8nxvkwiY"
+      },
+      "essay": {
+        "url": "data/2026/anon/p24/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2944168358 - Chi Kiu Chow - 363047_Chi_Kiu_Chow_Reflection_Paper_4021069_337607649.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p25",
+      "name": "Yu Hei Mak",
+      "first_name": "Yu Hei",
+      "last_name": "Mak",
+      "email": "u3658380@connect.hku.hk",
+      "student_number": "363028",
+      "anon_title": "Portfolio P25",
+      "essay_title": "Final essay",
+      "collage_title": "CCGL9065_collage",
+      "video_title": "CCGL9065 video",
+      "thumb": "data/2026/thumbs/p25.jpg",
+      "collage": {
+        "url": "data/2026/anon/p25/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2945286470 - Yu Hei Mak - 363028_Yu_Hei_Mak_CCGL9065_collage_4021069_790455056.txt",
+        "original_link": "https://i.ibb.co/kgt3GmTL/u3658380-CCGL9065-collage.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/25STTLouEv4",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2945282389 - Yu Hei Mak - 363028_Yu_Hei_Mak_CCGL9065_video_4021069_414427599.txt",
+        "original_link": "https://www.youtube.com/embed/25STTLouEv4"
+      },
+      "essay": {
+        "url": "data/2026/anon/p25/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2945288125 - Yu Hei Mak - 363028_Yu_Hei_Mak_Final_essay_4021069_826419756.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p26",
+      "name": "Tsz Ho Ngai",
+      "first_name": "Tsz Ho",
+      "last_name": "Ngai",
+      "email": "u3658415@connect.hku.hk",
+      "student_number": "363110",
+      "anon_title": "Portfolio P26",
+      "essay_title": "Ngai Tsz Ho Essay",
+      "collage_title": "httpsi.ibb.copvRcd4zMCCGL9065-Collage.png",
+      "video_title": "httpswww.youtube.comwatchv=5LrKTpaGd-0",
+      "thumb": "data/2026/thumbs/p26.jpg",
+      "collage": {
+        "url": "data/2026/anon/p26/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946538289 - Tsz Ho Ngai - 363110_Tsz_Ho_Ngai_httpsi.ibb.copvRcd4zMCCGL9065-Collage.png_4021069_757546635.png",
+        "original_link": "https://i.ibb.co/pvRcd4zM/CCGL9065-Collage.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/5LrKTpaGd-0",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946544525 - Tsz Ho Ngai - 363110_Tsz_Ho_Ngai_httpswww.youtube.comwatchv_5LrKTpaGd-0_4021069_246078225.mp4",
+        "original_link": "https://www.youtube.com/embed/5LrKTpaGd-0"
+      },
+      "essay": {
+        "url": "data/2026/anon/p26/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946535820 - Tsz Ho Ngai - 363110_Tsz_Ho_Ngai_Ngai_Tsz_Ho_Essay_4021069_263867091.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p27",
+      "name": "Chun Hei Ting",
+      "first_name": "Chun Hei",
+      "last_name": "Ting",
+      "email": "u3659024@connect.hku.hk",
+      "student_number": "363604",
+      "anon_title": "Portfolio P27",
+      "essay_title": "Final_Reflective_Essay",
+      "collage_title": "vidoe+collage",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p27.jpg",
+      "collage": {
+        "url": "data/2026/anon/p27/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2944090020 - Chun Hei Ting - 363604_Chun_Hei_Ting_vidoe_collage_4021069_750696116.txt",
+        "original_link": "https://i.ibb.co/219PRZTv/CCGL.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/jSKSVWJmWVI",
+        "kind": "youtube",
+        "source_path": "data/2026/collage_pass/2944090020 - Chun Hei Ting - 363604_Chun_Hei_Ting_vidoe_collage_4021069_750696116.txt",
+        "original_link": "https://www.youtube.com/embed/jSKSVWJmWVI"
+      },
+      "essay": {
+        "url": "data/2026/anon/p27/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2944027040 - Chun Hei Ting - 363604_Chun_Hei_Ting_Final_Reflective_Essay_4021069_2010336258.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p28",
+      "name": "Hong Kiu Jamie Lee",
+      "first_name": "Hong Kiu Jamie",
+      "last_name": "Lee",
+      "email": "u3659408@connect.hku.hk",
+      "student_number": "364088",
+      "anon_title": "Portfolio P28",
+      "essay_title": "FinalPortfolio_3036594083",
+      "collage_title": "FinalPortfolio_LeeHongKiuJamie_3036594083",
+      "video_title": "httpsyoutu.be6-kB0e9iY_Ysi=LuzMdYtXRofdNe9H",
+      "thumb": "data/2026/thumbs/p28.jpg",
+      "collage": {
+        "url": "data/2026/anon/p28/collage.jpg",
+        "kind": "local_image",
+        "source_path": "data/2026/collage_pass/2946752763 - Hong Kiu Jamie Lee - 364088_Hong_Kiu_Jamie_Lee_FinalPortfolio_LeeHongKiuJamie_3036594083_4021069_385523739.pdf",
+        "original_link": "data/2026/collage_pass/2946752763 - Hong Kiu Jamie Lee - 364088_Hong_Kiu_Jamie_Lee_FinalPortfolio_LeeHongKiuJamie_3036594083_4021069_385523739.pdf"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/6-kB0e9iY_Y",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946755175 - Hong Kiu Jamie Lee - 364088_Hong_Kiu_Jamie_Lee_httpsyoutu.be6-kB0e9iY_Ysi_LuzMdYtXRofdNe9H_4021069_1794172969.pdf",
+        "original_link": "https://www.youtube.com/embed/6-kB0e9iY_Y"
+      },
+      "essay": {
+        "url": "data/2026/anon/p28/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946756917 - Hong Kiu Jamie Lee - 364088_Hong_Kiu_Jamie_Lee_FinalPortfolio_3036594083_4021069_1542573049.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p29",
+      "name": "Sum Yau Cheung",
+      "first_name": "Sum Yau",
+      "last_name": "Cheung",
+      "email": "u3659625@connect.hku.hk",
+      "student_number": "364674",
+      "anon_title": "Portfolio P29",
+      "essay_title": "3036596251_CCGL9065_Final Essay",
+      "collage_title": "3036596251_CCGL9065_Collage + Video Essay Link",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p29.jpg",
+      "collage": {
+        "url": "data/2026/anon/p29/collage.pdf",
+        "kind": "local_pdf",
+        "source_path": "data/2026/collage_pass/2945129467 - Sum Yau Cheung - 364674_Sum_Yau_Cheung_3036596251_CCGL9065_Collage___Video_Essay_Link_4021069_786351577.pdf",
+        "original_link": "data/2026/collage_pass/2945129467 - Sum Yau Cheung - 364674_Sum_Yau_Cheung_3036596251_CCGL9065_Collage___Video_Essay_Link_4021069_786351577.pdf"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/4QxmfYwQdWo",
+        "kind": "youtube",
+        "source_path": "data/2026/collage_pass/2945129467 - Sum Yau Cheung - 364674_Sum_Yau_Cheung_3036596251_CCGL9065_Collage___Video_Essay_Link_4021069_786351577.pdf",
+        "original_link": "https://www.youtube.com/embed/4QxmfYwQdWo"
+      },
+      "essay": {
+        "url": "data/2026/anon/p29/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2945134576 - Sum Yau Cheung - 364674_Sum_Yau_Cheung_3036596251_CCGL9065_Final_Essay_4021069_665148669.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p30",
+      "name": "Marshall Tang",
+      "first_name": "Marshall",
+      "last_name": "Tang",
+      "email": "u3659655@connect.hku.hk",
+      "student_number": "364463",
+      "anon_title": "Portfolio P30",
+      "essay_title": "Essay",
+      "collage_title": "Portfolio video and collage links",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p30.jpg",
+      "collage": {
+        "url": "data/2026/anon/p30/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2944033048 - Marshall Tang - 364463_Marshall_Tang_Portfolio_video_and_collage_links_4021069_961691124.txt",
+        "original_link": "https://i.ibb.co/Z6k9Pt6H/b00ffc58e4bed094b1e01897b356e03f-1.jpg"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/MboD-nLCsFY",
+        "kind": "youtube",
+        "source_path": "data/2026/collage_pass/2944033048 - Marshall Tang - 364463_Marshall_Tang_Portfolio_video_and_collage_links_4021069_961691124.txt",
+        "original_link": "https://www.youtube.com/embed/MboD-nLCsFY"
+      },
+      "essay": {
+        "url": "data/2026/anon/p30/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2944033591 - Marshall Tang - 364463_Marshall_Tang_Essay_4021069_1316311523.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p31",
+      "name": "Yuen Ki Cheung",
+      "first_name": "Yuen Ki",
+      "last_name": "Cheung",
+      "email": "u3660138@connect.hku.hk",
+      "student_number": "364699",
+      "anon_title": "Portfolio P31",
+      "essay_title": "essay",
+      "collage_title": "poster",
+      "video_title": "CCGL9065 Video essay",
+      "thumb": "data/2026/thumbs/p31.jpg",
+      "collage": {
+        "url": "data/2026/anon/p31/collage.pdf",
+        "kind": "local_pdf",
+        "source_path": "data/2026/collage_pass/2945519042 - Yuen Ki Cheung - 364699_Yuen_Ki_Cheung_poster_4021069_458293840.pdf",
+        "original_link": "data/2026/collage_pass/2945519042 - Yuen Ki Cheung - 364699_Yuen_Ki_Cheung_poster_4021069_458293840.pdf"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/no3pSwkB3xA",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2945561948 - Yuen Ki Cheung - 364699_Yuen_Ki_Cheung_CCGL9065_Video_essay_4021069_426228527.docx",
+        "original_link": "https://www.youtube.com/embed/no3pSwkB3xA"
+      },
+      "essay": {
+        "url": "data/2026/anon/p31/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2945519580 - Yuen Ki Cheung - 364699_Yuen_Ki_Cheung_essay_4021069_1464322769.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p32",
+      "name": "Haochen Wang",
+      "first_name": "Haochen",
+      "last_name": "Wang",
+      "email": "u3660334@connect.hku.hk",
+      "student_number": "365179",
+      "anon_title": "Portfolio P32",
+      "essay_title": "essay",
+      "collage_title": "collage",
+      "video_title": "video essay",
+      "thumb": "data/2026/thumbs/p32.jpg",
+      "collage": {
+        "url": "data/2026/anon/p32/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2946434005 - Haochen Wang - 365179_Haochen_Wang_collage_4021069_1438921302.txt",
+        "original_link": "https://i.ibb.co/spQM0ddH/collage.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/BNCqewlq4wQ",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946437838 - Haochen Wang - 365179_Haochen_Wang_video_essay_4021069_1511066964.txt",
+        "original_link": "https://www.youtube.com/embed/BNCqewlq4wQ"
+      },
+      "essay": {
+        "url": "data/2026/anon/p32/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946434127 - Haochen Wang - 365179_Haochen_Wang_essay_4021069_734147330.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p33",
+      "name": "Wanying Li",
+      "first_name": "Wanying",
+      "last_name": "Li",
+      "email": "u3660456@connect.hku.hk",
+      "student_number": "365248",
+      "anon_title": "Food System",
+      "essay_title": "Final Essay-Food System 3036604565",
+      "collage_title": "Collage-Food System 3036604565",
+      "video_title": "Video Essay-Food System 3036604565",
+      "thumb": "data/2026/thumbs/p33.jpg",
+      "collage": {
+        "url": "https://www.canva.com/design/DAHFg6Kie0M/IDkYLTC2HYjELCCfGLC0BQ/view?embed",
+        "kind": "canva",
+        "source_path": "data/2026/collage_pass/2945695067 - Wanying Li - 365248_Wanying_Li_Collage-Food_System_3036604565_4021069_270807106.txt",
+        "original_link": "https://www.canva.com/design/DAHFg6Kie0M/IDkYLTC2HYjELCCfGLC0BQ/view?embed"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/KFivGXObCmI",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2945699195 - Wanying Li - 365248_Wanying_Li_Video_Essay-Food_System_3036604565_4021069_132973041.txt",
+        "original_link": "https://www.youtube.com/embed/KFivGXObCmI"
+      },
+      "essay": {
+        "url": "data/2026/anon/p33/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2945696382 - Wanying Li - 365248_Wanying_Li_Final_Essay-Food_System_3036604565_4021069_524210759.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p34",
+      "name": "Hui Cheung Matthew Mok",
+      "first_name": "Hui Cheung Matthew",
+      "last_name": "Mok",
+      "email": "u3662829@connect.hku.hk",
+      "student_number": "367928",
+      "anon_title": "Portfolio P34",
+      "essay_title": "Matthew Mok Reflective Essay",
+      "collage_title": "Video Essay and Collage Embedded Links",
+      "video_title": "Video Essay Embedded",
+      "thumb": "data/2026/thumbs/p34.jpg",
+      "collage": {
+        "url": "data/2026/anon/p34/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2943517738 - Hui Cheung Matthew Mok - 367928_Hui_Cheung_Matthew_Mok_Video_Essay_and_Collage_Embedded_Links_4021069_1918713154.txt",
+        "original_link": "https://i.ibb.co/1Yc0wzXg/Final-Collage-0426.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/wkpwjB-L7zU",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2947178036 - Hui Cheung Matthew Mok - 367928_Hui_Cheung_Matthew_Mok_Video_Essay_Embedded_4021069_443814713.txt",
+        "original_link": "https://www.youtube.com/embed/wkpwjB-L7zU"
+      },
+      "essay": {
+        "url": "data/2026/anon/p34/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2943506649 - Hui Cheung Matthew Mok - 367928_Hui_Cheung_Matthew_Mok_Matthew_Mok_Reflective_Essay_4021069_1826876044.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p35",
+      "name": "Wing Lam Ng",
+      "first_name": "Wing Lam",
+      "last_name": "Ng",
+      "email": "u3666642@connect.hku.hk",
+      "student_number": "372150",
+      "anon_title": "Portfolio P35",
+      "essay_title": "CCGL9065 Final Reflective Essay - Ng Wing Lam",
+      "collage_title": "CCGL9065 Final Portfolio Links - Ng Wing Lam",
+      "video_title": "CCGL9065 Final Portfolio Links",
+      "thumb": "data/2026/thumbs/p35.jpg",
+      "collage": {
+        "url": "data/2026/anon/p35/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/collage_pass/2943389127 - Wing Lam Ng - 372150_Wing_Lam_Ng_CCGL9065_Final_Portfolio_Links_-_Ng_Wing_Lam_4021069_1464411166.docx",
+        "original_link": "https://i.ibb.co/rRpYjHpq/CCGL9065-Visual-Creation-Collage.png"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/3G01JIznyG8",
+        "kind": "youtube",
+        "source_path": "data/2026/video_pass/2946019618 - Wing Lam Ng - 372150_Wing_Lam_Ng_CCGL9065_Final_Portfolio_Links_4021069_221958337.docx",
+        "original_link": "https://www.youtube.com/embed/3G01JIznyG8"
+      },
+      "essay": {
+        "url": "data/2026/anon/p35/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2937952076 - Wing Lam Ng - 372150_Wing_Lam_Ng_CCGL9065_Final_Reflective_Essay_-_Ng_Wing_Lam_4021069_1503754342.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p36",
+      "name": "Alexandre Olivier Oriol Gergele",
+      "first_name": "Alexandre Olivier Oriol",
+      "last_name": "Gergele",
+      "email": "u3667830@connect.hku.hk",
+      "student_number": "376517",
+      "anon_title": "Climate Change",
+      "essay_title": "Final Reflection Essay",
+      "collage_title": "Climate Change Collage",
+      "video_title": "Final Climate Change Video",
+      "thumb": "data/2026/thumbs/p36.jpg",
+      "collage": {
+        "url": "data/2026/anon/p36/collage.png",
+        "kind": "local_image",
+        "source_path": "data/2026/collage_pass/2946567099 - Alexandre Olivier Oriol Gergele - 376517_Alexandre_Olivier_Oriol_Gergele_Climate_Change_Collage_4021069_1744992933.png",
+        "original_link": "data/2026/collage_pass/2946567099 - Alexandre Olivier Oriol Gergele - 376517_Alexandre_Olivier_Oriol_Gergele_Climate_Change_Collage_4021069_1744992933.png"
+      },
+      "video": {
+        "url": "data/2026/videos/p36.mp4",
+        "kind": "local",
+        "source_path": "data/2026/video_pass/2946869632 - Alexandre Olivier Oriol Gergele - 376517_Alexandre_Olivier_Oriol_Gergele_Final_Climate_Change_Video_4021069_104166980.m4v",
+        "original_link": "data/2026/video_pass/2946869632 - Alexandre Olivier Oriol Gergele - 376517_Alexandre_Olivier_Oriol_Gergele_Final_Climate_Change_Video_4021069_104166980.m4v"
+      },
+      "essay": {
+        "url": "data/2026/anon/p36/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2946788463 - Alexandre Olivier Oriol Gergele - 376517_Alexandre_Olivier_Oriol_Gergele_Final_Reflection_Essay_4021069_60421690.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p37",
+      "name": "Benjamin Alfons Hanusch",
+      "first_name": "Benjamin Alfons",
+      "last_name": "Hanusch",
+      "email": "u3667832@connect.hku.hk",
+      "student_number": "376319",
+      "anon_title": "Portfolio P37",
+      "essay_title": "Reflective Essay CCGL9065",
+      "collage_title": "Collage Link & Video Link",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p37.jpg",
+      "collage": {
+        "url": "https://drive.google.com/file/d/1l_u4MF0a30NacrGOB4dUZucK4xtzlmTm/view?usp=sharing",
+        "kind": "drive",
+        "source_path": "data/2026/collage_pass/2939248399 - Benjamin Alfons Hanusch - 376319_Benjamin_Alfons_Hanusch_Collage_Link__Video_Link_4021069_1669199598.rtf",
+        "original_link": "https://drive.google.com/file/d/1l_u4MF0a30NacrGOB4dUZucK4xtzlmTm/view?usp=sharing"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/T_XoIwKY6qU",
+        "kind": "youtube",
+        "source_path": "data/2026/collage_pass/2939248399 - Benjamin Alfons Hanusch - 376319_Benjamin_Alfons_Hanusch_Collage_Link__Video_Link_4021069_1669199598.rtf",
+        "original_link": "https://www.youtube.com/embed/T_XoIwKY6qU"
+      },
+      "essay": {
+        "url": "data/2026/anon/p37/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2939244297 - Benjamin Alfons Hanusch - 376319_Benjamin_Alfons_Hanusch_Reflective_Essay_CCGL9065_4021069_360221739.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p38",
+      "name": "Ismael Jibbril Youssef Lahriri",
+      "first_name": "Ismael Jibbril Youssef",
+      "last_name": "Lahriri",
+      "email": "u3667892@connect.hku.hk",
+      "student_number": "376403",
+      "anon_title": "Singapore Breathes, Hong Kong Suffocates",
+      "essay_title": "Singapore Breathes, Hong Kong Suffocates",
+      "collage_title": "Video link on Notion httpswww.notion.so2f4a36e3b5cb8195b99dd7385427da09v=2f4a36e3b5cb8150a45e000c7b6ddabd&p=34ca36e3b5cb802abe61d612da9d3b04&pm=s",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p38.jpg",
+      "collage": {
+        "url": "data/2026/anon/p38/collage.pdf",
+        "kind": "local_pdf",
+        "source_path": "data/2026/collage_pass/2942122925 - Ismael Jibbril Youssef Lahriri - 376403_Ismael_Jibbril_Youssef_Lahriri_Video_link_on_Notion_httpswww.notion.so2f4a36e3b5cb8195b99dd7385427da09v_2f4a36_1300988713.pdf",
+        "original_link": "data/2026/collage_pass/2942122925 - Ismael Jibbril Youssef Lahriri - 376403_Ismael_Jibbril_Youssef_Lahriri_Video_link_on_Notion_httpswww.notion.so2f4a36e3b5cb8195b99dd7385427da09v_2f4a36_1300988713.pdf"
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p38/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/essay_pass/2942121962 - Ismael Jibbril Youssef Lahriri - 376403_Ismael_Jibbril_Youssef_Lahriri_Singapore_Breathes__Hong_Kong_Suffocates_4021069_956927680.pdf",
+        "converted_from_docx": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+---
+title: "Week 1: Us vs. the AI"
+subtitle: "CCGL9065: Our Response to Climate Change: HK2100"
+author: "Dr. Hongshan Guo"
+date: "January 2025"
+format:
+  pdf:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    colorlinks: true
+    geometry:
+      - margin=1in
+---
+
+# Course Overview
+
+## What This Course Is About
+
+This is **not** a science course. This is a course about **narratives, choices, and power**.
+
+Climate science has been settled for decades. Scientists have been warning us for 50+ years. Yet meaningful action remains elusive. Why?
+
+**The uncomfortable truth:** Facts don't change minds. Stories do.
+
+This course teaches you how to **stitch facts together with narratives** — arguments that are factual, but told in ways that leave bigger impressions. The goal: Turn data into **spectacles** that move people to action.
+
+## Course Format
+
+- **When:** Wednesdays, 15:00–16:50
+- **Where:** LE4
+- **Structure:** 50 min lecture + 50 min activity
+- **Assessment:** Participation + Midterm + Final Portfolio
+
+## How Each Week Works
+
+Every week = a **new battlefield** of arguments. A new topic. New facts. New angles of attack.
+
+### The Weekly Rhythm
+
+| First 50 min (Lecture) | Second 50 min (Activity) |
+|------------------------|--------------------------|
+| I present the facts | You share your homework |
+| I present the stakes | You build group arguments |
+| I give both sides ammunition | You present to the class |
+| | You debate the other side |
+
+### Your Tools
+
+**Your Notion Page (Personal Portfolio)**
+
+- Add research each week
+- Grows all semester
+- Becomes your final project foundation
+- You own it
+
+**Slack Battlefield Channels**
+
+- Weekly debate channels (e.g., `#w1-battlefield-ai`)
+- Share your best findings
+- Discuss with classmates
+- Everyone can see and learn from each other
+
+### The Weekly Flow
+
+1. **Before class:** Research the topic → Add to your Notion page
+2. **Post to Slack:** Share your best fact/story to the battlefield channel
+3. **In class (first half):** I present ammunition for both sides
+4. **In class (second half):** Groups synthesize, present, debate
+5. **After class:** Best arguments get curated into the Channel Canvas
+
+### No Fixed Groups
+
+You're not locked into a position or group. Week 1 you might argue PRO-AI. Week 2 you might switch to PRO-Climate. **Drift around. Explore different angles.** The goal is to understand all sides.
+
+# Today's Topic: AI & Climate
+
+## The AI Energy Crisis
+
+Artificial Intelligence is rapidly becoming one of the largest energy consumers on the planet.
+
+### Key Statistics (2024–2030)
+
+| Metric | 2024 | 2030 (Projected) |
+|--------|-----:|----------------:|
+| Global Data Centers | 415 TWh | 945 TWh |
+| US Data Centers | 183 TWh | 426 TWh |
+| AI Servers (US only) | 53–76 TWh | 165–326 TWh |
+
+*Source: IEA Energy and AI Report*
+
+### Comparisons That Matter
+
+- **US data centers** use more electricity than Pakistan (240 million people)
+- **Training one large AI model** = lifetime emissions of 5 cars
+- **AI's carbon footprint (2025):** 32–80 million tons CO₂
+- **Water consumed:** 312–765 billion liters
+
+### Where Does AI Get Its Power?
+
+US Data Centers power mix (2024):
+
+- Natural Gas: 40%+
+- Renewables: 24%
+- Nuclear: 20%
+- Coal: 15%
+
+**Most AI runs on fossil fuels.**
+
+## Countries Retreating from Climate Commitments
+
+| Country | Change |
+|---------|--------|
+| **USA** | Withdrew from Paris Agreement; no federal net-zero target |
+| **Turkey** | Pushed net-zero from 2053 → 2070; coal production up 18% |
+| **Poland** | Extended net-zero from 2050 → 2060; cut renewable subsidies 35% |
+| **Indonesia** | Renewable targets cut from 23% → 18%; extended coal permits |
+
+The pattern: **Short-term economic interests beat long-term climate action. Every time.**
+
+# The Debate Framework
+
+## Two Worldviews
+
+### PRO-AI (Pro-Development)
+
+**Core belief:** Progress is the solution, not the problem.
+
+**Arguments:**
+
+1. AI optimizes everything — energy grids, supply chains, agriculture
+2. Economic growth lifts people out of poverty
+3. Renewables need AI to manage intermittent power
+4. The IEA says AI could reduce emissions by ~5% by 2035
+5. Slowing down = falling behind China
+
+**Identity:** Pragmatists. Builders. Realists.
+
+### PRO-US (Pro-Human)
+
+**Core belief:** We can't tech our way out of a crisis caused by tech.
+
+**Arguments:**
+
+1. AI's energy costs are real and growing — benefits are theoretical
+2. We already have solutions — policy, behavior change, existing tech
+3. The poor pay the price — climate impacts hit the vulnerable
+4. Tech companies have no accountability — "green AI" while burning coal
+5. Every delay = lives lost
+
+**Identity:** Humanists. Protectors. Truth-tellers.
+
+# How to Build a Story
+
+## The Formula
+
+$$\text{Fact} + \text{Human Story} + \text{Stakes} = \text{Spectacle}$$
+
+| Level | Example |
+|-------|---------|
+| **Weak** | "AI uses a lot of energy" |
+| **Better** | "AI uses more electricity than Pakistan" |
+| **Spectacle** | "Your ChatGPT query costs a town its drinking water" |
+
+## PRO-US: Stories That Scare
+
+### The Human Cost
+
+- A Rice University student took their own life — the pressure of competing with AI, feeling replaceable, was part of their struggle.
+- "AI is taking your job" — not in 10 years, but **now**. Customer service, coding, writing, design.
+
+### The Corporate Villain
+
+- Big Tech is profiting off job opportunities that **went to PEOPLE** — and replacing them with algorithms.
+- *"Every time you cheer for AI, you're voting to make yourself obsolete."*
+
+### The Exploitation Angle
+
+- Data centers are built in poor communities. They get the pollution. Tech workers get the raises.
+- "Green AI" is marketing. The coal plants are real.
+
+### Make It Personal
+
+| Don't Say | Say |
+|-----------|-----|
+| "AI contributes to carbon emissions" | "Your kid's asthma inhaler? That's because a data center needed to generate your meme." |
+| "Automation displaces workers" | "Your dad worked 30 years in logistics. ChatGPT just made him obsolete. And you're celebrating?" |
+
+## PRO-AI: Stories That Inspire
+
+### The Productivity Revolution
+
+- A single person can now do what took a team of 10
+- Students in developing countries access world-class tutoring — for free
+- Small businesses compete with giants because AI levels the playing field
+
+### The Innovation Hope
+
+- AI is discovering new materials for solar panels, optimizing wind farms, predicting floods
+- "The same technology that causes problems can solve them — if we invest"
+
+### The Realism Card
+
+- "China isn't slowing down. Do you want zero influence on how AI develops?"
+- Stopping AI won't bring jobs back. Adapting will create new ones.
+
+### Paint the Picture
+
+| Don't Say | Say |
+|-----------|-----|
+| "AI improves efficiency" | "A farmer in Kenya used AI to diagnose her crop disease in 30 seconds. Her village didn't starve." |
+| "We need technological progress" | "My grandmother was diagnosed with cancer. AI caught it 6 months earlier than her doctor would have. She's alive because of that." |
+
+## The Key Insight
+
+You're not lying. You're **selecting** which truths to emphasize. You're **framing** facts inside stories people can feel.
+
+This is how every debate is won — climate, politics, business, life.
+
+**Your audience doesn't remember data. They remember how you made them feel.**
+
+Angry. Hopeful. Scared. Inspired. That's the spectacle.
+
+## But Here's the Rule: Every Story Must Be Fact-Checkable
+
+This is the line between **persuasion** and **propaganda**.
+
+### Persuasion (OK)
+
+- Selecting **real** facts
+- Framing **verified** stories
+- Emphasizing **documented** impacts
+- Using **sourced** statistics
+- Making real data **vivid**
+
+### Propaganda (NOT OK)
+
+- Inventing stories
+- Fabricating statistics
+- Making up "examples"
+- Exaggerating beyond evidence
+- Claiming things you can't verify
+
+### The Test
+
+Before you use a story, ask:
+
+1. **Can I cite a source?** (news article, study, report)
+2. **Could someone fact-check this?** (and find it's true)
+3. **Am I framing reality or inventing it?**
+
+**If you can't answer YES to all three — don't use it.**
+
+### Example: The Rice University Story
+
+- **Fact-checkable:** Yes — this was reported in news media.
+- **Verifiable:** The student's struggles with AI pressure were documented.
+- **Framing:** We're emphasizing a real case to illustrate broader concerns.
+- **NOT OK:** Claiming "hundreds of students have died because of AI" without evidence.
+
+*The story is powerful because it's real — not because we invented it.*
+
+**Emotions need reality backing them. Your job: Find the real stories that make people feel. Not invent them.**
+
+# Today's Activity
+
+## Instructions
+
+### Step 1: Divide Into Groups
+
+- **Left side of room:** PRO-AI (Development)
+- **Right side of room:** PRO-US (Human)
+
+### Step 2: Create Your Persona (5 min)
+
+**PRO-AI personas:**
+
+- Tech CEO building "green AI"
+- Economist focused on growth
+- Developing-nation minister needing energy
+- Engineer optimizing power grids
+
+**PRO-US personas:**
+
+- Climate activist
+- Community organizer in a polluted town
+- Public health researcher
+- Indigenous rights advocate
+
+**Ask yourself:** Who am I? What's my story? What do I fear losing?
+
+### Step 3: Group Discussion (10 min)
+
+Prepare **3 key arguments** for your side:
+
+1. **Energy**: Is AI's cost justified?
+2. **Solutions vs. Distractions**: Does tech help or delay action?
+3. **Who pays?**: Who benefits, who suffers?
+
+**Remember:** Don't just list facts. Tell a story. Make it emotional.
+
+### Step 4: Presentations (5 min each side)
+
+Present your arguments. Make your audience *feel* something.
+
+# Key Takeaways
+
+1. **Science is necessary but not sufficient** — narratives drive action
+2. **AI is accelerating the crisis** — real costs, speculative benefits
+3. **Countries are retreating** — short-term wins over long-term survival
+4. **Your job this semester:** Argue all sides. Understand all sides. Build better stories.
+
+# Looking Ahead
+
+## Next Week: Food Systems
+
+- What we eat is a climate choice
+- You'll be assigned to **vocational groups**
+- Same format: Pro-Climate vs. Pro-Development debate
+
+**Vocational Groups:**
+
+1. Logistics/Transportation
+2. Farming/Food Procurement
+3. Energy and Industry
+4. Policy-Makers
+5. Technology and Innovation
+6. Service/Urban Workers
+
+---
+
+*"We cannot solve our problems with the same thinking we used to create them."* — Einstein
