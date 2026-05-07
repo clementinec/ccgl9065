@@ -11,13 +11,13 @@
   const isCurator = mode === "curator";
 
   // ----------- Curator expiry gate -----------
-  // Hong Kong is UTC+8; "EOD Apr 29, 2026" = midnight HKT = 2026-04-29T16:00:00Z
-  const EXPIRY_UTC = Date.parse("2026-04-29T16:00:00Z");
+  // Hong Kong is UTC+8; "EOD May 31, 2026" = midnight HKT = 2026-05-31T16:00:00Z
+  const EXPIRY_UTC = Date.parse("2026-05-31T16:00:00Z");
   if (isCurator && Date.now() > EXPIRY_UTC) {
     root.innerHTML = `
       <section class="ex2026__expired">
         <h2>Exhibition closed</h2>
-        <p>This presentation tool expired at end of day 29 April 2026.<br>
+        <p>This presentation tool expired at end of day 31 May 2026.<br>
         The public exhibition remains available.</p>
       </section>`;
     return;

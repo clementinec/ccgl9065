@@ -1,6 +1,6 @@
 {
   "generated_at": "build_2026.py",
-  "count": 38,
+  "count": 46,
   "portfolios": [
     {
       "id": "p01",
@@ -146,7 +146,7 @@
     },
     {
       "id": "p09",
-      "title": "Portfolio P09",
+      "title": "Bridge to Zero",
       "thumb": "data/2026/thumbs/p09.jpg",
       "collage": {
         "url": "data/2026/anon/p09/collage.jpg",
@@ -158,8 +158,8 @@
         "kind": "youtube"
       },
       "essay": {
-        "url": null,
-        "available": false
+        "url": "data/2026/anon/p09/essay.pdf",
+        "available": true
       }
     },
     {
@@ -218,10 +218,11 @@
     {
       "id": "p13",
       "title": "Portfolio P13",
-      "thumb": null,
+      "thumb": "data/2026/thumbs/p13.jpg",
       "collage": {
-        "url": null,
-        "kind": "none"
+        "url": "data/2026/anon/p13/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
       },
       "video": {
         "url": null,
@@ -342,10 +343,10 @@
     {
       "id": "p20",
       "title": "Portfolio P20",
-      "thumb": null,
+      "thumb": "data/2026/thumbs/p20.jpg",
       "collage": {
-        "url": null,
-        "kind": "none"
+        "url": "data/2026/anon/p20/collage.pdf",
+        "kind": "local_pdf"
       },
       "video": {
         "url": null,
@@ -388,8 +389,8 @@
         "kind": "youtube"
       },
       "essay": {
-        "url": null,
-        "available": false
+        "url": "data/2026/anon/p22/essay.pdf",
+        "available": true
       }
     },
     {
@@ -673,6 +674,146 @@
       },
       "essay": {
         "url": "data/2026/anon/p38/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p39",
+      "title": "Portfolio P39",
+      "thumb": "data/2026/thumbs/p39.jpg",
+      "collage": {
+        "url": "data/2026/anon/p39/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p39/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p40",
+      "title": "Portfolio P40",
+      "thumb": "data/2026/thumbs/p40.jpg",
+      "collage": {
+        "url": "data/2026/anon/p40/collage.pdf",
+        "kind": "local_pdf"
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p40/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p41",
+      "title": "Portfolio P41",
+      "thumb": "data/2026/thumbs/p41.jpg",
+      "collage": {
+        "url": "data/2026/anon/p41/collage.jpg",
+        "kind": "ibb_page",
+        "mirrored_from_ibb_page": "https://ibb.co/bR1YPjqK"
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p41/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p42",
+      "title": "Portfolio P42",
+      "thumb": "data/2026/thumbs/p42.jpg",
+      "collage": {
+        "url": "data/2026/anon/p42/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p42/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p43",
+      "title": "Portfolio P43",
+      "thumb": "data/2026/thumbs/p43.jpg",
+      "collage": {
+        "url": "data/2026/anon/p43/collage.jpg",
+        "kind": "ibb_direct",
+        "mirrored_from_ibb": true
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p43/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p44",
+      "title": "Portfolio P44",
+      "thumb": "data/2026/thumbs/p44.jpg",
+      "collage": {
+        "url": "data/2026/anon/p44/collage.pdf",
+        "kind": "local_pdf"
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p44/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p45",
+      "title": "Portfolio P45",
+      "thumb": "data/2026/thumbs/p45.jpg",
+      "collage": {
+        "url": "data/2026/anon/p45/collage.pdf",
+        "kind": "local_pdf"
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p45/essay.pdf",
+        "available": true
+      }
+    },
+    {
+      "id": "p46",
+      "title": "Portfolio P46",
+      "thumb": "data/2026/thumbs/p46.jpg",
+      "collage": {
+        "url": "data/2026/anon/p46/collage.jpg",
+        "kind": "local_image"
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "url": "data/2026/anon/p46/essay.pdf",
         "available": true
       }
     }

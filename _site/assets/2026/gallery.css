@@ -18,6 +18,9 @@
   --ex-serif: "Source Serif Pro", "Iowan Old Style", Georgia, serif;
   --ex-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --ex-mono: "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  /* Adaptive content width: scales to ~93% of viewport up to a ceiling so the
+     gallery breathes on wide monitors without going edge-to-edge on 4K. */
+  --ex-max-w: min(2000px, 93vw);
 }
 
 /* Override Quarto's default container constraints */
@@ -129,7 +132,7 @@ body:has(.ex2026) main.content {
 
 /* ---------- Stage (random cycler) ---------- */
 .ex2026__stage {
-  max-width: 1400px;
+  max-width: var(--ex-max-w);
   margin: 0 auto;
   padding: 4rem 2rem 3rem;
 }
@@ -383,7 +386,7 @@ body:has(.ex2026) main.content {
 }
 
 .ex2026__mosaic-head {
-  max-width: 1400px;
+  max-width: var(--ex-max-w);
   margin: 0 auto 3rem;
   text-align: center;
 }
@@ -404,7 +407,7 @@ body:has(.ex2026) main.content {
 }
 
 .ex2026__mosaic {
-  max-width: 1400px;
+  max-width: var(--ex-max-w);
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));

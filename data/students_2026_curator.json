@@ -1,6 +1,6 @@
 {
   "generated_at": "build_2026.py",
-  "count": 38,
+  "count": 46,
   "portfolios": [
     {
       "id": "p01",
@@ -383,14 +383,14 @@
       "student_number": "351460",
       "anon_title": "Portfolio P13",
       "essay_title": "Wong Tin Hang Anthony - CCGL9065 Final Reflection Paper",
-      "collage_title": "",
+      "collage_title": "CCGL9065 Collage",
       "video_title": "",
-      "thumb": null,
+      "thumb": "data/2026/thumbs/p13.jpg",
       "collage": {
-        "url": null,
-        "kind": "none",
-        "source_path": "",
-        "original_link": ""
+        "url": "data/2026/anon/p13/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/Collage_Final/2947515634 - Tin Hang Anthony Wong - 351460_Tin_Hang_Anthony_Wong_CCGL9065_Collage_4021069_1233432522.txt",
+        "original_link": "https://i.ibb.co/tMS0vm8m/CCGL9065-COLLAGE-1.jpg"
       },
       "video": {
         "url": null,
@@ -600,14 +600,14 @@
       "student_number": "356789",
       "anon_title": "Portfolio P20",
       "essay_title": "Hui Keira Ka Yan - CCGL Final Reflection Essay",
-      "collage_title": "",
+      "collage_title": "CCGL9065 Poster",
       "video_title": "",
-      "thumb": null,
+      "thumb": "data/2026/thumbs/p20.jpg",
       "collage": {
-        "url": null,
-        "kind": "none",
-        "source_path": "",
-        "original_link": ""
+        "url": "data/2026/anon/p20/collage.pdf",
+        "kind": "local_pdf",
+        "source_path": "data/2026/Collage_Final/2947430117 - Keira Ka Yan Hui - 356789_Keira_Ka_Yan_Hui_Hui_Keira_Ka_Yan_-_CCGL9065_Poster_4021069_1354484915",
+        "original_link": "data/2026/incoming/u3652727/collage.pdf"
       },
       "video": {
         "url": null,
@@ -678,9 +678,9 @@
         "original_link": "https://www.youtube.com/embed/eF11f8r0miE"
       },
       "essay": {
-        "url": null,
-        "available": false,
-        "source_path": "",
+        "url": "data/2026/anon/p22/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/Essay_Final/2947481253 - Joan Yan Shing Wong - 361119_Joan_Yan_Shing_Wong_3036567042_CCGL9065_Final_Reflective_Essay_4021069_509746233.pdf",
         "converted_from_docx": false
       }
     },
@@ -1177,6 +1177,254 @@
         "url": "data/2026/anon/p38/essay.pdf",
         "available": true,
         "source_path": "data/2026/essay_pass/2942121962 - Ismael Jibbril Youssef Lahriri - 376403_Ismael_Jibbril_Youssef_Lahriri_Singapore_Breathes__Hong_Kong_Suffocates_4021069_956927680.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p39",
+      "name": "Chun Man Lok",
+      "first_name": "Chun Man",
+      "last_name": "Lok",
+      "email": "",
+      "student_number": "",
+      "anon_title": "Portfolio P39",
+      "essay_title": "",
+      "collage_title": "",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p39.jpg",
+      "collage": {
+        "url": "data/2026/anon/p39/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/Collage_Final/2947746346 - Chun Man Lok - 328512_Chun_Man_Lok_Collage__httpsi.ibb.co8nScDP3Htargets.png__4021069_1663241291.txt",
+        "original_link": "https://i.ibb.co/8nScDP3H/targets.png"
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p39/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/Essay_Final/2947616277 - Chun Man Lok - 328512_Chun_Man_Lok_Final_Essay_4021069_580711127.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p40",
+      "name": "Hin Wang Yip",
+      "first_name": "Hin Wang",
+      "last_name": "Yip",
+      "email": "",
+      "student_number": "3036398910",
+      "anon_title": "Portfolio P40",
+      "essay_title": "",
+      "collage_title": "",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p40.jpg",
+      "collage": {
+        "url": "data/2026/anon/p40/collage.pdf",
+        "kind": "local_pdf",
+        "source_path": "data/2026/Collage_Final/2947657070 - Hin Wang Yip - 329556_Hin_Wang_Yip_3036398910_Final_Collage_4021069_1828312190.pdf",
+        "original_link": "data/2026/Collage_Final/2947657070 - Hin Wang Yip - 329556_Hin_Wang_Yip_3036398910_Final_Collage_4021069_1828312190.pdf"
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p40/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/Essay_Final/2947657513 - Hin Wang Yip - 329556_Hin_Wang_Yip_3036398910_Final_Essay_4021069_1783530945.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p41",
+      "name": "Hoi Shun Marco Cheung",
+      "first_name": "Hoi Shun Marco",
+      "last_name": "Cheung",
+      "email": "",
+      "student_number": "3036396089",
+      "anon_title": "Portfolio P41",
+      "essay_title": "",
+      "collage_title": "",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p41.jpg",
+      "collage": {
+        "url": "data/2026/anon/p41/collage.jpg",
+        "kind": "ibb_page",
+        "source_path": "data/2026/Collage_Final/2947782209 - Hoi Shun Marco Cheung - 328419_Hoi_Shun_Marco_Cheung_Collage_link_submission_3036396089_Cheung_Hoi_Shun_Marco_4021069_2013934379.txt",
+        "original_link": "https://ibb.co/bR1YPjqK"
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p41/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/Essay_Final/2948962704 - Hoi Shun Marco Cheung - 328419_Hoi_Shun_Marco_Cheung_CCGL9065_Essay_Cheung_Hoi_Shun_Marco_3036396089_4021069_1472969116.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p42",
+      "name": "Ki Chun Fu",
+      "first_name": "Ki Chun",
+      "last_name": "Fu",
+      "email": "",
+      "student_number": "3036588395",
+      "anon_title": "Portfolio P42",
+      "essay_title": "",
+      "collage_title": "",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p42.jpg",
+      "collage": {
+        "url": "data/2026/anon/p42/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/Collage_Final/2947396917 - Ki Chun Fu - 363563_Ki_Chun_Fu_j_4021069_450966722.txt",
+        "original_link": "https://i.ibb.co/1J7p3mB4/nupid-CCGL-Poster-2.png"
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p42/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/Essay_Final/2947631689 - Ki Chun Fu - 363563_Ki_Chun_Fu_final_4021069_1981856241.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p43",
+      "name": "Nour Lyakoubi",
+      "first_name": "Nour",
+      "last_name": "Lyakoubi",
+      "email": "",
+      "student_number": "",
+      "anon_title": "Portfolio P43",
+      "essay_title": "",
+      "collage_title": "",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p43.jpg",
+      "collage": {
+        "url": "data/2026/anon/p43/collage.jpg",
+        "kind": "ibb_direct",
+        "source_path": "data/2026/Collage_Final/2947502831 - Nour Lyakoubi - 376453_Nour_Lyakoubi_collage_link_4021069_796792118.txt",
+        "original_link": "https://i.ibb.co/YBctPvmx/insert-war-picture.png"
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p43/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/Essay_Final/2947511481 - Nour Lyakoubi - 376453_Nour_Lyakoubi_NourLyakoubi-Final_Essay_4021069_1278630720.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p44",
+      "name": "Yanjing Hua",
+      "first_name": "Yanjing",
+      "last_name": "Hua",
+      "email": "",
+      "student_number": "3036573302",
+      "anon_title": "Portfolio P44",
+      "essay_title": "",
+      "collage_title": "",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p44.jpg",
+      "collage": {
+        "url": "data/2026/anon/p44/collage.pdf",
+        "kind": "local_pdf",
+        "source_path": "data/2026/Collage_Final/2947471755 - Yanjing Hua - 361903_Yanjing_Hua_Hua_Yanjing_u3036573302_4021069_1917772178.pdf",
+        "original_link": "data/2026/Collage_Final/2947471755 - Yanjing Hua - 361903_Yanjing_Hua_Hua_Yanjing_u3036573302_4021069_1917772178.pdf"
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p44/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/Essay_Final/2947472749 - Yanjing Hua - 361903_Yanjing_Hua_Hua_Yanjing_u3036573302_4021069_259105208.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p45",
+      "name": "Yilin Xu",
+      "first_name": "Yilin",
+      "last_name": "Xu",
+      "email": "",
+      "student_number": "3036519485",
+      "anon_title": "Portfolio P45",
+      "essay_title": "",
+      "collage_title": "",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p45.jpg",
+      "collage": {
+        "url": "data/2026/anon/p45/collage.pdf",
+        "kind": "local_pdf",
+        "source_path": "data/2026/Collage_Final/2947616492 - Yilin Xu - 355609_Yilin_Xu_Space_Debris_4021069_1200281061.pdf",
+        "original_link": "data/2026/Collage_Final/2947616492 - Yilin Xu - 355609_Yilin_Xu_Space_Debris_4021069_1200281061.pdf"
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p45/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/Essay_Final/2947774178 - Yilin Xu - 355609_Yilin_Xu_Deadly_Ring_Tightening_Humanitys_Future__Increase_of_Space_Debris_continuously_nibbling_the_road_t_1233933079.pdf",
+        "converted_from_docx": false
+      }
+    },
+    {
+      "id": "p46",
+      "name": "Ze Kai Huang",
+      "first_name": "Ze Kai",
+      "last_name": "Huang",
+      "email": "",
+      "student_number": "",
+      "anon_title": "Portfolio P46",
+      "essay_title": "",
+      "collage_title": "",
+      "video_title": "",
+      "thumb": "data/2026/thumbs/p46.jpg",
+      "collage": {
+        "url": "data/2026/anon/p46/collage.jpg",
+        "kind": "local_image",
+        "source_path": "data/2026/Collage_Final/2947639561 - Ze Kai Huang - 356974_Ze_Kai_Huang_collage_4021069_1014830048.pdf",
+        "original_link": "data/2026/incoming/zekaihuang/collage.jpg"
+      },
+      "video": {
+        "url": null,
+        "kind": "none",
+        "source_path": "",
+        "original_link": ""
+      },
+      "essay": {
+        "url": "data/2026/anon/p46/essay.pdf",
+        "available": true,
+        "source_path": "data/2026/Essay_Final/2947815972 - Ze Kai Huang - 356974_Ze_Kai_Huang_essay_726_words_4021069_1281154990.pdf",
         "converted_from_docx": false
       }
     }
