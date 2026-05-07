@@ -207,8 +207,8 @@
         "kind": "local_image"
       },
       "video": {
-        "url": "data/2026/videos/p12.mp4",
-        "kind": "local"
+        "url": "https://www.youtube.com/embed/jU2uIufsmio",
+        "kind": "youtube"
       },
       "essay": {
         "url": "data/2026/anon/p12/essay.pdf",
@@ -634,8 +634,8 @@
         "kind": "local_image"
       },
       "video": {
-        "url": "data/2026/videos/p36.mp4",
-        "kind": "local"
+        "url": "https://www.youtube.com/embed/1Bqp0gUNDAQ",
+        "kind": "youtube"
       },
       "essay": {
         "url": "data/2026/anon/p36/essay.pdf",

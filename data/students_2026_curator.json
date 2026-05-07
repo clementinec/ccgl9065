@@ -362,10 +362,10 @@
         "original_link": "data/2026/collage_pass/2946664783 - Shijun Feng - 351352_Shijun_Feng_Shijun_Feng_Collage_4021069_878714730.JPG"
       },
       "video": {
-        "url": "data/2026/videos/p12.mp4",
-        "kind": "local",
+        "url": "https://www.youtube.com/embed/jU2uIufsmio",
+        "kind": "youtube",
         "source_path": "data/2026/video_pass/2946669564 - Shijun Feng - 351352_Shijun_Feng_Shijun_Feng_Video_4021069_550210205.mov",
-        "original_link": "data/2026/video_pass/2946669564 - Shijun Feng - 351352_Shijun_Feng_Shijun_Feng_Video_4021069_550210205.mov"
+        "original_link": "https://www.youtube.com/embed/jU2uIufsmio"
       },
       "essay": {
         "url": "data/2026/anon/p12/essay.pdf",
@@ -1106,10 +1106,10 @@
         "original_link": "data/2026/collage_pass/2946567099 - Alexandre Olivier Oriol Gergele - 376517_Alexandre_Olivier_Oriol_Gergele_Climate_Change_Collage_4021069_1744992933.png"
       },
       "video": {
-        "url": "data/2026/videos/p36.mp4",
-        "kind": "local",
+        "url": "https://www.youtube.com/embed/1Bqp0gUNDAQ",
+        "kind": "youtube",
         "source_path": "data/2026/video_pass/2946869632 - Alexandre Olivier Oriol Gergele - 376517_Alexandre_Olivier_Oriol_Gergele_Final_Climate_Change_Video_4021069_104166980.m4v",
-        "original_link": "data/2026/video_pass/2946869632 - Alexandre Olivier Oriol Gergele - 376517_Alexandre_Olivier_Oriol_Gergele_Final_Climate_Change_Video_4021069_104166980.m4v"
+        "original_link": "https://www.youtube.com/embed/1Bqp0gUNDAQ"
       },
       "essay": {
         "url": "data/2026/anon/p36/essay.pdf",
