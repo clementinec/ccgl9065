@@ -225,8 +225,8 @@
         "mirrored_from_ibb": true
       },
       "video": {
-        "url": null,
-        "kind": "none"
+        "url": "https://www.youtube.com/embed/tTREK_FHyno",
+        "kind": "youtube"
       },
       "essay": {
         "url": "data/2026/anon/p13/essay.pdf",
@@ -687,8 +687,8 @@
         "mirrored_from_ibb": true
       },
       "video": {
-        "url": null,
-        "kind": "none"
+        "url": "https://www.youtube.com/embed/7wLpJn_U1FE",
+        "kind": "youtube"
       },
       "essay": {
         "url": "data/2026/anon/p39/essay.pdf",
@@ -722,8 +722,8 @@
         "mirrored_from_ibb_page": "https://ibb.co/bR1YPjqK"
       },
       "video": {
-        "url": null,
-        "kind": "none"
+        "url": "https://www.youtube.com/embed/t7PsIiLfFlE",
+        "kind": "youtube"
       },
       "essay": {
         "url": "data/2026/anon/p41/essay.pdf",
@@ -740,8 +740,8 @@
         "mirrored_from_ibb": true
       },
       "video": {
-        "url": null,
-        "kind": "none"
+        "url": "https://www.youtube.com/embed/mYF1PloMUlE",
+        "kind": "youtube"
       },
       "essay": {
         "url": "data/2026/anon/p42/essay.pdf",
@@ -758,8 +758,8 @@
         "mirrored_from_ibb": true
       },
       "video": {
-        "url": null,
-        "kind": "none"
+        "url": "https://www.youtube.com/embed/RDzFryTPo1k",
+        "kind": "youtube"
       },
       "essay": {
         "url": "data/2026/anon/p43/essay.pdf",
@@ -809,8 +809,8 @@
         "kind": "local_image"
       },
       "video": {
-        "url": null,
-        "kind": "none"
+        "url": "https://www.youtube.com/embed/7diNifmgLWw",
+        "kind": "youtube"
       },
       "essay": {
         "url": "data/2026/anon/p46/essay.pdf",
