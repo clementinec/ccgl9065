@@ -1,0 +1,33 @@
+The Hidden Water Debt: A Call for HK Fashion Revolution
+
+A shopper in Causeway Bay often picks up a new cotton T-shirt without much thought. However, this purchase involves more than spending HK$199. Producing one T-shirt requires about 2,700 liters of water, which equals what one person drinks over 900 days (World Bank, 2019). This concept is known as “water debt.” This unseen cost reveals the hidden impact of everyday consumption.
+
+This hidden cost reflects a broader global issue. Fast fashion places pressure on water resources worldwide, and Hong Kong is part of this system through its consumption. The city discards large amounts of clothing each day. According to Redress, Hong Kong throws away about 402 tonnes of textiles daily, which equals around 17,480 suitcases (Redress, 2025). Each item contains “virtual water” used during production. As a result, Hong Kong consumes global water resources and then wastes them.
+
+This pattern becomes more serious in a local context. Hong Kong depends heavily on external water sources, importing 70–80% of its fresh water from the Dongjiang River (Water Supplies Department, 2026). Climate change is making this supply less stable. Therefore, this issue is not only environmental but also a matter of local security.
+
+Given these challenges, Hong Kong needs a clear and practical response. The government should adopt a two-part strategy, regarding both consumption and waste. Together, we aim to reduce the city’s overall water footprint.
+
+The first step focuses on transparency. The Legislative Council should introduce a mandatory “Water Disclosure Ordinance” (Information Services Department, 2024).
+
+Under this framework, retailers would be required to display a standardized “Water Consumption Grade” on every product tag, similar to the energy efficiency labels currently found on household appliances. This system is essential because many consumers currently lack the data necessary to evaluate the environmental cost of their wardrobes, leading to uninformed purchasing decisions that favor high-impact fabrics. Clear labeling would encourage consumers to choose low-impact materials. Examples include recycled polyester and linen, which use less water than virgin cotton. Ultimately, providing clear, regulated information serves as a critical tool for guiding the public toward more sustainable consumption habits.
+
+The second step focuses on building a circular system. While labeling helps consumers make informed choices, it does not address the large volume of existing textile waste. Therefore, the government should establish the “Kwai Chung Circularity Hub” in underused industrial areas. By leveraging the Industrial Building Revitalisation Scheme to provide rent subsidies and infrastructure support, the government can attract specialized green-tech businesses to the area. A core component of this hub would be the deployment of “Fibre-to-Fibre” (F2F) recycling technology (Hong Kong Research Institute of Textiles and Apparel, n.d.). This advanced process is capable of separating complex blended fabrics, like cotton-polyester, into high-quality reusable raw materials. To ensure the commercial viability of this hub, the government should offer tax incentives and "Green Credits" to fashion brands that adopt this technology for their supply chains. Such an approach transforms textile waste from a management burden into a valuable economic resource, effectively reducing the city's landfills usage.
+
+These reforms would empower citizens. Consumers currently face limited information when making purchases. This situation often leads to “blind consumption.” Water labeling would give people more control over their choices. It would allow them to act according to their values. At the same time, the recycling hub would lower the cost of sustainable materials. This change would make ethical fashion more affordable. Sustainable clothing would no longer be limited to a small group of consumers. More residents could participate, which would strengthen a sense of shared responsibility.
+
+These changes would also improve regional security. Hong Kong depends heavily on the Dongjiang water supply. Reducing the city’s water footprint would lower this dependence. It would also reduce the risk of shortages and price changes. This approach supports the “Total Water Management Strategy.” It would also ease pressure on waste systems. Therefore, circularity is not only an environmental goal. It is also a practical strategy for long-term stability.
+
+The era of invisible consumption must end. Every clothing purchase carries a hidden water cost. The next time you reach for a new garment, ask yourself if the fabric is worth the water debt it carries. We must demand legislative transparency and support local circularity today, or risk a tomorrow where our taps run dry.
+
+References
+
+Hong Kong Research Institute of Textiles and Apparel. (n.d.). The Green Machine: A hydrothermal separation and recycling system for cotton and polyester blends. https://www.hkrita.com/en/our-innovation-tech/projects/green-machine-phase-1
+
+Information Services Department. (2024, February 28). LCQ4: Recovery of waste textiles [Press release]. HKSAR Government. https://www.info.gov.hk/gia/general/202402/28/P2024022800397.htm
+
+Redress. (2025). 2025 mission-critical report: 402 tonnes of textiles discarded daily in Hong Kong [Press release]. https://redress.com.hk/press-release/2025-redress-report/
+
+Water Supplies Department. (2026). Head 194 — Water Supplies Department: Estimates for the year ending 31 March 2027. HKSAR Government. https://www.budget.gov.hk/2026/eng/pdf/head194.pdf
+
+World Bank. (2019, September 23). How much do our wardrobes cost to the environment? https://www.worldbank.org/en/news/feature/2019/09/23/costo-moda-medio-ambiente

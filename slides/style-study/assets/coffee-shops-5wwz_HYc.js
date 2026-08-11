@@ -1,0 +1,1 @@
+var e=``+new URL(`../age-of-average/coffee-shops.webp`,import.meta.url).href;export{e as t};

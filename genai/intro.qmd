@@ -28,7 +28,6 @@ format:
         \definecolor{accent}{RGB}{231,117,0}
         \definecolor{linkcolor}{RGB}{100,149,237}
         \hypersetup{colorlinks=true,urlcolor=linkcolor}
-        \usepackage{qrcode}
         \definecolor{princetonorange}{RGB}{231,117,0}
         \setbeamercolor{palette primary}{bg=princetonorange,fg=white}
         \setbeamercolor{titlelike}{fg=white,bg=princetonorange}
@@ -109,7 +108,7 @@ Influential. Contested. Read critically.
 \vfill
 
 \begin{center}
-\qrcode[height=4cm]{https://clementinec.github.io/ccgl9065/genai}
+\includegraphics[height=4cm]{assets/genai-module-qr.pdf}
 
 \vspace{1em}
 

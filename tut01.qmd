@@ -1,5 +1,6 @@
 ---
-title: "CCGL9065: Tutorial 1 Understanding Climate Change through Data Science"
+title: "[Archive] CCGL9065 Tutorial 1: Climate Data Science"
+search: false
 format: 
   revealjs: 
     slide-number: c/t
@@ -8,6 +9,14 @@ format:
     footer: From macro to micro, how data can be collected and all
     transition: 'slide'
     output-file: 9065_tut_01.html
+---
+
+## Archived tutorial model
+
+This deck is retained as a record of an earlier Arduino and climate-data tutorial.
+
+It is **not the current tutorial format**. Current tutorials are paired work sessions in which students complete weekly work, compare evidence, and prepare for the next class.
+
 ---
 
 ## Understanding Climate Change through Data Science

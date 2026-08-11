@@ -1,0 +1,9 @@
+{
+  "name": "ccgl9065-week1-drawing-set",
+  "private": true,
+  "scripts": {
+    "dev": "../week1/node_modules/.bin/slidev slides.md --open",
+    "build": "../week1/node_modules/.bin/slidev build slides.md --base ./ --router-mode hash --out ../../slides/week1-drawing",
+    "export": "../week1/node_modules/.bin/slidev export slides.md --output ../../slides/week1-drawing/CCGL9065-week1-drawing-set.pdf"
+  }
+}

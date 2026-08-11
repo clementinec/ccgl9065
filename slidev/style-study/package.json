@@ -1,0 +1,7 @@
+{
+  "name": "ccgl9065-slidev-style-study",
+  "private": true,
+  "scripts": {
+    "build": "../week1/node_modules/.bin/slidev build slides.md --base ./ --router-mode hash --out ../../slides/style-study"
+  }
+}

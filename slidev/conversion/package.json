@@ -1,0 +1,15 @@
+{
+  "name": "ccgl9065-slidev-conversions",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convert": "python3 convert_quarto.py",
+    "build": "node build-all.mjs",
+    "refresh": "npm run convert && npm run build"
+  },
+  "dependencies": {
+    "@slidev/cli": "52.18.0",
+    "@slidev/theme-default": "0.25.0",
+    "vue": "3.5.40"
+  }
+}

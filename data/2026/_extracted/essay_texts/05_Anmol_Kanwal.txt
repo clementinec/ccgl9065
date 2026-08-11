@@ -1,0 +1,112 @@
+Surviving in the Era of Artificial Intelligence 
+In 2025, one of the last farmers in the Mexican state of Querétaro stood helplessly upon his once -vibrant, 
+now-barren fields as his hometown became the “promised land” of artificial intelligence (AI) datacentres . 
+Querétaro recently endured centuries’ worst drought due to substantial water consumption by tech giants’ 
+warehouses full of computer servers, impacting crops and water supplies to nearby communities (Bearne, 
+2025). 
+With the tremendous surge in Generative AI’s popularity , more datacentres are being built around the globe . 
+However, this popularity comes with a huge cost. There are thousands of servers running in these 
+datacentres , converting massive amount of electricity to waste heat . To prevent overheating, datacentres 
+use cooling systems; mainly water -based (WBC) and air -based cooling (ABC) , where the latter operates with 
+air-conditioners and fans . Ironically, these systems consume billion litres of water annually and account for 
+37% of total electricity consumed by datacentres (Mytton, 2021 ; Chen et al., 2025 ). 
+This is evident from how Google and Microsoft, 2 dominant leaders in the AI industry, consumed 8 billion 
+gallons of water in 2023 alone (Figure 1) . Most data centres , 42% of Microsoft’s and 15% of Google’s, are 
+located in water -stressed areas like Virginia and Mexico (Hodgson, 2024). Consequently, citizens face a severe 
+water crisis for basic needs and agriculture; raising conflicts of whether water is more important for 
+fulfilling people's needs or to fuel technological industries . 
+As the 4th largest datacentre market, Hong Kong (HK) is rapidly scaling its datacentre development, which 
+account for more than 6% of total energy consumption sourced largely from fossil fuels (TVB , 2026 ). 
+Research discovered that datacentres’ heavy dependence on fossil fuels for meeting energy demands will emit 
+2.5Bn tonnes of greenhouse gas emissions by 2030, an increase from 330M before the development of AI 
+(Tiberi et al., 2025). Still, HK lacks a clear sus tainability plan and transparent power usage effectiveness 
+(PUE) requirements for datacentres. Although this attracts more datacentres, the resulting energy demand and 
+carbon emissions hinder HK from achieving carbon neutrality by 2050. 
+Collectively, AI’s hidden water and carbon footprint will compete with citizens for a finite resource globally 
+and lower climate quality in HK . 
+
+ 
+ Figure 1: Google’s and Microsoft ’s Data centre Water Consumption 2020 -2023 
+© Hodgson, C. (2024, August 18). US tech group’s water consumption soars in ‘data centre alley’. Financial Times . https://www.ft.com/content/1d468bd2 -
+6712 -4cdd -ac71 -21e0ace2d048?syn -25a6b1a6=1 
+ 
+This paper suggests a cooling model , liquid immersion cooling , that improves water and energy usage 
+simultaneously to support sustainability . 
+Immersion cooling involves submerging electronic hardware in a dielectric fluid , like mineral oils, that have 
+better electrical neutralising properties and higher heat capacity than water (Kuncoro et al., 2019). This 
+replaces water -intensive evaporative cooling in traditional cooling towers , eliminating the need for billion 
+gallons of freshwater . Furthermore, r esearch observed that datacentres utilising immersion cooling systems 
+achieve a 60% reduction in energy consumption compared to traditional cooling methods (Liu et al., 2025) . 
+By alleviating the need for computer room air -conditioning and fans, immersion cooling can potentially 
+reduce the PUE to 1.1 and save around 77.2% of CO 2 emissions compared to ABC (Figure 2; Figure 3). 
+Firstly, water -stressed regions’ governments should mandate big companies like Microsoft and Google to 
+retrofit all existing data centres with liquid immersion cooling system s within a targeted timeframe. This 
+ensures no family in Querétaro faces power outages and future generations receive high quality water. 
+Secondly, HK government should set stricter sustainability measures for datacentres, like a PUE limit of 1.3 
+and requirement for datacentres to replace ABC and WBC with immersion cooling. In 2024, HK University of 
+Science and Technology (HKUST) implemented HK’s one of the fewest immersion cooling technologies for 
+sustainable AI research. Following the implementation, HKUST reported an 8 0% reduction in energy 
+consumption for cooling and anticipated avoiding 900 tonnes of carbon emission annually, which is 45 % less 
+
+than ABC (Siu, 2024). Hence, immersion cooling can benefit HK residents’ life quality by reducing carbon 
+emissions and help the government achieve 2050 neutrality goal efficiently. 
+ 
+ 
+Figure 2: Comparison of PUE and COP for various single -phase immersion cooling (SPIC) 
+©Liu, S., Guo, S., Sun, H., Xu, Z., Li, X., & Wang, X. (2025). Evaluation of energy, economic, and pollution emission for sin gle-phase immersion cooling 
+data center with different economizers. Applied Thermal Engineering , 260, 125049. 
+ 
+ 
+Figure 3: Comparative pollutant emissions (tons) of various datacentre cooling technologies: 
+SPICS -DRC, SPICS -CT, and ACS 
+©Liu, S., Guo, S., Sun, H., Xu, Z., Li, X., & Wang, X. (2025). Evaluation of energy, economic, and pollution emission for sin gle-phase immersion cooling 
+data center with different economizers. Applied Thermal Engineering , 260, 125049. 
+ 
+
+Policy alone isn’t enough. we must take responsibility for our digital footprint. 
+GPT-3 version of OpenAI’s ChatGPT drinks approximately 500ml of fresh water fo r answering every 20 
+to 50 questions ( Gendron , 2023) . Hence, b efore using AI for trivial tasks or making Ghibli arts for a 
+mere Instagram post, one must ask: “Is this worth a bottle of water?” 
+While Microsoft and Google’s water consumption is rising, Amazon Web series does not report its 
+annual water footprint at all . Thus, i nstead of opting for free AI platforms, consumers should choose 
+providers that publish water and energy statistics transparently. 
+Instead of waiting for others to take the initiative in healing the climate , let’s start improving our own 
+consumption habits to make a greater impact immediately . 
+739 words 
+ 
+
+References 
+Bearne, S. (2025, August 29). Thirsty data centres boom in drought -hit Mexico. BBC . 
+https://www.bbc.com/news/articles/cx2ngz7ep1eo 
+Chen, Z., Gu, Qiuye., Hu, X., Xu, S., Zhao, Y ., Zhang, W. (2025). Policy Pathways for Sustainable 
+Development of Hong Kong’s Data Centres. HKUST. 
+https://ppol.hkust.edu.hk/sites/default/files/Group%208 -Final%20report.pdf 
+Gendron, W. (2023, April 15). ChatGPT needs to “drink” a water bottle’s worth of fresh water for every 
+20 to 50 questions you ask, researchers say. Business Insider. 
+https://www.businessinsider.com/chatgpt -generative -ai-water -use-environmental -impact -study -
+2023 -4 
+Hodgson , C. (2024, August 18). US tech group’s water consumption soars in ‘data centre alley’. 
+Financial Times . https://www.ft.com/content/1d468bd2 -6712 -4cdd -ac71-21e0ace2d048?syn -
+25a6b1a6=1 
+Jazul, N. (2025). Hong Kong urged to mandate disclosure of data center’s power use. Hong Kong 
+Business. https://hongkongbusiness.hk/energy -offshore/exclusive/hong -kong -urged -mandate -
+disclosure -data-centers -power -use 
+Kuncoro, I. W., Pambudi, N. A., Biddinika, M. K., Widiastuti, I., Hijriawan, M., & Wibowo, K. M. 
+(2019, December). Immersion cooling as the next technology for data center cooling: A review. 
+In Journal of Physics: Conference Series (V ol. 1402, No. 4, p. 044057). IOP Publishing. 
+Liu, S., Guo, S., Sun, H., Xu, Z., Li, X., & Wang, X. (2025). Evaluation of energy, economic, and 
+pollution emission for single -phase immersion cooling data center with different 
+economizers. Applied Thermal Engineering , 260, 125049. 
+Mytton, D. (2021). Data centre water consumption. npj Clean Water , 4(1), 11. 
+Siu, H. (2024, October 10). HKUST launches largest IT cooling system in HK. The Standard . 
+https://www.thestandard.com.hk/news/article/66847/HKUST -launches -largest -IT-cooling -
+system -in-HK 
+Tiberi, M., Montanaro, A., Wen, C., Zhang, J., Balci, O., Shinde, S. M., Sharma, S., Meersha, A., 
+Shekhar, H., Conran, B. R., Teo, K. B. K., Ebert, M., Yan, X., Tran, Y ., Banakar, M., Littlejohns, 
+C., Reed, G. T., Romagnoli, M., Ruocco, A., Sorianello, V ., & Ferrari, A. C. (2025). Graphene 
+
+electro -absorption modulators for energy -efficient and high -speed optical transceivers. arXiv 
+preprint arXiv:2506.03281 . 
+TVB. (2026, February 26). 中電指本港數據中心用電量去年增 7.5% 對未來增長前景感樂觀 . TVB 
+News. https://news.tvb.com/tc/finance/699ffaf4f3bac3b7e4cf628b/ 財經 -中電指本港數據中心用
+電量去年增 7.5-對未來增長前景感樂觀

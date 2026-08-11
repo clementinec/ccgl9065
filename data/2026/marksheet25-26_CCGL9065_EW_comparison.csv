@@ -1,0 +1,49 @@
+Row,UNo,Admin Name,Roster Name,Admin Grade,Roster Grade,Grade Match,Coursework-Mark,Exam-Mark,Final-Mark,Status
+12,3036567107,Au-yeung Yung Mei Charlize,Au-Yeung Yung Mei Charlize,A-,A-,YES,95.0,87.33,90.4,OK
+13,3036136568,Chen Sofia,Chen Sofia,F,F,YES,45.0,0.0,18.0,OK
+14,3036396089,Cheung Hoi Shun Marco,Cheung Hoi Shun Marco,B+,B+,YES,95.0,84.67,88.8,OK
+15,3036596251,Cheung Sum Yau,Cheung Sum Yau,B+,B+,YES,92.5,86.33,88.8,OK
+16,3036601381,Cheung Yuen Ki,Cheung Yuen Ki,B-,B-,YES,92.25,83.0,86.7,OK
+17,3036527470,Chiang Yu-xuan,Chiang Yu-Xuan,B+,B+,YES,91.25,87.33,88.9,OK
+18,3036582717,Chow Chi Kiu,Chow Chi Kiu,B-,B-,YES,89.0,83.33,85.6,OK
+19,3036393427,Chum Chi Yeung,Chum Chi Yeung,B-,B-,YES,91.5,82.33,86.0,OK
+20,3036484305,Feng Shijun,Feng Shijun,A-,A-,YES,95.75,86.33,90.1,OK
+21,3036588395,Fu Ki Chun,Fu Ki Chun,B+,B+,YES,94.0,85.67,89.0,OK
+22,3036402412,Fung Pak Man,Fung Pak Man,A+,A+,YES,96.5,88.67,91.8,OK
+23,3036678308,Gergele Alexandre Olivier Oriol,Gergele Alexandre Olivier Oriol,A,A,YES,95.0,89.0,91.4,OK
+24,3036678322,Hanusch Benjamin Alfons,Hanusch Benjamin Alfons,B,B,YES,91.25,85.67,87.9,OK
+25,3036573302,Hua Yanjing,Hua Yanjing,A-,A-,YES,95.5,86.67,90.2,OK
+26,3036527236,Huang Ze Kai,Huang Ze Kai,B-,B-,YES,92.5,81.33,85.8,OK
+27,3036527274,Hui Keira Ka Yan,Hui Keira Ka Yan,B-,B-,YES,87.5,85.33,86.2,OK
+28,3036386369,Hung Hei Yu,Hung Hei Yu,A,A,YES,94.5,88.67,91.0,OK
+29,3036059899,Kanwal Anmol,Kanwal Anmol,A+,A+,YES,97.5,89.0,92.4,OK
+30,3036525056,Kim Jihoo,Kim Jihoo,A-,A-,YES,94.0,86.67,89.6,OK
+31,3036678920,Lahriri Ismael Jibbril Youssef,Lahriri Ismael Jibbril Youssef,A-,A-,YES,95.0,86.33,89.8,OK
+32,3036233988,Lai Hang Chi,Lai Hang Chi,B,B,YES,92.0,83.67,87.0,OK
+33,3036484599,Lam Jeff Chun Fu,Lam Jeff Chun Fu,A,A,YES,95.5,89.33,91.8,OK
+34,3036594083,Lee Hong Kiu Jamie,Lee Hong Kiu Jamie,B+,B+,YES,91.5,86.33,88.4,OK
+35,3036604565,Li Wanying,Li Wanying,A-,A-,YES,96.0,87.33,90.8,OK
+36,3036393491,Lok Chun Man,Lok Chun Man,B,B,YES,95.0,83.67,88.2,OK
+37,3036678528,Lyakoubi Nour,Lyakoubi Nour,C+,C+,YES,62.5,86.33,76.8,OK
+38,3036583802,Mak Yu Hei,Mak Yu Hei,A-,A-,YES,97.5,85.33,90.2,OK
+39,3036628298,Mok Hui Cheung Matthew,Mok Hui Cheung Matthew,A+,A+,YES,96.0,89.67,92.2,OK
+40,3036666422,Ng Wing Lam,Ng Wing Lam,A-,A-,YES,95.75,86.33,90.1,OK
+41,3036584155,Ngai Tsz Ho,Ngai Tsz Ho,B,B,YES,91.0,85.33,87.6,OK
+42,3036518912,Poon Daniel,Poon Daniel,B+,B+,YES,95.0,85.0,89.0,OK
+43,3036468258,Roy Anurag,Roy Anurag,B,B,YES,93.5,84.33,88.0,OK
+44,3036519394,Situ Matthew Kang You,Situ Matthew Kang You,A-,A-,YES,96.25,86.67,90.5,OK
+45,3036529636,Sy Martina Bianca Roman,Sy Martina Bianca Roman,A,A,YES,97.0,87.0,91.0,OK
+46,3036227408,Tang Chun Lui,Tang Chun Lui,F,F,YES,0.0,0.0,0.0,OK
+47,3036220371,Tang Ka Ho,Tang Ka Ho,B-,B-,YES,92.0,80.0,84.8,OK
+48,3036596550,Tang Marshall,Tang Marshall,A,A,YES,96.5,87.33,91.0,OK
+49,3036590245,Ting Chun Hei,Ting Chun Hei,B,B,YES,96.5,82.33,88.0,OK
+50,3036320810,Tu Shengyi,Tu Shengyi,C,C,YES,46.0,86.0,70.0,OK
+51,3036603341,Wang Haochen,Wang Haochen,B-,B-,YES,89.5,82.67,85.4,OK
+52,3036567042,Wong Joan Yan Shing,Wong Joan Yan Shing,B,B,YES,95.0,83.67,88.2,OK
+53,3036484551,Wong Tin Hang Anthony,Wong Tin Hang Anthony,B+,B+,YES,96.5,84.67,89.4,OK
+54,3036519497,Xu Shiran,Xu Shiran,B,B,YES,93.5,84.0,87.8,OK
+55,3036519485,Xu Yilin,Xu Yilin,C+,C+,YES,92.5,79.0,84.4,OK
+56,3036525680,Yeung Jason,Yeung Jason,B+,B+,YES,93.5,85.0,88.4,OK
+57,3036515726,Yim Tsz Chun,Yim Tsz Chun,B-,B-,YES,95.0,81.33,86.8,OK
+58,3036398910,Yip Hin Wang,Yip Hin Wang,C,C,YES,66.0,79.0,73.8,OK
+59,3035856082,Zong Hua,Zong Hua,C-,C-,YES,47.0,85.0,69.8,OK

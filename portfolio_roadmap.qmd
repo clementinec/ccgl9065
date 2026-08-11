@@ -3,6 +3,7 @@ title: "Roadmap to Final Portfolio"
 subtitle: "CCGL9065: Our Response to Climate Change"
 author: "Dr. Hongshan Guo"
 date: today
+body-classes: student-guide portfolio-guide
 format:
   pdf:
     toc: true
@@ -12,7 +13,6 @@ format:
       - margin=1in
   html:
     toc: true
-    theme: cosmo
 ---
 
 # The Big Picture
@@ -235,6 +235,14 @@ The strong version is specific, surprising, and personal.
 
 Your Notion portfolio documents your journey through the semester.
 
+::: {.callout-important}
+## Tutorials are weekly work sessions
+
+Bring your lecture notes and current weekly task. Work with a partner to compare evidence, explain why it matters, and decide whether to **keep, extend, or replace** it. The aim is to complete about **80% of the important weekly work** during the tutorial.
+
+Use the first part to consolidate the current week and the second part to begin preparing for the next class. If the room is full, use the weekly Slack thread for the same paired exchange. This creates no separate tutorial deliverable; the normal weekly submission requirements remain unchanged.
+:::
+
 ## Weekly Requirements
 
 Each week, your Notion entry should include:
@@ -243,7 +251,8 @@ Each week, your Notion entry should include:
 2. **Story** — A real human example (not hypothetical)
 3. **Spectacle** — Your transformation of fact + story into emotional narrative
 
-## Format Template
+::: {.callout-note collapse="true"}
+## Weekly format template
 
 ```markdown
 **[PRO-CLIMATE or PRO-DEVELOPMENT]**
@@ -259,6 +268,7 @@ Each week, your Notion entry should include:
 
 🔗 Full research: [Notion link]
 ```
+:::
 
 ## Word Limits
 
@@ -284,16 +294,23 @@ Present **3 times** during the semester to earn the full 10%.
 - Can be as an individual or representing your group
 - Quality matters less than showing up and contributing
 
-## Tutorial Participation (10%)
+## Tutorial Work Sessions (10%)
 
 Attend a **majority of tutorials** (more than half) to earn the full 10%.
 
-- Tutorials provide valuable prep for debates and portfolio work
-- Active engagement expected, but attendance is the baseline requirement
+- Tutorials are paired working sessions for completing weekly work and preparing for class.
+- Active engagement is expected, but attendance is the baseline requirement.
+
+::: {.callout-tip collapse="true"}
+## Optional portfolio feedback in the final weeks
+
+During the final four to five weeks, you may ask the TA for a **10–15 minute portfolio crit**. Bring unfinished work and one decision or question you want to consider. This feedback is optional and creates no additional deliverable.
+:::
 
 ---
 
-# Quick Self-Check Before Submitting
+::: {.callout-note collapse="true"}
+## Final submission check
 
 Ask yourself:
 
@@ -306,6 +323,7 @@ Ask yourself:
 - [ ] Is my call to action specific and doable *today*?
 
 If you answered "no" to any of these, **revise before submitting**.
+:::
 
 ---
 

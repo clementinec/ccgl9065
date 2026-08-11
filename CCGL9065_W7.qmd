@@ -101,7 +101,7 @@ Once you see how doubt is manufactured this week, you'll understand why an entir
 ## {background-color="#000000"}
 
 ::: {style="text-align: center;"}
-![Supran et al., Science (2023) — Exxon's own scientists predicted global warming with shocking accuracy. The company spent decades denying it publicly.](data/exxon_graph.jpg){width="80%"}
+![Supran et al., Science (2023) — Exxon's own scientists predicted global warming with shocking accuracy. The company spent decades denying it publicly.](exxon_graph.jpg){width="80%"}
 :::
 
 ::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
@@ -311,7 +311,7 @@ That's how the Doubt Machine works.
 
 ## Climategate
 
-![Climategate Snippet](data/climategate.jpg)
+![Climategate Snippet](climategate.jpg)
 
 ---
 

@@ -1,0 +1,6 @@
+{
+  "week": "WEEK __",
+  "topic": "Add this week’s topic",
+  "currentTask": "Complete the important parts of the current weekly entry",
+  "nextPrompt": "Add the question or topic for the next class"
+}

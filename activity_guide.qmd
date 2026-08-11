@@ -3,10 +3,11 @@ title: "Activity Guide"
 subtitle: "CCGL9065: How In-Class Activities Work"
 author: "Dr. Hongshan Guo"
 toc: true
+body-classes: student-guide
 ---
 
-::: {.callout-note}
-## 30-Second Summary
+::: {.guide-summary}
+## The class in 30 seconds
 
 - **Level 0** (Week 1): Two-side teaser debate — jump in, get a taste
 - **Level 1** (Week 2+): Small vocational groups, individual 5-min presentations
@@ -354,10 +355,8 @@ WHAT I LEARNED:
 
 ---
 
-## Quick Reference Checklist
-
-::: {.callout-note}
-## Weekly Checklist
+::: {.callout-note collapse="true"}
+## Weekly preparation reference
 
 **Before class:**
 

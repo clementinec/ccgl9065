@@ -1,0 +1,97 @@
+---
+title: ""
+pagetitle: "TA Toolkit · CCGL9065"
+toc: false
+search: false
+body-classes: course-home ta-toolkit
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex,nofollow">
+---
+
+```{=html}
+<section class="course-hero">
+  <div class="course-hero__inner">
+    <p class="course-kicker">CCGL9065 · Teaching team · Unlisted toolkit</p>
+    <h1>Tutorials as <em>working sessions</em></h1>
+    <p class="course-lede">Two presentation decks for onboarding teaching assistants and running the weekly tutorial rhythm. These materials support the course; they do not create another student assignment.</p>
+    <div class="course-actions">
+      <a class="button-link" href="../slides/ta/onboarding/index.html">Open TA onboarding&nbsp; →</a>
+      <a class="button-link button-link--ghost" href="../slides/ta/tutorial/index.html">Open tutorial deck</a>
+    </div>
+  </div>
+</section>
+
+<div class="home-shell">
+  <div class="course-info">
+    <div class="course-info-item">
+      <span class="course-info-label">Tutorial purpose</span>
+      <span class="course-info-value">Supported production</span>
+    </div>
+    <div class="course-info-item">
+      <span class="course-info-label">Working mode</span>
+      <span class="course-info-value">Pairs + TA circulation</span>
+    </div>
+    <div class="course-info-item">
+      <span class="course-info-label">Late semester</span>
+      <span class="course-info-value">Optional 10–15 min crits</span>
+    </div>
+    <div class="course-info-item">
+      <span class="course-info-label">Deck navigation</span>
+      <span class="course-info-value">Press M for the map</span>
+    </div>
+  </div>
+
+  <section class="home-section" aria-labelledby="toolkit-heading">
+    <div class="home-section__head">
+      <div>
+        <p class="section-kicker">Teaching-team materials</p>
+        <h2 id="toolkit-heading">Choose the working deck</h2>
+      </div>
+      <p>The onboarding deck establishes the facilitation model. The reusable deck controls the session itself and includes working timers, evidence checks and the optional portfolio-crit sequence.</p>
+    </div>
+    <div class="start-grid">
+      <a class="start-card" href="../slides/ta/onboarding/index.html">
+        <span class="start-card__number">01 / ONBOARD</span>
+        <h3>Prospective and incoming TAs</h3>
+        <p>Course purpose, facilitation prompts, capacity, evidence triage, portfolio crits and role boundaries.</p>
+        <span class="start-card__action">Open onboarding →</span>
+      </a>
+      <a class="start-card" href="../slides/ta/tutorial/index.html">
+        <span class="start-card__number">02 / RUN</span>
+        <h3>Reusable tutorial work session</h3>
+        <p>Close the current week, test evidence, run a 15-minute sprint and prepare the next class.</p>
+        <span class="start-card__action">Open control deck →</span>
+      </a>
+      <a class="start-card" href="../evaluation.html#tutorial-work-sessions">
+        <span class="start-card__number">03 / VERIFY</span>
+        <h3>Student-facing tutorial contract</h3>
+        <p>Check the published assessment and tutorial language before briefing the teaching team.</p>
+        <span class="start-card__action">Open course policy →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="home-section" aria-labelledby="reuse-heading">
+    <div class="home-section__head">
+      <div>
+        <p class="section-kicker">Weekly preparation</p>
+        <h2 id="reuse-heading">Four fields change. The logic stays.</h2>
+      </div>
+      <p>Before each tutorial, update <code>slidev/ta/session.json</code> with the week, topic, current task and next-class prompt. Rebuild the tutorial deck, verify those fields on the title slide, and brief TAs on one likely evidence issue.</p>
+    </div>
+    <div class="resource-grid">
+      <a href="../portfolio_roadmap.html" class="resource-item">Weekly-output contract</a>
+      <a href="../activity_guide.html" class="resource-item">Class activity guide</a>
+      <a href="../evaluation.html" class="resource-item">Assessment policy</a>
+      <a href="../slides/week1/index.html" class="resource-item">Current Slidev language</a>
+    </div>
+    <div class="conversion-footnote">
+      <strong>Visibility</strong>
+      <p>This page is intentionally absent from the student navigation and marked <code>noindex</code>. It is unlisted, not access-controlled: anyone with the address can open it.</p>
+    </div>
+  </section>
+</div>
+```

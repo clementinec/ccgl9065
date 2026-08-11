@@ -1,25 +1,33 @@
 project:
   type: website
+  post-render:
+    - "node site_tools/filter-unlisted-sitemap.mjs"
   render:
     - "*.qmd"
     - "arts/*.qmd"
     - "genai/*.qmd"
+    - "ta/*.qmd"
     - "!data/"
 
 website:
-  title: "CCGL9065"
+  title: "CCGL9065 / HKU"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - text: Assessment Items
+      - href: activity_guide.qmd
+        text: How Class Works
+      - text: Coursework
         menu:
-          - href: portfolio_roadmap.qmd#weekly-research-reflection-20
-            text: Weekly Reflection
-          - href: portfolio_roadmap.qmd#deliverable-1-final-reflective-essay-20
-            text: Final Portfolio
+          - href: evaluation.qmd
+            text: Assessment & Tutorials
+          - href: portfolio_roadmap.qmd
+            text: Portfolio Roadmap
       - href: exhibition_2026.qmd
-        text: "Exhibition | 2026"
+        text: "Exhibition 2026"
+  page-footer:
+    left: "CCGL9065 · Our Response to Climate Change"
+    right: "Common Core · The University of Hong Kong"
 
 format:
   html:
@@ -27,6 +35,12 @@ format:
     css: styles.css
     toc: true
     page-layout: full
+    grid:
+      body-width: 1160px
+      margin-width: 210px
+      gutter-width: 1.75rem
+    smooth-scroll: true
+    link-external-newwindow: true
     include-after-body:
       - text: |
           <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "57d0bc1c02d541369839e257e1819f73"}'></script><!-- End Cloudflare Web Analytics -->
@@ -37,6 +51,7 @@ resources:
   - "data/2026/anon/**"
   - "data/2026/videos/**"
   - "assets/2026/**"
-
-
-
+  - "slides/week1/**"
+  - "slides/conversion/**"
+  - "slides/conversion-assets/**"
+  - "slides/ta/**"

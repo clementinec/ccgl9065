@@ -1,0 +1,14 @@
+{
+  "name": "ccgl9065-week1-slidev",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --base ./ --router-mode hash --out ../../slides/week1",
+    "export": "slidev export --output ../../slides/week1/CCGL9065-week1.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "52.18.0",
+    "@slidev/theme-default": "0.25.0",
+    "vue": "3.5.40"
+  }
+}

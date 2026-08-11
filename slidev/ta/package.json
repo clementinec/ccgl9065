@@ -1,0 +1,17 @@
+{
+  "name": "ccgl9065-ta-toolkit",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:tutorial": "slidev tutorial.md --open",
+    "dev:onboarding": "slidev onboarding.md --open",
+    "build": "node build-all.mjs",
+    "build:tutorial": "node build-all.mjs tutorial",
+    "build:onboarding": "node build-all.mjs onboarding"
+  },
+  "dependencies": {
+    "@slidev/cli": "52.18.0",
+    "@slidev/theme-default": "0.25.0",
+    "vue": "3.5.40"
+  }
+}

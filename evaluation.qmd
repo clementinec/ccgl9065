@@ -1,7 +1,8 @@
 ---
-title: "Evaluation Criteria"
-subtitle: "What Gets an A? What Gets a D?"
+title: "Assessment & Tutorials"
+subtitle: "What to Do, Where to Get Help, and How Work Is Evaluated"
 toc: true
+body-classes: student-guide
 ---
 
 ## Assessment Overview
@@ -28,16 +29,29 @@ Present **3 times** during the semester to earn the full 10%.
 - Can be as an individual or representing your group
 - Quality matters less than showing up and contributing
 
-### Tutorial Participation (10%)
+### Tutorial Work Sessions
 
-Attend a **majority of tutorials** (more than half) to earn the full 10%.
+**Tutorial participation is worth 10%.** Attend a **majority of tutorials** (more than half) to earn the full 10%.
 
-- Tutorials are valuable prep for debates and portfolio work
-- Active engagement expected, but attendance is the baseline requirement
+Tutorials are working sessions for your weekly assignments:
+
+- Bring your lecture notes and current weekly task.
+- Work with a partner to compare evidence, explain why it matters, and improve your argument.
+- Decide whether to **keep, extend, or replace** the evidence you found.
+- Aim to complete about **80% of the important work** during the tutorial.
+- Use the first part to consolidate the current week and the second part to begin preparing for the next class.
+
+If the tutorial room is full, use the weekly Slack thread for the same paired exchange. This creates **no separate tutorial deliverable**; the normal weekly submission requirements remain unchanged.
+
+::: {.callout-tip collapse="true"}
+## Optional portfolio feedback in the final weeks
+
+During the final four to five weeks, you may ask the TA for a **10–15 minute portfolio crit**. Bring unfinished work and one decision or question you want to consider. The feedback is optional, creates no additional deliverable, and runs alongside the normal paired work session.
+:::
 
 ---
 
-## Weekly Research & Reflection
+## Weekly Research & Reflection (20%)
 
 ::: {.callout-tip}
 ## What does "Reflection" mean?
@@ -47,25 +61,27 @@ This isn't just journaling. Each week you **research** (find facts, stories, sou
 Your weekly contributions are graded on **three equally important criteria**:
 
 ```{=html}
-<div style="display: flex; justify-content: space-around; margin: 30px 0;">
-  <div style="text-align: center; width: 30%; background: #27ae60; color: white; padding: 20px; border-radius: 10px;">
-    <h3 style="margin: 0;">Verifiability</h3>
-    <p style="margin: 10px 0 0 0;">Can it be fact-checked?</p>
+<div class="principle-grid">
+  <div class="principle-card">
+    <span class="principle-card__number">01</span>
+    <h3>Verifiability</h3>
+    <p>Can it be fact-checked?</p>
   </div>
-  <div style="text-align: center; width: 30%; background: #3498db; color: white; padding: 20px; border-radius: 10px;">
-    <h3 style="margin: 0;">Creativity</h3>
-    <p style="margin: 10px 0 0 0;">Is your spectacle compelling?</p>
+  <div class="principle-card">
+    <span class="principle-card__number">02</span>
+    <h3>Creativity</h3>
+    <p>Is your spectacle compelling?</p>
   </div>
-  <div style="text-align: center; width: 30%; background: #9b59b6; color: white; padding: 20px; border-radius: 10px;">
-    <h3 style="margin: 0;">Conciseness</h3>
-    <p style="margin: 10px 0 0 0;">Did you say it efficiently?</p>
+  <div class="principle-card">
+    <span class="principle-card__number">03</span>
+    <h3>Conciseness</h3>
+    <p>Did you say it efficiently?</p>
   </div>
 </div>
 ```
 
----
-
-## Pillar 1: Verifiability (Can It Be Fact-Checked?)
+::: {.callout-note collapse="true"}
+## Detailed criterion: Verifiability
 
 **This is non-negotiable.** Every fact, statistic, and story must have a source.
 
@@ -92,10 +108,10 @@ Your weekly contributions are graded on **three equally important criteria**:
 - Wikipedia (use it to *find* sources, not *as* a source)
 - "I heard that..." or "Everyone knows..."
 - AI-generated "facts" (ChatGPT can hallucinate)
+:::
 
----
-
-## Pillar 2: Creativity (Is Your Spectacle Compelling?)
+::: {.callout-note collapse="true"}
+## Detailed criterion: Creativity
 
 You're not just reporting facts — you're **crafting narratives that move people**.
 
@@ -117,14 +133,13 @@ You're not just reporting facts — you're **crafting narratives that move peopl
 
 **Excellent (A):** "Training one large AI model emits as much carbon as five cars over their entire lifetimes. And we're building thousands of them — while telling kids to recycle." *(Source: Strubell et al. 2019)*
 
-::: {.callout-note}
-## Real example of fact-checking failure
+### A fact-checking example
+
 An earlier draft of this page claimed "one ChatGPT query powers a Pakistani home for a week." That sounded dramatic — but the math doesn't check out (a query uses ~0.01 kWh; a home uses ~50+ kWh/week). **We caught it because we applied the same test we're teaching you.** Always verify before you amplify.
 :::
 
----
-
-## Pillar 3: Conciseness (Did You Say It Efficiently?)
+::: {.callout-note collapse="true"}
+## Detailed criterion: Conciseness
 
 **Longer is not better.** Verbose writing signals unclear thinking.
 
@@ -146,10 +161,10 @@ An earlier draft of this page claimed "one ChatGPT query powers a Pakistani home
 | **Final essay** | 600-750 words | 750 words (hard cap) |
 
 **Penalty for excessive length:** If you exceed the maximum by more than 20%, you lose one grade step (e.g., A → A-, B+ → B).
+:::
 
----
-
-## Weekly Contribution Examples
+::: {.callout-note collapse="true"}
+## Weekly contribution examples (A–F)
 
 ### Example A: Excellent
 
@@ -291,6 +306,7 @@ covering it up."
 - Inflammatory claims without evidence
 - This is misinformation, not persuasion
 - **Academic integrity violation**
+:::
 
 ---
 
@@ -335,30 +351,28 @@ A **collage or visual piece** that communicates your climate solution alongside 
 
 ## The Golden Rule
 
-```{=html}
-<div style="background: #1a1a2e; padding: 40px; border-radius: 12px; text-align: center; margin: 30px 0; border: 2px solid #f39c12;">
-  <h2 style="margin: 0; color: #f39c12; font-size: 1.8em;">Everything must be fact-checkable.</h2>
-  <p style="margin: 20px 0 0 0; font-size: 1.25em; color: #ffffff; line-height: 1.6;">
-    You're learning to persuade with <strong style="color: #4ade80;">real stories</strong>, not to deceive with fake ones.<br>
-    The power of a spectacle comes from its <strong style="color: #4ade80;">truth</strong> — not from invention.
-  </p>
-</div>
-```
+::: {.design-statement}
+### Everything must be fact-checkable.
+
+You're learning to persuade with **real stories**, not to deceive with fake ones. The power of a spectacle comes from its **truth** — not from invention.
+:::
 
 ---
 
-## Quick Self-Check Before Submitting
+::: {.callout-note collapse="true"}
+## Final submission check
 
 Ask yourself:
 
-1. ✅ Can someone Google my facts and find them true?
-2. ✅ Did I cite specific, credible sources?
-3. ✅ Is my story about real people/events, not hypotheticals?
-4. ✅ Does my spectacle make people *feel* something?
-5. ✅ Could I cut 20% without losing meaning?
-6. ✅ Would I be comfortable defending this in a debate?
+1. Can someone Google my facts and find them true?
+2. Did I cite specific, credible sources?
+3. Is my story about real people/events, not hypotheticals?
+4. Does my spectacle make people *feel* something?
+5. Could I cut 20% without losing meaning?
+6. Would I be comfortable defending this in a debate?
 
 If you answered "no" to any of these, revise before submitting.
+:::
 
 ---
 

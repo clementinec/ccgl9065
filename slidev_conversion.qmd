@@ -1,0 +1,124 @@
+---
+title: "Lecture archive & comparison"
+subtitle: "Current Slidev lectures alongside the preserved Quarto originals."
+toc: false
+body-classes: conversion-review
+---
+
+```{=html}
+<section class="conversion-intro" aria-labelledby="conversion-intro-heading">
+  <p class="section-kicker">Course archive · 2026 refresh</p>
+  <h2 id="conversion-intro-heading">The Slidev lectures are now current.</h2>
+  <p>The weekly course links now open the Slidev decks. Every Quarto deck remains preserved here for reference and comparison; Weeks 2–11 retain their original sequence and teaching content.</p>
+  <div class="conversion-key" aria-label="Comparison key">
+    <span><i class="conversion-key__old" aria-hidden="true"></i> Preserved Quarto</span>
+    <span><i class="conversion-key__new" aria-hidden="true"></i> Current Slidev</span>
+  </div>
+</section>
+
+<div class="conversion-grid">
+  <article class="conversion-row conversion-row--prototype">
+    <div class="conversion-week"><span>01</span><strong>Us vs. AI · The age of average</strong></div>
+    <p class="conversion-note">Current redesigned lecture · 54 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="CCGL9065_W1D.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/week1/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+
+  <article class="conversion-row">
+    <div class="conversion-week"><span>02</span><strong>Food futures</strong></div>
+    <p class="conversion-note">Direct conversion · 46 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="CCGL9065_W2.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/conversion/week2/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+
+  <article class="conversion-row">
+    <div class="conversion-week"><span>03</span><strong>Consumption &amp; fashion</strong></div>
+    <p class="conversion-note">Direct conversion · 85 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="CCGL9065_W3.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/conversion/week3/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+
+  <article class="conversion-row">
+    <div class="conversion-week"><span>04</span><strong>Energy &amp; transport</strong></div>
+    <p class="conversion-note">Direct conversion · 57 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="CCGL9065_W4.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/conversion/week4/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+
+  <article class="conversion-row">
+    <div class="conversion-week"><span>05</span><strong>Cities &amp; buildings</strong></div>
+    <p class="conversion-note">Direct conversion · 55 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="CCGL9065_W5.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/conversion/week5/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+
+  <article class="conversion-row">
+    <div class="conversion-week"><span>06</span><strong>Economics &amp; incentives</strong></div>
+    <p class="conversion-note">Direct conversion · 60 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="CCGL9065_W6.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/conversion/week6/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+
+  <article class="conversion-row">
+    <div class="conversion-week"><span>07</span><strong>Truth &amp; manufactured doubt</strong></div>
+    <p class="conversion-note">Direct conversion · 51 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="CCGL9065_W7.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/conversion/week7/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+
+  <article class="conversion-row">
+    <div class="conversion-week"><span>08</span><strong>Oceans &amp; infrastructure</strong></div>
+    <p class="conversion-note">Direct conversion · 88 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="CCGL9065_W8.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/conversion/week8/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+
+  <article class="conversion-row">
+    <div class="conversion-week"><span>09</span><strong>Climate displacement</strong></div>
+    <p class="conversion-note">Direct conversion · 69 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="W9.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/conversion/week9/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+
+  <article class="conversion-row">
+    <div class="conversion-week"><span>10</span><strong>Systems &amp; cascade effects</strong></div>
+    <p class="conversion-note">Direct conversion · 63 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="W10.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/conversion/week10/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+
+  <article class="conversion-row">
+    <div class="conversion-week"><span>11</span><strong>Space &amp; planetary futures</strong></div>
+    <p class="conversion-note">Direct conversion · 55 slides</p>
+    <div class="conversion-actions">
+      <a class="conversion-link conversion-link--old" href="CCGL9065_W11.html"><span>Quarto</span>Open original</a>
+      <a class="conversion-link conversion-link--new" href="slides/conversion/week11/index.html"><span>Slidev</span>Open current</a>
+    </div>
+  </article>
+</div>
+
+<aside class="conversion-footnote">
+  <strong>Archive note</strong>
+  <p>The Quarto originals remain available as a stable reference. Future Slidev refinements can therefore be made deck by deck without losing the previous course material.</p>
+</aside>
+```
