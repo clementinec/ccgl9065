@@ -1,0 +1,811 @@
+/* RPG Workshop — companion-page system
+   Flat editorial layouts for the landing page, workbook, and facilitator pack. */
+
+:root {
+  --rpg-ink: #12171d;
+  --rpg-ink-soft: #1d2630;
+  --rpg-paper: #f7f3eb;
+  --rpg-paper-2: #ebe4d8;
+  --rpg-white: #fffdf8;
+  --rpg-text: #18202a;
+  --rpg-muted: #66717d;
+  --rpg-line: #b8b1a7;
+  --rpg-line-dark: #46515d;
+  --rpg-orange: #e67e22;
+  --rpg-red: #c0392b;
+  --rpg-green: #27865f;
+  --rpg-blue: #287fb8;
+  --rpg-purple: #8750a2;
+  --rpg-yellow: #f2c14e;
+  --rpg-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --rpg-sans: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
+  --rpg-mono: "SFMono-Regular", "SF Mono", Menlo, Consolas, monospace;
+}
+
+body.rpg-workshop {
+  color: var(--rpg-text);
+  background: var(--rpg-paper);
+}
+
+body.rpg-workshop #quarto-content {
+  max-width: 1540px;
+}
+
+body.rpg-workshop main.content {
+  max-width: 1120px;
+}
+
+body.rpg-workshop .quarto-title-block {
+  margin-bottom: 2.2rem;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  color: var(--rpg-white);
+  background: var(--rpg-ink);
+  border-bottom: 9px solid var(--rpg-orange);
+}
+
+body.rpg-workshop .quarto-title-block .title,
+body.rpg-workshop .quarto-title-block .subtitle,
+body.rpg-workshop .quarto-title-block .quarto-title-meta,
+body.rpg-workshop .quarto-title-block .quarto-title-meta-heading,
+body.rpg-workshop .quarto-title-block .quarto-title-meta-contents {
+  color: var(--rpg-white);
+}
+
+body.rpg-workshop .quarto-title-block .title {
+  max-width: 14ch;
+  font-family: var(--rpg-serif);
+  font-size: clamp(3rem, 7vw, 6.2rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 0.92;
+}
+
+body.rpg-workshop .quarto-title-block .subtitle {
+  max-width: 65ch;
+  color: #c8d0d8;
+  font-family: var(--rpg-sans);
+}
+
+body.rpg-workshop main.content h2 {
+  border-top-color: var(--rpg-ink);
+  font-family: var(--rpg-serif);
+}
+
+body.rpg-workshop main.content h3 {
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.84rem;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+body.rpg-workshop main.content a {
+  color: #6f1721;
+}
+
+body.rpg-workshop main.content a:focus-visible,
+body.rpg-workshop main.content button:focus-visible,
+body.rpg-workshop main.content summary:focus-visible {
+  outline: 4px solid var(--rpg-yellow);
+  outline-offset: 4px;
+}
+
+.workshop-kicker {
+  margin: 0 0 0.8rem;
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.73rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.lead-claim {
+  max-width: 30ch;
+  margin: 2.2rem 0 3rem;
+  font-family: var(--rpg-serif);
+  font-size: clamp(1.9rem, 4vw, 3.25rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.07;
+}
+
+.schedule-band {
+  display: grid;
+  grid-template-columns: 10rem repeat(2, minmax(0, 1fr));
+  margin: 2rem 0 3rem;
+  color: var(--rpg-white);
+  background: var(--rpg-ink);
+  border-top: 6px solid var(--rpg-orange);
+}
+
+.schedule-band > * {
+  min-width: 0;
+  padding: 1.35rem 1.5rem;
+  border-right: 1px solid var(--rpg-line-dark);
+}
+
+.schedule-band > :last-child {
+  border-right: 0;
+}
+
+.schedule-label,
+.schedule-band time {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #f0b27b;
+  font-family: var(--rpg-mono);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.schedule-band strong {
+  color: var(--rpg-white);
+  font-family: var(--rpg-serif);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.schedule-band p {
+  margin: 0.35rem 0 0;
+  color: #c7ced5;
+  font-size: 0.84rem;
+}
+
+.artifact-route,
+.resource-ledger,
+.privacy-route {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin: 2rem 0 3rem;
+  overflow: hidden;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.artifact-route > *,
+.resource-ledger > *,
+.privacy-route > * {
+  min-width: 0;
+  padding: 1.35rem;
+  background: var(--rpg-white);
+}
+
+.artifact-route > *::before,
+.privacy-route > *::before {
+  display: block;
+  margin-bottom: 0.9rem;
+  color: var(--rpg-red);
+  content: attr(data-step);
+  font-family: var(--rpg-mono);
+  font-size: 0.67rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.artifact-route > :nth-child(2)::before,
+.privacy-route > :nth-child(2)::before { color: var(--rpg-blue); }
+.artifact-route > :nth-child(3)::before,
+.privacy-route > :nth-child(3)::before { color: var(--rpg-purple); }
+.artifact-route > :nth-child(4)::before,
+.privacy-route > :nth-child(4)::before { color: var(--rpg-green); }
+
+.artifact-route h3,
+.resource-ledger h3,
+.privacy-route h3 {
+  margin: 0 0 0.55rem !important;
+  color: var(--rpg-text) !important;
+  font-family: var(--rpg-sans) !important;
+  font-size: 1rem !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.artifact-route p,
+.resource-ledger p,
+.privacy-route p {
+  margin: 0;
+  color: var(--rpg-muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.resource-ledger {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.resource-ledger a {
+  display: block;
+  height: 100%;
+  color: var(--rpg-text) !important;
+  text-decoration: none !important;
+}
+
+.resource-ledger a::after {
+  display: block;
+  margin-top: 1.2rem;
+  color: var(--rpg-red);
+  content: "Open →";
+  font-family: var(--rpg-mono);
+  font-size: 0.67rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.resource-ledger > *:hover {
+  background: var(--rpg-paper-2);
+}
+
+.reading-brief {
+  margin: 2rem 0;
+  background: var(--rpg-white);
+  border-top: 7px solid var(--rpg-orange);
+  border-bottom: 2px solid var(--rpg-ink);
+}
+
+.reading-entry {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(15rem, 0.8fr) minmax(0, 1.45fr);
+  gap: 0.35rem 2rem;
+  padding: 1.55rem 1.6rem 1.55rem 8.6rem;
+  border: 2px solid var(--rpg-ink);
+  border-bottom: 0;
+}
+
+.reading-entry::before {
+  position: absolute;
+  top: 1.6rem;
+  left: 1.5rem;
+  width: 6rem;
+  color: var(--rpg-red);
+  content: attr(data-reading);
+  font-family: var(--rpg-mono);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.reading-entry h3,
+.reading-entry .reading-meta {
+  grid-column: 1;
+}
+
+.reading-entry h3 {
+  margin: 0 !important;
+  font-family: var(--rpg-serif) !important;
+  font-size: 1.35rem !important;
+  line-height: 1.15;
+  letter-spacing: -0.02em !important;
+  text-transform: none !important;
+}
+
+.reading-entry h3 a {
+  color: var(--rpg-text) !important;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
+}
+
+.reading-meta {
+  color: var(--rpg-muted);
+  font-family: var(--rpg-mono);
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+
+.reading-entry p {
+  grid-column: 2;
+  margin: 0.15rem 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.reading-entry:focus-within {
+  background: var(--rpg-paper-2);
+}
+
+.reading-action {
+  display: inline-block;
+  margin: 0.5rem 0.75rem 0 0;
+  color: #6f1721 !important;
+  font-family: var(--rpg-mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-decoration: underline !important;
+  text-underline-offset: 0.2em;
+}
+
+.evidence-shelf {
+  margin: 1.8rem 0 3rem;
+  padding: 1.1rem 1.35rem;
+  background: var(--rpg-white);
+  border: 2px solid var(--rpg-ink);
+}
+
+.evidence-shelf summary {
+  cursor: pointer;
+  font-family: var(--rpg-mono);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.evidence-shelf li {
+  margin: 0.65rem 0;
+}
+
+.privacy-notice,
+.fallback-notice,
+.facilitator-note {
+  position: relative;
+  margin: 1.8rem 0;
+  padding: 1.3rem 1.5rem 1.3rem 4.6rem;
+  background: #f3e5dc;
+  border-top: 2px solid var(--rpg-red);
+  border-bottom: 2px solid var(--rpg-red);
+}
+
+.privacy-notice::before,
+.fallback-notice::before,
+.facilitator-note::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  width: 3.4rem;
+  place-items: center;
+  color: var(--rpg-white);
+  background: var(--rpg-red);
+  content: "!";
+  font-family: var(--rpg-mono);
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+.fallback-notice {
+  background: #e5edf3;
+  border-color: var(--rpg-blue);
+}
+
+.fallback-notice::before {
+  background: var(--rpg-blue);
+  content: "↻";
+}
+
+.facilitator-note {
+  background: #e7f0eb;
+  border-color: var(--rpg-green);
+}
+
+.facilitator-note::before {
+  background: var(--rpg-green);
+  content: "F";
+}
+
+/* Printable workbook surfaces */
+.workbook-sheet {
+  position: relative;
+  margin: 2rem 0 3rem;
+  padding: clamp(1.4rem, 4vw, 2.4rem);
+  background-color: var(--rpg-white);
+  background-image:
+    linear-gradient(rgba(18, 23, 29, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18, 23, 29, 0.045) 1px, transparent 1px);
+  background-size: 28px 28px;
+  border: 2px solid var(--rpg-ink);
+  box-shadow: 12px 12px 0 var(--rpg-paper-2);
+}
+
+.workbook-sheet::before {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 9rem;
+  height: 7px;
+  background: var(--rpg-orange);
+  content: "";
+}
+
+.workbook-sheet h3 {
+  margin-top: 0 !important;
+}
+
+.field-grid,
+.design-grid,
+.transcript-grid,
+.contingency-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin: 1.2rem 0;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.field-grid > *,
+.design-grid > *,
+.transcript-grid > *,
+.contingency-grid > * {
+  min-width: 0;
+  padding: 1.2rem;
+  background: var(--rpg-white);
+}
+
+.field-label {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.write-lines {
+  min-height: 8rem;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 1.8rem,
+    var(--rpg-line) 1.8rem,
+    var(--rpg-line) calc(1.8rem + 1px)
+  );
+}
+
+.write-lines.short { min-height: 4rem; }
+.write-lines.tall { min-height: 13rem; }
+
+.checklist {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.checklist li {
+  position: relative;
+  margin: 0.65rem 0;
+  padding-left: 2rem;
+}
+
+.checklist li::before {
+  position: absolute;
+  top: 0.16rem;
+  left: 0;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid var(--rpg-ink);
+  content: "";
+}
+
+.code-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1rem;
+  margin: 1rem 0;
+}
+
+.code-key span {
+  display: inline-flex;
+  gap: 0.45rem;
+  align-items: center;
+  color: var(--rpg-muted);
+  font-size: 0.8rem;
+}
+
+.code-c,
+.code-r,
+.code-x,
+.code-m,
+.code-star {
+  display: inline-grid;
+  width: 1.8rem;
+  height: 1.8rem;
+  place-items: center;
+  color: var(--rpg-white);
+  font-family: var(--rpg-mono);
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.code-c { background: var(--rpg-green); }
+.code-r { background: var(--rpg-blue); }
+.code-x { background: var(--rpg-orange); }
+.code-m { background: var(--rpg-red); }
+.code-star { color: var(--rpg-ink); background: var(--rpg-yellow); }
+
+.transcript-line {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr) 8rem;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--rpg-line);
+}
+
+.transcript-line:last-child {
+  border-bottom: 0;
+}
+
+.transcript-speaker,
+.transcript-code {
+  color: var(--rpg-purple);
+  font-family: var(--rpg-mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.transcript-code {
+  color: var(--rpg-muted);
+}
+
+.design-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.design-grid > * {
+  min-height: 13rem;
+}
+
+/* Facilitator operations */
+.run-sheet {
+  margin: 1.5rem 0 3rem;
+  border-top: 3px solid var(--rpg-ink);
+}
+
+.run-row {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: 1px;
+  background: var(--rpg-line);
+  border-bottom: 1px solid var(--rpg-line);
+}
+
+.run-row > * {
+  min-width: 0;
+  padding: 0.85rem 0.9rem;
+  background: var(--rpg-white);
+  font-size: 0.82rem;
+}
+
+.run-row.run-head > * {
+  color: var(--rpg-white);
+  background: var(--rpg-ink);
+  font-family: var(--rpg-mono);
+  font-size: 0.67rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.contingency-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.contingency-grid h3 {
+  margin-top: 0 !important;
+}
+
+.materials-list {
+  columns: 2;
+  column-gap: 3rem;
+}
+
+.materials-list li {
+  break-inside: avoid;
+}
+
+/* Case and transcript pages */
+.sample-case {
+  margin: 2rem 0;
+  padding: clamp(1.6rem, 4vw, 2.7rem);
+  background: var(--rpg-white);
+  border-top: 8px solid var(--rpg-purple);
+  border-bottom: 2px solid var(--rpg-ink);
+}
+
+.case-meta {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin: 1.5rem 0;
+  background: var(--rpg-line);
+  border: 1px solid var(--rpg-line);
+}
+
+.case-meta > * {
+  padding: 1rem;
+  background: var(--rpg-paper);
+}
+
+.case-meta strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.source-note {
+  color: var(--rpg-muted);
+  font-family: var(--rpg-mono);
+  font-size: 0.72rem;
+}
+
+.page-break {
+  break-before: page;
+}
+
+.print-only {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .schedule-band,
+  .artifact-route,
+  .privacy-route,
+  .resource-ledger,
+  .field-grid,
+  .design-grid,
+  .transcript-grid,
+  .contingency-grid,
+  .case-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .reading-entry {
+    grid-template-columns: 1fr;
+    padding: 4.3rem 1.25rem 1.35rem;
+  }
+
+  .reading-entry h3,
+  .reading-entry .reading-meta,
+  .reading-entry p {
+    grid-column: 1;
+  }
+
+  .schedule-band > * {
+    border-right: 0;
+    border-bottom: 1px solid var(--rpg-line-dark);
+  }
+
+  .run-row {
+    grid-template-columns: 1fr;
+  }
+
+  .run-row > * {
+    grid-column: auto;
+  }
+
+  .materials-list {
+    columns: 1;
+  }
+
+  .transcript-line {
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+  }
+
+  .transcript-code {
+    grid-column: 2;
+  }
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 14mm;
+  }
+
+  body.rpg-workshop {
+    color: #000;
+    background: #fff;
+    font-size: 10.5pt;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  body.rpg-workshop .navbar,
+  body.rpg-workshop .nav-footer,
+  body.rpg-workshop #TOC,
+  body.rpg-workshop .page-navigation,
+  body.rpg-workshop .screen-only {
+    display: none !important;
+  }
+
+  body.rpg-workshop #quarto-content,
+  body.rpg-workshop main.content {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  body.rpg-workshop .quarto-title-block {
+    margin: 0 0 8mm;
+    padding: 10mm;
+  }
+
+  body.rpg-workshop .quarto-title-block .title {
+    font-size: 30pt;
+  }
+
+  .print-only {
+    display: block;
+  }
+
+  .workbook-sheet,
+  .sample-case {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  .workbook-sheet {
+    margin: 7mm 0;
+    padding: 7mm;
+  }
+
+  .field-grid,
+  .design-grid,
+  .transcript-grid,
+  .case-meta,
+  .run-row {
+    break-inside: avoid;
+  }
+
+  .write-lines {
+    min-height: 42mm;
+  }
+
+  .write-lines.short { min-height: 22mm; }
+  .write-lines.tall { min-height: 65mm; }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-family: var(--rpg-mono);
+    font-size: 0.75em;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.rpg-workshop *,
+  body.rpg-workshop *::before,
+  body.rpg-workshop *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (forced-colors: active) {
+  .schedule-band,
+  .artifact-route,
+  .privacy-route,
+  .resource-ledger,
+  .reading-brief,
+  .reading-entry,
+  .evidence-shelf,
+  .workbook-sheet,
+  .field-grid,
+  .design-grid,
+  .transcript-grid,
+  .contingency-grid,
+  .sample-case,
+  .case-meta,
+  .privacy-notice,
+  .fallback-notice,
+  .facilitator-note {
+    border: 2px solid CanvasText;
+  }
+}

@@ -43,8 +43,12 @@ toc: true
 
 ## On Convergence & Creativity
 
-- Alex Murrell, ["The Age of Average"](https://www.alexmurrell.co.uk/articles/the-age-of-average) — Excellent piece on algorithmic homogenization and why everything looks the same now.
+- Alex Murrell, ["The Age of Average"](https://www.alexmurrell.co.uk/articles/the-age-of-average) — A cultural and design provocation about convergence across architecture, brands, media, fashion, and other domains. It is not a technical account of AI or LLM sampling.
 - Ted Chiang, ["ChatGPT Is a Blurry JPEG of the Web"](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web) — The New Yorker. Influential but [technically contested](https://domenic.me/chatgpt-simulacrum/): critics argue LLMs are simulators, not compressors, and the analogy mischaracterizes how they work. Read critically.
+
+## RPg Workshop Reading
+
+The separate **Teaching Through Designed Friction** workshop assigns four research papers plus two required methodological companions. See the [required readings and between-session preparation](rpg-workshop/#required-reading-before-day-1). This list is distinct from the original three-class module's prereading.
 
 ## Academic Integrity
 
@@ -60,4 +64,3 @@ These resources are starting points, not comprehensive coverage.
 The landscape changes fast. Cases from six months ago are already outdated.
 
 Your job is to stay aware—not to memorize a static list.
-

@@ -1,0 +1,2288 @@
+/* RPG Workshop — RevealJS visual system
+   Inherits the original GenAI module's argumentative colour language,
+   rebuilt as a flat, high-contrast 1600 × 900 workshop canvas. */
+
+:root {
+  --rpg-ink: #12171d;
+  --rpg-ink-soft: #1d2630;
+  --rpg-paper: #f7f3eb;
+  --rpg-paper-2: #ebe4d8;
+  --rpg-white: #fffdf8;
+  --rpg-text: #18202a;
+  --rpg-muted: #66717d;
+  --rpg-line: #b8b1a7;
+  --rpg-line-dark: #46515d;
+  --rpg-orange: #e67e22;
+  --rpg-red: #c0392b;
+  --rpg-green: #27865f;
+  --rpg-blue: #287fb8;
+  --rpg-purple: #8750a2;
+  --rpg-yellow: #f2c14e;
+  --rpg-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --rpg-sans: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
+  --rpg-mono: "SFMono-Regular", "SF Mono", Menlo, Consolas, monospace;
+}
+
+.reveal {
+  color: var(--rpg-text);
+  background: var(--rpg-paper);
+  font-family: var(--rpg-sans);
+  font-size: 38px;
+  line-height: 1.38;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  box-sizing: border-box;
+  padding: 58px 72px;
+}
+
+.reveal .slides section > :first-child {
+  margin-top: 0;
+}
+
+.reveal .slides section > :last-child {
+  margin-bottom: 0;
+}
+
+/* Opening slide: a search field becoming a deliberate teaching path. */
+.reveal #title-slide {
+  /* Reveal positions every horizontal slide absolutely. Keep the title slide
+     in that same positioning model so it cannot displace later slides. */
+  position: absolute;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 82px 90px 72px;
+  overflow: hidden;
+  color: var(--rpg-white);
+  background:
+    radial-gradient(circle at 78% 22%, rgba(230, 126, 34, 0.9) 0 7px, transparent 8px),
+    radial-gradient(circle at 87% 31%, rgba(40, 127, 184, 0.75) 0 6px, transparent 7px),
+    radial-gradient(circle at 72% 39%, rgba(135, 80, 162, 0.7) 0 5px, transparent 6px),
+    radial-gradient(circle at 91% 50%, rgba(39, 134, 95, 0.8) 0 8px, transparent 9px),
+    linear-gradient(112deg, transparent 0 72%, rgba(39, 134, 95, 0.3) 72.1% 72.35%, transparent 72.45% 79%, rgba(230, 126, 34, 0.32) 79.1% 79.35%, transparent 79.45%),
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    var(--rpg-ink);
+  background-size: auto, auto, auto, auto, auto, 64px 64px, 64px 64px, auto;
+  box-shadow: inset 0 -12px 0 var(--rpg-orange);
+  text-align: left;
+}
+
+.reveal #title-slide[data-day="02"] {
+  box-shadow: inset 0 -12px 0 var(--rpg-green);
+}
+
+.reveal #title-slide::before {
+  position: absolute;
+  top: 76px;
+  left: 90px;
+  z-index: 1;
+  padding-top: 13px;
+  color: var(--rpg-orange);
+  border-top: 5px solid currentColor;
+  content: "RESEARCH PRACTICE\00a0\2192\00a0TEACHING DESIGN";
+  font-family: var(--rpg-mono);
+  font-size: 20px;
+  font-weight: 850;
+  letter-spacing: 0.13em;
+}
+
+.reveal #title-slide[data-day="02"]::before {
+  color: #58b88e;
+}
+
+.reveal #title-slide::after {
+  position: absolute;
+  right: 36px;
+  bottom: -86px;
+  z-index: 0;
+  color: rgba(255, 253, 248, 0.075);
+  content: attr(data-day);
+  font-family: var(--rpg-mono);
+  font-size: 430px;
+  font-weight: 900;
+  letter-spacing: -0.1em;
+  line-height: 0.82;
+}
+
+.reveal #title-slide > * {
+  position: relative;
+  z-index: 2;
+}
+
+.reveal #title-slide h1.title {
+  max-width: 920px;
+  margin: 205px 0 0;
+  color: var(--rpg-white);
+  font-family: var(--rpg-serif);
+  font-size: 108px;
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 0.92;
+  text-wrap: balance;
+}
+
+.reveal #title-slide .subtitle {
+  max-width: 790px;
+  margin: 30px 0 0;
+  padding: 4px 0 4px 22px;
+  color: #d8e0e2;
+  border-left: 8px solid var(--rpg-orange);
+  font-family: var(--rpg-sans);
+  font-size: 32px;
+  font-weight: 650;
+  line-height: 1.25;
+}
+
+.reveal #title-slide[data-day="02"] .subtitle {
+  border-left-color: #58b88e;
+}
+
+.reveal #title-slide .quarto-title-authors {
+  position: absolute;
+  bottom: 72px;
+  left: 90px;
+  margin: 0;
+}
+
+.reveal #title-slide .quarto-title-author,
+.reveal #title-slide .quarto-title-author-name {
+  margin: 0;
+  padding: 0;
+}
+
+.reveal #title-slide .quarto-title-author-name,
+.reveal #title-slide .date {
+  color: #aeb9bd;
+  font-family: var(--rpg-mono);
+  font-size: 18px;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.reveal #title-slide .date {
+  position: absolute;
+  right: 90px;
+  bottom: 72px;
+  margin: 0;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  color: var(--rpg-text);
+  font-family: var(--rpg-sans);
+  text-transform: none;
+  letter-spacing: -0.025em;
+}
+
+.reveal h1 {
+  max-width: 13ch;
+  font-family: var(--rpg-serif);
+  font-size: 2.5em;
+  font-weight: 500;
+  line-height: 0.98;
+}
+
+.reveal h2 {
+  margin-bottom: 0.55em;
+  font-family: var(--rpg-serif);
+  font-size: 1.85em;
+  font-weight: 500;
+  line-height: 1.03;
+}
+
+.reveal h3 {
+  margin-bottom: 0.45em;
+  font-size: 1em;
+  font-weight: 760;
+  line-height: 1.2;
+}
+
+.reveal p,
+.reveal li,
+.reveal td,
+.reveal th {
+  line-height: 1.42;
+}
+
+.reveal strong {
+  color: inherit;
+  font-weight: 780;
+}
+
+.reveal a {
+  color: var(--rpg-blue);
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.13em;
+}
+
+.reveal a:hover,
+.reveal a:focus-visible {
+  color: var(--rpg-red);
+}
+
+.reveal code {
+  padding: 0.08em 0.28em;
+  color: #40251b;
+  background: #e9dfd2;
+  border-radius: 0;
+  font-family: var(--rpg-mono);
+}
+
+.reveal pre {
+  width: 100%;
+  margin: 0.8em 0;
+  background: var(--rpg-ink);
+  border: 0;
+  border-left: 8px solid var(--rpg-orange);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.reveal pre code {
+  padding: 0.9em 1.1em;
+  color: var(--rpg-white);
+  background: transparent;
+  font-size: 0.68em;
+  line-height: 1.45;
+}
+
+.reveal blockquote {
+  width: auto;
+  margin: 0.8em 0;
+  padding: 0.3em 0 0.3em 0.8em;
+  color: var(--rpg-text);
+  background: transparent;
+  border-left: 8px solid var(--rpg-purple);
+  box-shadow: none;
+  font-family: var(--rpg-serif);
+  font-size: 1.08em;
+  font-style: normal;
+}
+
+.reveal table {
+  width: 100%;
+  margin: 0.7em 0;
+  border-collapse: collapse;
+  font-size: 0.72em;
+}
+
+.reveal table th {
+  padding: 0.6em 0.7em;
+  color: var(--rpg-paper);
+  background: var(--rpg-ink);
+  border: 1px solid var(--rpg-line-dark);
+  font-family: var(--rpg-mono);
+  font-size: 0.82em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.reveal table td {
+  padding: 0.62em 0.7em;
+  background: rgba(255, 253, 248, 0.7);
+  border: 1px solid var(--rpg-line);
+  vertical-align: top;
+}
+
+.reveal ul,
+.reveal ol {
+  margin-left: 1em;
+}
+
+.reveal li::marker {
+  color: var(--rpg-red);
+  font-weight: 800;
+}
+
+/* Full-bleed argument slides */
+.reveal .dark,
+.reveal section.dark {
+  color: var(--rpg-paper);
+  background: var(--rpg-ink);
+}
+
+.reveal .dark h1,
+.reveal .dark h2,
+.reveal .dark h3,
+.reveal section.dark h1,
+.reveal section.dark h2,
+.reveal section.dark h3 {
+  color: var(--rpg-white);
+}
+
+.reveal .dark a,
+.reveal section.dark a {
+  color: #7dc5ef;
+}
+
+.reveal .dark .muted,
+.reveal section.dark .muted {
+  color: #b9c1c9;
+}
+
+.reveal .accent {
+  color: var(--rpg-orange);
+}
+
+.reveal .accent-red {
+  color: var(--rpg-red);
+}
+
+.reveal .accent-green {
+  color: var(--rpg-green);
+}
+
+.reveal .accent-blue {
+  color: var(--rpg-blue);
+}
+
+.reveal .accent-purple {
+  color: var(--rpg-purple);
+}
+
+.reveal .kicker,
+.reveal .section-kicker {
+  display: block;
+  margin: 0 0 1.1em;
+  color: var(--rpg-orange);
+  font-family: var(--rpg-mono);
+  font-size: 0.48em;
+  font-weight: 780;
+  letter-spacing: 0.14em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.reveal .big-claim {
+  max-width: 14ch;
+  margin: 0;
+  font-family: var(--rpg-serif);
+  font-size: clamp(62px, 5.6vw, 104px);
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+  text-wrap: balance;
+}
+
+.reveal .dark .big-claim {
+  color: var(--rpg-white);
+}
+
+.reveal .muted {
+  color: var(--rpg-muted);
+}
+
+/* Structural layouts: deliberately rectilinear, never floating cards */
+.reveal .split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 56px;
+  align-items: stretch;
+}
+
+.reveal .split.wide-left {
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+}
+
+.reveal .split.wide-right {
+  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+}
+
+.reveal .panel {
+  min-width: 0;
+  padding: 28px 32px;
+  background: rgba(255, 253, 248, 0.74);
+  border-top: 5px solid var(--rpg-blue);
+  border-bottom: 1px solid var(--rpg-line);
+}
+
+.reveal .panel.red { border-top-color: var(--rpg-red); }
+.reveal .panel.green { border-top-color: var(--rpg-green); }
+.reveal .panel.orange { border-top-color: var(--rpg-orange); }
+.reveal .panel.purple { border-top-color: var(--rpg-purple); }
+
+.reveal .dark .panel {
+  color: var(--rpg-paper);
+  background: #202a35;
+  border-bottom-color: var(--rpg-line-dark);
+}
+
+.reveal .work-surface,
+.reveal .workbench {
+  position: relative;
+  padding: 34px 38px;
+  color: var(--rpg-text);
+  background-color: var(--rpg-white);
+  background-image:
+    linear-gradient(rgba(18, 23, 29, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18, 23, 29, 0.055) 1px, transparent 1px);
+  background-size: 34px 34px;
+  border: 2px solid var(--rpg-ink);
+  box-shadow: 14px 14px 0 var(--rpg-paper-2);
+}
+
+.reveal .work-surface::before,
+.reveal .workbench::before {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 130px;
+  height: 8px;
+  background: var(--rpg-orange);
+  content: "";
+}
+
+/* Routes, evidence chains, and timelines */
+.reveal .route,
+.reveal .timeline,
+.reveal .evidence-strip {
+  display: grid;
+  grid-template-columns: repeat(var(--route-count, 4), minmax(0, 1fr));
+  gap: 0;
+  margin: 0.8em 0;
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .route-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2px;
+  margin: 0.8em 0;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .route-grid > * {
+  min-width: 0;
+  padding: 26px 28px;
+  background: var(--rpg-white);
+}
+
+.reveal .phase,
+.reveal .route > *,
+.reveal .timeline > *,
+.reveal .evidence-strip > * {
+  position: relative;
+  min-width: 0;
+  padding: 24px 27px 26px;
+  background: var(--rpg-white);
+  border-right: 1px solid var(--rpg-line);
+}
+
+.reveal .phase:last-child,
+.reveal .route > :last-child,
+.reveal .timeline > :last-child,
+.reveal .evidence-strip > :last-child {
+  border-right: 0;
+}
+
+.reveal .phase::before,
+.reveal .route > *::before,
+.reveal .timeline > *::before,
+.reveal .evidence-strip > *::before {
+  display: block;
+  margin-bottom: 0.8em;
+  color: var(--rpg-red);
+  content: attr(data-step);
+  font-family: var(--rpg-mono);
+  font-size: 0.52em;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.reveal .phase:nth-child(2)::before,
+.reveal .route > :nth-child(2)::before,
+.reveal .timeline > :nth-child(2)::before,
+.reveal .evidence-strip > :nth-child(2)::before { color: var(--rpg-blue); }
+.reveal .phase:nth-child(3)::before,
+.reveal .route > :nth-child(3)::before,
+.reveal .timeline > :nth-child(3)::before,
+.reveal .evidence-strip > :nth-child(3)::before { color: var(--rpg-purple); }
+.reveal .phase:nth-child(4)::before,
+.reveal .route > :nth-child(4)::before,
+.reveal .timeline > :nth-child(4)::before,
+.reveal .evidence-strip > :nth-child(4)::before { color: var(--rpg-green); }
+
+.reveal .artifact {
+  position: relative;
+  margin: 0.65em 0;
+  padding: 26px 30px 26px 68px;
+  background: var(--rpg-white);
+  border-top: 2px solid var(--rpg-ink);
+  border-bottom: 2px solid var(--rpg-ink);
+}
+
+.reveal .artifact::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  width: 46px;
+  place-items: center;
+  color: var(--rpg-white);
+  background: var(--rpg-purple);
+  content: "A";
+  font-family: var(--rpg-mono);
+  font-size: 0.56em;
+  font-weight: 800;
+}
+
+/* Search field / axis visuals */
+.reveal .axis {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  margin: 1.2em 0 0.5em;
+  padding-top: 32px;
+}
+
+.reveal .axis::before {
+  position: absolute;
+  top: 14px;
+  right: 0;
+  left: 0;
+  height: 4px;
+  background: var(--rpg-ink);
+  content: "";
+}
+
+.reveal .axis > * {
+  position: relative;
+  padding: 0 12px;
+  text-align: center;
+}
+
+.reveal .axis > *::before {
+  position: absolute;
+  top: -25px;
+  left: calc(50% - 8px);
+  width: 16px;
+  height: 16px;
+  background: var(--rpg-paper);
+  border: 4px solid var(--rpg-blue);
+  border-radius: 50%;
+  content: "";
+}
+
+.reveal .search-field {
+  position: relative;
+  min-height: 430px;
+  margin: 0.6em 0;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(230,126,34,0.18), transparent 18%),
+    linear-gradient(rgba(18,23,29,0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18,23,29,0.08) 1px, transparent 1px),
+    var(--rpg-white);
+  background-size: auto, 50px 50px, 50px 50px, auto;
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .search-field::before,
+.reveal .search-field::after {
+  position: absolute;
+  background: var(--rpg-line-dark);
+  content: "";
+}
+
+.reveal .search-field::before {
+  top: 50%;
+  right: 0;
+  left: 0;
+  height: 2px;
+}
+
+.reveal .search-field::after {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+}
+
+.reveal .search-point {
+  position: absolute;
+  z-index: 1;
+  display: grid;
+  width: 84px;
+  height: 84px;
+  place-items: center;
+  color: var(--rpg-white);
+  background: var(--rpg-red);
+  border: 5px solid var(--rpg-white);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--rpg-ink);
+  font-family: var(--rpg-mono);
+  font-size: 0.46em;
+  font-weight: 800;
+}
+
+/* Transcript annotation surface */
+.reveal .transcript {
+  margin: 0.55em 0;
+  background: var(--rpg-white);
+  border-top: 3px solid var(--rpg-ink);
+  border-bottom: 3px solid var(--rpg-ink);
+}
+
+.reveal .turn {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr) 240px;
+  gap: 20px;
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--rpg-line);
+  font-size: 0.67em;
+}
+
+.reveal .turn:last-child {
+  border-bottom: 0;
+}
+
+.reveal .speaker {
+  color: var(--rpg-purple);
+  font-family: var(--rpg-mono);
+  font-size: 0.8em;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.reveal .annotation {
+  padding-left: 16px;
+  color: var(--rpg-muted);
+  border-left: 4px solid var(--rpg-blue);
+  font-family: var(--rpg-mono);
+  font-size: 0.74em;
+  line-height: 1.35;
+}
+
+.reveal .annotation.confirmed { border-color: var(--rpg-green); }
+.reveal .annotation.reframed { border-color: var(--rpg-blue); }
+.reveal .annotation.challenged { border-color: var(--rpg-orange); }
+.reveal .annotation.misread { border-color: var(--rpg-red); }
+
+/* Coding and tally language */
+.reveal .code-c,
+.reveal .code-r,
+.reveal .code-x,
+.reveal .code-m,
+.reveal .code-star {
+  display: inline-grid;
+  min-width: 1.9em;
+  min-height: 1.9em;
+  padding: 0 0.38em;
+  place-items: center;
+  color: var(--rpg-white);
+  font-family: var(--rpg-mono);
+  font-size: 0.62em;
+  font-weight: 900;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.reveal .code-c { background: var(--rpg-green); }
+.reveal .code-r { background: var(--rpg-blue); }
+.reveal .code-x { background: var(--rpg-orange); }
+.reveal .code-m { background: var(--rpg-red); }
+.reveal .code-star { color: var(--rpg-ink); background: var(--rpg-yellow); }
+
+.reveal .tally-board {
+  display: grid;
+  grid-template-columns: 200px repeat(5, 1fr);
+  margin: 0.65em 0;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+  gap: 2px;
+}
+
+.reveal .tally-board > * {
+  min-height: 68px;
+  padding: 14px;
+  background: var(--rpg-white);
+  font-family: var(--rpg-mono);
+  font-size: 0.56em;
+}
+
+.reveal .tally-board .tally-head {
+  color: var(--rpg-white);
+  background: var(--rpg-ink-soft);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* Design canvas */
+.reveal .design-canvas {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0.6em 0;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+  gap: 2px;
+}
+
+.reveal .design-canvas > * {
+  min-height: 175px;
+  padding: 22px 24px;
+  background: var(--rpg-white);
+}
+
+.reveal .design-canvas h3,
+.reveal .design-canvas strong {
+  display: block;
+  margin-bottom: 0.55em;
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.62em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.reveal .risk-note {
+  margin: 0.65em 0;
+  padding: 20px 24px 20px 72px;
+  color: var(--rpg-text);
+  background: #f3e5dc;
+  border-top: 2px solid var(--rpg-red);
+  border-bottom: 2px solid var(--rpg-red);
+  position: relative;
+}
+
+.reveal .risk-note::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  width: 48px;
+  place-items: center;
+  color: var(--rpg-white);
+  background: var(--rpg-red);
+  content: "!";
+  font-family: var(--rpg-mono);
+  font-weight: 900;
+}
+
+.reveal .source {
+  margin-top: 1em;
+  color: var(--rpg-muted);
+  font-family: var(--rpg-mono);
+  font-size: 0.42em;
+  line-height: 1.35;
+}
+
+.reveal .dark .source {
+  color: #aeb8c2;
+}
+
+.reveal .progress {
+  height: 7px;
+  color: var(--rpg-orange);
+}
+
+.reveal .slide-number {
+  right: 22px;
+  bottom: 18px;
+  color: rgba(255, 253, 248, 0.8);
+  background: var(--rpg-ink);
+  font-family: var(--rpg-mono);
+  font-size: 17px;
+}
+
+.reveal :focus-visible {
+  outline: 5px solid var(--rpg-yellow);
+  outline-offset: 5px;
+}
+
+/* --------------------------------------------------------------------------
+   Deck-specific components shared by Day 1 and Day 2
+   -------------------------------------------------------------------------- */
+
+.reveal .light { color: var(--rpg-white); }
+.reveal .light-muted { color: #bac4ce; }
+.reveal .accent-coral { color: #f06b52; }
+
+.reveal .hero-lockup {
+  display: flex;
+  min-height: 560px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.reveal .hero-lockup .big-claim {
+  max-width: 12ch;
+}
+
+.reveal .hero-sub {
+  max-width: 37ch;
+  margin-top: 0.9em;
+  font-size: 0.82em;
+  line-height: 1.45;
+}
+
+.reveal .bottom-rule,
+.reveal .bottom-line,
+.reveal .bottom-question,
+.reveal .closing-line {
+  margin-top: 0.9em;
+  padding-top: 0.65em;
+  border-top: 2px solid var(--rpg-ink);
+  font-family: var(--rpg-mono);
+  font-size: 0.62em;
+  font-weight: 720;
+  letter-spacing: 0.025em;
+}
+
+.reveal .light-rule,
+.reveal .on-dark.bottom-line,
+.reveal .on-dark .bottom-line,
+.reveal .on-dark.bottom-question,
+.reveal .on-dark.closing-line {
+  color: #c3ccd5;
+  border-color: #66727e;
+}
+
+/* Day 1 movement and route selection */
+.reveal .sequence-band {
+  display: grid;
+  grid-template-columns: 1fr 54px 1fr 54px 1fr 54px 1fr;
+  gap: 0;
+  align-items: stretch;
+  margin: 0.7em 0;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .sequence-node {
+  min-width: 0;
+  min-height: 245px;
+  padding: 26px 25px;
+  background: var(--rpg-white);
+  border-top: 8px solid var(--rpg-line-dark);
+}
+
+.reveal .sequence-node.active {
+  border-top-color: var(--rpg-orange);
+}
+
+.reveal .sequence-no,
+.reveal .sequence-title,
+.reveal .sequence-copy {
+  display: block;
+}
+
+.reveal .sequence-no {
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.47em;
+  font-weight: 850;
+}
+
+.reveal .sequence-title {
+  margin: 0.75em 0 0.35em;
+  font-family: var(--rpg-serif);
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+.reveal .sequence-copy {
+  color: var(--rpg-muted);
+  font-size: 0.62em;
+  line-height: 1.4;
+}
+
+.reveal .sequence-arrow,
+.reveal .route-arrow,
+.reveal .arc-arrow,
+.reveal .map-arrow,
+.reveal .tomorrow-arrow,
+.reveal .projection-arrow,
+.reveal .rail-arrow {
+  display: grid;
+  place-items: center;
+  color: var(--rpg-white);
+  background: var(--rpg-ink-soft);
+  font-family: var(--rpg-mono);
+  font-weight: 900;
+}
+
+.reveal .day-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0.55em;
+  border-top: 2px solid var(--rpg-ink);
+  border-bottom: 2px solid var(--rpg-ink);
+}
+
+.reveal .day-split > div {
+  padding: 18px 24px;
+  font-size: 0.64em;
+}
+
+.reveal .day-split > div + div {
+  border-left: 1px solid var(--rpg-line);
+}
+
+.reveal .day-split span,
+.reveal .route-label {
+  margin-right: 0.6em;
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.82em;
+  font-weight: 850;
+  letter-spacing: 0.07em;
+}
+
+.reveal .route-grid .route {
+  display: block;
+  margin: 0;
+  padding: 28px 30px;
+  background: var(--rpg-white);
+  border: 0;
+}
+
+.reveal .route-grid .route.recommended {
+  background: #fff1e5;
+  box-shadow: inset 0 8px 0 var(--rpg-orange);
+}
+
+.reveal .route-title {
+  display: block;
+  margin: 0.5em 0 0.35em;
+  color: var(--rpg-text);
+  font-family: var(--rpg-serif);
+  font-size: 0.98em;
+  font-weight: 600;
+  line-height: 1.08;
+}
+
+.reveal .route-grid p {
+  color: var(--rpg-muted);
+  font-size: 0.64em;
+}
+
+.reveal .route-grid-small .route {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.reveal .choice-principle,
+.reveal .uncertainty-rule,
+.reveal .permission-band,
+.reveal .between-days,
+.reveal .calibration-note,
+.reveal .precision-note,
+.reveal .microcopy {
+  margin-top: 0.7em;
+  padding: 16px 22px;
+  color: var(--rpg-muted);
+  background: rgba(255, 253, 248, 0.7);
+  border-left: 6px solid var(--rpg-blue);
+  font-size: 0.58em;
+  line-height: 1.45;
+}
+
+/* Day 1 incident and operation work surfaces */
+.reveal .incident-prompt {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 36px;
+  align-items: center;
+  min-height: 380px;
+  padding: 40px;
+  background: var(--rpg-white);
+  border-top: 8px solid var(--rpg-purple);
+  border-bottom: 2px solid var(--rpg-ink);
+}
+
+.reveal .prompt-lead {
+  font-family: var(--rpg-serif);
+  font-size: 1.28em;
+  line-height: 1.12;
+}
+
+.reveal .verb-field {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.reveal .verb-field span {
+  padding: 11px 16px;
+  color: var(--rpg-white);
+  background: var(--rpg-ink-soft);
+  font-family: var(--rpg-mono);
+  font-size: 0.52em;
+  font-weight: 750;
+}
+
+.reveal .verb-field span:nth-child(3n+1) { background: var(--rpg-red); }
+.reveal .verb-field span:nth-child(3n+2) { background: var(--rpg-blue); }
+.reveal .verb-field span:nth-child(3n) { background: var(--rpg-purple); }
+
+.reveal .hard-stop {
+  margin-top: 0.65em;
+  padding: 18px 24px;
+  color: var(--rpg-white);
+  background: var(--rpg-red);
+  font-size: 0.68em;
+  font-weight: 720;
+}
+
+.reveal .hard-stop-label {
+  margin-right: 0.9em;
+  font-family: var(--rpg-mono);
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
+}
+
+.reveal .incident-sheet,
+.reveal .preflight-sheet {
+  padding: 24px 28px;
+}
+
+.reveal .sheet-row {
+  display: grid;
+  grid-template-columns: 52px 180px minmax(0, 1fr);
+  min-height: 82px;
+  align-items: center;
+  border-bottom: 1px solid var(--rpg-line);
+}
+
+.reveal .sheet-row:last-child { border-bottom: 0; }
+
+.reveal .sheet-no,
+.reveal .sheet-label {
+  font-family: var(--rpg-mono);
+  font-size: 0.56em;
+  font-weight: 850;
+}
+
+.reveal .sheet-no { color: var(--rpg-red); }
+.reveal .sheet-label { color: var(--rpg-purple); text-transform: uppercase; }
+.reveal .sheet-line { color: var(--rpg-muted); font-size: 0.65em; }
+
+.reveal .pair-protocol {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.45fr;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+  gap: 2px;
+}
+
+.reveal .pair-turn {
+  min-height: 150px;
+  padding: 28px;
+  background: var(--rpg-white);
+  font-size: 0.76em;
+}
+
+.reveal .pair-turn span {
+  display: block;
+  margin-bottom: 0.7em;
+  color: var(--rpg-blue);
+  font-family: var(--rpg-mono);
+  font-size: 0.7em;
+  font-weight: 850;
+}
+
+.reveal .pair-turn.swap {
+  display: grid;
+  place-items: center;
+  color: var(--rpg-white);
+  background: var(--rpg-purple);
+  font-family: var(--rpg-mono);
+  font-weight: 900;
+}
+
+.reveal .probe-stack {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 0.55em;
+  border-top: 2px solid var(--rpg-ink);
+  border-bottom: 2px solid var(--rpg-ink);
+}
+
+.reveal .probe-stack > div {
+  padding: 18px 22px;
+  border-right: 1px solid var(--rpg-line);
+  font-family: var(--rpg-serif);
+  font-size: 0.62em;
+}
+
+.reveal .probe-stack > :last-child { border-right: 0; }
+
+.reveal .verb-output,
+.reveal .coordinates-line,
+.reveal .riverbank-claim,
+.reveal .separation-claim,
+.reveal .harvest-call,
+.reveal .debrief-question,
+.reveal .closing-claim,
+.reveal .exit-prompt {
+  margin-top: 0.65em;
+  padding: 17px 22px;
+  color: var(--rpg-white);
+  background: var(--rpg-ink);
+  font-size: 0.64em;
+  text-align: center;
+}
+
+.reveal .verb-output span { color: var(--rpg-orange); }
+
+.reveal .codebook-board {
+  min-height: 385px;
+  padding: 28px;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .codebook-axis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 16px;
+  color: #c8d0d8;
+  border-bottom: 1px solid var(--rpg-line-dark);
+  font-family: var(--rpg-mono);
+  font-size: 0.5em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.reveal .codebook-field {
+  display: flex;
+  min-height: 270px;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding: 28px;
+}
+
+.reveal .code-token {
+  display: inline-block;
+  padding: 13px 17px;
+  color: var(--rpg-white);
+  background: var(--rpg-blue);
+  font-family: var(--rpg-mono);
+  font-size: 0.57em;
+  font-weight: 800;
+}
+
+.reveal .code-token:nth-child(4n+1) { background: var(--rpg-red); }
+.reveal .code-token:nth-child(4n+2) { background: var(--rpg-purple); }
+.reveal .code-token:nth-child(4n+3) { background: var(--rpg-green); }
+.reveal .code-token.c1,
+.reveal .code-token.c5 { background: var(--rpg-red); }
+.reveal .code-token.c2,
+.reveal .code-token.c6 { background: var(--rpg-purple); }
+.reveal .code-token.c3,
+.reveal .code-token.c7 { background: var(--rpg-green); }
+.reveal .code-token.c4,
+.reveal .code-token.c8 { background: var(--rpg-blue); }
+
+/* Day 1 conceptual models */
+.reveal .model-split {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 42px;
+  align-items: center;
+}
+
+.reveal .model-copy p {
+  font-size: 0.66em;
+}
+
+.reveal .model-visual {
+  padding: 18px;
+  background: var(--rpg-white);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .model-visual svg,
+.reveal .dimension-cell svg,
+.reveal .constraint-panel svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.reveal .dimension-jump {
+  display: grid;
+  grid-template-columns: 1fr 48px 1fr 48px 1fr 48px 1fr;
+  gap: 0;
+  align-items: center;
+}
+
+.reveal .dimension-cell {
+  min-height: 360px;
+  padding: 20px;
+  background: var(--rpg-white);
+  border: 2px solid var(--rpg-ink);
+  text-align: center;
+}
+
+.reveal .dimension-cell b,
+.reveal .dimension-cell span {
+  display: block;
+}
+
+.reveal .dimension-cell b {
+  color: var(--rpg-purple);
+  font-family: var(--rpg-mono);
+  font-size: 0.62em;
+}
+
+.reveal .dimension-cell span { color: var(--rpg-muted); font-size: 0.52em; }
+.reveal .dimension-arrow { display: grid; place-items: center; color: var(--rpg-red); font-weight: 900; }
+.reveal .dimension-unknown { background: #eee7f2; }
+
+.reveal .constraint-triptych,
+.reveal .four-lanes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+  gap: 2px;
+}
+
+.reveal .constraint-panel {
+  min-width: 0;
+  padding: 22px;
+  background: var(--rpg-white);
+}
+
+.reveal .constraint-name {
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.55em;
+  font-weight: 850;
+}
+
+.reveal .constraint-panel p { font-size: 0.62em; }
+
+.reveal .four-lanes {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.reveal .lane {
+  position: relative;
+  min-height: 330px;
+  padding: 28px 25px 65px;
+  background: var(--rpg-white);
+}
+
+.reveal .lane-key {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1em;
+  place-items: center;
+  color: var(--rpg-white);
+  background: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.62em;
+  font-weight: 900;
+}
+
+.reveal .lane:nth-child(2) .lane-key { background: var(--rpg-orange); }
+.reveal .lane:nth-child(3) .lane-key { background: var(--rpg-purple); }
+.reveal .lane:nth-child(4) .lane-key { background: var(--rpg-blue); }
+.reveal .lane.performance { box-shadow: inset 0 7px 0 var(--rpg-red); }
+.reveal .lane.effort { box-shadow: inset 0 7px 0 var(--rpg-orange); }
+.reveal .lane.monitoring { box-shadow: inset 0 7px 0 var(--rpg-purple); }
+.reveal .lane.visibility { box-shadow: inset 0 7px 0 var(--rpg-blue); }
+.reveal .lane b { display: block; font-family: var(--rpg-serif); font-size: 0.83em; }
+.reveal .lane p { color: var(--rpg-muted); font-size: 0.58em; }
+.reveal .lane-question { position: absolute; right: 20px; bottom: 20px; left: 20px; padding-top: 10px; border-top: 1px solid var(--rpg-line); color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.46em; font-weight: 800; }
+
+.reveal .evidence-study {
+  padding: 25px 28px !important;
+}
+
+.reveal .evidence-tag,
+.reveal .evidence-title,
+.reveal .evidence-limit,
+.reveal .source-line {
+  display: block;
+}
+
+.reveal .evidence-tag { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; letter-spacing: 0.05em; }
+.reveal .evidence-title { margin: 0.45em 0; font-family: var(--rpg-serif); font-size: 0.8em; font-weight: 650; }
+.reveal .evidence-study p { font-size: 0.55em; }
+.reveal .evidence-limit { padding-top: 0.7em; color: var(--rpg-muted); border-top: 1px solid var(--rpg-line); font-size: 0.48em; line-height: 1.35; }
+.reveal .caution-study { box-shadow: inset 0 8px 0 var(--rpg-orange); }
+.reveal .compact-evidence .evidence-study { padding-top: 18px !important; padding-bottom: 18px !important; }
+.reveal .source-line { margin-top: 0.55em; color: var(--rpg-muted); font-family: var(--rpg-mono); font-size: 0.42em; }
+
+/* Day 1 Oracle and privacy surfaces */
+.reveal .role-flip {
+  display: grid;
+  grid-template-columns: 1fr 90px 1fr;
+  align-items: stretch;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .role-old,
+.reveal .role-new {
+  min-height: 260px;
+  padding: 32px;
+  background: var(--rpg-white);
+}
+
+.reveal .role-new { background: #e5f0ea; }
+.reveal .role-pivot { display: grid; place-items: center; color: var(--rpg-white); background: var(--rpg-purple); font-size: 1.5em; }
+.reveal .role-label { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .role-verb { margin: 0.45em 0; font-family: var(--rpg-serif); font-size: 1.4em; }
+.reveal .role-list { color: var(--rpg-muted); font-size: 0.6em; }
+
+.reveal .demo-rules,
+.reveal .redaction-checklist {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 0.55em;
+  border-top: 2px solid var(--rpg-ink);
+  border-bottom: 2px solid var(--rpg-ink);
+}
+
+.reveal .demo-rules span,
+.reveal .redaction-checklist span {
+  padding: 14px;
+  border-right: 1px solid var(--rpg-line);
+  font-family: var(--rpg-mono);
+  font-size: 0.46em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.reveal .demo-rules span:last-child,
+.reveal .redaction-checklist span:last-child { border-right: 0; }
+
+.reveal .oracle-contract {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 0.55em;
+  border: 2px solid var(--rpg-ink);
+  gap: 2px;
+  background: var(--rpg-ink);
+}
+
+.reveal .contract-item {
+  display: grid;
+  grid-template-columns: 185px minmax(0, 1fr);
+  min-width: 0;
+  min-height: 68px;
+  align-items: center;
+  padding: 10px 18px;
+  background: var(--rpg-white);
+}
+
+.reveal .contract-item b,
+.reveal .contract-item span {
+  display: block;
+  min-width: 0;
+}
+
+.reveal .contract-item b {
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.54em;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  line-height: 1.05;
+}
+
+.reveal .contract-item span {
+  padding-left: 17px;
+  border-left: 1px solid var(--rpg-line);
+  font-family: var(--rpg-sans);
+  font-size: 0.5em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Copy-ready prompts: explicit working language, not decorative code cards. */
+.reveal .prompt-stage {
+  display: grid;
+  grid-template-columns: 285px minmax(0, 1fr);
+  min-height: 500px;
+  margin-top: 0.25em;
+  border: 2px solid var(--rpg-ink);
+  background: var(--rpg-ink);
+}
+
+.reveal .prompt-rail {
+  display: flex;
+  min-width: 0;
+  padding: 30px 26px;
+  flex-direction: column;
+  color: var(--rpg-white);
+  background: var(--rpg-purple);
+}
+
+.reveal .prompt-type,
+.reveal .prompt-use,
+.reveal .prompt-principle {
+  display: block;
+}
+
+.reveal .prompt-type {
+  color: var(--rpg-yellow);
+  font-family: var(--rpg-mono);
+  font-size: 0.46em;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.reveal .prompt-use {
+  margin-top: 1.15em;
+  font-family: var(--rpg-serif);
+  font-size: 0.72em;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.reveal .prompt-principle {
+  margin-top: auto;
+  padding-top: 1em;
+  border-top: 1px solid rgba(255, 255, 255, 0.45);
+  font-size: 0.45em;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.reveal .prompt-copy {
+  display: flex;
+  min-width: 0;
+  padding: 26px 34px 22px;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--rpg-white);
+  font-family: var(--rpg-serif);
+  font-size: 0.68em;
+  line-height: 1.34;
+}
+
+.reveal .prompt-copy p {
+  margin: 0 0 0.58em;
+}
+
+.reveal .prompt-copy strong {
+  color: var(--rpg-red);
+}
+
+.reveal .prompt-slot {
+  color: var(--rpg-blue);
+  font-family: var(--rpg-mono);
+  font-size: 0.83em;
+  font-weight: 800;
+}
+
+.reveal .prompt-input {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  align-items: center;
+  margin-top: 0.75em;
+  border-top: 2px solid var(--rpg-ink);
+  border-bottom: 2px solid var(--rpg-ink);
+  font-family: var(--rpg-sans);
+}
+
+.reveal .prompt-input span,
+.reveal .prompt-input b {
+  display: block;
+  padding: 11px 14px;
+}
+
+.reveal .prompt-input span {
+  color: var(--rpg-white);
+  background: var(--rpg-ink);
+  font-family: var(--rpg-mono);
+  font-size: 0.68em;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.reveal .prompt-input b {
+  color: var(--rpg-blue);
+  font-family: var(--rpg-mono);
+  font-size: 0.72em;
+  font-weight: 800;
+}
+
+.reveal .prompt-decision b {
+  color: var(--rpg-green);
+}
+
+.reveal .prompt-safety {
+  margin-top: 0.5em;
+  padding: 12px 18px;
+  color: var(--rpg-white);
+  background: var(--rpg-ink-soft);
+  border-left: 8px solid var(--rpg-orange);
+  font-size: 0.46em;
+  font-weight: 720;
+  line-height: 1.3;
+}
+
+.reveal .prompt-stage-followup .prompt-rail {
+  background: var(--rpg-blue);
+}
+
+.reveal .prompt-stage-design {
+  min-height: 515px;
+}
+
+.reveal .prompt-stage-design .prompt-rail {
+  background: var(--rpg-green);
+}
+
+.reveal .prompt-copy-design {
+  font-size: 0.62em;
+}
+
+.reveal .prompt-variables {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 0.8em;
+  border: 2px solid var(--rpg-ink);
+  gap: 2px;
+  background: var(--rpg-ink);
+  font-family: var(--rpg-sans);
+}
+
+.reveal .prompt-variable {
+  min-width: 0;
+  padding: 14px 16px;
+  background: var(--rpg-paper);
+  font-size: 0.84em;
+  line-height: 1.2;
+}
+
+.reveal .prompt-variable b {
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-size: 0.92em;
+}
+
+.reveal .projection-warning,
+.reveal .do-not-upload {
+  margin-top: 0.55em;
+  padding: 16px 22px;
+  color: var(--rpg-white);
+  background: var(--rpg-red);
+  font-size: 0.55em;
+  font-weight: 720;
+  text-align: center;
+}
+
+.reveal .oracle-map {
+  display: grid;
+  grid-template-columns: 0.75fr 60px 1.5fr 60px 0.75fr;
+  align-items: stretch;
+  min-height: 435px;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .paper-map-column,
+.reveal .pressure-field,
+.reveal .question-column {
+  padding: 26px;
+  background: var(--rpg-white);
+}
+
+.reveal .paper-map-column { display: flex; flex-direction: column; gap: 11px; }
+.reveal .map-heading { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.52em; font-weight: 850; }
+.reveal .paper-map-column span { padding: 10px; background: var(--rpg-paper-2); font-size: 0.53em; }
+.reveal .pressure-field { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.reveal .pressure { display: grid; place-items: center; padding: 10px; color: var(--rpg-white); background: var(--rpg-purple); font-size: 0.5em; text-align: center; }
+.reveal .pressure:nth-child(4n+1) { background: var(--rpg-red); }
+.reveal .pressure:nth-child(4n+2) { background: var(--rpg-blue); }
+.reveal .pressure:nth-child(4n+3) { background: var(--rpg-orange); color: var(--rpg-text); }
+.reveal .pressure.p1,
+.reveal .pressure.p5 { background: var(--rpg-red); }
+.reveal .pressure.p2,
+.reveal .pressure.p6 { background: var(--rpg-blue); }
+.reveal .pressure.p3,
+.reveal .pressure.p7 { color: var(--rpg-text); background: var(--rpg-orange); }
+.reveal .pressure.p4,
+.reveal .pressure.p8 { background: var(--rpg-purple); }
+.reveal .question-column { display: grid; place-items: center; align-content: center; color: var(--rpg-muted); font-size: 0.54em; text-align: center; }
+.reveal .question-mark { color: var(--rpg-green); font-family: var(--rpg-serif); font-size: 5em; line-height: 0.9; }
+.reveal .map-caveat { margin-top: 0.55em; color: var(--rpg-muted); font-size: 0.5em; }
+
+.reveal .privacy-flow {
+  display: grid;
+  grid-template-columns: 1fr 250px 1fr;
+  min-height: 310px;
+  align-items: stretch;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .privacy-local,
+.reveal .privacy-service {
+  padding: 34px;
+  background: var(--rpg-white);
+}
+
+.reveal .privacy-local { box-shadow: inset 0 8px 0 var(--rpg-green); }
+.reveal .privacy-service { box-shadow: inset 0 8px 0 var(--rpg-red); }
+.reveal .privacy-kicker { color: var(--rpg-purple); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .privacy-flow b { display: block; margin: 0.75em 0; font-family: var(--rpg-serif); font-size: 0.82em; }
+.reveal .privacy-flow p { color: var(--rpg-muted); font-size: 0.54em; }
+.reveal .privacy-arrow { display: grid; place-items: center; padding: 18px; color: var(--rpg-white); background: var(--rpg-ink-soft); font-family: var(--rpg-mono); font-size: 0.52em; text-align: center; }
+
+.reveal .sharing-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0.5em;
+  border-top: 2px solid var(--rpg-ink);
+  border-bottom: 2px solid var(--rpg-ink);
+}
+
+.reveal .sharing-split > div { padding: 14px 22px; font-size: 0.52em; }
+.reveal .sharing-split > div + div { border-left: 1px solid var(--rpg-line); }
+
+.reveal .prediction-card {
+  padding: 26px 32px 24px 78px;
+}
+
+.reveal .prediction-row,
+.reveal .confidence-row {
+  display: grid;
+  grid-template-columns: 380px minmax(0, 1fr);
+  gap: 22px;
+  min-height: 74px;
+  align-items: center;
+  border-bottom: 1px solid var(--rpg-line);
+  font-size: 0.58em;
+}
+
+.reveal .blank-line,
+.reveal .write-line,
+.reveal .field-lines,
+.reveal .exit-line,
+.reveal .harvest-line {
+  display: block;
+  min-height: 42px;
+  background: repeating-linear-gradient(to bottom, transparent 0, transparent 31px, var(--rpg-line) 31px, var(--rpg-line) 32px);
+}
+
+.reveal .blank-line.short { max-width: 360px; }
+.reveal .confidence-scale { display: grid; grid-template-columns: repeat(10, 1fr); gap: 4px; }
+.reveal .confidence-scale i { display: grid; height: 34px; place-items: center; color: var(--rpg-white); background: var(--rpg-blue); font-family: var(--rpg-mono); font-size: 0.75em; font-style: normal; }
+
+.reveal .demo-stage {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 2px;
+  min-height: 430px;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .demo-column { position: relative; padding: 28px; background: var(--rpg-white); }
+.reveal .source-doc { box-shadow: inset 0 7px 0 var(--rpg-orange); }
+.reveal .transcript-live { box-shadow: inset 0 7px 0 var(--rpg-blue); }
+.reveal .demo-label { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .mock-lines { display: grid; gap: 17px; margin-top: 28px; }
+.reveal .mock-lines span { height: 11px; background: var(--rpg-line); }
+.reveal .mock-lines .claim-line { width: 78%; height: 18px; background: var(--rpg-orange); }
+.reveal .claim-callout { position: absolute; right: 25px; bottom: 28px; padding: 9px 13px; color: var(--rpg-white); background: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.48em; }
+.reveal .demo-stage .turn { display: grid; grid-template-columns: 155px 1fr; gap: 15px; padding: 15px 0; border-bottom: 1px solid var(--rpg-line); font-size: 0.58em; }
+.reveal .demo-stage .turn span { color: var(--rpg-purple); font-family: var(--rpg-mono); font-size: 0.8em; font-weight: 850; }
+.reveal .demo-stage .oracle-turn { background: #e7edf2; }
+.reveal .demo-stage .researcher-turn { padding-left: 12px; }
+.reveal .demo-stage .pending { border-left: 6px solid var(--rpg-orange); }
+
+.reveal .fallback-flow,
+.reveal .capture-grid,
+.reveal .tomorrow-flow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .fallback-flow > div,
+.reveal .capture-action,
+.reveal .tomorrow-node {
+  min-height: 180px;
+  padding: 25px;
+  background: var(--rpg-white);
+  font-size: 0.62em;
+}
+
+.reveal .fallback-flow span,
+.reveal .capture-action span,
+.reveal .tomorrow-node span {
+  display: block;
+  margin-bottom: 0.75em;
+  color: var(--rpg-red);
+  font-family: var(--rpg-mono);
+  font-weight: 850;
+}
+
+.reveal .fallback-assets { margin-top: 0.6em; padding: 16px 20px; color: var(--rpg-white); background: var(--rpg-purple); font-family: var(--rpg-mono); font-size: 0.5em; text-align: center; }
+
+.reveal .trace-codes,
+.reveal .code-ribbon {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .trace-code,
+.reveal .code-ribbon .code {
+  min-height: 210px;
+  padding: 22px;
+  color: var(--rpg-text);
+  background: var(--rpg-white);
+  text-align: left;
+}
+
+.reveal .trace-code b,
+.reveal .code-ribbon .code b { display: grid; width: 48px; height: 48px; margin-bottom: 14px; place-items: center; color: var(--rpg-white); background: var(--rpg-blue); font-family: var(--rpg-mono); font-size: 0.8em; }
+.reveal .trace-code span,
+.reveal .trace-code small,
+.reveal .code-ribbon .code span,
+.reveal .code-ribbon .code small { display: block; }
+.reveal .trace-code span,
+.reveal .code-ribbon .code span { font-family: var(--rpg-mono); font-size: 0.5em; font-weight: 850; }
+.reveal .trace-code small,
+.reveal .code-ribbon .code small { margin-top: 0.6em; color: var(--rpg-muted); font-size: 0.44em; line-height: 1.35; }
+.reveal .trace-code.confirmed b,
+.reveal .code-ribbon .code-c b { background: var(--rpg-green); }
+.reveal .trace-code.reframed b,
+.reveal .code-ribbon .code-r b { background: var(--rpg-blue); }
+.reveal .trace-code.challenged b,
+.reveal .code-ribbon .code-x b { background: var(--rpg-orange); color: var(--rpg-text); }
+.reveal .trace-code.misread b,
+.reveal .code-ribbon .code-m b { background: var(--rpg-red); }
+.reveal .trace-code.meaningful b,
+.reveal .code-ribbon .code-star b { color: var(--rpg-text); background: var(--rpg-yellow); }
+
+.reveal .preflight-sheet { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rpg-ink); }
+.reveal .preflight-block { min-height: 160px; padding: 24px; background: var(--rpg-white); }
+.reveal .preflight-key { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.5em; font-weight: 850; }
+.reveal .preflight-block p { font-size: 0.63em; }
+
+.reveal .work-protocol { display: grid; grid-template-columns: 0.55fr 1.45fr; min-height: 390px; background: var(--rpg-ink); border: 2px solid var(--rpg-ink); }
+.reveal .work-label { display: grid; place-items: center; color: var(--rpg-white); background: var(--rpg-red); font-family: var(--rpg-mono); font-size: 2.3em; font-weight: 850; }
+.reveal .work-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rpg-line); }
+.reveal .work-steps > div { padding: 28px; background: var(--rpg-white); font-size: 0.62em; }
+.reveal .work-steps b { display: block; margin-bottom: 0.4em; color: var(--rpg-purple); font-family: var(--rpg-mono); font-size: 1.25em; }
+
+.reveal .capture-action b,
+.reveal .handoff-item b,
+.reveal .tomorrow-node b { display: block; font-family: var(--rpg-serif); font-size: 0.92em; }
+.reveal .capture-action p,
+.reveal .handoff-item p { color: var(--rpg-muted); font-size: 0.78em; }
+
+.reveal .trace-pack-board { position: relative; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1px; margin: 0.65em 0; padding: 62px 0 0; background: var(--rpg-ink); border-top: 2px solid var(--rpg-ink); border-bottom: 2px solid var(--rpg-ink); }
+.reveal .trace-pack-header { position: absolute; top: 0; right: 0; left: 0; box-sizing: border-box; display: block; width: 100%; height: 62px; padding: 18px 24px; color: var(--rpg-white); background: var(--rpg-purple); font-family: var(--rpg-mono); font-size: 0.5em; font-weight: 850; }
+.reveal .handoff-item { min-height: 215px; padding: 24px; background: var(--rpg-white); }
+.reveal .handoff-item > span { display: block; margin-bottom: 0.5em; color: var(--rpg-red); font-family: var(--rpg-mono); font-weight: 850; }
+
+.reveal .tomorrow-flow { grid-template-columns: 1fr 70px 1fr 70px 1fr; }
+.reveal .tomorrow-arrow { background: var(--rpg-ink-soft); }
+
+/* Day 2 route and transcript system */
+.reveal .route-map {
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
+  gap: 0;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .route-stop {
+  min-width: 0;
+  min-height: 270px;
+  padding: 28px;
+  color: var(--rpg-white);
+}
+
+.reveal .route-red { background: var(--rpg-red); }
+.reveal .route-orange { color: var(--rpg-text); background: var(--rpg-orange); }
+.reveal .route-blue { background: var(--rpg-blue); }
+.reveal .route-green { background: var(--rpg-green); }
+.reveal .route-index,
+.reveal .route-stop .route-title,
+.reveal .route-copy { display: block; color: inherit; }
+.reveal .route-index { font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .route-stop .route-title { margin: 0.85em 0 0.5em; font-family: var(--rpg-serif); font-size: 0.94em; }
+.reveal .route-copy { font-size: 0.55em; line-height: 1.4; }
+
+.reveal .hero-prompt,
+.reveal .hero-equation,
+.reveal .break-copy {
+  max-width: 20ch;
+  margin: 0.5em auto;
+  color: var(--rpg-white);
+  font-family: var(--rpg-serif);
+  font-size: 1.65em;
+  line-height: 1.08;
+  text-align: center;
+}
+
+.reveal .hero-equation { max-width: none; font-family: var(--rpg-mono); font-size: 1.9em; font-weight: 850; }
+
+.reveal .prediction-line {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  margin: 0.8em 0;
+  background: #65717c;
+  border: 2px solid #65717c;
+}
+
+.reveal .prediction-line > div { min-height: 170px; padding: 22px; background: #202a35; }
+.reveal .field-label { display: block; margin-bottom: 0.6em; color: var(--rpg-orange); font-family: var(--rpg-mono); font-size: 0.5em; font-weight: 850; text-transform: uppercase; }
+.reveal .prediction-line .write-line { border-color: #84909b; }
+
+.reveal .callout-strip,
+.reveal .rights-banner,
+.reveal .activity-prompt,
+.reveal .write-prompt,
+.reveal .coding-instruction,
+.reveal .micro-instruction,
+.reveal .analyst-script,
+.reveal .rewrite-instruction,
+.reveal .definition-strip,
+.reveal .center-statement {
+  margin: 0.65em 0;
+  padding: 17px 22px;
+  color: var(--rpg-text);
+  background: #e6eef3;
+  border-left: 7px solid var(--rpg-blue);
+  font-size: 0.57em;
+  line-height: 1.4;
+}
+
+.reveal .callout-warm,
+.reveal .rights-banner { background: #f5e7dc; border-left-color: var(--rpg-orange); }
+.reveal .definition-strip { color: var(--rpg-white); background: var(--rpg-purple); border-left-color: var(--rpg-yellow); }
+.reveal .center-statement { text-align: center; }
+
+.reveal .choice-lanes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .choice-lane { min-height: 255px; padding: 28px; background: var(--rpg-white); }
+.reveal .choice-letter { display: grid; width: 48px; height: 48px; place-items: center; color: var(--rpg-white); background: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.58em; font-weight: 900; }
+.reveal .choice-lane:nth-child(2) .choice-letter { background: var(--rpg-blue); }
+.reveal .choice-lane:nth-child(3) .choice-letter { background: var(--rpg-purple); }
+.reveal .choice-lane:nth-child(4) .choice-letter { background: var(--rpg-green); }
+.reveal .choice-title { margin: 0.8em 0 0.4em; font-family: var(--rpg-serif); font-size: 0.84em; font-weight: 650; }
+.reveal .choice-copy { color: var(--rpg-muted); font-size: 0.55em; line-height: 1.4; }
+
+.reveal .transcript-sheet { margin: 0.5em 0; padding: 0; background: var(--rpg-white); border: 2px solid var(--rpg-ink); }
+.reveal .transcript-meta { display: flex; gap: 14px; padding: 12px 18px; color: var(--rpg-white); background: var(--rpg-ink); font-family: var(--rpg-mono); font-size: 0.42em; }
+.reveal .transcript-meta span + span { padding-left: 14px; border-left: 1px solid var(--rpg-line-dark); }
+.reveal .transcript-sheet .turn { display: grid; grid-template-columns: 190px 1fr; gap: 18px; padding: 13px 20px; border-bottom: 1px solid var(--rpg-line); font-size: 0.56em; }
+.reveal .transcript-sheet .turn:last-child { border-bottom: 0; }
+.reveal .transcript-sheet .turn.oracle { background: #e7edf2; }
+.reveal .transcript-sheet .turn.researcher { border-left: 7px solid var(--rpg-purple); }
+.reveal .transcript-sheet .speaker { color: var(--rpg-purple); font-size: 0.75em; }
+.reveal .transcript-sheet .oracle .speaker { color: var(--rpg-blue); }
+.reveal .transcript-sheet .utterance { display: block; min-width: 0; }
+
+.reveal .scope-ruler {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+  gap: 2px;
+}
+
+.reveal .scope-mark { display: grid; grid-template-columns: 75px 1fr; min-height: 120px; align-items: center; padding: 20px; background: var(--rpg-white); font-size: 0.58em; }
+.reveal .scope-number { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 1.55em; font-weight: 900; }
+
+.reveal .do-dont-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  margin-top: 0.55em;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .do-column,
+.reveal .dont-column { padding: 22px 28px; background: var(--rpg-white); }
+.reveal .do-column { box-shadow: inset 0 7px 0 var(--rpg-green); }
+.reveal .dont-column { box-shadow: inset 0 7px 0 var(--rpg-red); }
+.reveal .column-label { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .do-dont-grid li { font-size: 0.55em; }
+
+.reveal .projection-visual { display: grid; grid-template-columns: 1fr 100px 1.2fr; align-items: center; min-height: 390px; }
+.reveal .projection-machine { padding: 36px; color: var(--rpg-text); background: var(--rpg-white); border-top: 8px solid var(--rpg-orange); }
+.reveal .machine-label,
+.reveal .machine-question { display: block; }
+.reveal .machine-label { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .machine-question { margin-top: 0.8em; font-family: var(--rpg-serif); font-size: 1em; }
+.reveal .projection-arrow { color: var(--rpg-orange); background: transparent; font-size: 1.7em; }
+.reveal .projection-stack { display: grid; gap: 8px; }
+.reveal .projected { padding: 13px 18px; color: var(--rpg-white); background: #26313c; font-family: var(--rpg-mono); font-size: 0.53em; }
+.reveal .projected.crossed { color: #9ca7b1; text-decoration: line-through; text-decoration-color: var(--rpg-red); text-decoration-thickness: 4px; }
+.reveal .projected.kept { background: var(--rpg-green); }
+
+.reveal .arc-line {
+  display: grid;
+  grid-template-columns: 1fr 48px 1fr 48px 1fr 48px 1fr;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+}
+
+.reveal .arc-node { min-height: 220px; padding: 26px; background: var(--rpg-white); }
+.reveal .arc-node span,
+.reveal .arc-node em { display: block; }
+.reveal .arc-node span { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .arc-node em { margin-top: 1em; color: var(--rpg-muted); font-family: var(--rpg-serif); font-size: 0.72em; font-style: normal; }
+
+.reveal .annotation-line { display: grid; grid-template-columns: 150px 1fr 1fr; min-height: 120px; margin-top: 0.55em; background: var(--rpg-white); border: 2px solid var(--rpg-ink); }
+.reveal .annotation-line span { padding: 20px; border-right: 1px solid var(--rpg-line); color: var(--rpg-muted); font-size: 0.5em; }
+.reveal .annotation-line span:first-child { color: var(--rpg-red); font-family: var(--rpg-mono); font-weight: 850; }
+
+.reveal .judgment-frame {
+  display: grid;
+  grid-template-columns: 1fr 0.85fr 100px 1fr 0.85fr;
+  min-height: 285px;
+  align-items: stretch;
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+  gap: 2px;
+}
+
+.reveal .judgment-frame > div { display: grid; padding: 24px; align-content: center; background: var(--rpg-white); font-size: 0.62em; }
+.reveal .judgment-stem { font-family: var(--rpg-serif); font-size: 0.78em !important; }
+.reveal .judgment-evidence { color: var(--rpg-muted); }
+.reveal .judgment-or { place-items: center; color: var(--rpg-white); background: var(--rpg-purple) !important; font-family: var(--rpg-mono); font-weight: 900; }
+
+.reveal .share-envelope { padding: 26px; background: var(--rpg-white); border: 2px solid var(--rpg-ink); }
+.reveal .envelope-top { margin: -26px -26px 18px; padding: 13px 20px; color: var(--rpg-white); background: var(--rpg-ink); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .envelope-item { display: grid; grid-template-columns: 45px 1fr; min-height: 66px; align-items: center; border-bottom: 1px solid var(--rpg-line); font-size: 0.58em; }
+.reveal .envelope-item.optional { color: var(--rpg-muted); }
+.reveal .check-box,
+.reveal .test-box { display: inline-block; width: 28px; height: 28px; border: 3px solid var(--rpg-ink); }
+
+.reveal .exchange-dial { display: grid; grid-template-columns: repeat(4, 1fr); background: var(--rpg-ink); border: 2px solid var(--rpg-ink); gap: 2px; }
+.reveal .dial-option { min-height: 220px; padding: 26px; background: var(--rpg-white); font-size: 0.58em; }
+.reveal .dial-level { display: block; margin-bottom: 1em; color: var(--rpg-white); background: var(--rpg-blue); padding: 9px 11px; font-family: var(--rpg-mono); font-size: 0.78em; font-weight: 850; text-align: center; }
+
+.reveal .agreement-board { border-top: 3px solid var(--rpg-ink); }
+.reveal .agreement-row { display: grid; grid-template-columns: 80px 1fr; min-height: 72px; align-items: center; border-bottom: 1px solid var(--rpg-line); background: var(--rpg-white); font-size: 0.58em; }
+.reveal .agreement-mark { display: grid; align-self: stretch; place-items: center; color: var(--rpg-white); background: var(--rpg-red); font-family: var(--rpg-mono); font-weight: 850; }
+.reveal .agreement-row > :last-child { padding: 15px 22px; }
+
+.reveal .protocol-timeline { display: grid; grid-template-columns: repeat(5, 1fr); background: var(--rpg-ink); border: 2px solid var(--rpg-ink); gap: 2px; }
+.reveal .protocol-step { min-height: 230px; padding: 22px; background: var(--rpg-white); }
+.reveal .protocol-order,
+.reveal .protocol-step b,
+.reveal .protocol-step small { display: block; }
+.reveal .protocol-order { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.5em; font-weight: 850; }
+.reveal .protocol-step b { margin: 0.9em 0 0.5em; font-size: 0.56em; }
+.reveal .protocol-step small { color: var(--rpg-muted); font-size: 0.46em; line-height: 1.35; }
+
+.reveal .harvest-board { display: grid; grid-template-columns: repeat(3, 1fr); background: var(--rpg-ink); border: 2px solid var(--rpg-ink); gap: 2px; }
+.reveal .harvest-column { min-height: 300px; padding: 26px; background: var(--rpg-white); }
+.reveal .harvest-label { display: block; color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .harvest-column .harvest-line { margin-top: 30px; }
+
+.reveal .question-stack { display: grid; grid-template-columns: repeat(3, 1fr); margin: 0.8em 0; background: #55616c; border: 2px solid #55616c; gap: 2px; }
+.reveal .question-stack > div { padding: 25px; color: var(--rpg-white); background: #202a35; font-size: 0.63em; text-align: center; }
+
+/* Day 2 framework and design lab */
+.reveal .friction-triad,
+.reveal .mode-spectrum,
+.reveal .five-tests {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: var(--rpg-ink);
+  border: 2px solid var(--rpg-ink);
+  gap: 2px;
+}
+
+.reveal .friction-type { min-height: 315px; padding: 27px; background: var(--rpg-white); }
+.reveal .system-friction { box-shadow: inset 0 8px 0 var(--rpg-red); }
+.reveal .cognitive-friction { box-shadow: inset 0 8px 0 var(--rpg-green); }
+.reveal .obstructive-friction { box-shadow: inset 0 8px 0 var(--rpg-orange); }
+.reveal .friction-number { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.52em; font-weight: 850; }
+.reveal .friction-title { margin: 1em 0 0.5em; font-family: var(--rpg-mono); font-size: 0.58em; font-weight: 850; }
+.reveal .friction-definition { min-height: 90px; color: var(--rpg-muted); font-size: 0.56em; }
+.reveal .friction-question { padding-top: 0.7em; border-top: 1px solid var(--rpg-line); font-family: var(--rpg-serif); font-size: 0.63em; }
+
+.reveal .mode-spectrum { grid-template-columns: repeat(4, 1fr); }
+.reveal .mode-spectrum > div { min-height: 260px; padding: 24px; background: var(--rpg-white); }
+.reveal .mode-stop { box-shadow: inset 0 7px 0 var(--rpg-red); }
+.reveal .mode-soft { box-shadow: inset 0 7px 0 var(--rpg-orange); }
+.reveal .mode-slow { box-shadow: inset 0 7px 0 var(--rpg-blue); }
+.reveal .mode-open { box-shadow: inset 0 7px 0 var(--rpg-green); }
+.reveal .mode-name,
+.reveal .mode-example,
+.reveal .mode-use { display: block; }
+.reveal .mode-name { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.47em; font-weight: 850; }
+.reveal .mode-example { margin: 0.9em 0; font-family: var(--rpg-serif); font-size: 0.7em; }
+.reveal .mode-use { color: var(--rpg-muted); font-size: 0.5em; line-height: 1.4; }
+
+.reveal .five-tests { grid-template-columns: repeat(5, 1fr); }
+.reveal .test-item { min-height: 190px; padding: 20px; background: var(--rpg-white); text-align: center; }
+.reveal .test-item b { display: grid; width: 50px; height: 50px; margin: 0 auto 0.65em; place-items: center; color: var(--rpg-white); background: var(--rpg-purple); font-family: var(--rpg-mono); }
+.reveal .test-item span,
+.reveal .test-item small { display: block; }
+.reveal .test-item span { font-family: var(--rpg-mono); font-size: 0.46em; font-weight: 850; }
+.reveal .test-item small { margin-top: 0.5em; color: var(--rpg-muted); font-size: 0.42em; line-height: 1.35; }
+
+.reveal .framework-rule { display: grid; grid-template-columns: auto 1fr 70px auto 1fr; align-items: center; margin-top: 0.6em; color: var(--rpg-white); background: var(--rpg-ink); }
+.reveal .framework-rule > span { padding: 15px 18px; font-size: 0.5em; }
+.reveal .rule-before,
+.reveal .rule-after { color: var(--rpg-orange); font-family: var(--rpg-mono); font-weight: 850; }
+.reveal .rule-arrow { text-align: center; }
+.reveal .rule-content.strong { color: var(--rpg-white); font-weight: 850; }
+
+.reveal .transfer-bridge { display: grid; grid-template-columns: 1fr 0.55fr 1fr; background: var(--rpg-ink); border: 2px solid var(--rpg-ink); gap: 2px; }
+.reveal .transfer-side,
+.reveal .bridge-gap { min-height: 320px; padding: 28px; background: var(--rpg-white); }
+.reveal .expert-side { box-shadow: inset 0 7px 0 var(--rpg-purple); }
+.reveal .novice-side { box-shadow: inset 0 7px 0 var(--rpg-green); }
+.reveal .bridge-gap { display: flex; flex-direction: column; gap: 10px; background: var(--rpg-paper-2); }
+.reveal .transfer-label,
+.reveal .gap-label { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .transfer-side li { font-size: 0.53em; }
+.reveal .bridge-gap > span:not(.gap-label) { padding: 8px; background: var(--rpg-white); font-size: 0.5em; }
+
+.reveal .quick-test-line { display: grid; grid-template-columns: repeat(8, auto); align-items: center; background: var(--rpg-ink); border: 2px solid var(--rpg-ink); }
+.reveal .quick-test-line > * { padding: 18px; color: var(--rpg-white); font-size: 0.5em; }
+.reveal .quick-test-line span { color: var(--rpg-orange); font-family: var(--rpg-mono); font-weight: 850; }
+.reveal .quick-test-line i { color: #c5ced6; font-style: normal; }
+
+.reveal .break-mark { margin: 0.5em auto; color: var(--rpg-orange); font-family: var(--rpg-mono); font-size: 3.3em; font-weight: 850; text-align: center; }
+
+.reveal .alignment-rail { display: grid; grid-template-columns: 1fr 55px 1fr 55px 1fr 55px 1fr; background: var(--rpg-ink); border: 2px solid var(--rpg-ink); }
+.reveal .alignment-station { min-height: 250px; padding: 24px; background: var(--rpg-white); }
+.reveal .station-number { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.5em; font-weight: 850; }
+.reveal .alignment-station b,
+.reveal .alignment-station small { display: block; }
+.reveal .alignment-station b { margin: 0.7em 0; font-family: var(--rpg-serif); font-size: 0.78em; }
+.reveal .alignment-station small { color: var(--rpg-muted); font-size: 0.46em; line-height: 1.4; }
+
+.reveal .central-sequence { display: block; width: 100%; max-height: 510px; }
+
+.reveal .moment-funnel { display: grid; gap: 7px; justify-items: center; }
+.reveal .funnel-wide,
+.reveal .funnel-mid,
+.reveal .funnel-narrow { padding: 18px; color: var(--rpg-white); background: var(--rpg-ink-soft); font-family: var(--rpg-mono); font-size: 0.52em; font-weight: 850; text-align: center; }
+.reveal .funnel-wide { width: 90%; }
+.reveal .funnel-mid { width: 65%; background: var(--rpg-purple); }
+.reveal .funnel-narrow { width: 42%; background: var(--rpg-green); }
+.reveal .moment-prompts { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 0.65em; }
+.reveal .moment-prompts span { padding: 8px 12px; background: var(--rpg-paper-2); font-family: var(--rpg-mono); font-size: 0.45em; }
+
+.reveal .friction-card-workbench { display: grid; grid-template-columns: repeat(3, 1fr); background: var(--rpg-ink); border: 2px solid var(--rpg-ink); gap: 2px; }
+.reveal .card-field { position: relative; min-height: 245px; padding: 24px; background: var(--rpg-white); }
+.reveal .field-target { box-shadow: inset 0 7px 0 var(--rpg-orange); }
+.reveal .field-shortcut { box-shadow: inset 0 7px 0 var(--rpg-red); }
+.reveal .field-friction { box-shadow: inset 0 7px 0 var(--rpg-purple); }
+.reveal .field-evidence { box-shadow: inset 0 7px 0 var(--rpg-blue); }
+.reveal .field-release { box-shadow: inset 0 7px 0 var(--rpg-green); }
+.reveal .field-safe { box-shadow: inset 0 7px 0 var(--rpg-yellow); }
+.reveal .field-number { position: absolute; top: 0; right: 0; display: grid; width: 42px; height: 42px; place-items: center; color: var(--rpg-white); background: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.5em; font-weight: 850; }
+.reveal .card-field b,
+.reveal .card-field small,
+.reveal .card-field .field-lines { display: block; }
+.reveal .card-field b { max-width: 80%; color: var(--rpg-purple); font-family: var(--rpg-mono); font-size: 0.48em; }
+.reveal .card-field small { min-height: 50px; margin: 0.7em 0; color: var(--rpg-muted); font-size: 0.43em; line-height: 1.3; }
+.reveal .card-field .field-lines { min-height: 70px; }
+
+.reveal .teacher-speech { position: relative; min-height: 410px; padding: 50px 90px; background: var(--rpg-ink); color: var(--rpg-white); }
+.reveal .speech-label { display: block; margin-bottom: 1.1em; color: var(--rpg-orange); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .speech-line { display: block; margin: 0.42em 0; padding-bottom: 0.25em; border-bottom: 1px solid var(--rpg-line-dark); font-family: var(--rpg-serif); font-size: 0.82em; }
+.reveal .speech-open,
+.reveal .speech-close { position: absolute; color: var(--rpg-purple); font-family: var(--rpg-serif); font-size: 4em; }
+.reveal .speech-open { top: 15px; left: 25px; }
+.reveal .speech-close { right: 25px; bottom: -30px; }
+
+.reveal .self-test-grid,
+.reveal .output-checklist { display: grid; grid-template-columns: repeat(5, 1fr); background: var(--rpg-ink); border: 2px solid var(--rpg-ink); gap: 2px; }
+.reveal .self-test-grid > div,
+.reveal .output-checklist > div { min-height: 180px; padding: 22px; background: var(--rpg-white); font-size: 0.54em; }
+.reveal .self-test-grid b,
+.reveal .self-test-grid small { display: block; }
+.reveal .self-test-grid b { margin: 0.8em 0 0.4em; color: var(--rpg-purple); font-family: var(--rpg-mono); font-size: 0.85em; }
+.reveal .self-test-grid small { color: var(--rpg-muted); font-size: 0.8em; }
+
+.reveal .pair-contract { display: grid; grid-template-columns: 1fr 95px 1fr; min-height: 300px; background: var(--rpg-ink); border: 2px solid var(--rpg-ink); }
+.reveal .pair-role { padding: 32px; background: var(--rpg-white); font-size: 0.65em; }
+.reveal .pair-swap { display: grid; place-items: center; color: var(--rpg-white); background: var(--rpg-purple); font-size: 1.5em; }
+.reveal .role-name { display: block; margin-bottom: 0.8em; color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.7em; font-weight: 850; }
+
+.reveal .stress-deck { display: grid; grid-template-columns: repeat(5, 1fr); background: var(--rpg-ink); border: 2px solid var(--rpg-ink); gap: 2px; }
+.reveal .stress-card { min-height: 230px; padding: 22px; background: var(--rpg-white); }
+.reveal .stress-symbol { display: grid; width: 52px; height: 52px; margin-bottom: 0.75em; place-items: center; color: var(--rpg-white); background: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.55em; font-weight: 900; }
+.reveal .stress-card b,
+.reveal .stress-card small { display: block; }
+.reveal .stress-card b { font-family: var(--rpg-mono); font-size: 0.48em; }
+.reveal .stress-card small { margin-top: 0.6em; color: var(--rpg-muted); font-size: 0.42em; line-height: 1.35; }
+
+.reveal .cycle-timeline { display: grid; grid-template-columns: repeat(4, 1fr); background: var(--rpg-ink); border: 2px solid var(--rpg-ink); gap: 2px; }
+.reveal .cycle-timeline > div { min-height: 250px; padding: 25px; background: var(--rpg-white); }
+.reveal .cycle-order,
+.reveal .cycle-timeline b,
+.reveal .cycle-timeline small { display: block; }
+.reveal .cycle-order { color: var(--rpg-red); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; }
+.reveal .cycle-timeline b { margin: 0.9em 0 0.45em; font-size: 0.57em; }
+.reveal .cycle-timeline small { color: var(--rpg-muted); font-size: 0.45em; line-height: 1.35; }
+.reveal .reverse-cycle > div { box-shadow: inset 0 7px 0 var(--rpg-blue); }
+.reveal .debrief-stems { display: flex; gap: 2px; margin-top: 0.55em; background: var(--rpg-ink); }
+.reveal .debrief-stems span { flex: 1; padding: 14px 18px; background: var(--rpg-paper-2); font-size: 0.5em; }
+
+.reveal .repair-chain { display: flex; align-items: center; justify-content: center; min-height: 220px; padding: 28px; color: var(--rpg-white); background: var(--rpg-ink); }
+.reveal .repair-chain span { padding: 12px 14px; font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 750; }
+.reveal .repair-chain .chain-link { color: var(--rpg-orange); }
+
+.reveal .exit-artifact { display: grid; grid-template-columns: 1fr 1fr; background: var(--rpg-ink); border: 2px solid var(--rpg-ink); gap: 2px; }
+.reveal .exit-artifact > div { display: grid; grid-template-columns: 50px 240px 1fr; min-height: 105px; align-items: center; padding: 16px; background: var(--rpg-white); font-size: 0.52em; }
+.reveal .exit-number { display: grid; width: 38px; height: 38px; place-items: center; color: var(--rpg-white); background: var(--rpg-red); font-family: var(--rpg-mono); font-weight: 850; }
+.reveal .quote-line { font-family: var(--rpg-serif); }
+.reveal .output-checklist { grid-template-columns: repeat(3, 1fr); }
+.reveal .output-checklist > div { display: grid; grid-template-columns: 40px 1fr; min-height: 135px; align-items: center; gap: 12px; }
+
+.reveal .closing-river svg { display: block; width: 100%; max-height: 480px; }
+.reveal .river-label { display: block; color: var(--rpg-orange); font-family: var(--rpg-mono); font-size: 0.48em; font-weight: 850; text-align: center; }
+.reveal .top-label { margin-bottom: 0.4em; }
+
+/* Explicit route variants keep meaning visible in addition to labels. */
+.reveal .route-grid .route-a { box-shadow: inset 0 7px 0 var(--rpg-blue); }
+.reveal .route-grid .route-b { box-shadow: inset 0 7px 0 var(--rpg-orange); }
+.reveal .route-grid .route-c { box-shadow: inset 0 7px 0 var(--rpg-green); }
+
+@media (max-width: 1000px), (max-height: 700px) {
+  .reveal {
+    font-size: 32px;
+  }
+
+  .reveal .slides section {
+    padding: 42px 50px;
+  }
+
+  .reveal .big-claim {
+    font-size: clamp(54px, 7vw, 82px);
+  }
+
+  .reveal .split,
+  .reveal .split.wide-left,
+  .reveal .split.wide-right {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 720px) {
+  .reveal .split,
+  .reveal .split.wide-left,
+  .reveal .split.wide-right,
+  .reveal .route-grid,
+  .reveal .design-canvas {
+    grid-template-columns: 1fr;
+  }
+
+  .reveal .route,
+  .reveal .timeline,
+  .reveal .evidence-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .reveal .phase,
+  .reveal .route > *,
+  .reveal .timeline > *,
+  .reveal .evidence-strip > * {
+    border-right: 0;
+    border-bottom: 1px solid var(--rpg-line);
+  }
+
+  .reveal .turn {
+    grid-template-columns: 110px minmax(0, 1fr);
+  }
+
+  .reveal .annotation {
+    grid-column: 2;
+  }
+
+  .reveal .tally-board {
+    grid-template-columns: 130px repeat(5, minmax(80px, 1fr));
+    overflow-x: auto;
+  }
+}
+
+@media print {
+  .reveal,
+  .reveal .slides,
+  .reveal .slides section {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .reveal .work-surface,
+  .reveal .workbench {
+    box-shadow: none;
+  }
+
+  .reveal a {
+    text-decoration: underline;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal *,
+  .reveal *::before,
+  .reveal *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media (forced-colors: active) {
+  .reveal .panel,
+  .reveal .work-surface,
+  .reveal .workbench,
+  .reveal .route,
+  .reveal .timeline,
+  .reveal .evidence-strip,
+  .reveal .route-grid,
+  .reveal .design-canvas,
+  .reveal .transcript,
+  .reveal .risk-note {
+    border: 2px solid CanvasText;
+  }
+
+  .reveal .code-c,
+  .reveal .code-r,
+  .reveal .code-x,
+  .reveal .code-m,
+  .reveal .code-star {
+    color: CanvasText;
+    background: Canvas;
+    border: 2px solid CanvasText;
+  }
+}

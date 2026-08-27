@@ -6,6 +6,7 @@ project:
     - "*.qmd"
     - "arts/*.qmd"
     - "genai/*.qmd"
+    - "genai/rpg-workshop/*.qmd"
     - "ta/*.qmd"
     - "!data/"
 

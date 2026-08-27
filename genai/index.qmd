@@ -52,7 +52,21 @@ See the full [Assessment](assessment.html) details.
 - [Activity Showflow](showflow.html) — Consolidated handout for all in-class activities
 - [Resources & Readings](resources.html) — Tools, cases, and further reading
 
+## Special Workshop for RPg Teachers
+
+The original three-class module also informs a separate two-day workshop for incoming research postgraduate teachers:
+
+### [Teaching Through Designed Friction](rpg-workshop/)
+
+AI can shorten the path from intention to output. The workshop asks a more demanding teaching question: **which intellectual operations must learners still perform—and how can a teacher make that reasoning visible without creating arbitrary barriers?**
+
+- **Day 1:** AI, the “average of the commons,” and receiving one sustained, source-grounded Oracle challenge
+- **Day 2:** Co-read a bounded transcript episode, map what use surfaced beyond the built-in lenses, and rehearse a teaching move
+
+[Required reading, evidence links, and preparation](rpg-workshop/#required-reading-before-day-1)
+
+The workshop is related to this module but stands alone. It does not extend the assessed three-class sequence.
+
 ## The One-Liner
 
 > "Everyone else will teach you how to use AI. I'm teaching you how to make sure it doesn't use you."
-

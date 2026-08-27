@@ -1,0 +1,316 @@
+---
+title: "Teaching Through Designed Friction"
+subtitle: "AI, Critique, and Pedagogical Reasoning for PhD Students"
+author: "Dr. Hongshan Guo"
+body-classes: rpg-workshop
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    css: site.css
+    page-layout: full
+---
+
+::: {.workshop-kicker}
+Two-day RPg workshop · incoming research postgraduates who are about to teach
+:::
+
+::: {.lead-claim}
+Good teaching does not remove every obstacle. It designs the obstacle that makes thinking visible.
+:::
+
+This workshop starts with a real problem: AI can make difficult intellectual work feel frictionless before a novice has learned how to perform that work. Across two sessions, you will examine one privacy-safe AI incident, stay with one machine-selected issue through a Socratic Oracle exchange, and turn the evidence into a small teaching intervention.
+
+The aim is not to make teaching artificially difficult. It is to place one deliberate checkpoint where it helps a student notice and practice thinking that an expert might otherwise perform silently.
+
+## Provisional schedule
+
+::: {.schedule-band}
+::: {}
+<span class="schedule-label">Workshop</span>
+<strong>Two connected sessions</strong>
+
+Both sessions form one artifact chain.
+:::
+
+::: {}
+<time datetime="2026-08-27T15:00:00+08:00">Day 1 · Thursday 27 August 2026</time>
+<strong>3:00–4:00 pm</strong>
+
+Incident analysis and Oracle encounter
+:::
+
+::: {}
+<time datetime="2026-08-28T14:00:00+08:00">Day 2 · Friday 28 August 2026</time>
+<strong>2:00–4:00 pm</strong>
+
+Friction design, micro-test, and revision
+:::
+:::
+
+These dates and times come from the workshop handoff and remain subject to confirmation through the official organizer notice. The official notice supersedes this page if the details differ.
+
+## Required and recommended reading — before Day 1
+
+Read Lee and Kosmyna before the first session; the methodological comment is part of the Kosmyna reading. Fernandes and METR are recommended extensions. If you read METR, use the 2026 study update alongside it.
+
+Read across the set with one question: **what happens to performance, effort, and people's ability to judge their own understanding when AI enters the work?**
+
+::: {.reading-brief}
+::: {.reading-entry data-reading="01 · Contested evidence"}
+### [Your Brain on ChatGPT](https://arxiv.org/abs/2506.08872)
+
+<span class="reading-meta">REQUIRED · Kosmyna et al. · 2025 preprint · required companion comment</span>
+
+**Attend to:** the essay-writing conditions, EEG-derived connectivity, exact-quotation check, authorship reports, sample, and crossover design.
+
+**Read critically:** this is a provocative preprint, not evidence that AI “damages the brain.” Read the methodological comment alongside it and distinguish reported measurements from stronger interpretations.
+
+**Bring:** one claim the study can support and one claim its design cannot establish.
+
+[Read the preprint ↗](https://arxiv.org/abs/2506.08872){.reading-action} [Required methodological comment ↗](https://arxiv.org/abs/2601.00856){.reading-action}
+:::
+
+::: {.reading-entry data-reading="02 · Track where thinking moves"}
+### [The Impact of Generative AI on Critical Thinking](https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/)
+
+<span class="reading-meta">REQUIRED · Lee et al. · CHI 2025 · survey of knowledge workers</span>
+
+**Attend to:** the survey design, 319 knowledge workers, 936 reported examples, confidence relationships, and the distinction between self-report and objective performance.
+
+**Why:** distinguish output quality, perceived effort, confidence, and visible critical-thinking work; attend to reported shifts toward verification, integration, and stewardship.
+
+**Bring:** one intellectual operation that AI moved, transformed, or concealed rather than simply erased.
+
+[Read the study overview ↗](https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/){.reading-action} [Full paper · PDF ↗](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf){.reading-action}
+:::
+
+::: {.reading-entry data-reading="03 · Perceived vs measured"}
+### [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://arxiv.org/abs/2507.09089)
+
+<span class="reading-meta">RECOMMENDED · Becker et al. / METR · 2025 randomized study · read with 2026 update</span>
+
+**Attend to:** the 16 experienced developers, 246 tasks, forecast and retrospective estimates, measured completion time, and the deliberately narrow repositories, tools, and period studied.
+
+**Read critically:** use this as a case in perceived versus measured performance—not as a general claim that AI makes developers slower. The 2026 update explains why METR changed its experiment design.
+
+**Bring:** one boundary on what can be generalized and one implication for observing learning rather than relying on fluency.
+
+[Read the paper ↗](https://arxiv.org/abs/2507.09089){.reading-action} [2026 study update ↗](https://metr.org/blog/2026-02-24-uplift-update/){.reading-action}
+:::
+
+::: {.reading-entry data-reading="04 · Performance vs calibration"}
+### [AI Makes You Smarter but None the Wiser](https://doi.org/10.1016/j.chb.2025.108779)
+
+<span class="reading-meta">RECOMMENDED · Fernandes et al. · Computers in Human Behavior · 2026</span>
+
+**Attend to:** the task design, performance measures, prospective and retrospective judgments, and the modeled relationship between skill and miscalibration.
+
+**Read critically:** the study separates improved task performance from accurate self-assessment; it does not establish that every form of AI use uniquely causes overconfidence.
+
+**Bring:** one teaching implication of performance improving while calibration does not improve with it.
+
+[Read the article ↗](https://doi.org/10.1016/j.chb.2025.108779){.reading-action} [Open-access repository copy ↗](https://aaltodoc.aalto.fi/items/3b3fcbba-72ed-476f-be59-6ec892b9dd96){.reading-action}
+:::
+:::
+
+::: {.fallback-notice}
+**Equal-access route:** if an external page or PDF is inaccessible, use the plain-language purpose and “Bring” prompt above as your preparation, or request an alternate format. No proof of completion is collected.
+:::
+
+::: {.privacy-notice}
+**Prepare; do not upload.** Think of one privacy-safe AI incident, or plan to use the fictional sample. Do not test the Oracle with confidential, restricted, identifiable, or unpublished research before the workshop.
+:::
+
+### Between Day 1 and Day 2
+
+Bring one owner-selected, already-redacted Oracle episode from Day 1—not the full JSON or full transcript. The [synthetic sample transcript](sample-transcript.html) is an equal route. Review the [Oracle participation and privacy boundary](#what-the-live-oracle-actually-does) before using the live [Socratic Oracle](https://socraticoracle.netlify.app).
+
+<details class="evidence-shelf">
+<summary>Optional convergence refresher</summary>
+
+Alex Murrell's [“The Age of Average”](https://www.alexmurrell.co.uk/articles/the-age-of-average) is a useful cultural and design provocation about familiar defaults and convergence. It is **not** one of the four required research papers and is not a technical account of LLM sampling.
+</details>
+
+## What you will make
+
+::: {.artifact-route}
+::: {data-step="01 · Notice"}
+### AI incident
+
+A precise account of what the AI performed, transformed, skipped, or made harder to see.
+:::
+
+::: {data-step="02 · Interrogate"}
+### Oracle excerpt
+
+A short continuous episode showing how you received, answered, and bounded one sustained challenge.
+:::
+
+::: {data-step="03 · Design"}
+### Extension map + friction sequence
+
+A content-free map of what use surfaced beyond our prepared questions, then one teaching prompt with visible evidence, an access route, and a clear end point.
+:::
+
+::: {data-step="04 · Test"}
+### Revision trace
+
+Evidence from a peer micro-test showing what you retained, changed, or removed—and why.
+:::
+:::
+
+By the end, you should be able to distinguish **productive friction** from delay for its own sake, identify where expert reasoning disappears from view, and defend one design choice with evidence rather than intuition alone.
+
+## Start here
+
+::: {.resource-ledger}
+::: {}
+### Day 1 deck
+
+[Map one AI incident and begin a privacy-safe critique episode.](day1.html)
+:::
+
+::: {}
+### Day 2 deck
+
+[Analyse the friction, design an intervention, micro-test it, and revise.](day2.html)
+:::
+
+::: {}
+### Participant workbook
+
+[Carry one artifact chain from incident to tested design.](workbook.html)
+:::
+
+::: {}
+### Fictional sample case
+
+[Read the case in the browser](sample-case.html) or [download the upload-ready PDF](assets/supplied-hybrid-studio-case.pdf). Use it whenever you cannot or prefer not to bring a personal research incident.
+:::
+
+::: {}
+### Sample Oracle transcript
+
+[Use a synthetic, structurally faithful trace with a displayed opening, spoken-response transcript, follow-up, and closure.](sample-transcript.html)
+:::
+
+::: {}
+### Facilitator guide
+
+[Run sheets, setup, scripts, adaptations, and contingencies.](facilitator.html)
+:::
+:::
+
+## What the live Oracle actually does
+
+The [Socratic Oracle](https://socraticoracle.netlify.app) is not a prompt-writing activity. After it prepares a searchable PDF, it maps bounded coverage, selects one active pressure point, and displays an opening challenge. The participant stays on the receiving end of that issue through successive questions.
+
+::: {.artifact-route}
+::: {data-step="01 · Display"}
+### Read the challenge
+
+The Oracle's question appears as text. The current site does not speak it aloud.
+:::
+
+::: {data-step="02 · Respond"}
+### Speak or type
+
+Voice mode records the participant's answer and uses browser-local Whisper to produce a draft transcript. Keyboard is an equal route.
+:::
+
+::: {data-step="03 · Review"}
+### Edit before Send
+
+Review or correct the locally saved transcript before it is submitted to the tutor.
+:::
+
+::: {data-step="04 · Stay / release"}
+### Follow one issue
+
+Continue from evidence until the interface reports a stopping point—or stop earlier. A closure recap is not a verdict on the research.
+:::
+:::
+
+::: {.privacy-notice}
+**Before pressing Start, uncheck “Share this session with the research team.”** The live site selected this option by default when these materials were prepared. Turning it off prevents the optional research copy; it does not stop the bounded passages and submitted dialogue from being processed by the tutor service.
+:::
+
+## Privacy comes before participation
+
+::: {.privacy-notice}
+**Do not paste confidential, identifiable, restricted, or unpublished material into any public AI service.** This includes student work, patient or participant data, reviewer comments, proprietary methods, access-controlled findings, and details that could identify a person or community.
+:::
+
+Choose one route before you begin:
+
+::: {.privacy-route}
+::: {data-step="Route A"}
+### Use an authorized PDF
+
+Use only a searchable PDF you are authorized to process through the remote tutor service, after removing names, sensitive quotations, restricted findings, and identifying metadata. If that standard is uncertain, use Route C or D.
+:::
+
+::: {data-step="Route B"}
+### Abstract the pattern
+
+Replace the topic with placeholders while retaining the claim–evidence–method–boundary relationship you want to examine.
+:::
+
+::: {data-step="Route C"}
+### Use the sample
+
+Work from the workshop's fully fictional, cross-disciplinary [sample case](sample-case.html). No personal disclosure is required.
+:::
+
+::: {data-step="Route D"}
+### Work offline
+
+Use the [sample transcript](sample-transcript.html), or ask a peer to take the Oracle role using only open questions.
+:::
+:::
+
+You may switch routes at any time. You never need to disclose why.
+
+The live boundary is specific: PDF bytes are read locally and the full extracted corpus remains in the current browser tab, while bounded extracted passages, submitted transcript text, recent dialogue, and Oracle state are sent for tutor processing. With the current browser-local voice route, raw microphone audio stays in the browser. A downloaded session JSON can contain document metadata, bounded paper context, and the full dialogue; keep it private.
+
+## Day 2 reads one short episode, then builds one teaching move
+
+No participant has to share a personal episode. The supplied-transcript and solo routes do the same intellectual work.
+
+If an owner chooses to share a short, already-redacted episode, the sequence is:
+
+1. the owner writes their own reading first;
+2. the partner follows what changed, then uses the prepared interaction and reasoning questions with C/R/X/M/★ marks;
+3. the partner sets those labels aside and names what they may have missed;
+4. the owner corrects the reading and may veto any interpretation or further use;
+5. the pair makes one evidence-anchored New-area card—or records “nothing new here”;
+6. the pair writes one careful, content-free note; and
+7. the room maps only owner-approved, content-free areas. Passing is welcome.
+
+There are no screenshots, copies, links, forwarding, recording, or keeping another person's material. The source stays on the owner's device or paper. Consent to discuss is not consent to keep or use the material for research.
+
+## If the live tool fails
+
+::: {.fallback-notice}
+The learning objective is the critique pattern, not access to a particular platform. If startup, PDF extraction, microphone, mapping, or the model fails, one partner reveals the Oracle turns in the synthetic sample transcript one at a time and avoids offering solutions. Use its question-free closure as the stopping point. Record the exchange in the same workbook coding surface.
+:::
+
+Useful fallback order:
+
+1. Continue from an already captured, privacy-safe excerpt.
+2. Use the fictional case and sample transcript.
+3. Run the prepared peer Oracle: reveal one question, receive the answer, and follow the same issue before moving toward closure.
+4. Complete the design canvas with a hypothetical learner response and clearly label it **predicted**, not observed.
+
+## The standard
+
+Your final sequence does not need to be polished. It does need to be **aligned**:
+
+- the friction interrupts a named shortcut or hidden expert move;
+- the learner must produce observable evidence of reasoning;
+- a safeguard prevents avoidable harm or exposure;
+- a clear end point explains when students continue or receive support; and
+- the revision cites something learned in the micro-test.
+
+> Friction is justified only when it makes consequential thinking more available to the learner.

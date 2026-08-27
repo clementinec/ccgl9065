@@ -1,0 +1,774 @@
+---
+title: "Teaching Through Designed Friction"
+subtitle: "Day 1 · Notice what ease hides"
+author: "Dr. Hongshan Guo"
+date: "2026-08-27"
+date-format: "dddd, D MMMM YYYY"
+title-slide-attributes:
+  data-background-color: "#ffffff"
+  data-day: "01"
+format:
+  revealjs:
+    theme: simple
+    css:
+      - workshop.css
+      - day1-quarto.css
+    width: 1600
+    height: 900
+    slide-level: 2
+    slide-number: true
+    center: true
+    embed-resources: true
+    incremental: false
+    transition: none
+    controls: true
+    progress: true
+---
+
+## The question for today
+
+
+<div class="hero-lockup">
+<div class="section-kicker">Incoming teachers · experienced researchers</div>
+<div class="big-claim light">When should learning <span class="accent-coral">stay hard</span>?</div>
+<div class="hero-sub light-muted">Not because struggle is good.<br>Because some thinking must remain visible.</div>
+</div>
+
+<div class="bottom-rule light-rule">
+Today: notice what AI makes easy, then experience one useful challenge.
+</div>
+
+::: {.notes}
+Welcome participants and name the premise immediately.
+
+Say: “This is not an introduction to ChatGPT or a prompt-writing class. You already know how research works. Today we will ask a teaching question: when AI removes work, which removed work matters?”
+
+Do not invite tool comparisons yet. Keep the opening at the level of learning and reasoning.
+:::
+
+---
+
+## Today’s one-hour plan
+
+
+<div class="route session-plan" style="--route-count: 5;" aria-label="One-hour workshop timetable">
+<div data-step="00–08"><span class="route-title">1 · Case</span><span class="route-copy">Share where GenAI made teaching harder.</span></div>
+<div data-step="08–20"><span class="route-title">2 · Diagnose</span><span class="route-copy">Name what became harder to see—and what thinking must stay visible.</span></div>
+<div data-step="20–32"><span class="route-title">3 · Test</span><span class="route-copy">Use dimensions and a reading to challenge your explanation.</span></div>
+<div data-step="32–52"><span class="route-title">4 · Try</span><span class="route-copy">Answer one sustained Oracle challenge.</span></div>
+<div data-step="52–60"><span class="route-title">5 · Save</span><span class="route-copy">Keep one short episode for Day 2.</span></div>
+</div>
+
+<div class="day-split">
+<div><span>DAY 1</span> What changed? What did the challenge make visible?</div>
+<div><span>DAY 2</span> What should a learner have to do?</div>
+</div>
+
+::: {.notes}
+This is the only projected timetable. Do not add timing labels to later slides.
+
+Read the five moves quickly. Treat the boundaries as checkpoints, not promises to the second. The key checkpoint is to begin the Oracle experience shortly after the midpoint.
+
+By the end of today, each participant needs only an incident record and one short Oracle or fallback episode. Day 2 turns that evidence into a small teaching activity—not a whole-course AI policy.
+:::
+
+---
+
+## Activity 1 · Start with one hard teaching case
+
+
+<div class="teacher-speech">
+<span class="speech-label">OPENING ROUND · YOU MAY PASS</span>
+<span class="speech-open">“</span>
+<span class="speech-line">You probably have stories about how GenAI has helped you learn.</span>
+<span class="speech-line opening-question">Share one case where that same help may have made teaching harder. What became harder—and why?</span>
+<span class="speech-close">”</span>
+</div>
+
+<div class="activity-prompt"><strong>Keep it brief:</strong> one or two sentences. The case may come from your learning, teaching, supervision, or something you observed. Do not solve it yet.</div>
+
+::: {.notes}
+Begin with experience before introducing a framework or asking for a reading summary.
+
+For a group of twelve or fewer, go around the room. For a larger group, use quick table rounds and invite a small sample of voices. A participant may pass without explanation. Do not ask for names, student details, or confidential examples.
+
+Capture only short phrases under two headings: GENAI MADE EASIER · TEACHING BECAME HARDER. Do not correct, debate, or resolve each contribution. The next activity makes one case specific.
+:::
+
+---
+
+## Activity 2 · Make the teaching problem specific
+
+
+<div class="incident-prompt">
+<div class="prompt-lead">In that case, what became harder for the teacher to…</div>
+<div class="verb-field">
+<span>see</span><span>judge</span><span>support</span><span>assess</span>
+<span>question</span><span>respond to</span><span>give feedback on</span>
+</div>
+</div>
+
+<div class="hard-stop">
+<span class="hard-stop-label">HARD STOP</span>
+Name the teaching problem—not the AI tool.
+</div>
+
+::: {.notes}
+Ask each participant to choose one opening case—their own, one they observed, or a supplied example—and make the teaching difficulty specific.
+
+The case may involve something genuinely helpful. The question is what became harder for a teacher to see, judge, support, or respond to. Avoid claims about a learner's motive unless there is evidence.
+:::
+
+---
+
+## Write down the before and after
+
+
+<div class="workbench incident-sheet">
+<div class="sheet-row"><span class="sheet-no">1</span><span class="sheet-label">Learner</span><span class="sheet-line">What were they trying to understand, decide, or make?</span></div>
+<div class="sheet-row"><span class="sheet-no">2</span><span class="sheet-label">GenAI eased</span><span class="sheet-line">What did GenAI make easier?</span></div>
+<div class="sheet-row"><span class="sheet-no">3</span><span class="sheet-label">Teaching</span><span class="sheet-line">What became harder to see, judge, or support?</span></div>
+<div class="sheet-row"><span class="sheet-no">4</span><span class="sheet-label">Consequence</span><span class="sheet-line">What feedback or teaching decision was affected?</span></div>
+<div class="sheet-row"><span class="sheet-no">5</span><span class="sheet-label">Evidence</span><span class="sheet-line">What can you point to rather than assume?</span></div>
+</div>
+
+<div class="microcopy">Evidence may be a changed draft, explanation, decision, oral response, or missing process trace. Do not infer intent from fluent output alone.</div>
+
+::: {.notes}
+Participants write independently.
+
+Circulate and ask for a clear teaching consequence. Useful probe: “What could the teacher no longer see or confidently judge?” Do not judge whether the AI use was good or bad.
+
+Before moving on, ask everyone to underline the sentence naming the change.
+:::
+
+---
+
+## Pair exchange · Name the hidden teaching problem
+
+
+<div class="pair-protocol">
+<div class="pair-turn"><span>A</span> Tell the case plainly.</div>
+<div class="pair-turn"><span>B</span> Ask what became harder to see or judge.</div>
+<div class="pair-turn swap"><span>SWAP</span> Repeat.</div>
+</div>
+
+<div class="probe-stack">
+<div>“If the output vanished, what thinking would the learner have to do?”</div>
+<div>“What could the teacher no longer see or confidently judge?”</div>
+<div>“What evidence would separate learning from fluent output?”</div>
+</div>
+
+<div class="verb-output">Leave with one sentence: <strong>GenAI made ___ easier; teaching became harder because ___.</strong></div>
+
+::: {.notes}
+Pair participants. Cue the swap once each speaker has named the help and the teaching difficulty.
+
+If participants stay at the level of a tool or medium—“ChatGPT,” “prompting,” “essay,” “rendering,” or “coding”—ask what work moved and what evidence disappeared. Offer work verbs only if needed: generate, reframe, select, explain, compare, critique, or check.
+:::
+
+---
+
+## Word cloud · What thinking must stay visible?
+
+
+<div class="wordcloud-live">
+<div class="wordcloud-stage">
+<div class="wordcloud-label">LIVE WORD CLOUD · YOU MAY PASS</div>
+<div class="wordcloud-question">When teaching, supervising, or running a crit, what kind of thinking do you need to see the learner doing?</div>
+<div class="wordcloud-examples" aria-label="Possible doing words">
+<span>explain</span><span>compare</span><span>justify</span><span>interpret</span><span>test</span><span>revise</span><span>decide</span><span>critique</span>
+</div>
+</div>
+<a class="wordcloud-join" href="https://www.menti.com/alkpvz6v7o9g?source=qr-widget" target="_blank" rel="noopener noreferrer" aria-label="Open the Mentimeter word-cloud poll">
+<span class="wordcloud-join-label">SCAN OR CLICK</span>
+<img src="assets/mentimeter-wordcloud-qr.png" alt="QR code for the Mentimeter word-cloud poll">
+<span class="wordcloud-join-site">MENTI.COM</span>
+<strong>6434 0765</strong>
+</a>
+</div>
+
+<div class="wordcloud-action">
+<div><b>Submit one doing word</b><span>Scan, click, or enter the code above. Repeats are useful.</span></div>
+<div><b>No teaching résumé required</b><span>Answer from learning, crits, tutoring, TA work, supervision, or observation.</span></div>
+</div>
+
+<div class="wordcloud-bridge">Now look at the cloud: <strong>which kind of thinking becomes hardest to see when GenAI produces the finished output?</strong></div>
+
+::: {.notes}
+Open the Mentimeter poll before class and confirm that the QR code and participant code `6434 0765` still open the intended word cloud. The QR panel links directly to the poll. If the service fails, collect one verb per person on sticky notes or a board.
+
+Say: “You do not need formal teaching experience. Answer from being a learner, joining crits, tutoring, TA work, supervision, or observing teaching. Give us one doing word—not a value such as ‘criticality’ and not a tool such as ‘ChatGPT.’”
+
+The examples are supports, not required categories. Keep submissions anonymous and content-free. Repeats stay because their visual weight shows what this room notices. Do not present the cloud as a general research finding.
+
+After the cloud forms, ask participants to choose one prominent or surprising word that could become difficult for a teacher to see when GenAI produces the finished output. The next visuals ask how familiar defaults and explicit choices affect that work.
+:::
+
+---
+
+## Visual check · What repeats?
+
+
+```{=html}
+<div class="average-visual-grid">
+<a class="average-visual" href="https://www.alexmurrell.co.uk/articles/the-age-of-average" aria-label="Open Alex Murrell's The Age of Average">
+<img src="../../slides/week1/age-of-average/coffee-shops.webp" alt="A collage of independent coffee shops with remarkably similar white walls, timber counters, pendant lights, and industrial details">
+<span><b>Different cities.</b><strong>Same coffee shop.</strong></span>
+</a>
+<a class="average-visual" href="https://www.alexmurrell.co.uk/articles/the-age-of-average" aria-label="Open Alex Murrell's The Age of Average">
+<img src="../../slides/week1/age-of-average/movie-posters.webp" alt="Ten horror-film posters built around similar close-up images of a human eye">
+<span><b>Different films.</b><strong>Same poster.</strong></span>
+</a>
+</div>
+```
+
+<div class="visual-question"><strong>Scan before we explain:</strong> What repeats? What starts to feel “natural” only because it is familiar?</div>
+
+<div class="average-bridge"><strong>The “average” arrived before generative AI.</strong> Markets, platforms, and templates already rewarded recognizable formulas. GenAI can make variations within those formulas much faster.</div>
+
+<div class="source-line">Visual examples reproduced in Alex Murrell, [*The Age of Average*](https://www.alexmurrell.co.uk/articles/the-age-of-average). Cultural/design provocation—not a technical model of LLM sampling.</div>
+
+::: {.notes}
+Part 2 pacing checkpoint: protect this visual example and the dimensions sequence. If the opening ran long, shorten plenary reporting later.
+
+Let participants scan the images before giving them the vocabulary. Ask what repeats: timber, white walls, pendant lights, industrial nostalgia, or the repeated eye/black-red-white poster formula. Then ask what the formula gains and what it hides.
+
+Make the important distinction: these examples predate generative AI. They illustrate cultural and commercial convergence; they do not prove how an LLM works. Transition: “When an AI request leaves important choices open, familiar patterns can also become easy defaults. The next visual shows how naming choices changes the space.”
+
+If you use “average of the commons,” explain it as the shared stock of familiar cultural patterns—not a literal average, and not a claim that every model output is identical.
+:::
+
+---
+
+## 2025’s word of the year: “slop”
+
+
+<div class="slop-stage">
+<div class="slop-wordmark">
+<span class="slop-year">WORD OF THE YEAR · 2025</span>
+<strong>SLOP</strong>
+<span class="slop-credit">MERRIAM-WEBSTER</span>
+</div>
+<div class="slop-reading">
+<p class="slop-definition"><b>In plain English:</b> low-quality digital content made in bulk, usually with AI.</p>
+<div class="slop-shift"><span>OUTPUT IS CHEAP</span><b>→</b><span>JUDGMENT IS NOT</span></div>
+<p class="slop-question">If polished output becomes plentiful, <strong>what does a teacher now need to see?</strong></p>
+</div>
+</div>
+
+<div class="source-line">Source: Merriam-Webster, [*2025 Word of the Year: Slop*](https://www.merriam-webster.com/wordplay/word-of-the-year). Not all AI output is slop; fluency can still hide thin thinking.</div>
+
+::: {.notes}
+Let the word land, but do not turn this into a vocabulary quiz. Merriam-Webster defines “slop” as low-quality digital content produced in quantity, usually through AI.
+
+The teaching point is not that all AI output is bad. It is that polished material can now be produced in great volume with very little evidence of the judgment behind it. That makes the word-cloud question more urgent: what learner thinking must remain visible?
+
+Transition: “Asking for a better answer is not enough. We can make choices visible by naming the dimensions that matter.”
+:::
+
+---
+
+## Every important choice adds a dimension
+
+
+<div class="dimension-jump">
+<div class="dimension-cell">
+```{=html}
+<svg viewBox="0 0 200 80" aria-hidden="true">
+<rect x="10" y="30" width="180" height="16" rx="8" fill="#3498db" opacity=".45"/>
+<circle cx="132" cy="38" r="10" fill="#e85d3f" stroke="#fff" stroke-width="3"/>
+</svg>
+```
+<b>1D · line</b><span>one parameter</span>
+</div>
+<div class="dimension-arrow">→</div>
+<div class="dimension-cell">
+```{=html}
+<svg viewBox="0 0 200 180" aria-hidden="true">
+<rect x="20" y="10" width="160" height="150" fill="#3498db" fill-opacity=".08" stroke="#3498db" stroke-width="3"/>
+<line x1="20" y1="60" x2="180" y2="60" stroke="#d9dfe6"/>
+<line x1="20" y1="110" x2="180" y2="110" stroke="#d9dfe6"/>
+<line x1="73" y1="10" x2="73" y2="160" stroke="#d9dfe6"/>
+<line x1="126" y1="10" x2="126" y2="160" stroke="#d9dfe6"/>
+<circle cx="137" cy="54" r="10" fill="#e85d3f" stroke="#fff" stroke-width="3"/>
+</svg>
+```
+<b>2D · plane</b><span>two parameters</span>
+</div>
+<div class="dimension-arrow">→</div>
+<div class="dimension-cell">
+```{=html}
+<svg viewBox="0 0 220 190" aria-hidden="true">
+<polygon points="55,62 110,15 170,62 110,108" fill="#9b59b6" fill-opacity=".12" stroke="#9b59b6" stroke-width="2"/>
+<polygon points="55,62 110,108 110,174 55,132" fill="#27ae60" fill-opacity=".12" stroke="#27ae60" stroke-width="2"/>
+<polygon points="110,108 170,62 170,132 110,174" fill="#3498db" fill-opacity=".12" stroke="#3498db" stroke-width="2"/>
+<circle cx="121" cy="124" r="10" fill="#e85d3f" stroke="#fff" stroke-width="3"/>
+</svg>
+```
+<b>3D · volume</b><span>three parameters</span>
+</div>
+<div class="dimension-arrow">→</div>
+<div class="dimension-cell dimension-unknown">
+```{=html}
+<svg viewBox="0 0 200 180" aria-hidden="true">
+<g opacity=".5"><circle cx="42" cy="42" r="5" fill="#e85d3f"/><circle cx="142" cy="32" r="5" fill="#3498db"/><circle cx="94" cy="66" r="5" fill="#9b59b6"/><circle cx="45" cy="114" r="5" fill="#27ae60"/><circle cx="160" cy="102" r="5" fill="#e67e22"/><circle cx="82" cy="148" r="5" fill="#3498db"/><circle cx="136" cy="151" r="5" fill="#9b59b6"/></g>
+<circle cx="102" cy="106" r="11" fill="#e85d3f" stroke="#fff" stroke-width="3"/>
+<text x="100" y="176" fill="#25364a" font-size="34" text-anchor="middle" font-family="sans-serif">?</text>
+</svg>
+```
+<b>8D · cannot draw</b><span>still navigable</span>
+</div>
+</div>
+
+<div class="coordinates-line">Each important instruction places a point in the space. <strong>You choose the coordinates.</strong></div>
+
+::: {.notes}
+Keep this visual sequence. Explain it plainly: one slider gives a line of choices; two sliders give a plane; each added choice opens another dimension, even when we can no longer draw the space.
+
+Do not claim that more instructions are always better. Important choices tell the model where it should go. The next slide asks which boundaries serve a purpose.
+:::
+
+---
+
+## Activity 3 · Keep one thinking move with the learner
+
+
+<div class="constraint-triptych">
+<div class="constraint-panel">
+<div class="constraint-name">ZERO</div>
+```{=html}
+<svg viewBox="0 0 330 185" aria-label="Broad possibility field">
+<g fill="#9aa3ad"><circle cx="45" cy="38" r="4"/><circle cx="105" cy="28" r="4"/><circle cx="172" cy="44" r="4"/><circle cx="255" cy="32" r="4"/><circle cx="70" cy="88" r="4"/><circle cx="135" cy="105" r="4"/><circle cx="214" cy="88" r="4"/><circle cx="283" cy="110" r="4"/><circle cx="92" cy="148" r="4"/><circle cx="192" cy="145" r="4"/><circle cx="260" cy="156" r="4"/></g>
+<circle cx="165" cy="92" r="29" fill="#c43f37" stroke="#fff" stroke-width="4"/>
+<text x="165" y="97" fill="#fff" font-size="14" text-anchor="middle" font-family="sans-serif">default</text>
+</svg>
+```
+<p>“Give feedback.”</p>
+</div>
+<div class="constraint-panel">
+<div class="constraint-name">ONE</div>
+```{=html}
+<svg viewBox="0 0 330 185" aria-label="Narrower possibility cluster">
+<g fill="#e1e4e7"><circle cx="45" cy="38" r="4"/><circle cx="105" cy="28" r="4"/><circle cx="255" cy="32" r="4"/><circle cx="70" cy="88" r="4"/><circle cx="283" cy="110" r="4"/><circle cx="92" cy="148" r="4"/></g>
+<g fill="#3498db"><circle cx="151" cy="88" r="5"/><circle cx="183" cy="72" r="5"/><circle cx="205" cy="104" r="5"/><circle cx="169" cy="122" r="5"/></g>
+<circle cx="180" cy="97" r="29" fill="#e67e22" stroke="#fff" stroke-width="4"/>
+<text x="180" y="102" fill="#fff" font-size="14" text-anchor="middle" font-family="sans-serif">center</text>
+</svg>
+```
+<p>“Test the evidence.”</p>
+</div>
+<div class="constraint-panel">
+<div class="constraint-name">MANY</div>
+```{=html}
+<svg viewBox="0 0 330 185" aria-label="Small purposeful possibility cluster">
+<g fill="#e7e9eb"><circle cx="45" cy="38" r="4"/><circle cx="105" cy="28" r="4"/><circle cx="172" cy="44" r="4"/><circle cx="255" cy="32" r="4"/><circle cx="70" cy="88" r="4"/><circle cx="135" cy="105" r="4"/><circle cx="92" cy="148" r="4"/></g>
+<path d="M196 28 C160 70,160 122,196 164" fill="none" stroke="#1f9d72" stroke-width="5"/>
+<path d="M272 28 C236 70,236 122,272 164" fill="none" stroke="#1f9d72" stroke-width="5"/>
+<g fill="#1f9d72"><circle cx="222" cy="82" r="5"/><circle cx="242" cy="100" r="5"/><circle cx="220" cy="120" r="5"/></g>
+<circle cx="229" cy="101" r="20" fill="#1f9d72" stroke="#fff" stroke-width="4"/>
+<text x="229" y="107" fill="#fff" font-size="15" text-anchor="middle" font-family="sans-serif">fit</text>
+</svg>
+```
+<p>“Test this claim against this evidence; ask, don’t rewrite.”</p>
+</div>
+</div>
+
+<div class="riverbank-claim"><strong>Complete all three:</strong> AI may help with ___ · the learner must still ___ · I will see that thinking in ___.</div>
+
+::: {.notes}
+Connect the dimensions to teaching, not only prompting. Ask everyone to choose one word from the room’s cloud, place it in a small task they may teach, and complete the three blanks.
+
+Say: “A boundary is useful only when it protects a purpose. In teaching, that might mean making a prediction before seeing an answer, giving a reason before a conclusion, or comparing two options before choosing.”
+
+Participants read their sentence to a partner. The partner asks one question: “Could you actually see whether the learner did that thinking?” Invite a small sample, including examples from history/theory, landscape, conservation, and studio teaching where available.
+
+Today’s Oracle has one useful boundary: it asks and follows up. It does not rewrite the paper or give a score.
+:::
+
+---
+
+## A better answer is not the same as better learning
+
+
+<div class="four-lanes">
+<div class="lane performance"><span class="lane-key">1</span><b>Result</b><p>Is the answer, design, or decision better?</p><div class="lane-question">OUTPUT</div></div>
+<div class="lane effort"><span class="lane-key">2</span><b>Work</b><p>What thinking did the person still do?</p><div class="lane-question">PROCESS</div></div>
+<div class="lane monitoring"><span class="lane-key">3</span><b>Self-check</b><p>Do they know what they understand—and what they do not?</p><div class="lane-question">JUDGMENT</div></div>
+<div class="lane visibility"><span class="lane-key">4</span><b>Visible evidence</b><p>Can a teacher or peer see the reasoning?</p><div class="lane-question">TRACE</div></div>
+</div>
+
+<div class="separation-claim">The output can improve while the work, self-check, or visible evidence shrinks—or moves somewhere else.</div>
+
+::: {.notes}
+Introduce these as four plain questions, not a theory that explains every use of AI.
+
+Less work may be exactly the benefit. Work may also move into giving directions, checking, combining, and taking responsibility. The teaching issue is visibility: strong reasoning cannot guide feedback if the activity leaves no trace of it.
+:::
+
+---
+
+## Reading check · Challenge your first explanation
+
+
+<div class="teacher-speech">
+<span class="speech-label">USE ONE READING · DO NOT FORCE A FIT</span>
+<span class="speech-open">“</span>
+<span class="speech-line">Which reading helps you explain the case?</span>
+<span class="speech-line">What does it let you claim—and what can it not establish?</span>
+<span class="speech-line">Does your first explanation still hold?</span>
+<span class="speech-close">”</span>
+</div>
+
+<div class="activity-prompt"><strong>Leave with:</strong> one reading lens, one limit, and one revised explanation. You may conclude that none of the studies explains the case well.</div>
+
+<div class="source-line">Required: [Lee et al.](https://doi.org/10.1145/3706598.3713778) · [Kosmyna et al.](https://arxiv.org/abs/2506.08872) + [comment](https://arxiv.org/abs/2601.00856) · Recommended: [Fernandes et al.](https://doi.org/10.1016/j.chb.2025.108779) · [METR](https://arxiv.org/abs/2507.09089) + [update](https://metr.org/blog/2026-02-24-uplift-update/)</div>
+
+::: {.notes}
+This is the flipped-classroom reading move: participants use a paper to test an explanation they already care about. Do not ask for four summaries.
+
+Lee can inform where reported critical-thinking work moved, but it is a survey and does not prove cause. Kosmyna is a contested preprint; keep the methodological comment attached. Fernandes separates performance from accurate self-judgment. METR contrasts perceived and measured time in a narrow software setting. “None fits well” is a valid conclusion.
+
+Pairs state one lens, one limit, and a revised explanation. Harvest only a small sample before moving to the Oracle.
+:::
+
+---
+
+## Activity 4 · Change the AI’s job: from doing to asking
+
+
+<a class="oracle-live-link" href="https://socraticoracle.netlify.app/" target="_blank" rel="noopener noreferrer">
+<span>LIVE TOOL</span><strong>https://socraticoracle.netlify.app/</strong><b>OPEN ↗</b>
+</a>
+
+<div class="role-flip">
+<div class="role-old">
+<div class="role-label">COMMON ROLE</div>
+<div class="role-verb">AI makes something</div>
+<div class="role-list">draft · summary · image · code · answer</div>
+</div>
+<div class="role-pivot">⇢</div>
+<div class="role-new">
+<div class="role-label">TODAY’S JOB</div>
+<div class="role-verb">AI asks a question</div>
+<div class="role-list">What supports this? What else could explain it? Where does the claim stop?</div>
+</div>
+</div>
+
+<div class="oracle-contract" aria-label="Ask, don’t rewrite. Press one issue. Follow the answer. No verdict.">
+<div class="contract-item"><b>ASK</b><span>Don’t rewrite.</span></div>
+<div class="contract-item"><b>ONE ISSUE</b><span>Press, then stay with it.</span></div>
+<div class="contract-item"><b>FOLLOW</b><span>Build from the answer.</span></div>
+<div class="contract-item"><b>NO VERDICT</b><span>The researcher decides.</span></div>
+</div>
+
+<div class="projection-warning">A fluent question may still be wrong. You decide whether its premise holds.</div>
+
+::: {.notes}
+Activity 4 pacing checkpoint: aim to reach this slide shortly after the middle of the session. Open [Socratic Oracle](https://socraticoracle.netlify.app), but do not upload yet.
+
+Say: “Treat each question as something to examine, not as a diagnosis. A wrong reading may reveal an assumption, but it is still wrong.”
+
+Avoid anthropomorphic language such as “it knows your weakness” or “it understands the paper.”
+:::
+
+---
+
+## What the Oracle does with a paper
+
+
+<div class="oracle-map">
+<div class="paper-map-column">
+<div class="map-heading">PAPER MAP</div>
+<div class="paper-map-item">main claims</div>
+<div class="paper-map-item">evidence</div>
+<div class="paper-map-item">method</div>
+<div class="paper-map-item">limits</div>
+<div class="paper-map-item">why it matters</div>
+</div>
+<div class="map-arrow">→</div>
+<div class="pressure-field">
+<div class="pressure p1">claim + evidence</div>
+<div class="pressure p2">method + measure</div>
+<div class="pressure p3">other explanation</div>
+<div class="pressure p4">limit + trade-off</div>
+</div>
+<div class="map-arrow">→</div>
+<div class="question-column">
+<div class="question-mark">?</div>
+<div>one selected issue<br>one question at a time</div>
+</div>
+</div>
+
+<div class="map-caveat">The map stays hidden. The system picks one issue and follows it. It may be incomplete or wrong.</div>
+
+::: {.notes}
+Describe only what participants need for the activity.
+
+The browser extracts the searchable text and sends bounded coverage so the service can build a source-linked map. The four visible groups are a plain-language summary, not the full internal catalogue.
+
+Participants do not choose from the map. The Oracle activates one paper-grounded issue and follows it through one focused question at a time. This is not a grade and does not make the system’s reading correct.
+:::
+
+---
+
+## Local voice does not mean a local session
+
+
+<div class="privacy-flow">
+<div class="privacy-local">
+<div class="privacy-kicker">IN THIS BROWSER TAB</div>
+<b>Raw PDF · full extracted text · microphone audio</b>
+<p>Speech becomes an editable transcript here. You check it before sending.</p>
+</div>
+<div class="privacy-arrow">TO BUILD THE MAP →<br>selected paper text<br><br>FOR EACH TURN →<br>checked response + relevant passages + recent turns</div>
+<div class="privacy-service">
+<div class="privacy-kicker">OUTSIDE SERVICE</div>
+<b>Text is processed by the model</b>
+<p>The service produces the first question, follow-up, repair, or closing recap.</p>
+</div>
+</div>
+
+<div class="sharing-split">
+<div><strong>Raw PDF and audio are not sent.</strong> Some extracted text and every response you send are.</div>
+<div><strong>Research sharing is a separate option.</strong> The current site starts with that box checked.</div>
+</div>
+
+<div class="do-not-upload">BEFORE START: UNCHECK “SHARE THIS SESSION WITH THE RESEARCH TEAM” · USE ONLY SAFE, AUTHORIZED MATERIAL</div>
+
+<div class="source-line">Current interface: [socraticoracle.netlify.app](https://socraticoracle.netlify.app) · Recheck the live disclosure and sharing default before delivery.</div>
+
+::: {.notes}
+This slide must precede the upload action.
+
+Say: “Local speech recognition does not make the whole session local. The audio and raw PDF stay here, but some paper text and every response you send go to the tutor service.”
+
+Point to the research-sharing checkbox on the live landing page and have everyone uncheck it before selecting Start Session. At the time of this revision the deployed health configuration reports research sharing available and checked by default. Verify that state again on the delivery day.
+
+Turning research sharing off prevents the optional completed-session research-copy workflow. It does not prevent model processing during the dialogue, and it cannot retract a copy already submitted. Do not make claims about provider retention or institutional approval that have not been verified.
+
+Use only the supplied fictional PDF for the demonstration. Raw PDF and audio bytes remain browser-local in the current production path; bounded mapping coverage is sent at startup, and later turns send the reviewed response plus compact retrieved context and recent dialogue.
+:::
+
+---
+
+## Choose a safe way to take part
+
+
+<div class="route-grid">
+<div class="route-a">
+<div class="route-label">A · YOUR MATERIAL</div>
+<div class="route-title">Safe, approved text</div>
+<p>Use only text you are allowed to send to an outside service.</p>
+</div>
+<div class="route-b recommended">
+<div class="route-label">B · SUPPLIED</div>
+<div class="route-title">Workshop sample</div>
+<p>Use the fictional sample. This is the default whenever you are unsure.</p>
+</div>
+<div class="route-c">
+<div class="route-label">C · NO UPLOAD</div>
+<div class="route-title">Paired or printed route</div>
+<p>Answer prepared questions, or work from the supplied trace.</p>
+</div>
+</div>
+
+<div class="choice-principle">Personal material is not better evidence. You may type, pass, change routes, or stop.</div>
+
+::: {.notes}
+Offer the routes only after participants understand the Oracle and its data boundary. The choices are now concrete rather than abstract.
+
+Say explicitly: “Your route is private; you do not need to explain it. If you are unsure whether you may send your material to an outside service, use the supplied sample or no-upload route.”
+
+Point out where the supplied sample and its printed fallback are located. Check that anyone using the live route has turned research sharing off before Start.
+:::
+
+---
+
+## One voice turn has five steps
+
+
+<div class="route" style="--route-count: 5;">
+<div data-step="01 · DISPLAY"><span class="route-title">Read</span><span class="route-copy">A paper-based question appears as text.</span></div>
+<div data-step="02 · VOICE"><span class="route-title">Speak</span><span class="route-copy">Answer aloud in your own words.</span></div>
+<div data-step="03 · LOCAL"><span class="route-title">Check</span><span class="route-copy">The browser creates an editable transcript.</span></div>
+<div data-step="04 · SUBMIT"><span class="route-title">Send</span><span class="route-copy">The reviewed text becomes your turn.</span></div>
+<div data-step="05 · FOLLOW"><span class="route-title">Continue</span><span class="route-copy">The next question follows the same issue.</span></div>
+</div>
+
+<div class="precision-note"><strong>The Oracle does not speak aloud.</strong> Voice is the learner’s input; tutor responses are displayed as text.</div>
+
+::: {.notes}
+Show one exact turn with the [supplied fictional-case PDF](assets/supplied-hybrid-studio-case.pdf). Do not substitute a generic chat window.
+
+Show that Voice is selected, research sharing is unchecked, and microphone permission is granted. On first use, browser-local Whisper may need to download and warm its speech model. The interface waits through a short thinking pause and offers Done speaking when speech is underway.
+
+Read the displayed opening silently, then answer it aloud as the researcher. When the transcript appears, correct a recognition error if one exists. If you make a substantive change, name that change as evidence of what receiving the question did; do not silently polish the reasoning into a performance that never occurred.
+
+Emphasize that the tutor output remains text. If you read a question aloud for accessibility or demonstration, label that as facilitator speech—not a feature of the Oracle.
+:::
+
+---
+
+## Before you start, set your own ground rules
+
+
+<div class="workbench preflight-sheet">
+<div class="preflight-block"><span class="preflight-key">EXPECT</span><p>What issue do you think the system may question?</p></div>
+<div class="preflight-block"><span class="preflight-key">ANCHOR</span><p>What evidence or rule will help you judge the question?</p></div>
+<div class="preflight-block"><span class="preflight-key">WATCH</span><p>Do you tend to rush, defend, over-explain, go blank, or become curious?</p></div>
+<div class="preflight-block"><span class="preflight-key">STOP</span><p>What would make you ask for simpler wording, reject the premise, or stop?</p></div>
+</div>
+
+<div class="calibration-note">The system chooses the issue. You choose your evidence standard—and when to stop.</div>
+
+::: {.notes}
+Ask participants to complete this privately before starting the live or fallback route. Do not collect the record.
+
+The Oracle chooses the issue. Participants are setting their evidence standard and boundary, not choosing what it will ask. The learning target is to stay with a challenge without giving up judgment.
+
+Examples of a meaningful boundary: the question repeats without new movement; a premise is false; the required context cannot safely be shared; speech recognition becomes the dominant task; or the participant simply chooses to stop.
+:::
+
+---
+
+## Four honest ways to answer
+
+
+<div class="choice-lanes">
+<div class="choice-lane"><span class="choice-letter">D</span><div class="choice-title">Defend</div><div class="choice-copy">“My reason is ___, and the evidence supports ___.”</div></div>
+<div class="choice-lane"><span class="choice-letter">N</span><div class="choice-title">Narrow</div><div class="choice-copy">“What I can claim is ___; it does not go beyond ___.”</div></div>
+<div class="choice-lane"><span class="choice-letter">C</span><div class="choice-title">Challenge</div><div class="choice-copy">“That question assumes ___; I do not accept that because ___.”</div></div>
+<div class="choice-lane"><span class="choice-letter">?</span><div class="choice-title">Not yet</div><div class="choice-copy">“I cannot answer that yet; I would need ___.”</div></div>
+</div>
+
+<div class="rights-banner"><strong>Also legitimate:</strong> “Please rephrase that.” · “This is repeating the issue.” · “I want to stop.”</div>
+
+::: {.notes}
+These are speaking supports, not prompts to paste or lines participants must copy word for word.
+
+Model each move briefly. Defending is not the preferred outcome; narrowing, contesting, and leaving something unresolved may be the more rigorous response. The live Oracle explicitly routes requests for simpler wording and complaints that questioning is repetitive or misguided.
+
+Leave this slide available as a confidence aid during the first live turn. A participant may pause, use notes, type, or choose the paired route without explanation.
+:::
+
+---
+
+## Your turn · Try one issue—not the whole paper
+
+
+<div class="work-protocol" aria-label="Voice-session work protocol">
+<div class="work-label">YOUR CHOSEN ROUTE</div>
+<div class="work-steps">
+<div><b>1 · START</b>Use safe text or the sample. If live, turn research sharing off.</div>
+<div><b>2 · ANSWER</b>Read the question. Give your real reasoning—not a polished speech.</div>
+<div><b>3 · CHECK</b>Fix speech-recognition errors. Mark any change to your actual answer.</div>
+<div><b>4 · STAY</b>Follow the same issue until the system closes it—or until you stop.</div>
+</div>
+</div>
+
+<div class="permission-band">Do not analyze the transcript yet. First notice what the questioning makes you do.</div>
+
+::: {.notes}
+Open the main work period. Protect this time. Participants use the safe route chosen earlier; typed input is an equal input mode, and the paired/printed route is an equal no-upload route. Circulate for access and safety—not research content.
+
+The app displays its question; the participant speaks; local Whisper produces a saved transcript; the participant reviews or edits it and selects Send reviewed response. Listening resumes after the tutor response. Typed input remains available if voice fails.
+
+Ask participants to remain with one issue rather than chase breadth. They can use a spoken move from the previous slide, request a rephrase, identify repetition, or stop. Do not ask them to code C/R/X/M while speaking; simultaneous analysis would dilute the receiving experience.
+
+In a noisy room, stagger voice starts, increase distance, or use the supplied paired/typed route. Do not troubleshoot a personal PDF on the projector.
+
+If the site fails, one partner reads the prepared first question from the supplied case, the researcher answers aloud or in writing, and the partner follows one part of that answer. Keep one issue alive; do not read a list of unrelated prompts. The learning task survives without the website.
+:::
+
+---
+
+## The system may stop; you may stop sooner
+
+
+<div class="tomorrow-flow">
+<div class="tomorrow-node"><span>RECAP</span><b>A short summary with no new question</b></div>
+<div class="tomorrow-arrow">→</div>
+<div class="tomorrow-node"><span>ISSUE REVIEWED</span><b>The system pauses this line of questions</b></div>
+<div class="tomorrow-arrow">→</div>
+<div class="tomorrow-node"><span>YOUR CHOICE</span><b>Examine another issue—or end the session</b></div>
+</div>
+
+<div class="projection-warning">A system stopping point is not proof that the model is right—or that the research issue is settled.</div>
+
+::: {.notes}
+Explain the visible stopping behavior before participants encounter it. Internally, the Oracle may mark the issue resolved or deferred. It then gives a short recap with no new question and offers Examine another issue or End session.
+
+The participant does not need to reach this interface state to have completed the learning task. They may stop earlier. A closure recap summarizes student-owned reasoning; it does not certify the argument, interpretation, or paper.
+
+If the participant selects another issue, the hidden map activates the next candidate. For this workshop, depth on one issue is enough.
+:::
+
+---
+
+## Activity 5 · First notice what happened
+
+
+<div class="workbench preflight-sheet">
+<div class="preflight-block"><span class="preflight-key">YOUR FIRST REACTION</span><p>pause · rush · defend · wonder · go blank</p></div>
+<div class="preflight-block"><span class="preflight-key">THINKING YOU DID</span><p>remember · explain · compare · limit · challenge · leave open</p></div>
+<div class="preflight-block"><span class="preflight-key">WHAT MADE IT HARD</span><p>the idea · speech · language · technology · being observed</p></div>
+<div class="preflight-block"><span class="preflight-key">WHAT HELPED YOU</span><p>evidence · simpler wording · typing · more space · stopping</p></div>
+</div>
+
+<div class="permission-band"><strong>Keep this private:</strong> “When the question appeared, I ___; to answer, I had to ___.”</div>
+
+::: {.notes}
+Part 4 pacing checkpoint: leave enough room to save a usable excerpt. Ask for a brief silent note immediately after the live or paired encounter and before anyone studies the transcript.
+
+The first column is not a clinical or emotional assessment. It simply preserves aspects of the receiving experience that a transcript flattens. Participants may leave any field blank and keep the entire reflection private.
+
+The point is to separate the thinking demanded by the question from difficulty caused by speech, language, technology, or the social setting—and to note what made continuing or stopping possible.
+:::
+
+---
+
+## Prepare one short episode for Day 2
+
+
+<div class="capture-grid">
+<div class="capture-action"><span>01</span><b>Save privately</b><p>Download the full record. Do not send it to anyone.</p></div>
+<div class="capture-action"><span>02</span><b>Choose</b><p>Pick one short, continuous exchange about one issue.</p></div>
+<div class="capture-action"><span>03</span><b>Remove details</b><p>Delete names, filenames, sensitive context, and restricted content.</p></div>
+<div class="capture-action"><span>04</span><b>Mark one moment</b><p>Underline where the question made you explain, change, resist, or stop.</p></div>
+</div>
+
+<div class="do-not-upload">MAY BE SHARED TOMORROW: THE SHORT REDACTED EPISODE, ONLY IF YOU CHOOSE · KEEP PRIVATE: FULL JSON, FULL TRACE, AND YOUR REFLECTION</div>
+
+::: {.notes}
+Ask participants to download before navigating away. Download Copy works during a session; ending a session also downloads its JSON record.
+
+The JSON can contain document metadata, paper context, the captured voice transcript, whether it was edited, and the dialogue. It is not the Day 2 exchange artifact and must not be sent to a peer or facilitator.
+
+Participants keep the full trace and private reflection. For Day 2 they make a separate, short, already-redacted episode and may still choose not to share it. A supplied or paired fallback episode meets the same requirement. Day 2 will introduce the C/R/X/M/★ codes; participants do not need to learn them today.
+:::
+
+---
+
+## Tomorrow: turn the experience into a teaching move
+
+
+<div class="tomorrow-flow">
+<div class="tomorrow-node"><span>WHAT HAPPENED?</span><b>What did the question make you think through?</b></div>
+<div class="tomorrow-arrow">→</div>
+<div class="tomorrow-node"><span>WAS IT USEFUL?</span><b>Did the difficulty reveal thinking—or just get in the way?</b></div>
+<div class="tomorrow-arrow">→</div>
+<div class="tomorrow-node"><span>DESIGN</span><b>What should a learner have to do and reveal?</b></div>
+</div>
+
+<div class="closing-claim">Do not make everything harder.<br><strong>Make the important thinking visible—then get out of the way.</strong></div>
+
+<div class="exit-prompt">Exit privately: <span>“The question made me ______; my thinking became visible when ______.”</span></div>
+
+::: {.notes}
+Invite a small sample of exit reflections, then close with the final line.
+
+Preview Day 2 in plain language: participants will start with their private note, share only a short redacted episode if they choose, study the exchange rather than judge the person, decide what kind of difficulty helped or failed, and test one small teaching move.
+
+Final line: “The Oracle can generate resistance. It cannot carry pedagogical responsibility. That remains ours.”
+:::

@@ -1,0 +1,104 @@
+---
+title: "Fictional Sample Case"
+subtitle: "The causal leap · hybrid studios and confidence in design critique"
+author: "RPG Workshop"
+body-classes: rpg-workshop
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    css: site.css
+    page-layout: full
+---
+
+::: {.workshop-kicker}
+Supplied route · cross-disciplinary · non-confidential · safe to discuss
+:::
+
+::: {.privacy-notice}
+This case, institution, researcher, participants, quotations, and numerical values are entirely fictional. They were created for workshop use and do not describe an actual study. Do not treat the case as research evidence.
+:::
+
+Use the [upload-ready PDF](assets/supplied-hybrid-studio-case.pdf) for the live Socratic Oracle route. The web page is for reading; the interface accepts a searchable PDF rather than pasted prompt text.
+
+## Case narrative
+
+::: {.sample-case}
+Nadia Wong is a doctoral researcher working across design education, educational psychology, and digital learning. She is preparing a proposal about first-year students' confidence in design critique at the fictional Harbour Institute of Design. The programme recently changed one twelve-week foundation studio from fully face-to-face teaching to a hybrid format: critique alternates between in-room pin-ups and a synchronous online studio. In the online sessions, students can speak, post a short written response, or annotate a shared drawing before joining the discussion.
+
+Nadia's proposal opens with the claim: **“This study will show that hybrid studios improve first-year students' confidence in design critique.”** Her rationale is plausible. Tutors reported that quieter students contributed more often online, and several students said that the annotation tool gave them time to formulate a response. Nadia argues that these additional ways of participating may make critique feel less exposing and give students more opportunities to rehearse disciplinary language.
+
+The proposed study follows one cohort of 64 students through a semester. Students complete a five-item confidence survey in Week 1 and again in Week 12. Nadia plans to compare the cohort's mean pre/post scores and report whether confidence increased. She will also record attendance and the number of spoken, written, and annotated contributions. There is no comparison cohort. All students receive twelve weeks of studio teaching, repeat the critique process several times, get to know their tutors and peers, and become more familiar with the survey questions.
+
+An AI assistant helped Nadia turn these plans into a fluent methods section. It described the pre/post comparison as a test of the “effectiveness of hybrid delivery” and suggested that a statistically significant increase would demonstrate impact. Nadia retained this wording because it matched her practical experience: participation seemed broader after the hybrid format began.
+
+The central issue is therefore not whether confidence might rise. It is **what the proposed evidence can support**. Time, repeated practice, growing familiarity with critique, peer relationships, tutor feedback, and selective survey completion could all contribute to change. Contribution counts may show participation without explaining confidence, and self-reported confidence is not the same as critique quality.
+
+Nadia must decide whether to defend the causal claim, change the design, or narrow the claim. One defensible revision would describe **reported change within this cohort**, add interviews that ask students how particular features shaped their participation, examine plausible mechanisms and alternative explanations, and state clearly that the study cannot isolate the hybrid format's causal effect.
+:::
+
+## Case coordinates
+
+::: {.case-meta}
+::: {}
+**Claim**
+
+Hybrid studios improve first-year students' confidence in design critique.
+:::
+
+::: {}
+**Evidence**
+
+Pre/post confidence surveys, attendance, and counts of spoken, written, and annotated contributions.
+:::
+
+::: {}
+**Method**
+
+One-cohort semester study; mean pre/post comparison; no comparison group; proposed interviews not yet in the original design.
+:::
+
+::: {}
+**Boundary**
+
+The design can describe reported change and participant accounts, but cannot isolate format from time, practice, familiarity, relationships, or other teaching effects.
+:::
+:::
+
+## Why the case is debatable
+
+Reasonable researchers could disagree about several points:
+
+- Whether causal language is ever defensible here without a comparison, interruption, or stronger counterfactual strategy.
+- Whether the most valuable contribution is an estimate of “effectiveness,” an account of participation mechanisms, or a design-oriented explanation of which hybrid features work for whom.
+- Whether contribution counts are meaningful evidence of confidence, only a behavioural correlate, or a different construct altogether.
+- Whether interviews strengthen the inference or merely add retrospective accounts vulnerable to the same familiarity and desirability effects.
+- Whether narrowing the claim makes the study more honest, less ambitious, or both.
+
+## Possible pressure points—not a prompt menu
+
+The live Oracle maps the PDF and selects the active issue. Participants do not paste these questions or choose one before Start. They are supplied only to help an offline peer route or to compare a prediction with what the live system actually presses.
+
+1. What evidence would distinguish change associated with the hybrid format from change expected through a semester of practice?
+2. What does “confidence” mean here, and how well does the survey capture it?
+3. What alternative explanations deserve active testing rather than a brief limitations paragraph?
+4. What could contribution counts establish—and what could they not establish?
+5. If causal attribution is not possible, what useful and appropriately bounded contribution remains?
+6. Which interview evidence would support a plausible mechanism rather than merely repeat a preference?
+
+## Live-use sequence
+
+1. Choose the fictional PDF and wait for **PDF ready**.
+2. Select **Voice** for a spoken response or **Keyboard** as an equal input route.
+3. Uncheck **Share this session with the research team** before pressing **Start Session**; the live control was selected by default when these materials were prepared.
+4. Read the displayed opening challenge. In Voice mode, answer aloud, wait for browser-local Whisper to produce text, and review or edit that transcript before **Send**.
+5. Stay with the machine-selected issue across follow-up questions. Defend, narrow, contest, state uncertainty, or request a rephrasing from the case evidence.
+6. When the interface reports a stopping point, inspect its question-free recap and choose whether to examine another issue or end.
+
+The Oracle's questions are displayed text. The current site does not speak them aloud. If startup, mapping, microphone, or model setup fails, use the [synthetic sample transcript](sample-transcript.html) or the offline peer route rather than moving material to another service.
+
+## Teaching-use boundary
+
+This case is deliberately compact and underdetermined. It is suitable for practising claim–evidence fit, alternative explanation, construct–measure fit, methodological boundary, and the difference between revising a claim and abandoning a study. It is not a template for an actual ethics application, power calculation, instrument, causal design, or evaluation of the live Oracle.
+
+Continue with the [synthetic sample Oracle transcript](sample-transcript.html), or return to the [participant workbook](workbook.html#capture-one-sustained-oracle-episode).

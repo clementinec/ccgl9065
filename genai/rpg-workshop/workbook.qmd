@@ -1,0 +1,676 @@
+---
+title: "Participant Workbook"
+subtitle: "From an AI incident to one tested teaching move"
+author: "RPG Workshop"
+body-classes: rpg-workshop
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    css: site.css
+    page-layout: full
+---
+
+::: {.workshop-kicker}
+One chain · four artifacts · two workshop days
+:::
+
+Use this workbook to keep the evidence connected. Start with one small, privacy-safe incident. Carry it through a sustained Oracle pressure sequence, the friction analysis, the teaching design, and two rounds of testing.
+
+::: {.privacy-notice}
+**Keep protected material out of this workbook if it will be shared or printed.** Use a fictional case, placeholders, or a sanitised description. Never include names, identifiers, access-controlled data, confidential quotations, or unpublished values that matter to your research claim.
+:::
+
+**Day 1 route:** ☐ authorized privacy-safe PDF &nbsp;&nbsp; ☐ [fictional sample PDF](assets/supplied-hybrid-studio-case.pdf) &nbsp;&nbsp; ☐ cached sample trace &nbsp;&nbsp; ☐ offline peer Oracle
+
+**Day 2 route:** ☐ short redacted episode &nbsp;&nbsp; ☐ content-free description &nbsp;&nbsp; ☐ supplied transcript &nbsp;&nbsp; ☐ solo reading
+
+**Artifact ID or short name:** ________________________________________________
+
+**Name or group (optional):** _________________________________________________
+
+## Artifact chain at a glance
+
+::: {.artifact-route}
+::: {data-step="01 · Incident"}
+### Locate the hidden move
+
+What intellectual operation did AI perform, transform, or conceal?
+:::
+
+::: {data-step="02 · Oracle"}
+### Make the claim answerable
+
+How did you respond while one machine-selected issue stayed under pressure?
+:::
+
+::: {data-step="03 · Design"}
+### Place the friction
+
+What should interrupt the shortcut, and what must the learner do?
+:::
+
+::: {data-step="04 · Test"}
+### Revise from evidence
+
+What happened when another person encountered the sequence?
+:::
+:::
+
+# Day 1 · Notice and try
+
+## 0. Start with one hard teaching case
+
+You may pass. If you contribute, keep the case brief, anonymous, and free of confidential details.
+
+::: {.workbook-sheet}
+**GenAI made learning easier by:**
+
+<div class="write-lines short" aria-label="Writing space: what GenAI made easier"></div>
+
+**That same help may have made teaching harder because:**
+
+<div class="write-lines short" aria-label="Writing space: why teaching became harder"></div>
+:::
+
+## 1. Make the case specific
+
+Choose one moment, not your whole research project. Describe the before and after without revealing confidential context.
+
+::: {.workbook-sheet}
+### The situation
+
+<span class="field-label">The learner was trying to…</span>
+<div class="write-lines short" aria-label="Writing space: what the learner was trying to do"></div>
+
+<span class="field-label">GenAI made this easier by…</span>
+<div class="write-lines short" aria-label="Writing space: what GenAI made easier"></div>
+
+<span class="field-label">Teaching became harder because…</span>
+<div class="write-lines" aria-label="Writing space: how teaching became harder"></div>
+:::
+
+### Safety check
+
+Before proceeding, confirm:
+
+::: {.checklist}
+- I removed names and direct identifiers.
+- I removed or generalized sensitive locations and rare attributes.
+- I did not include student, patient, participant, reviewer, or community data.
+- I did not include confidential, proprietary, embargoed, or access-controlled text.
+- I can explain the intellectual pattern without exposing the underlying material.
+:::
+
+If any box remains unchecked, switch to the [fictional sample case](sample-case.html) or rewrite the incident as an abstract pattern.
+
+## 2. Name the work AI did
+
+Do not stop at “AI helped” or “AI was wrong.” Name the work as a verb.
+
+### Room word cloud
+
+From your experience as a learner, critic, tutor, TA, supervisor, teacher, or observer, name one kind of thinking a teacher needs to see the learner doing.
+
+::: {.workbook-sheet}
+**My doing word:** ______________________________________________________________________________
+
+**It matters because a teacher needs to see:** ____________________________________________________
+
+**GenAI could make that thinking harder to see when:**
+
+<div class="write-lines short" aria-label="Writing space: when GenAI could make the selected thinking harder to see"></div>
+:::
+
+::: {.field-grid}
+::: {}
+<span class="field-label">The work</span>
+
+☐ generating possibilities  
+☐ selecting or ranking  
+☐ classifying or coding  
+☐ summarizing or compressing  
+☐ interpreting evidence  
+☐ proposing a method  
+☐ translating across fields  
+☐ drafting an argument  
+☐ other: __________________
+:::
+
+::: {}
+<span class="field-label">What changed</span>
+
+☐ made tacit reasoning explicit  
+☐ made reasoning less visible  
+☐ changed the question  
+☐ widened the search space  
+☐ narrowed the search space  
+☐ introduced unsupported certainty  
+☐ exposed a useful disagreement  
+☐ other: __________________
+:::
+:::
+
+::: {.workbook-sheet}
+### Make the change clear
+
+**The AI did** __________________________________ **by** __________________________________.
+
+**A new student might mistake this for** ________________________________________________________.
+
+**The important expert thinking that became less visible was**
+
+<div class="write-lines" aria-label="Writing space: hidden expert move"></div>
+
+**Why that move matters in my discipline:**
+
+<div class="write-lines" aria-label="Writing space: disciplinary importance"></div>
+:::
+
+### Activity 3 · Keep one thinking move visible
+
+Choose one small task you may teach. Complete all three lines, then ask a partner whether the final line would produce evidence they could actually see.
+
+::: {.workbook-sheet}
+**AI may help with** ____________________________________________________________________________
+
+**The learner must still** ______________________________________________________________________
+
+**I will see that thinking in** __________________________________________________________________
+:::
+
+### Reading check · Challenge the first explanation
+
+::: {.workbook-sheet}
+**The reading I am using as a lens:** _____________________________________________________________
+
+**It helps explain:** ___________________________________________________________________________
+
+**Its design or evidence cannot establish:** ____________________________________________________
+
+**My revised explanation of the case:**
+
+<div class="write-lines short" aria-label="Writing space: revised explanation after reading check"></div>
+:::
+
+## 3. Prepare to answer the Oracle
+
+The live Socratic Oracle does **not** give you a prompt box or let you choose the issue. It reads selected parts of a searchable PDF, picks one issue, and displays its first question. Your job is to stay with that issue long enough to notice what thinking the questions demand.
+
+::: {.privacy-notice}
+**Before Start:** the live research-sharing checkbox is currently selected by default. Uncheck **Share this session with the research team**. This stops the optional research-copy workflow; it does not stop the extracted passages and submitted dialogue from being processed by the tutor service.
+:::
+
+::: {.workbook-sheet}
+**What stays in the current browser tab:** the raw PDF while it is read, the full extracted text, the session state, and the working transcript.
+
+**What leaves the tab for tutoring:** selected or retrieved paper passages, the response you send, recent dialogue, and the current session state.
+
+**Voice mode:** the challenge remains on screen. You answer aloud; browser-local Whisper produces a draft transcript. Review or edit that text, then press **Send**. The current live voice route keeps raw microphone audio in the browser.
+:::
+
+### Pre-record before pressing Start
+
+::: {.design-grid}
+::: {}
+<span class="field-label">Watch yourself</span>
+
+When challenged, do you tend to rush, defend, over-explain, go blank, or become curious?
+
+<div class="write-lines short" aria-label="Writing space: response habit"></div>
+:::
+
+::: {}
+<span class="field-label">Expect</span>
+
+What issue do you think the system may question?
+
+<div class="write-lines short" aria-label="Writing space: expected issue"></div>
+:::
+
+::: {}
+<span class="field-label">Anchor</span>
+
+What text, evidence, method, or field-specific rule will help you judge the question?
+
+<div class="write-lines short" aria-label="Writing space: judgment ground"></div>
+:::
+
+::: {}
+<span class="field-label">Stop</span>
+
+What would make you ask for simpler wording, reject the premise, or stop?
+
+<div class="write-lines short" aria-label="Writing space: response boundary"></div>
+:::
+:::
+
+### Live loop
+
+::: {.checklist}
+- I selected only an authorized, privacy-safe PDF—or the supplied fictional PDF.
+- I unchecked research transcript sharing before pressing **Start**.
+- I read the displayed challenge as a candidate interpretation, not a verdict.
+- In voice mode, I answered aloud, waited for transcription, and reviewed or edited the text before **Send**.
+- I answered from evidence and stayed with the same issue rather than trying to optimize a prompt.
+- I noted when the interface reported a stopping point and chose whether to examine another issue or end.
+:::
+
+If mapping, opening, microphone, or model setup fails, use the cached [sample transcript](sample-transcript.html) or the offline peer route. Do not improvise with a sensitive document in another service.
+
+## 4. Save one short Oracle episode
+
+Keep the full downloaded JSON private. For Day 2, select only the shortest **continuous** episode in which one issue made you explain, change, resist, or stop. Include enough adjacent turns to show how a follow-up used your answer. Day 2 will introduce the coding system; you do not need it today.
+
+::: {.workbook-sheet}
+### Excerpt ledger
+
+For each turn, capture a short quotation or faithful paraphrase. Mark whether your response was spoken, edited after transcription, or typed. Never paste sensitive source material.
+
+| Turn | Speaker / input | Short excerpt | What happened in my thinking? |
+|---:|---|---|---|
+| 1 | Oracle / displayed |  |  |
+| 2 | Me / voice-edited or typed |  |  |
+| 3 | Oracle / displayed |  |  |
+| 4 | Me / voice-edited or typed |  |  |
+| 5 | Oracle / displayed |  |  |
+| 6 | Me / voice-edited or typed |  |  |
+
+**The turn worth carrying into Day 2 is turn:** ______
+
+**It matters because:**
+
+<div class="write-lines short" aria-label="Writing space: why selected turn matters"></div>
+
+**Operational ending:** ☐ system stopping point &nbsp;&nbsp; ☐ I ended the session &nbsp;&nbsp; ☐ service failed / fallback used
+:::
+
+Use the [fictional sample transcript](sample-transcript.html) if you need a model for selecting a continuous episode. Do not decide whether the Oracle was simply “good” or “bad”; mark what the questioning made you do.
+
+## 5. Day 1 bridge
+
+::: {.workbook-sheet}
+### Exit claim
+
+Complete all three lines:
+
+1. **The AI shortcut or transformation I am now watching is**
+   <div class="write-lines short" aria-label="Writing space: AI shortcut"></div>
+2. **The questioning helped my thinking when**
+   <div class="write-lines short" aria-label="Writing space: useful questioning"></div>
+3. **On Day 2 I need to test whether a learner can**
+   <div class="write-lines short" aria-label="Writing space: Day 2 test"></div>
+:::
+
+# Day 2 · Read, design, and test
+
+## 6. Read one short episode with a partner
+
+Treat the episode as shared evidence—not as a proposal your partner must judge. The owner controls the context, corrections, and what may be repeated. The supplied and solo routes do the same intellectual work and are equal options.
+
+::: {.privacy-notice}
+**Exchange boundary:** no full transcript or downloaded JSON; no screenshots, copies, links, forwarding, note-taking of research details, or retention after the activity. The owner may correct, narrow, veto, or end any reading without explanation.
+:::
+
+### A · Write your own reading first
+
+Complete this before showing or describing anything. This page remains private unless you choose otherwise.
+
+::: {.field-grid}
+::: {}
+<span class="field-label">Useful pressure</span>
+
+What question, pause, contrast, or correction made important thinking visible?
+
+<div class="write-lines" aria-label="Writing space: owner's meaningful friction reflection"></div>
+:::
+
+::: {}
+<span class="field-label">Pressure that failed or got in the way</span>
+
+Where did wording, interface, prior knowledge, anxiety, or a false premise block the intended thinking?
+
+<div class="write-lines" aria-label="Writing space: owner's failed friction reflection"></div>
+:::
+:::
+
+**I permit a partner to:** ☐ view my short excerpt on my device/paper &nbsp;&nbsp; ☐ hear only a content-free pattern &nbsp;&nbsp; ☐ use the supplied episode with me &nbsp;&nbsp; ☐ nothing; I will work solo
+
+**Out of scope even if it appears in the excerpt:** ______________________________________________
+
+### B · Partner's first pass: use the prepared questions
+
+Your partner points to a turn or visible app feature before adding a workshop mark.
+
+| Turn / feature | C / R / X / M / ★ | Evidence for the code | What changed—or failed to change? |
+|---|:---:|---|---|
+|  |  |  |  |
+|  |  |  |  |
+
+### C · Partner's second pass: set the labels aside
+
+Now set the letter key aside. In your own words, name one pattern the episode suggests—or something our prepared questions missed.
+
+**Provisional pattern name:** _____________________________________________________
+
+**Turn / feature that prompted it:** ______________________________________________
+
+**What this pattern may mean—and what remains uncertain:**
+
+<div class="write-lines short" aria-label="Writing space: inductive peer reading"></div>
+
+### D · Owner checks and corrects the reading
+
+The owner responds after both passes. Correcting a reading is not defensiveness; it is part of making the interpretation trustworthy.
+
+::: {.workbook-sheet}
+**This reading fits because:** ____________________________________________________
+
+**This needs correction or missing context:** _____________________________________
+
+**I veto this interpretation or its further use:** _________________________________
+
+**Reading retained as unresolved disagreement:** __________________________________
+:::
+
+### E · Name what our questions missed
+
+Compare the corrected partner reading with our prepared interaction questions, reasoning questions, and C/R/X/M/★ marks. Do not force novelty: write **nothing new here** if those questions already explain the evidence.
+
+::: {.workbook-sheet}
+**Our prepared questions and C/R/X/M/★ marks already explain:**
+
+<div class="write-lines short" aria-label="Writing space: what existing lenses explain"></div>
+
+**They do not yet name this owner-approved new area:**
+
+<div class="write-lines short" aria-label="Writing space: additional area surfaced through use"></div>
+
+**Evidence anchor—turn, app feature, or receiving moment:** ________________________
+
+**Relationship:** ☐ extends one question &nbsp;&nbsp; ☐ connects several &nbsp;&nbsp; ☐ outside our questions &nbsp;&nbsp; ☐ nothing new
+
+**What enabled it or made it costly:** ____________________________________________
+
+**A content-free question for future examination:**
+
+<div class="write-lines short" aria-label="Writing space: future examination question"></div>
+
+**Observable indicator:** ____________________ **Boundary / counter-example:** ____________________
+:::
+
+### F · Write one careful note together
+
+Write together without copying research content.
+
+::: {.workbook-sheet}
+**The pressure helped the thinking when** _________________________________________
+
+**It failed or got in the way when** ______________________________________________
+
+**Our evidence is turn / feature** ______ **where the reasoning became visible as**
+
+<div class="write-lines short" aria-label="Writing space: joint evidence memo"></div>
+
+**One disagreement or uncertainty we are retaining:**
+
+<div class="write-lines short" aria-label="Writing space: retained disagreement"></div>
+
+**New-area card approved by the owner—or “nothing new here”:**
+
+<div class="write-lines short" aria-label="Writing space: approved additional area"></div>
+:::
+
+### G · Room map contribution
+
+Contribute only an owner-approved, content-free new area—never a quotation, filename, topic, person, or research detail. Passing and “nothing new” are welcome. Supplied and solo-route readings count equally.
+
+| New-area name | Content-free definition | Extends / connects / outside | What we could observe | Limit / counterexample |
+|---|---|:---:|---|---|
+|  |  |  |  |  |
+
+**Diagnostic test:** If the student struggles, will that show something about the target thinking—or only that the instructions, interface, or access route were difficult?
+
+## 7. What worked for an expert may not work for a beginner
+
+::: {.workbook-sheet}
+### Make the hidden difference visible
+
+**An expert in my field sees or does:**
+
+<div class="write-lines short" aria-label="Writing space: expert move"></div>
+
+**A beginner is likely to see or do instead:**
+
+<div class="write-lines short" aria-label="Writing space: novice move"></div>
+
+**The smallest consequential difference is:**
+
+<div class="write-lines short" aria-label="Writing space: consequential difference"></div>
+
+**I can make that difference observable by asking the student to produce:**
+
+<div class="write-lines short" aria-label="Writing space: observable evidence"></div>
+:::
+
+## 8. Choose where and how the pressure enters
+
+Pressure is a short checkpoint—not extra difficulty everywhere. Start by deciding where student judgment would otherwise disappear.
+
+::: {.workbook-sheet}
+### Where?
+
+☐ **Before AI** — predict, interpret, choose, or try first  
+☐ **While using AI** — compare, question, verify, or annotate  
+☐ **After AI** — defend, revise, test, or transfer  
+☐ **Nowhere** — the skipped work is not part of this learning goal
+
+**I chose this location because:**
+
+<div class="write-lines short" aria-label="Writing space: reason for pressure location"></div>
+
+### How?
+
+Choose one main move: ☐ predict &nbsp; ☐ choose &nbsp; ☐ point to evidence &nbsp; ☐ compare &nbsp; ☐ test &nbsp; ☐ revise / transfer
+
+**The exact question or instruction students will receive:**
+
+<div class="write-lines" aria-label="Writing space: learner-facing pressure prompt"></div>
+
+**The visible sign of thinking I will look for:**
+
+<div class="write-lines short" aria-label="Writing space: visible sign of target thinking"></div>
+:::
+
+## 9. Teaching-checkpoint card
+
+Build one short sequence. The checkpoint must have an end: once the student shows the target thinking, let them continue or add the support they need.
+
+::: {.design-grid}
+::: {}
+<span class="field-label">1 · Students need to</span>
+
+What exact thinking should the student practice—not merely know about?
+
+<div class="write-lines" aria-label="Writing space: learning move"></div>
+:::
+
+::: {}
+<span class="field-label">2 · AI may let them skip</span>
+
+What might AI, prior habit, or the task format allow the student to skip?
+
+<div class="write-lines" aria-label="Writing space: shortcut"></div>
+:::
+
+::: {}
+<span class="field-label">3 · I will ask them to</span>
+
+What one prompt, comparison, choice, test, or revision will make the thinking visible?
+
+<div class="write-lines" aria-label="Writing space: friction"></div>
+:::
+
+::: {}
+<span class="field-label">4 · I will look for</span>
+
+What visible or audible student action will show the thinking?
+
+<div class="write-lines" aria-label="Writing space: evidence"></div>
+:::
+
+::: {}
+<span class="field-label">5 · Students may</span>
+
+How will you prevent exposure, exclusion, overload, or irrelevant penalty?
+
+<div class="write-lines" aria-label="Writing space: safeguard"></div>
+:::
+
+::: {}
+<span class="field-label">6 · Then I will</span>
+
+What condition ends the checkpoint or adds support? What happens next?
+
+<div class="write-lines" aria-label="Writing space: release"></div>
+:::
+:::
+
+## 10. Plan what the student experiences
+
+::: {.workbook-sheet}
+### Before → checkpoint → evidence → next step
+
+| Step | What the student encounters | What the student must do | What the teacher watches for |
+|---|---|---|---|
+| **Before** |  |  |  |
+| **Checkpoint introduced** |  |  |  |
+| **Reasoning made visible** |  |  |  |
+| **Feedback or support** |  |  |  |
+| **Continue / support / next move** |  |  |  |
+
+**What observable condition moves this sequence forward?**
+
+<div class="write-lines short" aria-label="Writing space: transition condition"></div>
+
+**The sequence would be misaligned if:**
+
+<div class="write-lines short" aria-label="Writing space: misalignment condition"></div>
+:::
+
+## 11. Try the prompt with a partner
+
+Work with a partner. Do not explain your intention before the first test. This is a test of the teaching prompt, not a continuation of the transcript exchange: do not carry another participant's research content into the rehearsal, and do not record or forward the test.
+
+### Round 1
+
+**Teacher:** present only the student-facing prompt.  
+**Student / tester:** respond as a plausible beginner and think aloud.  
+**Observer, if present:** record words and actions—not guessed feelings.  
+**Discuss:** compare the thinking you wanted with what became visible.
+
+::: {.field-grid}
+::: {}
+<span class="field-label">Observed evidence</span>
+
+What did the tester say, choose, write, compare, or revise?
+
+<div class="write-lines" aria-label="Writing space: observed evidence"></div>
+:::
+
+::: {}
+<span class="field-label">Breakdown</span>
+
+Where did they hesitate? Was that hesitation about the target reasoning?
+
+<div class="write-lines" aria-label="Writing space: breakdown"></div>
+:::
+:::
+
+### Revision between rounds
+
+::: {.workbook-sheet}
+**Retain:** ______________________________________________________________________
+
+**Change:** ______________________________________________________________________
+
+**Remove:** ______________________________________________________________________
+
+**My reason, tied to Round 1 evidence:**
+
+<div class="write-lines short" aria-label="Writing space: revision rationale"></div>
+:::
+
+### Round 2
+
+Repeat with the revised version and, if possible, a different tester.
+
+::: {.field-grid}
+::: {}
+<span class="field-label">What changed in the student response?</span>
+<div class="write-lines" aria-label="Writing space: changed response"></div>
+:::
+
+::: {}
+<span class="field-label">What uncertainty remains?</span>
+<div class="write-lines" aria-label="Writing space: remaining uncertainty"></div>
+:::
+:::
+
+## 12. Final take-home card
+
+::: {.workbook-sheet}
+### My tested teaching-pressure sequence
+
+**For students who are:** ________________________________________________________
+
+**Learning to:** _________________________________________________________________
+
+**AI may let students skip:** ____________________________________________________
+
+**My student-facing prompt is:**
+
+<div class="write-lines" aria-label="Writing space: final friction"></div>
+
+**I will look for this evidence:**
+
+<div class="write-lines short" aria-label="Writing space: final evidence"></div>
+
+**I will protect access and safety by:**
+
+<div class="write-lines short" aria-label="Writing space: final safeguard"></div>
+
+**I will let them continue or add support when:**
+
+<div class="write-lines short" aria-label="Writing space: final release"></div>
+
+**The revision I can defend from the micro-test is:**
+
+<div class="write-lines short" aria-label="Writing space: defensible revision"></div>
+:::
+
+## 13. Handoff checklist
+
+Before you leave, confirm that your artifact chain includes:
+
+::: {.checklist}
+- a short, privacy-safe AI incident;
+- a named thinking move;
+- a continuous Oracle episode from one sustained issue, with one consequential moment marked;
+- a private owner reading plus a prepared-question and open partner—or equal supplied/solo—reading;
+- an owner correction or veto and one careful content-free note;
+- an owner-approved New-area card—or evidence-based “nothing new here”;
+- a content-free room-map contribution, “nothing new,” or an explicit pass;
+- an explicit expert-to-beginner support problem;
+- a choice of where and how teaching pressure enters;
+- one student-facing teaching prompt;
+- observable evidence of student thinking;
+- an access route and a clear end point; and
+- a revision supported by partner-test evidence.
+:::
+
+**One sentence I will carry into my first teaching assignment:**
+
+::: {.workbook-sheet}
+<div class="write-lines short" aria-label="Writing space: final takeaway"></div>
+:::

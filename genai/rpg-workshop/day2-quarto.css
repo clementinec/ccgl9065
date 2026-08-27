@@ -1,0 +1,540 @@
+/* Day 2 — plain, white Quarto presentation layer.
+   workshop.css keeps the component geometry; day1-quarto.css supplies the
+   shared white reset. This file gives Day 2 its own title and quieter working
+   surfaces, plus the activity layouts introduced in the simplified deck. */
+
+:root {
+  --day2-text: #17191c;
+  --day2-muted: #555d66;
+  --day2-line: #d7dbe0;
+  --day2-soft: #f5f6f7;
+  --day2-accent: #b54708;
+  --day2-red: #bd431c;
+  --day2-blue: #245ea8;
+  --day2-green: #287a55;
+  --day2-purple: #6c4a83;
+}
+
+.reveal #title-slide::before {
+  content: "DAY 2 · FROM EXPERIENCE TO TEACHING DESIGN";
+}
+
+.reveal section[data-background-color="#1a1a2e"],
+.reveal section[data-background-color="#1a1a2e"] h2,
+.reveal .on-dark,
+.reveal .hero-prompt,
+.reveal .break-copy {
+  color: var(--day2-text) !important;
+  background: #fff !important;
+}
+
+.reveal .day2-agenda {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0.35em 0 0;
+  background: var(--day2-line);
+  border: 1px solid var(--day2-line);
+}
+
+.reveal .day2-agenda > div {
+  position: relative;
+  min-height: 138px;
+  padding: 44px 18px 18px;
+  background: #fff;
+}
+
+.reveal .day2-agenda > div:last-child {
+  grid-column: span 2;
+}
+
+.reveal .day2-agenda > div::before {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  color: var(--day2-accent);
+  content: attr(data-time);
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.36em;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+}
+
+.reveal .day2-agenda b,
+.reveal .day2-agenda span {
+  display: block;
+}
+
+.reveal .hero-prompt {
+  max-width: none;
+  margin: 0.15em 0 0.45em;
+  color: var(--day2-text) !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.67em;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.reveal .hero-prompt strong {
+  display: block;
+  max-width: 28ch;
+  margin-top: 10px;
+  color: var(--day2-text);
+  font-size: 1.28em;
+  line-height: 1.16;
+}
+
+.reveal #activity-1-remember-the-experience .prediction-line > div {
+  min-height: 140px;
+}
+
+.reveal .day2-agenda b {
+  margin-bottom: 7px;
+  color: var(--day2-text);
+  font-size: 0.53em;
+}
+
+.reveal .day2-agenda span {
+  color: var(--day2-muted);
+  font-size: 0.43em;
+  line-height: 1.3;
+}
+
+/* Quiet containers: geometry remains visible without poster-like fills. */
+.reveal .prediction-line,
+.reveal .choice-lanes,
+.reveal .scope-ruler,
+.reveal .do-dont-grid,
+.reveal .protocol-timeline,
+.reveal .arc-line,
+.reveal .code-ribbon,
+.reveal .extension-map,
+.reveal .harvest-board,
+.reveal .friction-triad,
+.reveal .mode-spectrum,
+.reveal .five-tests,
+.reveal .transfer-bridge,
+.reveal .alignment-rail,
+.reveal .friction-card-workbench,
+.reveal .self-test-grid,
+.reveal .pair-contract,
+.reveal .stress-deck,
+.reveal .cycle-timeline,
+.reveal .debrief-stems,
+.reveal .exit-artifact,
+.reveal .output-checklist {
+  background: var(--day2-line);
+  border-color: var(--day2-line);
+  box-shadow: none;
+}
+
+.reveal .prediction-line > div,
+.reveal .choice-lane,
+.reveal .scope-mark,
+.reveal .do-column,
+.reveal .dont-column,
+.reveal .protocol-step,
+.reveal .arc-node,
+.reveal .code-ribbon .code,
+.reveal .extension-zone,
+.reveal .harvest-column,
+.reveal .friction-type,
+.reveal .mode-spectrum > div,
+.reveal .test-item,
+.reveal .transfer-side,
+.reveal .bridge-gap,
+.reveal .alignment-station,
+.reveal .card-field,
+.reveal .self-test-grid > div,
+.reveal .pair-role,
+.reveal .stress-card,
+.reveal .cycle-timeline > div,
+.reveal .debrief-stems span,
+.reveal .exit-artifact > div,
+.reveal .output-checklist > div {
+  color: var(--day2-text);
+  background: #fff;
+  border-color: var(--day2-line);
+  box-shadow: none;
+}
+
+.reveal .field-label,
+.reveal .column-label,
+.reveal .protocol-order,
+.reveal .arc-node span,
+.reveal .extension-zone b,
+.reveal .harvest-label,
+.reveal .friction-number,
+.reveal .mode-name,
+.reveal .transfer-label,
+.reveal .gap-label,
+.reveal .station-number,
+.reveal .card-field b,
+.reveal .cycle-order,
+.reveal .role-name,
+.reveal .river-label {
+  color: var(--day2-accent);
+}
+
+.reveal .choice-letter,
+.reveal .choice-lane:nth-child(n) .choice-letter,
+.reveal .agreement-mark,
+.reveal .field-number,
+.reveal .stress-symbol,
+.reveal .exit-number {
+  color: #fff;
+  background: var(--day2-accent);
+}
+
+.reveal .transcript-sheet,
+.reveal .share-envelope,
+.reveal .agreement-board,
+.reveal .annotation-line {
+  color: var(--day2-text);
+  background: #fff;
+  border-color: var(--day2-line);
+  box-shadow: none;
+}
+
+.reveal .transcript-meta,
+.reveal .envelope-top {
+  color: var(--day2-text);
+  background: var(--day2-soft);
+  border-bottom: 1px solid var(--day2-line);
+}
+
+.reveal .transcript-meta span + span,
+.reveal .transcript-sheet .turn,
+.reveal .envelope-item,
+.reveal .agreement-row,
+.reveal .annotation-line span {
+  border-color: var(--day2-line);
+}
+
+.reveal .transcript-sheet .turn.oracle {
+  background: #f4f7fa;
+}
+
+.reveal .transcript-sheet .turn.researcher {
+  border-left-color: var(--day2-accent);
+}
+
+.reveal .callout-strip,
+.reveal .rights-banner,
+.reveal .activity-prompt,
+.reveal .write-prompt,
+.reveal .coding-instruction,
+.reveal .micro-instruction,
+.reveal .rewrite-instruction,
+.reveal .definition-strip,
+.reveal .precision-note,
+.reveal .center-statement {
+  color: var(--day2-text);
+  background: var(--day2-soft);
+  border-left-color: var(--day2-accent);
+}
+
+.reveal .rights-banner {
+  background: #f2f7f4;
+  border-left-color: var(--day2-green);
+}
+
+.reveal .precision-note {
+  background: #fff7f3;
+  border-left-color: var(--day2-red);
+}
+
+.reveal .definition-strip {
+  background: #fff7f3;
+  border-left-color: var(--day2-accent);
+}
+
+.reveal .code-ribbon .code b,
+.reveal .code-ribbon .code-c b,
+.reveal .code-ribbon .code-r b,
+.reveal .code-ribbon .code-x b,
+.reveal .code-ribbon .code-m b,
+.reveal .code-ribbon .code-star b {
+  color: #fff;
+  background: var(--day2-accent);
+}
+
+.reveal .code-ribbon .code-star b {
+  color: var(--day2-text);
+  background: #f0c84b;
+}
+
+.reveal .mode-spectrum > div,
+.reveal .friction-type,
+.reveal .card-field {
+  border-top: 4px solid var(--day2-line);
+}
+
+.reveal .mode-stop,
+.reveal .system-friction,
+.reveal .field-shortcut {
+  border-top-color: var(--day2-red);
+}
+
+.reveal .mode-soft,
+.reveal .field-target {
+  border-top-color: var(--day2-accent);
+}
+
+.reveal .mode-slow,
+.reveal .field-evidence {
+  border-top-color: var(--day2-blue);
+}
+
+.reveal .mode-open,
+.reveal .cognitive-friction,
+.reveal .field-release {
+  border-top-color: var(--day2-green);
+}
+
+.reveal .obstructive-friction,
+.reveal .field-friction,
+.reveal .field-safe {
+  border-top-color: var(--day2-purple);
+}
+
+.reveal .pressure-move-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--day2-line);
+  border: 1px solid var(--day2-line);
+}
+
+.reveal .pressure-move-grid > div {
+  min-height: 155px;
+  padding: 23px;
+  background: #fff;
+  border-top: 4px solid var(--day2-accent);
+}
+
+.reveal .pressure-move-grid b,
+.reveal .pressure-move-grid span {
+  display: block;
+}
+
+.reveal .pressure-move-grid b {
+  margin-bottom: 13px;
+  color: var(--day2-accent);
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.43em;
+}
+
+.reveal .pressure-move-grid span {
+  color: var(--day2-text);
+  font-size: 0.54em;
+  line-height: 1.35;
+}
+
+.reveal .framework-rule {
+  color: var(--day2-text);
+  background: var(--day2-soft);
+  border-top: 1px solid var(--day2-line);
+  border-bottom: 1px solid var(--day2-line);
+}
+
+.reveal .rule-before,
+.reveal .rule-after,
+.reveal .rule-content.strong {
+  color: var(--day2-accent);
+}
+
+.reveal .test-item b {
+  color: var(--day2-accent);
+  background: var(--day2-soft);
+  border: 1px solid var(--day2-line);
+}
+
+.reveal .bridge-gap {
+  background: var(--day2-soft);
+}
+
+.reveal .bridge-gap > span:not(.gap-label) {
+  background: #fff;
+  border: 1px solid var(--day2-line);
+}
+
+.reveal .plain-sequence {
+  display: grid;
+  grid-template-columns: 1fr 34px 1fr 34px 1fr 34px 1fr 34px 1fr;
+  align-items: stretch;
+  gap: 0;
+  border-top: 1px solid var(--day2-line);
+  border-bottom: 1px solid var(--day2-line);
+}
+
+.reveal .plain-sequence > div:not(.plain-arrow) {
+  min-height: 230px;
+  padding: 25px 20px;
+  background: #fff;
+  border-top: 5px solid var(--day2-accent);
+}
+
+.reveal .plain-sequence b,
+.reveal .plain-sequence span {
+  display: block;
+}
+
+.reveal .plain-sequence b {
+  color: var(--day2-accent);
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.39em;
+  line-height: 1.25;
+}
+
+.reveal .plain-sequence span {
+  margin-top: 22px;
+  color: var(--day2-text);
+  font-size: 0.51em;
+  line-height: 1.35;
+}
+
+.reveal .plain-arrow {
+  display: grid;
+  place-items: center;
+  color: var(--day2-muted);
+  font-size: 0.8em;
+}
+
+.reveal .worked-example {
+  border: 1px solid var(--day2-line);
+  border-top: 5px solid var(--day2-accent);
+}
+
+.reveal .worked-example-row {
+  display: grid;
+  grid-template-columns: 330px 1fr;
+  min-height: 82px;
+  align-items: center;
+  border-bottom: 1px solid var(--day2-line);
+}
+
+.reveal .worked-example-row:last-child {
+  border-bottom: 0;
+}
+
+.reveal .worked-example-row b,
+.reveal .worked-example-row span {
+  padding: 15px 20px;
+}
+
+.reveal .worked-example-row b {
+  color: var(--day2-accent);
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.4em;
+}
+
+.reveal .worked-example-row span {
+  color: var(--day2-text);
+  font-size: 0.56em;
+  line-height: 1.35;
+}
+
+.reveal .worked-example-row.prompt-row {
+  background: #fff7f3;
+}
+
+.reveal .discipline-examples {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--day2-line);
+  border: 1px solid var(--day2-line);
+}
+
+.reveal .discipline-examples > div {
+  min-height: 360px;
+  padding: 24px;
+  background: #fff;
+  border-top: 5px solid var(--day2-accent);
+}
+
+.reveal .discipline-examples b,
+.reveal .discipline-examples span {
+  display: block;
+}
+
+.reveal .discipline-examples b {
+  color: var(--day2-accent);
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.44em;
+}
+
+.reveal .example-target {
+  margin: 18px 0;
+  color: var(--day2-text);
+  font-size: 0.58em;
+  font-weight: 700;
+}
+
+.reveal .example-prompt {
+  padding: 14px 0;
+  color: var(--day2-text);
+  border-top: 1px solid var(--day2-line);
+  border-bottom: 1px solid var(--day2-line);
+  font-size: 0.52em;
+  line-height: 1.35;
+}
+
+.reveal .example-release {
+  margin-top: 15px;
+  color: var(--day2-muted);
+  font-size: 0.44em;
+  line-height: 1.35;
+}
+
+.reveal .break-mark {
+  color: var(--day2-accent);
+}
+
+.reveal .break-copy {
+  max-width: 30ch;
+  color: var(--day2-muted) !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.72em;
+  line-height: 1.45;
+}
+
+.reveal .repair-chain {
+  color: var(--day2-text);
+  background: var(--day2-soft);
+  border: 1px solid var(--day2-line);
+}
+
+.reveal .repair-chain .chain-link {
+  color: var(--day2-accent);
+}
+
+.reveal .pair-swap {
+  color: var(--day2-accent);
+  background: var(--day2-soft);
+}
+
+.reveal .central-sequence[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 1000px), (max-height: 760px) {
+  .reveal .day2-agenda > div {
+    min-height: 115px;
+  }
+
+  .reveal .discipline-examples > div {
+    min-height: 300px;
+  }
+}
+
+@media print {
+  .reveal .day2-agenda > div,
+  .reveal .pressure-move-grid > div,
+  .reveal .worked-example,
+  .reveal .discipline-examples > div {
+    break-inside: avoid;
+    background: #fff !important;
+  }
+}
