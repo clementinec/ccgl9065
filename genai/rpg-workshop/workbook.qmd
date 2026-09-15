@@ -12,18 +12,20 @@ format:
 ---
 
 ::: {.workshop-kicker}
-One chain · four artifacts · two workshop days
+One chain · private reflection · two new trials · two readings
 :::
 
-Use this workbook to keep the evidence connected. Start with one small, privacy-safe incident. Carry it through a sustained Oracle pressure sequence, the friction analysis, the teaching design, and two rounds of testing.
+Use this workbook to keep the evidence connected. Start with one small, privacy-safe incident. Reflect privately on receiving sustained Oracle pressure, then design two new LLM questioning trials, exchange only their bounded transcripts, and compare an owner reading with an independent partner reading.
 
 ::: {.privacy-notice}
-**Keep protected material out of this workbook if it will be shared or printed.** Use a fictional case, placeholders, or a sanitised description. Never include names, identifiers, access-controlled data, confidential quotations, or unpublished values that matter to your research claim.
+**Keep protected material out of this workbook if it will be shared or printed.** Use a fictional case, placeholders, or a sanitized description. Never include names, identifiers, access-controlled data, confidential quotations, or unpublished values that matter to your research claim.
 :::
 
 **Day 1 route:** ☐ authorized privacy-safe PDF &nbsp;&nbsp; ☐ [fictional sample PDF](assets/supplied-hybrid-studio-case.pdf) &nbsp;&nbsp; ☐ cached sample trace &nbsp;&nbsp; ☐ offline peer Oracle
 
-**Day 2 route:** ☐ short redacted episode &nbsp;&nbsp; ☐ content-free description &nbsp;&nbsp; ☐ supplied transcript &nbsp;&nbsp; ☐ solo reading
+**Day 2 reflection route:** ☐ private memory/note &nbsp;&nbsp; ☐ supplied transcript &nbsp;&nbsp; ☐ pass
+
+**Day 2 test-source route:** ☐ public/sanitized excerpt &nbsp;&nbsp; ☐ abstracted/disposable excerpt &nbsp;&nbsp; ☐ supplied paragraph
 
 **Artifact ID or short name:** ________________________________________________
 
@@ -44,16 +46,16 @@ What intellectual operation did AI perform, transform, or conceal?
 How did you respond while one machine-selected issue stayed under pressure?
 :::
 
-::: {data-step="03 · Design"}
-### Place the friction
+::: {data-step="03 · Atlas"}
+### Design two trials
 
-What should interrupt the shortcut, and what must the learner do?
+Which two areas matter, and which questioning technique and aim will guide each trial?
 :::
 
-::: {data-step="04 · Test"}
-### Revise from evidence
+::: {data-step="04 · Compare"}
+### Compare two readings
 
-What happened when another person encountered the sequence?
+What did the owner experience, what did the partner independently observe, and what still needs testing?
 :::
 :::
 
@@ -258,9 +260,9 @@ What would make you ask for simpler wording, reject the premise, or stop?
 
 If mapping, opening, microphone, or model setup fails, use the cached [sample transcript](sample-transcript.html) or the offline peer route. Do not improvise with a sensitive document in another service.
 
-## 4. Save one short Oracle episode
+## 4. Save one private Oracle episode
 
-Keep the full downloaded JSON private. For Day 2, select only the shortest **continuous** episode in which one issue made you explain, change, resist, or stop. Include enough adjacent turns to show how a follow-up used your answer. Day 2 will introduce the coding system; you do not need it today.
+Keep the full downloaded JSON private. For your own Day 2 reflection, you may mark the shortest **continuous** episode in which one issue made you explain, change, resist, or stop. Include enough adjacent turns to remember how a follow-up used your answer. This Day 1 trace remains private and is not the partner-exchange artifact.
 
 ::: {.workbook-sheet}
 ### Excerpt ledger
@@ -276,7 +278,7 @@ For each turn, capture a short quotation or faithful paraphrase. Mark whether yo
 | 5 | Oracle / displayed |  |  |
 | 6 | Me / voice-edited or typed |  |  |
 
-**The turn worth carrying into Day 2 is turn:** ______
+**The turn worth privately remembering on Day 2 is turn:** ______
 
 **It matters because:**
 
@@ -285,7 +287,7 @@ For each turn, capture a short quotation or faithful paraphrase. Mark whether yo
 **Operational ending:** ☐ system stopping point &nbsp;&nbsp; ☐ I ended the session &nbsp;&nbsp; ☐ service failed / fallback used
 :::
 
-Use the [fictional sample transcript](sample-transcript.html) if you need a model for selecting a continuous episode. Do not decide whether the Oracle was simply “good” or “bad”; mark what the questioning made you do.
+Use the [fictional sample transcript](sample-transcript.html) as an equal private-reflection route. Do not decide whether the Oracle was simply “good” or “bad”; mark what the questioning made you do. Do not exchange the Day 1 trace or this supplied trace with a partner.
 
 ## 5. Day 1 bridge
 
@@ -302,371 +304,350 @@ Complete all three lines:
    <div class="write-lines short" aria-label="Writing space: Day 2 test"></div>
 :::
 
-# Day 2 · Read, design, and test
+# Day 2 · Build, test, and compare
 
-## 6. Read one short episode with a partner
-
-Treat the episode as shared evidence—not as a proposal your partner must judge. The owner controls the context, corrections, and what may be repeated. The supplied and solo routes do the same intellectual work and are equal options.
+Begin as a learner reflecting privately, shift into the teacher-designer role, run two new conversations as a learner, then become a peer examiner and co-researcher. The LLM—not the learner—generates and adapts the Socratic questions from the two techniques and aims you select.
 
 ::: {.privacy-notice}
-**Exchange boundary:** no full transcript or downloaded JSON; no screenshots, copies, links, forwarding, note-taking of research details, or retention after the activity. The owner may correct, narrow, veto, or end any reading without explanation.
+**Day 2 boundary:** the Day 1 Oracle trace and owner reflection remain private. Use only a public, sanitized, disposable, abstracted, or supplied excerpt in an external LLM. Exchange only a bounded, redacted transcript newly created during Day 2—not the source, full chat, account link, or private owner judgment. The owner may correct, veto, stop, or change routes at any point.
 :::
 
-### A · Write your own reading first
+## 6. Return privately to the Oracle experience
 
-Complete this before showing or describing anything. This page remains private unless you choose otherwise.
+### Write from memory or the supplied route
 
 ::: {.field-grid}
 ::: {}
-<span class="field-label">Useful pressure</span>
+<span class="field-label">The issue</span>
 
-What question, pause, contrast, or correction made important thinking visible?
+What issue kept returning?
 
-<div class="write-lines" aria-label="Writing space: owner's meaningful friction reflection"></div>
+<div class="write-lines short" aria-label="Writing space: issue that kept returning"></div>
 :::
 
 ::: {}
-<span class="field-label">Pressure that failed or got in the way</span>
+<span class="field-label">The pressure</span>
 
-Where did wording, interface, prior knowledge, anxiety, or a false premise block the intended thinking?
+What were you asked to explain?
 
-<div class="write-lines" aria-label="Writing space: owner's failed friction reflection"></div>
+<div class="write-lines short" aria-label="Writing space: pressure received"></div>
+:::
+
+::: {}
+<span class="field-label">My reasoning move</span>
+
+What did you defend, compare, revise, narrow, or refuse?
+
+<div class="write-lines short" aria-label="Writing space: reasoning move"></div>
+:::
+
+::: {}
+<span class="field-label">The result</span>
+
+Useful, costly, off target, or no change? Why?
+
+<div class="write-lines short" aria-label="Writing space: result of pressure"></div>
 :::
 :::
 
-**I permit a partner to:** ☐ view my short excerpt on my device/paper &nbsp;&nbsp; ☐ hear only a content-free pattern &nbsp;&nbsp; ☐ use the supplied episode with me &nbsp;&nbsp; ☐ nothing; I will work solo
+**Private route:** ☐ memory/private note &nbsp;&nbsp; ☐ supplied episode &nbsp;&nbsp; ☐ pass
 
-**Out of scope even if it appears in the excerpt:** ______________________________________________
+::: {.privacy-notice}
+Close the Day 1 trace before continuing. Do not hand it to a partner, copy it into the Day 2 LLM, or treat it as the Day 2 exchange artifact. Its only job here is to help you remember the receiving experience.
+:::
 
-### B · Partner's first pass: use the prepared questions
+## 7. Map and rank the areas
 
-Your partner points to a turn or visible app feature before adding a workshop mark.
+These eight areas are shared assessment lenses, not verdicts or a finished grading rubric.
 
-| Turn / feature | C / R / X / M / ★ | Evidence for the code | What changed—or failed to change? |
-|---|:---:|---|---|
-|  |  |  |  |
-|  |  |  |  |
-
-### C · Partner's second pass: set the labels aside
-
-Now set the letter key aside. In your own words, name one pattern the episode suggests—or something our prepared questions missed.
-
-**Provisional pattern name:** _____________________________________________________
-
-**Turn / feature that prompted it:** ______________________________________________
-
-**What this pattern may mean—and what remains uncertain:**
-
-<div class="write-lines short" aria-label="Writing space: inductive peer reading"></div>
-
-### D · Owner checks and corrects the reading
-
-The owner responds after both passes. Correcting a reading is not defensiveness; it is part of making the interpretation trustworthy.
+| Area | Plain question | My likely teaching |
+|---|---|:---:|
+| **Claim + evidence** | Does the support fit the claim? | ☐ |
+| **Logic + assumptions** | Why does one point lead to the next? | ☐ |
+| **Research method + design** | Why this approach rather than another? | ☐ |
+| **Interpretation + alternatives** | What else could explain or frame the material? | ☐ |
+| **Concept + measure** | Does the indicator capture the idea? | ☐ |
+| **Scope + limits** | Where does the claim stop applying? | ☐ |
+| **Perspective + position** | Whose standpoint shapes—or is missing from—the account? | ☐ |
+| **Stakes + trade-offs** | Who or what changes, and at what cost? | ☐ |
 
 ::: {.workbook-sheet}
-**This reading fits because:** ____________________________________________________
+**My #1:** ______________________________________________________________________
 
-**This needs correction or missing context:** _____________________________________
+**My #2:** ______________________________________________________________________
 
-**I veto this interpretation or its further use:** _________________________________
+**My #3:** ______________________________________________________________________
 
-**Reading retained as unresolved disagreement:** __________________________________
+**The cohort top three:** ________________________________________________________
+
+**An area the eight may have missed:** ___________________________________________
 :::
 
-### E · Name what our questions missed
+Rank using both questions: how consequential would weak reasoning be, and how easily could polished AI output hide it? Rank for the teaching you expect to do—not for every discipline.
 
-Compare the corrected partner reading with our prepared interaction questions, reasoning questions, and C/R/X/M/★ marks. Do not force novelty: write **nothing new here** if those questions already explain the evidence.
+## 8. Choose a safe source for the Day 2 runs
+
+**Text route:** ☐ my public/sanitized paragraph &nbsp;&nbsp; ☐ supplied paragraph &nbsp;&nbsp; ☐ abstracted version
+
+::: {.privacy-notice}
+Do not paste confidential, identifiable, restricted, collaborator-owned, or valuable unpublished material into an external LLM. If authorization is uncertain, use the supplied paragraph.
+:::
 
 ::: {.workbook-sheet}
-**Our prepared questions and C/R/X/M/★ marks already explain:**
+### My test paragraph or short safe description
 
-<div class="write-lines short" aria-label="Writing space: what existing lenses explain"></div>
+<div class="write-lines tall" aria-label="Writing space: safe test paragraph"></div>
 
-**They do not yet name this owner-approved new area:**
-
-<div class="write-lines short" aria-label="Writing space: additional area surfaced through use"></div>
-
-**Evidence anchor—turn, app feature, or receiving moment:** ________________________
-
-**Relationship:** ☐ extends one question &nbsp;&nbsp; ☐ connects several &nbsp;&nbsp; ☐ outside our questions &nbsp;&nbsp; ☐ nothing new
-
-**What enabled it or made it costly:** ____________________________________________
-
-**A content-free question for future examination:**
-
-<div class="write-lines short" aria-label="Writing space: future examination question"></div>
-
-**Observable indicator:** ____________________ **Boundary / counter-example:** ____________________
+**What kind of paragraph is this?** ______________________________________________
 :::
 
-### F · Write one careful note together
+### Supplied fictional paragraph
 
-Write together without copying research content.
+> Hybrid studios improve first-year students' confidence in design critique. Tutors report that quieter students contribute more often online, and several students say the annotation tool gives them time to prepare a response. The study will use interviews and beginning- and end-of-semester confidence surveys to show that the hybrid format caused the improvement. These findings will support making hybrid critique the standard format across first-year studios.
+
+This is synthetic workshop material, not an observed student paragraph.
+
+Open the [Day 2 lab page](day2-lab.html) for a clean copy of this paragraph, the technique menus, and the complete two-run prompt.
+
+## 9. Build the two-area brief
+
+Choose the **area**, **questioning technique**, and **pedagogical aim**. You do not write the questions you will answer; the LLM generates them from the source and adapts each follow-up to your preceding response.
 
 ::: {.workbook-sheet}
-**The pressure helped the thinking when** _________________________________________
+### Area A · Cohort priority
 
-**It failed or got in the way when** ______________________________________________
+Choose one area from the cohort's top three.
 
-**Our evidence is turn / feature** ______ **where the reasoning became visible as**
+**Area:** _______________________________________________________________________
 
-<div class="write-lines short" aria-label="Writing space: joint evidence memo"></div>
+**Questioning technique:** _______________________________________________________
 
-**One disagreement or uncertainty we are retaining:**
+**Pedagogical aim · This may help the learner…**
 
-<div class="write-lines short" aria-label="Writing space: retained disagreement"></div>
+<div class="write-lines short" aria-label="Writing space: Area A pedagogical aim"></div>
 
-**New-area card approved by the owner—or “nothing new here”:**
-
-<div class="write-lines short" aria-label="Writing space: approved additional area"></div>
+**Stop, adapt, or contest when:** __________________________________________________
 :::
-
-### G · Room map contribution
-
-Contribute only an owner-approved, content-free new area—never a quotation, filename, topic, person, or research detail. Passing and “nothing new” are welcome. Supplied and solo-route readings count equally.
-
-| New-area name | Content-free definition | Extends / connects / outside | What we could observe | Limit / counterexample |
-|---|---|:---:|---|---|
-|  |  |  |  |  |
-
-**Diagnostic test:** If the student struggles, will that show something about the target thinking—or only that the instructions, interface, or access route were difficult?
-
-## 7. What worked for an expert may not work for a beginner
 
 ::: {.workbook-sheet}
-### Make the hidden difference visible
+### Area B · Personal or disciplinary wildcard
 
-**An expert in my field sees or does:**
+Choose an area different from Area A that you believe deserves testing in your likely teaching. It may be inside or outside the cohort top three.
 
-<div class="write-lines short" aria-label="Writing space: expert move"></div>
+**Area:** _______________________________________________________________________
 
-**A beginner is likely to see or do instead:**
+**Questioning technique:** _______________________________________________________
 
-<div class="write-lines short" aria-label="Writing space: novice move"></div>
+**Pedagogical aim · This may help the learner…**
 
-**The smallest consequential difference is:**
+<div class="write-lines short" aria-label="Writing space: Area B pedagogical aim"></div>
 
-<div class="write-lines short" aria-label="Writing space: consequential difference"></div>
-
-**I can make that difference observable by asking the student to produce:**
-
-<div class="write-lines short" aria-label="Writing space: observable evidence"></div>
+**Stop, adapt, or contest when:** __________________________________________________
 :::
-
-## 8. Choose where and how the pressure enters
-
-Pressure is a short checkpoint—not extra difficulty everywhere. Start by deciding where student judgment would otherwise disappear.
 
 ::: {.workbook-sheet}
-### Where?
+### Optional extension · Area C
 
-☐ **Before AI** — predict, interpret, choose, or try first  
-☐ **While using AI** — compare, question, verify, or annotate  
-☐ **After AI** — defend, revise, test, or transfer  
-☐ **Nowhere** — the skipped work is not part of this learning goal
+**Optional extension — skip without loss if time is short.** Complete a third area only after both core runs, independent partner reading, comparison, and re-ranking. Nothing in the core workflow depends on it.
 
-**I chose this location because:**
-
-<div class="write-lines short" aria-label="Writing space: reason for pressure location"></div>
-
-### How?
-
-Choose one main move: ☐ predict &nbsp; ☐ choose &nbsp; ☐ point to evidence &nbsp; ☐ compare &nbsp; ☐ test &nbsp; ☐ revise / transfer
-
-**The exact question or instruction students will receive:**
-
-<div class="write-lines" aria-label="Writing space: learner-facing pressure prompt"></div>
-
-**The visible sign of thinking I will look for:**
-
-<div class="write-lines short" aria-label="Writing space: visible sign of target thinking"></div>
+**Area + technique + aim:** _______________________________________________________
 :::
 
-## 9. Teaching-checkpoint card
+## 10. Let the LLM generate and adapt the questions
 
-Build one short sequence. The checkpoint must have an end: once the student shows the target thinking, let them continue or add the support they need.
+Use the copy-ready prompt on the [Day 2 lab page](day2-lab.html). Keep these roles distinct:
 
-::: {.design-grid}
-::: {}
-<span class="field-label">1 · Students need to</span>
+| Role | Responsibility |
+|---|---|
+| **Teacher-designer** | Select the area, questioning technique, and pedagogical aim. |
+| **LLM questioner** | Generate one source-grounded question, wait, then adapt the next question to the learner's actual answer. |
+| **Learner** | Answer in their own words and question, correct, or reject a false premise. |
 
-What exact thinking should the student practice—not merely know about?
+The prompt must tell the LLM to ask one question at a time, avoid rewriting or grading, continue for up to five question–answer exchanges, and stop earlier when the learner chooses or pressure would merely repeat. When the learner types **STOP**, the LLM gives only three descriptive bullets: reasoning the learner stated, something unresolved, and one exact response worth revisiting. The LLM does not judge whether the questioning worked.
 
-<div class="write-lines" aria-label="Writing space: learning move"></div>
-:::
-
-::: {}
-<span class="field-label">2 · AI may let them skip</span>
-
-What might AI, prior habit, or the task format allow the student to skip?
-
-<div class="write-lines" aria-label="Writing space: shortcut"></div>
-:::
-
-::: {}
-<span class="field-label">3 · I will ask them to</span>
-
-What one prompt, comparison, choice, test, or revision will make the thinking visible?
-
-<div class="write-lines" aria-label="Writing space: friction"></div>
-:::
-
-::: {}
-<span class="field-label">4 · I will look for</span>
-
-What visible or audible student action will show the thinking?
-
-<div class="write-lines" aria-label="Writing space: evidence"></div>
-:::
-
-::: {}
-<span class="field-label">5 · Students may</span>
-
-How will you prevent exposure, exclusion, overload, or irrelevant penalty?
-
-<div class="write-lines" aria-label="Writing space: safeguard"></div>
-:::
-
-::: {}
-<span class="field-label">6 · Then I will</span>
-
-What condition ends the checkpoint or adds support? What happens next?
-
-<div class="write-lines" aria-label="Writing space: release"></div>
-:::
-:::
-
-## 10. Plan what the student experiences
-
-::: {.workbook-sheet}
-### Before → checkpoint → evidence → next step
-
-| Step | What the student encounters | What the student must do | What the teacher watches for |
-|---|---|---|---|
-| **Before** |  |  |  |
-| **Checkpoint introduced** |  |  |  |
-| **Reasoning made visible** |  |  |  |
-| **Feedback or support** |  |  |  |
-| **Continue / support / next move** |  |  |  |
-
-**What observable condition moves this sequence forward?**
-
-<div class="write-lines short" aria-label="Writing space: transition condition"></div>
-
-**The sequence would be misaligned if:**
-
-<div class="write-lines short" aria-label="Writing space: misalignment condition"></div>
-:::
-
-## 11. Try the prompt with a partner
-
-Work with a partner. Do not explain your intention before the first test. This is a test of the teaching prompt, not a continuation of the transcript exchange: do not carry another participant's research content into the rehearsal, and do not record or forward the test.
-
-### Round 1
-
-**Teacher:** present only the student-facing prompt.  
-**Student / tester:** respond as a plausible beginner and think aloud.  
-**Observer, if present:** record words and actions—not guessed feelings.  
-**Discuss:** compare the thinking you wanted with what became visible.
-
-::: {.field-grid}
-::: {}
-<span class="field-label">Observed evidence</span>
-
-What did the tester say, choose, write, compare, or revise?
-
-<div class="write-lines" aria-label="Writing space: observed evidence"></div>
-:::
-
-::: {}
-<span class="field-label">Breakdown</span>
-
-Where did they hesitate? Was that hesitation about the target reasoning?
-
-<div class="write-lines" aria-label="Writing space: breakdown"></div>
-:::
-:::
-
-### Revision between rounds
-
-::: {.workbook-sheet}
-**Retain:** ______________________________________________________________________
-
-**Change:** ______________________________________________________________________
-
-**Remove:** ______________________________________________________________________
-
-**My reason, tied to Round 1 evidence:**
-
-<div class="write-lines short" aria-label="Writing space: revision rationale"></div>
-:::
-
-### Round 2
-
-Repeat with the revised version and, if possible, a different tester.
-
-::: {.field-grid}
-::: {}
-<span class="field-label">What changed in the student response?</span>
-<div class="write-lines" aria-label="Writing space: changed response"></div>
-:::
-
-::: {}
-<span class="field-label">What uncertainty remains?</span>
-<div class="write-lines" aria-label="Writing space: remaining uncertainty"></div>
-:::
-:::
-
-## 12. Final take-home card
-
-::: {.workbook-sheet}
-### My tested teaching-pressure sequence
-
-**For students who are:** ________________________________________________________
-
-**Learning to:** _________________________________________________________________
-
-**AI may let students skip:** ____________________________________________________
-
-**My student-facing prompt is:**
-
-<div class="write-lines" aria-label="Writing space: final friction"></div>
-
-**I will look for this evidence:**
-
-<div class="write-lines short" aria-label="Writing space: final evidence"></div>
-
-**I will protect access and safety by:**
-
-<div class="write-lines short" aria-label="Writing space: final safeguard"></div>
-
-**I will let them continue or add support when:**
-
-<div class="write-lines short" aria-label="Writing space: final release"></div>
-
-**The revision I can defend from the micro-test is:**
-
-<div class="write-lines short" aria-label="Writing space: defensible revision"></div>
-:::
-
-## 13. Handoff checklist
-
-Before you leave, confirm that your artifact chain includes:
+### Pre-run check
 
 ::: {.checklist}
-- a short, privacy-safe AI incident;
-- a named thinking move;
-- a continuous Oracle episode from one sustained issue, with one consequential moment marked;
-- a private owner reading plus a prepared-question and open partner—or equal supplied/solo—reading;
-- an owner correction or veto and one careful content-free note;
-- an owner-approved New-area card—or evidence-based “nothing new here”;
-- a content-free room-map contribution, “nothing new,” or an explicit pass;
-- an explicit expert-to-beginner support problem;
-- a choice of where and how teaching pressure enters;
-- one student-facing teaching prompt;
-- observable evidence of student thinking;
-- an access route and a clear end point; and
-- a revision supported by partner-test evidence.
+- one cohort-priority area and one different personal or disciplinary wildcard are named;
+- each area has one questioning technique and a plain-language pedagogical aim;
+- the source is public, sanitized, disposable, abstracted, or supplied;
+- the LLM must generate the questions and use each preceding answer;
+- the LLM may not rewrite, solve, grade, or issue a verdict;
+- each area will run in its own fresh five-minute conversation; and
+- the learner can contest a premise or stop at any time.
+:::
+
+## 11. Run two separate five-minute conversations
+
+Use the same safe source and, where possible, the same LLM interface and model for both runs. Start a **fresh chat for each area**. Each run lasts five minutes and permits up to five question–answer exchanges; five is a ceiling, not a quota. Stop earlier if the aim is reached, the pressure repeats, or you want to contest or leave.
+
+1. Run **Area A** for five minutes, then type **STOP**.
+2. Privately record your first judgment.
+3. Start a new chat and run **Area B** for five minutes, then type **STOP**.
+4. Privately record your first judgment.
+
+| Run | Area + technique | Exchanges reached | Reasoning made visible | Misread, burden, repetition, or barrier |
+|---|---|:---:|---|---|
+| **A · Cohort priority** |  |  |  |  |
+| **B · Wildcard** |  |  |  |  |
+
+::: {.workbook-sheet}
+### Owner's private first judgment · Do not hand over yet
+
+**Run A was:** ☐ useful &nbsp;&nbsp; ☐ partly useful &nbsp;&nbsp; ☐ not useful &nbsp;&nbsp; ☐ unclear
+
+**Why, with one exact turn in mind:** _____________________________________________________________
+
+**Run B was:** ☐ useful &nbsp;&nbsp; ☐ partly useful &nbsp;&nbsp; ☐ not useful &nbsp;&nbsp; ☐ unclear
+
+**Why, with one exact turn in mind:** _____________________________________________________________
+:::
+
+## 12. Exchange the new transcripts; read independently
+
+Prepare one bounded packet for each **Day 2** run. Include only:
+
+- the area, questioning technique, and pedagogical aim;
+- the LLM questions and learner answers needed to show the interaction; and
+- the descriptive **STOP** recap, if useful.
+
+Do **not** include the Day 1 Oracle trace, full source, full chat, account link, or owner's private first judgment. Redact names, sites, sensitive details, and research content the partner does not need. A partner may read on the owner's device or use a temporary local/printed copy that is returned or deleted before leaving.
+
+Both partners exchange at the same time. Read before discussing.
+
+### Independent peer-examiner reading
+
+For each run, point to exact turns:
+
+| Question | Run A | Run B |
+|---|---|---|
+| Did the LLM enact the named technique? |  |  |
+| Did each follow-up use the learner's preceding answer? |  |  |
+| What constructive thinking became visible? |  |  |
+| What became clearer or remained unresolved? |  |  |
+| Where did pressure become generic, leading, repetitive, or costly? |  |  |
+| Did another area—or an area missing from the eight—emerge? |  |  |
+
+**One exact turn that anchors my reading:** ______________________________________________________
+
+Examine the questioning interaction, not the quality of the person or project. Do not ask the owner for their judgment until this independent reading is complete.
+
+## 13. Compare as co-researchers
+
+Only now does the owner reveal the private first judgment. For each run, compare:
+
+1. Where do the owner and partner readings agree?
+2. What did the partner see that the owner did not?
+3. What does the owner correct, contest, or veto about the partner's reading?
+4. Did the technique invite the intended thinking, different useful thinking, only more words, or no issue at all?
+5. What should be kept, changed, removed, or tested next?
+
+::: {.field-grid}
+::: {}
+<span class="field-label">One useful technique</span>
+
+Area + technique + intended thinking + transcript evidence.
+
+<div class="write-lines" aria-label="Writing space: useful questioning technique"></div>
+:::
+
+::: {}
+<span class="field-label">One informative failure</span>
+
+What failed, and what did the failure expose?
+
+<div class="write-lines" aria-label="Writing space: informative failure"></div>
+:::
+
+::: {}
+<span class="field-label">One next test</span>
+
+What can this small trial not establish?
+
+<div class="write-lines" aria-label="Writing space: next test"></div>
+:::
+:::
+
+Choose one next-test category: ☐ frequency &nbsp;&nbsp; ☐ transfer &nbsp;&nbsp; ☐ durability &nbsp;&nbsp; ☐ agency &nbsp;&nbsp; ☐ access/cost &nbsp;&nbsp; ☐ robustness
+
+::: {.workbook-sheet}
+### Joint co-research note
+
+**We asked the LLM to use** __________________________ **within** __________________________
+
+**to invite** ____________________________________________________________________
+
+**The owner experienced** _________________________________________________________
+
+**The independent reader noticed** ________________________________________________
+
+**Next time we would** ____________________________________________________________
+:::
+
+::: {.workbook-sheet}
+### Content-free room contribution
+
+**We observed** _________________________________________________________________
+
+**when this technique was used within** ___________________________________________
+
+**We now need to test** __________________________________________________________
+
+**because** ______________________________________________________________________
+:::
+
+### Re-rank
+
+**Area that now seems most consequential:** ______________________________________
+
+**Questioning technique that traveled best:** ____________________________________
+
+**What our first ranking missed:** _______________________________________________
+
+## 14. Carry one questioning design into teaching
+
+Today's LLM trial prototypes a pressure design; it does not prove student learning. Translate one result into a small teaching move that can later be tested with human learners.
+
+::: {.workbook-sheet}
+**At this teaching moment:** ______________________________________________________
+
+**Students need to reason about:** _______________________________________________
+
+**The assessment area I will watch is:**
+
+<div class="write-lines short" aria-label="Writing space: teaching assessment area"></div>
+
+**The questioning technique and pedagogical aim are:**
+
+<div class="write-lines short" aria-label="Writing space: teaching technique and aim"></div>
+
+**I will look for this visible reasoning:**
+
+<div class="write-lines short" aria-label="Writing space: teaching evidence"></div>
+
+**The learner may contest or use another route by:**
+
+<div class="write-lines short" aria-label="Writing space: access and agency"></div>
+
+**I will stop the pressure or add support when:**
+
+<div class="write-lines short" aria-label="Writing space: release and support"></div>
+:::
+
+## 15. Final check
+
+::: {.checklist}
+- a safe paragraph and a clear context;
+- one cohort-priority area and one different personal or disciplinary wildcard;
+- one questioning technique and pedagogical aim for each area;
+- two separate five-minute conversations, with up to five exchanges per area;
+- LLM-generated first questions and answer-grounded follow-ups;
+- evidence of reasoning, not only fluent wording;
+- the owner's first judgment recorded privately and withheld during partner reading;
+- an independent partner reading anchored in exact turns;
+- one useful technique and one informative failure;
+- one next test that names the limit of today's evidence; and
+- one safeguarded teaching translation with a clear release point.
 :::
 
 **One sentence I will carry into my first teaching assignment:**

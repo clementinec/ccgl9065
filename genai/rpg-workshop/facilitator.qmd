@@ -41,13 +41,13 @@ Keep these visible in your facilitation:
 - Ask the organizer which institutional policies govern external AI services and unpublished research.
 - Decide whether the live Oracle route is authorized. The sample/offline route must remain fully viable regardless.
 - Send the participant landing page, alternate-format note, and privacy baseline in advance. Name Lee and Kosmyna—with the Kosmyna methodological comment—as required. Name Fernandes and METR—with its 2026 update—as recommended.
-- Ask participants **not** to bring confidential files; suggest a sanitised incident or the fictional sample.
+- Ask participants **not** to bring confidential files; suggest a sanitized incident or the fictional sample.
 :::
 
 ### One day before
 
 ::: {.checklist}
-- Open and test [Day 1](day1.html), [Day 2](day2.html), and the [participant workbook](workbook.html) on the presentation machine.
+- Open and test [Day 1](day1.html), [Day 2](day2.html), the copy-ready [Day 2 lab page](day2-lab.html), and the [participant workbook](workbook.html) on the presentation machine.
 - Test the live [Socratic Oracle](https://socraticoracle.netlify.app) only with the fictional sample.
 - Re-read the live service disclosure and check the research-sharing control; on 11 August 2026 the live service made research sharing available and selected it by default. Do not rely on an earlier screenshot or assumption.
 - Confirm the visible startup sequence: PDF ready → choose Voice or Keyboard → uncheck research sharing → Start Session → displayed opening challenge.
@@ -57,7 +57,7 @@ Keep these visible in your facilitation:
 - Prepare one anonymous, one-response word-cloud poll asking what thinking a teacher needs to see the learner doing. Test the join link or QR and keep sticky notes or a board as the equal fallback.
 - Print one workbook per participant plus 10% spare, or provide an accessible local digital copy.
 - Decide how you will cue transitions while retaining control of the room’s pace.
-- Put route labels A/B/C where participants can see them without publicly declaring a choice.
+- Put route labels A/B/C/D where participants can see them without publicly declaring a choice.
 :::
 
 ### Room setup
@@ -108,7 +108,7 @@ The deployed experience has **text challenges and spoken responses**. It does no
 
 ## Day 1 outcome
 
-Each participant starts from one concrete case where GenAI may have made teaching harder, makes the teaching problem specific, contributes to a room vocabulary of visible learner thinking, uses one reading to challenge their first explanation, names one thinking move a learner should retain, records a private note about receiving sustained questioning, and prepares one short privacy-safe episode for Day 2. Coding begins on Day 2, not during the final minutes of Day 1.
+Each participant starts from one concrete case where GenAI may have made teaching harder, makes the teaching problem specific, contributes to a room vocabulary of visible learner thinking, uses one reading to challenge their first explanation, names one thinking move a learner should retain, and records a private note about receiving sustained questioning. The Day 1 trace remains private; Day 2 creates a new exchange artifact.
 
 ::: {.facilitator-note}
 **Pacing for the one-hour session:** 00–08 · hard teaching case; 08–20 · make the problem specific and build the room word cloud; 20–32 · dimensions, reading check, and one useful boundary; 32–52 · Oracle or no-upload experience; 52–60 · private reflection and Day 2 save. Project only the single master timetable. Protect the dimensions sequence, the Oracle/fallback work period, and the closing save. If the opening runs long, shorten plenary reporting.
@@ -194,10 +194,10 @@ Begin this part by the middle of the session. Demonstrate with the supplied case
 Activity 5 · Save what happened
 :::
 ::: {}
-Privately note first reaction, thinking demanded, avoidable difficulty, and support; then save one short redacted episode and mark one consequential moment.
+Privately note first reaction, thinking demanded, avoidable difficulty, and support; then mark one consequential moment for private Day 2 reflection.
 :::
 ::: {}
-Do not introduce C/R/X/M/★ yet. Make the full JSON/private reflection boundary clear, provide a download moment, and preview tomorrow’s pair reading.
+Do not pre-label the episode. Make the full JSON/private-reflection boundary clear: the Day 1 trace is not exchanged. Preview tomorrow’s eight-area ranking, two questioning designs, new LLM runs, and independent transcript reading.
 :::
 :::
 :::
@@ -238,9 +238,11 @@ When the conversation sprawls:
 
 ## Day 2 outcome
 
-Each participant reads one short episode with a partner or through an equal supplied/solo route; records what changed and what the prepared questions missed; lets the episode owner correct or veto the reading; contributes, passes, or records “nothing new” in a content-free room map; chooses where and how one teaching checkpoint should work; tests one student-facing prompt; and makes one evidence-based revision with an access route and a clear end point.
+Each participant privately recalls what receiving Oracle friction demanded; ranks eight assessment areas; chooses one cohort-priority area and one different personal or disciplinary wildcard; selects one questioning technique and pedagogical aim for each; completes two separate five-minute LLM runs; withholds an owner judgment while a partner independently reads the new bounded transcripts; and then compares both readings as co-researchers before re-ranking.
 
-**Pacing for the two-hour session:** 00–10 · remember and choose a route; 10–40 · read one episode together; 40–55 · name what the prepared questions missed and build the room map; 55–65 · break; 65–85 · decide where and how pressure belongs, with worked examples; 85–110 · build and test one prompt; 110–120 · revise and close. Project only the master timetable. Protect owner correction, the room's new-area map, the break, and at least one partner test.
+**Pacing for the two-hour session:** 00–12 · completion gate and private experience reflection; 12–35 · map and rank eight areas; 35–55 · choose a cohort priority, wildcard, techniques, aims, and safe source; 55–65 · break and setup; 65–71 · Run A plus private note; 71–77 · Run B plus private note; 77–85 · save and redact; 85–96 · exchange and read independently; 96–108 · compare and write a joint note; 108–113 · pair reports; 113–117 · re-rank; 117–120 · close.
+
+For ten participants, form five pairs. Project only the master timetable. Protect both five-minute runs, the withheld owner judgment, the independent partner reading, and the comparison. **Optional extension — skip without loss if time is short.** A third area may be added only after the complete core cycle.
 
 ## Day 2 run sheet
 
@@ -259,73 +261,61 @@ Facilitator evidence / move
 
 ::: {.run-row}
 ::: {}
-Remember
+Return
 :::
 ::: {}
-Return to the lived exchange; privately choose a route, confirm redaction, and name what stays out of scope.
+Privately name the Oracle pressure, personal reasoning move, and result—or use the supplied reflection route.
 :::
 ::: {}
-Re-read the short privacy reminder. Do not form pairs until owners choose view, describe, supplied, or solo mode.
+Use the completion poll as a decision gate. Allow useful, costly, off-target, and absent friction. Do not ask for research content.
 :::
 :::
 
 ::: {.run-row}
 ::: {}
-Write first
+Keep Day 1 private
 :::
 ::: {}
-Before swapping, the owner records what changed, what helped, what got in the way, and what a partner might misread.
+Close the Oracle trace after the private reflection. No Day 1 transcript or owner judgment passes to a partner.
 :::
 ::: {}
-Keep the reflection private unless the owner elects to share it. Supplied and solo routes are equivalent.
+State the artifact boundary explicitly: the exchange artifact will be a new, bounded transcript created during the Day 2 trials.
 :::
 :::
 
 ::: {.run-row}
 ::: {}
-Read together
+Map
 :::
 ::: {}
-The partner first follows what changed, then uses the prepared interaction and reasoning questions, marks C/R/X/M/★ moments, and finally names what those labels miss.
+Use all eight starting areas and retain an open category for what the cohort discovers through use.
 :::
 ::: {}
-Enforce evidence before interpretation and the no-copy boundary. Require the owner correction/veto before any joint claim.
+Keep assessment area, questioning technique, pedagogical aim, and generated question sequence distinct. Ask for plain-English translations across disciplines.
 :::
 :::
 
 ::: {.run-row}
 ::: {}
-Name what is missing
+Rank
 :::
 ::: {}
-Compare the corrected reading with the prepared questions; draft one owner-approved New-area card with evidence, relation, next question, observable sign, and limit—or write “nothing new here.”
+Rank three areas using consequence and how easily polished AI output could hide weak reasoning.
 :::
 ::: {}
-Reject simple renaming, ratings, paper topics, and feature wish lists. Let participants generate areas before offering examples.
+Pool the cohort top three. Each person selects one cohort-priority area and one different personal or disciplinary wildcard; the wildcard may sit outside the top three.
 :::
 :::
 
 ::: {.run-row}
 ::: {}
-Write one careful note
+Set up
 :::
 ::: {}
-Owner and partner record what fits, what is corrected or vetoed, the approved New-area card or “nothing new,” and any difference they agree to retain.
+Choose one public, sanitized, disposable, abstracted, or supplied excerpt. Keep the same source for both runs and, where possible, pair people using the same LLM interface and model.
 :::
 ::: {}
-Prevent forced consensus. A veto removes an interpretation from shared use; it does not require a defense.
-:::
-:::
-
-::: {.run-row}
-::: {}
-Build the room map
-:::
-::: {}
-Place one content-free area as extending one prepared question, connecting several, or sitting outside them—or pass.
-:::
-::: {}
-Accept no quotation, filename, topic, person, or research detail. Supplied/solo observations count equally.
+Do not accept ownership alone as permission to upload a full document. If authorization or service handling is uncertain, use the supplied paragraph.
 :::
 :::
 
@@ -334,58 +324,58 @@ Accept no quotation, filename, topic, person, or research detail. Supplied/solo 
 Reset
 :::
 ::: {}
-Take a genuine break or choose a low-stimulation reset route.
+Confirm the safe source, two areas, two techniques, two aims, and copy-ready lab page; then take a genuine break.
 :::
 ::: {}
-Protect the break: do not fill it with content or troubleshooting. Confirm that shared episodes are returned or closed before people step away.
+Resolve access and copy/paste problems without asking to inspect a participant's source.
 :::
 :::
 
 ::: {.run-row}
 ::: {}
-Place the pressure
+Build
 :::
 ::: {}
-Use the room cases to choose before, while, after, or nowhere; then choose one move: predict, choose, point to evidence, compare, test, or revise/transfer.
+Each participant chooses one technique and aim for Area A and one for Area B. The LLM will generate and adapt the questions.
 :::
 ::: {}
-Use worked examples from history/theory, landscape, conservation, and studio. Ask what student action became visible—not whether the task merely felt harder.
+Use the [Day 2 lab page](day2-lab.html). Check one-question-at-a-time behavior, answer-grounded follow-ups, no rewrite/grade/verdict, up to five exchanges, and descriptive **STOP**.
 :::
 :::
 
 ::: {.run-row}
 ::: {}
-Make the sequence plain
+Test
 :::
 ::: {}
-Move from learning goal → student action → visible evidence → next teacher move. Introduce “constructive alignment” only after the plain explanation.
+Each owner runs Area A in a fresh chat for five minutes, records a private first judgment, then runs Area B in a second fresh chat for five minutes and records another private judgment.
 :::
 ::: {}
-Model the sequence in more than one disciplinary context; keep AI use optional rather than assumed.
+Everyone works in parallel. Five exchanges per area is a ceiling, not a quota; the timer wins. Do not reveal the private judgments yet.
 :::
 :::
 
 ::: {.run-row}
 ::: {}
-Build the prompt
+Compare
 :::
 ::: {}
-Choose one small teaching moment and build a teaching-pressure card with a real access route and clear end point.
+Owners exchange only the new bounded, redacted Day 2 transcripts plus area, technique, and aim. Partners read independently before discussion.
 :::
 ::: {}
-Check the purpose, evidence, fair size, access, and end point; prevent overbuilding.
+Require exact-turn evidence: technique enacted, preceding answer used, reasoning made visible, unresolved issue, misread, repetition, or cost. Do not evaluate the person or project.
 :::
 :::
 
 ::: {.run-row}
 ::: {}
-Partner test
+Deliberate
 :::
 ::: {}
-Run two compact partner tests, observe student actions, and revise the weakest link.
+Reveal the owner judgments. Compare agreements, differences, corrections, and vetoes as co-researchers; then choose one next test.
 :::
 ::: {}
-Stop designers explaining intentions before each test; require retain/change/remove plus observed grounds.
+Build a five-pair room atlas: area/technique, intended thinking, observed effect or failure, difference between readings, and next change. Preserve disagreements.
 :::
 :::
 
@@ -394,54 +384,142 @@ Stop designers explaining intentions before each test; require retain/change/rem
 Close
 :::
 ::: {}
-Complete the six-check take-home card and state one revision supported by what the partner actually did or said.
+Re-rank the eight areas, then translate one tested technique and aim into a small teaching move with an access route and release point.
 :::
 ::: {}
-Collect no transcripts, JSON, research artifacts, or partner copies. Close with responsibility, fair-sized pressure, access, and a clear end point.
+State the evidence limit: an LLM prototype is not proof of student learning.
 :::
 :::
 :::
 
-## Short episode-reading protocol
+## The six plain labels
 
-Read these rules before any Day 2 peer exchange:
+Use these consistently. Do not introduce a second code system.
 
-1. **Owner writes first.** Before receiving a partner's interpretation, the owner records what changed, what helped, what got in the way, and what might be misread.
-2. **Owner sets the boundary.** They choose a short, already-redacted continuous episode; a content-free description, supplied episode, or solo reading is equally valid. The source remains on the owner's device or paper.
-3. **Partner uses the prepared questions.** Apply C/R/X/M/★ only after pointing to a turn or visible feature.
-4. **Partner sets the labels aside.** Name one possible interaction pattern—or something the prepared questions missed—in the episode's own terms.
-5. **Owner corrects and may veto.** The owner states what fits, supplies missing context if they choose, preserves disagreement, or vetoes an interpretation and its further use.
-6. **Pair names a new area—or nothing new.** Compare the owner-corrected observation with the prepared questions. Anchor any addition to evidence; say whether it extends, connects, or sits outside those questions; frame a future question; and obtain owner approval.
-7. **Pair writes one careful note.** Record only the interaction pattern, evidence location, uncertainty, and the approved New-area card or “nothing new.” Do not reproduce research content.
-8. **Room builds a content-free map.** A contribution contains a new-area name, plain definition, relation to the prepared questions, something observable, and a limit or counterexample. Passing is welcome.
-9. **Nothing circulates.** No screenshots, copying, links, forwarding, recording, retention of another person's material, or reporting of research detail. Peer consent to discuss is not consent to retain or use the material for research.
+1. **Assessment area** — which part of the work is being examined?
+2. **Questioning technique** — what kind of Socratic pressure should guide the exchange?
+3. **Pedagogical aim** — what constructive thinking should the learner have to perform?
+4. **Generated question** — what source-grounded question did the LLM actually ask?
+5. **Learner response** — what reasoning did the learner actually do?
+6. **Transcript evidence** — which exact turn supports a claim about usefulness, failure, burden, or an emerging issue?
 
-::: {.facilitator-note}
-Let the open reading generate areas before offering examples. If the room stalls, prompt cautiously with transcript self-editing and voice ownership, cumulative fatigue versus depth, disciplinary legitimacy, language/access, stopping and closure, or social-affective stakes. These are sensitizing possibilities, not a code list.
-:::
+An area is not a technique, and a technique is not a prewritten question. The participant chooses the area, technique, and aim; the LLM generates and adapts the questions.
 
-For a supplied/supplied pair, alternate owner and reader roles so the correction process is still practiced. For a solo route, the participant records one reading with the prepared questions, one observation beyond them, a self-correction or counter-reading, and a New-area card or evidence-based “nothing new.” Both routes may contribute to the room map.
+## Private Day 1 experience bridge
 
-## Micro-test roles
+Read these rules before Activity 1:
 
-For triads:
+1. Participants recall the Day 1 experience from memory or a private note—or use the supplied synthetic route.
+2. No Day 1 trace, downloaded JSON, source document, or private judgment is shown to a partner.
+3. A content-free spoken reflection is voluntary; passing is valid.
+4. The Day 1 trace is not the Day 2 exchange artifact.
+5. The exchange artifact will be a new bounded transcript created during the Day 2 LLM runs.
 
-- **Teacher:** presents only the student-facing prompt or material.
-- **Student / tester:** responds as a plausible beginner and thinks aloud; does not try to please the teacher.
-- **Observer:** records actions and words, using turn numbers or visible features where useful; avoids diagnoses.
+This bridge preserves the learner's receiving experience without turning personal research into shared workshop material.
 
-For pairs, the teacher observes while the tester works, then they swap after Round 1. In every format, the participant may use the fictional case and keep the disciplinary context abstract.
+## Area ranking
 
-## Debrief questions
+Display the eight starting areas:
 
-Use these in order:
+- claim + evidence;
+- logic + assumptions;
+- research method + design;
+- interpretation + alternatives;
+- concept + measure;
+- scope + limits;
+- perspective + position; and
+- stakes + trade-offs.
 
-1. What did the tester actually do or say?
-2. Which part of that behavior bears on the target reasoning?
-3. Where did friction arise that was unrelated to the target?
-4. Did the safeguard change access without erasing the intended reasoning?
-5. Was the end point observable and timely?
-6. What single revision is best supported by the test?
+Keep an open space for **an area we missed**. Each participant ranks three using both criteria:
+
+1. how consequential weak reasoning would be; and
+2. how easily polished AI output could hide it.
+
+Pool the cohort top three. Each participant then chooses **Area A** from that top three and **Area B** as a different personal or disciplinary wildcard. The wildcard may preserve an under-ranked concern but cannot repeat Area A.
+
+## Two-area design brief
+
+Each participant selects:
+
+- **Area A · Cohort priority:** one area from the cohort top three, one questioning technique, and one pedagogical aim.
+- **Area B · Personal or disciplinary wildcard:** one area they believe deserves testing, one questioning technique, and one pedagogical aim.
+
+For each, ask what would make the pressure repetitive, leading, misplaced, or worth stopping. A source should be public, sanitized, disposable, supplied, or abstracted. Do not treat ownership alone as authorization to upload a full document; if policy or service handling is uncertain, use the supplied paragraph.
+
+**Optional extension — skip without loss if time is short.** A third area may be tested only after both core runs, independent reading, comparison, and re-ranking. No core activity depends on it.
+
+## Technique menus and LLM prompt
+
+Open the [Day 2 lab page](day2-lab.html). It contains the eight technique menus, supplied paragraph, and one copy-ready prompt. Technique-card questions are examples of what the LLM **may** ask, not questions participants must author.
+
+Keep the roles explicit:
+
+- the **teacher-designer** chooses the area, questioning technique, and pedagogical aim;
+- the **LLM questioner** generates one source-grounded question, waits, and adapts each follow-up to the learner's preceding answer; and
+- the **learner** answers in their own words and may question, correct, or reject a false premise.
+
+The prompt requires one question at a time, up to five question–answer exchanges, early stopping when the learner chooses or pressure would repeat, and no rewriting, solving, grading, or verdict. When the learner types **STOP**, the model gives only three descriptive bullets: reasoning the learner stated, something unresolved, and one exact response worth revisiting. Humans—not the LLM—judge effectiveness.
+
+## Two-run controls
+
+Give these instructions before anyone opens a new chat:
+
+1. Use the same safe source for both runs.
+2. Within each pair, use the same LLM interface and model where possible; record rather than hide access differences.
+3. Start a separate fresh chat for Area A and Area B.
+4. Run each area for five minutes, with up to five exchanges; the timer always wins.
+5. After each run, the owner records a private first judgment and withholds it.
+6. Save only the bounded turns needed for the partner reading.
+
+The two runs are structured workshop observations, not controlled experimental conditions. If connectivity fails, a peer may enact the named technique orally while another reader later examines the bounded trace; label the route difference rather than pretending model behavior was tested.
+
+## Independent reading and co-research comparison
+
+The handoff contains only the new Day 2 transcript plus its area, technique, and aim. It excludes the Day 1 trace, full source, full chat, account link, and owner's private first judgment. The partner reads independently and asks:
+
+1. Did the LLM enact the named technique?
+2. Did each follow-up use the learner's preceding answer?
+3. What constructive thinking became visible?
+4. What became clearer or remained unresolved?
+5. Where did pressure become generic, leading, repetitive, misleading, or costly?
+6. Did another area—or an area missing from the eight—emerge?
+
+Only after that reading does the owner reveal the private judgment. The pair compares agreement, difference, correction, and veto as co-researchers. Do not force consensus.
+
+The five-pair room report is content-free:
+
+> We used ___ within ___ to invite ___.
+>
+> The owner experienced ___; the independent reader noticed ___.
+>
+> Next time we would ___ because ___.
+
+Passing is welcome. Return or delete every temporary transcript packet before leaving.
+
+## Evidence boundary
+
+The bounded transcripts can show what questions were asked, whether follow-ups used preceding answers, and what reasoning became visible in two short interactions. They do not establish student learning, retention, transfer, fairness, or general effectiveness.
+
+Use the research anchors as design cautions:
+
+- prompted self-explanation can make reasoning explicit and can support learning (Chi et al., 1994);
+- perceived and measured learning can diverge (Deslauriers et al., 2019); and
+- durable learning needs later retention or transfer evidence (Karpicke & Roediger, 2008).
+
+A later teaching evaluation would need an aligned human-learning outcome, suitable comparison, access checks, and delayed or transfer evidence. Do not describe the room's LLM trials as a study or collect them as research data without a separate consent and ethics process.
+
+## Closing teaching translation
+
+Ask each participant to convert one result into a small teaching move:
+
+- the teaching moment;
+- the assessment area;
+- the questioning technique and pedagogical aim;
+- visible evidence of student reasoning;
+- a legitimate way to contest or use another route; and
+- the point where pressure stops or support begins.
+
+The final principle is: **do not maximize friction. Choose where and how to press, observe what the question sequence does, and release or support the learner when the useful work is complete.**
 
 # Contingency plans
 
@@ -449,13 +527,13 @@ Use these in order:
 ::: {}
 ### Oracle unavailable
 
-Use the cached continuous excerpt. A peer reveals the prepared opening and follow-up questions one at a time, waits for the researcher's response, and uses the prepared question-free closure. Preserve prediction, sustained-issue coding, and debrief.
+Use the cached continuous excerpt. A peer reveals the prepared opening and follow-up questions one at a time, waits for the researcher's response, and uses the prepared question-free closure. Preserve the private prediction and reasoning-move reflection. The trace remains private on Day 2.
 :::
 
 ::: {}
 ### No compatible device or microphone
 
-No account is required. Use Keyboard mode if only the microphone or browser-local Whisper fails. Otherwise use printed sample materials: one person reveals the Oracle turns, another responds, and an observer codes the sequence.
+No account is required. Use Keyboard mode if only the microphone or browser-local Whisper fails. Otherwise use printed sample materials: one person reveals the Oracle turns, another responds, and a partner notes the issue, pressure, reasoning move, and result.
 :::
 
 ::: {}
@@ -473,25 +551,25 @@ Interrupt gently: “Let’s pause this route.” Do not repeat, project, collec
 ::: {}
 ### Oracle misreads the case
 
-Code **M**, identify the false premise, and let the researcher contest it from the text. If the interaction itself is failing, they may explicitly request a rephrasing or state that the approach misses their point. Do not force agreement or repair.
+Identify the false premise and let the researcher contest it from the text. Treat the misread as evidence about the pressure design, not as a reasoning deficit. Do not force agreement or repair.
 :::
 
 ::: {}
 ### Protect the core sequence
 
-Protect the design test. Shorten plenary reporting, use one test round, and require a predicted second revision clearly labelled as untested.
+Protect the two-area brief, both separate five-minute runs, private owner judgments, independent partner reading, and co-research comparison. Shorten the opening report and room round first. If only one run is possible, label the second area untested rather than pretending both occurred.
 :::
 
 ::: {}
 ### Participant will not role-play
 
-Permit observation, written analysis, or use of the sample transcript. No explanation is required.
+Permit written chat, offline paired questioning, solo testing, or use of the supplied paragraph. No explanation is required.
 :::
 
 ::: {}
 ### Dominant expert voice
 
-Return to evidence: each person marks a turn before discussion. Reassert the trace owner's correction/veto authority, then ask the least-heard person to speak or pass first.
+Return to evidence: ask what question was tested and what reasoning became visible. Reassert the owner's correction/veto authority, then ask the least-heard person to speak or pass first.
 :::
 
 ::: {}
@@ -506,27 +584,27 @@ Stop the enactment, remove public performance, offer written/observer routes, an
 ## 6–12 participants
 
 - Use pairs, with the facilitator acting as observer for one round.
-- Harvest every operation verb but cap explanations at one sentence.
-- Run a whole-room micro-test of one volunteered fictional/sample design after individual tests.
+- With ten participants, use five pairs and collect one content-free report from each.
+- Keep the area ranking visible so pre/post changes can be discussed.
 
 ## 13–30 participants
 
-- Default to triads for testing and pairs for incident probes.
-- Use table-level tallies, then collect only the most common and most disputed code.
-- Assign a process observer at each table.
+- Use pairs for testing; use one triad only when numbers require it, with the third person tracking role changes and transcript evidence.
+- Use table-level area rankings, then collect one technique, one observed effect or failure, one reading difference, and one next test per table.
+- Assign a process observer at each larger table.
 
 ## 31–60 participants
 
 - Pre-assign table groups and provide printed route packs at every table.
-- Use colored/lettered response cards for C/R/X/M/★; always say the letter aloud.
-- Replace whole-room reports with one evidence sentence per table submitted locally or held up on paper.
+- Replace individual area rankings with table rankings and a clearly labeled minority/blind-spot choice.
+- Replace whole-room reports with one content-free evidence statement per table submitted locally or held up on paper.
 - Add one roaming facilitator per 20 participants if possible.
 
 ## More than 60 participants or lecture seating
 
-- Use neighbour pairs and a projected fictional trace; do not depend on individual live Oracle use.
-- Run the incident and design canvases individually, with two short pair exchanges.
-- Micro-test through written learner responses and adjacent-peer observation.
+- Use neighbor pairs and the supplied fictional paragraph; do not depend on individual live Oracle use.
+- Build one two-area brief per person. Preserve two separate runs and an independent reading within neighbor pairs; shorten plenary reporting instead of collapsing the role sequence.
+- Use written chat or offline paired questions according to device access.
 - Collect a small, clearly non-representative sample of responses for plenary discussion.
 
 # Accessibility and inclusion
@@ -553,6 +631,7 @@ Plan access as a parallel route, not a last-minute exception.
 - Stable browser with JavaScript enabled
 - [Day 1 deck](day1.html)
 - [Day 2 deck](day2.html)
+- Copy-ready [Day 2 lab page](day2-lab.html)
 - [Participant workbook](workbook.html)
 - Printed fictional [sample case](sample-case.html) plus its [upload-ready PDF](assets/supplied-hybrid-studio-case.pdf)
 - Printed [sample transcript](sample-transcript.html)
@@ -560,10 +639,10 @@ Plan access as a parallel route, not a last-minute exception.
 - Printed question-free closure and startup-failure card
 - Visible reminder: **uncheck research sharing before Start**
 - Local/offline copies of all HTML pages
-- Board or large paper for operation tally
+- Board or large paper for the first and second area rankings plus five pair reports
 - Thick markers with high-contrast colors
 - Sticky notes or index cards
-- Route A/B/C table labels
+- Route A/B/C/D table labels
 - Spare pens
 - Accessible digital copies
 - Contact/process for institutional privacy concerns
@@ -573,7 +652,7 @@ Plan access as a parallel route, not a last-minute exception.
 # After the workshop
 
 - Do not collect participants' transcripts or research artifacts by default.
-- Do not collect owner reflections, partner notes, New-area cards, joint notes, or another person's short episode. If the room map is retained, accept only content-free area definitions and remove any accidental research detail immediately.
+- Do not collect Day 1 traces, owner reflections, Day 2 chat transcripts, test sources, private first judgments, or another person's temporary packet. If the room atlas is retained, accept only content-free area/technique, intended-thinking, observed-effect, reading-difference, and next-test labels; remove accidental research detail immediately.
 - If evaluation is required, collect process-level feedback without proposal content: route used, clarity, access, and whether the target reasoning became more visible.
 - Record which contingencies were used and any recurring misalignment in the materials.
 - Recheck external service behavior and disclosures before any future delivery.

@@ -1,103 +1,74 @@
-# Weekly Research Contribution Template
+# Week [number] · [topic]
 
-**Name:** [Your Name]
-**Week:** [Week #]
-**Topic:** [This week's debate topic]
-**Position:** [ ] PRO-Climate Action  [ ] ANTI-Climate Action (Skeptic/Pragmatist)
+**Name:** [Your name]
+**Starting angle, if already chosen:** [PRO-CLIMATE or PRO-DEVELOPMENT]
+**Vocational role:** [Fill in after the random assignment during class.]
+**Date:** [Date]
+**My question:** [What am I trying to understand or argue?]
 
----
+Develop this one entry in Notion before, during and after class.
+Before class includes tutorial work. After-class cleanup turns the same page
+into your weekly Notion submission; there is no separate reflection submission.
+Target 300–500 words for the whole final entry; maximum 750, not per stage.
+Your starting angle, assigned vocational role and personal view may differ.
 
-## 1. Facts I Found (Must be fact-checkable!)
+## Fact — before class + tutorial
 
-List 3-5 statistics, studies, or data points relevant to this week's topic.
+[One specific claim or statistic relevant to your question.]
 
-| Fact | Source | Link |
-|------|--------|------|
-| Example: "AI data centers use 415 TWh globally in 2024" | IEA Energy Report | [link] |
-| | | |
-| | | |
-| | | |
+**Source:** [Creator/organisation, title, date, direct link]
+**Scope:** [What was measured? Where, when, for which product or population?]
+**What it supports:** [Your explanation, keeping within what the source shows.]
 
-**Verification check:** Could someone Google this and find it's true? [ ] Yes [ ] No
+## Story — before class + tutorial
 
----
+[A real person, community, event or project. What happened, and why does it matter?]
 
-## 2. Real Stories (Not invented!)
+**Source:** [A link that supports the account]
+[Do not invent people, events or quotes. Label hypothetical illustrations clearly.]
 
-Find 1-2 real cases, individuals, or communities that illustrate your argument.
+## Spectacle — pitch before class; test and refine in class
 
-### Story 1:
-- **Who:** [Person/community/company]
-- **What happened:** [Brief description]
-- **Source:** [News article, documentary, report]
-- **Why it matters for our argument:** [Connection to debate]
+[Before knowing your vocational role, write what you consider a strong pitch for your prepared stance.]
+[Connect your fact, story and human stakes; this is already an argument, not just background notes.]
+[After the random role assignment, test the existing pitch: What is missing? Would this sector care? Why?]
+[Refine the spectacle using that new perspective; you do not automatically need to replace it.]
+[Aim for 1–2 sentences; maximum 3. You can revise the draft without keeping every version.]
+[Keep the emotional framing faithful to your evidence.]
 
-### Story 2:
-- **Who:**
-- **What happened:**
-- **Source:**
-- **Why it matters:**
+## Reflections — type while other groups present
 
----
+### In role
 
-## 3. Emotional Hooks
+[What did I hear that challenges or strengthens our sector's argument?]
+[What does it mean for our sector's interests or responsibilities?]
+[How would I respond from the assigned role?]
 
-What feelings can these facts/stories evoke? Check all that apply and explain.
+### As myself
 
-- [ ] **Fear** — What's the threat? Who's in danger?
-  -
-- [ ] **Anger** — Who's to blame? What's unfair?
-  -
-- [ ] **Hope** — What's the solution? What could improve?
-  -
-- [ ] **Pride** — What can we/they be proud of?
-  -
-- [ ] **Guilt** — What responsibility do we have?
-  -
+[What do I personally find convincing, challenging or uncertain?]
+[How does this relate to or change my own thinking?]
+[My personal conclusion can differ from the role I am playing.]
 
----
+## Final takeaway — after class
 
-## 4. My "Spectacle" Draft
+[What do I take away from the research, role-play and discussion?]
+[What would I check next?]
+[Tidy the argument and both reflections; check the sources and clarity of the whole entry.]
+[Keep a concise account of how my thinking developed; submit this same Notion page.]
 
-Turn one of your facts into a memorable, emotional statement.
+## Sources / media
 
-**Weak version:** [Just the fact]
-
-**Spectacle version:** [Fact + story + stakes = emotional punch]
-
-Example:
-- Weak: "AI uses a lot of energy"
-- Spectacle: "Every ChatGPT query you send costs a village its drinking water"
+[Place source links beside the claims they support.]
+[For optional images or videos: creator, caption, source link, and what this shows.]
+[Label your own diagrams, hypothetical examples and data-based figures accurately.]
 
 ---
 
-## 5. Counter-Arguments to Expect
+All of this work happens in Notion. Before sharing, check that a classmate can
+read the published weekly entry without requesting access. In the weekly Slack
+battlefield, share your position, fact, story and spectacle plus this entry's link.
+Slack target: 100–150 words; maximum 200.
 
-What will the OTHER side say to attack your argument? How would you respond?
-
-| Their attack | My response |
-|--------------|-------------|
-| | |
-| | |
-
----
-
-## 6. Key Quote or Data Point
-
-What's the ONE thing you want your teammates to remember from your research?
-
-> [Your key quote or stat here]
-
----
-
-## 7. Sources Used
-
-List all sources (we need to be able to fact-check everything):
-
-1.
-2.
-3.
-
----
-
-*Remember: Emotions need reality backing them. Find real stories. Don't invent them.*
+Tutorial work develops this same entry before class, not a separate deliverable.
+Follow the sharing and submission timing announced by the teaching team.

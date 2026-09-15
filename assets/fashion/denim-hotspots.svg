@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+  <title id="title">The largest impact depends on what you measure</title>
+  <desc id="desc">Levi Strauss 2015 study, percentage of the cradle-to-grave total for a pair of 501 jeans. Water consumption: fibre production 68%, fabric production 6%, consumer care 23%, other stages 3%. Climate impact: fibre production 9%, fabric production 27%, consumer care 37%, other stages 27%. Published rounded shares; this historical case is not a current industry average.</desc>
+  <rect width="1200" height="450" rx="12" fill="#fbf8f1"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#102a43">
+    <text x="24" y="38" font-size="21" fill="#5b6d7b">LEVI’S 501 · 2015 CASE STUDY · SHARE OF EACH LIFE-CYCLE TOTAL</text>
+    <text x="24" y="105" font-size="28" font-weight="700">Water consumption</text>
+    <text x="1176" y="105" font-size="20" text-anchor="end">0–100% of water consumption</text>
+    <g transform="translate(24 128)">
+      <rect width="783.36" height="60" fill="#4356b3"/><rect x="783.36" width="69.12" height="60" fill="#c96753"/>
+      <rect x="852.48" width="264.96" height="60" fill="#597316"/><rect x="1117.44" width="34.56" height="60" fill="#c2cbd2"/>
+      <g font-size="27" text-anchor="middle" fill="#fff" font-weight="700"><text x="391.68" y="39">68%</text><text x="817.92" y="39">6%</text><text x="984.96" y="39">23%</text></g>
+      <text x="1134" y="88" font-size="19" text-anchor="middle">3%</text>
+    </g>
+    <text x="24" y="267" font-size="28" font-weight="700">Climate impact</text>
+    <text x="1176" y="267" font-size="20" text-anchor="end">0–100% of greenhouse-gas emissions</text>
+    <g transform="translate(24 290)">
+      <rect width="103.68" height="60" fill="#4356b3"/><rect x="103.68" width="311.04" height="60" fill="#c96753"/>
+      <rect x="414.72" width="426.24" height="60" fill="#597316"/><rect x="840.96" width="311.04" height="60" fill="#c2cbd2"/>
+      <g font-size="27" text-anchor="middle" font-weight="700"><text x="51.84" y="39" fill="#fff">9%</text><text x="259.2" y="39" fill="#fff">27%</text><text x="627.84" y="39" fill="#fff">37%</text><text x="996.48" y="39">27%</text></g>
+    </g>
+    <g font-size="21" transform="translate(24 402)">
+      <rect y="-17" width="20" height="20" fill="#4356b3"/><text x="32">Fibre / cotton</text>
+      <rect x="285" y="-17" width="20" height="20" fill="#c96753"/><text x="317">Fabric production</text>
+      <rect x="620" y="-17" width="20" height="20" fill="#597316"/><text x="652">Consumer care</text>
+      <rect x="941" y="-17" width="20" height="20" fill="#c2cbd2"/><text x="973">Other stages</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,392 @@
+---
+title: "Day 2 Participant Lab"
+subtitle: "Choose the pressure · let the LLM ask · examine what happened"
+author: "Dr. Hongshan Guo"
+date: "2026-08-28"
+date-format: "dddd, D MMMM YYYY"
+body-classes: rpg-workshop day2-lab-page
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    css: site.css
+    page-layout: full
+    code-copy: true
+    code-overflow: wrap
+---
+
+::: {.workshop-kicker}
+Participant page · Day 2 co-design lab
+:::
+
+::: {.lead-claim}
+You choose where constructive pressure belongs and what kind of thinking it should invite. The LLM generates the actual questions. Then you and a partner examine the interaction—not the person.
+:::
+
+Keep this page open during the lab. Use its copy buttons for the test brief, LLM prompt, and observation notes. The [Day 2 presentation](day2.html) supplies the room sequence; this page supplies the material you need on your own device.
+
+::: {.callout-important}
+## The core boundary
+
+Use only safe, authorized text. Share only a short, redacted transcript packet that you choose. Do not share a full source document, account, chat link, full Oracle trace, or downloaded session JSON.
+:::
+
+## Your role changes
+
+| Stage | Your role | What you do |
+|---|---|---|
+| **1 · Experience** | **Learner** | Remember what receiving friction felt like. |
+| **2 · Map** | **Teacher-designer** | Decide where pressure might support learning. |
+| **3 · Test** | **Learner under test** | Answer first; after each STOP, record a private judgment. |
+| **3 · Exchange** | **Peer examiner** | Examine the questioning independently—not your partner or their project. |
+| **4 · Redesign** | **Co-researcher** | Compare perspectives and revise the shared framework. |
+
+The role changes are deliberate. Do not design or grade the questions while you are answering them. “Peer examiner” means examiner of the interaction trace, not evaluator of the person or scholarship.
+
+## Core route
+
+1. Rank the eight assessment areas with the room.
+2. Choose **one cohort-priority area from the room's top three** and **one different personal or disciplinary wildcard**.
+3. Choose **one questioning technique for each area** and name its pedagogical aim.
+4. Run **one fresh five-minute chat per area** on your own safe bounded excerpt.
+5. Save and redact a bounded packet containing the two short traces.
+6. Independently read your partner's packet.
+7. Compare the owner's experience with the peer examiner's reading.
+8. Re-rank and revise the shared map.
+
+## Eight areas where friction may matter
+
+An **area** is a part of the work worth examining. It is not a verdict that something is wrong.
+
+| Area | Plain-language check |
+|---|---|
+| **1 · Claim + evidence** | Does the support fit the claim? |
+| **2 · Logic + assumptions** | Why does one point lead to the next? |
+| **3 · Research method + design** | Why this approach rather than another? |
+| **4 · Interpretation + alternatives** | What else could explain or frame the material? |
+| **5 · Concept + measure** | Does the indicator capture the idea? |
+| **6 · Scope + limits** | Where does the claim stop applying? |
+| **7 · Perspective + position** | Whose standpoint shapes—or is missing from—the account? |
+| **8 · Stakes + trade-offs** | Who or what changes, benefits, loses, or carries the cost? |
+
+Use two questions when ranking:
+
+1. How consequential is it if this reasoning is weak?
+2. How easily could polished AI output hide the weakness?
+
+Your first choice receives three points, your second two, and your third one. Add an area if the eight fail to hold something consequential. For the test, choose one area from the cohort top three plus one different wildcard that matters to your field, likely teaching, or material; the wildcard does not need to be in the top three.
+
+## Questioning-technique bank
+
+Choose a **technique**, not an exact question. The quoted questions below are helper stems that show the intellectual operation. The LLM must generate a source-grounded first question and adapt every follow-up to the learner's actual answer.
+
+::: {.callout-tip collapse="true" title="1 · Claim + evidence"}
+
+| Technique | Helper stem—the LLM might begin this way | Pedagogical aim |
+|---|---|---|
+| **Trace support** | “Which exact evidence supports each part of this claim?” | Make links between evidence and claim explicit, including what the evidence cannot support. |
+| **Test sufficiency** | “What additional evidence would you need before making this claim?” | Examine adequacy, source quality, missing evidence, and uncertainty. |
+| **Introduce counterevidence** | “What evidence would weaken, narrow, or change your claim?” | Establish willingness and a threshold for revising the position. |
+:::
+
+::: {.callout-tip collapse="true" title="2 · Logic + assumptions"}
+
+| Technique | Helper stem—the LLM might begin this way | Pedagogical aim |
+|---|---|---|
+| **Explain the bridge** | “Why does this evidence lead to that conclusion?” | Surface the missing inferential step rather than restating both ends. |
+| **Surface an assumption** | “What must be true for this reasoning to hold?” | Identify hidden premises, dependencies, and conditions that can be defended or revised. |
+| **Test an alternative chain** | “Could the same evidence support a different conclusion? Compare the two.” | Compare competing inferences and give a reason for preferring one. |
+:::
+
+::: {.callout-tip collapse="true" title="3 · Research method + design"}
+
+| Technique | Helper stem—the LLM might begin this way | Pedagogical aim |
+|---|---|---|
+| **Justify the choice** | “Why is this method appropriate for this question?” | Connect the question, evidence needed, method, and practical constraints. |
+| **Compare an alternative** | “What would another plausible method reveal that this one might miss?” | Make a genuine comparison rather than automatically defend the original choice. |
+| **Trace method to claim** | “What can this method not establish—and which claim must therefore narrow?” | Turn a methodological limit into a consequential change in the claim. |
+:::
+
+::: {.callout-tip collapse="true" title="4 · Interpretation + alternatives"}
+
+| Technique | Helper stem—the LLM might begin this way | Pedagogical aim |
+|---|---|---|
+| **Generate a rival reading** | “What is the strongest plausible alternative interpretation?” | Produce an alternative that fits the material, not a token opposing view. |
+| **Seek disconfirming material** | “What observation or source would make you revise this interpretation?” | Name revision conditions and evidence the current reading cannot absorb. |
+| **Restore context** | “How might the source's genre, context, or purpose change this reading?” | Ground interpretation historically and situationally. |
+:::
+
+::: {.callout-tip collapse="true" title="5 · Concept + measure"}
+
+| Technique | Helper stem—the LLM might begin this way | Pedagogical aim |
+|---|---|---|
+| **Define what would count** | “How would you know this concept is present in the material?” | Produce observable or interpretable criteria instead of a circular definition. |
+| **Test concept–indicator fit** | “What does this indicator capture—and what part of the concept does it miss?” | Examine validity, proxy limits, ambiguity, and mismatch. |
+| **Test the category boundary** | “Why does this example count, while a nearby case would not?” | Make thresholds, edge cases, and classification rules visible. |
+:::
+
+::: {.callout-tip collapse="true" title="6 · Scope + limits"}
+
+| Technique | Helper stem—the LLM might begin this way | Pedagogical aim |
+|---|---|---|
+| **Find a boundary case** | “Where would this claim stop applying?” | State conditions, populations, periods, sites, or cases. |
+| **Test transfer** | “Would this still hold in a different context? Why or why not?” | Separate mechanisms that travel from those that depend on local conditions. |
+| **Audit the generalization** | “What is the largest claim the current evidence can responsibly support?” | Produce a narrower, defensible claim with stated uncertainty. |
+:::
+
+::: {.callout-tip collapse="true" title="7 · Perspective + position"}
+
+| Technique | Helper stem—the LLM might begin this way | Pedagogical aim |
+|---|---|---|
+| **Introduce a missing viewpoint** | “Whose account could change what is visible or important here?” | Identify a consequential perspective, not a decorative stakeholder list. |
+| **Examine position** | “How does your—or the source's—position shape what can be known?” | Examine access, authority, distance, interest, and reflexive limits. |
+| **Trace silence and power** | “Who can speak in this account, and whose absence affects the conclusion?” | Connect structural absence and source conditions to interpretation. |
+:::
+
+::: {.callout-tip collapse="true" title="8 · Stakes + trade-offs"}
+
+| Technique | Helper stem—the LLM might begin this way | Pedagogical aim |
+|---|---|---|
+| **Map consequences** | “Who or what changes if this claim or proposal is acted upon?” | Identify concrete effects, affected groups, material conditions, and time horizons. |
+| **Distribute benefit and cost** | “Who benefits, who carries the cost, and who decides?” | Examine uneven distribution rather than one aggregate outcome. |
+| **Trace a second-order effect** | “What could improve immediately while creating a later problem?” | Surface unintended consequences, trade-offs, and delayed effects. |
+:::
+
+### Follow-up moves the LLM may use
+
+These moves help you recognize what the LLM is doing; they are not a checklist for the learner to write in advance.
+
+| Move | A follow-up may ask… |
+|---|---|
+| **Clarify a term** | “What do you mean by ___ here?” |
+| **Ask for the basis** | “What in the source or evidence makes you say that?” |
+| **Expose an assumption** | “What must be true for that answer to hold?” |
+| **Compare an alternative** | “How does that compare with ___?” |
+| **Test a boundary** | “Would it still hold if ___ changed?” |
+| **Trace a consequence** | “If that is true, what else must change?” |
+
+Every follow-up should use something from the learner's last answer. Stop early when the issue is sufficiently clear or another question would only repeat pressure.
+
+## Choose one safe source
+
+**Core route · bounded excerpt:** paste one paragraph from an abstract, introduction, method, interpretation, or design statement.
+
+**Equal route · supplied synthetic excerpt:** copy one of the fictional examples below. No personal source is required.
+
+Use only material you own or have permission to share with that service. Remove restricted, confidential, collaborator-controlled, or identifiable information. A full-document route appears only in the clearly marked optional extension after the core cycle.
+
+### Supplied excerpt A · Hybrid studio
+
+> Hybrid studios improve first-year students' confidence in design critique. Tutors report that quieter students contribute more often online, and several students say the annotation tool gives them time to prepare a response. The study will use interviews and beginning- and end-of-semester confidence surveys to show that the hybrid format caused the improvement. These findings will support making hybrid critique the standard format across first-year studios.
+
+### Supplied excerpt B · History and theory
+
+> The 1960s waterfront clearance program was primarily driven by public-health reform. Three planning memoranda repeatedly describe overcrowding and sanitation, while later oral histories remember the program as necessary modernization. These sources show that health concerns, rather than land value or political control, explain clearance policy across the city.
+
+### Supplied excerpt C · Landscape
+
+> Pilot rain gardens reduced visible surface pooling at two housing estates during three summer storms, and nearby residents reported that the courtyards felt cooler. The project will combine site photographs and resident interviews to demonstrate that the same system should become the standard flood-response strategy in every district.
+
+### Supplied excerpt D · Conservation
+
+> A reversible acrylic coating should become the standard treatment for painted exterior timber. Laboratory samples retained their color after accelerated ultraviolet exposure, and four conservators preferred the treated appearance. The results show that the coating will protect historic façades in Hong Kong without meaningful long-term trade-offs.
+
+All four excerpts are fictional and deliberately contain claims that can be examined from several areas. Their presence does not prove that a gap exists.
+
+## Build your two-area test brief
+
+Choose one cohort-priority area from the room's top three and one different personal or disciplinary wildcard. Choose one technique for each. Name what constructive thinking the technique should invite and the boundary beyond which it would become repetitive, leading, or misplaced. **Do not write the questions you will answer.**
+
+Copy this into a private note if useful:
+
+```markdown
+AREA 1 · COHORT PRIORITY:
+QUESTIONING TECHNIQUE 1:
+PEDAGOGICAL AIM 1 — I chose this because it may help the learner…
+BOUNDARY 1 — stop or redirect if…
+
+AREA 2 · PERSONAL / DISCIPLINARY WILDCARD:
+QUESTIONING TECHNIQUE 2:
+PEDAGOGICAL AIM 2 — I chose this because it may help the learner…
+BOUNDARY 2 — stop or redirect if…
+```
+
+## Copy-ready LLM prompt
+
+Replace every bracketed field, then paste the whole prompt into each fresh chat. The area, technique, and aim are the designed pressure. Every actual question is model-generated output being tested.
+
+```markdown
+YOUR ROLE · LLM: Be a Socratic questioner. Generate and adapt the questions; do not rewrite, solve, grade, or give me a verdict.
+
+MY ROLE · LEARNER: I will answer in my own words. Let me question, correct, or reject a false premise.
+
+SOURCE: [PASTE A SAFE BOUNDED EXCERPT—core route]
+
+AREA 1 · COHORT PRIORITY: [INSERT AREA 1]
+TECHNIQUE 1 + PEDAGOGICAL AIM: [INSERT TECHNIQUE 1 AND WHAT THINKING IT SHOULD INVITE]
+
+AREA 2 · PERSONAL / DISCIPLINARY WILDCARD: [INSERT AREA 2]
+TECHNIQUE 2 + PEDAGOGICAL AIM: [INSERT TECHNIQUE 2 AND WHAT THINKING IT SHOULD INVITE]
+
+Treat each area as a focus for inquiry, not proof that a flaw exists.
+
+Run one area per fresh chat. Wait until I type START AREA 1 or START AREA 2, then use only that area for the current run.
+
+For that area:
+
+1. Read the source and use the named technique to generate one open, source-grounded question that invites the stated aim.
+2. Ask only that question and wait.
+3. After each answer, use my actual response to generate the next Socratic question.
+4. Continue for up to five question–answer rounds, but stop earlier if the aim is reached or the pressure would repeat.
+
+When I type STOP, give only three descriptive bullets: reasoning I stated, something still unresolved, and one exact response worth revisiting. Do not judge whether your questioning worked. Wait for my start command before asking anything.
+```
+
+One exchange means one LLM question plus one learner answer. Five exchanges per run is a ceiling, not a quota. The model's STOP recap becomes part of the trace; it is not a verdict. Owner and peer examiner evaluate the interaction independently.
+
+## Run two separate five-minute conversations
+
+Pair with someone using the same LLM interface and model where possible. Each person uses the same safe bounded excerpt across two separate fresh chats. Pair members can run their own chats at the same time.
+
+1. Open a fresh chat, paste the prompt, then type **START AREA 1**.
+2. Stop designing. Answer as a learner in your own words for up to five exchanges.
+3. At five minutes, type **STOP** and record a brief private owner judgment.
+4. Open a second fresh chat, paste the prompt, then type **START AREA 2**.
+5. Run another five minutes, type **STOP**, and record the second private judgment.
+6. Save only the bounded portions needed for later examination.
+
+Each room timer wins. You may ask for plainer wording, correct a false premise, change input mode, or stop early if the exchange becomes unsafe, irrelevant, or unproductive.
+
+## After each STOP, keep a private owner judgment
+
+Without reopening the exchange, use ticks or brief phrases. Keep this judgment private until the peer examiner has completed an independent reading.
+
+```markdown
+PRIVATE OWNER JUDGMENT — complete after each STOP; do not share yet
+
+Run: AREA 1 / AREA 2
+One exact turn that clarified or exposed something:
+Thinking I had to perform:
+Where the pressure missed, overloaded, repeated, or became a barrier:
+My first judgment — useful / partly useful / not useful / still unclear:
+My sharing limits:
+```
+
+Your reaction and experience remain yours. Do not include this judgment in the initial partner handoff.
+
+## Prepare the bounded handoff
+
+Keep only:
+
+1. the two selected areas and techniques;
+2. the pedagogical aim for each;
+3. two short, continuous run traces containing useful or failed pressure; and
+4. your sharing limits.
+
+Redact names, sites, sensitive details, and anything your partner does not need. Share the design brief and two bounded traces—not the private owner judgments, full source, account, chat link, screenshot, or complete session. The owner may use a content-free packet or the supplied excerpt instead.
+
+## Read your partner's trace independently
+
+**Current role: peer examiner of the interaction.** Read both traces and record your note before discussing either owner's private judgments, so the second perspective is genuinely independent.
+
+For each selected area, ask:
+
+1. What constructive thinking was the teacher-designer trying to invite?
+2. Did the LLM's questions enact the chosen technique?
+3. Did each follow-up use the learner's preceding answer?
+4. What thinking did the learner perform, and what became clearer?
+5. Which exact turn supports this reading?
+
+Then look beyond the intended areas:
+
+- Did another gap become visible?
+- Did the exchange demand more thinking—or only more words?
+- Did it reveal an assumption, limit, perspective, or trade-off?
+- Did the pressure become generic, repetitive, misleading, or costly?
+- Does a specific turn suggest an area missing from the eight?
+
+```markdown
+INDEPENDENT PEER NOTE
+
+Intended area + technique:
+Intended constructive thinking:
+Exact turn that anchors my reading:
+What the questioning made visible:
+Whether follow-ups used the learner's answers:
+Unexpected area or gap, if evidence supports one:
+Failure, burden, or false premise:
+Question I want to ask the owner—not a verdict:
+```
+
+Examine the questioning design and interaction—not the quality of the person or project. Do not retain, forward, record, or screenshot the packet.
+
+## Reveal, compare, and debrief
+
+First, confirm that the peer examiner's independent note is complete. Then reveal in this order:
+
+1. **Peer examiner:** summarize the independent transcript reading.
+2. **Owner:** reveal the private judgment recorded after STOP.
+
+Then compare:
+
+1. Where do the two readings agree?
+2. What did the peer examiner see that the owner did not?
+3. What does the owner correct, contest, or veto?
+4. Which area or questioning technique now looks more useful?
+
+Complete one content-free note together:
+
+```markdown
+JOINT CO-RESEARCH NOTE
+
+We asked the LLM to use [QUESTIONING TECHNIQUE] within [ASSESSMENT AREA] to invite [CONSTRUCTIVE THINKING].
+
+It was useful / partly useful / not useful because [EVIDENCE FROM A SPECIFIC TURN].
+
+The owner experienced [EFFECT OR COST], while the peer examiner noticed [PATTERN].
+
+Next time we would [KEEP, CHANGE, REMOVE, OR TEST] because [REASON].
+
+Evidence-backed missing area or gap, if any:
+```
+
+Do not force agreement. Do not reveal the owner judgment before the independent peer note is complete. A failed technique is a valid result. The owner controls interpretations of their experience and research context; the second reader may retain a content-free methodological disagreement.
+
+## Re-rank and close the core cycle
+
+Rank the eight again using the same two criteria. Ask whether an area moved because its importance changed or because it became easier—or harder—to assess. A ranking that does not move is also a result when experience now gives you a reason.
+
+Leave with:
+
+- one area that deserves attention;
+- one questioning technique worth keeping or revising;
+- one transcript pattern that shaped the judgment;
+- one difference the second reading exposed; and
+- one thing a future workshop or teaching study should test.
+
+Return or delete exchanged transcript packets before leaving.
+
+## OPTIONAL extensions — only after the core cycle
+
+::: {.callout-warning}
+## Stop here unless the facilitator explicitly opens an extension
+
+The core activity is two separate five-minute runs per participant, two areas, one technique per area, one independent peer reading, and one joint note. The options below are not unfinished core work. **Skip without loss if time is short.**
+:::
+
+1. **Second-technique comparison:** keep the same source and area, start a fresh chat, and test a different technique. Compare interaction patterns without claiming a controlled experiment.
+2. **Ninth-area test:** test one evidence-backed area the cohort believes the eight missed.
+3. **Interface exploration:** repeat a bounded test in another model or interface and record the changed condition explicitly. Do not attribute a difference to the model alone.
+4. **Teaching-study sketch:** decide what additional evidence would be needed to examine work quality, retention, transfer, access, and burden with actual learners.
+
+### OPTIONAL · Service-authorized full-document context
+
+Use a full document only when **all three** conditions hold:
+
+1. **Service authorization:** the interface supports files and the relevant institutional setting permits this use.
+2. **Material status:** the file is public, workshop-supplied, or a fully sanitized copy you are authorized to share.
+3. **Scope:** you still identify one exact passage and keep it fixed across the two runs.
+
+Acceptance by an interface does not establish institutional authorization, privacy, or collaborator permission. If any condition is uncertain, return to the bounded excerpt or supplied material. Nothing is lost.
+
+Do not maximize friction. Co-design where it belongs, observe what it does, and revise the technique from more than one perspective.

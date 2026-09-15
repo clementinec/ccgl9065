@@ -31,6 +31,300 @@ sourceSubtitle: "Fashion Design and Life Cycle of Stuff"
 <div class="course-welcome">Slidev conversion · original content preserved</div>
 
 ---
+layout: default
+class: converted-slide legacy-content
+zoom: 0.84
+---
+
+# Before We Start · 3 Minutes
+
+<div class="fashion-stage-key" role="group" aria-label="Weekly workflow colour key">
+  <div class="fashion-stage-label fashion-before">01 · Before class + tutorial</div>
+  <div class="fashion-stage-label fashion-during">02 · During class</div>
+  <div class="fashion-stage-label fashion-after">03 · After class</div>
+</div>
+
+<div class="fashion-grid">
+
+<div class="fashion-card fashion-before">
+
+<b>Open your prepared entry</b>
+<p>
+Find your <strong>Fact, Story</strong> and sources in your Week 03 Notion entry.
+</p>
+<p>
+Your <strong>draft Spectacle</strong> is already a strong pitch for your prepared stance.
+</p>
+
+</div>
+
+<div class="fashion-card fashion-before">
+
+<b>Keep your starting point</b>
+<p>
+If you have chosen a <strong>Pro-Climate / Pro-Development</strong> angle, note it here.
+</p>
+<p>
+Your <strong>vocational role</strong> will be assigned randomly in class.
+</p>
+
+</div>
+
+<div class="fashion-card fashion-during">
+
+<b>Get ready to test your pitch</b>
+<p>
+Use the new role to ask: <strong>What is missing? Would this sector care?</strong>
+</p>
+<p>
+Add <strong>“In role”</strong> and <strong>“As myself”</strong> reflection headings. Type under both as others present.
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt fashion-neutral">
+
+<strong>Keep this Notion entry open.</strong> Prepare your pitch → test and refine through the role → reflect in two voices → clean up. This same page becomes your weekly submission. <a href="../../../notion_guide.html#page-structure">See the guide</a>.
+
+</div>
+
+<!--
+Allow about three minutes to orient students within the weekly entry they have already prepared using the template. Preparation includes tutorial work, sourced Fact and Story, and a draft Spectacle: what the student considers a strong pitch for their prepared stance, independent of any vocational role. A Pro-Climate or Pro-Development angle may already have been chosen. Do not ask students to choose a vocation now: vocational groups are assigned randomly during class. The new role helps students test and further refine the existing pitch: what is missing, would this sector care, and what would make the argument matter to it? It does not create the spectacle for the first time. Students then type both in-role and personal reflections while listening to other presentations. After class, they add a final takeaway and clean up the same entry for their weekly submission. All of this happens in Notion; it is not a set of separate submissions.
+-->
+
+---
+layout: default
+class: converted-slide legacy-content
+---
+
+# What Your Notion Page Should Look Like
+
+<div class="fashion-notion">
+  <div class="fashion-notion-nav">
+    <strong>Alex · CCGL9065</strong><span class="fashion-notion-week">Week 01 · AI</span><span class="fashion-notion-week">Week 02 · Food</span><span class="selected">Week 03 · Fashion</span><span class="fashion-notion-week">Later weeks…</span>
+    <div class="fashion-stage-key" role="group" aria-label="Weekly workflow colour key">
+      <div class="fashion-stage-label fashion-before">01 · Before class + tutorial</div>
+      <div class="fashion-stage-label fashion-during">02 · During class</div>
+      <div class="fashion-stage-label fashion-after">03 · After class</div>
+    </div>
+  </div>
+  <div class="fashion-notion-page">
+  <div class="fashion-notion-title">Week 03 · Consumption &amp; fashion</div>
+  <p>Starting angle (if chosen) · Vocational role (assigned in class)</p>
+  <div class="fashion-notion-row fashion-before"><b>Fact</b><span class="fashion-notion-value">Before + tutorial · A specific claim with a source.</span></div>
+  <div class="fashion-notion-row fashion-before"><b>Story</b><span class="fashion-notion-value">Before + tutorial · A real case with background research.</span></div>
+  <div class="fashion-notion-row fashion-stage-transition"><b>Spectacle</b><span class="fashion-notion-value"><span class="fashion-stage-ink fashion-before">Before: pitch for my stance</span> → <span class="fashion-stage-ink fashion-during">During: test and refine through my role.</span></span></div>
+  <div class="fashion-notion-row fashion-during"><b>In role</b><span class="fashion-notion-value">During · What do other presentations mean for our sector?</span></div>
+  <div class="fashion-notion-row fashion-during"><b>As myself</b><span class="fashion-notion-value">During · What do I find convincing, challenging or uncertain?</span></div>
+  <div class="fashion-notion-row fashion-after"><b>Takeaway</b><span class="fashion-notion-value">After · My conclusion, cleaned-up writing and checked sources.</span></div>
+  </div>
+</div>
+
+<div class="fashion-caption">
+
+Keep your existing template; add role and reflection headings. Link sources beside claims and caption any media. Target 300–500 words for the whole final entry; maximum 750.
+
+</div>
+
+<!--
+The full example and copyable outline are in the Notion guide. This is the same weekly entry at different stages, not a fresh page for each stage. Keep the existing Fact, Story and Spectacle framework. The spectacle is already a strong pitch for the prepared stance before the student knows their vocational role. After assignment, use that new perspective to test what the pitch misses, whether the sector would care, and how to refine it. Distinguish reflections in role from reflections as yourself: the role is a perspective to explore, not a declaration of the student’s personal beliefs. Both reflection sections begin during presentations and can be tidied after class. Decorative covers and complex databases are unnecessary.
+-->
+
+---
+layout: default
+class: converted-slide legacy-content
+zoom: 0.92
+---
+
+# One Discussion, Two Reflections
+
+<div class="fashion-example">
+
+<p class="fashion-pitch-line fashion-before">
+<strong>Before class · Prepared pitch:</strong> “Give worn-out jeans another useful life—turn waste into warmth.” <em>(Pro-Climate)</em>
+</p>
+<p class="fashion-pitch-line fashion-during">
+<strong>During class · Random role: Policy-Makers.</strong> Would our sector support this pitch? What is missing?
+</p>
+<p class="fashion-pitch-line fashion-during">
+<strong>During class · Refined pitch:</strong> “Turn waste into warmth—but show where the denim goes and who pays for its next life.”
+</p>
+
+</div>
+
+<div class="fashion-grid fashion-two">
+
+<div class="fashion-card fashion-during">
+
+<b>In role</b>
+<p>
+“The transport group’s cost question challenges our proposal. As policy-makers, we need to explain who funds collection and how we check its results.”
+</p>
+
+</div>
+
+<div class="fashion-card fashion-during">
+
+<b>As myself</b>
+<p>
+“I focused on keeping clothes out of waste. Now I wonder whether collection also encourages me to buy more. What evidence would change my view?”
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt fashion-during">
+
+<strong>During class · While others present:</strong> type both kinds of reflection into the same Notion entry. Your own conclusion may differ from the role you play.
+
+</div>
+
+<div class="fashion-caption">
+
+Illustrative argument and classroom exchange, not an actual student account. <a href="../../../notion_guide.html#fashion-example">Full example: prepared research → role-play → reflections → takeaway</a>.
+
+</div>
+
+---
+layout: default
+class: converted-slide legacy-content
+zoom: 0.84
+---
+
+# One Weekly Entry, Developed Over Time
+
+<div class="fashion-grid">
+
+<div class="fashion-card fashion-before">
+
+<div class="fashion-stage-eyebrow">
+
+01 · Prepare
+
+</div>
+
+<b>Before class + tutorial</b>
+<p>
+Prepare your <strong>Fact, Story</strong> and background research in Notion.
+</p>
+<p>
+Draft your <strong>Spectacle</strong>: a strong pitch for your prepared stance, <strong>before you know your role</strong>.
+</p>
+
+</div>
+
+<div class="fashion-card fashion-during">
+
+<div class="fashion-stage-eyebrow">
+
+02 · Test + reflect
+
+</div>
+
+<b>During class</b>
+<p>
+Use your <strong>random vocational role</strong> to test and refine that pitch: <strong>What is missing? Would this sector care?</strong>
+</p>
+<p>
+As others present, type reflections <strong>in role</strong> and <strong>as yourself</strong>.
+</p>
+
+</div>
+
+<div class="fashion-card fashion-after">
+
+<div class="fashion-stage-eyebrow">
+
+03 · Finish
+
+</div>
+
+<b>After class</b>
+<p>
+Add your <strong>final takeaway</strong>. Tidy the argument and both reflections; check sources and clarity.
+</p>
+<p>
+The cleaned-up version is your <strong>weekly Notion submission</strong>.
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt fashion-neutral">
+
+<strong>All in one Notion entry.</strong> Develop the page you brought to class; do not start a separate reflection submission. Target 300–500 words for the whole final entry; maximum 750.
+
+</div>
+
+<div class="fashion-caption">
+
+<a href="../../../notion_guide.html#weekly-outline">Copyable outline</a> · <a href="../../../evaluation.html">Assessment guidance</a> · Follow the submission timing announced for your class.
+
+</div>
+
+---
+layout: default
+class: converted-slide legacy-content
+zoom: 0.92
+---
+
+# Today’s Flow: Claims → Evidence → Debate
+
+<div class="fashion-grid">
+
+<div class="fashion-card">
+
+<b>1 · Get attention</b>
+<p>
+Recap the <strong>open loop and contrast</strong>.
+</p>
+<p>
+Use quick comparisons to question what a “green” label actually tells us.
+</p>
+
+</div>
+
+<div class="fashion-card">
+
+<b>2 · Follow the garment</b>
+<p>
+Life cycle, use, repair, reuse, <strong>upcycling and downcycling</strong>.
+</p>
+<p>
+Then use <strong>LCA and system boundaries</strong> to test environmental claims.
+</p>
+
+</div>
+
+<div class="fashion-card">
+
+<b>3 · Take a position</b>
+<p>
+Weigh environmental impacts, <strong>affordability and livelihoods</strong>.
+</p>
+<p>
+Test your prepared pitch through your assigned vocation and argue the motion.
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt">
+
+<strong>Your Notion entry holds the whole process.</strong> Use the presentation recipe, reflect in role and as yourself, and finish with a takeaway. Our closing persuasion tool is <strong>Barnum</strong>.
+
+</div>
+
+<!--
+This is a map of the existing lecture, not a reordered programme or additional assignment. The earlier cross-sector comparisons remain in their original positions. The Open Loop is the Week 2 callback; the contrast technique is developed before the garment case. Keep the distinction between attention, environmental evidence and policy/value judgments. Barnum stays in the closing persuasion segment.
+-->
+
+---
 layout: section
 class: converted-slide section-slide cobalt-slide
 level: 1
@@ -104,7 +398,7 @@ This week: *“How do you measure the real cost of what you wear?”*
 
 **Same complexity. New tool: Life Cycle Assessment.**
 
-LCA gives you a framework for deciding *where to draw the line* when measuring environmental impact. That tool is portable — it works for food, fashion, buildings, energy, everything.
+LCA compares environmental impacts across a product’s life. Boundaries specify what is included; a fair comparison also needs equivalent functions and sound data. The tool is portable — food, fashion, buildings and energy.
 
 </div>
 
@@ -118,33 +412,64 @@ Your toolkit is growing: Spectacle Formula → Complexity → **now: System Boun
 layout: section
 class: converted-slide section-slide orange-slide
 level: 1
-title: "Let's Start With a Fact"
-routeAlias: let-s-start-with-a-fact
+title: "Start With What You Wear"
+routeAlias: start-with-what-you-wear
 menuDetail: "Lecture section"
 ---
 
-# Let’s Start With a Fact
+# Start With What You Wear
 
 ---
 layout: default
 class: converted-slide legacy-content
+zoom: 0.92
 ---
 
-# An Inconvenient Truth on Hong Kong Fashion
+# Start With Your Own Wardrobe
 
-<div style="font-size: 2.2em; text-align: center; padding: 40px;">
+<div class="fashion-grid">
 
-The average Hong Konger throws away <span style="color: #e74c3c;">**30kg of textiles**</span> per year.
+<div class="fashion-card">
 
-That’s <span style="color: #e74c3c;">**110,000 tonnes**</span> of clothing in landfills — annually.
-
-Your closet probably contains clothes you haven’t worn in <span style="color: #c0392b;">**over a year**</span>. Some still have tags on.
+<b>Wear all the time</b>
+<p>
+Think of one item you keep reaching for.
+</p>
+<p>
+What makes it worth keeping?
+</p>
 
 </div>
 
-<div style="font-size: 1.6em; text-align: center; margin-top: 40px; background: #2c3e50; color: white; padding: 20px; border-radius: 10px;">
+<div class="fashion-card">
 
-**Now let’s talk about the life cycle of stuff.**
+<b>Wear occasionally</b>
+<p>
+Think of an item kept for a particular occasion.
+</p>
+<p>
+What keeps it useful?
+</p>
+
+</div>
+
+<div class="fashion-card">
+
+<b>Hardly ever wear</b>
+<p>
+If you have one, think of an item you rarely use.
+</p>
+<p>
+What stopped you wearing it?
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt">
+
+<strong>30-second pair exchange:</strong> the environmental cost starts before you wear an item. What happens if you never do?
 
 </div>
 
@@ -238,12 +563,12 @@ And chicken? It’s the **lowest-emission meat** by a wide margin — 5-10x lowe
 layout: section
 class: converted-slide section-slide black-slide
 level: 1
-title: "Things You Think Are Green (But Aren't)"
-routeAlias: things-you-think-are-green-but-aren-t
+title: "Test the Green Label"
+routeAlias: test-the-green-label
 menuDetail: "Lecture section"
 ---
 
-# Things You Think Are Green (But Aren’t)
+# Test the Green Label
 
 ---
 layout: default
@@ -267,23 +592,46 @@ class: converted-slide legacy-content
 
 # Organic Cotton vs. Conventional Cotton
 
-<div style="font-size: 1.6em; line-height: 1.8;">
+<div class="fashion-grid">
 
-**Assumption:** Organic cotton is more sustainable.
+<div class="fashion-card">
 
-**Reality:** Organic cotton uses **up to 91% more water** than conventional cotton in many regions, with **20-50% lower yields** — meaning more land required.
-
-</div>
-
-<div style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;">
-
-Organic avoids pesticides (good), but trades one environmental problem for another.
+<b>Where?</b>
+<p>
+Rainfall, irrigation and local water stress change the question.
+</p>
 
 </div>
 
-<div style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;">
+<div class="fashion-card">
 
-*Source: Textile Exchange Organic Cotton Market Report; Mekonnen & Hoekstra (2011) Water Footprint Network*
+<b>How grown?</b>
+<p>
+Yield, fertiliser and energy use affect the result.
+</p>
+
+</div>
+
+<div class="fashion-card">
+
+<b>Which impact?</b>
+<p>
+Water consumption, climate, soil and biodiversity are different measures.
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt">
+
+<strong>A label is a starting point.</strong> It cannot supply a universal water-saving or water-penalty percentage.
+
+</div>
+
+<div class="fashion-caption">
+
+Sources: <a href="https://textileexchange.org/lca-faq/">Textile Exchange, interpreting cotton LCAs</a>; <a href="https://textileexchange.org/knowledge-center/reports/cotton-life-cycle-assessment/">Cotton LCA study (2026)</a>.
 
 </div>
 
@@ -294,23 +642,40 @@ class: converted-slide legacy-content
 
 # “Recycling” Your Old Clothes
 
-<div style="font-size: 1.6em; line-height: 1.8;">
+<div class="fashion-grid">
 
-**Assumption:** Donating clothes = recycling = good.
+<div class="fashion-card">
 
-**Reality:** Only **about 10-15% of donated clothes** are resold locally. Much of the rest is shipped to Ghana, Chile, and Kenya — where up to **40% ends up in landfills** because the volume overwhelms local markets.
-
-</div>
-
-<div style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;">
-
-You’re not recycling. You’re exporting your guilt.
+<b>Donation</b>
+<p>
+You hand an item over.
+</p>
 
 </div>
 
-<div style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;">
+<div class="fashion-card">
 
-*Source: OR Foundation (2022); ABC News “Dead White Man’s Clothes”; UNEP (2023)*
+<b>Reuse</b>
+<p>
+Someone uses the item again.
+</p>
+
+</div>
+
+<div class="fashion-card">
+
+<b>Recycling</b>
+<p>
+The material is processed into another product.
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt">
+
+These words describe different events. <strong>Which one do you actually have evidence for?</strong>
 
 </div>
 
@@ -321,25 +686,40 @@ class: converted-slide legacy-content
 
 # The Cotton Tote Bag
 
-<div style="font-size: 1.6em; line-height: 1.8;">
+<div class="fashion-grid fashion-two">
 
-**Assumption:** Reusable cotton bags are better than plastic.
+<div class="fashion-card">
 
-**Reality:** A cotton tote must be used **131 times** to have lower climate impact than a single disposable plastic bag.
-
-An organic cotton tote? **20,000 times.**
-
-</div>
-
-<div style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;">
-
-How many of you have used the same tote 131 times?
+<b>The headline</b><span class="fashion-route">131 uses</span>
+<p>
+A cotton-bag climate comparison in a UK Environment Agency study published in 2011.
+</p>
 
 </div>
 
-<div style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d;">
+<div class="fashion-card">
 
-*Source: UK Environment Agency Life Cycle Assessment (2011)*
+<b>The questions behind it</b>
+<p>
+Which cotton bag? Which plastic bag?
+</p>
+<p>
+What carrying capacity? Is the plastic bag reused as a bin liner?
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt">
+
+<strong>Explain the conditions before quoting the number.</strong> A break-even point is a result of a particular comparison.
+
+</div>
+
+<div class="fashion-caption">
+
+<a href="https://www.gov.uk/government/publications/life-cycle-assessment-of-supermarket-carrierbags-a-review-of-the-bags-available-in-2006">UK Environment Agency study (2011)</a>. The 131-use comparison assumes the reference HDPE bag is not reused. Other impact categories or reuse assumptions give different thresholds.
 
 </div>
 
@@ -474,8 +854,8 @@ class: converted-slide legacy-content
 
 | Topic | “Wait, What?” Opening |
 |----|----|
-| Fast fashion | “Your ‘recycled’ H&M clothes are probably in a Ghanaian landfill right now.” |
-| Sustainable fashion | “The organic cotton dress used more water than the synthetic one.” |
+| Fast fashion | “You handed over a bag of clothes. Can you trace where it went?” |
+| Sustainable fashion | “The label says organic. Which environmental impact did you check?” |
 | Veganism & climate | “Almonds require 4x more water per gram of protein than chicken.” |
 | Local food | “That Kent tomato has a higher carbon footprint than one from Spain.” |
 | Electric vehicles | “Your Tesla might be dirtier than a Prius — depending where you charge it.” |
@@ -499,7 +879,7 @@ class: converted-slide legacy-content
 
 The strongest debaters **acknowledge complexity** on their own side.
 
-PRO-CLIMATE: “Yes, organic cotton uses more water. That’s why we advocate for systemic change, not just material substitution.”
+PRO-CLIMATE: “Yes, a material label alone cannot tell us the whole impact. That’s why we advocate for systemic change as well as better materials.”
 
 PRO-DEVELOPMENT: “Yes, fast fashion has environmental costs. That’s why we push for innovation within the industry, not destruction of it.”
 
@@ -515,319 +895,455 @@ Acknowledging nuance makes you credible. Ignoring it makes you a propagandist.
 layout: section
 class: converted-slide section-slide orange-slide
 level: 1
-title: "A Challenge"
-routeAlias: a-challenge
+title: "Follow One Pair of Jeans"
+routeAlias: follow-one-pair-of-jeans
 menuDetail: "Lecture section"
 ---
 
-# A Challenge
+# Follow One Pair of Jeans
 
 ---
 layout: default
 class: converted-slide legacy-content
 ---
 
-# What Comes Next Will Sound Dry
+# Watch: A Garment Has a Life Before the Shop
 
-<div style="font-size: 1.6em; line-height: 1.8;">
+<div class="fashion-video-grid">
 
-I’m about to show you a **detailed case study** on denim production.
+<div class="fashion-video">
 
-It will include a lot of facts. Some of it will feel like a textbook.
-
-**But there’s a reason.**
+<iframe src="https://www.youtube-nocookie.com/embed/BiSYoeqb_VY?start=0&amp;end=120&amp;rel=0" title="TED-Ed: The life cycle of a t-shirt, by Angel Chang" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen>
+</iframe>
 
 </div>
 
----
-layout: default
-class: converted-slide legacy-content
----
+<div>
 
-# Your Task
-
-<div style="font-size: 1.6em; line-height: 1.8;">
-
-As you listen, look for **one key concept** that anyone interested in fashion-related carbon emissions should walk away with:
-
-**Where do you draw the boundary?**
-
-I might do a small quiz before end of class.
+<span class="fashion-watch-label">WATCH · FIRST 2 MINUTES</span>
+<p>
+TED-Ed · Angel Chang<br><em>The life cycle of a t-shirt</em> (2017)
+</p>
+<p>
+<strong>Track the changes:</strong> when does a plant become fibre, fabric, then clothing?
+</p>
+<p>
+Which stages would also appear in a pair of cotton jeans?
+</p>
 
 </div>
 
-<div style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;">
+</div>
 
-Pay attention to what happens when you expand or contract the “system” you’re measuring.
+<div class="fashion-caption">
+
+<a href="https://www.youtube.com/watch?v=BiSYoeqb_VY">Open video on YouTube</a>. If playback is unavailable, trace the same stages on the next figure.
 
 </div>
 
+<!--
+Use the opening two minutes to establish processes, not to memorise the video’s dated headline statistics. Pause and ask pairs to name three stages before moving to the denim figure. Suggested discussion: 45 seconds. The video describes a T-shirt; make the transfer to denim explicit rather than treating their footprints as identical.
+-->
+
 ---
 layout: default
-class: converted-slide legacy-content background-slide
-background: "https://palaisdeleau.com/app/uploads/2019/06/PdL-denimproject-03-1-1024x385.jpg"
-backgroundSize: contain
+class: converted-slide legacy-content
 ---
 
-# Let’s start with fabric
+# Where Is the Biggest Impact?
 
-denim, a quick case-study<sup>1</sup>.
+<div class="fashion-figure">
 
-<div class="footer">
-
-<sup>1</sup> Palais de l’eau. (2020, April 8). How we recycle denim to make the Recycled Denim Collection. https://palaisdeleau.com/magazine/recycle-denim-process/
+<img :src="'../../conversion-assets/assets/fashion/denim-lifecycle.svg'" alt="Six stages: grow cotton; make fabric; make jeans; move and sell; wear and care; sort for another life or disposal." />
 
 </div>
 
----
-layout: default
-class: converted-slide legacy-content
----
+<div class="fashion-prompt">
 
-# Case Study: Environmental Impact of Denim Production
+<strong>Vote twice:</strong> point to the stage you think uses most water. Then point to the stage you think causes most carbon emissions.
 
-**Impression:** Denim is durable and promises to have a long lifespan and is therefore an environmental-friendly and ethical product, at least better than its leather counterparties.
+</div>
 
-<v-clicks>
+<div class="fashion-caption">
 
-1.  **Water Usage**:
-    - The production of denim is water-intensive, especially during the cotton growing process and the dyeing phase where indigo dye is applied. It’s estimated that producing a single pair of jeans can require thousands of liters of water.
-    - The “wash” effect, popular in many jeans, is achieved through various techniques such as stone washing or acid washing, which further increases water usage.
+Simplified teaching diagram, informed by <a href="https://www.levistrauss.com/wp-content/uploads/2015/03/Full-LCA-Results-Deck-FINAL.pdf">Levi Strauss & Co., The Life Cycle of a Jean (2015)</a>. Transport can also occur between earlier stages.
 
-</v-clicks>
+</div>
 
----
-layout: default
-class: converted-slide legacy-content
----
-
-<v-clicks>
-
-2.  **Chemical Use**:
-    - The dyeing process for denim uses synthetic indigo dyes and other chemicals, which can be harmful to the environment if not properly managed. These chemicals can contaminate water sources, affecting aquatic life and potentially entering the human water supply.
-    - Finishing processes to make jeans softer or to give them a distressed look also involve potentially harmful substances.
-3.  **Energy Consumption**:
-    - The entire lifecycle of a pair of jeans, from cotton cultivation to manufacturing processes, is **energy-intensive, contributing to CO2 emissions and global warming**.
-
-</v-clicks>
+<!--
+Take predictions before showing the data. Cotton needs land and water; spinning, dyeing and finishing use energy and chemicals; care depends on how people wash and dry. Ask whose work occurs at each stage. An environmental LCA does not itself tell us whether wages and working conditions are fair.
+-->
 
 ---
 layout: default
 class: converted-slide legacy-content
 ---
 
-<v-clicks>
+# Same Jeans. Different Hotspots.
 
-4.  **Cotton Cultivation**:
-    - Conventional cotton farming, the primary material for denim, uses large amounts of pesticides and fertilizers, which can degrade soil quality, contaminate water, and harm wildlife.
-    - Cotton cultivation also <span style="color:red">competes for land and water resources</span> that could be used for food production, exacerbating issues of resource scarcity.
+<div class="fashion-figure">
 
-</v-clicks>
+<img :src="'../../conversion-assets/assets/fashion/denim-hotspots.svg'" alt="2015 Levi's 501 case: fibre production accounts for 68% of water consumption but 9% of climate impact; fabric production 6% and 27%; consumer care 23% and 37%; other stages 3% and 27%." />
+
+</div>
+
+<div class="fashion-prompt">
+
+<strong>Discuss:</strong> if you work for the brand, where would you act? If you own the jeans, what can you change?
+
+</div>
+
+<div class="fashion-caption">
+
+Redrawn from <a href="https://www.levistrauss.com/wp-content/uploads/2015/03/Full-LCA-Results-Deck-FINAL.pdf">Levi Strauss & Co. (2015), pp. 21–22</a>. Published rounded shares; other stages grouped. Historical product case, not a current average for all jeans.
+
+</div>
+
+<!--
+A hotspot means a stage contributing a large share of a measured impact. Each bar has its own denominator: total water consumption or total climate impact. Do not compare litres with kilograms of emissions. The figures include consumer care under the study’s assumptions. Ask how a different electricity supply or care routine might change the pattern.
+-->
+
+---
+layout: default
+class: converted-slide legacy-content
+zoom: 0.92
+---
+
+# Read the Label on Your Own Clothes
+
+<div class="fashion-grid">
+
+<div class="fashion-card">
+
+<b>Material</b>
+<p>
+What fibres are listed?
+</p>
+<p>
+Does “denim” mean 100% cotton, or is there a blend?
+</p>
+
+</div>
+
+<div class="fashion-card">
+
+<b>Care</b>
+<p>
+What washing and drying instructions can you find?
+</p>
+<p>
+Which part of the life cycle happens in your home?
+</p>
+
+</div>
+
+<div class="fashion-card">
+
+<b>Missing information</b>
+<p>
+What can the label tell you about water, energy or the next life?
+</p>
+<p>
+What would you need to look up?
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt">
+
+<strong>60 seconds with a neighbour:</strong> inspect an accessible label, or use a product page. Save one unanswered question in Notion.
+
+</div>
+
+<!--
+No need for students to remove clothing: use a jacket, a bag or an online listing. Distinguish cotton microfibres from synthetic microplastics; not every textile fibre is plastic. The label exercise is observation, not evidence that one material is always better.
+-->
 
 ---
 layout: default
 class: converted-slide legacy-content
 ---
 
-# Common Concerns Related to Denim’s Environmental Impact
+# More Wears Can Change the Comparison
 
-<v-clicks>
+<div class="fashion-grid fashion-two">
 
-1.  **Waste and Overproduction**:
-    - The fast fashion model encourages rapid consumption rates, leading to overproduction of denim products. This results in significant waste, as consumers discard old jeans for new trends.
-    - Landfills are increasingly burdened by textile waste, including denim, which can take decades to decompose due to its synthetic blend components.
-2.  **Microfibers and Pollution**:
-    - During washing, denim, like other textiles, releases microfibers that can pass through wastewater treatment plants and contribute to oceanic and freshwater microplastic pollution.
+<div class="fashion-card">
 
-</v-clicks>
+<b>Jeans A · worn 10 times</b>
+<p>
+Illustrative production impact: 20 kg CO₂e
+</p>
+<span class="fashion-route">20 ÷ 10 = 2 kg per wear</span>
 
----
-layout: default
-class: converted-slide legacy-content
----
+</div>
 
-<v-clicks>
+<div class="fashion-card">
 
-3.  **Lifecycle and Durability**:
-    - Although denim is often touted for its durability, the **fast fashion trend** towards lower quality and disposable clothing undermines this potential, leading to a shorter lifecycle and increased waste.
-4.  **Social and Ethical Concerns**:
-    - Beyond environmental impacts, the denim industry also faces ethical concerns related to labor practices in cotton farming and garment manufacturing, which are often conducted in developing countries under poor working conditions.
+<b>Jeans B · worn 120 times</b>
+<p>
+Illustrative production impact: 24 kg CO₂e
+</p>
+<span class="fashion-route">24 ÷ 120 = 0.2 kg per wear</span>
 
-</v-clicks>
+</div>
 
----
-layout: default
-class: converted-slide legacy-content
----
+</div>
 
-# Responsible Denim Production
+<div class="fashion-prompt">
 
-<v-clicks>
+<strong>Which pair looks better per item? Which looks better per wear?</strong> What happens if the second pair stays in the wardrobe?
 
-1.  **Sustainable Cotton Challenges**: Better Cotton Initiatives
-    - **Organic** cotton avoids the pesticides and synthetic fertilizers requires a significant amount of <span style="color:red">water</span> to grow.
-    - Its water usage for organic cotton *might be* **comparable to or even higher** than conventionally grown cotton due to potentially lower yields.
-    - Transition could be slow and costly, limiting its scalability and accessibility to all manufacturers.
+</div>
 
-</v-clicks>
+<div class="fashion-caption">
 
----
-layout: default
-class: converted-slide legacy-content
----
+Made-up numbers for learning the comparison. Production impacts only; washing, repair and end-of-life would need to be added for a fuller assessment. CO₂e combines greenhouse gases into a common measure.
 
-<v-clicks>
+</div>
 
-2.  **Eco-Friendly Dyes and Chemicals**:
-    - While eco-friendly dyes reduce the use of harmful chemicals, the dyeing process can still consume a considerable amount of <span style="color:red">**water and energy**</span>.
-    - Full life cycle impacts of some alternative dyes and chemicals are not always clear: they may still pose environmental risks if not managed properly.
-3.  **Recycled Materials**:
-    - Needs breaking down fabric: <span style="color:red">energy-intensive and chemicals</span> to facilitate, possible environmental pollution.
-    - The quality of recycled fibers can be lower than virgin fibers: possibly less durable, reduced lifespan thus higher frequencies of replacement.
-
-</v-clicks>
+<!--
+The practical idea behind a functional unit is to compare the same service: for example, a specified number of wears. Being durable only helps if the garment is actually used. This arithmetic does not claim an observed footprint or an exact tenfold saving for any real jeans.
+-->
 
 ---
 layout: default
 class: converted-slide legacy-content
 ---
 
-# Denim Reuse
+# One Pair, Four Possible Next Lives
 
-<v-clicks>
+<div class="fashion-figure">
 
-1.  **Transportation and Carbon Footprint**:
-    - The collection, sorting, and redistribution of used denim for reuse or recycling can entail significant transportation, contributing to carbon emissions, especially if these processes occur across global distances.
-2.  **Upcycling Limitations**:
-    - Upcycling, while creative and potentially reducing waste, may have limited scalability as a solution to denim waste. It can also be labor-intensive and may not always result in products that meet consumer needs or preferences, potentially leading to items that are ultimately discarded.
+<img :src="'../../conversion-assets/assets/fashion/denim-routes.svg'" alt="Four routes from worn jeans: repair or reuse the garment; upcycle intact fabric into a useful bag; recycle fibre into new yarn or fabric; downcycle into lower-grade textile material such as filling." />
 
-</v-clicks>
+</div>
 
----
-layout: default
-class: converted-slide legacy-content
----
+<div class="fashion-prompt">
 
-<v-clicks>
+<strong>Find the difference:</strong> in which routes does the garment survive? The fabric? Only the fibre?
 
-3.  **Water and Energy Usage in Second-Hand Care**:
-    - The washing and maintenance of second-hand denim, especially to meet sanitary standards for resale, can consume significant amounts of water and energy, offsetting some of the environmental benefits of reuse.
-4.  **Market Saturation and Displacement**:
-    - An influx of second-hand or recycled denim products in certain markets can displace local textile industries, affecting economies and potentially leading to increased waste where these displaced products are not valued or utilized.
+</div>
 
-</v-clicks>
+<div class="fashion-caption">
 
----
-layout: default
-class: converted-slide legacy-content
----
+Terminology informed by <a href="https://redress.com.hk/educational-resource/upcycling-reconstruction/">Redress: Upcycling & Reconstruction</a>. These routes are not an environmental ranking.
 
-# Upcycling： Use As-New Materials
+</div>
 
-**Pros**:
-
-<v-clicks>
-
-- Reduces waste by repurposing textiles.
-- Conserves resources and minimizes the need for new materials.
-- Creates unique, creative fashion items.
-- Increases consumer awareness and promotes sustainable habits.
-
-</v-clicks>
-
-**Cons**:
-
-<v-clicks>
-
-- Can be resource-intensive (transport, cleaning, modification).
-- Limited scalability due to the bespoke nature of products.
-- Potential market resistance due to perceived lower quality.
-- May involve the use of chemicals for transformation.
-
-</v-clicks>
+<!--
+Repair and reuse preserve the original clothing function. Redress describes reconstruction of existing garments as a form of upcycling. Textile-to-textile recycling can use mechanical or chemical processes; quality and feasible end uses vary. Downcycling describes a reduction in material quality or available applications, not a claim that the resulting product is useless.
+-->
 
 ---
 layout: default
 class: converted-slide legacy-content
 ---
 
-# Downcycling: Use Degraded Materials
+# Upcycling: Keep the Fabric
 
-**Pros:**
+<div class="fashion-figure">
 
-<v-clicks>
+<img :src="'../../conversion-assets/assets/fashion/denim-upcycling.svg'" alt="Illustrative upcycling: intact panels from worn jeans are cut and stitched into a patchwork tote, retaining the fabric." />
 
-- Extends the life of materials by creating lower-quality products.
-- Generally less energy-intensive than new material production.
-- Cost-effective waste management strategy.
-- Capable of addressing large volumes of textile waste.
+</div>
 
-</v-clicks>
+<div class="fashion-prompt">
 
-**Cons:**
+<strong>Would you use this bag?</strong> The design aims to retain or add value. To judge its environmental benefit, ask what new purchase it replaces.
 
-<v-clicks>
+</div>
 
-- Results in products with reduced quality and utility.
-- Still requires significant energy and resources for processing.
-- Workers may be exposed to hazardous materials.
-- Downcycled products may ultimately still contribute to landfill waste.
+<div class="fashion-caption">
 
-</v-clicks>
+Illustrative transformation, not a measured product claim. <a href="https://redress.com.hk/educational-resource/upcycling-reconstruction/">Redress explains upcycling and reconstruction</a>.
 
----
-layout: default
-class: converted-slide legacy-content
----
+</div>
 
-# Comparing Pro-Climate and Pro-Development
-
-| Sustainable Fashion Benefits | Potential Negative Environmental Impacts |
-|----|----|
-| **Waste Reduction** | Energy and resource usages can be significant, possible offset of waste reduction benefits. |
-| **Resource Efficiency** | Scalability limited, may hinder overall impact on resource conservation. |
-| **Unique Products** | Bespoke nature of many sustainable fashion items leading to reduced desirability or quality, affecting market acceptance. |
-| **Awareness and Engagement** | Sustainable practices *can* rely on more resource-intensive methods (e.g., organic cotton farming requires significant water). |
+<!--
+Upcycling does not mean the input must be as-new. It can use offcuts, surplus textiles or existing garments. A bag no one wants may add labour and processing without displacing another product. Equally, a well-used bag can extend useful fabric life. Keep the conclusion conditional on actual use.
+-->
 
 ---
 layout: default
 class: converted-slide legacy-content
 ---
 
-| Sustainable Fashion Benefits | Potential Negative Environmental Impacts |
-|----|----|
-| **Extended Material Life** | Downcycled products, while reducing waste, often result in lower-quality items with shorter lifespan. |
-| **Energy Conservation** | Collection, transportation, and processing of materials for upcycling/downcycling still consume (more) energy. |
-| **Cost-Effectiveness** | The financial sustainability contested by higher production costs and consumer price sensitivity. |
-| **Volume Reduction** | Downcycling’s large-scale waste processing is offset by the end-life landfill risk due to lesser utility. |
+# Watch: Designing With What Already Exists
+
+<div class="fashion-video-grid">
+
+<div class="fashion-video">
+
+<iframe src="https://www.youtube-nocookie.com/embed/b7n8AVUE_dg?start=0&amp;end=120&amp;rel=0" title="Redress: Up-cycling Design Tutorial by Orsola de Castro" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen>
+</iframe>
+
+</div>
+
+<div>
+
+<span class="fashion-watch-label">WATCH · FIRST 2 MINUTES</span>
+<p>
+Redress · Orsola de Castro<br><em>Up-cycling Design Tutorial</em>
+</p>
+<p>
+<strong>Look for one design decision</strong> shaped by the available waste fabric.
+</p>
+<p>
+What makes the output desirable enough to use?
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-caption">
+
+<a href="https://www.youtube.com/watch?v=b7n8AVUE_dg">Open video on YouTube</a> · <a href="https://redress.com.hk/educational-resource/upcycling-reconstruction/">Redress learning resource</a>. Playback fallback: use the jeans-to-bag figure and propose a design change.
+
+</div>
+
+<!--
+Allow up to two minutes of playback, followed by a brief pair exchange. Ask students to name something they actually saw, then separate that observation from a claim about environmental savings. Redress is a Hong Kong environmental charity, providing a local connection to the design example.
+-->
+
+---
+layout: default
+class: converted-slide legacy-content
+---
+
+# Downcycling: Another Use for the Fibres
+
+<div class="fashion-figure">
+
+<img :src="'../../conversion-assets/assets/fashion/denim-downcycling.svg'" alt="Simplified denim-to-insulation route: collect and prepare denim, open the fabric into fibres, then make insulating material." />
+
+</div>
+
+<div class="fashion-prompt">
+
+<strong>What has been lost? What has been gained?</strong> The woven fabric is gone. The insulation may still perform a valuable job.
+
+</div>
+
+<div class="fashion-caption">
+
+Example informed by <a href="https://bluejeansgogreen.org/faq/">Blue Jeans Go Green</a>. “Downcycling” here describes reduced textile quality; the programme also uses “upcycling” to describe the new product’s value.
+
+</div>
+
+<!--
+Make the terminology disagreement useful: from a garment-material perspective the process can lose textile quality; from an insulation-product perspective it creates value. The label alone cannot establish the environmental result. Check collection, preparation, processing, product performance, lifespan and the alternative insulation that might be displaced.
+-->
+
+---
+layout: default
+class: converted-slide legacy-content
+---
+
+# Watch: Old Jeans Become Insulation
+
+<div class="fashion-video-grid">
+
+<div class="fashion-video">
+
+<iframe src="https://www.youtube-nocookie.com/embed/LaAcguFBtzM?start=0&amp;end=93&amp;rel=0" title="The Blue Jeans Go Green Denim Recycling Process" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen>
+</iframe>
+
+</div>
+
+<div>
+
+<span class="fashion-watch-label">WATCH · FULL CLIP · 1:33</span>
+<p>
+Blue Jeans Go Green<br><em>Denim Recycling Process</em>
+</p>
+<p>
+<strong>Spot the change:</strong> when does the material stop being fabric?
+</p>
+<p>
+What evidence would you need before calling this the greener option?
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-caption">
+
+<a href="https://www.youtube.com/watch?v=LaAcguFBtzM">Open video on YouTube</a> · <a href="https://corporate.abercrombie.com/sustainability/environmental-impact/blue-jeans-go-green-and-martex-fibers/">Programme video and case source</a>. Playback fallback: trace the previous figure. This is a programme’s own account of its process.
+
+</div>
+
+<!--
+Play the full 93-second clip. The programme is a US example, not a suggested local collection service. A promotional process video can show a route without demonstrating a net carbon saving. Ask which processes the video makes visible and which measurements are missing.
+-->
 
 ---
 layout: section
 class: converted-slide section-slide green-slide
 level: 1
-title: "The Key Concept: System Boundaries"
-routeAlias: the-key-concept-system-boundaries
+title: "Testing the Claim: LCA & System Boundaries"
+routeAlias: testing-the-claim-lca-system-boundaries
 menuDetail: "Lecture section"
 ---
 
-# The Key Concept: System Boundaries
+# Testing the Claim: LCA & System Boundaries
 
 ---
 layout: default
 class: converted-slide legacy-content
+zoom: 0.92
 ---
 
 # Life Cycle Assessment (LCA)
 
-<div style="font-size: 1.6em; line-height: 1.8;">
+LCA follows materials, energy and emissions through a product’s life, then estimates its potential environmental impacts.
 
-All those numbers you just saw depend on **one crucial decision**:
+<div class="fashion-grid">
 
-**Where do you draw the boundary of what you’re measuring?**
+<div class="fashion-card">
+
+<b>Compared to what?</b>
+<p>
+One garment? Or the same number of wears?
+</p>
 
 </div>
 
-<img src="https://ecochain.com/wp-content/uploads/2019/05/Product-Life-Cycle-version-1-English-2.png" style="width:70.0%" />
+<div class="fashion-card">
+
+<b>Measured how?</b>
+<p>
+Carbon emissions, water consumption or another impact?
+</p>
+
+</div>
+
+<div class="fashion-card">
+
+<b>Ending where?</b>
+<p>
+The factory door, disposal or another product’s life?
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt">
+
+<strong>A boundary defines what you count. LCA uses evidence to estimate the impacts.</strong> Keep the comparison fair; do not choose exclusions just to make a product look better.
+
+</div>
+
+<div class="fashion-caption">
+
+Sources: <a href="https://green-forum.ec.europa.eu/green-business/environmental-footprint-methods/lca-ef-methods_en">European Commission, LCA and environmental impacts</a>; <a href="https://www.lifecycleinitiative.org/criteria-good-lca-practice/">Life Cycle Initiative, fair comparisons and justified boundaries</a>.
+
+</div>
 
 ---
 layout: default
@@ -836,42 +1352,66 @@ class: converted-slide legacy-content
 
 # The Boundary Problem
 
-<div style="font-size: 1.5em; line-height: 1.8;">
+<div class="fashion-figure">
 
-**Cradle-to-gate**: Raw materials → Factory door
-
-**Cradle-to-grave**: Raw materials → Consumer disposal
-
-**Cradle-to-cradle**: Raw materials → Recycling → New product
+<img :src="'../../conversion-assets/assets/fashion/system-boundaries.svg'" alt="Nested boundaries: cradle-to-gate includes raw materials, fabric and garment making; cradle-to-grave also includes transport, care and end-of-life. A recycling scenario adds collection and processing for another product." />
 
 </div>
 
-<div style="font-size: 1.6em; margin-top: 30px; font-weight: bold; color: #8e44ad;">
+<div class="fashion-prompt">
 
-Same product. Different boundaries. Completely different conclusions.
+<strong>Point to what disappears</strong> when a company stops counting at the factory door.
 
 </div>
+
+<!--
+The diagram is a simplified teaching model. Real LCAs specify included processes and exclusions in more detail. A recycling loop needs explicit assumptions about how impacts and benefits are allocated between successive products; do not treat cradle-to-cradle as proof that waste or impact is zero. An environmental boundary also does not replace evidence on wages and livelihoods.
+-->
 
 ---
 layout: default
 class: converted-slide legacy-content
 ---
 
-# Remember the Ghana Statistic?
+# Follow the Donation Beyond the Bin
 
-<div style="font-size: 1.6em; line-height: 1.8;">
+<div class="fashion-grid">
 
-“40% of donated clothes end up in Ghanaian landfills.”
+<div class="fashion-card">
 
-If your system boundary stops at **“clothes donated”** — recycling looks great.
-
-If your system boundary extends to **“where clothes actually end up”** — you’re just exporting waste.
+<b>Collected</b>
+<p>
+You put a bag of clothes in a donation bin.
+</p>
+<span class="fashion-route">↓ What happens next?</span>
 
 </div>
 
-<div style="font-size: 1.5em; margin-top: 30px; font-weight: bold; color: #e74c3c;">
+<div class="fashion-card">
 
-The boundary you choose determines the story you tell.
+<b>Sorted</b>
+<p>
+Condition, demand and local processing options affect the destination.
+</p>
+<span class="fashion-route">↓ Which route?</span>
+
+</div>
+
+<div class="fashion-card">
+
+<b>Actually used?</b>
+<p>
+Resale, reuse, material recovery or disposal.
+</p>
+<span class="fashion-route">↓ What is replaced?</span>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt">
+
+<strong>Collection is an intermediate step.</strong> Your evidence needs to follow the clothes to their destination.
 
 </div>
 
@@ -882,44 +1422,112 @@ class: converted-slide legacy-content
 
 # This Is Why Nuance Matters
 
-<div style="font-size: 1.5em; line-height: 1.8;">
+<div class="fashion-grid">
 
-<v-clicks>
+<div class="fashion-card">
 
-- **Organic cotton** looks good if you stop at pesticides. Looks worse if you include water usage.
-- **Recycling** looks good if you stop at the donation bin. Looks worse if you follow it to Africa.
-- **Electric cars** look good if you stop at tailpipe emissions. Depends on the grid if you include electricity source.
-
-</v-clicks>
+<b>“Organic”</b>
+<p>
+Ask where and how the fibre was grown, and which impacts were measured.
+</p>
 
 </div>
 
-<div style="font-size: 1.4em; margin-top: 30px; color: #7f8c8d;">
+<div class="fashion-card">
 
-Anyone who gives you a simple answer is hiding their system boundary from you.
+<b>“Upcycled”</b>
+<p>
+Ask whether the redesigned product will be used and replace another purchase.
+</p>
+
+</div>
+
+<div class="fashion-card">
+
+<b>“Recycled”</b>
+<p>
+Ask what the material becomes and what processing it requires.
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt">
+
+A useful conclusion says what improved, under which conditions, and what remains uncertain.
 
 </div>
 
 ---
 layout: default
 class: converted-slide legacy-content
+zoom: 0.84
 ---
 
 # The Quiz Question
 
-<div style="font-size: 1.8em; line-height: 1.8; background: #2c3e50; color: white; padding: 40px; border-radius: 15px;">
+<div class="fashion-equation">
 
-**What is the single most important question to ask when someone tells you a product is “sustainable” or “green”?**
+Does “upcycled” automatically mean “more sustainable”?
+
+</div>
+
+<div class="fashion-grid">
+
+<div class="fashion-card">
+
+<b>Compared to what?</b>
+<p>
+Repair, continued wear, another product or disposal?
+</p>
+<p>
+Compare the same useful service.
+</p>
 
 </div>
 
-<div style="font-size: 1.5em; margin-top: 30px;">
+<div class="fashion-card">
 
-Answer: **“What system boundary are you using?”**
-
-Or more simply: **“Sustainable compared to what, measured how, ending where?”**
+<b>Counted and measured how?</b>
+<p>
+Which processes are included? Which impacts and data?
+</p>
+<p>
+What is actually displaced?
+</p>
 
 </div>
+
+<div class="fashion-card">
+
+<b>Better for whom?</b>
+<p>
+Who benefits, who does the work and who pays?
+</p>
+<p>
+Environmental results alone do not settle these questions.
+</p>
+
+</div>
+
+</div>
+
+<div class="fashion-prompt">
+
+<strong>No automatic verdict.</strong> Up/downcycling describes a material’s next use or value. A sustainability claim needs a fair comparison, evidence and an account of the trade-offs.
+
+</div>
+
+<div class="fashion-caption">
+
+<a href="https://green-forum.ec.europa.eu/green-business/environmental-footprint-methods/lca-ef-methods_en">Environmental LCA</a> and <a href="https://www.lifecycleinitiative.org/library/guidelines-for-social-life-cycle-assessment-of-products-and-organisations-2020/">social life-cycle assessment</a> address different questions.
+
+</div>
+
+<!--
+Do not let the lesson collapse into “sustainability is whatever boundary you choose.” Boundaries, the functional unit, impact measures and assumptions shape a comparison, but they must be justified and applied consistently. The actual production, use and recovery processes still have real effects. Environmental LCA estimates potential environmental impacts; evidence about wages, working conditions, affordability and distribution of costs is also needed for the policy debate. The up/downcycling terminology can depend on the material-quality or product-value perspective, but a label does not establish a net environmental benefit.
+-->
 
 ---
 layout: section
@@ -1001,6 +1609,116 @@ class: converted-slide legacy-content
 </div>
 
 ---
+layout: section
+class: converted-slide section-slide cobalt-slide
+level: 1
+title: "Case: SHEIN Under Pressure"
+routeAlias: case-shein-under-pressure
+menuDetail: "Lecture section"
+---
+
+# Case: SHEIN Under Pressure
+
+---
+layout: default
+class: converted-slide legacy-content
+---
+
+# SHEIN: Fast Fashion, Fast-Forwarded?
+
+<div class="fashion-case-intro"><strong>Recognise the appeal?</strong> Low prices, endless discovery, one more item in the basket.</div>
+<div class="fashion-case-loop" role="group" aria-label="SHEIN's reported model: spot demand, test a small batch, read customer feedback, restock what sells, then repeat">
+  <div class="fashion-case-step"><span>01</span><b>Spot demand</b><p>Trends and customer preferences.</p></div>
+  <div class="fashion-case-step"><span>02</span><b>Test a style</b><p><strong>100–200 items</strong> in an initial batch, according to SHEIN.</p></div>
+  <div class="fashion-case-step"><span>03</span><b>Read the response</b><p>Customer feedback and purchases.</p></div>
+  <div class="fashion-case-step"><span>04</span><b>Restock winners</b><p>More production follows demand.</p></div>
+</div>
+<div class="fashion-case-return">↶ Feedback shapes the next round</div>
+<div class="fashion-prompt"><strong>The tension:</strong> fewer unsold items per style may help. But what if we buy more styles, more often?</div>
+<div class="fashion-caption">“H&amp;M, fast-forwarded?” is a discussion analogy, not a measured speed or footprint ranking. Model: <a href="https://www.sheingroup.com/newsroom/shein-ramps-up-denim-production-using-cool-transfer-denim-printing-by-90-in-2024">SHEIN’s own account (2025)</a>. Compare <a href="https://hmgroup.com/about-us/business-idea/">H&amp;M’s affordability proposition</a>.</div>
+
+<!--
+About 60 seconds. Ask what makes an app purchase tempting, without judging anyone who shops cheaply. The diagram paraphrases SHEIN’s account of initial batches, feedback and restocking; it is not an independently measured environmental result. H&M also has digital sales and data: the analogy is about intensifying familiar fast-fashion incentives, not a claim that H&M is purely physical or lacks customer feedback. Connect to LCA: inventory efficiency is one part of the system; purchase volume, transport, useful wears and disposal still matter.
+-->
+
+---
+layout: default
+class: converted-slide legacy-content
+---
+
+# SHEIN: Rise → Reality Check
+
+<div class="fashion-case-timeline" role="group" aria-label="Three dated milestones: platform scale in April 2024, a green-claims fine in August 2025, and an EU investigation opened in February 2026">
+  <div class="fashion-case-milestone"><div class="fashion-case-date">April 2024 · Scale</div><b>45m+</b><p>Average monthly EU users reported at designation as a very large online platform.</p></div>
+  <div class="fashion-case-milestone"><div class="fashion-case-date">August 2025 · Green claims</div><b>€1m fine</b><p>Italy’s competition authority penalised the European website operator over misleading environmental claims.</p></div>
+  <div class="fashion-case-milestone"><div class="fashion-case-date">February 2026 · Platform design</div><b>EU probe</b><p>Opened into addictive-design risks, recommendation transparency and illegal-product safeguards.</p></div>
+</div>
+<div class="fashion-prompt"><strong>Success brings a responsibility question:</strong> when a platform can influence what millions buy, where should its obligations end?</div>
+<div class="fashion-caption"><a href="https://digital-strategy.ec.europa.eu/en/news/commission-designates-shein-very-large-online-platform-under-digital-services-act">EC, 26 Apr 2024</a> · <a href="https://en.agcm.it/en/media/press-releases/2025/8/PS12709">AGCM, 4 Aug 2025</a> · <a href="https://digital-strategy.ec.europa.eu/en/news/commission-launches-investigation-shein-under-digital-services-act">EC, 17 Feb 2026</a>. Dated milestones, not proof of a business collapse. Opening an investigation is not a finding of infringement.</div>
+
+<!--
+About 60 seconds. This is a rise-and-reality-check story, not an asserted rise-and-fall financial history. The 45-million figure is a historical EU monthly-user threshold exceeded at designation, not a count of purchasers or a current global audience. The €1 million AGCM sanction was imposed on Infinite Styles Services Co. Ltd, the European website operator; it is separate from the later DSA investigation. The latter was opened on 17 February 2026. Keep these as dated events; do not imply that a probe itself proves the allegations or that the business has ceased operating. Bring the conversation back to responsibility rather than listing every corporate controversy.
+-->
+
+---
+layout: default
+class: converted-slide legacy-content
+---
+
+# Green Fibre ≠ A Circular Garment
+
+<div class="fashion-case-intro"><strong>The real example: evoluSHEIN.</strong> Italy’s regulator challenged claims about materials and recyclability.</div>
+<div class="fashion-case-chain" role="group" aria-label="Recycled content does not automatically mean the whole garment can be collected and recycled after use">
+  <div><span>Input</span><b>Recycled content</b><p>What went into the fabric?</p></div>
+  <div class="fashion-case-not-equal" aria-label="does not automatically mean">≠</div>
+  <div><span>Next life</span><b>Recyclable garment</b><p>Can this whole item actually be collected, sorted and reprocessed?</p></div>
+</div>
+<div class="fashion-prompt"><strong>Back to our boundary lesson:</strong> changing one fibre does not establish the garment’s full-life benefit. Which processes and evidence are missing?</div>
+<div class="fashion-caption"><a href="https://en.agcm.it/en/media/press-releases/2025/8/PS12709">AGCM’s 2025 decision summary</a> questioned full-life benefits and recyclability claims. This is a specific case—not a claim that every SHEIN item has the same composition or impact.</div>
+
+<!--
+About 60 seconds. The diagram is a teaching distinction, not a bill of materials for a particular garment. Ask students to connect it to today’s upcycling/downcycling examples: recycled input, technical recyclability, actual collection and net environmental benefit are separate claims. A take-back programme must show what happens after collection.
+-->
+
+---
+layout: default
+class: converted-slide legacy-content
+---
+
+# Temu / PDD: The Marketplace Echo
+
+<div class="fashion-grid fashion-two">
+  <div class="fashion-card fashion-case-brand"><b>SHEIN</b><p>Fashion brands <strong>and</strong> a third-party marketplace.</p><p>The garment case stays central.</p></div>
+  <div class="fashion-card fashion-case-brand"><b>PDD Holdings</b><div class="fashion-case-branches"><div><strong>Pinduoduo</strong><span>China-focused platform</span></div><div><strong>Temu</strong><span>International marketplace · launched 2022</span></div></div></div>
+</div>
+<div class="fashion-case-common"><strong>The echo:</strong> value pricing + interactive shopping + a large seller network.</div>
+<div class="fashion-prompt"><strong>Bring this case to Hong Kong:</strong> if a garment arrives through a marketplace, who should fund its next life—the brand, seller, platform or buyer?</div>
+<div class="fashion-caption">SHEIN is not part of PDD. Temu is not simply another SHEIN clothing brand. Sources: <a href="https://www.sheingroup.com/our-group">SHEIN’s business description</a> · <a href="https://investor.pddholdings.com/static-files/92dafbdc-3125-4f2c-a28f-3d61203efbaf">PDD 2025 annual report, pp. 3, 70–72</a>. Different products and fulfilment routes need their own impact evidence.</div>
+
+<!--
+About 60 seconds, then move on. PDD Holdings is the corporate group behind Pinduoduo and Temu, not the owner of SHEIN. PDD’s report describes third-party merchant listings, competitive pricing and interactive shopping; Temu launched in September 2022. The shared consumer pull is a classroom comparison, not evidence that the companies have identical supply chains, labour conditions or carbon footprints. Temu also sells many non-fashion categories. Use apparel sold through a marketplace to test the coverage of our proposed Hong Kong EPR scheme; this is a policy-design question, not a statement of current Hong Kong law.
+-->
+
+---
+layout: default
+class: converted-slide legacy-content
+zoom: 0.92
+---
+
+# Same SHEIN Case. Two Policy Pitches.
+
+<div class="fashion-grid fashion-two">
+  <div class="fashion-card fashion-case-climate"><div class="fashion-case-label">Pro-Climate angle</div><b>Responsibility after checkout</b><p>“If a green label cannot guarantee a useful next life, make retailers fund a system that can be checked.”</p><p><strong>Use:</strong> the recyclability case. Explain collection, reporting and who pays.</p></div>
+  <div class="fashion-card fashion-case-development"><div class="fashion-case-label">Pro-Development angle</div><b>Protect affordable access</b><p>“Do not assume a take-back fee is harmless. Show who pays it—and that it funds recovery rather than a green label.”</p><p><strong>Find:</strong> evidence on price effects, supplier incomes and a workable alternative.</p></div>
+</div>
+<div class="fashion-prompt"><strong>Next: turn these positions into a motion.</strong> Keep both in mind when your vocational role is assigned: what would that role find missing?</div>
+<div class="fashion-caption">Illustrative argument starters, not quotations from real people or complete evidence-backed speeches. Return to the <a href="https://en.agcm.it/en/media/press-releases/2025/8/PS12709">SHEIN case evidence</a>; do not treat the sanction as proof that our particular EPR scheme will work.</div>
+
+<!--
+Move straight from the SHEIN/Temu case into these two possible policy positions, then reveal the exact motion on the next slide. These are argument starters, not personal accounts, facts about an individual worker, or dictated conclusions. The development pitch identifies evidence students need; it does not assert a measured price increase or job loss from a scheme that does not yet exist. After role assignment, use the presentation recipe to add a plausible vocation and concrete stake. Students refine their existing prepared spectacle rather than start again.
+-->
+
+---
 layout: default
 class: converted-slide legacy-content
 ---
@@ -1022,454 +1740,27 @@ PRO-CLIMATE argues **for**. PRO-DEVELOPMENT argues **against**.
 </div>
 
 ---
-layout: section
-class: converted-slide section-slide cobalt-slide
-level: 1
-title: "Voices From the Battlefield"
-routeAlias: voices-from-the-battlefield
-menuDetail: "Lecture section"
----
-
-# Voices From the Battlefield
-
----
 layout: default
 class: converted-slide legacy-content
 ---
 
-# Real Words, Real Stakes
+# Remember: Fact, Claim or Argument?
 
-<div style="font-size: 1.3em; line-height: 1.9;">
-
-> “Fast fashion isn’t free. Someone, somewhere is paying.”
->
-> — **Lucy Siegle**, journalist and author of *To Die For: Is Fashion Wearing Out the World?* (2011)
-
-> “The most sustainable garment is the one already in your wardrobe.”
->
-> — **Orsola de Castro**, co-founder of Fashion Revolution, *Loved Clothes Last* (2021)
-
-> “We are not asking brands to leave Bangladesh. We are asking them to stay — and pay fair wages.”
->
-> — **Kalpona Akter**, garment worker turned labor activist, Executive Director of the Bangladesh Center for Worker Solidarity (2019 interview, The Guardian)
-
+<div class="fashion-grid">
+  <div class="fashion-card"><b>Documented event</b><p>AGCM imposed a <strong>€1m fine in 2025</strong> over SHEIN green claims.</p><p>Name the authority, date and conduct.</p></div>
+  <div class="fashion-card"><b>Company account</b><p>SHEIN describes <strong>100–200-item initial batches</strong>.</p><p>Attribute the claim. That alone does not prove lower total impact.</p></div>
+  <div class="fashion-card"><b>Your argument</b><p>“Hong Kong should make fashion retailers fund recovery.”</p><p>Defend the policy with evidence; explain its limits and trade-offs.</p></div>
 </div>
+<div class="fashion-prompt"><strong>Keep the distinction in Notion:</strong> source → what it establishes → your interpretation. Label fictional role-play; do not invent a worker’s testimony.</div>
+<div class="fashion-caption"><a href="https://en.agcm.it/en/media/press-releases/2025/8/PS12709">Regulatory finding</a> · <a href="https://www.sheingroup.com/newsroom/shein-ramps-up-denim-production-using-cool-transfer-denim-printing-by-90-in-2024">Company account</a>. Different evidence types do different jobs.</div>
 
----
-layout: default
-class: converted-slide legacy-content
-zoom: 0.92
----
-
-# The Other Side Speaks
-
-<div style="font-size: 1.3em; line-height: 1.9;">
-
-> “Fashion has always been about making beautiful things accessible. The question is how we do it responsibly.”
->
-> — **Karl-Johan Persson**, former CEO of H&M, responding to sustainability criticism (2019)
-
-> “Telling poor people to buy less is not a climate strategy. It’s class warfare disguised as environmentalism.”
->
-> — **Pietra Rivoli**, economist, author of *The Travels of a T-Shirt in the Global Economy* (2014 edition)
-
-> “When we closed one factory for violations, 3,000 workers lost their jobs. The activists celebrated. The workers didn’t.”
->
-> — **Rubana Huq**, President of BGMEA (Bangladesh Garment Manufacturers Association), 2022
-
-</div>
-
-<div style="font-size: 1.1em; text-align: center; margin-top: 30px; color: #7f8c8d;">
-
-*All quotes verifiable via Google Scholar, The Guardian, or named publications. This is how you build credibility.*
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# The Hidden Price Tag
-
-<div style="font-size: 1.8em; line-height: 1.8;">
-
-Your \$15 H&M dress has a price tag.
-
-It also has a **shadow price** — paid by someone else, somewhere else.
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
-zoom: 0.92
----
-
-# What \$15 Doesn’t Cover
-
-<div style="display: flex; justify-content: space-around; margin-top: 30px;">
-
-<div style="width: 30%; background: #3498db; color: white; padding: 25px; border-radius: 10px; text-align: center;">
-
-<div style="font-size: 1.3em; font-weight: bold;">
-
-Water
-
-</div>
-
-<div style="font-size: 1.1em; margin-top: 10px;">
-
-2,700L per cotton t-shirt — enough drinking water for one person for 2.5 years
-
-</div>
-
-</div>
-
-<div style="width: 30%; background: #e74c3c; color: white; padding: 25px; border-radius: 10px; text-align: center;">
-
-<div style="font-size: 1.3em; font-weight: bold;">
-
-Carbon
-
-</div>
-
-<div style="font-size: 1.1em; margin-top: 10px;">
-
-Fashion = 10% of global emissions — more than aviation and shipping combined
-
-</div>
-
-</div>
-
-<div style="width: 30%; background: #9b59b6; color: white; padding: 25px; border-radius: 10px; text-align: center;">
-
-<div style="font-size: 1.3em; font-weight: bold;">
-
-Waste
-
-</div>
-
-<div style="font-size: 1.1em; margin-top: 10px;">
-
-One garbage truck of textiles landfilled or burned every second globally
-
-</div>
-
-</div>
-
-</div>
-
-<div style="font-size: 1.1em; margin-top: 20px; color: #7f8c8d; text-align: center;">
-
-*Sources: WRAP; Ellen MacArthur Foundation; UN Environment Programme*
-
-</div>
+<!--
+Tie the credibility reminder to the case already taught. A company description may document what the company says, but is not by itself an independent comparative LCA. A regulatory sanction establishes a specific finding, not that every product is identical or that every proposed remedy will succeed. Values and policy arguments are legitimate; the mistake is presenting them as measurements. Students may play a fictional vocational persona, but must not pass invented biography or quotations off as a real researched story.
+-->
 
 ---
 layout: section
 class: converted-slide section-slide orange-slide
-level: 1
-title: "Would You Rather?"
-routeAlias: would-you-rather
-menuDetail: "Lecture section"
----
-
-# Would You Rather?
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# The Wardrobe Dilemma
-
-<div style="font-size: 1.6em; line-height: 2; background: #ecf0f1; padding: 40px; border-radius: 15px;">
-
-**Scenario 1:** A new policy requires all clothing sold in Hong Kong to display its full carbon footprint on the label. Your favourite \$99 H&M dress now shows: “This garment produced 33kg of CO₂.” Your sustainable alternative costs \$800.
-
-*Do you still buy the cheap dress?*
-
-**Scenario 2:** Closing all fast fashion factories in Bangladesh would eliminate 4 million jobs — mostly held by women who are their families’ sole earners. But those factories dump 22,000 tonnes of toxic waste into rivers annually.
-
-*Do you support the closure?*
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# The Ethics Get Messy
-
-<div style="display: flex; justify-content: space-around; margin-top: 30px;">
-
-<div style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.4em; font-weight: bold;">
-
-PRO-CLIMATE says:
-
-</div>
-
-<div style="font-size: 1.2em; margin-top: 15px;">
-
-“Those 4 million jobs mean nothing if their children inherit a dead planet. We found alternatives to coal jobs. We can find alternatives here.”
-
-</div>
-
-</div>
-
-<div style="text-align: left; width: 45%; background: #3498db; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.4em; font-weight: bold;">
-
-PRO-DEVELOPMENT says:
-
-</div>
-
-<div style="font-size: 1.2em; margin-top: 15px;">
-
-“Easy to demand factory closures from your air-conditioned campus. Fatima doesn’t have a Plan B. Neither do her three kids. Your ‘ethical choice’ is her eviction notice.”
-
-</div>
-
-</div>
-
-</div>
-
----
-layout: section
-class: converted-slide section-slide green-slide
-level: 1
-title: "Building Your Fashion Spectacle"
-routeAlias: building-your-fashion-spectacle
-menuDetail: "Lecture section"
----
-
-# Building Your Fashion Spectacle
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# The Formula (Reminder)
-
-<div style="font-size: 1.8em; line-height: 1.8;">
-
-**Fact** + **Human Story** + **Stakes** = **Spectacle**
-
-</div>
-
-<div style="display: flex; justify-content: space-around; margin-top: 50px;">
-
-<div style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.2em; font-weight: bold;">
-
-Weak
-
-</div>
-
-“Jeans use a lot of water”
-
-</div>
-
-<div style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.2em; font-weight: bold;">
-
-Better
-
-</div>
-
-“One pair of jeans requires 7,500 liters of water”
-
-</div>
-
-<div style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.2em; font-weight: bold;">
-
-Spectacle
-
-</div>
-
-“Your jeans drank more water than you will in 7 years. And you’ll throw them away in 18 months.”
-
-</div>
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# PRO-CLIMATE: Make It Personal
-
-<div style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;">
-
-**Don’t say:** “Fast fashion causes pollution.”
-
-**Say:** “The river in Dhaka where they dye your \$15 dress runs blue one day, red the next. Children play in that water. You wear their poisoned river.”
-
-**Don’t say:** “We should buy less clothing.”
-
-**Say:** “In 1960, the average American bought 25 garments a year. Now: 70. Your great-grandmother had one Sunday dress. You have a closet crisis.”
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# PRO-DEVELOPMENT: Paint the Picture
-
-<div style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;">
-
-**Don’t say:** “Fashion provides jobs.”
-
-**Say:** “Fatima in Bangladesh earns \$100 a month sewing clothes. It’s not much — but it’s more than her mother made as a farm laborer. She sends her daughter to school. Want to close the factory?”
-
-**Don’t say:** “Sustainable fashion is expensive.”
-
-**Say:** “A \$200 organic cotton shirt is a ‘conscious choice’ for a HKU student. For a cleaner in Sham Shui Po, it’s a month’s food budget. Who gets to be ethical?”
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
-zoom: 0.92
----
-
-# Two Stories, One Industry
-
-<div style="display: flex; justify-content: space-around; margin-top: 20px;">
-
-<div style="width: 48%; background: #e74c3c; color: white; padding: 25px; border-radius: 10px;">
-
-<div style="font-size: 1.3em; font-weight: bold;">
-
-Reshma — Rana Plaza, 2013
-
-</div>
-
-<div style="font-size: 1.1em; margin-top: 10px; line-height: 1.5;">
-
-Cracks appeared in the building. Engineer declared it unsafe. Bosses ordered workers back — or lose a month’s wages.
-
-**1,134 died.** Reshma buried 17 days. Found alive.
-
-> *“I heard voices for days, then they stopped.”*
-
-Labels in rubble: Primark, Benetton, Walmart.
-
-</div>
-
-</div>
-
-<div style="width: 48%; background: #3498db; color: white; padding: 25px; border-radius: 10px;">
-
-<div style="font-size: 1.3em; font-weight: bold;">
-
-Nasreen — Rangpur to Dhaka
-
-</div>
-
-<div style="font-size: 1.1em; margin-top: 10px; line-height: 1.5;">
-
-Family were sharecroppers: \$1-2/day. One meal during floods. At 16, factory job: \$68/month.
-
-**First in family to own property.** Sister finished school.
-
-> *“My mother worked fields her whole life and owned nothing. I own a home.”*
-
-Now a line supervisor: \$180/month.
-
-</div>
-
-</div>
-
-</div>
-
-<div style="font-size: 1.5em; text-align: center; margin-top: 30px; font-weight: bold; color: #8e44ad;">
-
-Both stories are true. Both are the fashion industry.
-
-</div>
-
-<div style="font-size: 1.1em; text-align: center; margin-top: 15px; color: #7f8c8d;">
-
-*Sources: BBC, Guardian, ILO, World Bank, Clean Clothes Campaign — all verifiable*
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
-zoom: 0.92
----
-
-# Remember: Fact-Check Your Stories
-
-<div style="display: flex; justify-content: space-around; margin-top: 30px;">
-
-<div style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.5em; font-weight: bold;">
-
-✓ OK to Say
-
-</div>
-
-<div style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;">
-
-<v-clicks>
-
-- “One pair of jeans uses 7,500L of water” *(Levi’s LCA data)*
-- “Fashion is 10% of global emissions” *(UN Environment)*
-- “HK discards 110,000 tonnes of textiles/year” *(EPD data)*
-- “Rana Plaza killed 1,134 workers” *(verified)*
-
-</v-clicks>
-
-</div>
-
-</div>
-
-<div style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.5em; font-weight: bold;">
-
-✗ NOT OK
-
-</div>
-
-<div style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;">
-
-<v-clicks>
-
-- “All fast fashion is unethical” *(moral claim)*
-- “Sustainable fashion saves the planet” *(overstated)*
-- “Boycotts always work” *(depends on context)*
-- “Consumers are responsible for everything” *(too simple)*
-
-</v-clicks>
-
-</div>
-
-</div>
-
-</div>
-
----
-layout: section
-class: converted-slide section-slide black-slide
 level: 1
 title: "Now It's Your Turn"
 routeAlias: now-it-s-your-turn
@@ -1480,7 +1771,7 @@ menuDetail: "Lecture section"
 
 ---
 layout: section
-class: converted-slide section-slide cobalt-slide
+class: converted-slide section-slide green-slide
 level: 1
 title: "Cheatsheet: 6 Questions Before You Debate"
 routeAlias: cheatsheet-6-questions-before-you-debate
@@ -1530,13 +1821,32 @@ layout: default
 class: converted-slide legacy-content
 ---
 
+# Suggested Presentation Recipe
+
+<div class="fashion-grid">
+  <div class="fashion-card fashion-during"><div class="fashion-stage-eyebrow">01 · Who am I?</div><b>Name your role</b><p>“Speaking in role as a <strong>[job]</strong> in the <strong>[vocational group]</strong>…”</p><p>Give the audience a person and perspective to follow.</p></div>
+  <div class="fashion-card fashion-during"><div class="fashion-stage-eyebrow">02 · What do I do?</div><b>Make the stakes concrete</b><p>“My work involves <strong>[daily task]</strong>. This motion affects our <strong>[costs, responsibilities or livelihood]</strong>.”</p><p>Why would this role care?</p></div>
+  <div class="fashion-card fashion-during"><div class="fashion-stage-eyebrow">03 · Why this position?</div><b>Support or oppose</b><p>“I <strong>support / oppose this motion</strong> because <strong>[main reason]</strong>.”</p><p>Deliver your refined spectacle, grounded in a sourced fact and real story.</p></div>
+</div>
+&#10;<div class="fashion-prompt fashion-during"><strong>Then:</strong> address one strong counterargument and finish with a clear ask. What should the audience support, block or change—and why?</div>
+&#10;<div class="fashion-caption">Suggested structure, not extra homework. Your persona is role-play; your evidence and quotations must be real. Keep refining the pitch you prepared before the role assignment.</div>
+
+<!--
+Use after the random vocational assignment, before starting the presentation timer. Students should connect a plausible job within their assigned sector to the actual motion, rather than only announce a generic Pro-Climate or Pro-Development label. The vocation does not automatically determine support or opposition. This is a suggested speaking scaffold, not a new assessment requirement or an instruction to invent biography as evidence. Preserve the pre-class pitch, test its relevance to the role, and refine it. Listeners keep writing both in-role and personal reflections in the same weekly Notion entry.
+-->
+
+---
+layout: default
+class: converted-slide legacy-content
+---
+
 # Presentation Countdown
 
 <CountdownTimer :seconds="300" />
 
 ---
 layout: section
-class: converted-slide section-slide orange-slide
+class: converted-slide section-slide black-slide
 level: 1
 title: "The Persuasion Playbook | Strategy #2"
 routeAlias: the-persuasion-playbook-strategy-2
@@ -1638,7 +1948,7 @@ Test it. Watch faces.
 
 ---
 layout: section
-class: converted-slide section-slide green-slide
+class: converted-slide section-slide cobalt-slide
 level: 1
 title: "Appendix: Reference Material"
 routeAlias: appendix-reference-material
@@ -1882,6 +2192,7 @@ zoom: 0.84
 ---
 layout: default
 class: converted-slide legacy-content
+zoom: 0.84
 ---
 
 # Appendix F: “Wait, What?” Facts — Full Sources
@@ -1892,9 +2203,9 @@ class: converted-slide legacy-content
 |----|----|
 | Beyond Burger ~3.5 kg CO₂e/kg | Saget et al. (2021) Nature Food; Heller & Keoleian (2018) |
 | Chicken ~4.5-6 kg CO₂e/kg | Poore & Nemecek (2018) Science |
-| Organic cotton 91% more water | Mekonnen & Hoekstra (2011); varies by region |
-| Cotton tote 131 uses | UK Environment Agency (2011) LCA |
-| 40% donated clothes to landfill | OR Foundation (2022); varies by destination |
+| Cotton impacts depend on the production system | [Textile Exchange cotton LCA (2026)](https://textileexchange.org/knowledge-center/reports/cotton-life-cycle-assessment/) |
+| Cotton tote: 131 uses in one climate comparison | [UK Environment Agency (2011)](https://www.gov.uk/government/publications/life-cycle-assessment-of-supermarket-carrierbags-a-review-of-the-bags-available-in-2006); reference HDPE bag not reused |
+| Collected denim can become insulation | [Blue Jeans Go Green FAQ](https://bluejeansgogreen.org/faq/); programme-specific route |
 | Fashion 10% of emissions | UNEP (2019); Ellen MacArthur Foundation |
 | Spanish vs UK tomatoes | Weber & Matthews (2008); Garnett (2011) |
 | EV emissions vary by grid | IEA (2023); Lifecycle studies vary significantly |

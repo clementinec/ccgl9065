@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+  <title id="title">One pair of jeans, four possible next lives</title>
+  <desc id="desc">Repair or reuse preserves the garment. Upcycling remakes intact denim as a useful bag. Textile-to-textile recycling recovers fibre for new yarn or fabric. Downcycling processes material into a lower-grade textile application such as filling. These are routes, not a ranking of environmental impact.</desc>
+  <rect width="1200" height="450" rx="12" fill="#fbf8f1"/>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#5b6d7b" stroke-width="1.5"/></marker></defs>
+  <path d="M63 155H176L193 306H139L121 222L105 306H47Z" fill="#4356b3"/>
+  <g fill="none" stroke="#fbf8f1" stroke-width="3"><path d="M64 176H176M121 156V214"/><path d="M137 245H177V273H137Z" stroke-dasharray="5 4"/></g>
+  <g fill="none" stroke="#5b6d7b" stroke-width="3" marker-end="url(#a)"><path d="M208 225H259V65H310"/><path d="M259 225V172H310"/><path d="M259 225V279H310"/><path d="M259 225V386H310"/></g>
+  <g fill="#eeeef4"><rect x="329" y="22" width="837" height="87" rx="8"/><rect x="329" y="129" width="837" height="87" rx="8"/></g>
+  <g fill="#eee9de"><rect x="329" y="236" width="837" height="87" rx="8"/><rect x="329" y="343" width="837" height="87" rx="8"/></g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#102a43">
+    <text x="120" y="111" font-size="25" font-weight="700" text-anchor="middle">Worn jeans</text>
+    <text x="120" y="347" font-size="19" text-anchor="middle">What is still usable?</text>
+    <g font-size="26" font-weight="700"><text x="354" y="59">Repair / reuse</text><text x="354" y="166">Upcycle</text><text x="354" y="273">Textile → textile</text><text x="354" y="380">Downcycle</text></g>
+    <g font-size="22"><text x="650" y="59">Jeans → jeans, worn again</text><text x="650" y="166">Intact denim → useful new bag</text><text x="650" y="273">Recovered fibre → new yarn / fabric</text><text x="650" y="380">Denim → lower-grade textile material</text></g>
+    <g font-size="19" fill="#5b6d7b"><text x="354" y="89">Keep the garment’s function</text><text x="354" y="196">Retain or add value through design</text><text x="354" y="303">Break down and process the material</text><text x="354" y="410">Examples: filling, some insulation routes</text></g>
+  </g>
+</svg>

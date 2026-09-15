@@ -19,7 +19,7 @@ Supplied route · cross-disciplinary · non-confidential · safe to discuss
 This case, institution, researcher, participants, quotations, and numerical values are entirely fictional. They were created for workshop use and do not describe an actual study. Do not treat the case as research evidence.
 :::
 
-Use the [upload-ready PDF](assets/supplied-hybrid-studio-case.pdf) for the live Socratic Oracle route. The web page is for reading; the interface accepts a searchable PDF rather than pasted prompt text.
+Use the [upload-ready PDF](assets/supplied-hybrid-studio-case.pdf) for the Day 1 Socratic Oracle route. For the Day 2 LLM trials, use the bounded fictional paragraph on the [copy-ready lab page](day2-lab.html); the complete case does not need to be uploaded again.
 
 ## Case narrative
 
@@ -101,4 +101,4 @@ The Oracle's questions are displayed text. The current site does not speak them 
 
 This case is deliberately compact and underdetermined. It is suitable for practising claim–evidence fit, alternative explanation, construct–measure fit, methodological boundary, and the difference between revising a claim and abandoning a study. It is not a template for an actual ethics application, power calculation, instrument, causal design, or evaluation of the live Oracle.
 
-Continue with the [synthetic sample Oracle transcript](sample-transcript.html), or return to the [participant workbook](workbook.html#capture-one-sustained-oracle-episode).
+Continue with the [synthetic sample Oracle transcript](sample-transcript.html), or return to the [private Day 1 reflection in the participant workbook](workbook.html#save-one-private-oracle-episode).

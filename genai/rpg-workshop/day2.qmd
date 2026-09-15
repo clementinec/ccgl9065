@@ -1,19 +1,15 @@
 ---
 title: "Teaching Through Designed Friction"
-subtitle: "Day 2 · Turn experienced friction into teaching design"
-author: "Dr. Hongshan Guo"
+subtitle: "Day 2 · Experience, rank, test, exchange, and redesign"
+author: Dr. Hongshan Guo
 date: "2026-08-28"
 date-format: "dddd, D MMMM YYYY"
 title-slide-attributes:
-  data-background-color: "#ffffff"
-  data-day: "02"
+  data-background-color: "#9b145b"
 format:
   revealjs:
     theme: simple
-    css:
-      - workshop.css
-      - day1-quarto.css
-      - day2-quarto.css
+    css: day2-readable.css
     slide-level: 2
     width: 1600
     height: 900
@@ -26,968 +22,1120 @@ format:
     controls: true
     progress: true
     hash: true
-    margin: 0.06
+    margin: 0.025
 ---
 
-## Today’s two-hour plan
+## Today’s two-hour co-design cycle
 
-<div class="day2-agenda" role="img" aria-label="Two-hour workshop timetable">
-<div data-time="00–10"><b>1 · Remember</b><span>Return to what the Oracle exchange felt like.</span></div>
-<div data-time="10–40"><b>2 · Read together</b><span>Trade one short episode and notice what changed.</span></div>
-<div data-time="40–55"><b>3 · Add to the map</b><span>Name what our prepared questions missed.</span></div>
-<div data-time="55–65"><b>Break</b><span>Close sensitive material and reset.</span></div>
-<div data-time="65–85"><b>4 · Place the pressure</b><span>Decide where and how a student should be challenged.</span></div>
-<div data-time="85–110"><b>5 · Build and try</b><span>Write one teaching move and test it with a partner.</span></div>
-<div data-time="110–120"><b>6 · Revise</b><span>Keep one change you can explain from evidence.</span></div>
-</div>
+| Time | Activity | What we make |
+|---:|---|---|
+| 00–12 | **1 · Experience check** | A completion poll + optional reflection |
+| 12–35 | **2 · Map + rank** | Eight assessment areas + cohort priorities |
+| 35–65 | **3 · Prepare + break** | One cohort priority + one disciplinary wildcard |
+| 65–85 | **3 · Run** | Two separate five-minute runs + private owner notes |
+| 85–108 | **3 · Exchange** | A partner reading + joint interpretation |
+| 108–120 | **3 + 4 · Share + re-rank** | Five pair reports + a revised map |
 
-::: {.bottom-line}
-You will leave with one small teaching move: **where the pressure goes, what it asks students to do, and when it ends.**
+::: {.plain-line}
+**CORE:** bounded excerpt → two runs → independent reading → re-rank. **OPTIONAL slides: skip without loss.**
 :::
 
 ::: {.notes}
-
-- Keep this slide visible on arrival. It is the only projected timetable.
-- Do not ask anyone to upload or display a full research document.
-- Place the supplied transcript episode and blank friction card where everyone can access them in print and digitally.
-- Say: “We will study a small interaction together. The episode owner controls what is seen, corrected, kept, and stopped.”
-- Emphasize that the supplied episode is an equal research route, not a substitute for missing homework.
+- Keep this slide visible on arrival.
+- With ten participants, form five pairs.
+- If Oracle completion is low, Activity 1 becomes a brief poll only. Move directly to Activity 2 and use the recovered time for examples and setup.
 :::
 
-## Activity 1 · Remember the experience
+## What kind of workshop is this?
 
-
-::: {.hero-prompt}
-Before you reopen any transcript:
-
-**What happened to your thinking when the Oracle kept pressing one issue?**
+::: {.chain}
+**CO-DESIGN THE MAP → PROTOTYPE PRESSURE → CO-READ THE TRACE → REVISE THE MAP**
 :::
 
-<div class="prediction-line">
-<div><span class="field-label">I expected…</span><span class="write-line"></span></div>
-<div><span class="field-label">I had to…</span><span class="write-line"></span></div>
-<div><span class="field-label">I wanted to continue or stop when…</span><span class="write-line"></span></div>
-</div>
+- Students identify **where** friction may matter.
+- Students choose **how** to apply it.
+- Students test it on their own material.
+- Two readers interpret what happened.
+- The cohort changes the framework from experience.
 
-::: {.callout-strip .callout-cool}
-Write privately. Irritation, relief, uncertainty, and refusal matter—but none automatically proves that learning happened.
+::: {.plain-line}
+This is a **co-design workshop with a small co-research cycle**—not a validated study of learning effectiveness.
 :::
 
 ::: {.notes}
-
-- Ask for silent private writing before any transcript is opened or shown.
-- Keep attention on being on the receiving end: the screen question, spoken or typed response, transcript review, and next pressure move.
-- Participants using the supplied episode imagine where they would feel invited, exposed, stuck, or ready to revise.
-- Do not collect or ask for public disclosure from this re-entry.
+- Participants are not simply receiving a finished framework. Their ranking, transcript readings, disagreements, and additions revise it.
+- Do not call the room exercise research data unless a separate ethics, consent, governance, and analysis process exists.
 :::
 
-## Choose how you want to take part
+## Your role changes during the workshop
 
+| Stage | Your role | What you do |
+|---|---|---|
+| **1 · Experience** | **Learner** | Remember what receiving friction felt like. |
+| **2 · Map** | **Teacher-designer** | Decide where pressure might support learning. |
+| **3 · Test** | **Learner under test** | Answer first; after each STOP, record a private judgment. |
+| **3 · Exchange** | **Peer examiner** | Examine the questioning—not your partner or their project. |
+| **4 · Redesign** | **Co-researcher** | Compare perspectives and revise the shared framework. |
 
-<div class="choice-lanes">
-<div class="choice-lane">
-<span class="choice-letter">A</span>
-<div class="choice-title">Your short episode</div>
-<div class="choice-copy">Select and redact one short Oracle exchange for a partner to read.</div>
-</div>
-<div class="choice-lane">
-<span class="choice-letter">B</span>
-<div class="choice-title">Supplied episode</div>
-<div class="choice-copy">Use the fictional case. It counts as the same activity—not a lesser option.</div>
-</div>
-<div class="choice-lane">
-<span class="choice-letter">C</span>
-<div class="choice-title">Keep the content private</div>
-<div class="choice-copy">Describe only the pattern, or work with the supplied case.</div>
-</div>
-<div class="choice-lane">
-<span class="choice-letter">D</span>
-<div class="choice-title">Work solo or another way</div>
-<div class="choice-copy">Work alone, or map a short sequence of actions, images, equations, or artifact changes.</div>
-</div>
-</div>
-
-::: {.rights-banner}
-**You may pass, change route, withdraw an episode, or work alone—without explanation.** No full transcript, raw JSON export, or confidential research content is needed.
+::: {.plain-line}
+Role changes are deliberate. Do not grade yourself while you are answering.
 :::
 
 ::: {.notes}
-
-- Read the participation rights aloud.
-- Route B is supplied, synthetic data with the same analytic task and status as Route A.
-- Participants may work and code in the language of the episode. Translation is optional.
-- Do not pair people before they privately select a route.
-- Do not ask why someone chose a supplied, solo, content-free, or non-text route.
+- Name each shift when it happens; participants should know which judgment they are being asked to make.
+- “Peer examiner” means examiner of the interaction trace, not evaluator of the partner’s scholarship.
 :::
 
-## Worked transcript · A claim gets narrower
+## Activity 1 · Check the experience {.section-cover data-section="01 · EXPERIENCE CHECK" data-background-color="#174a34"}
 
+**ROLE · LEARNER**
 
-::: {.transcript-sheet}
-<div class="transcript-meta"><span>FICTIONAL WORKSHOP EXAMPLE</span><span>NOT A LIVE APP RECORD</span><span>5 turns</span></div>
+Start with what happened—or establish that it did not happen.
 
-<div class="turn oracle"><span class="speaker">ORACLE</span><span class="utterance">The proposal predicts that hybrid studios improve first-year students’ confidence and plans only start- and end-of-semester surveys. What would make any change evidence of the hybrid format rather than ordinary semester practice?</span></div>
-
-<div class="turn researcher"><span class="speaker">OWNER</span><span class="utterance">I assumed the before-and-after change would show improvement, but it would not isolate the format from practice, familiarity, or repeated critique.</span></div>
-
-<div class="turn oracle"><span class="speaker">ORACLE</span><span class="utterance">Then the surveys show reported change over time, not attribution to format. Which causal part of the recommendation can still survive without a comparison?</span></div>
-
-<div class="turn researcher"><span class="speaker">OWNER</span><span class="utterance">The causal recommendation cannot survive. I would report perceived change, use interviews to explore possible mechanisms, and state that the design cannot attribute change to the hybrid format.</span></div>
-
-<div class="turn oracle"><span class="speaker">ORACLE</span><span class="utterance">You have bounded the claim to reported change, separated mechanism exploration from causal evidence, and made the attribution limit explicit.</span></div>
-:::
-
-::: {.micro-instruction}
-Treat this as material to examine—not an answer key. Number the turns **1–5**.
+::: {.section-cover-detail}
+Poll first → reflect only if there is enough shared experience
 :::
 
 ::: {.notes}
-
-- Give everyone a printed or accessible-text copy so switching routes never requires explanation.
-- State that workshop designers wrote this synthetic episode to mirror the participant loop: grounded opening, focused question, response, further pressure, and question-free recap.
-- It is not a capture, paraphrase, or claim about an observed deployed-app session.
-- Do not model the coding yet. The labels, turn order, and text—not color—identify speakers.
+- This is a decision gate, not a compliance check.
+- No participant should have to explain why they did not complete the Oracle activity.
 :::
 
-## If you use your episode, keep it short and safe
+## Anonymous completion poll {data-section="01 · EXPERIENCE CHECK"}
 
-
-<div class="scope-ruler">
-<div class="scope-mark"><span class="scope-number">1</span><span>one issue</span></div>
-<div class="scope-mark"><span class="scope-number">≤6</span><span>turns</span></div>
-<div class="scope-mark"><span class="scope-number">≤600</span><span>words</span></div>
-<div class="scope-mark"><span class="scope-number">0</span><span>identifiers needed</span></div>
-</div>
-
-::: {.do-dont-grid}
-<div class="do-column">
-<div class="column-label">USE</div>
-<ul>
-<li>one continuous Oracle–owner exchange about one issue</li>
-<li>only enough context to follow what each turn responds to</li>
-<li>the supplied case whenever redaction feels rushed or uncertain</li>
-</ul>
-</div>
-<div class="dont-column">
-<div class="column-label">REMOVE / KEEP PRIVATE</div>
-<ul>
-<li>a full transcript or downloaded JSON export</li>
-<li>names, filenames, organizations, participant data, or sensitive methods</li>
-<li>anything the episode owner does not want interpreted by a peer</li>
-</ul>
-</div>
+::: {.activity-label}
+CHOOSE ONE · NO EXPLANATION REQUIRED
 :::
 
-::: {.rights-banner}
-The owner may shorten, redact further, or switch to the supplied episode at any point. **A peer never needs the full transcript.**
+1. **Completed** · I have a usable Oracle exchange.
+2. **Started** · I used it, but do not have a usable exchange.
+3. **Not yet** · I did not use it.
+
+::: {.big-prompt}
+If fewer than half the room has a usable exchange, we move directly to **Activity 2**.
 :::
 
 ::: {.notes}
-
-- This classroom redaction check does not retroactively make unsafe model input safe.
-- Ask owners to check speaker text and metadata, not only the research claim.
-- Say: “Do not exchange a downloaded session JSON; it can contain document metadata and bounded source context.”
-- If safe bounding is not immediate, move to the supplied case without discussion.
+- Use an anonymous poll if available.
+- Low completion is operational information, not failure.
+- If completion is low, skip the next two slides. Everyone still participates fully using their own or supplied material later.
 :::
 
-## Before you swap, write your own reading
+## If we have enough experience · Remember the friction {data-section="01 · EXPERIENCE CHECK"}
 
+Write privately:
 
-<div class="prediction-line">
-<div><span class="field-label">Why this episode?</span><span class="write-line"></span></div>
-<div><span class="field-label">What changed—or did not?</span><span class="write-line"></span></div>
-<div><span class="field-label">What might a reader misread?</span><span class="write-line"></span></div>
-</div>
+1. **Where did the Oracle press?**
+2. **What did it make you do before you could answer?**
+3. **Did that help, miss the point, or become a barrier?**
+4. **What might have been more worth pressing?**
 
-::: {.bottom-line}
-Keep this note private until after your partner reads. It preserves your own view before someone else offers a persuasive interpretation.
-:::
-
-::: {.notes}
-
-- Owners write privately and do not attach this memo to the swapped episode.
-- The memo is a reflexive record, not the authoritative answer the peer must reproduce.
-- Include affect if relevant: pressure, reward, exposure, annoyance, relief, or refusal.
-- Do not collect the memo.
-:::
-
-## Activity 2 · Share the episode, not the backstory
-
-
-<div class="protocol-timeline">
-<div class="protocol-step"><span class="protocol-order">01</span><b>SET THE BOUNDARY</b><small>say what may be seen and what stays private</small></div>
-<div class="protocol-step"><span class="protocol-order">02</span><b>AGREE</b><small>no copy, screenshot, forwarding, or keeping notes</small></div>
-<div class="protocol-step"><span class="protocol-order">03</span><b>SHARE TEMPORARILY</b><small>use paper or the owner’s device; no file transfer needed</small></div>
-<div class="protocol-step"><span class="protocol-order">04</span><b>READ FIRST</b><small>the owner does not explain during the first reading</small></div>
-<div class="protocol-step"><span class="protocol-order">05</span><b>STOP IF NEEDED</b><small>return, close, redact again, or switch to supplied data</small></div>
-</div>
-
-::: {.rights-banner}
-The peer receives a **temporary view**, not possession. Notes stay on the owner’s sheet or are destroyed before the pair separates.
+::: {.plain-line}
+The transcript records words. It may not show hesitation, irritation, relief, speech effort, or the urge to polish.
 :::
 
 ::: {.notes}
-
-- Pair only compatible routes; supplied/supplied and supplied/personal pairs are fully valid.
-- Obtain an explicit agreement before material crosses the table.
-- “No retention” includes browser tabs, chat messages, shared documents, cloud notes, photographs, and memory aids containing research detail.
-- For access, the owner may read the bounded episode aloud or provide an accessible local copy that is returned or deleted.
+- Give participants a brief private writing pause.
+- A content-free answer is enough: “It made me distinguish my evidence from my conclusion.”
+- Participants may pass and keep the reflection private.
 :::
 
-## First read · What changed?
+## Brief room round · What did friction do? {data-section="01 · EXPERIENCE CHECK"}
 
-
-::: {.activity-prompt}
-Read once without asking the owner to explain.
+::: {.activity-label}
+ONE OR TWO SENTENCES · YOU MAY PASS
 :::
 
-<div class="arc-line" role="img" aria-label="Trace the exchange from starting move through Oracle pressure and owner response to the stopping or next move">
-<div class="arc-node"><span>START</span><em>What did the owner first claim, offer, or try?</em></div>
-<div class="arc-arrow">→</div>
-<div class="arc-node"><span>CHALLENGE</span><em>What did the question ask the owner to think through?</em></div>
-<div class="arc-arrow">→</div>
-<div class="arc-node"><span>RESPONSE</span><em>What new reasoning became visible?</em></div>
-<div class="arc-arrow">→</div>
-<div class="arc-node"><span>STOP / NEXT</span><em>What changed, and what remained open?</em></div>
-</div>
+::: {.big-prompt}
+Name one **thinking move** the pressure demanded—or one worthwhile move it failed to demand.
+:::
 
-::: {.write-prompt}
-Write: **“I read the exchange as moving from ___ to ___.”** Add one thing you are unsure about. Do not ask the owner yet.
+Listen for:
+
+**explain · compare · justify · connect · narrow · reconsider · contest · stop**
+
+::: {.notes}
+- Do not ask for research content.
+- Capture verbs only. These verbs become a bridge to the eight assessment areas.
+- If only a few participants completed the Oracle, take one or two examples and continue.
+:::
+
+## Activity 2 · Map and rank the areas {.section-cover data-section="02 · MAP + RANK" data-background-color="#174a34"}
+
+**ROLE · TEACHER-DESIGNER**
+
+Treat the eight areas like shared assessment lenses—not a finished grading rubric.
+
+::: {.section-cover-detail}
+Eight areas → individual ranking → cohort top three
 :::
 
 ::: {.notes}
-
-- “Context-light” means enough turn order to read the interaction, but no owner briefing about intended meaning or emotional response.
-- It does not mean context-free certainty. The peer must mark unknowns rather than fill them imaginatively.
-- The owner remains silent and completes the same reading on the partner’s or supplied episode.
-- Do not permit judgments of the person, proposal, or discipline.
+- The areas describe places where reasoning may need attention.
+- They are broad enough to travel across history/theory, landscape, conservation, design, and other fields.
 :::
 
-## Second read · Ask two kinds of questions
+## Eight areas where friction may matter {data-section="02 · MAP + RANK"}
 
-
-::: {.do-dont-grid}
-<div class="do-column">
-<div class="column-label">ABOUT THE INTERACTION</div>
-<ul>
-<li>Which issue did the Oracle keep returning to?</li>
-<li>How did the order of questions, transcript review, or stopping point shape the response?</li>
-<li>Where did the app help the owner think—and where did it get in the way?</li>
-</ul>
-</div>
-<div class="dont-column">
-<div class="column-label">ABOUT THE REASONING</div>
-<ul>
-<li>What happened to the claim, evidence, reason, scope, or consequence?</li>
-<li>What new option, limit, or counterexample appeared?</li>
-<li>What still lacked support or remained unresolved?</li>
-</ul>
-</div>
+::: {.chain}
+**AREA → QUESTIONING TECHNIQUE → PEDAGOGICAL AIM → LLM QUESTIONS → TRACE**
 :::
 
-::: {.precision-note}
-These are **possible readings, not verdicts**. Point to a turn or visible app feature before making a claim.
+- An **area** is a part of the work worth examining.
+- A **questioning technique** is how we invite examination there.
+- A **pedagogical aim** names the thinking the learner should perform.
+- The LLM generates the actual questions from the source and the learner’s answers.
+- The transcript is evidence of what the technique actually produced.
+
+::: {.plain-line}
+These lenses organize attention. They do not prove that a student—or a piece of work—is weak.
 :::
 
 ::: {.notes}
-
-- Explain that these are two prepared sets of questions. Use “deductive” only in the facilitator explanation if useful; students do not need the term to complete the task.
-- The interaction questions concern voice-to-transcript review, serial questioning, and stopping—not whether the interface looked attractive.
-- The reasoning questions travel across disciplines; participants should substitute the kinds of evidence and judgment their field uses.
-- Prefer “the exchange prompted” to anthropomorphic claims that the Oracle understood or knew.
+- Keep the language close to assessment practice: what are we looking at, what would count as evidence, and what question makes it visible?
+- Avoid treating the area label as a verdict.
+- A gap may emerge during questioning; the teacher-designer does not diagnose one in advance.
 :::
 
-## Mark only the moments that matter
+## Areas 1–4 {data-section="02 · MAP + RANK"}
 
+1. **Claim + evidence**  \
+   Does the support fit the claim?
 
-<div class="code-ribbon" aria-label="Transcript coding legend">
-<div class="code code-c"><b>C</b><span>CONFIRMED</span><small>an idea held up and became clearer</small></div>
-<div class="code code-r"><b>R</b><span>REFRAMED</span><small>a claim, reason, limit, or wording changed</small></div>
-<div class="code code-x"><b>X</b><span>CHALLENGED</span><small>a gap, conflict, or new option became visible</small></div>
-<div class="code code-m"><b>M</b><span>MISREAD</span><small>the system or reader got the context or premise wrong</small></div>
-<div class="code code-star"><b>★</b><span>MEANINGFUL</span><small>a moment worth discussing, in any category</small></div>
-</div>
+2. **Logic + assumptions**  \
+   Why does one point lead to the next?
 
-::: {.coding-instruction}
-Mark only the smallest useful moment. Every mark needs a **turn number or visible app feature** as evidence.
-:::
+3. **Research method + design**  \
+   Why this approach rather than another?
 
-<div class="annotation-line"><span>Code</span><span>Evidence in the episode</span><span>What changed—or failed to change?</span></div>
+4. **Interpretation + alternatives**  \
+   What else could explain or frame the material?
 
 ::: {.notes}
-
-- Read all five labels aloud; color is redundant, not the sole carrier of meaning.
-- Codes can overlap. A challenge can also be a misread; a confirmation can be meaningful.
-- Do not require an `M`, and do not treat `★` as praise. It means “linger here.”
-- Peers code provisionally; the episode owner has not yet corrected the reading.
+- Evidence may be archival, material, visual, observational, quantitative, testimonial, or practice-based.
+- “Research method” includes scholarly, design, conservation, landscape, and pedagogical choices.
 :::
 
-## Now set the labels aside · What did they miss?
+## Areas 5–8 {data-section="02 · MAP + RANK"}
 
+5. **Concept + measure**  \
+   Does the indicator capture the idea?
 
-<div class="choice-lanes">
-<div class="choice-lane"><span class="choice-letter">+</span><div class="choice-title">Useful</div><div class="choice-copy">What became newly usable for thinking or action?</div></div>
-<div class="choice-lane"><span class="choice-letter">↗</span><div class="choice-title">Worth continuing</div><div class="choice-copy">What felt clarifying, relieving, or worth staying with?</div></div>
-<div class="choice-lane"><span class="choice-letter">−</span><div class="choice-title">Costly</div><div class="choice-copy">What used attention, confidence, language, privacy, or access?</div></div>
-<div class="choice-lane"><span class="choice-letter">?</span><div class="choice-title">Missing or misread</div><div class="choice-copy">What did the Oracle, our labels, or this peer reading fail to hold?</div></div>
-</div>
+6. **Scope + limits**  \
+   Where does the claim stop applying?
 
-::: {.precision-note}
-Write one observation in your own words that the letter codes do not hold. Something may be useful and costly at the same time.
+7. **Perspective + position**  \
+   Whose standpoint shapes—or is missing from—the account?
+
+8. **Stakes + trade-offs**  \
+   Who or what changes, benefits, loses, or carries the cost?
+
+::: {.plain-line}
+The framework remains open: add an area if the eight fail to hold something consequential.
 :::
 
 ::: {.notes}
-
-- This is the open pass. Use “inductive” only in facilitator notes if the method label helps; do not force observations back into C/R/X/M/★.
-- “Rewarding” is experiential, not proof of learning; “costly” is not automatically bad.
-- Include the possibility that the peer, not only the Oracle, is producing the misread.
-- Ask peers to preserve tensions and use tentative language until the owner responds.
+- “Concept + measure” includes qualitative indicators, categories, proxies, and interpretive criteria—not only numeric measurement.
+- Perspective includes the researcher’s position, source position, affected groups, and disciplinary standpoint.
 :::
 
-## The owner has the final say
+## Rank the three that most deserve friction {data-section="02 · MAP + RANK"}
 
+::: {.activity-label}
+INDIVIDUAL RANKING · THEN POOL THE ROOM
+:::
 
-<div class="agreement-board">
-<div class="agreement-row"><span class="agreement-mark">✓</span><span><strong>YES</strong> — “That fits my experience or intention because…”</span></div>
-<div class="agreement-row"><span class="agreement-mark">±</span><span><strong>PARTLY</strong> — “That partly fits; the limited context you need is…”</span></div>
-<div class="agreement-row"><span class="agreement-mark">×</span><span><strong>NO</strong> — “That reading assumes or misses…”</span></div>
-<div class="agreement-row"><span class="agreement-mark">V</span><span><strong>VETO</strong> — “Remove that interpretation. It may not be shared with the room.”</span></div>
-<div class="agreement-row"><span class="agreement-mark">↩</span><span><strong>WITHDRAW</strong> — close the episode and continue with supplied data.</span></div>
-</div>
+Rank three areas using both questions:
 
-::: {.rights-banner}
-The partner reports evidence first. The owner may correct the reading without defending the research—and may veto anything that would be kept or repeated.
+1. **How consequential is it if this reasoning is weak?**
+2. **How easily could polished AI output hide the weakness?**
+
+::: {.big-prompt}
+Your #1 gets three points · #2 gets two · #3 gets one.
 :::
 
 ::: {.notes}
-
-- The peer begins: “At turn / feature ___, I provisionally read ___ because ___.”
-- The owner then opens the private memo and responds item by item.
-- A contested reading may remain as two interpretations only with owner consent; otherwise strike it.
-- Veto governs the pair memo and cohort reporting. No screenshots, forwarding, copying, or private retention remain permissible.
+- Use a ranking poll, sticky dots, or a shared board.
+- Ask participants to rank for the teaching they realistically expect to encounter.
+- Keep an “area missing” option beside the eight.
 :::
 
-## Activity 3 · Name one new area to examine
+## Read the first map {data-section="02 · MAP + RANK"}
 
+Look at the cohort top three:
 
-<div class="extension-map" aria-label="Three-stage additional-area mapping surface">
-<div class="extension-zone"><b>1 · ALREADY COVERED</b><small>What do our interaction questions, reasoning questions, or C/R/X/M/★ marks already explain?</small><span></span><span></span></div>
-<div class="extension-zone"><b>2 · STILL MISSING</b><small>Name one owner-approved area the current questions do not yet capture. Point to a turn, app feature, or lived moment.</small><span></span><span></span></div>
-<div class="extension-zone"><b>3 · ASK NEXT</b><small>Turn it into a content-free research question. Add something we could observe and one limit or counterexample.</small><span></span><span></span></div>
-</div>
+- What rose to the top—and why?
+- Do different fields appear to value different areas?
+- Is a low-ranked area less important, or merely harder to see?
+- Did anyone name a missing area?
 
-::: {.micro-instruction}
-Make one **New-area card**—or write that this episode adds nothing new. Say whether it **extends**, **connects**, or sits **outside** our prepared questions.
-:::
-
-::: {.precision-note}
-Name something worth examining—not a score for the Oracle, a hidden paper topic, or a feature request.
+::: {.plain-line}
+For today’s test, each person chooses **one cohort-priority area** and **one personal or disciplinary wildcard**.
 :::
 
 ::: {.notes}
-
-- Make the distinction explicit: the Oracle paper map selects a source issue; the analyst lenses inspect the interaction; C/R/X/M/★ marks what happened; this card names what future use or research should examine.
-- Require an evidence anchor and owner approval before accepting an additional area. “None beyond the current lenses” is a valid result.
-- Do not seed categories unless the room is stuck. Possible prompts include transcript self-editing, voice and language ownership, cumulative fatigue versus depth, disciplinary legitimacy, access, stopping, and social-affective stakes.
-- The area must remain content-free. Do not allow proposal topics, quotations, identities, or disciplinary details onto a room surface.
+- Preserve the first ranking so it can be compared with the final ranking.
+- Do not force consensus about why an area ranked highly.
+- The wildcard must be a different area. It may sit outside the cohort top three when it matters to the participant’s field, teaching, or material.
 :::
 
-## Write one careful note together
+## Activity 3 · Test, exchange, and deliberate {.section-cover data-section="03 · CO-RESEARCH CYCLE" data-background-color="#174a34"}
 
+Use one cohort priority and one disciplinary wildcard in separate bounded runs, then let another reader examine both traces.
 
-<div class="share-envelope">
-<div class="envelope-top">ONE SHORT NOTE · WRITTEN TOGETHER</div>
-<div class="envelope-item"><span class="check-box"></span> the interaction pattern—not the whole research story</div>
-<div class="envelope-item"><span class="check-box"></span> one claim with a turn or app feature as evidence</div>
-<div class="envelope-item"><span class="check-box"></span> one useful, worthwhile, costly, missing, or misread feature</div>
-<div class="envelope-item"><span class="check-box"></span> the owner’s yes, correction, disagreement, or veto</div>
-<div class="envelope-item"><span class="check-box"></span> one owner-approved New-area card—or “nothing new here”</div>
-<div class="envelope-item optional"><span class="check-box"></span> one difference the pair is leaving unresolved</div>
-</div>
-
-::: {.center-statement}
-**The owner approves every sentence.** The memo stays with the owner or is destroyed; the peer retains no episode content.
+::: {.section-cover-detail}
+Teacher-designer → learner under test → peer examiner → co-researcher
 :::
 
 ::: {.notes}
-
-- Write on the owner’s paper or owner-controlled local document.
-- Co-research does not erase role differences: the peer contributes an independent reading; the owner controls contextual correction and circulation.
-- The memo may preserve disagreement, but not a vetoed claim.
-- Before moving on, return or close the episode and erase temporary peer notes containing research detail.
+- This is the center of the workshop.
+- Two short runs per person replace the earlier four-chat prompt comparison.
 :::
 
-## Room round · What should we examine next?
+## Pair setup · Hold the interface steady {data-section="03 · CO-RESEARCH CYCLE"}
 
+In each pair:
 
-<div class="harvest-board">
-<div class="harvest-column"><span class="harvest-label">EXTENDS ONE QUESTION</span><span class="harvest-line"></span><span class="harvest-line"></span></div>
-<div class="harvest-column"><span class="harvest-label">CONNECTS SEVERAL QUESTIONS</span><span class="harvest-line"></span><span class="harvest-line"></span></div>
-<div class="harvest-column"><span class="harvest-label">SITS OUTSIDE OUR QUESTIONS</span><span class="harvest-line"></span><span class="harvest-line"></span></div>
-</div>
+1. Agree on the **same LLM interface and model**, where possible.
+2. Each person will use **one fresh chat per area**.
+3. Each person chooses **one cohort-priority area + one personal or disciplinary wildcard**.
+4. Each person uses their **own safe source**.
+5. Both follow the **same two-run protocol**: five minutes per area.
 
-::: {.micro-instruction}
-**You may pass.** In one or two sentences: name the area, what we could observe, and one limit. Share no research content.
+::: {.plain-line}
+The tool does not need to be the Socratic Oracle. Use an LLM that can accept the test prompt.
 :::
 
-::: {.notes}
-
-- Ask pairs to derive a label from the owner-approved New-area card, then strip all research content before speaking.
-- Place each contribution as extending, cross-cutting, or outside. Cluster aliases but retain minority, contradictory, and boundary cases.
-- If a report begins to reveal content, stop and invite a process-only reformulation. The owner may veto it without explanation.
-- Do not collect, photograph, attribute, or retain pair notes. Preserve only the content-free room map for the teaching-design transition.
-:::
-
-## Break · Close the episode and reset
-
-
-<div class="break-mark">PAUSE</div>
-
-::: {.break-copy}
-Move. Hydrate. Rest your eyes.
-
-Return or close the episode. Delete temporary notes that contain another person’s research details.
+::: {.big-prompt}
+[**OPEN THE COPY-READY DAY 2 LAB →**](day2-lab.html){target="_blank"}<br>
+All techniques · brief · prompt · observation sheet
 :::
 
 ::: {.notes}
-
-- Protect this break. Do not use it to catch up on transcript analysis.
-- Before anyone steps away, ask partners to return paper, close owner-controlled devices, and remove temporary peer notes containing research detail.
-- Announce one clear restart cue.
+- Pairing by interface reduces one obvious source of difference without pretending this is a controlled experiment.
+- If exact models differ because of account access, record the difference rather than excluding anyone.
+- The Oracle remains the experience source for Activity 1; its built-in questioning policy cannot be replaced by this custom test prompt.
+- Keep the lab page open on participant devices so wildcard techniques remain available without returning the projected deck to every area slide.
 :::
 
-## Activity 4 · Where can finished work hide the thinking?
+## Teacher-designer task · Choose where and how {data-section="03 · CO-RESEARCH CYCLE"}
 
-
-<div class="teacher-speech">
-<span class="speech-label">ROUND THE ROOM · YOU MAY PASS</span>
-<span class="speech-open">“</span>
-<span class="speech-line">Think of one small moment in a class, tutorial, supervision meeting, or crit.</span>
-<span class="speech-line opening-question">Where could a polished GenAI answer make a student look finished while hiding the thinking you actually need to see?</span>
-<span class="speech-close">”</span>
-</div>
-
-::: {.activity-prompt}
-One or two sentences. Name the **moment** and the **thinking that disappears**. An observed or imagined case is fine.
+::: {.chain}
+**AREA → QUESTIONING TECHNIQUE → PEDAGOGICAL AIM → LLM GENERATES THE QUESTIONS**
 :::
 
-::: {.notes}
+For each selected area, decide:
 
-- This round does not require formal teaching experience. Participants may use a crit they joined, a class they took, supervision they observed, or a plausible first teaching assignment.
-- Go around the room for a small cohort; use table rounds for a larger group. Passing needs no explanation.
-- Capture only a teaching moment and a learner action, such as “seminar discussion → interpret a passage.” Do not solve cases yet.
-:::
+1. **Where:** Which part of the work deserves examination?
+2. **How:** Which technique could prompt constructive thinking there?
+3. **Why:** What thinking should the learner have to perform?
+4. **Boundary:** What would make the pressure repetitive, leading, or misplaced?
 
-## Pressure is a checkpoint—not punishment
-
-
-<div class="friction-triad">
-<div class="friction-type system-friction">
-<span class="friction-number">01</span>
-<div class="friction-title">TOOL FRICTION</div>
-<div class="friction-definition">The tool refuses, warns, pauses, or behaves awkwardly.</div>
-<div class="friction-question">What did the system do?</div>
-</div>
-<div class="friction-type cognitive-friction">
-<span class="friction-number">02</span>
-<div class="friction-title">USEFUL THINKING CHALLENGE</div>
-<div class="friction-definition">The student must do and show the thinking the lesson targets.</div>
-<div class="friction-question">What did the student do?</div>
-</div>
-<div class="friction-type obstructive-friction">
-<span class="friction-number">03</span>
-<div class="friction-title">BARRIER</div>
-<div class="friction-definition">The task uses energy without helping the target learning.</div>
-<div class="friction-question">Who was excluded—and why?</div>
-</div>
-</div>
-
-::: {.definition-strip}
-Here, **teaching pressure** means one short checkpoint that makes target thinking visible. It is not extra difficulty for its own sake.
-
-Aim it at a **claim, choice, source, comparison, or test**—not at the student's identity, confidence, speed, or willingness to perform in public.
+::: {.plain-line}
+**You choose the area, technique, and aim. You do not write the questions you will answer.**
 :::
 
 ::: {.notes}
-
-- Make the conceptual shift explicit. The original GenAI module described friction built into systems; today participants are placing a teaching checkpoint.
-- A system refusal is not automatically educational. A demanding task is not automatically productive. An accessible alternative does not weaken the learning target if it preserves the required operation.
+- “Challenge it” is not yet a questioning technique.
+- A usable technique names the intellectual operation: justify, compare, connect evidence, test an alternative, set a boundary, or trace a consequence.
+- The LLM generates the actual questions from the source and adapts them to the learner’s answers.
+- Show the cohort-priority technique slides to the room. Participants use the copy-ready lab for a wildcard that is not among those projected.
 :::
 
-## Where should the pressure go?
+## Area: Claim + evidence · Three techniques {data-section="03 · CO-RESEARCH CYCLE"}
 
+::: {.method-stack}
+::: {.method-card .method-a}
+<span class="method-name">TRACE SUPPORT</span>
 
-<div class="mode-spectrum">
-<div class="mode-stop"><span class="mode-name">BEFORE AI</span><span class="mode-example">predict · interpret · choose · try</span><span class="mode-use">Use when an initial judgment or attempt matters.</span></div>
-<div class="mode-soft"><span class="mode-name">WHILE USING AI</span><span class="mode-example">compare · question · verify · annotate</span><span class="mode-use">Use when students must judge what the tool gives them.</span></div>
-<div class="mode-slow"><span class="mode-name">AFTER AI</span><span class="mode-example">defend · revise · test · transfer</span><span class="mode-use">Use when students must make the result their own.</span></div>
-<div class="mode-open"><span class="mode-name">NOWHERE</span><span class="mode-example">let the shortcut remain easy</span><span class="mode-use">Use when the skipped work is not part of the learning goal.</span></div>
-</div>
+**LLM may ask:** “Which exact evidence supports each part of this claim?”
 
-::: {.precision-note}
-Do not add pressure everywhere. Put it at the point where the student’s judgment would otherwise disappear.
+**Aim:** explicit links between evidence and claim—and what the evidence cannot support.
 :::
 
-::: {.notes}
+::: {.method-card .method-b}
+<span class="method-name">TEST SUFFICIENCY</span>
 
-- Ask participants to locate each opening-round case before discussing techniques.
-- Give one “nowhere” example: if the target is causal inference, letting AI format references may be entirely appropriate.
-- Give one access counterexample: blocking translation tools can add language burden without revealing the target reasoning.
+**LLM may ask:** “What additional evidence would you need before making this claim?”
+
+**Aim:** standards of adequacy, source quality, missing evidence, and uncertainty.
 :::
 
-## How can the pressure work?
+::: {.method-card .method-c}
+<span class="method-name">INTRODUCE COUNTEREVIDENCE</span>
 
+**LLM may ask:** “What evidence would weaken, narrow, or change your claim?”
 
-<div class="pressure-move-grid">
-<div><b>PREDICT</b><span>“What do you expect—and why?”</span></div>
-<div><b>CHOOSE</b><span>“Which option, and what trade-off?”</span></div>
-<div><b>POINT TO EVIDENCE</b><span>“What in the source supports that?”</span></div>
-<div><b>COMPARE</b><span>“What changed between these two?”</span></div>
-<div><b>TEST</b><span>“What would weaken or disprove this?”</span></div>
-<div><b>REVISE OR TRANSFER</b><span>“Change one part—or use the idea in a new case.”</span></div>
-</div>
-
-<div class="framework-rule">
-<span class="rule-before">ONE</span>
-<span class="rule-content">small pressure move</span>
-<span class="rule-arrow">→</span>
-<span class="rule-after">ONE</span>
-<span class="rule-content strong">visible sign of thinking</span>
-</div>
-
-::: {.notes}
-
-- Read the examples as teacher questions, not as mandatory scripts.
-- Ask participants to choose one move that fits a case from the room round. More moves do not make a better activity.
-- A learner must be allowed to contest a bad premise, and the teacher needs a clear signal for stopping or adding support.
+**Aim:** willingness to revise and a clear threshold for changing position.
 :::
-
-## Five checks before you add pressure
-
-
-<div class="five-tests">
-<div class="test-item"><b>1</b><span>CLEAR PURPOSE</span><small>It asks for the thinking named in the learning goal.</small></div>
-<div class="test-item"><b>2</b><span>VISIBLE EVIDENCE</span><small>You can see or hear more than compliance.</small></div>
-<div class="test-item"><b>3</b><span>FAIR SIZE</span><small>The demand fits this student, moment, and stakes.</small></div>
-<div class="test-item"><b>4</b><span>REAL ACCESS</span><small>Another language, mode, or route can preserve the thinking.</small></div>
-<div class="test-item"><b>5</b><span>CLEAR END</span><small>The student knows when to continue, stop, or receive support.</small></div>
-</div>
-
-<div class="framework-rule">
-<span class="rule-before">NOT</span>
-<span class="rule-content">“How do I make this harder?”</span>
-<span class="rule-arrow">→</span>
-<span class="rule-after">ASK</span>
-<span class="rule-content strong">“What thinking needs to become visible?”</span>
-</div>
-
-::: {.notes}
-
-- “Real access” includes the right to challenge a false premise and to use another language or representation when it preserves the target thinking.
-- “Clear end” means permission to proceed or the arrival of feedback and support—not simply a countdown.
-:::
-
-## What helped you may overload a new student
-
-
-<div class="transfer-bridge">
-<div class="transfer-side expert-side">
-<span class="transfer-label">YOU, AS A RESEARCHER</span>
-<ul>
-<li>know the field and its language</li>
-<li>own the problem</li>
-<li>can challenge a bad premise</li>
-<li>may control when to stop</li>
-</ul>
-</div>
-<div class="bridge-gap">
-<span class="gap-label">CHECK</span>
-<span>prior knowledge?</span>
-<span>power?</span>
-<span>language load?</span>
-<span>support?</span>
-</div>
-<div class="transfer-side novice-side">
-<span class="transfer-label">A NEW STUDENT</span>
-<ul>
-<li>has a partial mental model</li>
-<li>faces assessment and social risk</li>
-<li>may not know how to disagree</li>
-<li>may need another route or more support</li>
-</ul>
-</div>
-</div>
-
-::: {.bottom-question}
-What support would preserve the **same thinking task** without preserving the same burden?
 :::
 
 ::: {.notes}
-
-- Do not assume that useful pressure on an expert researcher will help a first-year learner in the same form.
-- Invite a quick support example: a worked example, vocabulary bank, private rehearsal, smaller scope, alternate representation, or teacher check-in.
+- Show this slide only if Claim + evidence is in the cohort top three.
+- Evidence may be archival, material, visual, quantitative, testimonial, observational, or practice-based.
 :::
 
-## Start with what students must do
+## Area: Logic + assumptions · Three techniques {data-section="03 · CO-RESEARCH CYCLE"}
 
+::: {.method-stack}
+::: {.method-card .method-a}
+<span class="method-name">EXPLAIN THE BRIDGE</span>
 
-<div class="alignment-rail" role="img" aria-label="A teaching activity connects the learning goal, student action, evidence, and teacher response">
-<div class="alignment-station"><span class="station-number">1</span><b>LEARNING GOAL</b><small>What should students be able to do?</small></div>
-<div class="rail-arrow">→</div>
-<div class="alignment-station"><span class="station-number">2</span><b>STUDENT ACTION</b><small>What must they actually say, choose, make, test, or revise?</small></div>
-<div class="rail-arrow">→</div>
-<div class="alignment-station"><span class="station-number">3</span><b>EVIDENCE</b><small>What would show that the thinking happened?</small></div>
-<div class="rail-arrow">→</div>
-<div class="alignment-station"><span class="station-number">4</span><b>NEXT MOVE</b><small>Continue, give feedback, or add support?</small></div>
-</div>
+**LLM may ask:** “Why does this evidence lead to that conclusion?”
 
-::: {.callout-strip .callout-warm}
-The academic term is **constructive alignment**. In plain English: ask students to do the thinking you claim to be teaching—and watch for evidence of it.
+**Aim:** the missing inferential step rather than a restatement of both ends.
 :::
 
-::: {.notes}
+::: {.method-card .method-b}
+<span class="method-name">SURFACE AN ASSUMPTION</span>
 
-- Introduce the academic label only after the plain explanation.
-- Distinguish product from capability. A polished output may hide whether the student can perform the target action.
-- An AI restriction is not aligned merely because it creates effort.
+**LLM may ask:** “What must be true for this reasoning to hold?”
+
+**Aim:** hidden premises, dependencies, and conditions the writer can defend or revise.
 :::
 
-## Use one plain sequence
+::: {.method-card .method-c}
+<span class="method-name">TEST AN ALTERNATIVE CHAIN</span>
 
+**LLM may ask:** “Could the same evidence support a different conclusion? Compare the two.”
 
-<div class="plain-sequence" role="img" aria-label="AI shortcut, student thinking, pressure move, evidence, and next step or support">
-<div><b>AI CAN DO</b><span>the tempting shortcut</span></div>
-<div class="plain-arrow">→</div>
-<div><b>STUDENTS STILL NEED TO</b><span>perform the target thinking</span></div>
-<div class="plain-arrow">→</div>
-<div><b>SO I WILL ASK THEM TO</b><span>do one short thinking move</span></div>
-<div class="plain-arrow">→</div>
-<div><b>I WILL LOOK FOR</b><span>visible evidence</span></div>
-<div class="plain-arrow">→</div>
-<div><b>THEN I WILL</b><span>let them continue, respond, or add support</span></div>
-</div>
-
-::: {.write-prompt}
-If you cannot complete the sentence **“Students still need to…”**, do not add pressure yet.
+**Aim:** competing inferences and a reason for preferring one.
+:::
 :::
 
 ::: {.notes}
-
-- Treat this sentence chain as the deck's planning spine. Keep the words visible; do not introduce a second layer of letter codes.
-- The order is conceptual, not always chronological. Evidence may show that pressure should be removed immediately or replaced with support.
+- Show this slide only if Logic + assumptions is in the cohort top three.
+- A logic gap is not merely unclear wording; it is a missing or unsupported connection.
 :::
 
-## Worked example · History/theory seminar
+## Area: Research method + design · Three techniques {data-section="03 · CO-RESEARCH CYCLE"}
 
+::: {.method-stack}
+::: {.method-card .method-a}
+<span class="method-name">JUSTIFY THE CHOICE</span>
 
-<div class="worked-example">
-<div class="worked-example-row"><b>STUDENTS ARE LEARNING TO</b><span>build an interpretation from a source—not just repeat a summary</span></div>
-<div class="worked-example-row"><b>AI MAKES IT EASY TO</b><span>produce a fluent account before the student has located the argument</span></div>
-<div class="worked-example-row prompt-row"><b>TEACHER SAYS</b><span>“Before you open the AI summary, mark the author’s main claim and one passage that supports it. Afterward, find one place where the summary flattens the argument.”</span></div>
-<div class="worked-example-row"><b>LOOK FOR / THEN CONTINUE</b><span>a claim, a passage, and a defensible correction → use AI to compare interpretations</span></div>
-</div>
+**LLM may ask:** “Why is this method appropriate for this question?”
 
-::: {.precision-note}
-Pressure goes **before and after** AI. The student may use AI; the interpretation cannot disappear.
+**Aim:** fit between question, evidence needed, method, and practical constraints.
 :::
 
-::: {.notes}
+::: {.method-card .method-b}
+<span class="method-name">COMPARE AN ALTERNATIVE</span>
 
-- Read the exact teacher language aloud. Ask the room to identify the location (before and after), the move (point to evidence and compare), the evidence, and the end point.
-- Note that the pressure is not “write without AI.” It protects one source-based interpretation and one act of judgment.
-- The same structure can be completed in another language or through oral annotation if that preserves the target thinking.
+**LLM may ask:** “What would another plausible method reveal that this one might miss?”
+
+**Aim:** genuine comparison rather than automatic defense of the original choice.
 :::
 
-## Three more worked examples
+::: {.method-card .method-c}
+<span class="method-name">TRACE METHOD TO CLAIM</span>
 
+**LLM may ask:** “What can this method not establish—and which claim must therefore narrow?”
 
-<div class="discipline-examples">
-<div><b>LANDSCAPE</b><span class="example-target">Judge site and stakeholder trade-offs</span><span class="example-prompt">“Choose two generated options. For each, name who benefits, who bears the cost, and which site condition drove your choice.”</span><span class="example-release">Evidence: a trade-off rationale → continue to rendering.</span></div>
-<div><b>CONSERVATION</b><span class="example-target">Reason under uncertainty and irreversible risk</span><span class="example-prompt">“Before considering the recommendation, name the evidence, the uncertainty, and the least reversible consequence.”</span><span class="example-release">Evidence: careful judgment → consult, compare, or stop.</span></div>
-<div><b>STUDIO / CRIT</b><span class="example-target">Explain why a design decision matters</span><span class="example-prompt">“Point to one design decision, one rejected alternative, and the consequence of that choice. Revise if the consequence does not support your intent.”</span><span class="example-release">Evidence: a defensible choice → refine the work.</span></div>
-</div>
-
-::: {.precision-note}
-**Quick pair check:** choose one example. Where does pressure enter? What must the student do? What ends it? The checkpoint protects the **thinking**, not one privileged language, medium, or speed.
+**Aim:** limitations that lead to a consequential change in claims.
+:::
 :::
 
 ::: {.notes}
-
-- Read one example in full, then let participants scan the other two.
-- Ask: “Where is the pressure? What exact action does it require? What ends it?”
-- Point out that every route permits AI when the target thinking is visible. A permanent ban is not the default.
+- Show this slide only if Research method + design is in the cohort top three.
+- “Method” includes scholarly, design, landscape, conservation, studio, and pedagogical methods.
 :::
 
-## Activity 5 · Choose one small teaching moment
+## Area: Interpretation + alternatives · Three techniques {data-section="03 · CO-RESEARCH CYCLE"}
 
+::: {.method-stack}
+::: {.method-card .method-a}
+<span class="method-name">GENERATE A RIVAL READING</span>
 
-<div class="moment-funnel">
-<div class="funnel-wide">NOT AN AI POLICY</div>
-<div class="funnel-mid">NOT AN ENTIRE COURSE OR ASSIGNMENT</div>
-<div class="funnel-narrow">ONE MOMENT · ONE THINKING MOVE · ONE END POINT</div>
-</div>
+**LLM may ask:** “What is the strongest plausible alternative interpretation?”
 
-::: {.moment-prompts}
-<span>seminar question</span>
-<span>studio critique</span>
-<span>method choice</span>
-<span>calculation</span>
-<span>feedback exchange</span>
-<span>code review</span>
-<span>supervision meeting</span>
+**Aim:** an alternative that fits the material, not a token opposing view.
 :::
 
-::: {.write-prompt}
-At this moment, students are learning to **____________**.
+::: {.method-card .method-b}
+<span class="method-name">SEEK DISCONFIRMING MATERIAL</span>
 
-AI may let them skip **____________**.
+**LLM may ask:** “What observation or source would make you revise this interpretation?”
+
+**Aim:** revision conditions and evidence the current reading cannot absorb.
 :::
 
-::: {.notes}
+::: {.method-card .method-c}
+<span class="method-name">RESTORE CONTEXT</span>
 
-- Require an action verb: compare, explain, estimate, interpret, diagnose, select, revise, translate, or test.
-- If someone names a product (“write an essay”), ask what the student must do within it.
-- Participants with little teaching authority should choose a micro-interaction they can control, such as a tutorial question or feedback conversation.
+**LLM may ask:** “How might the source’s genre, context, or purpose change this reading?”
+
+**Aim:** historically and situationally grounded interpretation.
 :::
-
-## Build one teaching checkpoint
-
-
-<div class="friction-card-workbench">
-<div class="card-field field-target"><span class="field-number">1</span><b>STUDENTS NEED TO</b><small>Name the thinking—not merely the finished product.</small><span class="field-lines"></span></div>
-<div class="card-field field-shortcut"><span class="field-number">2</span><b>AI MAY LET THEM SKIP</b><small>What could look finished while hiding that thinking?</small><span class="field-lines"></span></div>
-<div class="card-field field-friction"><span class="field-number">3</span><b>I WILL ASK THEM TO</b><small>Choose one move: predict, choose, cite, compare, test, revise, or transfer.</small><span class="field-lines"></span></div>
-<div class="card-field field-evidence"><span class="field-number">4</span><b>I WILL LOOK FOR</b><small>What explanation, comparison, choice, test, or revision will be visible?</small><span class="field-lines"></span></div>
-<div class="card-field field-release"><span class="field-number">5</span><b>THEN I WILL</b><small>What ends the checkpoint? Continue, respond, or add support.</small><span class="field-lines"></span></div>
-<div class="card-field field-safe"><span class="field-number">6</span><b>STUDENTS MAY</b><small>How can they challenge a bad premise, use another route, and protect data?</small><span class="field-lines"></span></div>
-</div>
-
-::: {.notes}
-
-- Ask participants to draft directly on the card, not discuss yet.
-- Once the first fields are drafted, prompt them to reach fields 4–6; evidence, release, and safeguard are not optional extras.
-- Encourage multilingual teacher talk and non-text evidence where appropriate.
-- If someone writes “no ChatGPT,” ask what student thinking the rule reveals and when the rule ends.
-:::
-
-## Write the student-facing prompt
-
-
-<div class="teacher-speech">
-<span class="speech-label">THE TEACHER SAYS</span>
-<span class="speech-open">“</span>
-<span class="speech-line">Before / while / after you use ____________________, please ____________________.</span>
-<span class="speech-line">Show your thinking by ____________________.</span>
-<span class="speech-line">Once ____________________, you may continue / I will help by ____________________.</span>
-<span class="speech-close">”</span>
-</div>
-
-::: {.rewrite-instruction}
-Use the scaffold if it helps, then rewrite it in **your own voice and teaching language**. Write the words a student will actually hear or read.
 :::
 
 ::: {.notes}
-
-- Exact language makes the design usable and reveals hidden ambiguity.
-- It should tell students what to do, what evidence matters, and when they may continue or receive support.
-- A participant may write the sentence in any language; no translation is required unless they choose to share it.
+- Show this slide only if Interpretation + alternatives is in the cohort top three.
+- Do not demand artificial balance when evidence strongly supports one interpretation.
 :::
 
-## Check it before you try it
+## Area: Concept + measure · Three techniques {data-section="03 · CO-RESEARCH CYCLE"}
 
+::: {.method-stack}
+::: {.method-card .method-a}
+<span class="method-name">DEFINE WHAT WOULD COUNT</span>
 
-<div class="self-test-grid">
-<div><span class="test-box"></span><b>PURPOSE</b><small>The prompt asks for the target thinking.</small></div>
-<div><span class="test-box"></span><b>EVIDENCE</b><small>I can observe more than compliance.</small></div>
-<div><span class="test-box"></span><b>FAIR SIZE</b><small>The demand fits this student and moment.</small></div>
-<div><span class="test-box"></span><b>ACCESS</b><small>Another route preserves the target thinking.</small></div>
-<div><span class="test-box"></span><b>END POINT</b><small>Continue, stop, or support is explicit.</small></div>
-</div>
+**LLM may ask:** “How would you know this concept is present in the material?”
 
-::: {.micro-instruction}
-Star the weakest box. Ask your partner to stress-test that one.
+**Aim:** observable or interpretable criteria rather than a circular definition.
 :::
 
-::: {.notes}
+::: {.method-card .method-b}
+<span class="method-name">TEST CONCEPT–INDICATOR FIT</span>
 
-- Keep this brisk. The starred uncertainty becomes the partner’s focus.
-- Arrange pairs now; solo participants use the written stress-test route on the next slide.
+**LLM may ask:** “What does this indicator capture—and what part of the concept does it miss?”
+
+**Aim:** validity, proxy limits, ambiguity, and mismatch.
 :::
 
-## Activity 6 · Try the prompt with a partner
+::: {.method-card .method-c}
+<span class="method-name">TEST THE CATEGORY BOUNDARY</span>
 
+**LLM may ask:** “Why does this example count, while a nearby case would not?”
 
-<div class="pair-contract">
-<div class="pair-role"><span class="role-name">TEACHER</span><span>Use only the student-facing prompt. Watch for evidence of the target thinking.</span></div>
-<div class="pair-swap" aria-hidden="true">⇄</div>
-<div class="pair-role"><span class="role-name">STUDENT / TESTER</span><span>Respond naturally, take an easy path, ask for another route, or challenge the premise.</span></div>
-</div>
-
-::: {.rights-banner}
-Choose live role-play, a narrated walkthrough, or a written simulation. Share no sensitive teaching or research details.
+**Aim:** thresholds, edge cases, and consistent classification.
+:::
 :::
 
 ::: {.notes}
-
-- Pair participants; form a triad only if needed, with the third person tracking evidence/release.
-- Participants may opt for written simulation or supplied scenario without explanation.
-- Clarify that “stress-test” is not theatrical performance. Natural, low-key enactment is sufficient.
+- Show this slide only if Concept + measure is in the cohort top three.
+- “Measure” may be quantitative, qualitative, visual, material, or interpretive.
 :::
 
-## The student chooses one realistic response
+## Area: Scope + limits · Three techniques {data-section="03 · CO-RESEARCH CYCLE"}
 
+::: {.method-stack}
+::: {.method-card .method-a}
+<span class="method-name">FIND A BOUNDARY CASE</span>
 
-<div class="stress-deck">
-<div class="stress-card"><span class="stress-symbol">↯</span><b>EASIEST PATH</b><small>Comply with the words while avoiding the reasoning.</small></div>
-<div class="stress-card"><span class="stress-symbol">AI</span><b>FLUENT SHORTCUT</b><small>Offer a polished answer and ask to move on.</small></div>
-<div class="stress-card"><span class="stress-symbol">?</span><b>FALSE PREMISE</b><small>Challenge the teacher’s assumption or evidence.</small></div>
-<div class="stress-card"><span class="stress-symbol">≠</span><b>ACCESS NEED</b><small>Request another language, mode, pace, or representation.</small></div>
-<div class="stress-card"><span class="stress-symbol">…</span><b>STUCK</b><small>Show that the friction has become a barrier.</small></div>
-</div>
+**LLM may ask:** “Where would this claim stop applying?”
 
-::: {.micro-instruction}
-Choose **one** response—not all five. The goal is to find a weak point, not to ambush your partner.
+**Aim:** explicit conditions, populations, periods, sites, or cases.
 :::
 
-::: {.notes}
-**Explain this during setup or leave it visible during the cycles.**
+::: {.method-card .method-b}
+<span class="method-name">TEST TRANSFER</span>
 
-- Assigning one move keeps role-play bounded and proportionate.
-- Discourage caricature or deliberate humiliation.
-- If pairs use written simulation, the partner writes one plausible learner response from this deck.
+**LLM may ask:** “Would this still hold in a different context? Why or why not?”
+
+**Aim:** which mechanisms travel and which depend on local conditions.
 :::
 
-## Partner test · Round 1
+::: {.method-card .method-c}
+<span class="method-name">AUDIT THE GENERALIZATION</span>
 
+**LLM may ask:** “What is the largest claim the current evidence can responsibly support?”
 
-<div class="cycle-timeline">
-<div><span class="cycle-order">01</span><b>ENACT</b><small>Teacher begins with the exact sentence.</small></div>
-<div><span class="cycle-order">02</span><b>RESPOND</b><small>Student uses one realistic response.</small></div>
-<div><span class="cycle-order">03</span><b>NOTICE</b><small>Where did the target thinking become visible? Where did it not?</small></div>
-<div><span class="cycle-order">04</span><b>REVISE</b><small>Change the prompt, evidence, access route, or end point.</small></div>
-</div>
-
-::: {.debrief-stems}
-<span>Reasoning became visible when…</span>
-<span>The exchange became performative / stuck when…</span>
+**Aim:** a narrower but defensible claim and stated uncertainty.
+:::
 :::
 
 ::: {.notes}
-
-- Call each transition rather than relying on participants to self-pace.
-- The student reports the experience first; the teacher then explains the intent.
-- Require a visible revision mark before roles swap.
+- Show this slide only if Scope + limits is in the cohort top three.
+- Narrowing a claim is productive reasoning, not failure.
 :::
 
-## Partner test · Round 2
+## Area: Perspective + position · Three techniques {data-section="03 · CO-RESEARCH CYCLE"}
 
+::: {.method-stack}
+::: {.method-card .method-a}
+<span class="method-name">INTRODUCE A MISSING VIEWPOINT</span>
 
-<div class="cycle-timeline reverse-cycle">
-<div><span class="cycle-order">01</span><b>TRY</b><small>Swap roles and use the revised prompt.</small></div>
-<div><span class="cycle-order">02</span><b>RESPOND</b><small>Choose one different realistic response.</small></div>
-<div><span class="cycle-order">03</span><b>NOTICE</b><small>Could simple compliance still look like the target thinking?</small></div>
-<div><span class="cycle-order">04</span><b>REVISE</b><small>Change the prompt, evidence, access route, or end point.</small></div>
-</div>
+**LLM may ask:** “Whose account could change what is visible or important here?”
 
-::: {.debrief-stems}
-<span>The friction was aligned because…</span>
-<span>I would end it earlier / later when…</span>
+**Aim:** a consequential perspective, not decorative stakeholder listing.
 :::
 
-::: {.notes}
+::: {.method-card .method-b}
+<span class="method-name">EXAMINE POSITION</span>
 
-- Call the same transitions.
-- Protect enactment and revision; shorten verbal explanation if necessary.
+**LLM may ask:** “How does your—or the source’s—position shape what can be known?”
+
+**Aim:** access, authority, distance, interest, and reflexive limits.
 :::
 
-## Final revision · Fix the weakest link
+::: {.method-card .method-c}
+<span class="method-name">TRACE SILENCE AND POWER</span>
 
+**LLM may ask:** “Who can speak in this account, and whose absence affects the conclusion?”
 
-<div class="repair-chain">
-<span>prompt</span><span class="chain-link">—</span>
-<span>target thinking</span><span class="chain-link">—</span>
-<span>evidence</span><span class="chain-link">—</span>
-<span>safeguard</span><span class="chain-link">—</span>
-<span>end point / support</span>
-</div>
-
-::: {.write-prompt}
-Make **one final change** where the chain is weakest. Date or mark the revision so the learning is visible in your artifact.
+**Aim:** structural absence, source conditions, and implications for interpretation.
+:::
 :::
 
 ::: {.notes}
-
-- Ask pairs to stop discussing and write.
-- A revision may simplify or remove friction; adding difficulty is not the default improvement.
+- Show this slide only if Perspective + position is in the cohort top three.
+- Do not ask participants to perform an identity or disclose personal experience.
 :::
 
-## Your take-home card
+## Area: Stakes + trade-offs · Three techniques {data-section="03 · CO-RESEARCH CYCLE"}
 
+::: {.method-stack}
+::: {.method-card .method-a}
+<span class="method-name">MAP CONSEQUENCES</span>
 
-<div class="exit-artifact">
-<div><span class="exit-number">1</span><b>Students are learning to</b><span class="exit-line"></span></div>
-<div><span class="exit-number">2</span><b>AI makes it tempting to</b><span class="exit-line"></span></div>
-<div><span class="exit-number">3</span><b>My exact first sentence is</b><span class="exit-line quote-line"></span></div>
-<div><span class="exit-number">4</span><b>I will look for</b><span class="exit-line"></span></div>
-<div><span class="exit-number">5</span><b>I will let them continue or add support when</b><span class="exit-line"></span></div>
-<div><span class="exit-number">6</span><b>Learners can contest or access it by</b><span class="exit-line"></span></div>
-</div>
+**LLM may ask:** “Who or what changes if this claim or proposal is acted upon?”
 
-::: {.notes}
-
-- Participants complete this individually from the revised card.
-- Do not collect artifacts unless a separate, clearly optional process has been explained.
-- Invite participants to photograph only their own card if they want a backup.
+**Aim:** concrete effects, affected groups, material conditions, and time horizons.
 :::
 
-## Before you leave: six checks
+::: {.method-card .method-b}
+<span class="method-name">DISTRIBUTE BENEFIT AND COST</span>
 
+**LLM may ask:** “Who benefits, who carries the cost, and who decides?”
 
-<div class="output-checklist">
-<div><span class="check-box"></span>one **small, real** teaching moment</div>
-<div><span class="check-box"></span>a target stated as a **student action**</div>
-<div><span class="check-box"></span>an **exact first sentence** the teacher can say</div>
-<div><span class="check-box"></span>observable evidence—not polished compliance</div>
-<div><span class="check-box"></span>a legitimate alternative and right to contest</div>
-<div><span class="check-box"></span>a clear end point or next support</div>
-</div>
+**Aim:** uneven distribution rather than one aggregate outcome.
+:::
 
-::: {.micro-instruction}
-Optional: exchange only your six-line exit artifact—not the research episode.
+::: {.method-card .method-c}
+<span class="method-name">TRACE A SECOND-ORDER EFFECT</span>
+
+**LLM may ask:** “What could improve immediately while creating a later problem?”
+
+**Aim:** unintended consequences, trade-offs, and delayed effects.
+:::
 :::
 
 ::: {.notes}
-
-- Ask participants to check all six. An unchecked item becomes the next revision target.
-- Optional pair share can be silent: place cards side-by-side and read only if both consent.
+- Show this slide only if Stakes + trade-offs is in the cohort top three.
+- Stakes can be ethical, social, environmental, cultural, economic, institutional, or pedagogical.
 :::
 
-## Put pressure where thinking can be seen
+## Worked example · What the teacher-designer chooses {data-section="03 · CO-RESEARCH CYCLE"}
 
+> “The study will use interviews and confidence surveys to show that hybrid critique caused the improvement.”
 
-<div class="closing-river on-dark" role="img" aria-label="Riverbanks guide a current toward visible reasoning and then open into support">
-<div class="river-label top-label">YOU DEFINE THE LEARNING COORDINATES</div>
-```{=html}
-<svg viewBox="0 0 1300 360" aria-hidden="true">
-<path d="M 20 70 C 300 30, 410 150, 650 128 C 880 105, 930 28, 1280 80" fill="none" stroke="#f39c12" stroke-width="18" stroke-linecap="round"/>
-<path d="M 20 285 C 280 330, 430 205, 650 230 C 900 258, 1010 330, 1280 270" fill="none" stroke="#3498db" stroke-width="18" stroke-linecap="round"/>
-<path d="M 35 176 C 280 150, 440 188, 655 178 C 880 168, 1010 184, 1250 176" fill="none" stroke="#ecf0f1" stroke-width="55" stroke-linecap="round" opacity="0.92"/>
-<polygon points="1238,132 1300,176 1238,220" fill="#27ae60"/>
-<text x="648" y="186" fill="#17202a" text-anchor="middle" font-size="31" font-weight="800">STUDENT THINKING MADE VISIBLE</text>
-<text x="110" y="55" fill="#f39c12" font-size="22" font-weight="700">purpose + boundary</text>
-<text x="1010" y="320" fill="#3498db" font-size="22" font-weight="700">access + support</text>
-<text x="1260" y="248" fill="#27ae60" text-anchor="end" font-size="22" font-weight="700">next step</text>
-</svg>
-```
-</div>
+**AREA 1 · COHORT PRIORITY · RESEARCH METHOD + DESIGN**  \
+Questioning technique: **compare an alternative**  \
+Pedagogical aim: make the learner compare what interviews and observation can establish
 
-::: {.closing-line}
-**Do not maximize difficulty. Put one checkpoint where it reveals the target thinking—then remove it or add support when the student can carry the work.**
+**AREA 2 · PERSONAL OR DISCIPLINARY WILDCARD · CLAIM + EVIDENCE**  \
+Questioning technique: **trace support**  \
+Pedagogical aim: make the learner distinguish association from evidence of causation
+
+::: {.notes}
+- The teacher-designer selects the area, technique, and intended constructive thinking—not an exact question.
+- Both choices concern the same source but demand different reasoning.
+:::
+
+## Then the LLM performs the questioning {data-section="03 · CO-RESEARCH CYCLE"}
+
+| Role | Responsibility |
+|---|---|
+| **Teacher-designer** | Supplies the area, questioning technique, and pedagogical aim. |
+| **LLM questioner** | Reads the source, generates one grounded Socratic question, waits, then follows the learner’s actual answer. |
+| **Learner** | Answers in their own words, contests false premises, and notices what the pressure does. |
+
+::: {.big-prompt}
+The question sequence is an **output being tested**, not something the learner must author in advance.
 :::
 
 ::: {.notes}
+- An acceptable first question might resemble a technique-menu example, but it must be grounded in the participant’s actual source.
+- A follow-up should use something in the learner’s last answer rather than advancing through a canned checklist.
+:::
 
-- Ask for one silent commitment: “Where will I try this first?”
-- Deliver the closing line exactly, then thank participants.
-- Do not finish with a public disclosure round; the exit artifact is the learning output.
+## What a Socratic follow-up may do {data-section="03 · CO-RESEARCH CYCLE"}
+
+| Move | Follow the last answer with… |
+|---|---|
+| **Clarify a term** | “What do you mean by ___ here?” |
+| **Ask for the basis** | “What in the source or evidence makes you say that?” |
+| **Expose an assumption** | “What must be true for that answer to hold?” |
+| **Compare an alternative** | “How does that compare with ___?” |
+| **Test a boundary** | “Would it still hold if ___ changed?” |
+| **Trace a consequence** | “If that is true, what else must change?” |
+
+::: {.plain-line}
+The LLM chooses a follow-up from the **learner’s actual answer**. The learner does not pre-write it.
+:::
+
+::: {.notes}
+- This helps participants recognize what the LLM is doing during the exchange and later examine it in the transcript.
+- Every follow-up must use something the participant just said; it should not become a prewritten interrogation checklist.
+- Stop early when the gap is sufficiently clear or the next question would only repeat pressure.
+:::
+
+## Choose a safe source {data-section="03 · CO-RESEARCH CYCLE"}
+
+- **Core route · Bounded excerpt**  \
+  A paragraph from an abstract, introduction, method, interpretation, or design statement.
+
+- **Equal route · Supplied material**  \
+  Use the fictional hybrid-studio paragraph.
+
+::: {.safety-line}
+Use only material you own or have permission to share with that service. Remove restricted, confidential, collaborator-controlled, or identifiable content.
+:::
+
+::: {.notes}
+- A bounded excerpt is easier to compare and safer to exchange.
+- Keep the bounded-excerpt route as the default even when an interface accepts files.
+- A full-document route appears only in the optional appendix after the numbered workshop.
+:::
+
+## Fill your two-area test brief {data-section="03 · CO-RESEARCH CYCLE"}
+
+::: {.activity-label}
+CURRENT ROLE · TEACHER-DESIGNER
+:::
+
+::: {.test-fields}
+::: {.test-field .field-area}
+<span class="prompt-key key-area">AREA 1</span>
+
+Choose one **cohort-priority area** from the top three.
+:::
+
+::: {.test-field .field-gap}
+<span class="prompt-key key-gap">QUESTIONING TECHNIQUE 1</span>
+
+Choose one technique from that area’s menu.
+:::
+
+::: {.test-field .field-move}
+<span class="prompt-key key-move">AREA 2</span>
+
+Choose a different **personal or disciplinary wildcard**. It need not be in the top three.
+:::
+
+::: {.test-field .field-question}
+<span class="prompt-key key-question">QUESTIONING TECHNIQUE 2</span>
+
+Choose one technique from that area’s menu.
+:::
+:::
+
+::: {.fixed-strip}
+For each choice, finish: **“I chose this because it may help the learner…”**
+:::
+
+::: {.plain-line}
+Use the [**copy-ready Day 2 lab**](day2-lab.html){target="_blank"} to fill, copy, and keep both runs separate.
+:::
+
+::: {.notes}
+- Each participant fills their own brief.
+- Partners can check whether the intended constructive thinking is understandable, but the source owner makes the final decision.
+- Participants choose two techniques in total—one for each selected area. They do not write starter or follow-up questions.
+:::
+
+## Copy prompt · Part 1 of 2: roles + inputs {data-section="03 · CO-RESEARCH CYCLE"}
+
+::: {.activity-label}
+COPY BOTH PARTS INTO ONE MESSAGE
+:::
+
+::: {.copy-prompt .test-template}
+<span class="prompt-key key-role">YOUR ROLE · LLM</span> Be a Socratic questioner. Generate and adapt the questions; do not rewrite, solve, grade, or give me a verdict.
+
+<span class="prompt-key key-role">MY ROLE · LEARNER</span> I will answer in my own words. Let me question, correct, or reject a false premise.
+
+<span class="prompt-key key-source">SOURCE</span> [PASTE A SAFE BOUNDED EXCERPT—core route]
+
+<span class="prompt-key key-area">AREA 1 · COHORT PRIORITY</span> [___]  \
+<span class="prompt-key key-gap">TECHNIQUE 1 + PEDAGOGICAL AIM</span> [___]
+
+<span class="prompt-key key-move">AREA 2 · PERSONAL / DISCIPLINARY WILDCARD</span> [___]  \
+<span class="prompt-key key-question">TECHNIQUE 2 + PEDAGOGICAL AIM</span> [___]
+:::
+
+::: {.notes}
+- Students replace every bracketed field: the source plus the two area and technique/aim pairs.
+- The pedagogical aim comes from the technique card’s “Aim” line or a plain-language adaptation of it.
+- The core prompt uses a bounded excerpt. Anyone taking the optional full-document extension must still name and paste the exact passage being examined.
+:::
+
+## Copy prompt · Part 2 of 2: Socratic rules {data-section="03 · CO-RESEARCH CYCLE"}
+
+::: {.activity-label}
+PASTE DIRECTLY AFTER PART 1
+:::
+
+::: {.copy-prompt .test-template}
+Treat each area as a **focus for inquiry, not proof that a flaw exists**.
+
+Use **one area per fresh chat**. Wait for **START AREA 1** or **START AREA 2**; use only that area.
+
+For that area:
+
+1. Read the source. Use the technique to ask one open, grounded question toward the aim.
+2. Ask only that question; then wait.
+3. Base each next question on my actual answer.
+4. Stop by **five question–answer rounds**, or sooner if the aim is reached or pressure repeats.
+
+On **STOP**, list only: reasoning I stated; one unresolved point; one exact response to revisit. **Never judge whether your questioning worked.** Then wait.
+:::
+
+::: {.notes}
+- Students may adapt wording for their interface, but the pair should keep the role and interaction sequence equivalent.
+- The area, technique, and pedagogical aim are the designed pressure; every actual question is model-generated output being tested.
+- One exchange means one LLM question plus one participant answer. Five per area is a ceiling, not a quota.
+- The LLM recap is part of the trace, not a verdict. Owner and partner evaluate the interaction independently.
+:::
+
+## Break · Then check the setup {data-section="BREAK"}
+
+::: {.break-word}
+PAUSE
+:::
+
+After the break, confirm:
+
+**same LLM within the pair · two fresh chats per person · bounded source ready · cohort priority + wildcard chosen · aims stated**
+
+::: {.notes}
+- Protect the break.
+- Use the final moments only for access and setup problems, not for judging anyone’s source.
+:::
+
+## Activity 3.1 · Two separate five-minute LLM runs {data-section="03 · CO-RESEARCH CYCLE"}
+
+::: {.activity-label}
+CURRENT ROLE · LEARNER UNDER TEST
+:::
+
+1. Open a fresh chat, paste the prompt, then type **START AREA 1**.
+2. Stop designing. **Answer as a learner** for up to five exchanges.
+3. At five minutes, type **STOP** and record a brief private owner judgment.
+4. Open a second fresh chat, paste the prompt, then type **START AREA 2**.
+5. Run another five minutes, type **STOP**, and record the second private judgment.
+
+::: {.big-prompt}
+Five exchanges are a **ceiling per run, not a target**. Stop early when an issue is clear. Each room timer wins.
+:::
+
+::: {.notes}
+- Run two visible five-minute timers with a short private-note pause between them.
+- Remind participants that their teacher-designer role is paused: they are now learners experiencing the question sequence.
+- If the conversation stalls, answer “Please ask that more plainly” or contest the premise.
+- Participants may stop early if the exchange becomes unsafe, irrelevant, or unproductive.
+- Work individually and simultaneously. The purpose is to experience and observe pressure, not to produce a polished paragraph.
+:::
+
+## After each STOP · Record a private owner judgment {data-section="03 · CO-RESEARCH CYCLE"}
+
+::: {.activity-label}
+CURRENT ROLE · OWNER-OBSERVER · DO NOT SHARE YET
+:::
+
+Without reopening the exchange, note:
+
+- one exact turn that **clarified or exposed** something;
+- what thinking you had to perform;
+- where the pressure **missed, overloaded, repeated, or became a barrier**; and
+- your first judgment: **useful, partly useful, not useful, or still unclear**.
+
+::: {.plain-line}
+Keep this judgment private until the partner has finished an independent reading.
+:::
+
+::: {.notes}
+- Give about one minute after each run. Participants can use ticks or short phrases.
+- Separating answer time from judgment time protects the learner role and reduces simultaneous cognitive load.
+- These are sensitizing prompts, not mandatory codes or a validated rating scale.
+:::
+
+## Stop, save, and prepare the handoff {data-section="03 · CO-RESEARCH CYCLE"}
+
+Keep:
+
+1. the two selected areas and questioning techniques;
+2. the pedagogical aim for each;
+3. a bounded packet containing the two short run transcripts; and
+4. your private owner judgments—**held back for now**.
+
+Redact names, sites, sensitive details, and anything your partner does not need.
+
+::: {.safety-line}
+The handoff contains the design brief and two redacted traces—**not** the private owner judgments, source document, account, chat link, or complete session.
+:::
+
+::: {.notes}
+- The owner controls what is shared.
+- Participants may provide a content-free summary or use the supplied case instead.
+- The private judgments are revealed only after the partner records an independent reading.
+:::
+
+## Activity 3.2 · Trade transcripts {data-section="03 · CO-RESEARCH CYCLE"}
+
+::: {.activity-label}
+CURRENT ROLE · PEER EXAMINER OF THE INTERACTION
+:::
+
+::: {.swap-grid}
+::: {.swap-side .swap-owner}
+<span class="prompt-key key-role">OWNER HANDS OVER</span>
+
+- two areas + techniques + aims;
+- two bounded, redacted run traces;
+- sharing limits.
+
+**Hold back:** private owner judgments.
+:::
+
+::: {.swap-side .swap-partner}
+<span class="prompt-key key-area">PARTNER READS</span>
+
+- independently;
+- against the same areas;
+- with evidence from exact turns; and
+- without seeing the owner’s judgments.
+:::
+:::
+
+::: {.plain-line}
+**Choose a handoff:** read on the owner’s device with no copy, or use a temporary redacted copy that is returned or deleted after comparison.
+:::
+
+::: {.safety-line}
+Equal route: use the supplied traces or a content-free interaction packet. Personal disclosure is never required.
+:::
+
+::: {.notes}
+- Both partners exchange at the same time.
+- Owner-device reading is the default when practical. If a temporary copy is necessary, agree how it will be returned or deleted before exchanging it.
+- No screenshots, forwarding, shared chat links, or retained copies after the discussion.
+- The partner records an independent judgment before either person discusses the owner’s private memo.
+:::
+
+## Partner reading 1 · Did the intended pressure work? {data-section="03 · CO-RESEARCH CYCLE"}
+
+For each selected area:
+
+1. What constructive thinking was the teacher-designer trying to invite?
+2. Did the LLM’s questions actually enact the chosen technique?
+3. Did each follow-up use the learner’s preceding answer?
+4. What thinking did the learner perform—and what became clearer?
+5. Which exact turn supports your reading?
+
+::: {.big-prompt}
+Examine the **questioning design and interaction**—not the quality of the person or project.
+:::
+
+::: {.notes}
+- The reviewer should be able to point to a question-and-response pair.
+- “It was good” or “the bot was smart” is not enough.
+:::
+
+## Partner reading 2 · What else emerged? {data-section="03 · CO-RESEARCH CYCLE"}
+
+Look beyond the intended areas:
+
+- Did another gap become visible?
+- Did the exchange demand more thinking—or only more words?
+- Did it reveal an assumption, limit, perspective, or trade-off?
+- Did pressure become generic, repetitive, misleading, or costly?
+- Does the transcript suggest an area missing from the eight?
+
+::: {.plain-line}
+Record an additional area only when a specific turn gives you a reason.
+:::
+
+::: {.notes}
+- This is the inductive part of the co-research cycle.
+- The eight areas guide attention, but they do not get the last word.
+:::
+
+## Activity 3.3 · Reveal the independent readings {data-section="03 · CO-RESEARCH CYCLE"}
+
+::: {.activity-label}
+CURRENT ROLE · CO-RESEARCHER
+:::
+
+First, both confirm that the partner’s independent reading is recorded.
+
+Then reveal in this order:
+
+1. **Partner:** summarize the independent transcript reading.
+2. **Owner:** reveal the private judgment recorded after STOP.
+
+::: {.big-prompt}
+The second perspective must exist **before** the first perspective is revealed.
+:::
+
+::: {.notes}
+- Do not reveal the owner judgment until the partner note is complete; this protects the second perspective from avoidable anchoring.
+- Neither reading is an answer key. The next slide asks the pair to compare them.
+:::
+
+## Compare the two readings {data-section="03 · CO-RESEARCH CYCLE"}
+
+::: {.activity-label}
+CURRENT ROLE · CO-RESEARCHER
+:::
+
+Compare without forcing agreement:
+
+1. Where do the readings agree?
+2. What did the partner see that the owner did not?
+3. What does the owner correct, contest, or veto from experience or context?
+4. Which area or questioning technique now looks more useful—and at what cost?
+
+::: {.notes}
+- Do not force agreement.
+- The owner controls interpretations of their experience and research context; the partner can still retain a content-free methodological disagreement.
+:::
+
+## Make one joint co-research note {data-section="03 · CO-RESEARCH CYCLE"}
+
+Complete together:
+
+> We asked the LLM to use **[questioning technique]** within **[assessment area]** to invite **[constructive thinking]**. It was useful / partly useful / not useful because **[transcript evidence]**.
+
+> The owner experienced **[effect or cost]**, while the second reader noticed **[pattern]**.
+
+> Next time we would **[keep, change, remove, or test]** because **[reason]**.
+
+::: {.plain-line}
+Add one evidence-backed missing area or gap if the eight did not hold what emerged.
+:::
+
+::: {.notes}
+- Keep the note content-free enough to share with the room.
+- A failed questioning technique is a valid and useful result.
+:::
+
+## Activity 3.4 · Five-pair room round {data-section="03 · CO-RESEARCH CYCLE"}
+
+::: {.activity-label}
+CURRENT ROLE · CO-RESEARCHER
+:::
+
+Each pair shares:
+
+1. **Area + questioning technique tested**
+2. **One observed effect or failure**
+3. **One difference between owner and partner readings**
+4. **One change for the next version**
+
+::: {.big-prompt}
+Keep research content private. Share the **interaction pattern**. You may pass.
+:::
+
+::: {.notes}
+- With five pairs, keep contributions concise.
+- Record techniques, effects, disagreements, and proposed changes on a visible class atlas.
+:::
+
+## Activity 4 · Re-rank and redesign {.section-cover data-section="04 · RE-RANK" data-background-color="#174a34"}
+
+**ROLE · TEACHER-DESIGNER + CO-RESEARCHER**
+
+Return to the eight areas after the test—and allow the map to change.
+
+::: {.section-cover-detail}
+Second ranking → explain movement → name the next evidence needed
+:::
+
+::: {.notes}
+- Reuse the same ranking mechanism and wording from Activity 2.
+:::
+
+## Rank the eight again {data-section="04 · RE-RANK"}
+
+Use the same criteria:
+
+1. **How consequential is it if this reasoning is weak?**
+2. **How easily could polished AI output hide the weakness?**
+
+Then ask:
+
+- Which area moved up or down?
+- Did its **importance** change—or did it become **easier or harder to assess**?
+- Did the exercise reveal a ninth area?
+
+::: {.big-prompt}
+A ranking that does not move is also a result—if experience now gives you a reason.
+:::
+
+::: {.notes}
+- Place the first and second maps side by side.
+- Ask participants to explain change from evidence, not from a desire to appear reflective.
+:::
+
+## What did the co-design cycle change? {data-section="04 · RE-RANK"}
+
+Compare:
+
+| Before the test | After the test |
+|---|---|
+| What we expected to matter | What the exchange made consequential |
+| What looked easy to assess | What produced usable transcript evidence |
+| What the eight categories held | What they missed or blurred |
+| What sounded like useful friction | What felt useful, costly, or off target |
+
+::: {.plain-line}
+The revised map is the cohort’s design artifact—not a universal hierarchy.
+:::
+
+::: {.notes}
+- Preserve discipline-specific differences and contradictions.
+- A category can be important yet difficult to test well with an LLM.
+:::
+
+## Leave with one redesigned friction point {data-section="04 · RE-RANK"}
+
+- **Where:** one area that deserves attention;
+- **How:** one questioning technique worth keeping or revising;
+- **Evidence:** one transcript pattern that shaped the judgment;
+- **Second perspective:** one difference the partner reading exposed; and
+- **Next:** one thing a future workshop or study should test.
+
+::: {.big-prompt}
+Do not maximize friction. Co-design where it belongs, observe what it does, and revise the technique from more than one perspective.
+:::
+
+::: {.notes}
+- Invite a final private note or voluntary spoken answer.
+- Return or delete exchanged transcript packets before leaving.
+:::
+
+## OPTIONAL EXTENSION · SKIP WITHOUT LOSS {data-section="OPTIONAL EXTENSION"}
+
+::: {.activity-label}
+DESIGNING A NEXT STUDY · OUTSIDE THE CORE PATH · USE ONLY WHEN TIME REMAINS
+:::
+
+Today gives **interaction evidence**: questions asked, reasoning made visible, owner experience, a second-reader interpretation, and immediate changes or unresolved gaps.
+
+It does **not** establish durable learning. A teaching study would still need:
+
+**aligned work quality · comparison · retention · transfer · access and burden**
+
+::: {.sources}
+[Chi et al. (1994)](https://doi.org/10.1207/s15516709cog1803_3) · [Deslauriers et al. (2019)](https://doi.org/10.1073/pnas.1821936116) · [Karpicke & Roediger (2008)](https://doi.org/10.1126/science.1152408)
+:::
+
+::: {.notes}
+- Optional extension: skip without loss. The numbered workshop ends on the preceding slide.
+- Transcript evidence can show elicited reasoning, not durable learning.
+- Feeling challenged and learning are related questions, not interchangeable measures.
+:::
+
+## OPTIONAL EXTENSION · SKIP WITHOUT LOSS {data-section="OPTIONAL EXTENSION"}
+
+::: {.activity-label}
+FULL-DOCUMENT CONTEXT · OUTSIDE THE CORE PATH · DO NOT USE FOR SETUP TROUBLESHOOTING
+:::
+
+Check all three:
+
+1. **Service authorization:** The interface supports files and the relevant institutional setting permits this use.
+2. **Material status:** The file is public, workshop-supplied, or a fully sanitized copy you are authorized to share.
+3. **Scope:** You still identify one exact passage for the two runs.
+
+::: {.big-prompt}
+If any condition is uncertain, return to the bounded excerpt or supplied material. Nothing is lost.
+:::
+
+::: {.notes}
+- Optional extension: skip without loss. It sits after the numbered workshop with the other appendix material.
+- Acceptance by an interface does not establish institutional authorization, privacy, or collaborator permission.
+- Never troubleshoot a personal full-file upload during this workshop. Return immediately to the bounded excerpt or supplied paragraph.
 :::

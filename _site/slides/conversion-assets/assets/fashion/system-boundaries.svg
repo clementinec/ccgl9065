@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+  <title id="title">Choose which processes your assessment includes</title>
+  <desc id="desc">Cradle-to-gate includes raw materials, fabric and garment making up to the factory door. Cradle-to-grave also includes transport, use and end-of-life treatment. Recycling extends the model to collection and processing for a next product; it requires an explicit choice about how impacts and benefits are shared.</desc>
+  <rect width="1200" height="450" rx="12" fill="#fbf8f1"/>
+  <rect x="22" y="44" width="1156" height="223" rx="12" fill="#edf0e5" stroke="#597316" stroke-width="3"/>
+  <rect x="40" y="95" width="522" height="151" rx="8" fill="#eeeef4" stroke="#4356b3" stroke-width="3"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#102a43">
+    <text x="42" y="79" font-size="25" font-weight="700" fill="#597316">CRADLE → GRAVE</text>
+    <text x="57" y="128" font-size="23" font-weight="700" fill="#4356b3">CRADLE → GATE</text>
+    <g font-size="23" text-anchor="middle" font-weight="700"><text x="116" y="185">Raw</text><text x="116" y="214">materials</text><text x="296" y="185">Fabric</text><text x="296" y="214">making</text><text x="473" y="185">Garment</text><text x="473" y="214">making</text><text x="670" y="198">Transport</text><text x="875" y="198">Use + care</text><text x="1080" y="185">End of</text><text x="1080" y="214">life</text></g>
+    <g font-size="31" fill="#5b6d7b"><text x="197" y="202">→</text><text x="374" y="202">→</text><text x="565" y="202">→</text><text x="772" y="202">→</text><text x="970" y="202">→</text></g>
+    <rect x="684" y="316" width="492" height="68" rx="8" fill="#f2e8d5" stroke="#c96753" stroke-width="2"/>
+    <text x="930" y="357" font-size="24" text-anchor="middle" font-weight="700">Collection + recycling → next product</text>
+    <text x="29" y="349" font-size="23">If modelling another life:</text>
+    <text x="29" y="382" font-size="21" fill="#5b6d7b">Count the processing and state who gets the benefit.</text>
+    <text x="600" y="431" text-anchor="middle" font-size="22" fill="#5b6d7b">A loop is a route to investigate. It does not make the impacts disappear.</text>
+  </g>
+  <path d="M1080 270V309" fill="none" stroke="#c96753" stroke-width="3"/>
+</svg>

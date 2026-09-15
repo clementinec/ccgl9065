@@ -1,3 +1,5 @@
+@import '../../assets/fashion/lecture.css';
+
 :root {
   --slidev-transition-duration: 120ms;
   --paper: #fbf8f1;
@@ -127,11 +129,16 @@
 .course-title-slide h1 {
   max-width: 1090px;
   margin-top: 72px;
+  margin-bottom: 40px;
   font-size: 104px !important;
   font-weight: 650;
   letter-spacing: -0.03em;
-  line-height: 0.93;
   word-spacing: 0.05em;
+}
+
+/* Override only the theme's fixed leading; preserve existing type sizes and weights. */
+.slidev-layout.cover.course-title-slide h1 {
+  line-height: 1.12;
 }
 
 .course-code {
@@ -143,12 +150,12 @@
 
 .course-place {
   width: 720px;
-  margin: 28px 0 0 520px;
+  margin: 40px 0 0 520px;
   color: var(--orange);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 31px;
   font-style: italic;
-  line-height: 1.12;
+  line-height: 1.25;
 }
 
 .course-premise {
@@ -183,8 +190,11 @@
   font-size: 92px !important;
   font-weight: 750;
   letter-spacing: -0.03em;
-  line-height: 0.94;
   word-spacing: 0.05em;
+}
+
+.slidev-layout.section.section-slide h1 {
+  line-height: 1.15;
 }
 
 .section-slide::before {

@@ -210,7 +210,26 @@ def rewrite_assets(markdown: str) -> str:
     def replace_markdown_image(match: re.Match[str]) -> str:
         return f"{match.group(1)}{local_asset_url(match.group(2))}{match.group(3)}"
 
-    return re.sub(r"(!\[[^\]]*\]\()([^) \t]+)(\))", replace_markdown_image, markdown)
+    markdown = re.sub(r"(!\[[^\]]*\]\()([^) \t]+)(\))", replace_markdown_image, markdown)
+
+    def replace_course_link(match: re.Match[str]) -> str:
+        target = match.group(2)
+        page = target.split("#", 1)[0]
+        if (PROJECT_ROOT / page).with_suffix(".qmd").is_file():
+            target = f"../../../{target}"
+        return f"{match.group(1)}{target}{match.group(3)}"
+
+    # Course guides sit three directories above the built Slidev deck.
+    markdown = re.sub(
+        r'(href=["\'])([\w-]+\.html(?:#[\w-]+)?)(["\'])',
+        replace_course_link,
+        markdown,
+    )
+    return re.sub(
+        r'(?<!!)(\]\()([\w-]+\.html(?:#[\w-]+)?)(\))',
+        replace_course_link,
+        markdown,
+    )
 
 
 def extract_background(source_slide: str) -> tuple[str | None, str | None]:

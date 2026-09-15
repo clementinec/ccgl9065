@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Hongshan Guo">
+
+<title>Day 2 Participant Lab – CCGL9065 / HKU</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="site.css">
+</head>
+
+<body class="nav-fixed rpg-workshop day2-lab-page">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">CCGL9065 / HKU</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../activity_guide.html"> 
+<span class="menu-text">How Class Works</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-coursework" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Coursework</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-coursework">    
+        <li>
+    <a class="dropdown-item" href="../../evaluation.html">
+ <span class="dropdown-text">Assessment &amp; Tutorials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../portfolio_roadmap.html">
+ <span class="dropdown-text">Portfolio Roadmap</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../exhibition_2026.html"> 
+<span class="menu-text">Exhibition 2026</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#your-role-changes" id="toc-your-role-changes" class="nav-link active" data-scroll-target="#your-role-changes">Your role changes</a></li>
+  <li><a href="#core-route" id="toc-core-route" class="nav-link" data-scroll-target="#core-route">Core route</a></li>
+  <li><a href="#eight-areas-where-friction-may-matter" id="toc-eight-areas-where-friction-may-matter" class="nav-link" data-scroll-target="#eight-areas-where-friction-may-matter">Eight areas where friction may matter</a></li>
+  <li><a href="#questioning-technique-bank" id="toc-questioning-technique-bank" class="nav-link" data-scroll-target="#questioning-technique-bank">Questioning-technique bank</a></li>
+  <li><a href="#choose-one-safe-source" id="toc-choose-one-safe-source" class="nav-link" data-scroll-target="#choose-one-safe-source">Choose one safe source</a></li>
+  <li><a href="#build-your-two-area-test-brief" id="toc-build-your-two-area-test-brief" class="nav-link" data-scroll-target="#build-your-two-area-test-brief">Build your two-area test brief</a></li>
+  <li><a href="#copy-ready-llm-prompt" id="toc-copy-ready-llm-prompt" class="nav-link" data-scroll-target="#copy-ready-llm-prompt">Copy-ready LLM prompt</a></li>
+  <li><a href="#run-two-separate-five-minute-conversations" id="toc-run-two-separate-five-minute-conversations" class="nav-link" data-scroll-target="#run-two-separate-five-minute-conversations">Run two separate five-minute conversations</a></li>
+  <li><a href="#after-each-stop-keep-a-private-owner-judgment" id="toc-after-each-stop-keep-a-private-owner-judgment" class="nav-link" data-scroll-target="#after-each-stop-keep-a-private-owner-judgment">After each STOP, keep a private owner judgment</a></li>
+  <li><a href="#prepare-the-bounded-handoff" id="toc-prepare-the-bounded-handoff" class="nav-link" data-scroll-target="#prepare-the-bounded-handoff">Prepare the bounded handoff</a></li>
+  <li><a href="#read-your-partners-trace-independently" id="toc-read-your-partners-trace-independently" class="nav-link" data-scroll-target="#read-your-partners-trace-independently">Read your partner’s trace independently</a></li>
+  <li><a href="#reveal-compare-and-debrief" id="toc-reveal-compare-and-debrief" class="nav-link" data-scroll-target="#reveal-compare-and-debrief">Reveal, compare, and debrief</a></li>
+  <li><a href="#re-rank-and-close-the-core-cycle" id="toc-re-rank-and-close-the-core-cycle" class="nav-link" data-scroll-target="#re-rank-and-close-the-core-cycle">Re-rank and close the core cycle</a></li>
+  <li><a href="#optional-extensions-only-after-the-core-cycle" id="toc-optional-extensions-only-after-the-core-cycle" class="nav-link" data-scroll-target="#optional-extensions-only-after-the-core-cycle">OPTIONAL extensions — only after the core cycle</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Day 2 Participant Lab</h1>
+<p class="subtitle lead">Choose the pressure · let the LLM ask · examine what happened</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Hongshan Guo </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Friday, 28 August 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="workshop-kicker">
+<p>Participant page · Day 2 co-design lab</p>
+</div>
+<div class="lead-claim">
+<p>You choose where constructive pressure belongs and what kind of thinking it should invite. The LLM generates the actual questions. Then you and a partner examine the interaction—not the person.</p>
+</div>
+<p>Keep this page open during the lab. Use its copy buttons for the test brief, LLM prompt, and observation notes. The <a href="day2.html">Day 2 presentation</a> supplies the room sequence; this page supplies the material you need on your own device.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The core boundary
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Use only safe, authorized text. Share only a short, redacted transcript packet that you choose. Do not share a full source document, account, chat link, full Oracle trace, or downloaded session JSON.</p>
+</div>
+</div>
+<section id="your-role-changes" class="level2">
+<h2 class="anchored" data-anchor-id="your-role-changes">Your role changes</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Stage</th>
+<th>Your role</th>
+<th>What you do</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1 · Experience</strong></td>
+<td><strong>Learner</strong></td>
+<td>Remember what receiving friction felt like.</td>
+</tr>
+<tr class="even">
+<td><strong>2 · Map</strong></td>
+<td><strong>Teacher-designer</strong></td>
+<td>Decide where pressure might support learning.</td>
+</tr>
+<tr class="odd">
+<td><strong>3 · Test</strong></td>
+<td><strong>Learner under test</strong></td>
+<td>Answer first; after each STOP, record a private judgment.</td>
+</tr>
+<tr class="even">
+<td><strong>3 · Exchange</strong></td>
+<td><strong>Peer examiner</strong></td>
+<td>Examine the questioning independently—not your partner or their project.</td>
+</tr>
+<tr class="odd">
+<td><strong>4 · Redesign</strong></td>
+<td><strong>Co-researcher</strong></td>
+<td>Compare perspectives and revise the shared framework.</td>
+</tr>
+</tbody>
+</table>
+<p>The role changes are deliberate. Do not design or grade the questions while you are answering them. “Peer examiner” means examiner of the interaction trace, not evaluator of the person or scholarship.</p>
+</section>
+<section id="core-route" class="level2">
+<h2 class="anchored" data-anchor-id="core-route">Core route</h2>
+<ol type="1">
+<li>Rank the eight assessment areas with the room.</li>
+<li>Choose <strong>one cohort-priority area from the room’s top three</strong> and <strong>one different personal or disciplinary wildcard</strong>.</li>
+<li>Choose <strong>one questioning technique for each area</strong> and name its pedagogical aim.</li>
+<li>Run <strong>one fresh five-minute chat per area</strong> on your own safe bounded excerpt.</li>
+<li>Save and redact a bounded packet containing the two short traces.</li>
+<li>Independently read your partner’s packet.</li>
+<li>Compare the owner’s experience with the peer examiner’s reading.</li>
+<li>Re-rank and revise the shared map.</li>
+</ol>
+</section>
+<section id="eight-areas-where-friction-may-matter" class="level2">
+<h2 class="anchored" data-anchor-id="eight-areas-where-friction-may-matter">Eight areas where friction may matter</h2>
+<p>An <strong>area</strong> is a part of the work worth examining. It is not a verdict that something is wrong.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Area</th>
+<th>Plain-language check</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1 · Claim + evidence</strong></td>
+<td>Does the support fit the claim?</td>
+</tr>
+<tr class="even">
+<td><strong>2 · Logic + assumptions</strong></td>
+<td>Why does one point lead to the next?</td>
+</tr>
+<tr class="odd">
+<td><strong>3 · Research method + design</strong></td>
+<td>Why this approach rather than another?</td>
+</tr>
+<tr class="even">
+<td><strong>4 · Interpretation + alternatives</strong></td>
+<td>What else could explain or frame the material?</td>
+</tr>
+<tr class="odd">
+<td><strong>5 · Concept + measure</strong></td>
+<td>Does the indicator capture the idea?</td>
+</tr>
+<tr class="even">
+<td><strong>6 · Scope + limits</strong></td>
+<td>Where does the claim stop applying?</td>
+</tr>
+<tr class="odd">
+<td><strong>7 · Perspective + position</strong></td>
+<td>Whose standpoint shapes—or is missing from—the account?</td>
+</tr>
+<tr class="even">
+<td><strong>8 · Stakes + trade-offs</strong></td>
+<td>Who or what changes, benefits, loses, or carries the cost?</td>
+</tr>
+</tbody>
+</table>
+<p>Use two questions when ranking:</p>
+<ol type="1">
+<li>How consequential is it if this reasoning is weak?</li>
+<li>How easily could polished AI output hide the weakness?</li>
+</ol>
+<p>Your first choice receives three points, your second two, and your third one. Add an area if the eight fail to hold something consequential. For the test, choose one area from the cohort top three plus one different wildcard that matters to your field, likely teaching, or material; the wildcard does not need to be in the top three.</p>
+</section>
+<section id="questioning-technique-bank" class="level2">
+<h2 class="anchored" data-anchor-id="questioning-technique-bank">Questioning-technique bank</h2>
+<p>Choose a <strong>technique</strong>, not an exact question. The quoted questions below are helper stems that show the intellectual operation. The LLM must generate a source-grounded first question and adapt every follow-up to the learner’s actual answer.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="1 · Claim + evidence">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+1 · Claim + evidence
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technique</th>
+<th>Helper stem—the LLM might begin this way</th>
+<th>Pedagogical aim</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Trace support</strong></td>
+<td>“Which exact evidence supports each part of this claim?”</td>
+<td>Make links between evidence and claim explicit, including what the evidence cannot support.</td>
+</tr>
+<tr class="even">
+<td><strong>Test sufficiency</strong></td>
+<td>“What additional evidence would you need before making this claim?”</td>
+<td>Examine adequacy, source quality, missing evidence, and uncertainty.</td>
+</tr>
+<tr class="odd">
+<td><strong>Introduce counterevidence</strong></td>
+<td>“What evidence would weaken, narrow, or change your claim?”</td>
+<td>Establish willingness and a threshold for revising the position.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="2 · Logic + assumptions">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+2 · Logic + assumptions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technique</th>
+<th>Helper stem—the LLM might begin this way</th>
+<th>Pedagogical aim</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Explain the bridge</strong></td>
+<td>“Why does this evidence lead to that conclusion?”</td>
+<td>Surface the missing inferential step rather than restating both ends.</td>
+</tr>
+<tr class="even">
+<td><strong>Surface an assumption</strong></td>
+<td>“What must be true for this reasoning to hold?”</td>
+<td>Identify hidden premises, dependencies, and conditions that can be defended or revised.</td>
+</tr>
+<tr class="odd">
+<td><strong>Test an alternative chain</strong></td>
+<td>“Could the same evidence support a different conclusion? Compare the two.”</td>
+<td>Compare competing inferences and give a reason for preferring one.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="3 · Research method + design">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+3 · Research method + design
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technique</th>
+<th>Helper stem—the LLM might begin this way</th>
+<th>Pedagogical aim</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Justify the choice</strong></td>
+<td>“Why is this method appropriate for this question?”</td>
+<td>Connect the question, evidence needed, method, and practical constraints.</td>
+</tr>
+<tr class="even">
+<td><strong>Compare an alternative</strong></td>
+<td>“What would another plausible method reveal that this one might miss?”</td>
+<td>Make a genuine comparison rather than automatically defend the original choice.</td>
+</tr>
+<tr class="odd">
+<td><strong>Trace method to claim</strong></td>
+<td>“What can this method not establish—and which claim must therefore narrow?”</td>
+<td>Turn a methodological limit into a consequential change in the claim.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="4 · Interpretation + alternatives">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+4 · Interpretation + alternatives
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technique</th>
+<th>Helper stem—the LLM might begin this way</th>
+<th>Pedagogical aim</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Generate a rival reading</strong></td>
+<td>“What is the strongest plausible alternative interpretation?”</td>
+<td>Produce an alternative that fits the material, not a token opposing view.</td>
+</tr>
+<tr class="even">
+<td><strong>Seek disconfirming material</strong></td>
+<td>“What observation or source would make you revise this interpretation?”</td>
+<td>Name revision conditions and evidence the current reading cannot absorb.</td>
+</tr>
+<tr class="odd">
+<td><strong>Restore context</strong></td>
+<td>“How might the source’s genre, context, or purpose change this reading?”</td>
+<td>Ground interpretation historically and situationally.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="5 · Concept + measure">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+5 · Concept + measure
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technique</th>
+<th>Helper stem—the LLM might begin this way</th>
+<th>Pedagogical aim</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Define what would count</strong></td>
+<td>“How would you know this concept is present in the material?”</td>
+<td>Produce observable or interpretable criteria instead of a circular definition.</td>
+</tr>
+<tr class="even">
+<td><strong>Test concept–indicator fit</strong></td>
+<td>“What does this indicator capture—and what part of the concept does it miss?”</td>
+<td>Examine validity, proxy limits, ambiguity, and mismatch.</td>
+</tr>
+<tr class="odd">
+<td><strong>Test the category boundary</strong></td>
+<td>“Why does this example count, while a nearby case would not?”</td>
+<td>Make thresholds, edge cases, and classification rules visible.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="6 · Scope + limits">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+6 · Scope + limits
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technique</th>
+<th>Helper stem—the LLM might begin this way</th>
+<th>Pedagogical aim</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Find a boundary case</strong></td>
+<td>“Where would this claim stop applying?”</td>
+<td>State conditions, populations, periods, sites, or cases.</td>
+</tr>
+<tr class="even">
+<td><strong>Test transfer</strong></td>
+<td>“Would this still hold in a different context? Why or why not?”</td>
+<td>Separate mechanisms that travel from those that depend on local conditions.</td>
+</tr>
+<tr class="odd">
+<td><strong>Audit the generalization</strong></td>
+<td>“What is the largest claim the current evidence can responsibly support?”</td>
+<td>Produce a narrower, defensible claim with stated uncertainty.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="7 · Perspective + position">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+7 · Perspective + position
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technique</th>
+<th>Helper stem—the LLM might begin this way</th>
+<th>Pedagogical aim</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Introduce a missing viewpoint</strong></td>
+<td>“Whose account could change what is visible or important here?”</td>
+<td>Identify a consequential perspective, not a decorative stakeholder list.</td>
+</tr>
+<tr class="even">
+<td><strong>Examine position</strong></td>
+<td>“How does your—or the source’s—position shape what can be known?”</td>
+<td>Examine access, authority, distance, interest, and reflexive limits.</td>
+</tr>
+<tr class="odd">
+<td><strong>Trace silence and power</strong></td>
+<td>“Who can speak in this account, and whose absence affects the conclusion?”</td>
+<td>Connect structural absence and source conditions to interpretation.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="8 · Stakes + trade-offs">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+8 · Stakes + trade-offs
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technique</th>
+<th>Helper stem—the LLM might begin this way</th>
+<th>Pedagogical aim</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Map consequences</strong></td>
+<td>“Who or what changes if this claim or proposal is acted upon?”</td>
+<td>Identify concrete effects, affected groups, material conditions, and time horizons.</td>
+</tr>
+<tr class="even">
+<td><strong>Distribute benefit and cost</strong></td>
+<td>“Who benefits, who carries the cost, and who decides?”</td>
+<td>Examine uneven distribution rather than one aggregate outcome.</td>
+</tr>
+<tr class="odd">
+<td><strong>Trace a second-order effect</strong></td>
+<td>“What could improve immediately while creating a later problem?”</td>
+<td>Surface unintended consequences, trade-offs, and delayed effects.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="follow-up-moves-the-llm-may-use" class="level3">
+<h3 class="anchored" data-anchor-id="follow-up-moves-the-llm-may-use">Follow-up moves the LLM may use</h3>
+<p>These moves help you recognize what the LLM is doing; they are not a checklist for the learner to write in advance.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Move</th>
+<th>A follow-up may ask…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Clarify a term</strong></td>
+<td>“What do you mean by ___ here?”</td>
+</tr>
+<tr class="even">
+<td><strong>Ask for the basis</strong></td>
+<td>“What in the source or evidence makes you say that?”</td>
+</tr>
+<tr class="odd">
+<td><strong>Expose an assumption</strong></td>
+<td>“What must be true for that answer to hold?”</td>
+</tr>
+<tr class="even">
+<td><strong>Compare an alternative</strong></td>
+<td>“How does that compare with ___?”</td>
+</tr>
+<tr class="odd">
+<td><strong>Test a boundary</strong></td>
+<td>“Would it still hold if ___ changed?”</td>
+</tr>
+<tr class="even">
+<td><strong>Trace a consequence</strong></td>
+<td>“If that is true, what else must change?”</td>
+</tr>
+</tbody>
+</table>
+<p>Every follow-up should use something from the learner’s last answer. Stop early when the issue is sufficiently clear or another question would only repeat pressure.</p>
+</section>
+</section>
+<section id="choose-one-safe-source" class="level2">
+<h2 class="anchored" data-anchor-id="choose-one-safe-source">Choose one safe source</h2>
+<p><strong>Core route · bounded excerpt:</strong> paste one paragraph from an abstract, introduction, method, interpretation, or design statement.</p>
+<p><strong>Equal route · supplied synthetic excerpt:</strong> copy one of the fictional examples below. No personal source is required.</p>
+<p>Use only material you own or have permission to share with that service. Remove restricted, confidential, collaborator-controlled, or identifiable information. A full-document route appears only in the clearly marked optional extension after the core cycle.</p>
+<section id="supplied-excerpt-a-hybrid-studio" class="level3">
+<h3 class="anchored" data-anchor-id="supplied-excerpt-a-hybrid-studio">Supplied excerpt A · Hybrid studio</h3>
+<blockquote class="blockquote">
+<p>Hybrid studios improve first-year students’ confidence in design critique. Tutors report that quieter students contribute more often online, and several students say the annotation tool gives them time to prepare a response. The study will use interviews and beginning- and end-of-semester confidence surveys to show that the hybrid format caused the improvement. These findings will support making hybrid critique the standard format across first-year studios.</p>
+</blockquote>
+</section>
+<section id="supplied-excerpt-b-history-and-theory" class="level3">
+<h3 class="anchored" data-anchor-id="supplied-excerpt-b-history-and-theory">Supplied excerpt B · History and theory</h3>
+<blockquote class="blockquote">
+<p>The 1960s waterfront clearance program was primarily driven by public-health reform. Three planning memoranda repeatedly describe overcrowding and sanitation, while later oral histories remember the program as necessary modernization. These sources show that health concerns, rather than land value or political control, explain clearance policy across the city.</p>
+</blockquote>
+</section>
+<section id="supplied-excerpt-c-landscape" class="level3">
+<h3 class="anchored" data-anchor-id="supplied-excerpt-c-landscape">Supplied excerpt C · Landscape</h3>
+<blockquote class="blockquote">
+<p>Pilot rain gardens reduced visible surface pooling at two housing estates during three summer storms, and nearby residents reported that the courtyards felt cooler. The project will combine site photographs and resident interviews to demonstrate that the same system should become the standard flood-response strategy in every district.</p>
+</blockquote>
+</section>
+<section id="supplied-excerpt-d-conservation" class="level3">
+<h3 class="anchored" data-anchor-id="supplied-excerpt-d-conservation">Supplied excerpt D · Conservation</h3>
+<blockquote class="blockquote">
+<p>A reversible acrylic coating should become the standard treatment for painted exterior timber. Laboratory samples retained their color after accelerated ultraviolet exposure, and four conservators preferred the treated appearance. The results show that the coating will protect historic façades in Hong Kong without meaningful long-term trade-offs.</p>
+</blockquote>
+<p>All four excerpts are fictional and deliberately contain claims that can be examined from several areas. Their presence does not prove that a gap exists.</p>
+</section>
+</section>
+<section id="build-your-two-area-test-brief" class="level2">
+<h2 class="anchored" data-anchor-id="build-your-two-area-test-brief">Build your two-area test brief</h2>
+<p>Choose one cohort-priority area from the room’s top three and one different personal or disciplinary wildcard. Choose one technique for each. Name what constructive thinking the technique should invite and the boundary beyond which it would become repetitive, leading, or misplaced. <strong>Do not write the questions you will answer.</strong></p>
+<p>Copy this into a private note if useful:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>AREA 1 · COHORT PRIORITY:</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>QUESTIONING TECHNIQUE 1:</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>PEDAGOGICAL AIM 1 — I chose this because it may help the learner…</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>BOUNDARY 1 — stop or redirect if…</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>AREA 2 · PERSONAL / DISCIPLINARY WILDCARD:</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>QUESTIONING TECHNIQUE 2:</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>PEDAGOGICAL AIM 2 — I chose this because it may help the learner…</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>BOUNDARY 2 — stop or redirect if…</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="copy-ready-llm-prompt" class="level2">
+<h2 class="anchored" data-anchor-id="copy-ready-llm-prompt">Copy-ready LLM prompt</h2>
+<p>Replace every bracketed field, then paste the whole prompt into each fresh chat. The area, technique, and aim are the designed pressure. Every actual question is model-generated output being tested.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>YOUR ROLE · LLM: Be a Socratic questioner. Generate and adapt the questions; do not rewrite, solve, grade, or give me a verdict.</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>MY ROLE · LEARNER: I will answer in my own words. Let me question, correct, or reject a false premise.</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>SOURCE: <span class="co">[</span><span class="ot">PASTE A SAFE BOUNDED EXCERPT—core route</span><span class="co">]</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>AREA 1 · COHORT PRIORITY: <span class="co">[</span><span class="ot">INSERT AREA 1</span><span class="co">]</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>TECHNIQUE 1 + PEDAGOGICAL AIM: <span class="co">[</span><span class="ot">INSERT TECHNIQUE 1 AND WHAT THINKING IT SHOULD INVITE</span><span class="co">]</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>AREA 2 · PERSONAL / DISCIPLINARY WILDCARD: <span class="co">[</span><span class="ot">INSERT AREA 2</span><span class="co">]</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>TECHNIQUE 2 + PEDAGOGICAL AIM: <span class="co">[</span><span class="ot">INSERT TECHNIQUE 2 AND WHAT THINKING IT SHOULD INVITE</span><span class="co">]</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>Treat each area as a focus for inquiry, not proof that a flaw exists.</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>Run one area per fresh chat. Wait until I type START AREA 1 or START AREA 2, then use only that area for the current run.</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>For that area:</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Read the source and use the named technique to generate one open, source-grounded question that invites the stated aim.</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Ask only that question and wait.</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>After each answer, use my actual response to generate the next Socratic question.</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Continue for up to five question–answer rounds, but stop earlier if the aim is reached or the pressure would repeat.</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>When I type STOP, give only three descriptive bullets: reasoning I stated, something still unresolved, and one exact response worth revisiting. Do not judge whether your questioning worked. Wait for my start command before asking anything.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>One exchange means one LLM question plus one learner answer. Five exchanges per run is a ceiling, not a quota. The model’s STOP recap becomes part of the trace; it is not a verdict. Owner and peer examiner evaluate the interaction independently.</p>
+</section>
+<section id="run-two-separate-five-minute-conversations" class="level2">
+<h2 class="anchored" data-anchor-id="run-two-separate-five-minute-conversations">Run two separate five-minute conversations</h2>
+<p>Pair with someone using the same LLM interface and model where possible. Each person uses the same safe bounded excerpt across two separate fresh chats. Pair members can run their own chats at the same time.</p>
+<ol type="1">
+<li>Open a fresh chat, paste the prompt, then type <strong>START AREA 1</strong>.</li>
+<li>Stop designing. Answer as a learner in your own words for up to five exchanges.</li>
+<li>At five minutes, type <strong>STOP</strong> and record a brief private owner judgment.</li>
+<li>Open a second fresh chat, paste the prompt, then type <strong>START AREA 2</strong>.</li>
+<li>Run another five minutes, type <strong>STOP</strong>, and record the second private judgment.</li>
+<li>Save only the bounded portions needed for later examination.</li>
+</ol>
+<p>Each room timer wins. You may ask for plainer wording, correct a false premise, change input mode, or stop early if the exchange becomes unsafe, irrelevant, or unproductive.</p>
+</section>
+<section id="after-each-stop-keep-a-private-owner-judgment" class="level2">
+<h2 class="anchored" data-anchor-id="after-each-stop-keep-a-private-owner-judgment">After each STOP, keep a private owner judgment</h2>
+<p>Without reopening the exchange, use ticks or brief phrases. Keep this judgment private until the peer examiner has completed an independent reading.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>PRIVATE OWNER JUDGMENT — complete after each STOP; do not share yet</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>Run: AREA 1 / AREA 2</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>One exact turn that clarified or exposed something:</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>Thinking I had to perform:</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>Where the pressure missed, overloaded, repeated, or became a barrier:</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>My first judgment — useful / partly useful / not useful / still unclear:</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>My sharing limits:</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Your reaction and experience remain yours. Do not include this judgment in the initial partner handoff.</p>
+</section>
+<section id="prepare-the-bounded-handoff" class="level2">
+<h2 class="anchored" data-anchor-id="prepare-the-bounded-handoff">Prepare the bounded handoff</h2>
+<p>Keep only:</p>
+<ol type="1">
+<li>the two selected areas and techniques;</li>
+<li>the pedagogical aim for each;</li>
+<li>two short, continuous run traces containing useful or failed pressure; and</li>
+<li>your sharing limits.</li>
+</ol>
+<p>Redact names, sites, sensitive details, and anything your partner does not need. Share the design brief and two bounded traces—not the private owner judgments, full source, account, chat link, screenshot, or complete session. The owner may use a content-free packet or the supplied excerpt instead.</p>
+</section>
+<section id="read-your-partners-trace-independently" class="level2">
+<h2 class="anchored" data-anchor-id="read-your-partners-trace-independently">Read your partner’s trace independently</h2>
+<p><strong>Current role: peer examiner of the interaction.</strong> Read both traces and record your note before discussing either owner’s private judgments, so the second perspective is genuinely independent.</p>
+<p>For each selected area, ask:</p>
+<ol type="1">
+<li>What constructive thinking was the teacher-designer trying to invite?</li>
+<li>Did the LLM’s questions enact the chosen technique?</li>
+<li>Did each follow-up use the learner’s preceding answer?</li>
+<li>What thinking did the learner perform, and what became clearer?</li>
+<li>Which exact turn supports this reading?</li>
+</ol>
+<p>Then look beyond the intended areas:</p>
+<ul>
+<li>Did another gap become visible?</li>
+<li>Did the exchange demand more thinking—or only more words?</li>
+<li>Did it reveal an assumption, limit, perspective, or trade-off?</li>
+<li>Did the pressure become generic, repetitive, misleading, or costly?</li>
+<li>Does a specific turn suggest an area missing from the eight?</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>INDEPENDENT PEER NOTE</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>Intended area + technique:</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>Intended constructive thinking:</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>Exact turn that anchors my reading:</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>What the questioning made visible:</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>Whether follow-ups used the learner's answers:</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>Unexpected area or gap, if evidence supports one:</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>Failure, burden, or false premise:</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>Question I want to ask the owner—not a verdict:</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Examine the questioning design and interaction—not the quality of the person or project. Do not retain, forward, record, or screenshot the packet.</p>
+</section>
+<section id="reveal-compare-and-debrief" class="level2">
+<h2 class="anchored" data-anchor-id="reveal-compare-and-debrief">Reveal, compare, and debrief</h2>
+<p>First, confirm that the peer examiner’s independent note is complete. Then reveal in this order:</p>
+<ol type="1">
+<li><strong>Peer examiner:</strong> summarize the independent transcript reading.</li>
+<li><strong>Owner:</strong> reveal the private judgment recorded after STOP.</li>
+</ol>
+<p>Then compare:</p>
+<ol type="1">
+<li>Where do the two readings agree?</li>
+<li>What did the peer examiner see that the owner did not?</li>
+<li>What does the owner correct, contest, or veto?</li>
+<li>Which area or questioning technique now looks more useful?</li>
+</ol>
+<p>Complete one content-free note together:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>JOINT CO-RESEARCH NOTE</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>We asked the LLM to use <span class="co">[</span><span class="ot">QUESTIONING TECHNIQUE</span><span class="co">]</span> within <span class="co">[</span><span class="ot">ASSESSMENT AREA</span><span class="co">]</span> to invite <span class="co">[</span><span class="ot">CONSTRUCTIVE THINKING</span><span class="co">]</span>.</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>It was useful / partly useful / not useful because <span class="co">[</span><span class="ot">EVIDENCE FROM A SPECIFIC TURN</span><span class="co">]</span>.</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>The owner experienced <span class="co">[</span><span class="ot">EFFECT OR COST</span><span class="co">]</span>, while the peer examiner noticed <span class="co">[</span><span class="ot">PATTERN</span><span class="co">]</span>.</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>Next time we would <span class="co">[</span><span class="ot">KEEP, CHANGE, REMOVE, OR TEST</span><span class="co">]</span> because <span class="co">[</span><span class="ot">REASON</span><span class="co">]</span>.</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>Evidence-backed missing area or gap, if any:</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Do not force agreement. Do not reveal the owner judgment before the independent peer note is complete. A failed technique is a valid result. The owner controls interpretations of their experience and research context; the second reader may retain a content-free methodological disagreement.</p>
+</section>
+<section id="re-rank-and-close-the-core-cycle" class="level2">
+<h2 class="anchored" data-anchor-id="re-rank-and-close-the-core-cycle">Re-rank and close the core cycle</h2>
+<p>Rank the eight again using the same two criteria. Ask whether an area moved because its importance changed or because it became easier—or harder—to assess. A ranking that does not move is also a result when experience now gives you a reason.</p>
+<p>Leave with:</p>
+<ul>
+<li>one area that deserves attention;</li>
+<li>one questioning technique worth keeping or revising;</li>
+<li>one transcript pattern that shaped the judgment;</li>
+<li>one difference the second reading exposed; and</li>
+<li>one thing a future workshop or teaching study should test.</li>
+</ul>
+<p>Return or delete exchanged transcript packets before leaving.</p>
+</section>
+<section id="optional-extensions-only-after-the-core-cycle" class="level2">
+<h2 class="anchored" data-anchor-id="optional-extensions-only-after-the-core-cycle">OPTIONAL extensions — only after the core cycle</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Stop here unless the facilitator explicitly opens an extension
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The core activity is two separate five-minute runs per participant, two areas, one technique per area, one independent peer reading, and one joint note. The options below are not unfinished core work. <strong>Skip without loss if time is short.</strong></p>
+</div>
+</div>
+<ol type="1">
+<li><strong>Second-technique comparison:</strong> keep the same source and area, start a fresh chat, and test a different technique. Compare interaction patterns without claiming a controlled experiment.</li>
+<li><strong>Ninth-area test:</strong> test one evidence-backed area the cohort believes the eight missed.</li>
+<li><strong>Interface exploration:</strong> repeat a bounded test in another model or interface and record the changed condition explicitly. Do not attribute a difference to the model alone.</li>
+<li><strong>Teaching-study sketch:</strong> decide what additional evidence would be needed to examine work quality, retention, transfer, access, and burden with actual learners.</li>
+</ol>
+<section id="optional-service-authorized-full-document-context" class="level3">
+<h3 class="anchored" data-anchor-id="optional-service-authorized-full-document-context">OPTIONAL · Service-authorized full-document context</h3>
+<p>Use a full document only when <strong>all three</strong> conditions hold:</p>
+<ol type="1">
+<li><strong>Service authorization:</strong> the interface supports files and the relevant institutional setting permits this use.</li>
+<li><strong>Material status:</strong> the file is public, workshop-supplied, or a fully sanitized copy you are authorized to share.</li>
+<li><strong>Scope:</strong> you still identify one exact passage and keep it fixed across the two runs.</li>
+</ol>
+<p>Acceptance by an interface does not establish institutional authorization, privacy, or collaborator permission. If any condition is uncertain, return to the bounded excerpt or supplied material. Nothing is lost.</p>
+<p>Do not maximize friction. Co-design where it belongs, observe what it does, and revise the technique from more than one perspective.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/clementinec\.github\.io\/ccgl9065\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>CCGL9065 · Our Response to Climate Change</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Common Core · The University of Hong Kong</p>
+</div>
+  </div>
+</footer>
+<!-- Cloudflare Web Analytics --><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;57d0bc1c02d541369839e257e1819f73&quot;}"></script><!-- End Cloudflare Web Analytics -->
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

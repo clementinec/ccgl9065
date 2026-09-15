@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,9 +104,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="assets/fashion/lecture.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed student-guide">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -133,7 +168,12 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#step-1-duplicate-the-template" id="toc-step-1-duplicate-the-template" class="nav-link active" data-scroll-target="#step-1-duplicate-the-template">Step 1: Duplicate the Template</a></li>
-  <li><a href="#step-2-make-it-yours" id="toc-step-2-make-it-yours" class="nav-link" data-scroll-target="#step-2-make-it-yours">Step 2: Make It Yours</a></li>
+  <li><a href="#step-2-make-it-yours" id="toc-step-2-make-it-yours" class="nav-link" data-scroll-target="#step-2-make-it-yours">Step 2: Make It Yours</a>
+  <ul class="collapse">
+  <li><a href="#page-structure" id="toc-page-structure" class="nav-link" data-scroll-target="#page-structure">What the page should contain</a></li>
+  <li><a href="#fashion-example" id="toc-fashion-example" class="nav-link" data-scroll-target="#fashion-example">A complete fashion-week example</a></li>
+  <li><a href="#weekly-outline" id="toc-weekly-outline" class="nav-link" data-scroll-target="#weekly-outline">Copyable weekly outline</a></li>
+  </ul></li>
   <li><a href="#step-3-publish-your-page" id="toc-step-3-publish-your-page" class="nav-link" data-scroll-target="#step-3-publish-your-page">Step 3: Publish Your Page</a></li>
   <li><a href="#step-4-share-in-slack" id="toc-step-4-share-in-slack" class="nav-link" data-scroll-target="#step-4-share-in-slack">Step 4: Share in Slack</a></li>
   <li><a href="#quick-checklist" id="toc-quick-checklist" class="nav-link" data-scroll-target="#quick-checklist">Quick Checklist</a></li>
@@ -147,6 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Notion Setup Guide</h1>
+<p class="subtitle lead">Set up your portfolio and build a useful weekly entry</p>
 </div>
 
 
@@ -163,7 +204,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Your Notion portfolio is where you document your weekly research and reflections throughout the semester. Follow these steps to get started.</p>
+<p>Your Notion portfolio holds your weekly research, pitches and reflections. Keep one personal portfolio, with one clearly labelled entry for each week. Develop that same entry before, during and after class: the cleaned-up page becomes your weekly Notion submission. Slack is where you share the strongest part and link classmates to the full entry; the work itself happens in Notion.</p>
+<p><strong>Already set up?</strong> Jump to <a href="#page-structure">the page structure</a>, <a href="#fashion-example">a complete fashion example</a>, or <a href="#weekly-outline">the copyable weekly outline</a>.</p>
 <hr>
 <section id="step-1-duplicate-the-template" class="level2">
 <h2 class="anchored" data-anchor-id="step-1-duplicate-the-template">Step 1: Duplicate the Template</h2>
@@ -184,7 +226,128 @@ ul.task-list li input[type="checkbox"] {
 <li>Add your weekly entries following the format in the template</li>
 <li>Keep everything organized by week</li>
 </ul>
+<section id="page-structure" class="level3">
+<h3 class="anchored" data-anchor-id="page-structure">What the page should contain</h3>
+<p>Keep the template you have already reused. Use weekly subpages or sections within your portfolio; either works if a reader can easily find each week. Add space for your assigned role and both kinds of reflection, rather than starting a new page at each stage.</p>
+<section id="one-weekly-entry-developed-over-time" class="level4">
+<h4 class="anchored" data-anchor-id="one-weekly-entry-developed-over-time">One weekly entry, developed over time</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>When</th>
+<th>What changes in the same Notion entry</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Before class, including tutorial</strong></td>
+<td>Prepare your <strong>Fact, Story</strong> and relevant background research. Your <strong>draft Spectacle</strong> is what you consider a strong pitch for your prepared stance, <strong>before you know your vocational role</strong>. Record your <strong>Pro-Climate or Pro-Development starting angle</strong> if already chosen.</td>
+</tr>
+<tr class="even">
+<td><strong>During class</strong></td>
+<td>Receive a <strong>randomly assigned vocational role</strong>. Use it to <strong>test and further refine your existing spectacle</strong>: what is missing, would this sector care, and what would make the pitch matter to it? As other groups present, type reflections both <strong>in role</strong> and <strong>as yourself</strong>.</td>
+</tr>
+<tr class="odd">
+<td><strong>After class</strong></td>
+<td>Add your <strong>final takeaway</strong>, tidy the argument and both reflections, and check your sources and clarity. This cleaned-up version is your <strong>weekly Notion submission</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p>Your starting angle, assigned vocation and personal view are different things. You do not need to know your vocational role before class, and playing a role does not mean personally agreeing with it. Tutorial work belongs to the preparation stage and develops this same entry, not a separate deliverable. Follow the submission timing announced by the teaching team.</p>
+<p>The spectacle is already a pitch for your stance, not just background notes waiting for a role. The vocational perspective gives you new questions to test that pitch against. Refine it in response to what you discover; you do not automatically need to discard it or start again.</p>
+<p>This is an example structure, not a required visual design:</p>
+<div class="fashion-notion">
+  <div class="fashion-notion-nav"><strong>Alex · CCGL9065</strong><span>Week 01 · AI</span><span>Week 02 · Food</span><span class="selected">Week 03 · Fashion</span><span>Later weeks…</span></div>
+  <div class="fashion-notion-page">
+    <div class="fashion-notion-title">Week 03 · Consumption &amp; fashion</div>
+    <p>Starting angle (if chosen) · Vocational role (assigned in class)</p>
+    <div class="fashion-notion-row"><b>Fact</b><span>Before + tutorial · A specific claim, its source and scope.</span></div>
+    <div class="fashion-notion-row"><b>Story</b><span>Before + tutorial · A real case with sourced background research.</span></div>
+    <div class="fashion-notion-row"><b>Spectacle</b><span>Strong pitch for my stance → tested and refined through my new role.</span></div>
+    <div class="fashion-notion-row"><b>In role</b><span>During · What do other presentations mean for our sector?</span></div>
+    <div class="fashion-notion-row"><b>As myself</b><span>During · What do I find convincing, challenging or uncertain?</span></div>
+    <div class="fashion-notion-row"><b>Takeaway</b><span>After · My conclusion, cleaned-up writing and checked sources.</span></div>
+  </div>
+</div>
+<p>Target <strong>300–500 words for the whole final weekly entry</strong>; maximum <strong>750 words</strong>. This is not a separate word allowance for each stage or reflection. Your spectacle should usually be <strong>1–2 sentences</strong>, with a maximum of <strong>3</strong>. These are the existing <a href="./evaluation.html">assessment guidelines</a>, not extra submissions. Develop the existing draft; you do not need to keep every version, but make clear how the discussion affected your thinking.</p>
+<p>Start both reflections <strong>while listening to other groups</strong>, then tidy them after class. <strong>In role:</strong> how does what you heard challenge or strengthen your sector’s argument, interests or responsibilities? <strong>As myself:</strong> what do you personally find persuasive, troubling or unresolved? These responses can differ. Explain the reasoning rather than just saying the lecture was interesting. Keep source links beside the claims they support, and caption and credit any figures or videos.</p>
+</section>
+</section>
+<section id="fashion-example" class="level3">
+<h3 class="anchored" data-anchor-id="fashion-example">A complete fashion-week example</h3>
+<p>The example below shows one entry developed across the three stages. The project and process are real and linked; the starting angle, role assignment, classroom exchange, arguments and reflections are illustrative. Write about the evidence you have actually checked and the discussion you actually heard.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Week 03 · Does recycling jeans close the clothing loop?">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Week 03 · Does recycling jeans close the clothing loop?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Before class + tutorial — starting angle: PRO-CLIMATE</strong></p>
+<p><strong>Question.</strong> What happens after we hand over old jeans?</p>
+<p><strong>Fact.</strong> Blue Jeans Go Green describes turning collected denim into insulating material for buildings, packaging and pet beds. Its collection guidance asks for at least 90% cotton. This shows that “recycling clothes” can produce something other than clothes, and that fibre mix affects what a programme accepts. It does not establish the carbon saving from recycling my own pair. (<a href="https://bluejeansgogreen.org/faq/">Programme FAQ</a>)</p>
+<p><strong>Story.</strong> Abercrombie reports that, since 2014, its home office has collected unwearable denim and scraps for this programme. This is a real organisation arranging another use for material that cannot be worn. The company account supports its stated collection practice; it is not independent evidence of the programme’s overall environmental benefit. (<a href="https://corporate.abercrombie.com/sustainability/environmental-impact/blue-jeans-go-green-and-martex-fibers/">Company account</a>)</p>
+<p><strong>Spectacle draft — my pitch for this stance.</strong> “Give worn-out jeans another useful life—turn waste into warmth.”</p>
+<p><strong>During class — randomly assigned vocational role: Policy-Makers</strong></p>
+<p><strong>Testing my pitch through the new role.</strong> Would policy-makers care about this draft? It offers a useful next life for denim, but leaves out how a scheme would be funded and checked. That is a gap I need to address from this vocational perspective.</p>
+<p><strong>Refined spectacle.</strong> “Turn waste into warmth—but show where the denim goes and who pays for its next life.”</p>
+<p><strong>In-role reflection.</strong> The transport group’s question about collection costs challenges our proposal. From our policy-making perspective, a collection target alone is insufficient: we would need to explain who funds sorting and transport, and how the destination is checked. We should consider whether reporting demands would be manageable for smaller operators, rather than assuming that a rule automatically produces a benefit.</p>
+<p><strong>As-myself reflection.</strong> I came in favouring recycling because I dislike waste. The discussion made me question whether an easy collection option might also encourage me to buy more. I am not claiming that it does; I would need evidence about purchasing behaviour. Personally, I now want to ask whether repair or continued wear is possible before concentrating on the next use for the fibres.</p>
+<p><strong>After class — final takeaway</strong></p>
+<p>I still support keeping materials useful, but a collection label is not enough to judge the outcome. My next check would compare continued wear, repair and recycling, including processing, the next product’s life and what it replaces. I have tidied my notes into these two reflections and kept the uncertainties visible.</p>
+</div>
+</div>
+<p>Notice how the spectacle is <strong>already a pitch for the prepared stance</strong>. The random vocational role then exposes a gap and helps the writer refine that same pitch. The presentations prompt two different reflections, and the final takeaway draws these together without erasing the difference between the assigned role and the writer’s own view. A sourced project can supply the human context; you do not need to invent a person’s experience to make a point.</p>
+</section>
+<section id="weekly-outline" class="level3">
+<h3 class="anchored" data-anchor-id="weekly-outline">Copyable weekly outline</h3>
+<p>Use these prompts within your existing template, or <a href="data/weekly_research_template.md">download the Markdown outline</a> and paste it into Notion. The stage labels show when to develop each part; everything stays in the same weekly entry.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Week [number] · [topic]</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Starting angle, if already chosen: PRO-CLIMATE / PRO-DEVELOPMENT</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Vocational role: <span class="co">[</span><span class="ot">Fill in after the random assignment in class.</span><span class="co">]</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>Date:</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>My question:</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## Fact — before class + tutorial</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">One specific claim. Link its source and state its date, scope or conditions.</span><span class="co">]</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## Story — before class + tutorial</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">A real person, community, event or project. What happened? Source link.</span><span class="co">]</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## Spectacle — pitch before class; test and refine in class</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Before knowing your role, write a strong pitch for your prepared stance.</span><span class="co">]</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Connect your fact, story and human stakes.</span><span class="co">]</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">After assignment, ask: What is missing? Would this sector care about my pitch?</span><span class="co">]</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Use that vocational perspective to refine the existing spectacle.</span><span class="co">]</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Aim for 1–2 sentences; maximum 3.</span><span class="co">]</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reflections — type while other groups present</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">### In role</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">How does what I heard challenge or strengthen our sector's argument?</span><span class="co">]</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">How would I respond from the assigned role?</span><span class="co">]</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">### As myself</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">What do I personally find convincing, challenging or uncertain?</span><span class="co">]</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">How does this relate to or change my own thinking?</span><span class="co">]</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">## Final takeaway — after class</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">What do I take away from the research, role-play and discussion?</span><span class="co">]</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">What would I check next?</span><span class="co">]</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Tidy the whole entry, check sources, and submit this same page.</span><span class="co">]</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="fu">## Sources / media</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Keep links beside the claims they support.</span><span class="co">]</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">For an optional figure/video: caption, creator, link and what it shows.</span><span class="co">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>A figure or short video can help your explanation. Add a caption explaining <strong>why it is evidence</strong>, credit its creator, and link the original. Distinguish a diagram you drew or a hypothetical illustration from measured data.</p>
 <hr>
+</section>
 </section>
 <section id="step-3-publish-your-page" class="level2">
 <h2 class="anchored" data-anchor-id="step-3-publish-your-page">Step 3: Publish Your Page</h2>
@@ -197,15 +360,19 @@ ul.task-list li input[type="checkbox"] {
 <li>Copy the public URL</li>
 </ol>
 <p><strong>Need more details?</strong> See <a href="https://www.notion.com/help/public-pages-and-web-publishing">Notion’s publishing guide</a>.</p>
+<p>Open the <strong>specific weekly entry</strong> using its published link in a private/incognito window. Check that its text, sources and any embedded media can be read without requesting access. Publishing a parent page can also publish its subpages; keep the portfolio limited to material intended for class sharing.</p>
 <hr>
 </section>
 <section id="step-4-share-in-slack" class="level2">
 <h2 class="anchored" data-anchor-id="step-4-share-in-slack">Step 4: Share in Slack</h2>
-<p>When posting to the weekly Slack channel:</p>
+<p>All the preparation, role-play development and reflection above happens in Notion. When sharing in the weekly Slack channel:</p>
 <ol type="1">
 <li>Include your Spectacle (Fact + Story + Stakes)</li>
-<li>Add the link to your Notion page at the end: <code>🔗 Full research: [your-notion-url]</code></li>
+<li>Use your position tag, one fact, one real story and your spectacle</li>
+<li>Add the link to the <strong>weekly entry</strong> at the end: <code>🔗 Full research: [your-weekly-entry-url]</code></li>
 </ol>
+<p>Target <strong>100–150 words</strong> for the Slack post; maximum <strong>200</strong>. See the <a href="./slack_post_template.html">Slack post template</a>. Use the weekly battlefield channel announced for your class.</p>
+<p>Link to the same entry as it develops; Slack does not replace the weekly Notion submission. Follow the sharing and submission timing announced by the teaching team.</p>
 <hr>
 </section>
 <section id="quick-checklist" class="level2">
@@ -213,8 +380,16 @@ ul.task-list li input[type="checkbox"] {
 <ul class="task-list">
 <li><label><input type="checkbox">Duplicated template to my workspace</label></li>
 <li><label><input type="checkbox">Renamed with my name</label></li>
+<li><label><input type="checkbox">Kept one clearly labelled weekly entry in my reused template</label></li>
+<li><label><input type="checkbox">Recorded my starting angle if I had already chosen one</label></li>
+<li><label><input type="checkbox">Prepared a sourced Fact, Story and a strong draft pitch for my stance before class, including tutorial work</label></li>
+<li><label><input type="checkbox">Recorded my random vocational role, tested what the pitch misses and whether that sector would care, and refined it</label></li>
+<li><label><input type="checkbox">Added both in-role and personal reflections while listening to other presentations</label></li>
+<li><label><input type="checkbox">Added a final takeaway and cleaned up the same entry after class</label></li>
+<li><label><input type="checkbox">Captioned and credited any figures or videos</label></li>
+<li><label><input type="checkbox">Checked the word limits</label></li>
 <li><label><input type="checkbox">Published the page</label></li>
-<li><label><input type="checkbox">Copied my public URL</label></li>
+<li><label><input type="checkbox">Tested the weekly entry’s published URL in a private window</label></li>
 <li><label><input type="checkbox">Ready to post to Slack</label></li>
 </ul>
 <hr>
@@ -223,7 +398,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
 <p><strong>“I don’t have a Notion account”</strong> → Sign up free at <a href="https://www.notion.so">notion.so</a> using your HKU email.</p>
 <p><strong>“I can’t see the Duplicate button”</strong> → Make sure you’re logged into Notion first.</p>
-<p><strong>“My link says ‘Private page’”</strong> → You need to publish it (Step 3). Just sharing isn’t enough.</p>
+<p><strong>“My link says ‘Private page’”</strong> → Check that the weekly entry is published and copy its published URL (Step 3), rather than the URL used to edit it.</p>
+<p><strong>“My Notion page is just lecture notes”</strong> → Use your prepared evidence to make a strong pitch for your stance. Then test and refine that pitch through your assigned vocational role, and add both in-role and personal reflections on the presentations. After class, draw out your final takeaway and tidy the same entry.</p>
+<p><strong>“Does my page need a fancy design?”</strong> → Clear headings, readable writing and working source links are enough. A helpful figure earns its place by explaining something.</p>
 <p><strong>“I made changes but they’re not showing”</strong> → Changes auto-sync. Hard refresh (Ctrl+Shift+R) if needed.</p>
 
 

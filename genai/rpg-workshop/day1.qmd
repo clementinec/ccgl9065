@@ -733,19 +733,19 @@ The point is to separate the thinking demanded by the question from difficulty c
 
 <div class="capture-grid">
 <div class="capture-action"><span>01</span><b>Save privately</b><p>Download the full record. Do not send it to anyone.</p></div>
-<div class="capture-action"><span>02</span><b>Choose</b><p>Pick one short, continuous exchange about one issue.</p></div>
+<div class="capture-action"><span>02</span><b>Choose</b><p>Pick one short exchange to help you remember the experience.</p></div>
 <div class="capture-action"><span>03</span><b>Remove details</b><p>Delete names, filenames, sensitive context, and restricted content.</p></div>
 <div class="capture-action"><span>04</span><b>Mark one moment</b><p>Underline where the question made you explain, change, resist, or stop.</p></div>
 </div>
 
-<div class="do-not-upload">MAY BE SHARED TOMORROW: THE SHORT REDACTED EPISODE, ONLY IF YOU CHOOSE · KEEP PRIVATE: FULL JSON, FULL TRACE, AND YOUR REFLECTION</div>
+<div class="do-not-upload">BRING FOR PRIVATE RECALL ONLY · KEEP PRIVATE: THE EPISODE, FULL JSON, FULL TRACE, AND YOUR REFLECTION</div>
 
 ::: {.notes}
 Ask participants to download before navigating away. Download Copy works during a session; ending a session also downloads its JSON record.
 
 The JSON can contain document metadata, paper context, the captured voice transcript, whether it was edited, and the dialogue. It is not the Day 2 exchange artifact and must not be sent to a peer or facilitator.
 
-Participants keep the full trace and private reflection. For Day 2 they make a separate, short, already-redacted episode and may still choose not to share it. A supplied or paired fallback episode meets the same requirement. Day 2 will introduce the C/R/X/M/★ codes; participants do not need to learn them today.
+Participants keep the full trace, short episode, and reflection private. Day 2 begins by recalling the experience, then creates a new bounded LLM transcript for the peer-reading activity. Anyone without an Oracle episode participates fully through the supplied route.
 :::
 
 ---
@@ -768,7 +768,7 @@ Participants keep the full trace and private reflection. For Day 2 they make a s
 ::: {.notes}
 Invite a small sample of exit reflections, then close with the final line.
 
-Preview Day 2 in plain language: participants will start with their private note, share only a short redacted episode if they choose, study the exchange rather than judge the person, decide what kind of difficulty helped or failed, and test one small teaching move.
+Preview Day 2 in plain language: participants will start with their private note, map where friction might belong, generate a new bounded LLM exchange, let a partner examine that interaction independently, and compare what each perspective reveals.
 
 Final line: “The Oracle can generate resistance. It cannot carry pedagogical responsibility. That remains ours.”
 :::

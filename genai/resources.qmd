@@ -48,7 +48,7 @@ toc: true
 
 ## RPg Workshop Reading
 
-The separate **Teaching Through Designed Friction** workshop assigns four research papers plus two required methodological companions. See the [required readings and between-session preparation](rpg-workshop/#required-reading-before-day-1). This list is distinct from the original three-class module's prereading.
+The separate **Teaching Through Designed Friction** workshop requires Lee et al. and Kosmyna et al.; the methodological comment paired with Kosmyna is part of that required bundle. Fernandes et al. and Becker et al./METR are recommended extensions, with the METR 2026 update attached. See the [required and recommended readings and between-session preparation](rpg-workshop/#required-and-recommended-reading-before-day-1). This list is distinct from the original three-class module's prereading.
 
 ## Academic Integrity
 

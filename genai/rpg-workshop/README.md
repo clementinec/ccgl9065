@@ -16,9 +16,11 @@ These details have not been independently verified against an official organizer
 | File | Purpose | Output |
 |---|---|---|
 | `day1.qmd` | Incident analysis and Oracle encounter deck | `day1.html` |
-| `day2.qmd` | Trace analysis, friction design, and micro-test deck | `day2.html` |
-| `workshop.css` | Shared 1600×900 RevealJS layout system and Day 2 visual base | embedded in each deck |
+| `day2.qmd` | Reasoning-area atlas and paired adaptive Socratic lab | `day2.html` |
+| `day2-lab.qmd` | Copy-ready Day 2 technique menus, supplied paragraph, prompt, and two-run protocol | `day2-lab.html` |
+| `workshop.css` | Day 1 component/layout system retained for its existing diagrams | embedded in Day 1 only |
 | `day1-quarto.css` | Day 1 white, Quarto-first visual reset | embedded after `workshop.css` in Day 1 |
+| `day2-readable.css` | Standalone large-type, plain-white presentation layer for Day 2 | embedded in Day 2 only |
 | `index.qmd` | Participant-facing landing page and route map | `index.html` |
 | `workbook.qmd` | Printable/HTML participant artifact chain | `workbook.html` |
 | `facilitator.qmd` | Setup, scripts, run sheets, adaptations, and contingencies | `facilitator.html` |
@@ -33,15 +35,15 @@ These details have not been independently verified against an official organizer
 All participant-facing materials should preserve one chain:
 
 1. a bounded, privacy-safe AI incident;
-2. a continuous Oracle or peer-Oracle episode following one machine-selected issue;
-3. coding for confirmed / reframed / challenged / misread / meaningful moments;
-4. a short Day 2 partner reading with owner correction/veto and one careful content-free note;
-5. an owner-approved New-area card mapping what the prepared questions missed—or evidence-based “nothing new here”;
-6. a content-free room map;
-7. a distinction between meaningful, failed, and misdirected friction;
-8. an expert-to-novice transfer problem;
-9. a teaching-pressure sequence with target thinking, shortcut, prompt, evidence, access route, and clear end point; and
-10. a revision justified by micro-test evidence.
+2. a sustained Oracle or peer-Oracle encounter following one machine-selected issue;
+3. a **private** account of the issue, pressure, participant reasoning move, and result—the Day 1 trace is never the exchange artifact;
+4. a common map and ranking of eight assessment areas, with space for an area the framework missed;
+5. a two-area brief: one cohort-priority area and one different personal or disciplinary wildcard;
+6. one questioning technique and pedagogical aim for each area, with the LLM responsible for generating and adapting the actual questions;
+7. two separate five-minute fresh-chat runs using the same safe source, with up to five question–answer exchanges per area and descriptive **STOP** recaps—reasoning stated, something unresolved, and one exact response worth revisiting;
+8. a private owner judgment recorded after each run and withheld while a partner independently reads the new bounded Day 2 transcripts;
+9. a co-research comparison that preserves agreement, difference, correction, and veto; and
+10. a revised area ranking, one informative failure, one next test, and a teaching translation with visible reasoning, access/agency, and a clear release point.
 
 The supplied fallback episode is consistent across the companion materials: a fictional education/design proposal claiming that hybrid studios improve first-year students' confidence in design critique. Its pre/post survey design cannot isolate the format from time, practice, or familiarity. The defensible reframe is reported change within the cohort, a descriptive role for participation counts, and an explicit attribution limit. The synthetic trace begins with an Oracle opening, follows the same issue through researcher responses, includes a correctable misread, and ends with a question-free closure.
 
@@ -61,19 +63,22 @@ On 11 August 2026 the live `/health` response reported `browser_whisper` speech 
 
 Ending a session downloads JSON locally. That export can include the full dialogue, document metadata, bounded paper context, a document manifest, and Oracle state/diagnostics. It does not contain the complete browser-local chunk corpus or raw audio. The workshop never exchanges or collects this JSON.
 
-## Day 2 short-episode contract
+## Day 2 paired-lab contract
 
-Day 2 is an evidence exchange with the trace owner retaining authority—not peer review of the proposal:
+Day 2 is an evidence exchange about the questioning interaction—not peer review of the proposal:
 
-1. owner privately reflects on meaningful, failed, and misdirected friction;
-2. owner selects view, content-free description, supplied trace, or solo route;
-3. partner follows what changed, uses the prepared questions with C/R/X/M/★ marks, then sets those labels aside;
-4. owner corrects context and may veto any interpretation or further use;
-5. owner and partner make one evidence-anchored New-area card as extending, connecting, or sitting outside the prepared questions—or record “nothing new here”;
-6. owner and partner write one careful, content-free note and may preserve disagreement; and
-7. the room receives only an approved abstract area, definition, relation to the prepared questions, observable sign, and limit or counterexample.
+1. each person privately recalls the Day 1 receiving experience or uses the supplied reflection route; no Day 1 trace is exchanged;
+2. the cohort ranks eight assessment areas;
+3. each person selects one cohort-priority area and one different personal or disciplinary wildcard;
+4. each person chooses one questioning technique and pedagogical aim per area;
+5. each person selects one public, sanitized, disposable, abstracted, or supplied excerpt and uses the [copy-ready lab page](day2-lab.qmd);
+6. the LLM generates one source-grounded question at a time and adapts follow-ups to the learner's preceding answer;
+7. each person completes two separate five-minute runs, with up to five exchanges per area and a descriptive **STOP** recap that does not judge effectiveness;
+8. the owner records a private first judgment and withholds it;
+9. the partner independently reads only the new bounded, redacted Day 2 transcript plus its area, technique, and aim; and
+10. the pair reveals both readings, compares as co-researchers, re-ranks, and identifies one useful technique, one informative failure, and one next test.
 
-No screenshots, copies, links, forwarding, recording, retention of another person's material, or reporting of research detail are permitted. The source remains on the owner's device or paper. Supplied and solo routes are equal and can contribute to the room map. Passing and evidence-based “nothing new here” are valid.
+The Day 1 trace, full source, full chat, account link, and private owner judgment do not travel with the handoff. A partner reads a bounded excerpt on the owner's device or a temporary local/printed copy that is returned or deleted before leaving. Supplied, oral/offline, and solo routes are equal. Passing is valid. Consent to discuss is not consent to keep or use the material for research.
 
 ## Participant reading source of truth
 
@@ -100,6 +105,7 @@ From the repository root:
 ```bash
 quarto render genai/rpg-workshop/day1.qmd
 quarto render genai/rpg-workshop/day2.qmd
+quarto render genai/rpg-workshop/day2-lab.qmd
 quarto render genai/rpg-workshop/index.qmd
 quarto render genai/rpg-workshop/workbook.qmd
 quarto render genai/rpg-workshop/facilitator.qmd
@@ -126,7 +132,7 @@ The repository's project-level post-render hook uses Node to filter sitemap entr
 Check source presence:
 
 ```bash
-for file in day1.qmd day2.qmd index.qmd workbook.qmd facilitator.qmd sample-case.qmd sample-transcript.qmd workshop.css day1-quarto.css site.css README.md assets/supplied-hybrid-studio-case.pdf; do
+for file in day1.qmd day2.qmd day2-lab.qmd index.qmd workbook.qmd facilitator.qmd sample-case.qmd sample-transcript.qmd workshop.css day1-quarto.css day2-readable.css site.css README.md assets/supplied-hybrid-studio-case.pdf; do
   test -f "genai/rpg-workshop/$file" || exit 1
 done
 ```
@@ -134,7 +140,7 @@ done
 Check expected build outputs after rendering:
 
 ```bash
-for file in day1.html day2.html index.html workbook.html facilitator.html sample-case.html sample-transcript.html; do
+for file in day1.html day2.html day2-lab.html index.html workbook.html facilitator.html sample-case.html sample-transcript.html; do
   test -f "_site/genai/rpg-workshop/$file" || exit 1
 done
 ```
@@ -157,10 +163,10 @@ Then review `http://localhost:8000/genai/rpg-workshop/`.
 
 Review both decks at a 1600×900 viewport and at the actual room's projector resolution. At minimum, check:
 
-- no clipped content, especially workbenches, transcript sheets, the Day 2 timetable, worked examples, and teaching-pressure card;
+- no clipped content, especially the Day 2 timetable, role map, eight-area map, technique menus, two-run instructions, and independent-reading prompts;
 - slide numbers and controls remain legible without obscuring content;
 - white slides preserve contrast for muted text and restrained accent colors;
-- C/R/X/M/★ meanings remain readable without color;
+- assessment area, questioning technique, pedagogical aim, generated question, learner response, and transcript-evidence labels remain readable without color;
 - all participant instructions can be followed from text alone;
 - keyboard navigation, focus indication, 200% browser zoom, and reduced-motion preference;
 - A4 print preview for workbook, facilitator guide, case, and transcript; and
@@ -171,16 +177,18 @@ The Reveal decks use `embed-resources: true`, so their HTML files will be compar
 
 ## Visual system
 
-`workshop.css` supplies the shared layout geometry and component fallbacks:
+Day 1 retains `workshop.css` for its existing diagrams and component geometry:
 
 - orange-red for active structure and questions;
 - pale gray for working surfaces and secondary guidance;
 - green for privacy and access safeguards; and
 - blue and purple for evidence and interpretation where a distinction helps.
 
-Day 1 loads `day1-quarto.css`, which resets the shared treatment to the built-in Reveal `simple` theme: white canvas, near-black text, restrained orange emphasis, pale warnings, and thin gray rules. Day 2 uses the same base plus `day2-quarto.css` for its timetable, pressure-placement map, plain sequence, and worked examples. Both decks are white, vertically centered, and use the shared geometry without saturated poster-like surfaces.
+Day 1 then loads `day1-quarto.css`, which resets that treatment to the built-in Reveal `simple` theme: white canvas, near-black text, restrained orange emphasis, pale warnings, and thin gray rules.
 
-The system is intentionally flat and diagrammatic rather than card-driven: rules, axes, search fields, transcript annotation surfaces, tally boards, workbenches, and design canvases. Inline SVG is used where a diagram materially improves understanding. No external raster asset is required.
+Day 2 deliberately does **not** load `workshop.css` or the earlier `day2-quarto.css`. It uses only the built-in Reveal `simple` theme plus `day2-readable.css`: a white canvas, large Arial/Helvetica type, black text, restrained orange rules, and simple gray working grids. Content must be split across slides when it cannot fit at a readable size; it must not be shrunk to preserve a decorative layout.
+
+The system is intentionally flat and diagrammatic rather than card-driven: rules, axes, search fields, transcript annotation surfaces, tally boards, workbenches, and design canvases. Inline SVG is used where a diagram materially improves understanding. Day 1 also embeds local visual and QR-code assets into its standalone HTML.
 
 `site.css` governs the normal HTML companions and includes A4 print rules. It does not store workbook input; participants should print, annotate a local copy, or keep notes in an authorized local system.
 
@@ -191,7 +199,7 @@ The system is intentionally flat and diagrammatic rather than card-driven: rules
 - Treat “file remains in browser” and “no remote model processing” as different claims.
 - Uncheck optional research sharing before Start and verify that it remains off throughout the workshop; it was selected by default during authoring. Any research contribution requires a separate, authorized, informed process outside class participation.
 - Do not collect transcripts, downloaded JSON, research files, or participant artifacts by default.
-- For Day 2, circulate only an owner-selected, already-redacted bounded episode or a content-free description; prohibit screenshots, copying, forwarding, recording, and retention. The owner may correct or veto an interpretation.
+- For Day 2, keep the Day 1 Oracle trace and owner reflection private. Exchange only a newly created, bounded, redacted Day 2 transcript plus its area, technique, and aim; withhold the owner's first judgment until the partner reads independently. Use the owner's device or a temporary local/printed copy that is returned or deleted. Prohibit screenshots, account links, forwarding, recording, and retention.
 - Preserve supplied-case, observation, non-text, solo, and offline peer-Oracle routes as equivalent ways to meet the learning outcomes and contribute to the content-free room map.
 - Recheck the live Oracle's disclosure, availability, and sharing behavior immediately before delivery.
 
@@ -199,10 +207,10 @@ The system is intentionally flat and diagrammatic rather than card-driven: rules
 
 1. **Schedule:** dates and times are provisional until matched to an official organizer notice.
 2. **Room and cohort:** no confirmed room, cohort size, device provision, Wi-Fi arrangement, or accommodation list is encoded here.
-3. **Live service:** on 11 August 2026, the health endpoint reported the tutor available, browser-local Whisper voice input, and research collection available with its default set to `true`. The deployed interface displays Oracle questions as text; participants speak or type responses, review voice transcripts before Send, and receive sustained follow-ups on one active issue. The landing disclosure said an enabled research copy contains the transcript, session details, and bounded paper context; the client sends bounded coverage for the opening and retrieved passages plus recent conversation for follow-ups. The workshop therefore instructs participants to switch sharing off before Start. Provider retention and institutional authorisation remain unverified, and every point must be checked again on the delivery day.
-4. **Build inclusion:** the root render list now covers the nested QMD sources, and a 46-input full-project render succeeded locally with Quarto 1.5.56.
-5. **Deployment:** local generated HTML is built, linked, and visually inspected. Publishing and checking the deployed URLs remain separate steps.
-6. **Print:** Chrome A4 previews were inspected for the workbook, facilitator guide, fictional case, and sample transcript. The actual delivery browser and printer still require a short check.
+3. **Live service:** on 28 August 2026, the health endpoint reported the tutor available, browser-local Whisper voice input, and research collection available with its default set to `true`. The deployed interface displays Oracle questions as text; participants speak or type responses, review voice transcripts before Send, and receive sustained follow-ups on one active issue. The workshop therefore instructs participants to switch sharing off before Start. Provider retention, institutional authorization, and the visible disclosure still require delivery-day verification.
+4. **Build inclusion:** the root render list covers the nested QMD sources. A prior full-project render succeeded with Quarto 1.5.56, but the synchronized Day 2 package requires a fresh full render before publication.
+5. **Deployment:** publishing and checking the deployed URLs remain separate steps after the synchronized build.
+6. **Print:** the rewritten workbook, facilitator guide, and lab page require a fresh print-preview check on the delivery browser and printer.
 7. **No persistence:** workbook fields are writing surfaces, not a saved web form.
 8. **No real evidence claim:** the supplied case and dialogue are fictional pedagogical artifacts, not research results or an evaluation of the Oracle.
 9. **Versioning:** there is no package lock or CI build specifically for this workshop.
@@ -212,15 +220,15 @@ The system is intentionally flat and diagrammatic rather than card-driven: rules
 
 - [ ] Official schedule and room confirmed
 - [x] Root project render includes nested QMD files
-- [x] Full-site render succeeds (46 inputs; verified 12 August 2026)
-- [x] All seven expected workshop HTML outputs exist
-- [x] Landing and parent-module links resolve
+- [ ] Full-site render succeeds after final Day 2 synchronization
+- [x] All eight expected workshop HTML outputs exist, including `day2-lab.html`
+- [x] Landing, lab-page, workbook, facilitator, and sample links resolve locally
 - [x] Day 1 and Day 2 reviewed at 1600×900
 - [x] No slide overflows in projector and PDF/print modes
-- [x] Workbook and facilitator pages reviewed in A4 print preview
+- [ ] Rewritten workbook, facilitator guide, and lab page reviewed in A4 print preview
 - [x] Fictional sample is identical in substance across all materials
-- [x] Live disclosure and research-sharing control checked during authoring
+- [x] Health endpoint and research-sharing default rechecked 28 August 2026
 - [x] Offline sample case and continuous trace available
-- [ ] Live service, sharing default, and disclosure rechecked immediately before delivery
+- [ ] Visible live disclosure and sharing control rechecked immediately before delivery
 - [ ] Accessibility and cohort adaptations agreed with organizer
 - [x] No confidential material appears in workshop examples or generated outputs

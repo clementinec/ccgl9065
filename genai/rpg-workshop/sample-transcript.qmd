@@ -1,6 +1,6 @@
 ---
 title: "Sample Oracle Transcript"
-subtitle: "A coded exchange for the fictional hybrid-studio case"
+subtitle: "A synthetic Oracle exchange for private reflection"
 author: "RPG Workshop"
 body-classes: rpg-workshop
 format:
@@ -15,11 +15,15 @@ format:
 Supplied route · synthetic continuous trace · not a live system record
 :::
 
-This synthetic dialogue is structured to resemble the current Socratic Oracle interaction: the Oracle first displays a paper-grounded challenge, the researcher answers aloud or by keyboard, a voice response is reviewed as text before it is sent, and the next displayed turn stays with the active issue. The dialogue, state progression, and coding were written for the workshop. They are **not** output from a real session and are not evidence about how reliably the live service behaves.
+This synthetic dialogue is structured to resemble the current Socratic Oracle interaction: the Oracle first displays a paper-grounded challenge, the researcher answers aloud or by keyboard, a voice response is reviewed as text before it is sent, and the next displayed turn stays with the active issue. The dialogue and state progression were written for the workshop. They are **not** output from a real session and are not evidence about how reliably the live service behaves.
 
 In the deployed interface, “voice” describes the researcher's input. The Oracle's questions remain on screen; the site does not read them aloud.
 
 Read the [fictional sample case](sample-case.html) first if you need the proposal context.
+
+Use this page as an equal **private-reflection route** when you do not have—or do not want to revisit—a personal Day 1 Oracle trace. It is not the transcript exchanged in Day 2. The exchange artifact is a new, bounded transcript created during the Day 2 questioning trials.
+
+**Optional extension — skip without loss if time is short.** The C/R/X/M/★ labels below offer one possible way to inspect the synthetic dialogue. The core workshop does not require these codes.
 
 ::: {.code-key}
 <span><i class="code-c">C</i> confirmed</span>
@@ -141,7 +145,7 @@ You have limited the survey result to reported change within one cohort and kept
 :::
 :::
 
-## One possible coding
+## Optional extension · One possible coding
 
 Codes describe the movement of the exchange, not the quality of the researcher or proposal. More than one coding may be defensible.
 
@@ -165,9 +169,9 @@ Use these questions when debriefing:
 4. What teaching friction could make that construct distinction visible before AI drafts the methods section?
 5. What makes turn 9 a release rather than another layer of pressure?
 
-## Day 2 co-research use
+## Day 2 private-reflection route
 
-This supplied episode is an equal route for anyone who does not want to circulate a personal excerpt. Read it once deductively with C/R/X/M/★, then again inductively to propose a pattern not supplied by the code key. A second reader may correct or contest that pattern. Map any owner-approved additional area as extending, cross-cutting, or outside the supplied lenses—or record “none.” Write only a content-free joint memo and extension-map entry; no copy of another participant's material is needed or retained.
+Read only enough of this supplied episode to recall what receiving sustained questioning can demand. Privately note the issue, what the questioning made the researcher do, and where it helped, misread, repeated, or became costly. Do not hand this transcript to a partner as the Day 2 exchange artifact, and do not reveal a private first judgment before the partner independently reads the newly generated Day 2 transcript.
 
 ## Offline peer-Oracle version
 
@@ -181,4 +185,4 @@ The peer acting as Oracle should:
 - use the final question-free recap as the operational stopping point while preserving the researcher's right to stop earlier; and
 - treat disagreement about a code as evidence to discuss, not a score to settle.
 
-Continue in the [participant workbook](workbook.html#conduct-a-bounded-co-research-reading).
+Continue in the [private Day 2 reflection in the participant workbook](workbook.html#return-privately-to-the-oracle-experience).

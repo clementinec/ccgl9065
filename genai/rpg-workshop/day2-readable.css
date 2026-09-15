@@ -1,0 +1,572 @@
+/* Day 2 deliberately stays close to Quarto's built-in Reveal "simple" theme.
+   This file only sets projection type, a true left edge, and a few plain
+   teaching cues. It is not a component/theme system. */
+
+:root {
+  --ink: #111111;
+  --muted: #4b4b4b;
+  --line: #cfcfcf;
+  --accent: #c2410c;
+  --safe: #17633a;
+  --magenta: #9b145b;
+  --forest: #174a34;
+  --blue: #1e5aa8;
+  --purple: #6d28d9;
+  --nav-grey: #6b7280;
+}
+
+.reveal,
+.reveal-viewport {
+  color: var(--ink);
+  background: #ffffff !important;
+}
+
+.reveal .slides section:not(.section-cover):not(#title-slide) {
+  color: var(--ink);
+  background: #ffffff !important;
+}
+
+.reveal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 44px;
+  line-height: 1.28;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 16px;
+}
+
+/* A quiet location marker on every working slide. */
+.reveal .slides section[data-section]:not(.section-cover)::before {
+  display: block;
+  margin-bottom: 0.62em;
+  color: var(--nav-grey);
+  content: "DAY 2  /  " attr(data-section);
+  font-size: 0.68em;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  text-align: left;
+  text-transform: none;
+}
+
+.reveal h2 {
+  max-width: none;
+  margin: 0 0 0.68em;
+  font-size: 1.48em;
+  line-height: 1.03;
+}
+
+.reveal p {
+  margin: 0.36em 0;
+}
+
+.reveal ul,
+.reveal ol {
+  display: block;
+  margin: 0.2em 0 0.2em 1.05em;
+}
+
+.reveal li {
+  margin: 0.3em 0;
+  padding-left: 0.12em;
+}
+
+.reveal li li {
+  margin: 0.16em 0;
+}
+
+.reveal li::marker {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.reveal strong {
+  color: var(--ink);
+}
+
+.reveal a {
+  color: #1e5aa8;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.reveal blockquote {
+  width: auto;
+  margin: 0.55em 0;
+  padding: 0 0 0 0.55em;
+  color: var(--ink);
+  background: transparent;
+  border-left: 6px solid var(--accent);
+  box-shadow: none;
+  font-style: normal;
+}
+
+.reveal table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 0.78em;
+}
+
+.reveal th,
+.reveal td {
+  padding: 0.31em 0.34em;
+  color: var(--ink);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.reveal th {
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  font-weight: 700;
+}
+
+.reveal th:first-child,
+.reveal td:first-child {
+  padding-left: 0;
+}
+
+.reveal .activity-label,
+.reveal .sources {
+  color: var(--muted);
+  font-size: 0.72em;
+  font-weight: 700;
+}
+
+.reveal .activity-label {
+  margin-bottom: 0.7em;
+  color: var(--accent);
+  letter-spacing: 0.045em;
+}
+
+.reveal .big-prompt,
+.reveal .copy-prompt {
+  margin: 0.58em 0;
+  padding-left: 0.55em;
+  color: var(--accent);
+  background: transparent;
+  border-left: 6px solid var(--accent);
+  font-size: 1.02em;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.reveal .copy-prompt {
+  color: var(--ink);
+  font-size: 0.88em;
+  font-weight: 400;
+}
+
+.reveal .big-prompt p,
+.reveal .copy-prompt p {
+  margin: 0.4em 0;
+}
+
+/* The prompt lab keeps the role stable and makes only the test fields change. */
+.reveal .role-lock {
+  margin: 0.4em 0 0.55em;
+  padding: 0.55em 0.7em;
+  background: #fbf3f7;
+  border-left: 8px solid var(--magenta);
+  font-size: 0.96em;
+  line-height: 1.25;
+}
+
+.reveal .role-lock p {
+  margin: 0.22em 0;
+}
+
+.reveal .prompt-key {
+  display: inline-block;
+  margin-right: 0.3em;
+  font-size: 0.72em;
+  font-weight: 800;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.reveal .key-role {
+  color: var(--magenta);
+}
+
+.reveal .key-area {
+  color: var(--blue);
+}
+
+.reveal .key-gap {
+  color: var(--accent);
+}
+
+.reveal .key-move {
+  color: var(--safe);
+}
+
+.reveal .key-question {
+  color: var(--purple);
+}
+
+.reveal .key-source {
+  color: var(--muted);
+}
+
+.reveal .test-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.48em;
+  margin: 0.25em 0 0.55em;
+}
+
+.reveal .test-field {
+  min-width: 0;
+  padding: 0.48em 0.58em;
+  background: #fafafa;
+  border-left: 7px solid var(--line);
+  font-size: 0.8em;
+  line-height: 1.24;
+}
+
+.reveal .test-field p {
+  margin: 0.18em 0;
+}
+
+.reveal .field-area {
+  border-left-color: var(--blue);
+}
+
+.reveal .field-gap {
+  border-left-color: var(--accent);
+}
+
+.reveal .field-move {
+  border-left-color: var(--safe);
+}
+
+.reveal .field-question {
+  border-left-color: var(--purple);
+}
+
+.reveal .fixed-strip {
+  padding-top: 0.4em;
+  color: var(--muted);
+  border-top: 2px solid var(--line);
+  font-size: 0.76em;
+  line-height: 1.35;
+}
+
+.reveal .fixed-strip p {
+  margin: 0;
+}
+
+.reveal .method-stack {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.38em;
+  margin: 0.18em 0;
+}
+
+.reveal .method-card {
+  min-width: 0;
+  padding: 0.38em 0.55em;
+  background: #fafafa;
+  border-left: 7px solid var(--line);
+  font-size: 0.8em;
+  line-height: 1.2;
+}
+
+.reveal .method-card p {
+  margin: 0.15em 0;
+}
+
+.reveal .method-a {
+  border-left-color: var(--blue);
+}
+
+.reveal .method-b {
+  border-left-color: var(--accent);
+}
+
+.reveal .method-c {
+  border-left-color: var(--safe);
+}
+
+.reveal .method-name {
+  color: var(--magenta);
+  font-size: 0.76em;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.reveal .test-template {
+  margin-top: 0.2em;
+  padding: 0.25em 0 0.25em 0.62em;
+  border-left-color: var(--magenta);
+  font-size: 0.82em;
+  line-height: 1.24;
+}
+
+.reveal .test-template p {
+  margin: 0.32em 0;
+}
+
+.reveal .test-template .prompt-key {
+  font-size: 0.78em;
+}
+
+.reveal .swap-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.72em;
+  margin: 0.2em 0 0.6em;
+}
+
+.reveal .swap-side {
+  min-width: 0;
+  padding: 0.55em 0.62em;
+  background: #fafafa;
+  border-top: 7px solid var(--line);
+  font-size: 0.82em;
+}
+
+.reveal .swap-owner {
+  border-top-color: var(--magenta);
+}
+
+.reveal .swap-partner {
+  border-top-color: var(--blue);
+}
+
+.reveal .swap-side ul {
+  margin-top: 0.3em;
+}
+
+.reveal .swap-side li {
+  margin: 0.2em 0;
+}
+
+.reveal .plain-line,
+.reveal .safety-line {
+  margin-top: 0.72em;
+  padding-top: 0.45em;
+  color: var(--muted);
+  border-top: 2px solid var(--line);
+  font-size: 0.82em;
+}
+
+.reveal .safety-line {
+  color: var(--safe);
+  border-top-color: var(--safe);
+  font-weight: 700;
+}
+
+.reveal .chain,
+.reveal .break-word {
+  margin: 0.5em 0 0.68em;
+  color: var(--accent);
+  font-size: 1.18em;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.reveal .break-word {
+  font-size: 2.5em;
+}
+
+.reveal input[type="checkbox"] {
+  width: 0.7em;
+  height: 0.7em;
+  margin-right: 0.25em;
+  accent-color: var(--accent);
+}
+
+/* Master cover: one clear magenta level. */
+.reveal #title-slide {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 16px;
+  color: #ffffff;
+  background: transparent !important;
+  text-align: left;
+}
+
+.reveal #title-slide::before {
+  display: block;
+  margin-bottom: 1.15em;
+  color: rgba(255, 255, 255, 0.72);
+  content: "RPG WORKSHOP  /  DAY 2";
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+}
+
+.reveal #title-slide h1.title {
+  max-width: none;
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.72em;
+  line-height: 0.98;
+  white-space: nowrap;
+}
+
+.reveal #title-slide .subtitle {
+  max-width: none;
+  margin: 0.62em 0 0;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 0.84em;
+  white-space: nowrap;
+}
+
+.reveal #title-slide .quarto-title-authors {
+  display: block !important;
+  width: 100%;
+  margin: 1.15em 0 0;
+  text-align: left;
+}
+
+.reveal #title-slide .quarto-title-author {
+  padding: 0 !important;
+}
+
+.reveal #title-slide .quarto-title-author-name {
+  margin: 0;
+}
+
+.reveal #title-slide .quarto-title-author-name,
+.reveal #title-slide .date {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.72em;
+  text-align: left;
+}
+
+.reveal #title-slide .date {
+  margin: 0.28em 0 0;
+}
+
+/* Section covers: one forest-green level between master and content. */
+.reveal .slides section.section-cover {
+  padding: 0 16px;
+  color: #ffffff;
+  background: transparent !important;
+}
+
+.reveal .slides section.section-cover::before {
+  display: block;
+  margin-bottom: 1.15em;
+  color: rgba(255, 255, 255, 0.62);
+  content: "DAY 2  /  " attr(data-section);
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+}
+
+.reveal .slides section.section-cover h2 {
+  max-width: none;
+  margin: 0 0 0.48em;
+  color: #ffffff;
+  font-size: 1.78em;
+  line-height: 0.98;
+  white-space: nowrap;
+}
+
+.reveal .slides section.section-cover p {
+  max-width: none;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.82em;
+  line-height: 1.28;
+  white-space: nowrap;
+}
+
+.reveal .slides section.section-cover strong {
+  color: #ffffff;
+}
+
+.reveal .slides section.section-cover .section-cover-detail {
+  max-width: none;
+  margin-top: 1.65em;
+  padding-top: 0.72em;
+  color: rgba(255, 255, 255, 0.58);
+  border-top: 1px solid rgba(255, 255, 255, 0.28);
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  white-space: nowrap;
+}
+
+.reveal .slides section.section-cover::after {
+  display: block;
+  margin-top: 1.45em;
+  color: rgba(255, 255, 255, 0.46);
+  content: "EXPERIENCE  →  MAP + RANK  →  DESIGN  →  TEST  →  EXCHANGE  →  RE-RANK";
+  font-size: 0.58em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* Keep Reveal's navigation chrome subordinate on the colored hierarchy. */
+.reveal:has(#title-slide.present) .slide-number,
+.reveal:has(.slides section.section-cover.present) .slide-number,
+.reveal:has(#title-slide.present) .slide-menu-button a,
+.reveal:has(.slides section.section-cover.present) .slide-menu-button a,
+.reveal:has(#title-slide.present) .slide-menu-button i,
+.reveal:has(.slides section.section-cover.present) .slide-menu-button i {
+  color: rgba(255, 255, 255, 0.62) !important;
+}
+
+.reveal:has(#title-slide.present) .progress,
+.reveal:has(.slides section.section-cover.present) .progress {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Keep adjacent examples distinct without introducing boxes. */
+.reveal section > p + p,
+.reveal section > blockquote + p,
+.reveal section > p + blockquote,
+.reveal section > table + p {
+  margin-top: 0.55em;
+}
+
+/* The overview is the only deliberately compact slide. */
+.reveal #todays-two-hour-plan h2,
+.reveal #todays-two-hour-co-design-cycle h2 {
+  margin-bottom: 0.45em;
+}
+
+.reveal #todays-two-hour-plan th,
+.reveal #todays-two-hour-plan td,
+.reveal #todays-two-hour-co-design-cycle th,
+.reveal #todays-two-hour-co-design-cycle td {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.reveal #todays-two-hour-plan .plain-line,
+.reveal #todays-two-hour-co-design-cycle .plain-line {
+  margin-top: 0.48em;
+  padding-top: 0.3em;
+}
+
+@media print {
+  .reveal .slides section {
+    background: #ffffff !important;
+  }
+}

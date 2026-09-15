@@ -1,8 +1,17 @@
 ---
 title: "Notion Setup Guide"
+subtitle: "Set up your portfolio and build a useful weekly entry"
+body-classes: student-guide
+format:
+  html:
+    css:
+      - styles.css
+      - assets/fashion/lecture.css
 ---
 
-Your Notion portfolio is where you document your weekly research and reflections throughout the semester. Follow these steps to get started.
+Your Notion portfolio holds your weekly research, pitches and reflections. Keep one personal portfolio, with one clearly labelled entry for each week. Develop that same entry before, during and after class: the cleaned-up page becomes your weekly Notion submission. Slack is where you share the strongest part and link classmates to the full entry; the work itself happens in Notion.
+
+**Already set up?** Jump to [the page structure](#page-structure), [a complete fashion example](#fashion-example), or [the copyable weekly outline](#weekly-outline).
 
 ---
 
@@ -25,6 +34,123 @@ Once duplicated:
 - Add your weekly entries following the format in the template
 - Keep everything organized by week
 
+### What the page should contain {#page-structure}
+
+Keep the template you have already reused. Use weekly subpages or sections within your portfolio; either works if a reader can easily find each week. Add space for your assigned role and both kinds of reflection, rather than starting a new page at each stage.
+
+#### One weekly entry, developed over time
+
+| When | What changes in the same Notion entry |
+|---|---|
+| **Before class, including tutorial** | Prepare your **Fact, Story** and relevant background research. Your **draft Spectacle** is what you consider a strong pitch for your prepared stance, **before you know your vocational role**. Record your **Pro-Climate or Pro-Development starting angle** if already chosen. |
+| **During class** | Receive a **randomly assigned vocational role**. Use it to **test and further refine your existing spectacle**: what is missing, would this sector care, and what would make the pitch matter to it? As other groups present, type reflections both **in role** and **as yourself**. |
+| **After class** | Add your **final takeaway**, tidy the argument and both reflections, and check your sources and clarity. This cleaned-up version is your **weekly Notion submission**. |
+
+Your starting angle, assigned vocation and personal view are different things. You do not need to know your vocational role before class, and playing a role does not mean personally agreeing with it. Tutorial work belongs to the preparation stage and develops this same entry, not a separate deliverable. Follow the submission timing announced by the teaching team.
+
+The spectacle is already a pitch for your stance, not just background notes waiting for a role. The vocational perspective gives you new questions to test that pitch against. Refine it in response to what you discover; you do not automatically need to discard it or start again.
+
+This is an example structure, not a required visual design:
+
+```{=html}
+<div class="fashion-notion">
+  <div class="fashion-notion-nav"><strong>Alex · CCGL9065</strong><span>Week 01 · AI</span><span>Week 02 · Food</span><span class="selected">Week 03 · Fashion</span><span>Later weeks…</span></div>
+  <div class="fashion-notion-page">
+    <div class="fashion-notion-title">Week 03 · Consumption &amp; fashion</div>
+    <p>Starting angle (if chosen) · Vocational role (assigned in class)</p>
+    <div class="fashion-notion-row"><b>Fact</b><span>Before + tutorial · A specific claim, its source and scope.</span></div>
+    <div class="fashion-notion-row"><b>Story</b><span>Before + tutorial · A real case with sourced background research.</span></div>
+    <div class="fashion-notion-row"><b>Spectacle</b><span>Strong pitch for my stance → tested and refined through my new role.</span></div>
+    <div class="fashion-notion-row"><b>In role</b><span>During · What do other presentations mean for our sector?</span></div>
+    <div class="fashion-notion-row"><b>As myself</b><span>During · What do I find convincing, challenging or uncertain?</span></div>
+    <div class="fashion-notion-row"><b>Takeaway</b><span>After · My conclusion, cleaned-up writing and checked sources.</span></div>
+  </div>
+</div>
+```
+
+Target **300–500 words for the whole final weekly entry**; maximum **750 words**. This is not a separate word allowance for each stage or reflection. Your spectacle should usually be **1–2 sentences**, with a maximum of **3**. These are the existing [assessment guidelines](evaluation.qmd), not extra submissions. Develop the existing draft; you do not need to keep every version, but make clear how the discussion affected your thinking.
+
+Start both reflections **while listening to other groups**, then tidy them after class. **In role:** how does what you heard challenge or strengthen your sector's argument, interests or responsibilities? **As myself:** what do you personally find persuasive, troubling or unresolved? These responses can differ. Explain the reasoning rather than just saying the lecture was interesting. Keep source links beside the claims they support, and caption and credit any figures or videos.
+
+### A complete fashion-week example {#fashion-example}
+
+The example below shows one entry developed across the three stages. The project and process are real and linked; the starting angle, role assignment, classroom exchange, arguments and reflections are illustrative. Write about the evidence you have actually checked and the discussion you actually heard.
+
+::: {.callout-note title="Week 03 · Does recycling jeans close the clothing loop?"}
+
+**Before class + tutorial — starting angle: PRO-CLIMATE**
+
+**Question.** What happens after we hand over old jeans?
+
+**Fact.** Blue Jeans Go Green describes turning collected denim into insulating material for buildings, packaging and pet beds. Its collection guidance asks for at least 90% cotton. This shows that “recycling clothes” can produce something other than clothes, and that fibre mix affects what a programme accepts. It does not establish the carbon saving from recycling my own pair. ([Programme FAQ](https://bluejeansgogreen.org/faq/))
+
+**Story.** Abercrombie reports that, since 2014, its home office has collected unwearable denim and scraps for this programme. This is a real organisation arranging another use for material that cannot be worn. The company account supports its stated collection practice; it is not independent evidence of the programme's overall environmental benefit. ([Company account](https://corporate.abercrombie.com/sustainability/environmental-impact/blue-jeans-go-green-and-martex-fibers/))
+
+**Spectacle draft — my pitch for this stance.** “Give worn-out jeans another useful life—turn waste into warmth.”
+
+**During class — randomly assigned vocational role: Policy-Makers**
+
+**Testing my pitch through the new role.** Would policy-makers care about this draft? It offers a useful next life for denim, but leaves out how a scheme would be funded and checked. That is a gap I need to address from this vocational perspective.
+
+**Refined spectacle.** “Turn waste into warmth—but show where the denim goes and who pays for its next life.”
+
+**In-role reflection.** The transport group's question about collection costs challenges our proposal. From our policy-making perspective, a collection target alone is insufficient: we would need to explain who funds sorting and transport, and how the destination is checked. We should consider whether reporting demands would be manageable for smaller operators, rather than assuming that a rule automatically produces a benefit.
+
+**As-myself reflection.** I came in favouring recycling because I dislike waste. The discussion made me question whether an easy collection option might also encourage me to buy more. I am not claiming that it does; I would need evidence about purchasing behaviour. Personally, I now want to ask whether repair or continued wear is possible before concentrating on the next use for the fibres.
+
+**After class — final takeaway**
+
+I still support keeping materials useful, but a collection label is not enough to judge the outcome. My next check would compare continued wear, repair and recycling, including processing, the next product's life and what it replaces. I have tidied my notes into these two reflections and kept the uncertainties visible.
+
+:::
+
+Notice how the spectacle is **already a pitch for the prepared stance**. The random vocational role then exposes a gap and helps the writer refine that same pitch. The presentations prompt two different reflections, and the final takeaway draws these together without erasing the difference between the assigned role and the writer's own view. A sourced project can supply the human context; you do not need to invent a person's experience to make a point.
+
+### Copyable weekly outline {#weekly-outline}
+
+Use these prompts within your existing template, or [download the Markdown outline](data/weekly_research_template.md) and paste it into Notion. The stage labels show when to develop each part; everything stays in the same weekly entry.
+
+```markdown
+# Week [number] · [topic]
+Starting angle, if already chosen: PRO-CLIMATE / PRO-DEVELOPMENT
+Vocational role: [Fill in after the random assignment in class.]
+Date:
+My question:
+
+## Fact — before class + tutorial
+[One specific claim. Link its source and state its date, scope or conditions.]
+
+## Story — before class + tutorial
+[A real person, community, event or project. What happened? Source link.]
+
+## Spectacle — pitch before class; test and refine in class
+[Before knowing your role, write a strong pitch for your prepared stance.]
+[Connect your fact, story and human stakes.]
+[After assignment, ask: What is missing? Would this sector care about my pitch?]
+[Use that vocational perspective to refine the existing spectacle.]
+[Aim for 1–2 sentences; maximum 3.]
+
+## Reflections — type while other groups present
+### In role
+[How does what I heard challenge or strengthen our sector's argument?]
+[How would I respond from the assigned role?]
+
+### As myself
+[What do I personally find convincing, challenging or uncertain?]
+[How does this relate to or change my own thinking?]
+
+## Final takeaway — after class
+[What do I take away from the research, role-play and discussion?]
+[What would I check next?]
+[Tidy the whole entry, check sources, and submit this same page.]
+
+## Sources / media
+[Keep links beside the claims they support.]
+[For an optional figure/video: caption, creator, link and what it shows.]
+```
+
+A figure or short video can help your explanation. Add a caption explaining **why it is evidence**, credit its creator, and link the original. Distinguish a diagram you drew or a hypothetical illustration from measured data.
+
 ---
 
 ## Step 3: Publish Your Page
@@ -39,14 +165,21 @@ You need to publish your page so you can share links in Slack.
 
 **Need more details?** See [Notion's publishing guide](https://www.notion.com/help/public-pages-and-web-publishing).
 
+Open the **specific weekly entry** using its published link in a private/incognito window. Check that its text, sources and any embedded media can be read without requesting access. Publishing a parent page can also publish its subpages; keep the portfolio limited to material intended for class sharing.
+
 ---
 
 ## Step 4: Share in Slack
 
-When posting to the weekly Slack channel:
+All the preparation, role-play development and reflection above happens in Notion. When sharing in the weekly Slack channel:
 
 1. Include your Spectacle (Fact + Story + Stakes)
-2. Add the link to your Notion page at the end: `🔗 Full research: [your-notion-url]`
+2. Use your position tag, one fact, one real story and your spectacle
+3. Add the link to the **weekly entry** at the end: `🔗 Full research: [your-weekly-entry-url]`
+
+Target **100–150 words** for the Slack post; maximum **200**. See the [Slack post template](slack_post_template.qmd). Use the weekly battlefield channel announced for your class.
+
+Link to the same entry as it develops; Slack does not replace the weekly Notion submission. Follow the sharing and submission timing announced by the teaching team.
 
 ---
 
@@ -54,8 +187,16 @@ When posting to the weekly Slack channel:
 
 - [ ] Duplicated template to my workspace
 - [ ] Renamed with my name
+- [ ] Kept one clearly labelled weekly entry in my reused template
+- [ ] Recorded my starting angle if I had already chosen one
+- [ ] Prepared a sourced Fact, Story and a strong draft pitch for my stance before class, including tutorial work
+- [ ] Recorded my random vocational role, tested what the pitch misses and whether that sector would care, and refined it
+- [ ] Added both in-role and personal reflections while listening to other presentations
+- [ ] Added a final takeaway and cleaned up the same entry after class
+- [ ] Captioned and credited any figures or videos
+- [ ] Checked the word limits
 - [ ] Published the page
-- [ ] Copied my public URL
+- [ ] Tested the weekly entry’s published URL in a private window
 - [ ] Ready to post to Slack
 
 ---
@@ -69,7 +210,13 @@ When posting to the weekly Slack channel:
 → Make sure you're logged into Notion first.
 
 **"My link says 'Private page'"**
-→ You need to publish it (Step 3). Just sharing isn't enough.
+→ Check that the weekly entry is published and copy its published URL (Step 3), rather than the URL used to edit it.
+
+**"My Notion page is just lecture notes"**
+→ Use your prepared evidence to make a strong pitch for your stance. Then test and refine that pitch through your assigned vocational role, and add both in-role and personal reflections on the presentations. After class, draw out your final takeaway and tidy the same entry.
+
+**"Does my page need a fancy design?"**
+→ Clear headings, readable writing and working source links are enough. A helpful figure earns its place by explaining something.
 
 **"I made changes but they're not showing"**
 → Changes auto-sync. Hard refresh (Ctrl+Shift+R) if needed.

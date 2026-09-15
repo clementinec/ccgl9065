@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Upcycling: keep useful fabric and redesign it</title>
+  <desc id="desc">Illustrative example: worn jeans with intact panels are cut and stitched into a patchwork tote. A higher-value use is the design aim; a lower environmental impact still needs evidence about processing, use and what the bag replaces.</desc>
+  <rect width="1200" height="430" rx="12" fill="#fbf8f1"/>
+  <g fill="#eeeef4"><rect x="24" y="28" width="300" height="292" rx="10"/><rect x="450" y="28" width="300" height="292" rx="10"/><rect x="876" y="28" width="300" height="292" rx="10"/></g>
+  <path d="M117 68H224L243 277H188L173 151L159 277H103Z" fill="#4356b3"/>
+  <g fill="none" stroke="#fbf8f1" stroke-width="3"><path d="M117 88H224M173 68V150"/><path d="M120 174H155V212H116Z" stroke-dasharray="5 4"/></g>
+  <g stroke="#4356b3" stroke-width="4"><path d="M493 76H584V165H493Z" fill="#6478bd"/><path d="M599 101H696V231H599Z" fill="#4356b3"/><path d="M506 180H582V273H506Z" fill="#93a9ce"/></g>
+  <path d="M942 130H1111L1126 278H928Z" fill="#4356b3"/>
+  <path d="M987 140V94Q1027 53 1066 94V140" fill="none" stroke="#4356b3" stroke-width="16"/>
+  <path d="M943 137H1027V206H936Z" fill="#93a9ce"/><path d="M1027 206H1118L1125 273H1027Z" fill="#6478bd"/>
+  <g stroke="#fbf8f1" stroke-width="3" stroke-dasharray="6 5"><path d="M1027 138V274M940 206H1118"/></g>
+  <g fill="none" stroke="#c96753" stroke-width="6"><path d="M350 170H418L401 151M418 170L401 189"/><path d="M776 170H844L827 151M844 170L827 189"/></g>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle" fill="#102a43">
+    <g font-size="27" font-weight="700"><text x="174" y="364">Keep intact panels</text><text x="600" y="364">Cut + stitch</text><text x="1026" y="364">A useful new design</text></g>
+    <text x="600" y="409" font-size="22" fill="#5b6d7b">Illustrative transformation · the fabric stays fabric</text>
+  </g>
+</svg>

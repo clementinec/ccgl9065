@@ -732,6 +732,12 @@ body.rpg-workshop main.content summary:focus-visible {
     padding: 0;
   }
 
+  body.day2-lab-page .callout-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    visibility: visible !important;
+  }
+
   body.rpg-workshop .quarto-title-block {
     margin: 0 0 8mm;
     padding: 10mm;
