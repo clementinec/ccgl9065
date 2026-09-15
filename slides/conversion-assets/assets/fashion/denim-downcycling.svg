@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Denim to insulation: follow what happens to the material</title>
+  <desc id="desc">Denim is collected and prepared, opened into fibres, then made into insulating material. The woven fabric is lost. This can be called downcycling from a textile-quality perspective while still creating useful insulation. The diagram is a simplified route, not an exact factory specification.</desc>
+  <defs><pattern id="fibre" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M2 4L16 19M18 1L25 12M0 22L7 25" stroke="#b4c4df" stroke-width="3"/></pattern></defs>
+  <rect width="1200" height="430" rx="12" fill="#fbf8f1"/>
+  <g fill="#eee9de"><rect x="24" y="28" width="300" height="292" rx="10"/><rect x="450" y="28" width="300" height="292" rx="10"/><rect x="876" y="28" width="300" height="292" rx="10"/></g>
+  <g fill="#4356b3"><path d="M117 68H224L243 277H188L173 151L159 277H103Z"/><rect x="500" y="108" width="205" height="154" rx="50"/><rect x="917" y="73" width="214" height="206" rx="4"/></g>
+  <rect x="500" y="108" width="205" height="154" rx="50" fill="url(#fibre)"/>
+  <rect x="917" y="73" width="214" height="206" fill="url(#fibre)"/>
+  <path d="M960 73V279M1084 73V279" stroke="#b88f66" stroke-width="19"/>
+  <g fill="none" stroke="#c96753" stroke-width="6"><path d="M350 170H418L401 151M418 170L401 189"/><path d="M776 170H844L827 151M844 170L827 189"/></g>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle" fill="#102a43">
+    <g font-size="27" font-weight="700"><text x="174" y="364">Collect + prepare</text><text x="600" y="364">Open into fibres</text><text x="1026" y="364">Make insulation</text></g>
+    <text x="600" y="409" font-size="22" fill="#5b6d7b">Simplified route · the woven fabric is lost, but the fibres have another use</text>
+  </g>
+</svg>
