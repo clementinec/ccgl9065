@@ -16,10 +16,11 @@ format:
   <div class="course-hero__inner">
     <p class="course-kicker">CCGL9065 · Teaching team · Unlisted toolkit</p>
     <h1>Tutorials as <em>working sessions</em></h1>
-    <p class="course-lede">Two presentation decks for onboarding teaching assistants and running the weekly tutorial rhythm. These materials support the course; they do not create another student assignment.</p>
+    <p class="course-lede">Three presentation decks for onboarding teaching assistants, running the first set-up tutorial and sustaining the weekly tutorial rhythm. These materials support the course; they do not create another student assignment.</p>
     <div class="course-actions">
       <a class="button-link" href="../slides/ta/onboarding/index.html">Open TA onboarding&nbsp; →</a>
-      <a class="button-link button-link--ghost" href="../slides/ta/tutorial/index.html">Open tutorial deck</a>
+      <a class="button-link button-link--ghost" href="../slides/ta/tutorial01/index.html">Open Tutorial 1 deck</a>
+      <a class="button-link button-link--ghost" href="../slides/ta/tutorial/index.html">Open reusable deck</a>
     </div>
   </div>
 </section>
@@ -59,14 +60,20 @@ format:
         <p>Course purpose, facilitation prompts, capacity, evidence triage, portfolio crits and role boundaries.</p>
         <span class="start-card__action">Open onboarding →</span>
       </a>
+      <a class="start-card" href="../slides/ta/tutorial01/index.html">
+        <span class="start-card__number">02 / WEEK 1</span>
+        <h3>Tutorial 1 walk-through</h3>
+        <p>A 50-minute set-up session: Slack sign-up, Notion walk-through, timed prep, pair work and an open share.</p>
+        <span class="start-card__action">Open Tutorial 1 →</span>
+      </a>
       <a class="start-card" href="../slides/ta/tutorial/index.html">
-        <span class="start-card__number">02 / RUN</span>
+        <span class="start-card__number">03 / RUN</span>
         <h3>Reusable tutorial work session</h3>
         <p>Close the current week, test evidence, run a 15-minute sprint and prepare the next class.</p>
         <span class="start-card__action">Open control deck →</span>
       </a>
       <a class="start-card" href="../evaluation.html#tutorial-work-sessions">
-        <span class="start-card__number">03 / VERIFY</span>
+        <span class="start-card__number">04 / VERIFY</span>
         <h3>Student-facing tutorial contract</h3>
         <p>Check the published assessment and tutorial language before briefing the teaching team.</p>
         <span class="start-card__action">Open course policy →</span>
@@ -80,7 +87,7 @@ format:
         <p class="section-kicker">Weekly preparation</p>
         <h2 id="reuse-heading">Four fields change. The logic stays.</h2>
       </div>
-      <p>Before each tutorial, update <code>slidev/ta/session.json</code> with the week, topic, current task and next-class prompt. Rebuild the tutorial deck, verify those fields on the title slide, and brief TAs on one likely evidence issue.</p>
+      <p>Tutorial 1 is fixed and needs no editing. From week 2 onward, update <code>slidev/ta/session.json</code> with the week, topic, current task and next-class prompt. Rebuild the tutorial deck, verify those fields on the title slide, and brief TAs on one likely evidence issue.</p>
     </div>
     <div class="resource-grid">
       <a href="../portfolio_roadmap.html" class="resource-item">Weekly-output contract</a>

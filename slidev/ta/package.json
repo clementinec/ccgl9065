@@ -4,9 +4,11 @@
   "type": "module",
   "scripts": {
     "dev:tutorial": "slidev tutorial.md --open",
+    "dev:tutorial01": "slidev tutorial01.md --open",
     "dev:onboarding": "slidev onboarding.md --open",
     "build": "node build-all.mjs",
     "build:tutorial": "node build-all.mjs tutorial",
+    "build:tutorial01": "node build-all.mjs tutorial01",
     "build:onboarding": "node build-all.mjs onboarding"
   },
   "dependencies": {

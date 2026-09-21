@@ -3,7 +3,7 @@ import { rmSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
 const workingDirectory = fileURLToPath(new URL('.', import.meta.url))
-const allDecks = ['tutorial', 'onboarding']
+const allDecks = ['tutorial', 'tutorial01', 'onboarding']
 const requestedDecks = process.argv.slice(2)
 const decks = requestedDecks.length ? requestedDecks : allDecks
 
