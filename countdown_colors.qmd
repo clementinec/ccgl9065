@@ -1,0 +1,210 @@
+---
+title: "Presentation Countdown (Colour-Shifting)"
+subtitle: "Futurologist, Fake News and Histories"
+author: Dr. Hongshan Guo and Class
+
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    width: 1600
+    height: 1200
+    preview-links: auto
+    embed-resources: true
+    center: true
+---
+
+## Presentation Countdown
+
+```{=html}
+<style>
+  #cc-timer {
+    font-size: 348px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    transition: color 0.6s ease;
+  }
+  #cc-timer.cc-flash {
+    animation: cc-pop 0.6s ease;
+  }
+  @keyframes cc-pop {
+    0%   { transform: scale(1); }
+    40%  { transform: scale(1.06); }
+    100% { transform: scale(1); }
+  }
+  #cc-minute-label {
+    font-size: 40px;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    min-height: 1.4em;
+  }
+  .cc-btn {
+    font-size: 24px;
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 8px;
+  }
+  .cc-btn:disabled { opacity: 0.6; cursor: default; }
+  #cc-start { background-color: #27ae60; }
+  #cc-pause { background-color: #f39c12; }
+  #cc-reset { background-color: #e74c3c; }
+  #cc-legend {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 40px;
+    font-size: 26px;
+    color: #2c3e50;
+  }
+  #cc-legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  #cc-legend i {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+  }
+</style>
+
+<div id="cc-container" style="text-align: center;">
+  <div id="cc-timer">05:00</div>
+  <div id="cc-minute-label">Ready — 5 minutes</div>
+
+  <button id="cc-start" class="cc-btn">Start 5:00</button>
+  <button id="cc-pause" class="cc-btn" disabled>Pause</button>
+  <button id="cc-reset" class="cc-btn">Reset</button>
+
+  <div id="cc-legend"></div>
+</div>
+
+<script>
+(function () {
+  const TOTAL = 300; // 5 minutes
+
+  // One colour per minute band, from the first minute down to the last.
+  // Index 0 = minute 5 (5:00–4:01), index 4 = final minute (1:00–0:01).
+  const BAND_COLORS = [
+    "#2c3e50", // 5:00 – 4:01  slate
+    "#2980b9", // 4:00 – 3:01  blue
+    "#27ae60", // 3:00 – 2:01  green
+    "#f39c12", // 2:00 – 1:01  orange
+    "#e74c3c"  // 1:00 – 0:01  red
+  ];
+  const DONE_COLOR = "#8e44ad"; // Time's up
+
+  let timeLeft = TOTAL;
+  let interval = null;
+  let currentBand = -1;
+
+  const timerEl = document.getElementById("cc-timer");
+  const labelEl = document.getElementById("cc-minute-label");
+  const startBtn = document.getElementById("cc-start");
+  const pauseBtn = document.getElementById("cc-pause");
+  const resetBtn = document.getElementById("cc-reset");
+  const legendEl = document.getElementById("cc-legend");
+
+  // Build the legend so everyone can see what each colour means.
+  BAND_COLORS.forEach((c, i) => {
+    const minsLeft = BAND_COLORS.length - i;
+    const s = document.createElement("span");
+    s.innerHTML = `<i style="background:${c}"></i>${minsLeft} min`;
+    legendEl.appendChild(s);
+  });
+
+  function fmt(sec) {
+    const m = Math.floor(sec / 60);
+    const s = sec % 60;
+    return String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0");
+  }
+
+  // Which band are we in? 300..241 -> 0, 240..181 -> 1, ..., 60..1 -> 4
+  function bandFor(sec) {
+    if (sec <= 0) return BAND_COLORS.length; // done
+    return BAND_COLORS.length - Math.ceil(sec / 60);
+  }
+
+  function applyBand(sec, animate) {
+    const band = bandFor(sec);
+    if (band === currentBand) return;
+    currentBand = band;
+
+    if (band >= BAND_COLORS.length) {
+      timerEl.style.color = DONE_COLOR;
+      labelEl.textContent = "Time's up!";
+    } else {
+      timerEl.style.color = BAND_COLORS[band];
+      const minsLeft = BAND_COLORS.length - band;
+      labelEl.textContent = minsLeft === 1 ? "Final minute" : `${minsLeft} minutes left`;
+    }
+
+    if (animate) {
+      timerEl.classList.remove("cc-flash");
+      void timerEl.offsetWidth; // restart animation
+      timerEl.classList.add("cc-flash");
+    }
+  }
+
+  function render(animate) {
+    timerEl.textContent = timeLeft > 0 ? fmt(timeLeft) : "00:00";
+    applyBand(timeLeft, animate);
+  }
+
+  function tick() {
+    if (timeLeft > 0) {
+      timeLeft--;
+      render(true);
+    }
+    if (timeLeft <= 0) {
+      stop();
+      startBtn.disabled = true;
+      startBtn.textContent = "Done";
+    }
+  }
+
+  function start() {
+    if (interval) return;
+    interval = setInterval(tick, 1000);
+    startBtn.disabled = true;
+    startBtn.textContent = "Running…";
+    pauseBtn.disabled = false;
+  }
+
+  function stop() {
+    clearInterval(interval);
+    interval = null;
+    pauseBtn.disabled = true;
+  }
+
+  function pause() {
+    stop();
+    startBtn.disabled = false;
+    startBtn.textContent = "Resume";
+  }
+
+  function reset() {
+    stop();
+    timeLeft = TOTAL;
+    currentBand = -1;
+    startBtn.disabled = false;
+    startBtn.textContent = "Start 5:00";
+    labelEl.textContent = "Ready — 5 minutes";
+    render(false);
+  }
+
+  startBtn.addEventListener("click", start);
+  pauseBtn.addEventListener("click", pause);
+  resetBtn.addEventListener("click", reset);
+
+
+  render(false);
+})();
+</script>
+```
