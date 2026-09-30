@@ -8,6 +8,15 @@ const props = withDefaults(defineProps<{ seconds?: number }>(), {
 const remaining = ref(props.seconds)
 const running = ref(false)
 let interval: ReturnType<typeof setInterval> | undefined
+let deadline = 0
+
+// Five minute bands: slate, blue, green, orange, then red for the final minute.
+const minuteColors = ['#102a43', '#2563eb', '#21854b', '#b45309', '#b42318']
+const finished = computed(() => remaining.value <= 0)
+const color = computed(() => {
+  const band = Math.max(0, minuteColors.length - Math.ceil(remaining.value / 60))
+  return minuteColors[Math.min(band, minuteColors.length - 1)]
+})
 
 const display = computed(() => {
   const minutes = Math.floor(remaining.value / 60)
@@ -18,13 +27,14 @@ const display = computed(() => {
 function start() {
   if (running.value || remaining.value <= 0)
     return
+  deadline = Date.now() + remaining.value * 1000
   running.value = true
   interval = setInterval(() => {
-    if (remaining.value > 0)
-      remaining.value -= 1
-    if (remaining.value <= 0)
+    // Use elapsed time so a delayed browser callback cannot extend the speech.
+    remaining.value = Math.max(0, Math.ceil((deadline - Date.now()) / 1000))
+    if (finished.value)
       stop()
-  }, 1000)
+  }, 250)
 }
 
 function stop() {
@@ -44,11 +54,14 @@ onBeforeUnmount(stop)
 
 <template>
   <div class="conversion-timer">
-    <div class="conversion-timer__display" :class="{ urgent: remaining <= 60 }">
+    <div v-if="finished" class="conversion-timer__finished" role="status">
+      Time's Up!
+    </div>
+    <div v-else class="conversion-timer__display" :style="{ color }" role="timer">
       {{ display }}
     </div>
     <div class="conversion-timer__controls">
-      <button type="button" @click="start">{{ running ? 'Running…' : 'Start timer' }}</button>
+      <button v-if="!finished" type="button" :disabled="running" @click="start">{{ running ? 'Running…' : 'Start timer' }}</button>
       <button type="button" class="secondary" @click="reset">Reset</button>
     </div>
   </div>

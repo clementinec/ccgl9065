@@ -9,7 +9,7 @@ body-classes: conversion-review
 <section class="conversion-intro" aria-labelledby="conversion-intro-heading">
   <p class="section-kicker">Course archive · 2026 refresh</p>
   <h2 id="conversion-intro-heading">The Slidev lectures are now current.</h2>
-  <p>The weekly course links now open the Slidev decks. Every Quarto deck remains preserved here for reference and comparison; Weeks 2–11 retain their original sequence and teaching content.</p>
+  <p>The weekly course links now open the Slidev decks. Every Quarto deck remains preserved here for reference and comparison, while the current Slidev decks are revised for teaching.</p>
   <div class="conversion-key" aria-label="Comparison key">
     <span><i class="conversion-key__old" aria-hidden="true"></i> Preserved Quarto</span>
     <span><i class="conversion-key__new" aria-hidden="true"></i> Current Slidev</span>
@@ -64,7 +64,7 @@ body-classes: conversion-review
 
   <article class="conversion-row">
     <div class="conversion-week"><span>06</span><strong>Economics &amp; incentives</strong></div>
-    <p class="conversion-note">Direct conversion · 60 slides</p>
+    <p class="conversion-note">Revised: capital, communication &amp; the commons · 44 slides</p>
     <div class="conversion-actions">
       <a class="conversion-link conversion-link--old" href="CCGL9065_W6.html"><span>Quarto</span>Open original</a>
       <a class="conversion-link conversion-link--new" href="slides/conversion/week6/index.html"><span>Slidev</span>Open current</a>

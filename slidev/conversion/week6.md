@@ -1,6 +1,6 @@
 ---
 theme: default
-title: "CCGL9065 Week 06 — Economics & incentives"
+title: "CCGL9065 Week 06 — Capital, communication & the commons"
 titleTemplate: "%s · CCGL9065"
 author: Dr Hongshan Guo
 colorSchema: light
@@ -14,1239 +14,710 @@ layout: cover
 class: course-title-slide converted-cover
 routeAlias: opening
 level: 1
-menuDetail: "Economics & incentives"
+menuDetail: "Capital, communication & the commons"
 sourceDeck: "CCGL9065_W6.qmd"
-sourceTitle: "CCGL9065: Our Response to Climate Change: HK2100"
-sourceSubtitle: "Democracy and Capitalism"
+# This Slidev deck is maintained directly; the Quarto original is the archive.
 ---
-
 <div class="course-code">CCGL9065 · WEEK 06</div>
 
 # Democracy and Capitalism
 
-<div class="course-place">CCGL9065: Our Response to Climate Change: HK2100</div>
-
-<div class="course-premise">Economics & incentives</div>
-
-<div class="course-welcome">Slidev conversion · original content preserved</div>
+<div class="course-place">Let your communication land.</div>
+<div class="course-premise">Capital, communication &amp; the commons</div>
+<div class="course-welcome">Whose concerns does your message reach?</div>
 
 ---
-layout: section
-class: converted-slide section-slide cobalt-slide
+layout: default
+class: w6-slide
+routeAlias: participation-poll
 level: 1
-title: "Last Week's Strategy: The Anchoring Trap"
-routeAlias: last-week-s-strategy-the-anchoring-trap
-menuDetail: "Lecture section"
+title: "How useful was this reminder?"
+menuDetail: "A brief communication check"
 ---
+# How useful was this reminder?
 
-# Last Week’s Strategy: The Anchoring Trap
+<div class="w6-kicker">MENTIMETER · RATE 1–10</div>
+<p class="w6-question">Your first in-class presentation earns <strong>8/10.</strong></p>
+<div class="w6-scale"><span><strong>1</strong>Not useful to me</span><span><strong>10</strong>Extremely useful to me</span></div>
+<p class="w6-lead"><strong>Why did you choose that score?</strong></p>
+<div class="w6-rule-line">1 presentation: <strong>8/10</strong> &nbsp;·&nbsp; 2: <strong>9/10</strong> &nbsp;·&nbsp; 3 or more: <strong>10/10</strong></div>
+<p class="w6-source">This component is worth 10% of the course grade; tutorial participation is separate. <a href="../../../evaluation.html#in-class-participation-10">Full assessment guidance</a> · <a href="https://www.menti.com/" target="_blank" rel="noopener">menti.com</a>: use the code shown in class.</p>
 
----
-layout: default
-class: converted-slide legacy-content
----
-
-# Quick Callback
-
-<div style="font-size: 1.6em; line-height: 1.8;">
-
-Last week’s strategy: **The Anchoring Trap**
-
-*First number wins.*
-
-**Anyone try it?** Did you lead with an extreme number before offering your “reasonable” version?
-
-</div>
+<!--
+Create a Mentimeter 1–10 scale question before class, with the endpoint labels shown here: “How useful was the reminder that your first in-class presentation earns 8/10?” Follow with “Why did you choose that score?” Display the joining code from Mentimeter; this is a link to the joining page, not a configured poll. Allow two or three minutes for ratings and contrasting responses, including low ratings. If unavailable, invite private notes and voluntary sharing.
+The rule already appears in the course outline, the same syllabus file on Moodle. It is now foregrounded on the assessment page. Clarify once, then move on. Do not assume everyone felt anxious or treat this as a deliberate information hunt. The component is capped at 10/10; this adds no new grading criterion.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide w6-outline
+routeAlias: the-listeners-question
 ---
 
-# Something You Took Away Last Week
+# The information was there. Did it land?
 
-<div style="font-size: 1.5em; line-height: 1.8;">
+- **My intention:** make participation easy and enjoyable.
+- **What I assumed:** putting the rule in the syllabus made its significance clear.
+- **What you needed:** the detail that answered your own concern.
 
-Week 5 showed you that **every building is a climate decision.**
+<p class="w6-takeaway">Climate communication faces the same question: what does this mean for <em>your listener’s</em> job, bills or ability to act?</p>
 
-The Urban Heat Island effect — concrete absorbs heat, cities get hotter, AC demand rises, more fossil fuels burn, cities get *even hotter.*
+<p class="w6-source">Motivation and capacity to act: <a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-5/" target="_blank" rel="noopener">IPCC AR6 WGIII, Chapter 5</a>.</p>
 
-You saw it in NYC (one park = 5°C difference), Vienna (turning trash into heat for 60,000 homes), and LA (paying people to rip out their lawns).
-
-</div>
-
-<div style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;">
-
-The built environment is a climate actor. But here’s the question: **even if we know the right design, who decides what gets built?**
-
-</div>
+<!--
+Use the actual Mentimeter responses; avoid supplying one story about the whole class. Information can be accessible while the key to its relevance remains underexposed. The participation incident illustrates a communication gap, not a tragedy of the commons. The economics that follows explains why understanding an audience matters and why good communication still needs workable incentives and institutions.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide w6-outline
+routeAlias: buildings-and-decisions
 ---
 
-# From Buildings → The Rules That Build Them
+# From buildings to decisions
 
-<div style="font-size: 1.5em; line-height: 1.8;">
+<p class="w6-lead">Week 5: buildings shape heat, energy demand and everyday life.</p>
 
-Last week: *“What did we build, and what does it cost the planet?”*
+- **Who decides?** Owners, residents, investors and public authorities may want different things.
+- **Who pays?** The person funding an improvement may receive only part of its benefit.
+- **What enables action?** Information, affordable options, incentives and rules.
 
-This week: *“Why don’t we build better — and whose fault is that?”*
+<p class="w6-takeaway">Knowing a better design leaves a further question: how do people agree to build it?</p>
 
-**Same system. Bigger question.**
 
-You can design the greenest building in the world, but if the economic incentives reward cheap construction and short-term profit, it won’t get built. The problem isn’t engineering — it’s **structural incentives.**
 
-</div>
 
-<div style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;">
-
-Your toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → **now: Structural Incentives.**
-
-</div>
 
 ---
 layout: default
-class: converted-slide legacy-content background-slide dark-background
-background: "#000000"
----
-
-<div style="text-align: center;">
-
-<figure>
-<img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/7000/7548/rondonia_ast_2006238_lrg.jpg" style="width:75.0%" alt="Rondônia, Brazil — NASA satellite, 2006. Each fishbone is a road. Each branch is a cleared farm. This used to be unbroken rainforest." />
-<figcaption aria-hidden="true">Rondônia, Brazil — NASA satellite, 2006. Each fishbone is a road. Each branch is a cleared farm. This used to be unbroken rainforest.</figcaption>
-</figure>
-
-</div>
-
-<div style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;">
-
-*No one decided to destroy the Amazon. Everyone just followed the incentives.*
-
-</div>
-
----
-layout: section
-class: converted-slide section-slide orange-slide
+class: w6-slide w6-outline
+routeAlias: energy-from-fire
 level: 1
-title: "This Week's Battlefield"
-routeAlias: this-week-s-battlefield
-menuDetail: "Lecture section"
+title: "Start with a campfire."
+menuDetail: "From energy to capital"
 ---
 
-# This Week’s Battlefield
+# Start with a campfire.
+
+<p class="w6-lead">What becomes possible when people can control an energy source?</p>
+
+- **Heat:** cook, keep warm and transform materials.
+- **Work:** tools and machines change what people can produce.
+- **Scale:** supply more people, across greater distances.
+
+<p class="w6-takeaway">Now scale up: who controls the fuel, equipment and connections?</p>
+
+
+
+<!--
+Restore the original campfire opening as a prompt about harnessing energy. Do not claim fire was the first energy source humans used or attach an unsupported date. Move from everyday use to organised production and ownership.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide
+routeAlias: industrial-scale
 ---
+# What changes at industrial scale?
 
-# Two Sides. Two Economic Worldviews.
-
-<div style="display: flex; justify-content: space-around; margin-top: 50px;">
-
-<div style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;">
-
-<div style="font-size: 2.5em; font-weight: bold;">
-
-PRO-CLIMATE
-
-</div>
-
-<div style="font-size: 1.3em; margin-top: 20px;">
-
-= System Change
-
-= “Capitalism caused this crisis”
-
-</div>
-
-</div>
-
-<div style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;">
-
-<div style="font-size: 2.5em; font-weight: bold;">
-
-PRO-DEVELOPMENT
-
-</div>
-
-<div style="font-size: 1.3em; margin-top: 20px;">
-
-= Market Solutions
-
-= “Growth lifts all boats”
-
-</div>
-
-</div>
-
+<div class="w6-photo-pair">
+  <figure><img :src="'../../conversion-assets/data/cleveland-factory-smoke.jpg'" alt="Factory smoke obscures the Clark Avenue Bridge in Cleveland, with industrial buildings below." /><figcaption>Clark Avenue Bridge, Cleveland · US National Archives, 550179</figcaption></figure>
+  <div><p class="w6-question">Production. Livelihoods. Pollution.</p><p class="w6-lead">Who receives the output and income?</p><p class="w6-lead">Who lives with the consequences?</p><p class="w6-source"><a href="https://catalog.archives.gov/id/550179" target="_blank" rel="noopener">Original photograph</a>. Visible smoke shows air pollution; carbon dioxide itself is invisible.</p></div>
 </div>
 
 ---
 layout: default
-class: converted-slide legacy-content
----
-
-# The Core Tension
-
-<div style="font-size: 1.6em; line-height: 1.8;">
-
-| PRO-CLIMATE            | PRO-DEVELOPMENT      |
-|------------------------|----------------------|
-| System change needed   | Reform within system |
-| Degrowth / post-growth | Green growth         |
-| Collective ownership   | Private innovation   |
-| Regulation & mandates  | Market incentives    |
-| Present suffering      | Future prosperity    |
-
-**This tension appears in every economic climate debate.**
-
-</div>
-
----
-layout: section
-class: converted-slide section-slide green-slide
-level: 1
-title: "From Energy to Capital"
+class: w6-slide w6-outline
 routeAlias: from-energy-to-capital
-menuDetail: "Lecture section"
 ---
 
-# From Energy to Capital
+# From energy to capital
 
----
-layout: default
-class: converted-slide legacy-content
----
+<p class="w6-lead">Energy powers production. Investment expands its scale.</p>
+<div class="w6-flow"><div><strong>Energy + labour</strong><span>Make goods and services</span></div><b>→</b><div><strong>Exchange</strong><span>Earn revenue</span></div><b>→</b><div><strong>Investment</strong><span>Build productive capacity</span></div></div>
 
-# The Oldest Energy Source
+- **Coal and steam:** mines, factories and railways needed equipment, finance and organised labour.
+- **Oil and electricity:** mass production, power grids and transport expanded those connections.
 
-<div style="font-size: 2.5em; text-align: center; padding: 60px; background: #1a1a2e; color: white; border-radius: 15px;">
+<p class="w6-takeaway">For a solar farm, the question remains: who finances it, owns it and receives the return?</p>
 
-When was the earliest of all times that humans started to harvest energy?
 
-</div>
 
-<div style="font-size: 3em; text-align: center; margin-top: 40px; font-weight: bold; color: #e67e22;">
-
-Campfire.
-
-</div>
+<!--
+The diagram is a simplified production-and-reinvestment loop, not a claim that history followed a single inevitable path from fire to capitalism. Markets and capital predate the industrial revolutions. Investment in turn changes the energy sources and technologies available.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content background-slide dark-background
-background: "black"
+class: w6-slide w6-outline
+routeAlias: what-is-capital
 ---
 
-<figure>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DARK_CLOUDS_OF_FACTORY_SMOKE_OBSCURE_CLARK_AVENUE_BRIDGE_-_NARA_-_550179.jpg/1280px-DARK_CLOUDS_OF_FACTORY_SMOKE_OBSCURE_CLARK_AVENUE_BRIDGE_-_NARA_-_550179.jpg" style="width:85.0%" alt="Dark clouds of factory smoke obscure Clark Avenue Bridge, Cleveland, Ohio — US National Archives, 1970." />
-<figcaption aria-hidden="true">Dark clouds of factory smoke obscure Clark Avenue Bridge, Cleveland, Ohio — US National Archives, 1970.</figcaption>
-</figure>
+# What is capital?
 
----
-layout: default
-class: converted-slide legacy-content
----
+<p class="w6-lead"><strong>Resources committed to producing more goods, services or income.</strong></p>
 
-# From Campfire to Capital
+- **Physical capital:** machines, factories, power plants and vehicles used in production. A café’s oven helps it make tomorrow’s bread.
+- **Financial capital:** funding used to acquire assets and run production. A loan or an owner’s investment can pay for the oven.
 
-<div style="font-size: 1.5em; line-height: 1.8;">
+<p class="w6-takeaway">Ownership brings claims on income and influence over production.</p>
 
-Energy at scale created **surplus.** Surplus created **exchange.** Exchange created **markets.** Markets created **capital.**
+<p class="w6-source"><a href="https://www.imf.org/external/pubs/ft/fandd/2015/06/basics.htm" target="_blank" rel="noopener">Jahan &amp; Mahmud (2015) · What Is Capitalism?</a></p>
 
-<v-clicks>
-
-- 1st Industrial Revolution → coal, steam, factory
-- 2nd Industrial Revolution → oil, electricity, mass production
-- Energy surplus at scale → source, transportation, end-user, importer
-
-</v-clicks>
-
-<span style="color: #e74c3c; font-weight: bold;">**The chain: energy → surplus → market → currency → capital → and now, war.**</span>
-
-</div>
-
-<div style="font-size: 1.3em; margin-top: 20px; font-style: italic;">
-
-Energy issues don’t arise in isolation — they arise at **scale.** And at scale, they become geopolitics.
-
-</div>
+<!--
+Distinguish capital as a stock of assets from income as a flow. The financial claim and the physical oven are different descriptions; do not add them together as if they were two ovens. Labour and natural resources also contribute to production. The opening sentence is a classroom working definition; capital has more specific meanings in different economic theories.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content background-slide dark-background
-background: "#1a1a2e"
+class: w6-slide
+routeAlias: capital-has-a-face
 ---
+# Who is this man?
 
-<div style="font-size: 2em; color: white; line-height: 1.6; font-style: italic;">
-
-“It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.”
-
+<div class="w6-photo-pair w6-morgan">
+  <figure><img :src="'../../conversion-assets/data/john-pierpont-morgan.jpg'" alt="Edward Steichen’s portrait of a seated financier, with one hand gripping a gleaming chair arm." /><figcaption>Edward Steichen, 1903</figcaption></figure>
+  <div><p class="w6-question">Does he look warm and fuzzy?</p><p class="w6-lead">What is he holding?</p><div v-click class="w6-reveal"><h2>J. P. Morgan</h2><p>The “knife” is the arm of his chair.</p><p>What story about power had the image already suggested?</p></div><p class="w6-source"><a href="https://www.themorgan.org/archives/300475" target="_blank" rel="noopener">The Morgan Library &amp; Museum · portrait and context</a></p></div>
 </div>
 
-<div style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;">
-
-— Adam Smith, *The Wealth of Nations*, Book I, Chapter 2, 1776
-
-</div>
-
-<div style="font-size: 1.4em; color: #e67e22; margin-top: 20px; font-weight: bold;">
-
-Self-interest as engine. That’s the promise of capitalism — and the root of its climate problem.
-
-</div>
+<!--
+Pause for reactions before revealing the name and chair arm with the next click. Restore this visual discussion from the original capital section. The point is both economic power and how presentation shapes our interpretation. The portrait is evidence of a photographic presentation, not proof of the sitter’s character.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide w6-outline
+routeAlias: capital-and-power
 ---
 
-# What Is Capital?
+# Private capital, public power
 
-<div style="font-size: 1.6em; line-height: 1.8; background: #ecf0f1; padding: 40px; border-radius: 15px;">
+<p class="w6-lead">J. P. Morgan and the banking panic of <strong>1907</strong>:</p>
 
-The accumulated wealth of an individual, company, or community, used as a fund for carrying on fresh production.
+- Morgan organised private funds to keep credit flowing and the New York Stock Exchange operating.
+- **Concentrated finance** could mobilise resources during a crisis.
+- Decisions about access to finance affected livelihoods far beyond the owners of that capital.
 
-**Wealth in any form used to help produce more wealth.**
+<p class="w6-takeaway">Who should decide which businesses, infrastructure and communities receive investment?</p>
 
-</div>
+<p class="w6-source"><a href="https://www.federalreservehistory.org/essays/panic-of-1907" target="_blank" rel="noopener">Federal Reserve History · The Panic of 1907</a></p>
 
-<div style="font-size: 1.5em; margin-top: 30px; font-weight: bold; color: #e67e22;">
-
-And what is capitalism?
-
-</div>
-
-<div style="font-size: 1.3em; margin-top: 15px;">
-
-“Capitalism” and “Capitalist” are 19th-century pejoratives — names given by its enemies. But the system itself has two faces:
-
-<v-clicks>
-
-- **Enormous productive capacity**
-- **Always on the edge of being out of control**
-
-</v-clicks>
-
-</div>
+<!--
+This restores the original link between the financier and the scale of his influence. Use the specific 1907 case rather than the original shorthand that he “personally bailed out the US government twice.” Other banks and institutions also provided support. Connect the closing question to financing an energy transition and to democratic accountability.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide w6-outline
+routeAlias: what-is-capitalism
 ---
 
-# Who Is This Man?
+# What is capitalism?
 
-<div style="display: flex; gap: 40px;">
+<p class="w6-lead">An economy organised substantially around <strong>private ownership, markets and profit.</strong></p>
 
-<div style="width: 40%;">
+- **Ownership:** private actors control productive assets and receive returns.
+- **Markets:** prices and exchange coordinate what is produced and who can buy it.
+- **Profit and competition:** returns can reward innovation and investment; rules shape what is profitable.
 
-<figure>
-<img :src="'../../conversion-assets/data/john-pierpont-morgan.jpg'" style="width:100.0%" alt="Photo by Edward Steichen." />
-<figcaption aria-hidden="true">Photo by Edward Steichen.</figcaption>
-</figure>
+<p class="w6-takeaway">Profitability can leave out costs borne by other people.</p>
 
-</div>
+<p class="w6-source"><a href="https://www.imf.org/external/pubs/ft/fandd/2015/06/basics.htm" target="_blank" rel="noopener">Jahan &amp; Mahmud (2015) · What Is Capitalism?</a></p>
 
-<div style="width: 55%; font-size: 1.5em; line-height: 1.8;">
-
-<v-clicks>
-
-- Does he look warm and fuzzy?
-- What’s he holding?
-
-</v-clicks>
-
-This is **J.P. Morgan** — the man who personally bailed out the US government. Twice.
-
-Capitalism has always had a face. Usually holding a cigar.
-
-</div>
-
-</div>
+<!--
+Recall Adam Smith’s argument about exchange and self-interest without adding a standalone quotation slide. Actual capitalist economies vary in competition, public ownership, welfare provision and regulation. A market is a coordination mechanism; capitalism also concerns ownership and how returns are distributed. Do not equate capitalism with the absence of government.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide w6-outline
+routeAlias: marxs-critique
 ---
 
-# Capitalism Is… (Per Karl Marx)
+# Marx’s critique of capitalism
 
-<div style="font-size: 1.5em; line-height: 1.8;">
+- **Owners control the means of production.** Workers sell their capacity to work for wages.
+- **Labour creates surplus value:** in Marx’s account, value beyond the value paid in wages is appropriated by capital.
+- **Interests can conflict:** expanding production does not settle questions about pay, conditions or control.
 
-<v-clicks>
+<p class="w6-takeaway">For a climate transition: who owns the new infrastructure, and who shares its gains?</p>
 
-- A disease for which scientific socialism is the cure
-- A method to steal the labour of the exploited masses
-- *A system that undermines every traditionally established way of making a living*
-- <span style="color: #e74c3c; font-weight: bold;">A system that inevitably undermines its own foundations.</span>
+<p class="w6-source">Paraphrase of <a href="https://www.marxists.org/archive/marx/works/1867-c1/ch07.htm" target="_blank" rel="noopener">Marx, Capital, Volume I, Chapter 7</a>; a theoretical perspective to examine.</p>
 
-</v-clicks>
 
-</div>
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide w6-outline
+routeAlias: benefits-and-costs
 ---
 
-# Capitalism Is… (Per Current Definitions)
+# Private benefits, wider costs
 
-<div style="font-size: 1.4em; line-height: 1.8;">
+- A business weighs **revenue, wages, energy costs and survival.**
+- Pollution can impose costs on people **outside that transaction.**
+- These are **external costs**: the price paid by the buyer can leave out damage borne by others.
 
-A system defined by:
+<p class="w6-takeaway">An incentive that makes sense to one decision-maker can create a problem for everyone else.</p>
 
-<v-clicks>
 
-- **Private deployment of capital**
-- **Open acknowledgement of profit as a motive**
-- **Sympathetic understanding of self/household interests**
-- **Tolerance for innovation** — though the characteristic fact of historical society is *resistance* to innovation as a kind of human nature
 
-</v-clicks>
 
-</div>
-
-<div style="font-size: 1.3em; margin-top: 20px; font-style: italic;">
-
-Hundreds of variations exist, but the essentials remain unchanged.
-
-</div>
 
 ---
-layout: section
-class: converted-slide section-slide black-slide
+layout: default
+class: w6-slide w6-outline
+routeAlias: tragedy-of-the-commons
 level: 1
-title: "Climate Change Meets Capitalism"
-routeAlias: climate-change-meets-capitalism
-menuDetail: "Lecture section"
+title: "The tragedy of the commons"
+menuDetail: "Different interests, shared consequences"
 ---
 
-# Climate Change Meets Capitalism
+# The tragedy of the commons
 
----
-layout: default
-class: converted-slide legacy-content
----
+<p class="w6-lead">A shared, limited resource. Individual gains; shared losses.</p>
 
-# The Tragedy of the Commons
+- One more animal on a shared pasture brings **its owner more income.**
+- Extra grazing leaves **less grass for everyone’s animals.**
+- If total grazing exceeds regrowth, **the pasture deteriorates.**
 
-<div style="font-size: 1.6em; line-height: 1.8;">
+<p class="w6-takeaway">The outcome depends on the rules: this example assumes access without effective shared limits.</p>
 
-When individuals prioritise their own interests over common goods, the commons collapses.
+<p class="w6-source"><a href="https://www.nobelprize.org/prizes/economic-sciences/2009/press-release/" target="_blank" rel="noopener">Ostrom’s work on governing common resources · Nobel Prize, 2009</a></p>
 
-This applies to:
 
-<v-clicks>
-
-- **Individuals** — driving, flying, consuming
-- **Corporations** — externalising pollution costs
-- **Nations** — free-riding on others’ emission cuts
-
-</v-clicks>
-
-</div>
-
-<div style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;">
-
-A new economic system may help. But how?
-
-</div>
 
 ---
 layout: default
-class: converted-slide legacy-content background-slide dark-background
-background: "#1a1a2e"
+class: w6-slide w6-outline
+routeAlias: climate-and-coordination
 ---
 
-<div style="font-size: 2em; color: white; line-height: 1.6; font-style: italic;">
+# Climate change and collective action
 
-“Ruin is the destination toward which all men rush, each pursuing his own best interest in a society that believes in the freedom of the commons.”
+- Activities that emit greenhouse gases can bring **local benefits.**
+- The resulting climate risks extend **across borders and into the future.**
+- Others can benefit from your emissions cuts while contributing little themselves: the **free-rider problem.**
 
-</div>
+<p class="w6-takeaway">“Climate change matters” leaves questions about who acts, who pays and who follows through.</p>
 
-<div style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;">
+<p class="w6-source"><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-14/" target="_blank" rel="noopener">IPCC AR6 WGIII, Chapter 14 · international cooperation</a></p>
 
-— Garrett Hardin, “The Tragedy of the Commons”, *Science*, Vol. 162, 1968
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# See It: The Pattern That Keeps Repeating
-
-<div class="converted-video"><iframe src="https://www.youtube.com/embed/CxC161GvMPc" title="Embedded lecture video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-
-<div style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;">
-
-*TED-Ed (~5 min). The Tragedy of the Commons — from medieval grazing to climate collapse. The twist: communal management often works better than privatisation.*
-
-</div>
+<!--
+The participation example illustrates assumptions about a listener; it is not itself a tragedy of the commons. The connection is that understanding another actor’s situation matters when building cooperation. Climate change also involves actual distributional conflicts and coordination problems.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide w6-outline
+routeAlias: communication-and-cooperation
 ---
 
-# One Image. One Question.
+# What makes cooperation possible?
 
-<div style="font-size: 2.5em; text-align: center; padding: 60px; background: #1a1a2e; color: white; border-radius: 15px; line-height: 1.6;">
+- **Understand the interests:** what must each person protect, and what could they realistically change?
+- **Agree on workable rules:** who can use the resource, within what limits, and with what contributions?
+- **Make commitments credible:** how can people see whether others follow through, and resolve disputes?
 
-BP invented the concept of a **“personal carbon footprint”** in 2005.
+<p class="w6-takeaway">Communication helps people negotiate. Rules, trust and practical support help them act together.</p>
 
-It was an ad campaign.
+<p class="w6-source"><a href="https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/164465-ostrom-williamson-interview-transcript/" target="_blank" rel="noopener">Ostrom on communication and cooperation</a> · <a href="https://www.nobelprize.org/prizes/economic-sciences/2009/press-release/" target="_blank" rel="noopener">Governing the commons</a></p>
 
-<span style="color: #e74c3c;">**You were the product.**</span>
-
-</div>
-
-<div style="font-size: 1.5em; text-align: center; margin-top: 30px;">
-
-Structural problems require structural solutions. Individual guilt is a distraction.
-
-</div>
+<!--
+Ostrom’s work shows that people can build institutions to manage common resources; collapse is not inevitable. The questions here are a classroom synthesis, not a quotation or a universal recipe. Better wording alone does not remove conflicts of interest, resource constraints or unequal power.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content background-slide dark-background
-background: "#1a1a2e"
+class: w6-slide w6-comparison
+routeAlias: carbon-pricing
 ---
+# Carbon tax and emissions trading
 
-<div style="font-size: 2em; color: white; line-height: 1.6; font-style: italic;">
-
-“It is difficult to get a man to understand something, when his salary depends upon his not understanding it.”
-
+<p class="w6-lead">Put a price on emissions so that producing pollution carries a financial cost.</p>
+<div class="w6-two">
+  <div class="w6-card"><h2>Carbon tax</h2><p>Set a charge per tonne of emissions.</p><p><strong>Design questions:</strong> how high, who is covered, and how is revenue used?</p></div>
+  <div class="w6-card"><h2>Emissions trading</h2><p>Set an emissions cap and allow covered emitters to trade allowances.</p><p><strong>Design questions:</strong> how tight is the cap, and how are allowances distributed?</p></div>
 </div>
-
-<div style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;">
-
-— Upton Sinclair, *I, Candidate for Governor: And How I Got Licked*, 1935, p. 109
-
-</div>
-
-<div style="font-size: 1.4em; color: #e74c3c; margin-top: 20px; font-weight: bold;">
-
-This is why oil executives don’t “believe in” climate change. They understand it fine. They’re paid not to.
-
-</div>
+<div class="w6-takeaway">The policy still needs people to understand its purpose, costs and practical consequences.</div>
+<p class="w6-source"><a href="https://documents.worldbank.org/curated/en/728421535605566659/pdf/129668-V1-WP-PUBLIC-Carbon-Tax-Guide-Main-Report.pdf" target="_blank" rel="noopener">World Bank · Carbon Tax Guide</a></p>
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide
+routeAlias: different-questions
 ---
+# The same proposal can meet different questions
 
-# Carbon Pricing: Pay to Pollute?
-
-<div style="font-size: 1.5em; line-height: 1.8;">
-
-The usual market solution to climate change: **price the pollution.**
-
-| Mechanism | How It Works | The Problem |
-|----|----|----|
-| **Carbon Tax** | Fixed price per tonne of CO₂ | Who sets the price? |
-| **Carbon Credit** | Right to emit, tradeable | Government selling right to pollute? |
-| **Carbon Offset** | Pay someone else to reduce | Does it actually reduce anything? |
-
-</div>
-
-<div style="font-size: 1.3em; margin-top: 20px; font-style: italic;">
-
-What happens when the price target moves? When carbon becomes a commodity to trade *for profit*?
-
-</div>
+<div class="w6-kicker">ILLUSTRATIVE CONCERNS · ASK BEFORE ASSUMING</div>
+<table class="w6-table">
+  <thead><tr><th>Listener</th><th>A question they might need answered</th></tr></thead>
+  <tbody>
+    <tr><td>Worker</td><td>What happens to my job during the transition?</td></tr>
+    <tr><td>Small business owner</td><td>What help is available before my costs rise?</td></tr>
+    <tr><td>Household</td><td>What changes to my bills, and what alternatives do I have?</td></tr>
+    <tr><td>Climate advocate</td><td>How will we know the policy actually reduces emissions?</td></tr>
+  </tbody>
+</table>
+<p class="w6-lead">Which question does your prepared argument answer? Which does it leave open?</p>
 
 ---
 layout: default
-class: converted-slide legacy-content background-slide dark-background
-background: "#1a1a2e"
+class: w6-slide w6-outline
+routeAlias: changing-circumstances
 ---
 
-<div style="font-size: 2em; color: white; line-height: 1.6;">
+# When circumstances change
 
-Now imagine you’re a government.
+<div class="w6-kicker">HYPOTHETICAL SCENARIO</div>
+<p class="w6-lead">Energy prices rise just before a proposed carbon tax begins.</p>
 
-Oil just jumped **9% overnight** because of a military strike 8,000 km away.
+- A listener asks: **“How can I manage another cost right now?”**
+- The policy designer must reconsider **timing, support, alternatives and the use of revenue.**
+- Find out what affected people can actually change before revising the proposal or its explanation.
 
-Your citizens are paying more for petrol, electricity, groceries — **everything.**
+<p class="w6-takeaway">A new concern may require a change to the policy as well as the message.</p>
 
-</div>
 
-<div style="font-size: 2.2em; color: #e74c3c; margin-top: 30px; font-weight: bold;">
 
-And you want to add a carbon tax on top of that?
 
-</div>
-
-<div style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;">
-
-That’s not policy. That’s political suicide. And every fossil fuel lobby knows it.
-
-</div>
 
 ---
 layout: default
-class: converted-slide legacy-content
----
-
-# The Trap
-
-<div style="font-size: 1.6em; line-height: 1.8;">
-
-This is the structural problem:
-
-<v-clicks>
-
-- **Peacetime:** carbon tax is unpopular but survivable
-- **Crisis:** carbon tax becomes impossible — voters revolt
-- **Oil companies know this.** They don’t need to fight the tax. They just need to wait for the next crisis.
-
-</v-clicks>
-
-And there is **always** a next crisis.
-
-</div>
-
-<div style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;">
-
-The PRO-CLIMATE position has a timing problem. The PRO-DEVELOPMENT position has a moral problem. Neither side wants to admit it.
-
-</div>
-
----
-layout: section
-class: converted-slide section-slide cobalt-slide
+class: w6-slide w6-comparison
+routeAlias: what-counts-as-progress
 level: 1
-title: "What If Growth Isn't the Answer?"
-routeAlias: what-if-growth-isn-t-the-answer
-menuDetail: "Lecture section"
+title: "Growth, wellbeing and ecological limits"
+menuDetail: "Economic alternatives and their trade-offs"
 ---
+# Growth, wellbeing and ecological limits
 
-# What If Growth Isn’t the Answer?
-
----
-layout: default
-class: converted-slide legacy-content background-slide dark-background
-background: "black"
----
-
-<figure>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Paro_Taktsang%2C_Bhutan_%28edited%29.jpg/1280px-Paro_Taktsang%2C_Bhutan_%28edited%29.jpg" style="width:75.0%" alt="Paro Taktsang (Tiger’s Nest), Bhutan — a country that measures Gross National Happiness instead of GDP." />
-<figcaption aria-hidden="true">Paro Taktsang (Tiger’s Nest), Bhutan — a country that measures Gross National Happiness instead of GDP.</figcaption>
-</figure>
-
----
-layout: default
-class: converted-slide legacy-content
-zoom: 0.92
----
-
-# The Post-Growth Challenge
-
-<div style="font-size: 1.5em; line-height: 1.8;">
-
-A continued growth mindset is unsustainable. But what replaces it?
-
+<p class="w6-lead">GDP measures economic output. It does not, by itself, tell us how wellbeing, inequality or ecological damage change.</p>
+<div class="w6-two">
+  <div class="w6-card"><h2>Green growth</h2><p>Seek rising output alongside falling emissions and environmental pressure.</p><p>The test: do total impacts fall far enough and fast enough?</p></div>
+  <div class="w6-card"><h2>Post-growth approaches</h2><p>Make wellbeing within ecological limits the goal, with less dependence on continued GDP growth.</p><p>The test: how are livelihoods and public services secured?</p></div>
 </div>
+<div class="w6-takeaway">Specify what should grow, what should shrink, and whose needs are still unmet.</div>
+<p class="w6-source"><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-5/" target="_blank" rel="noopener">IPCC AR6 WGIII, Chapter 5 · wellbeing, demand and development</a></p>
 
-<div style="display: flex; justify-content: space-around; margin-top: 30px;">
-
-<div style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.4em; font-weight: bold;">
-
-Alternative Models
-
-</div>
-
-<div style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;">
-
-<v-clicks>
-
-- **Bhutan** — Gross National Happiness Index: well-being, conservation, cultural preservation
-- **New Zealand** — Wellbeing Budget: mental health, child poverty, environment over GDP
-- **Nordic Model** — free market + comprehensive welfare + collective bargaining
-
-</v-clicks>
-
-</div>
-
-</div>
-
-<div style="text-align: left; width: 45%; background: #3498db; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.4em; font-weight: bold;">
-
-Collective Ownership
-
-</div>
-
-<div style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;">
-
-<v-clicks>
-
-- **Mondragon** (Spain) — largest worker cooperative; workers own and operate
-- **Community Land Trusts** (Boston, London) — nonprofit collective land ownership for affordable housing
-- **Germany** — social market economy: free enterprise + social welfare + environmental protection
-
-</v-clicks>
-
-</div>
-
-</div>
-
-</div>
+<!--
+These are families of arguments, not two compulsory debate camps. Distinguish absolute reductions in environmental pressure from lower impacts per unit of GDP. Post-growth and degrowth are related but not identical: some degrowth arguments explicitly propose reducing resource-intensive production and consumption in affluent economies. Ask what the proposed change means for people with unmet basic needs.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content background-slide dark-background
-background: "black"
+class: w6-slide w6-outline
+routeAlias: beyond-gdp
 ---
 
-<figure>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Oil_palm_plantation_in_Cigudeg-03.jpg/1280px-Oil_palm_plantation_in_Cigudeg-03.jpg" style="width:85.0%" alt="Oil palm plantation, Cigudeg, Indonesia — monoculture replacing rainforest. The market’s answer to “efficiency.”" />
-<figcaption aria-hidden="true">Oil palm plantation, Cigudeg, Indonesia — monoculture replacing rainforest. The market’s answer to “efficiency.”</figcaption>
-</figure>
+# Measuring progress beyond GDP
+
+- **Bhutan: Gross National Happiness.** The GNH Index tracks nine domains, including health, living standards, community vitality and ecological resilience.
+- **New Zealand: Wellbeing Budget, 2019.** Priorities included mental health, child wellbeing and a transition to a sustainable, low-emissions economy.
+
+<p class="w6-takeaway">Broader measures make more priorities visible. Funding and trade-offs still have to be decided.</p>
+
+<p class="w6-source"><a href="https://bhutanstudies.org.bt/wp-content/uploads/2025/01/2022-GNH-Survey-Report_compressed.pdf" target="_blank" rel="noopener">Centre for Bhutan Studies · 2022 GNH Survey</a> · <a href="https://www.treasury.govt.nz/sites/default/files/2019-05/b19-wellbeing-budget.pdf" target="_blank" rel="noopener">NZ Treasury · Wellbeing Budget 2019</a></p>
+
+<!--
+Restore these concrete examples from the original. Do not say Bhutan stopped measuring GDP or that these examples prove economic growth has been abandoned. The New Zealand example is explicitly historical, about the 2019 budget. These are changes to measurement and priorities, not evidence that all resulting policies succeeded.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide w6-outline
+routeAlias: ownership-alternatives
 ---
 
-# Mixed Economy: The Singapore Question
+# Alternative forms of ownership
 
-<div style="font-size: 1.5em; line-height: 1.8;">
+- **Worker cooperatives: Mondragon.** Members participate in ownership and governance. Elections follow one member, one vote.
+- **Community land trusts.** A trust retains land; homes or other buildings can be owned or leased under affordability conditions.
+- **Denver’s Urban Land Conservancy** uses the land-trust model to preserve community access.
 
-**Singapore’s blend:** competitive open markets + strong state intervention in housing, healthcare, and public transport.
+<p class="w6-takeaway">Changing ownership changes who can decide. Finance, maintenance and workable rules still matter.</p>
 
-**Germany’s blend:** capitalist economy + framework of social policies balancing enterprise with welfare and environmental protection.
+<p class="w6-source"><a href="https://www.mondragon-corporation.com/people/site/assets/files/103207/annual-report-2021.pdf" target="_blank" rel="noopener">Mondragon · 2021 Annual Report</a> · <a href="https://urbanlandc.org/community-land-trust/" target="_blank" rel="noopener">Urban Land Conservancy · Community Land Trust</a></p>
 
-</div>
-
-<div style="font-size: 1.4em; margin-top: 20px; background: #f39c12; padding: 20px; border-radius: 10px;">
-
-The question isn’t capitalism vs. socialism. It’s: **what mix — and who decides?**
-
-</div>
+<!--
+Be precise about membership: cooperative voting rights belong to members; do not imply every employee of every Mondragon subsidiary has an equal vote. Community land trusts vary. Neither form of ownership automatically guarantees a low-carbon outcome; ask how climate objectives enter the rules and investment decisions.
+-->
 
 ---
-layout: section
-class: converted-slide section-slide orange-slide
+layout: default
+class: w6-slide w6-outline
+routeAlias: mixed-economies
+---
+
+# Mixed economies
+
+- **Singapore:** market activity alongside a substantial public role in housing. HDB plans and develops towns and public housing.
+- **Germany:** a social market economy combining market competition with social policy. Enterprise and welfare sit within the same arrangement.
+
+<p class="w6-takeaway">For Hong Kong’s transition: which decisions belong to markets, public institutions or communities?</p>
+
+<p class="w6-source"><a href="https://www.hdb.gov.sg/about-us" target="_blank" rel="noopener">Singapore HDB · About Us</a> · <a href="https://www.bundesregierung.de/breg-en/federal-government/germany-as-a-centre-of-business-472678" target="_blank" rel="noopener">German Federal Government · social market economy</a></p>
+
+<!--
+These examples illustrate combinations, not identical systems or a ranking of political regimes. Public intervention is not itself democratic accountability. Move to the next slide to ask who is represented and how decisions can be challenged.
+-->
+
+---
+layout: default
+class: w6-slide w6-outline
+routeAlias: who-decides
+---
+
+# Who gets a say?
+
+- **Markets:** firms and customers respond to prices. Who can afford to choose?
+- **Public institutions:** governments tax, regulate, invest and provide services. Whose interests are represented?
+- **Shared governance:** users and communities help make and enforce rules. Who is included?
+
+<p class="w6-takeaway">An arrangement can combine these approaches. How can affected people hold its decision-makers accountable?</p>
+
+<p class="w6-source"><a href="https://www.nobelprize.org/prizes/economic-sciences/2009/press-release/" target="_blank" rel="noopener">Ostrom · institutions for managing shared resources</a></p>
+
+
+
+---
+layout: default
+class: w6-slide
+routeAlias: transition-tradeoffs
+---
+# What could go wrong with the transition?
+
+<table class="w6-table w6-risk-table">
+  <thead><tr><th>Possible difficulty</th><th>Design question</th></tr></thead>
+  <tbody>
+    <tr><td>Higher costs now</td><td>Can households and small firms afford the change before savings arrive?</td></tr>
+    <tr><td>Jobs and investment move</td><td>Who needs support, retraining or a credible alternative livelihood?</td></tr>
+    <tr><td>Infrastructure lags</td><td>Will reliable energy and transport alternatives be ready in time?</td></tr>
+    <tr><td>Benefits are unequal</td><td>Who can access subsidies, ownership and the new opportunities?</td></tr>
+    <tr><td>Results disappoint</td><td>How will we measure outcomes and revise a policy that underperforms?</td></tr>
+  </tbody>
+</table>
+<div class="w6-takeaway">Compare these risks with the costs of delay. Explain the trade-off your role is willing to accept.</div>
+
+<!--
+Restore the original transition-risk discussion without presenting these possibilities as inevitable predictions. Risks depend on the policy, its design and the context. Students should identify evidence needed to judge a risk and who would carry it. Clearer communication may expose a need to change the policy itself.
+-->
+
+---
+layout: default
+class: w6-slide
+routeAlias: economic-futures-debate
 level: 1
-title: "Live Case Study: The War in Iran"
-routeAlias: live-case-study-the-war-in-iran
-menuDetail: "Lecture section"
+title: "Economic futures debate"
+menuDetail: "Speak to someone from a role"
 ---
+# Economic futures debate
 
-# Live Case Study: The War in Iran
+<div class="w6-kicker">TODAY’S MOTION</div>
+<p class="w6-question">This house believes that Hong Kong should impose a mandatory carbon tax on all businesses to fund its low-carbon transition.</p>
+<div class="w6-takeaway">Speak from your assigned vocation. Explain your position, the trade-off you recognise and what you want a listener to do.</div>
+<p class="w6-note">A role can support, oppose or seek conditions on the motion. Explain how its interests lead to that position.</p>
 
----
-layout: default
-class: converted-slide legacy-content background-slide dark-background
-background: "#1a1a2e"
----
-
-<div style="font-size: 2.2em; color: white; line-height: 1.6;">
-
-On 28 February 2026, the US and Israel launched strikes on Iran.
-
-Within **72 hours:**
-
-<v-clicks>
-
-- Oil jumped <span style="color: #e74c3c;">**~9%**</span>
-- The Strait of Hormuz effectively <span style="color: #e74c3c;">**closed**</span>
-- <span style="color: #e74c3c;">**15 million barrels/day**</span> stopped moving
-- Qatar’s LNG facilities were <span style="color: #e74c3c;">**hit by Iranian drones**</span>
-
-</v-clicks>
-
-</div>
-
-<div style="font-size: 1.4em; color: #95a5a6; margin-top: 20px;">
-
-This isn’t a history slide. This is happening **right now.**
-
-</div>
+<!--
+This is a proposed classroom policy, not a statement of current Hong Kong tax law. Preserve the class’s usual debate arrangements. The role does not mechanically determine a stance; students should reason from their research and the situation they are representing.
+-->
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide
+routeAlias: group-assignment
 ---
-
-# Every Player Has an Agenda
-
-<div style="font-size: 1.2em; line-height: 1.6;">
-
-| Player | What “Winning” Looks Like | The Energy Angle |
-|----|----|----|
-| <span style="color: #3498db;">**USA**</span> | Regime change. Destroy nuclear programme. Declare victory in \<30 days. | Controls narrative but not the oil price. Domestic gas prices already spiking. |
-| <span style="color: #3498db;">**Israel**</span> | Iran implodes. Regional threat eliminated permanently. | No direct energy stake — but Gulf allies are furious. |
-| <span style="color: #e74c3c;">**Iran**</span> | Survive. Drag it out. Make the cost unbearable. | Strait of Hormuz is the weapon. Close it = global recession. |
-| <span style="color: #f39c12;">**Saudi Arabia / Gulf States**</span> | Don’t get hit. Stay neutral. Protect oil infrastructure. | Iranian drones already struck airports, hotels, oil installations. Their worst nightmare. |
-| <span style="color: #f39c12;">**China**</span> | Stability. Buys 90% of Iran’s oil exports. | 40% of China’s oil imports transit Hormuz. Acute supply risk. |
-| <span style="color: #95a5a6;">**Europe**</span> | Was told “minutes” before strikes began. Struggling to be heard. | LNG from Qatar = 20% of global supply, now disrupted. |
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# The Chain Effect
-
-<div style="font-size: 1.5em; line-height: 1.8;">
-
-**Step 1:** Strait of Hormuz closes → 31% of global seaborne crude halts
-
-**Step 2:** Oil supertanker rates hit all-time high (<span style="color: #e74c3c;">**\$424,000/day**</span>, up 94%)
-
-**Step 3:** Insurers cancel war-risk cover in the Gulf → shipping freezes
-
-**Step 4:** Qatar LNG facilities hit → <span style="color: #e74c3c;">**20% of global LNG supply**</span> offline
-
-**Step 5:** Asia absorbs the pain — 70% of Hormuz crude goes to China, India, Japan, South Korea
-
-**Step 6:** Thailand tells citizens not to panic-buy fuel. Pakistan and Bangladesh face blackouts.
-
-</div>
-
-<div style="font-size: 1.3em; margin-top: 20px; font-style: italic;">
-
-One chokepoint. One week. The entire global energy system shudders.
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content background-slide dark-background
-background: "#1a1a2e"
----
-
-<div style="font-size: 2.2em; color: white; line-height: 1.6;">
-
-Where is Hong Kong in this chain?
-
-</div>
-
-<div style="font-size: 1.6em; color: #e74c3c; margin-top: 30px; font-weight: bold;">
-
-90% of HK’s electricity comes from fossil fuels.
-
-How much of that fuel transits the Strait of Hormuz?
-
-</div>
-
-<div style="font-size: 1.4em; color: #95a5a6; margin-top: 30px;">
-
-The built environment from Week 5 doesn’t just trap heat. It runs on a supply chain that passes through a war zone.
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# Why This Belongs in a Capitalism Lecture
-
-<div style="font-size: 1.5em; line-height: 1.8;">
-
-Every concept from today is in this story:
-
-| This Week’s Concept | Where It Shows Up |
-|----|----|
-| **Structural Incentives** | Every player acts rationally — the outcome is catastrophic |
-| **Tragedy of the Commons** | The Strait of Hormuz is the ultimate commons |
-| **Carbon Pricing** | Your carbon tax is meaningless when oil jumps 9% overnight |
-| **Disaster Capitalism** | Oil companies and arms manufacturers profit from the crisis |
-| **Energy → Capital → War** | The chain we traced from campfire ends here |
-
-</div>
-
-<div style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;">
-
-The market doesn’t solve this. The market **is** this.
-
-</div>
-
----
-layout: section
-class: converted-slide section-slide green-slide
-level: 1
-title: "Building Your Economic Spectacle"
-routeAlias: building-your-economic-spectacle
-menuDetail: "Lecture section"
----
-
-# Building Your Economic Spectacle
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# The Formula (Reminder)
-
-<div style="font-size: 1.8em; line-height: 1.8;">
-
-**Fact** + **Human Story** + **Stakes** = **Spectacle**
-
-</div>
-
-<div style="display: flex; justify-content: space-around; margin-top: 50px;">
-
-<div style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.2em; font-weight: bold;">
-
-Weak
-
-</div>
-
-“Capitalism causes emissions”
-
-</div>
-
-<div style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.2em; font-weight: bold;">
-
-Better
-
-</div>
-
-“100 companies produce 71% of global emissions”
-
-</div>
-
-<div style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.2em; font-weight: bold;">
-
-Spectacle
-
-</div>
-
-“While you recycle, Shell knew about climate change in 1988 and spent millions denying it”
-
-</div>
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# PRO-CLIMATE: Make It Personal
-
-<div style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;">
-
-**Don’t say:** “Carbon pricing has limitations.”
-
-**Say:** “They want you to pay more for petrol while ExxonMobil gets tax breaks. You’re being charged for their mess.”
-
-**Don’t say:** “We need systemic change.”
-
-**Say:** “Your grandfather could afford a house on one salary. You can’t afford rent on two. That’s not laziness — that’s a system extracting everything from you.”
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# PRO-DEVELOPMENT: Paint the Picture
-
-<div style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;">
-
-**Don’t say:** “Markets drive innovation.”
-
-**Say:** “In 2010, solar cost \$378/MWh. Today: \$36. That’s not government mandates — that’s competition. Capitalism did that.”
-
-**Don’t say:** “We need economic growth.”
-
-**Say:** “My grandmother grew up without electricity in rural China. Capitalism gave her grandchildren air conditioning, smartphones, and choices. Don’t take that away in the name of the planet.”
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# What If the New Model Is Wrong?
-
-<div style="font-size: 1.4em; line-height: 1.8;">
-
-Think Tesla. <span style="color: #e67e22;">*(If you have to.)*</span>
-
-What happens if we switch to a new economic model and it fails?
-
-| Risk | What Goes Wrong |
-|----|----|
-| **Economic Slowdown** | Growth stalls, jobs disappear |
-| **Investment Displacement** | Capital moves to the wrong sectors |
-| **Innovation Misdirection** | We solve the wrong problem (e.g. biofuels → deforestation) |
-| **Cost of Living** | Carbon tax reflected in daily expenses |
-| <span style="color: #e74c3c;">**Energy Insecurity**</span> | <span style="color: #e74c3c;">One military strike closes the Strait of Hormuz — 15M barrels/day vanish</span> |
-| **Inequality** | Transition costs fall on those who can’t afford them |
-
-</div>
-
-<div style="font-size: 1.3em; margin-top: 20px; font-style: italic;">
-
-The risk of changing is real. But so is the risk of not changing.
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# This Week’s Debate Motion
-
-<div style="font-size: 2em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;">
-
-**“This house believes that Hong Kong should impose a mandatory carbon tax on all businesses to fund its 2050 carbon neutrality target.”**
-
-</div>
-
-<div style="font-size: 1.3em; margin-top: 30px; text-align: center;">
-
-PRO-CLIMATE: Make polluters pay — structural change requires structural funding.
-
-PRO-DEVELOPMENT: A carbon tax will kill HK’s competitiveness — innovation, not taxation, drives change.
-
-</div>
-
----
-layout: section
-class: converted-slide section-slide black-slide
-level: 1
-title: "Activity: Economic Futures Debate"
-routeAlias: activity-economic-futures-debate
-menuDetail: "Lecture section"
----
-
-# Activity: Economic Futures Debate
-
----
-layout: default
-class: converted-slide legacy-content
-zoom: 0.92
----
-
-# Create Your Persona
-
-<div class="columns">
-
-<div class="column" width="48%">
-
-<div style="background: #e8f5e9; padding: 20px; border-radius: 10px; font-size: 1.1em;">
-
-**Lean PRO-CLIMATE?** Try being a…
-
-<v-clicks>
-
-- Labour union organiser fighting for just transition
-- Economist advocating degrowth
-- Community activist in a polluted industrial zone
-- Youth climate striker
-
-</v-clicks>
-
-</div>
-
-</div>
-
-<div class="column" width="4%">
-
-</div>
-
-<div class="column" width="48%">
-
-<div style="background: #e3f2fd; padding: 20px; border-radius: 10px; font-size: 1.1em;">
-
-**Lean PRO-DEVELOPMENT?** Try being a…
-
-<v-clicks>
-
-- Hong Kong business owner worried about regulations
-- Developing-nation finance minister
-- Tech entrepreneur building “green” startups
-- Traditional economist focused on GDP growth
-
-</v-clicks>
-
-</div>
-
-</div>
-
-</div>
-
-<div style="font-size: 1.3em; font-style: italic; margin-top: 25px; text-align: center;">
-
-Ask yourself: **What do I stand to lose?** That’s where your story begins.
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# Human Story: The Shenzhen Factory Worker
-
-<div style="font-size: 1.4em; line-height: 1.8;">
-
-**Mei Li** worked 12-hour shifts making electronics for \$400/month. Her factory was shut down for “environmental violations.”
-
-**PRO-CLIMATE says:** “Finally! That factory was poisoning the river. Workers like Mei deserve clean air.”
-
-**PRO-DEVELOPMENT says:** “Mei lost her job. Her family went hungry. Now she begs on the street. Was the clean river worth it?”
-
-**The real question:** How do we transition without leaving Mei behind?
-
-</div>
-
-<div style="font-size: 1.3em; margin-top: 30px; color: #7f8c8d;">
-
-*Both narratives are emotionally powerful. Both are incomplete. Your job: Find the fuller story.*
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# Group Assignment Time!
+# Group assignment
 
 <GroupAssignment roles="Finance/Banking|Labour/Workers&#x27; Rights|Policy/Government|Small Business/Entrepreneurs|Environmental Advocacy|Consumer/General Public" />
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide w6-outline
+routeAlias: inhabit-the-role
 ---
 
-# Presentation Countdown
+# Give your role something to care about
+
+- **A responsibility:** what does someone in your assigned vocation have to look after?
+- **A stake:** what do you want to protect or change?
+- **A condition:** what would make this proposal workable for you?
+- **Some evidence:** use a sourced fact or real case from your existing preparation.
+
+<p class="w6-takeaway">Your character can be fictional. Make clear which details are imagined and which are evidence.</p>
+
+
+
+
+
+---
+layout: default
+class: w6-slide w6-outline
+routeAlias: choose-a-listener
+---
+
+# Choose the person you need to reach
+
+- **Name your listener:** a councillor, employer, worker, customer or another role in the room.
+- **Find their question:** what do they need to know? Check your assumption with someone playing that role.
+- **Make an ask:** what action, condition or commitment do you want them to consider?
+
+<p class="w6-takeaway">Lead with a concern your listener can recognise. Keep the claim and evidence accurate.</p>
+
+
+
+
+
+---
+layout: default
+class: w6-slide
+routeAlias: highlight-your-draft
+level: 1
+title: "Turn your draft into speaking notes"
+menuDetail: "From a written draft to role-play"
+---
+# Turn your draft into speaking notes
+
+<p class="w6-lead">Reuse what you have already written in your weekly entry.</p>
+<div class="w6-two">
+  <div class="w6-card w6-highlight-key"><h2>Highlighted sentences to cover</h2><p>Mark the sentences your listener needs to hear: your position, essential evidence and the action you are asking for.</p><p>Leave the rest as context you can explain in your own words.</p></div>
+  <div class="w6-card w6-slogan-key"><h2>Slogan to communicate well</h2><p>Choose one short line that carries your point.</p><p>Mark where to pause, look up and give that line emphasis. Make sure the evidence supports it.</p></div>
+</div>
+<p class="w6-note">Keep your notes available. Glance at a highlight, look up, and speak to your listener. Use the same weekly entry.</p>
+
+<!--
+This is a delivery aid, not a new submission, word limit, memorisation requirement or marking criterion. Give students permission to keep the draft as support. The aim is to select what needs emphasis so they can address another person and respond in character. Existing research and reflection requirements remain unchanged.
+-->
+
+---
+layout: default
+class: w6-slide w6-draft
+routeAlias: highlighted-example
+---
+
+# Keep the draft. Highlight what must land.
+
+<div class="w6-kicker">FICTIONAL ROLE-PLAY · CAFÉ OWNER ADDRESSING A COUNCILLOR</div>
+<div class="w6-cue-sheet">
+  <p>Councillor, I run a small café in this neighbourhood. Before we open, the fridge is already running, the oven needs heating and the coffee machine is warming up. These are ordinary parts of serving breakfast. I cannot simply turn everything off when the electricity bill rises.</p>
+  <p>That does not mean I want the climate problem passed on to somebody else. <mark class="w6-essential">I could support the carbon tax if small cafés get practical help to reduce energy use.</mark> Replacing equipment takes money up front. I need to know whether a loan is manageable, whether the landlord will allow changes, and whether installation means closing the shop.</p>
+  <p>From your perspective, the tax changes incentives. From mine, the question is what I can change before another payment is due. <mark class="w6-essential">Tell us what support we can apply for and when it will arrive.</mark> Then I can plan the next step with my staff and decide what the café can commit to. <mark class="w6-slogan">Make the greener choice a workable choice.</mark></p>
+</div>
+<div class="w6-legend"><span><i class="w6-essential"></i>Essential sentences</span><span><i class="w6-slogan"></i>Slogan: pause and emphasise</span></div>
+<p class="w6-source">Fictional illustration. Bring sourced evidence from your own research; the suggested support is a proposal.</p>
+
+<!--
+Use the full draft to demonstrate selection. The ordinary text supplies a role, a daily situation and constraints; it remains available as context when a listener asks a question. The two yellow sentences carry the conditional position and the concrete request. The green sentence is the line to emphasise.
+First give students a moment to see how much is written. Then model speaking from the highlights, looking up and adding only the context the listener needs. Do not read every sentence with equal emphasis or ask students to memorise the draft. A highlight is a cue, not a requirement to reproduce those exact words. Nothing here adds a submission or assessment criterion.
+The speaker and café are fictional. This example makes no factual claim that a support scheme exists; students should add evidence from their own preparation when developing their own roles.
+-->
+
+---
+layout: default
+class: w6-slide w6-outline
+routeAlias: rehearse-in-role
+---
+
+# Try it with a listener
+
+<div class="w6-kicker">PAIRED REHEARSAL · ABOUT ONE MINUTE EACH</div>
+
+- **Speak from your highlights.** Address your partner in role. Make your point, your ask and your slogan clear.
+- **Hear what came across.** Your partner replies: “I heard you asking me to…” Then asks one question in character.
+- **Respond and switch.** Answer as your role; adjust a highlight if the important point was missed.
+
+<p class="w6-takeaway">Let the other person’s response shape what you say next.</p>
+
+
+
+<!--
+The minute is a short paired practice, not a change to the normal presentation allocation. Allow roughly three minutes including feedback and switching. Notes remain welcome. Invite a light, conversational exchange; no costume, accent or theatrical performance is required.
+-->
+
+---
+layout: default
+class: w6-slide
+routeAlias: debate-timer
+---
+# Economic futures debate
 
 <CountdownTimer :seconds="300" />
+<p class="w6-note">Keep your highlighted notes nearby. Address a listener, make your point and respond in role.</p>
+
+<!--
+This retains the existing five-minute presentation countdown. Use the usual class format and presentation allocation. The preceding one-minute exercise is a rehearsal only.
+-->
 
 ---
-layout: section
-class: converted-slide section-slide cobalt-slide
+layout: default
+class: w6-slide w6-outline
+routeAlias: what-landed
 level: 1
-title: "The Persuasion Playbook | Strategy #5"
-routeAlias: the-persuasion-playbook-strategy-5
-menuDetail: "Lecture section"
+title: "What reached your listener?"
+menuDetail: "Return to the communication problem"
 ---
 
-# The Persuasion Playbook | Strategy #5
+# What reached your listener?
 
----
-layout: default
-class: converted-slide legacy-content
----
+- **Speaker:** what did you most want the other person to understand or do?
+- **Listener:** which sentence stayed with you? What question still needed an answer?
+- **Both:** what assumption about the other person would you change?
 
-# The Specificity Illusion
+<p class="w6-takeaway">Use what the listener actually says to assess whether your meaning arrived.</p>
 
-<div style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;">
 
-Which is more believable?
 
-A: *“The project will take a few weeks.”*
 
-B: *“The project will take 17 days.”*
-
-**B. Always B.** Even if both are equally made up.
-
-</div>
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide w6-outline
+routeAlias: an-agreement-that-could-work
 ---
 
-# The Science
+# Return to the commons
 
-<div style="font-size: 1.4em; line-height: 1.8;">
+<p class="w6-lead">Different roles have heard each other. What agreement could they make?</p>
 
-This is the **Specificity Heuristic**.
+- **Shared outcome:** what would each role gain from cooperation?
+- **Workable contribution:** who would act or pay, with what support or compromise?
+- **Credible commitment:** what rule or check would help them trust that others will follow through?
 
-The brain uses detail as a proxy for credibility. Specific = precise = probably measured = probably true.
+<p class="w6-takeaway">If agreement remains difficult, identify the unresolved interest or constraint.</p>
 
-Con artists and skilled liars know this: add irrelevant detail and people stop questioning.
 
-*“I was at the corner of 5th and Main at 3:47pm”* beats *“I was downtown that afternoon.”*
 
-</div>
 
----
-layout: default
-class: converted-slide legacy-content
----
-
-# You Just Saw It
-
-<div style="font-size: 1.6em; line-height: 1.8;">
-
-Arguments that landed today had **unnecessary precision**:
-
-<v-clicks>
-
-- Not “lots of energy” → “415 TWh”
-- Not “many people” → “240 million people”
-- Not “recently” → “March 2024”
-
-</v-clicks>
-
-The detail signals: *I didn’t make this up.*
-
-</div>
 
 ---
 layout: default
-class: converted-slide legacy-content
+class: w6-slide
+routeAlias: next-time
 ---
+# Take one listener’s question forward
 
-# Next Week’s Challenge
+<p class="w6-question">What did your listener need that your first draft did not make clear?</p>
+<p class="w6-lead">Use that question to improve your next weekly entry or presentation.</p>
+<div class="w6-takeaway">Keep the research. Reconsider the emphasis, the explanation and, when needed, the proposal.</div>
 
-<div style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;">
-
-**Replace every vague word with a specific number, date, or name.**
-
-Even if no one checks — they’ll believe you more.
-
-</div>
+<!--
+This is a reflection prompt for the normal weekly work, not an additional deliverable. It replaces the former numbered specificity-illusion strategy and its instruction to add precision merely to sound believable.
+-->
 
 ---
 layout: section
 class: converted-slide section-slide orange-slide
 level: 1
-title: "Appendix: Reference Materials"
-routeAlias: appendix-reference-materials
-menuDetail: "Lecture section"
+title: "Further reading & reference"
+routeAlias: reference-materials
+menuDetail: "Optional material"
 ---
-
-# Appendix: Reference Materials
+# Further reading & reference
 
 ---
 layout: default
 class: converted-slide legacy-content smaller
 ---
-
 # Recommended Reading
 
 <div style="font-size: 1.2em; line-height: 1.6;">
@@ -1254,7 +725,7 @@ class: converted-slide legacy-content smaller
 | Book | Author | Why It Matters |
 |----|----|----|
 | *Wealth of Nations* | Adam Smith | The founding text |
-| *The Communist Manifesto* | Karl Marx | The founding critique |
+| *The Communist Manifesto* | Karl Marx &amp; Friedrich Engels | The founding critique |
 | *The Constitution of Liberty* | Friedrich Hayek | The market conservative response |
 | *A Farewell to Alms* | Gregory Clark | Capitalism: more and better? |
 | *The Mystery of Capital* | Hernando de Soto | Why property rights precede development |
@@ -1266,121 +737,93 @@ class: converted-slide legacy-content smaller
 
 ---
 layout: default
-class: converted-slide legacy-content smaller
+class: w6-slide
+routeAlias: capital-vocabulary
+---
+# Capital and economic alternatives
+
+<table class="w6-table">
+  <thead><tr><th>Concept</th><th>Working meaning</th></tr></thead>
+  <tbody>
+    <tr><td>Capital</td><td>Assets or funding committed to production and future returns.</td></tr>
+    <tr><td>Capitalism</td><td>Production organised substantially through private ownership, markets and profit.</td></tr>
+    <tr><td>Surplus value</td><td>In Marx’s account, value created by labour beyond the value paid in wages, appropriated by capital.</td></tr>
+    <tr><td>Mixed economy</td><td>An economy combining markets with public provision, ownership or regulation.</td></tr>
+    <tr><td>Post-growth</td><td>Approaches that put wellbeing and ecological limits ahead of dependence on GDP growth.</td></tr>
+  </tbody>
+</table>
+
+---
+layout: default
+class: w6-slide
+routeAlias: key-vocabulary
+---
+# Key vocabulary
+
+<table class="w6-table">
+  <thead><tr><th>Concept</th><th>Question to bring to the debate</th></tr></thead>
+  <tbody>
+    <tr><td>Incentive</td><td>What makes an action attractive or costly to this actor?</td></tr>
+    <tr><td>External cost</td><td>Who bears a cost outside the transaction?</td></tr>
+    <tr><td>Commons</td><td>How is a shared resource used, and who governs that use?</td></tr>
+    <tr><td>Free-riding</td><td>Who benefits from cooperation without contributing much?</td></tr>
+    <tr><td>Collective action</td><td>What helps people coordinate contributions toward a shared outcome?</td></tr>
+  </tbody>
+</table>
+
+---
+layout: default
+class: w6-slide
+routeAlias: commons-video
+---
+# Optional: the commons in a short video
+
+<div class="converted-video"><iframe src="https://www.youtube.com/embed/CxC161GvMPc" title="TED-Ed: What is the tragedy of the commons?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<p class="w6-source">TED-Ed · What is the tragedy of the commons? Watch for the resource, the incentive and the rules.</p>
+
+---
+layout: default
+class: w6-slide w6-outline
+routeAlias: evidence-and-role-play
 ---
 
-# Key Vocabulary
+# Keep the evidence clear
 
-<div style="font-size: 1.3em; line-height: 1.8;">
+- **Factual claims:** keep the original source, its date and the relevant context in your notes.
+- **Numbers and uncertainty:** use figures you can support; explain what remains uncertain.
+- **Fictional roles:** make invented character details recognisable as role-play.
+- **Slogans:** preserve the meaning and limits of the evidence.
 
-| Concept | Thinker | Core Idea |
-|----|----|----|
-| **Capitalist Realism** | Fredric Jameson | Capitalism is the only viable system; alternatives are unimaginable |
-| **Disaster Capitalism** | Naomi Klein | Exploitation of crises for profit |
-| **Surveillance Capitalism** | Shoshana Zuboff | Using technology to monitor and control for profit |
-| **Zero Marginal Cost Society** | Jeremy Rifkin | Technology makes goods virtually free → post-scarcity |
-| **Green New Deal** | Various | Transition to carbon-neutral while promoting social justice |
+<p class="w6-takeaway">Help your listener distinguish evidence, interpretation and proposal.</p>
 
+
+
+
+
+---
+layout: default
+class: w6-slide
+routeAlias: sources
+---
+# Sources for the commons connection
+
+<div class="w6-references">
+  <p><a href="https://www.nobelprize.org/prizes/economic-sciences/2009/press-release/" target="_blank" rel="noopener">Royal Swedish Academy of Sciences (2009): Economic Sciences Prize.</a><br>Ostrom’s findings on institutions, conflicts of interest and the governance of common resources.</p>
+  <p><a href="https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/164465-ostrom-williamson-interview-transcript/" target="_blank" rel="noopener">Ostrom and Williamson (2009): Nobel interview transcript.</a><br>Ostrom discusses communication in common-resource experiments.</p>
+  <p><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-5/" target="_blank" rel="noopener">IPCC AR6 WGIII (2022), Chapter 5</a> and <a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-14/" target="_blank" rel="noopener">Chapter 14.</a><br>Motivation and capacity to act; international cooperation and the global commons.</p>
+  <p><a href="https://documents.worldbank.org/curated/en/728421535605566659/pdf/129668-V1-WP-PUBLIC-Carbon-Tax-Guide-Main-Report.pdf" target="_blank" rel="noopener">World Bank: Carbon Tax Guide — A Handbook for Policy Makers.</a><br>Carbon taxes, emissions trading and policy-design choices.</p>
 </div>
 
 ---
 layout: default
-class: converted-slide legacy-content smaller
+class: w6-slide
+routeAlias: economics-sources
 ---
+# Sources for the economics foundation
 
-# Cheatsheet: PRO-CLIMATE
-
-<div style="font-size: 1.3em; line-height: 1.8;">
-
-**Arguments for a Resilient HK Economy:**
-
-<v-clicks>
-
-- **Green tech startups** — foster a competitive market for renewable energy
-- **Circular economy models** — test sustainable business practices in HK
-- **Public-private partnerships** — leverage private capital for smart city initiatives
-- **Progressive regulation** — environmental rules that encourage (not punish) innovation
-- **Carbon pricing** — incentivise low-carbon operations
-- **Community-led initiatives** — public awareness + local sustainability projects
-
-</v-clicks>
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content smaller
----
-
-# Cheatsheet: PRO-DEVELOPMENT
-
-<div style="font-size: 1.3em; line-height: 1.8;">
-
-**Arguments for HK’s Economic Stability:**
-
-<v-clicks>
-
-- **Growth first** — maintain a business-friendly environment, ensure job security
-- **Proven strategies only** — avoid untested models that risk market disruption
-- **Minimal regulation** — voluntary corporate sustainability, not mandates
-- **Cost-benefit analysis** — evaluate green initiatives on ROI, protect SMEs
-- **Incremental improvements** — gradual energy efficiency gains, low-risk green projects
-
-</v-clicks>
-
-</div>
-
----
-layout: default
-class: converted-slide legacy-content
----
-
-# Fact-Check Guide
-
-<div style="display: flex; justify-content: space-around; margin-top: 30px;">
-
-<div style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.5em; font-weight: bold;">
-
-OK to Say
-
-</div>
-
-<div style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;">
-
-<v-clicks>
-
-- “Shell knew about climate change in 1988” *(documented)*
-- “Solar costs dropped 89% since 2010” *(IEA data)*
-- “Bhutan measures Gross National Happiness” *(policy fact)*
-
-</v-clicks>
-
-</div>
-
-</div>
-
-<div style="text-align: left; width: 45%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;">
-
-<div style="font-size: 1.5em; font-weight: bold;">
-
-NOT OK
-
-</div>
-
-<div style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;">
-
-<v-clicks>
-
-- “Capitalism has killed millions” *(vague, unverifiable)*
-- “Green policies destroy all jobs” *(exaggeration)*
-- “Degrowth will solve everything” *(unfounded claim)*
-
-</v-clicks>
-
-</div>
-
-</div>
-
+<div class="w6-references w6-compact-references">
+  <p><a href="https://www.imf.org/external/pubs/ft/fandd/2015/06/basics.htm" target="_blank" rel="noopener">Jahan &amp; Mahmud (2015) · What Is Capitalism?</a><br>Ownership, markets, profit and institutional variation.</p>
+  <p><a href="https://www.marxists.org/archive/marx/works/1867-c1/ch07.htm" target="_blank" rel="noopener">Marx · Capital, Volume I, Chapter 7.</a><br>Labour, production and surplus value.</p>
+  <p><a href="https://www.themorgan.org/archives/300475" target="_blank" rel="noopener">The Morgan Library &amp; Museum · Steichen’s portrait.</a> · <a href="https://www.federalreservehistory.org/essays/panic-of-1907" target="_blank" rel="noopener">Federal Reserve History · The Panic of 1907.</a><br>The image and the financier’s role in mobilising emergency credit.</p>
+  <p><a href="https://bhutanstudies.org.bt/wp-content/uploads/2025/01/2022-GNH-Survey-Report_compressed.pdf" target="_blank" rel="noopener">Bhutan’s GNH Survey</a> · <a href="https://www.treasury.govt.nz/sites/default/files/2019-05/b19-wellbeing-budget.pdf" target="_blank" rel="noopener">NZ Wellbeing Budget 2019</a> · <a href="https://www.mondragon-corporation.com/people/site/assets/files/103207/annual-report-2021.pdf" target="_blank" rel="noopener">Mondragon 2021</a><br>Named examples; further institutional sources are linked on their slides.</p>
 </div>
