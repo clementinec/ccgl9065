@@ -805,19 +805,141 @@ W7GroupAssignment.init();
 
 ## Presentation Countdown
 
+```{=html}
+<style>
+  #w7timer {
+    font-size: 348px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    transition: color 0.6s ease;
+  }
+  #w7timer.w7timer-flash { animation: w7timer-pop 0.6s ease; }
+  @keyframes w7timer-pop {
+    0%   { transform: scale(1); }
+    40%  { transform: scale(1.06); }
+    100% { transform: scale(1); }
+  }
+  #w7timer-label { font-size: 40px; color: #7f8c8d; margin-bottom: 30px; min-height: 1.4em; }
+  .w7timer-btn { font-size: 24px; padding: 15px 30px; color: white; border: none; border-radius: 8px; cursor: pointer; margin: 0 5px; }
+  .w7timer-btn:disabled { opacity: 0.6; cursor: default; }
+  #w7start-button { background-color: #27ae60; }
+  #w7pause-button { background-color: #f39c12; }
+  #w7reset-button { background-color: #e74c3c; }
+  #w7timer-legend { display: flex; justify-content: center; gap: 28px; margin-top: 36px; font-size: 26px; color: #2c3e50; }
+  #w7timer-legend span { display: inline-flex; align-items: center; gap: 8px; }
+  #w7timer-legend i { display: inline-block; width: 22px; height: 22px; border-radius: 50%; }
+</style>
+
 <div id="w7timer-container" style="text-align: center;">
-  <div id="w7timer" style="font-size: 348px; color: black; margin-bottom: 20px;">05:00</div>
-  <button id="w7start-button" style="font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #27ae60; color: white; border: none; border-radius: 8px;" onclick="w7startTimer()">Start 5:00</button>
-  <button id="w7reset-button" style="font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #e74c3c; color: white; border: none; border-radius: 8px; margin-left: 10px;" onclick="w7resetTimer()">Reset</button>
+  <div id="w7timer">05:00</div>
+  <div id="w7timer-label"></div>
+  <button id="w7start-button" class="w7timer-btn">Start 5:00</button>
+  <button id="w7pause-button" class="w7timer-btn" disabled>Pause</button>
+  <button id="w7reset-button" class="w7timer-btn">Reset</button>
+  <div id="w7timer-legend"></div>
 </div>
 
 <script>
-let w7timeLeft = 300; let w7timerInterval = null;
-function w7updateDisplay(){const m=Math.floor(w7timeLeft/60);const s=w7timeLeft%60;document.getElementById('w7timer').textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');document.getElementById('w7timer').style.color=w7timeLeft<=30?'#e74c3c':'black';}
-function w7startTimer(){if(w7timerInterval)return;w7timerInterval=setInterval(()=>{if(w7timeLeft>0){w7timeLeft--;w7updateDisplay();}else{clearInterval(w7timerInterval);w7timerInterval=null;}},1000);}
-function w7resetTimer(){clearInterval(w7timerInterval);w7timerInterval=null;w7timeLeft=300;w7updateDisplay();}
-w7updateDisplay();
+(function () {
+  const TOTAL = 300; // 5 minutes
+  // One colour per minute, as on countdown_colors.qmd:
+  // 5:00–4:01 slate, 4:00–3:01 blue, 3:00–2:01 green, 2:00–1:01 orange, final minute red.
+  const BAND_COLORS = ['#2c3e50', '#2980b9', '#27ae60', '#f39c12', '#e74c3c'];
+  const DONE_COLOR = '#8e44ad'; // Time's up
+
+  const timerEl = document.getElementById('w7timer');
+  const labelEl = document.getElementById('w7timer-label');
+  const startBtn = document.getElementById('w7start-button');
+  const pauseBtn = document.getElementById('w7pause-button');
+  const resetBtn = document.getElementById('w7reset-button');
+  const legendEl = document.getElementById('w7timer-legend');
+
+  let timeLeft = TOTAL;
+  let deadline = 0;
+  let interval = null;
+  let currentBand = -1;
+
+  BAND_COLORS.forEach((c, i) => {
+    const s = document.createElement('span');
+    s.innerHTML = '<i style="background:' + c + '"></i>' + (BAND_COLORS.length - i) + ' min';
+    legendEl.appendChild(s);
+  });
+
+  // 300..241 -> 0, 240..181 -> 1, ..., 60..1 -> 4, 0 -> done
+  function bandFor(sec) {
+    return sec <= 0 ? BAND_COLORS.length : BAND_COLORS.length - Math.ceil(sec / 60);
+  }
+
+  function render(animate) {
+    const m = Math.floor(timeLeft / 60);
+    const s = timeLeft % 60;
+    timerEl.textContent = String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+
+    const band = bandFor(timeLeft);
+    if (band === currentBand) return;
+    currentBand = band;
+    if (band >= BAND_COLORS.length) {
+      timerEl.style.color = DONE_COLOR;
+      labelEl.textContent = "Time's up!";
+    } else {
+      const minsLeft = BAND_COLORS.length - band;
+      timerEl.style.color = BAND_COLORS[band];
+      labelEl.textContent = minsLeft === 1 ? 'Final minute' : minsLeft + ' minutes left';
+    }
+    if (animate) {
+      timerEl.classList.remove('w7timer-flash');
+      void timerEl.offsetWidth; // restart the pop animation
+      timerEl.classList.add('w7timer-flash');
+    }
+  }
+
+  function stop() {
+    clearInterval(interval);
+    interval = null;
+    pauseBtn.disabled = true;
+  }
+
+  function tick() {
+    // Count down from a deadline so a slow or throttled tab cannot stretch the five minutes.
+    timeLeft = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+    render(true);
+    if (timeLeft <= 0) {
+      stop();
+      startBtn.disabled = true;
+      startBtn.textContent = 'Done';
+    }
+  }
+
+  startBtn.addEventListener('click', () => {
+    if (interval || timeLeft <= 0) return;
+    deadline = Date.now() + timeLeft * 1000;
+    interval = setInterval(tick, 250);
+    startBtn.disabled = true;
+    startBtn.textContent = 'Running…';
+    pauseBtn.disabled = false;
+  });
+
+  pauseBtn.addEventListener('click', () => {
+    stop();
+    startBtn.disabled = false;
+    startBtn.textContent = 'Resume';
+  });
+
+  resetBtn.addEventListener('click', () => {
+    stop();
+    timeLeft = TOTAL;
+    currentBand = -1;
+    startBtn.disabled = false;
+    startBtn.textContent = 'Start 5:00';
+    render(false);
+  });
+
+  render(false);
+})();
 </script>
+```
 
 ---
 
