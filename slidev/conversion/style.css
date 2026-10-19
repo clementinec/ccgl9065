@@ -1,5 +1,6 @@
 @import '../../assets/fashion/lecture.css';
 @import './week6.css';
+@import './week7.css';
 
 :root {
   --slidev-transition-duration: 120ms;
