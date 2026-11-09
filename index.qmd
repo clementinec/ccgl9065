@@ -85,14 +85,14 @@ body-classes: course-home
       <a class="week-card" href="slides/conversion/week6/index.html"><span class="week-number">06</span><span class="week-topic">Economics &amp; incentives</span><span class="week-action">Open lecture →</span></a>
       <a class="week-card" href="CCGL9065_W7.html"><span class="week-number">07</span><span class="week-topic">Truth &amp; manufactured doubt</span><span class="week-action">Open lecture →</span></a>
       <a class="week-card" href="CCGL9065_W8.html"><span class="week-number">08</span><span class="week-topic">Oceans &amp; infrastructure</span><span class="week-action">Open lecture →</span></a>
-      <a class="week-card" href="slides/conversion/week9/index.html"><span class="week-number">09</span><span class="week-topic">Climate displacement</span><span class="week-action">Open lecture →</span></a>
+      <a class="week-card" href="W9.html"><span class="week-number">09</span><span class="week-topic">Climate displacement</span><span class="week-action">Open lecture →</span></a>
       <a class="week-card" href="CCGL9065_W10.html"><span class="week-number">10</span><span class="week-topic">Systems &amp; cascade effects</span><span class="week-action">Open lecture →</span></a>
       <a class="week-card" href="slides/conversion/week11/index.html"><span class="week-number">11</span><span class="week-topic">Space &amp; planetary futures</span><span class="week-action">Open lecture →</span></a>
     </div>
     <a class="conversion-review-band" href="slidev_conversion.html">
-      <span class="conversion-review-band__label">Archive · original Quarto decks</span>
-      <strong>Compare with the preserved originals</strong>
-      <span class="conversion-review-band__action">Open Quarto and current Slidev lectures side by side →</span>
+      <span class="conversion-review-band__label">Lecture archive · Quarto &amp; Slidev</span>
+      <strong>Compare current lectures with earlier versions</strong>
+      <span class="conversion-review-band__action">See which version is current for each week →</span>
     </a>
     <div class="supplement-row" aria-label="Supplementary strategy materials">
       <a class="supplement-link" href="W5_strategy.html">Week 5 strategy notes</a>

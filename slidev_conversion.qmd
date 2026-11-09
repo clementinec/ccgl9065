@@ -1,6 +1,6 @@
 ---
 title: "Lecture archive & comparison"
-subtitle: "Current Slidev lectures alongside the preserved Quarto originals."
+subtitle: "Current lectures and earlier versions in Quarto and Slidev."
 toc: false
 body-classes: conversion-review
 ---
@@ -8,11 +8,11 @@ body-classes: conversion-review
 ```{=html}
 <section class="conversion-intro" aria-labelledby="conversion-intro-heading">
   <p class="section-kicker">Course archive · 2026 refresh</p>
-  <h2 id="conversion-intro-heading">The Slidev lectures are now current.</h2>
-  <p>The weekly course links now open the Slidev decks. Every Quarto deck remains preserved here for reference and comparison, while the current Slidev decks are revised for teaching.</p>
+  <h2 id="conversion-intro-heading">Find the current version for each week.</h2>
+  <p>Weeks 7–10 use the revised Quarto lectures. The other weeks use Slidev. The homepage opens the current version; earlier versions remain available here for comparison.</p>
   <div class="conversion-key" aria-label="Comparison key">
-    <span><i class="conversion-key__old" aria-hidden="true"></i> Preserved Quarto</span>
-    <span><i class="conversion-key__new" aria-hidden="true"></i> Current Slidev</span>
+    <span><i class="conversion-key__old" aria-hidden="true"></i> Earlier version</span>
+    <span><i class="conversion-key__new" aria-hidden="true"></i> Current lecture</span>
   </div>
 </section>
 
@@ -73,37 +73,37 @@ body-classes: conversion-review
 
   <article class="conversion-row">
     <div class="conversion-week"><span>07</span><strong>Truth &amp; manufactured doubt</strong></div>
-    <p class="conversion-note">Direct conversion · 51 slides</p>
+    <p class="conversion-note">Current Quarto lecture · earlier Slidev version retained</p>
     <div class="conversion-actions">
-      <a class="conversion-link conversion-link--old" href="CCGL9065_W7.html"><span>Quarto</span>Open original</a>
-      <a class="conversion-link conversion-link--new" href="slides/conversion/week7/index.html"><span>Slidev</span>Open current</a>
+      <a class="conversion-link conversion-link--new" href="CCGL9065_W7.html"><span>Quarto</span>Open current</a>
+      <a class="conversion-link conversion-link--old" href="slides/conversion/week7/index.html"><span>Slidev</span>Open earlier version</a>
     </div>
   </article>
 
   <article class="conversion-row">
     <div class="conversion-week"><span>08</span><strong>Oceans &amp; infrastructure</strong></div>
-    <p class="conversion-note">Direct conversion · 88 slides</p>
+    <p class="conversion-note">Current Quarto lecture · earlier Slidev version retained</p>
     <div class="conversion-actions">
-      <a class="conversion-link conversion-link--old" href="CCGL9065_W8.html"><span>Quarto</span>Open original</a>
-      <a class="conversion-link conversion-link--new" href="slides/conversion/week8/index.html"><span>Slidev</span>Open current</a>
+      <a class="conversion-link conversion-link--new" href="CCGL9065_W8.html"><span>Quarto</span>Open current</a>
+      <a class="conversion-link conversion-link--old" href="slides/conversion/week8/index.html"><span>Slidev</span>Open earlier version</a>
     </div>
   </article>
 
   <article class="conversion-row">
     <div class="conversion-week"><span>09</span><strong>Climate displacement</strong></div>
-    <p class="conversion-note">Direct conversion · 69 slides</p>
+    <p class="conversion-note">Revised Quarto lecture · prolonged displacement, long-term support and the Tai Po debate</p>
     <div class="conversion-actions">
-      <a class="conversion-link conversion-link--old" href="W9.html"><span>Quarto</span>Open original</a>
-      <a class="conversion-link conversion-link--new" href="slides/conversion/week9/index.html"><span>Slidev</span>Open current</a>
+      <a class="conversion-link conversion-link--new" href="W9.html"><span>Quarto</span>Open current</a>
+      <a class="conversion-link conversion-link--old" href="slides/conversion/week9/index.html"><span>Slidev</span>Open earlier version</a>
     </div>
   </article>
 
   <article class="conversion-row">
     <div class="conversion-week"><span>10</span><strong>Systems &amp; cascade effects</strong></div>
-    <p class="conversion-note">Direct conversion · 63 slides</p>
+    <p class="conversion-note">Current Quarto lecture · Clarkson's Farm, chains, loops and cliffs · earlier versions retained</p>
     <div class="conversion-actions">
-      <a class="conversion-link conversion-link--old" href="W10.html"><span>Quarto</span>Open original</a>
-      <a class="conversion-link conversion-link--new" href="slides/conversion/week10/index.html"><span>Slidev</span>Open current</a>
+      <a class="conversion-link conversion-link--new" href="CCGL9065_W10.html"><span>Quarto</span>Open current</a>
+      <a class="conversion-link conversion-link--old" href="slides/conversion/week10/index.html"><span>Slidev</span>Open earlier version</a>
     </div>
   </article>
 

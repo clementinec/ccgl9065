@@ -119,18 +119,18 @@ format:
 ## Last Week, in One Slide
 
 ::: {style="font-size: 1.3em; line-height: 1.6;"}
-- **Responsibility asymmetry:** the people who suffer most from climate change did the least to cause it — the Carteret Islanders, the families arriving in Dhaka's slums.
-- **The sponge model fails.** Absorbing people without integrating them is warehousing, not rescue.
-- **System boundaries decide the answer.** Draw the line around the refugee and it's a shelter problem. Draw it around the system and it's a responsibility problem.
-- **The Tai Po question:** are the people displaced by the fire climate refugees? Where you drew that line said a lot about your frame.
+- **Responsibility is unequal:** historical emissions, exposure and the capacity to respond are unevenly distributed — Tuvalu, Dhaka, the Carteret Islands.
+- **The terms matter:** disaster displacement, climate attribution and refugee status answer different questions.
+- **Change the boundary, change the question:** a person or household, a community or city, the wider system. Each scale shows something the others miss.
+- **Tai Po:** evidence before classification. What the records establish, and what you would still need to assess a climate contribution.
 :::
 
 ::: {style="font-size: 1.3em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
-Asymmetry means the system is entangled. Pull one thread, **everything moves.** Today: how it moves.
+Displacement rarely ends with the first event. One pressure creates the next. **Today: how a system cascades.**
 :::
 
 ::: {style="font-size: 0.95em; color: #7f8c8d; margin-top: 24px;"}
-Last week's challenge: the Invisible Bandwagon — a local, specific "everyone here already does this." Who tried it?
+Last week's challenge: the Invisible Bandwagon — one verifiable statement about what a relevant group does, with its source. Who tried it?
 :::
 
 ::: {.notes}
@@ -1121,7 +1121,7 @@ Now you have the three shapes — and the labels to keep them honest:
   <div class="wk"><small>WEEK 6</small>Structural Incentives</div><div class="les">Every player acts rationally — the outcome is catastrophic.</div>
   <div class="wk"><small>WEEK 7</small>The Doubt Machine</div><div class="les">Accurate, nuanced facts can still be arranged to mislead.</div>
   <div class="wk"><small>WEEK 8</small>Invisible Infrastructure</div><div class="les">The ocean sink is slowing — the climate can speed itself up.</div>
-  <div class="wk last"><small>WEEK 9</small>Responsibility Asymmetry</div><div class="les last">The people who suffer most did the least to cause it.</div>
+  <div class="wk last"><small>WEEK 9</small>Responsibility Asymmetry</div><div class="les last">Emissions, exposure and resources are unequal. Who pays, and who chooses?</div>
   <div class="wk now fragment" data-fragment-index="1"><small>WEEK 10</small>Cascade Effects</div><div class="les now fragment" data-fragment-index="1">Chains, loops and cliffs: some forks are one-way doors.</div>
 </div>
 <div class="w10-next">Still to come: Week 11 Perspective — the Overview Effect</div>
@@ -1149,9 +1149,9 @@ Two minutes. Ask: which of these lenses did you use in today's debate? Week 6 (s
 <div class="w10-thread r fragment" data-fragment-index="1">
   <div class="t">2 · The climate can speed itself up</div>
   <div class="w10-chain">
-    <div class="step"><b>Week 5</b>A hotter city runs more air-con, which makes it hotter</div>
-    <div class="to">→</div>
     <div class="step"><b>Week 8</b>A warmer ocean absorbs less CO₂, which warms it more</div>
+    <div class="to">→</div>
+    <div class="step"><b>Week 9</b>Displacement creates further pressures; housing, services and policy shape what follows</div>
     <div class="to">→</div>
     <div class="step today"><b>Today</b>Chains, loops, cliffs — and a cliff we may have passed</div>
     <div class="to">→</div>
