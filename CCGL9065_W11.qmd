@@ -1,800 +1,1180 @@
 ---
-title: "CCGL9065: Our Response to Climate Change: HK2100"
-subtitle: "Space War, 1% of 1%, and Mars Colonization"
+title: "CCGL9065 · Week 11"
+subtitle: "Second Homes: Can We Build Elsewhere and Still Protect Earth?"
 author: Dr. Hongshan Guo and Class
-
 format:
   revealjs:
     slide-number: true
     theme: simple
     width: 1920
     height: 1200
-    preview-links: auto
+    preview-links: false
     embed-resources: true
-    incremental: true
+    incremental: false
     center: true
+    transition: fade
+    include-in-header:
+      text: |
+        <style>
+        /* Week 10 helpers (Week 8 recipe): evidence labels, sources, charts */
+        .reveal .slide > img.r-stretch { display: block; margin-left: auto; margin-right: auto; }
+        .reveal .w11-src { font-size: 0.6em; color: #7f8c8d; margin-top: 26px; line-height: 1.45; }
+        .reveal .w11-src a { color: inherit; text-decoration: underline; }
+        .reveal section.has-dark-background .w11-src { color: #a9b6bf; }
+        .reveal .w11-sub { font-size: 1.15em; color: #d6eaf8; line-height: 1.45; }
+        .reveal .w11-tag { display: inline-block; font-size: 0.5em; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.2em 0.6em; border-radius: 6px; color: #fff; vertical-align: middle; line-height: 1.3; white-space: nowrap; }
+        .reveal .w11-tag.settled { background: #1e8449; }
+        .reveal .w11-tag.emerging { background: #ca6f1e; }
+        .reveal .w11-tag.debated { background: #7d3c98; }
+        .reveal .w11-tag.newev { background: #1f618d; }
+        .reveal .w11-punch { font-size: 1.3em; font-weight: 700; color: #c0392b; margin-top: 28px; line-height: 1.4; }
+        .reveal .w11-hero-cap { font-size: 1.35em; text-align: center; color: #e6e6e6; font-style: italic; margin-top: 14px; }
+        .reveal .w11-hero-credit { font-size: 0.55em; text-align: center; color: #9a9a9a; margin-top: 6px; }
+        .reveal .w11-tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; margin-top: 10px; }
+        .reveal .w11-tile { background: #0a3d62; color: #fff; border-radius: 18px; padding: 34px 24px 30px; text-align: center; }
+        .reveal .w11-tile b { display: block; font-size: 2.6em; line-height: 1; color: #85c1e9; }
+        .reveal .w11-tile span { display: block; font-size: 0.8em; line-height: 1.35; margin-top: 16px; }
+        .reveal .w11-hbar { display: grid; grid-template-columns: 520px 1fr; align-items: center; gap: 28px; margin: 26px 0; text-align: left; }
+        .reveal .w11-hbar .lab { text-align: right; font-size: 0.85em; line-height: 1.25; }
+        .reveal .w11-hbar .lab small { display: block; font-size: 0.72em; color: #7f8c8d; }
+        .reveal .w11-hbar .track { display: flex; align-items: center; height: 80px; }
+        .reveal .w11-hbar .fill { height: 100%; display: flex; align-items: center; padding: 0 22px; color: #fff; font-weight: 800; font-size: 0.85em; white-space: nowrap; box-sizing: border-box; }
+        .reveal .w11-hbar .after { margin-left: 18px; font-weight: 800; font-size: 0.85em; color: #2c3e50; white-space: nowrap; }
+        .reveal .w11-sc-row { display: grid; grid-template-columns: 340px 1fr; align-items: center; gap: 26px; margin: 14px 0; text-align: left; }
+        .reveal .w11-sc-name { text-align: right; font-size: 0.78em; line-height: 1.2; }
+        .reveal .w11-sc-name small { display: block; font-size: 0.72em; color: #7f8c8d; }
+        .reveal .w11-sc-bar { display: flex; height: 84px; border-radius: 8px; overflow: hidden; }
+        .reveal .w11-sc-bar div { display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 0.8em; white-space: nowrap; }
+        .reveal .w11-sc-bar .air { background: #c0392b; }
+        .reveal .w11-legend { display: flex; gap: 40px; justify-content: center; font-size: 0.68em; margin-top: 12px; }
+        .reveal .w11-legend i { display: inline-block; width: 26px; height: 26px; border-radius: 5px; vertical-align: -4px; margin-right: 10px; }
+        .reveal .w11-cards { display: grid; gap: 28px; margin-top: 10px; }
+        .reveal .w11-card { border-radius: 18px; padding: 28px 30px; font-size: 0.88em; line-height: 1.42; text-align: left; }
+        .reveal .w11-card .k { font-size: 0.7em; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 800; opacity: 0.85; }
+        .reveal .w11-card .h { font-size: 1.35em; font-weight: 800; margin: 4px 0 12px; line-height: 1.2; }
+        .reveal .w11-chain { display: flex; align-items: stretch; margin-top: 24px; }
+        .reveal .w11-chain .step { flex: 1; background: #eaf2f8; border-radius: 16px; padding: 26px 24px; font-size: 0.8em; line-height: 1.4; text-align: left; }
+        .reveal .w11-chain .step b { display: block; color: #0a3d62; font-size: 1.1em; margin-bottom: 8px; }
+        .reveal .w11-chain .to { display: flex; align-items: center; padding: 0 12px; font-size: 1.5em; color: #c0392b; font-weight: 900; }
+        .reveal .w11-loop { display: grid; grid-template-columns: 1fr 330px 1fr; grid-template-rows: auto 170px auto; align-items: center; justify-items: center; max-width: 1560px; margin: 6px auto 0; }
+        .reveal .w11-loop .node { box-sizing: border-box; width: 100%; background: #fff; border: 6px solid #0a3d62; border-radius: 24px; padding: 26px 28px; text-align: center; font-size: 0.95em; line-height: 1.3; }
+        .reveal .w11-loop .node b { display: block; font-size: 1.15em; color: #0a3d62; margin-bottom: 6px; }
+        .reveal .w11-loop .node.hot { border-color: #c0392b; }
+        .reveal .w11-loop .node.hot b { color: #c0392b; }
+        .reveal .w11-loop .arr { font-size: 2.6em; font-weight: 900; color: #c0392b; line-height: 1; }
+        .reveal .w11-loop .hub { font-size: 0.9em; font-weight: 800; color: #c0392b; text-align: center; line-height: 1.3; padding: 0 10px; }
+        .reveal .w11-rows { display: grid; grid-template-columns: 360px 1fr 280px; gap: 26px 30px; align-items: center; margin-top: 10px; font-size: 1em; line-height: 1.4; text-align: left; }
+        .reveal .w11-rows .w11-tag { font-size: 0.75em; }
+        .reveal .w11-rows .eng { background: #0a3d62; color: #fff; border-radius: 14px; padding: 20px 22px; font-weight: 800; line-height: 1.2; }
+        .reveal .w11-rows .eng small { display: block; font-weight: 400; font-size: 0.75em; opacity: 0.85; margin-top: 4px; }
+        .reveal .w11-map { display: grid; grid-template-columns: 600px 1fr; gap: 14px 34px; align-items: center; margin: 10px 0 0; font-size: 0.82em; line-height: 1.3; text-align: left; }
+        .reveal .w11-map .wk { background: #eaecee; color: #2c3e50; border-radius: 12px; padding: 12px 22px; font-weight: 800; }
+        .reveal .w11-map .wk small { display: inline-block; width: 110px; font-size: 0.72em; letter-spacing: 0.08em; color: #7f8c8d; }
+        .reveal .w11-map .wk.last { background: #2c3e50; color: #fff; }
+        .reveal .w11-map .wk.now { background: #78281f; color: #fff; }
+        .reveal .w11-map .wk.last small, .reveal .w11-map .wk.now small { color: #f5d5d0; }
+        .reveal .w11-map .les.last { font-weight: 700; }
+        .reveal .w11-map .les.now { font-weight: 800; color: #78281f; }
+        .reveal .w11-next { font-size: 0.78em; color: #7f8c8d; text-align: center; margin-top: 28px; }
+        .reveal .w11-thread { text-align: left; margin-top: 26px; }
+        .reveal .w11-thread .t { font-size: 1em; font-weight: 800; margin: 0 0 12px 4px; }
+        .reveal .w11-thread .w11-chain { margin-top: 0; }
+        .reveal .w11-thread.p .t, .reveal .w11-thread.p .step b, .reveal .w11-thread.p .to { color: #6c3483; }
+        .reveal .w11-thread.p .step { background: #f4ecf7; }
+        .reveal .w11-thread.p .step.today { background: #6c3483; }
+        .reveal .w11-thread.r .t, .reveal .w11-thread.r .step b { color: #78281f; }
+        .reveal .w11-thread.r .step { background: #fdedec; }
+        .reveal .w11-thread.r .step.today { background: #78281f; }
+        .reveal .w11-thread .step.today, .reveal .w11-thread .step.today b { color: #fff; }
+        /* Week 10 additions: the £144 ledger, three shapes, tipping-point ranges */
+        .reveal .w11-big { font-size: 8.5em; font-weight: 900; line-height: 1; color: #f5b041; text-align: center; letter-spacing: -0.02em; }
+        .reveal .w11-kicker { font-size: 1.3em; color: #e6e6e6; text-align: center; line-height: 1.5; }
+        .reveal .w11-steps { display: grid; grid-template-columns: 74px 1fr 250px; gap: 18px 26px; align-items: center; max-width: 1640px; margin: 10px auto 0; text-align: left; font-size: 0.9em; line-height: 1.35; }
+        .reveal .w11-steps .n { width: 64px; height: 64px; border-radius: 50%; background: #145a32; color: #fff; font-weight: 900; display: flex; align-items: center; justify-content: center; font-size: 1.05em; }
+        .reveal .w11-steps .n.hot { background: #c0392b; }
+        .reveal .w11-steps .txt b { color: #145a32; }
+        .reveal .w11-steps .txt.hot b { color: #c0392b; }
+        .reveal .w11-steps .w11-tag { font-size: 0.62em; }
+        .reveal .w11-steps .when { font-size: 0.7em; color: #7f8c8d; text-align: right; }
+        .reveal .w11-ctrl { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 10px; text-align: left; }
+        .reveal .w11-ctrl > div { border-radius: 18px; padding: 30px 34px; font-size: 0.95em; line-height: 1.45; }
+        .reveal .w11-ctrl .k { font-size: 0.68em; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 800; opacity: 0.85; }
+        .reveal .w11-ctrl .h { font-size: 1.3em; font-weight: 800; margin: 4px 0 14px; }
+        .reveal .w11-ctrl ul { margin: 0; padding-left: 1.1em; }
+        .reveal .w11-tp { max-width: 1640px; margin: 6px auto 0; text-align: left; }
+        .reveal .w11-tp .row { display: grid; grid-template-columns: 430px 1fr; gap: 26px; align-items: center; margin: 12px 0; }
+        .reveal .w11-tp .lab { text-align: right; font-size: 0.78em; line-height: 1.2; }
+        .reveal .w11-tp .lab small { display: block; font-size: 0.72em; color: #7f8c8d; }
+        .reveal .w11-tp .track { position: relative; height: 58px; background: #f2f3f4; border-radius: 8px; }
+        .reveal .w11-tp .rng { position: absolute; top: 10px; bottom: 10px; border-radius: 19px; opacity: 0.35; }
+        .reveal .w11-tp .dot { position: absolute; top: 50%; width: 30px; height: 30px; margin: -15px 0 0 -15px; border-radius: 50%; border: 4px solid #fff; box-sizing: border-box; }
+        .reveal .w11-tp .now { position: absolute; top: -8px; bottom: -8px; width: 5px; margin-left: -2px; background: #2c3e50; }
+        .reveal .w11-tp .axis { position: relative; height: 40px; font-size: 0.6em; color: #7f8c8d; }
+        .reveal .w11-tp .axis span { position: absolute; transform: translateX(-50%); }
+        .reveal .w11-tp .axis span.nowlab { color: #2c3e50; font-weight: 800; }
 
+        .reveal .w11-lead { font-size: 1.28em; line-height: 1.5; max-width: 1620px; margin: 24px auto; }
+        .reveal .w11-question { font-size: 1.6em; line-height: 1.4; font-weight: 700; max-width: 1580px; margin: 40px auto; }
+        .reveal .w11-cards.two { grid-template-columns: repeat(2, 1fr); }
+        .reveal .w11-cards.three { grid-template-columns: repeat(3, 1fr); }
+        .reveal .w11-card { padding: 34px; font-size: 1.05em; }
+        .reveal .w11-card p { margin: 0; }
+        .reveal .w11-card.blue { background: #eaf2f8; color: #154360; }
+        .reveal .w11-card.green { background: #e9f7ef; color: #145a32; }
+        .reveal .w11-card.red { background: #fdedec; color: #78281f; }
+        .reveal .w11-card.purple { background: #f4ecf7; color: #6c3483; }
+        .reveal .w11-card.grey { background: #f2f3f4; color: #2c3e50; }
+        .reveal .w11-chain .step { font-size: 1em; padding: 30px; }
+        .reveal .w11-punch { font-size: 1.2em; text-align: center; }
+        .reveal .w11-hero { display: block; height: 650px; max-width: 95%; object-fit: contain; margin: 0 auto; }
+        .reveal .w11-hero.wide { width: 1700px; height: 510px; }
+        .reveal .w11-hero-credit { font-style: normal; font-size: 0.55em; }
+        .reveal .w11-hero-credit a { color: inherit; }
+        .reveal .w11-motion { background: #2c3e50; color: white; padding: 44px 50px; border-radius: 18px; font-size: 1.55em; font-weight: 700; line-height: 1.5; }
+        .reveal .w11-list { font-size: 1.18em; line-height: 1.55; max-width: 1650px; margin: 20px auto; text-align: left; }
+        .reveal .w11-list li { margin-bottom: 18px; }
+        .reveal .w11-role-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; text-align: left; }
+        .reveal .w11-role { background: #eaf2f8; border-radius: 14px; padding: 22px 26px; font-size: 0.94em; line-height: 1.35; }
+        .reveal .w11-role b { display: block; color: #154360; margin-bottom: 8px; }
+        .reveal .w11-role .num { color: #7f8c8d; font-size: 0.7em; text-transform: uppercase; letter-spacing: 0.08em; }
+        .reveal .w11-btn { font: inherit; font-size: 0.8em; border: 0; border-radius: 10px; color: #fff; background: #2471a3; padding: 18px 32px; margin: 24px 8px; cursor: pointer; }
+        .reveal .w11-btn:disabled { opacity: 0.6; cursor: default; }
+        .reveal .w11-table { font-size: 0.98em; line-height: 1.4; }
+        .reveal .w11-table td, .reveal .w11-table th { padding: 18px 24px; }
+        .reveal .w11-small { font-size: 0.83em; line-height: 1.45; }
+        .reveal .w11-number { font-size: 5.7em; color: #0a3d62; font-weight: 900; line-height: 1.1; }
+        .reveal .w11-sources { font-size: 0.85em; line-height: 1.45; text-align: left; }
+        .reveal .w11-sources li { margin-bottom: 18px; }
+        @media (prefers-reduced-motion: reduce) { .reveal * { animation: none !important; transition: none !important; } }
+        </style>
 ---
 
-# Last Week's Strategy: The Cliffhanger Return
+## They went to photograph the Moon. {background-color="#000000"}
 
----
+![](data/earthrise.jpg){.w11-hero fig-alt="Earth rising above the lunar horizon, photographed from Apollo 8."}
 
-## Quick Callback
-
-::: {style="font-size: 1.6em; line-height: 1.8;"}
-Last week's strategy: **The Cliffhanger Return**
-
-*Your last line should echo your first — transformed.*
-
-**Anyone try it?** Did you bookend your presentation by returning to your opening image or story?
+::: {.w11-hero-cap}
+Then Earth came into view.
 :::
-
----
-
-## Something You Took Away Last Week
-
-::: {style="font-size: 1.5em; line-height: 1.8;"}
-Week 10 gave you the full picture: **cascade effects and tipping points.**
-
-Wolves reintroduced to Yellowstone literally changed the course of rivers. The Aral Sea disappeared because of cotton. Permafrost holds 1,700 gigatonnes of carbon — twice what's in the atmosphere right now.
-
-Every climate decision is a fork. Some you can walk back. Some are one-way doors.
-:::
-
-::: {style="font-size: 1.4em; margin-top: 30px; font-weight: bold; color: #8e44ad;"}
-So what if you could see all of those connections at once? What if you could see Earth from *outside?*
-:::
-
----
-
-## Quick W10 Recap: Cascade Effects
-
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-Three things from last week you need to hold onto:
-
-**1. The decision tree** — every intervention forks the system onto a new path. Some forks are reversible (wolves came back). Some are one-way doors (Aral Sea is gone).
-
-**2. Feedback loops feed themselves** — permafrost → methane → warming → more thawing. Ice → dark water → heat → less ice. Once started, the system accelerates.
-
-**3. We're closer than you think** — the Amazon is 3% from a potentially irreversible tipping point. The question isn't whether to act. It's whether the door is still open.
-:::
-
-::: {style="font-size: 1.5em; margin-top: 25px; font-weight: bold; color: #c0392b;"}
-Now: zoom out. All the way out. What does the whole system look like from space?
-:::
-
----
-
-## From Cascade Effects → The View From Above
-
-::: {style="font-size: 1.5em; line-height: 1.8;"}
-Last week: *"Everything is connected — pull one thread, everything moves."*
-
-This week: *"What if perspective itself is the tool?"*
-
-**The Overview Effect.**
-
-Astronauts who see Earth from space report a permanent shift in how they think about borders, nations, and environmental destruction. They call it the Overview Effect.
-
-This is our final week. It's not an accident that we end here.
-:::
-
-::: {style="font-size: 1.3em; margin-top: 25px; background: #f0f0f0; padding: 20px; border-radius: 10px;"}
-Your full toolkit: Spectacle Formula → Complexity → System Boundaries → Timing → Built Environment → Structural Incentives → The Doubt Machine → Invisible Infrastructure → Responsibility Asymmetry → Cascade Effects → **Perspective.**
-:::
-
----
-
-## {background-color="#000000"}
-
-::: {style="text-align: center;"}
-![Earthrise — Apollo 8, December 24, 1968. The first photograph of Earth from lunar orbit. It changed how humanity saw itself.](data/earthrise.jpg){width="65%"}
-:::
-
-::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
-*"We came all this way to explore the Moon, and the most important thing is that we discovered the Earth." — Bill Anders*
-:::
-
----
-
-# This Week's Battlefield
-
----
-
-## Two Sides. Two Futures for Humanity.
-
-::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
-::: {style="text-align: center; width: 45%; background: #27ae60; color: white; padding: 50px; border-radius: 15px;"}
-::: {style="font-size: 2.5em; font-weight: bold;"}
-PRO-CLIMATE
-:::
-::: {style="font-size: 1.3em; margin-top: 20px;"}
-= Fix Earth First
-
-= "Space is escapism for billionaires"
-:::
-:::
-
-::: {style="text-align: center; width: 45%; background: #3498db; color: white; padding: 50px; border-radius: 15px;"}
-::: {style="font-size: 2.5em; font-weight: bold;"}
-PRO-DEVELOPMENT
-:::
-::: {style="font-size: 1.3em; margin-top: 20px;"}
-= Explore & Expand
-
-= "Humanity needs a backup plan"
-:::
-:::
-:::
-
----
-
-## The Core Tension
-
-::: {style="font-size: 1.6em; line-height: 1.8;"}
-| PRO-CLIMATE | PRO-DEVELOPMENT |
-|-------------|-----------------|
-| Fix problems here first | Innovation needs frontiers |
-| Resources for Earth | Investment in future tech |
-| Billionaire vanity projects | Human species survival |
-| Rocket emissions matter | Space tech benefits everyone |
-| One planet is enough | Don't put all eggs in one basket |
-
-**This tension defines debates about humanity's future.**
-:::
-
----
-
-# The New Space Race
-
----
-
-## {background-color="#000000"}
-
-::: {style="text-align: center;"}
-![SpaceX Falcon 9 launch — Vandenberg AFB, 2017. The new space race isn't between nations. It's between billionaires.](data/spacex_launch.jpg){width="45%"}
-:::
-
-::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
-*This rocket is worth more than the climate adaptation budget of the 50 poorest countries combined.*
-:::
-
----
-
-## From Nations to Billionaires
-
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Then (1957–1972): Government-led**
-
-- USA vs USSR — Sputnik, Apollo, Moon landing
-- Apollo program budget: ~$25.4 billion (~$150 billion in today's dollars)
-- Driven by national pride and Cold War competition
-
-**Now (2020s): Private-led**
-
-- **Elon Musk (SpaceX)** — Mars colonization. Launched a Tesla into space. Valuation: >$100 billion.
-- **Jeff Bezos (Blue Origin)** — Space tourism. "We need to move heavy industry into space."
-- **Virgin Galactic** — Suborbital tourism at $250,000/seat. Now struggling financially.
-:::
-
-::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
-The space race used to be about national survival. Now it's about who can afford a ticket.
-:::
-
----
-
-## The Environmental Cost
-
-::: {style="font-size: 1.5em; line-height: 1.8;"}
-Space exploration has an emissions problem nobody talks about:
-
-- A single rocket launch can release [**~300 tonnes of CO₂**]{style="color: #e74c3c;"}
-- SpaceX alone launched **98 missions in 2023**
-- Black carbon from rocket exhaust in the stratosphere is [**500x more warming**]{style="color: #e74c3c;"} per unit mass than surface-level soot
-- As space tourism scales, this gets worse — not better
-:::
-
-::: {style="font-size: 1.3em; margin-top: 20px; background: #f9e79f; padding: 20px; border-radius: 10px;"}
-**Honest caveat:** Total rocket emissions are still tiny compared to aviation (~1 Gt/year) or industry. The concern isn't today's volume — it's the trajectory as launches multiply.
-:::
-
----
-
-# The "Escape Plan" Debate
-
----
-
-## {background-color="#000000"}
-
-::: {style="text-align: center;"}
-![Hidden Valley, Mars — NASA Curiosity Rover, Sol 705. Barren. Lifeless. No oxygen, no water, no atmosphere. This is the "backup planet."](data/mars_surface.jpg){width="85%"}
-:::
-
-::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
-*Earth has everything. Mars has nothing. And somehow Mars is the plan.*
-:::
-
----
-
-## Two Ways to Read Mars Colonization
-
-::: {style="display: flex; justify-content: space-around; margin-top: 30px;"}
-::: {style="text-align: left; width: 45%; background: #27ae60; color: white; padding: 30px; border-radius: 10px;"}
-::: {style="font-size: 1.3em; font-weight: bold;"}
-The Critique: Escapism
-:::
-::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
-- Mars colonization is a **fantasy for the ultra-wealthy** — a lifeboat for billionaires while the rest of us drown
-- It diverts attention and resources from fixing Earth
-- Terraforming Mars would take **centuries**. We have **decades** to save Earth.
-- Stephen Hawking argued we need a backup. But Hawking also said: *fix this one first*
-:::
-:::
-
-::: {style="text-align: left; width: 45%; background: #3498db; color: white; padding: 30px; border-radius: 10px;"}
-::: {style="font-size: 1.3em; font-weight: bold;"}
-The Case: Insurance
-:::
-::: {style="font-size: 1.2em; line-height: 1.6; margin-top: 15px;"}
-- The dinosaurs didn't have a space program. **They're extinct.**
-- One asteroid and everything we've built — every symphony, every cure — **gone forever**
-- Space tech spins off into climate solutions: GPS, weather satellites, fire detection from orbit
-- It's not either/or — you can invest in both
-:::
-:::
+::: {.w11-hero-credit}
+[NASA / Bill Anders · Apollo 8 · 24 December 1968](https://science.nasa.gov/resource/apollo-8s-iconic-earthrise/)
 :::
 
 ::: {.notes}
-**Engagement prompt:** "If you had $100 billion — Elon Musk money — would you spend it on Mars or on Earth? And before you answer: what if the next Chicxulub-sized asteroid is already on its way?"
+Let the image sit for a few seconds. Apollo 8 was orbiting the Moon when Bill Anders photographed Earthrise. The crew hurried to find colour film. Do not call this the first photograph of Earth from lunar orbit: robotic images preceded it.
+
+Optional opening media: NASA's reconstruction uses original onboard audio. Open https://science.nasa.gov/resource/the-story-behind-apollo-8s-famous-earthrise-photo/ or https://www.youtube.com/watch?v=dE-vOscpiNc. The still image is sufficient if there is no connection; no video is required to understand the lecture.
 :::
 
----
-
-# Space Debris: The Cascade We're Building in Orbit
-
----
-
-## {background-color="#000000"}
-
-::: {style="text-align: center;"}
-![NASA visualization of trackable orbital debris — over 500,000 pieces of space junk circling Earth. Each one is travelling at 28,000 km/h.](data/space_debris.jpg){width="70%"}
-:::
-
-::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
-*We're building a Tragedy of the Commons in orbit.*
-:::
-
----
-
-## The Kessler Cascade
-
-::: {style="font-size: 1.5em; line-height: 1.8;"}
-Remember W10? **Cascade effects.**
-
-The **Kessler Syndrome** is a cascade effect in space:
-
-- Two objects collide → fragments → more collisions → more fragments → exponential debris growth
-- At some threshold, **orbital space becomes unusable** — satellites, GPS, weather monitoring, communications — all destroyed
-- We've already had collisions: 2009 Iridium-Cosmos crash created 2,000+ trackable fragments
-
-[**500,000+ pieces** of debris are being tracked. Millions more are too small to see but lethal at 28,000 km/h.]{style="color: #e74c3c;"}
-:::
-
-::: {style="font-size: 1.3em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
-This is W6 (Tragedy of the Commons) + W10 (Cascade Effects) — in orbit. No one owns space. Everyone uses it. Nobody cleans up.
-:::
-
----
-
-## Space Is Now a Battlefield
-
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-While billionaires race to Mars, governments are **militarising orbit**:
-
-- **US Space Force** (2019) — a new branch of the military, dedicated to space warfare
-- **"Department of War"** — proposals to rename the Department of Defense. What does that name change signal?
-- **China's Chang'e Program** — lunar ambitions with strategic implications
-- **Anti-satellite weapons** — tested by the US, Russia, China, and India. Each test creates thousands of new debris fragments (→ Kessler cascade).
-:::
-
----
-
-## The Power of Renaming
-
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-After W7, you know how to read this. **Naming is a persuasion tool.**
-
-| Old Name | New Name | What Changed? |
-|----------|----------|---------------|
-| Department of **Defense** | Department of **War** | Same budget. Same weapons. But "war" signals **aggression**, not protection. It reshapes what the public expects. |
-| Space **Exploration** | Space **Force** | Same rockets. But "force" signals **dominance**, not curiosity. It justifies military spending. |
-| **Global warming** | **Climate change** | Same physics. But "change" sounds less urgent than "warming." (W7: Trump used this switch to manufacture doubt.) |
-| **Carbon footprint** | *Invented by BP in 2005* | Same emissions. But "footprint" shifts blame from **industry to you**. (W6: structural incentives.) |
-:::
-
-::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
-A name isn't just a label. It's a **frame**. It tells the audience what to feel before they think. Every name in this table was a strategic choice by someone who understood persuasion.
-:::
-
-::: {.notes}
-**Engagement prompt:** "Which renaming in this table is the most manipulative? And — honest question — have any of the renamings YOU'VE used in your debates this semester done the same thing? That's Strategy #10: you persuade yourself that your framing is neutral. It never is."
-:::
-
----
-
-# The Overview Effect
-
----
-
-## {background-color="#000000"}
-
-::: {style="text-align: center;"}
-![The Moon, Earth's limb, and the thin blue atmosphere — ISS Expedition 51. The entire atmosphere that supports all life is thinner than the skin of an apple.](data/thin_atmosphere.jpg){width="80%"}
-:::
-
-::: {style="font-size: 1.5em; text-align: center; color: #ccc; margin-top: 20px;"}
-*Everything we've discussed this semester — structural incentives, the doubt machine, the ocean, refugees, cascades — happens inside that razor-thin blue line.*
-:::
-
----
-
-## See It: The Overview Effect
-
-{{< video https://vimeo.com/55073825 width="1600" height="900" >}}
-
-::: {style="font-size: 1.1em; margin-top: 10px; color: #7f8c8d; text-align: center;"}
-*Planetary Collective (~19 min). Five astronauts describe what happens when you see Earth from space. Watch the first 5–7 minutes — that's enough to feel it.*
-:::
-
----
-
-## {background-color="#0a0a2e"}
-
-::: {style="font-size: 1.8em; text-align: center; padding: 60px; color: white; line-height: 1.8;"}
-*"You develop an instant global consciousness, a people orientation, an intense dissatisfaction with the state of the world, and a compulsion to do something about it."*
-
-— **Edgar Mitchell**, Apollo 14
-:::
-
-::: {style="font-size: 1.5em; text-align: center; margin-top: 30px; font-weight: bold; color: #e74c3c;"}
-That's not poetry. That's a **data point from someone who saw the system from outside.**
-:::
-
----
-
-## {background-color="#000000"}
-
-::: {style="text-align: center;"}
-![The Pale Blue Dot — Voyager 1, February 14, 1990. Earth from 6 billion kilometres away. Every person who has ever lived, every war, every love story — on that speck.](data/pale_blue_dot.png){width="40%"}
-:::
-
-::: {style="font-size: 1.3em; text-align: center; color: #ccc; margin-top: 20px;"}
-*"Look again at that dot. That's here. That's home. That's us." — Carl Sagan*
-:::
-
----
-
-## The Human Story: Perspective Changes Everything
-
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-**Every astronaut** who sees Earth from space reports the same thing: profound awe at Earth's fragility and unity. Borders disappear. The atmosphere looks impossibly thin.
-
-**PRO-CLIMATE says:** "That's the point! They realize Earth is all we have. Stop going to space — start protecting home."
-
-**PRO-DEVELOPMENT says:** "That's also the point! Only by going to space do we truly understand Earth. The environmental movement was born from the Apollo 8 Earthrise photo."
-
-**The real question:** Does space exploration wake us up to Earth's fragility — or distract us from saving it?
-:::
-
-::: {.notes}
-**Engagement prompt:** "The modern environmental movement is often traced back to the Earthrise photo — an image only possible because we went to space. So did space exploration cause environmentalism? And if so, is more space exploration the answer?"
-:::
-
----
-
-# Building Your Final Spectacle
-
----
-
-## The Formula (One Last Time)
-
-::: {style="font-size: 1.8em; line-height: 1.8;"}
-**Fact** + **Human Story** + **Stakes** = **Spectacle**
-:::
-
-::: {style="display: flex; justify-content: space-around; margin-top: 50px;"}
-::: {style="text-align: center; width: 30%; background: #ecf0f1; padding: 30px; border-radius: 10px;"}
-::: {style="font-size: 1.2em; font-weight: bold;"}
-Weak
-:::
-"Space exploration costs money"
-:::
-
-::: {style="text-align: center; width: 30%; background: #f39c12; color: white; padding: 30px; border-radius: 10px;"}
-::: {style="font-size: 1.2em; font-weight: bold;"}
-Better
-:::
-"SpaceX is worth $100 billion"
-:::
-
-::: {style="text-align: center; width: 30%; background: #e74c3c; color: white; padding: 30px; border-radius: 10px;"}
-::: {style="font-size: 1.2em; font-weight: bold;"}
-Spectacle
-:::
-"Elon Musk's rocket company is worth more than the entire climate adaptation budget of the 50 poorest countries combined."
-:::
-:::
-
----
-
-## PRO-CLIMATE: Make It Personal
-
-::: {style="background: #27ae60; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
-**Don't say:** "Space exploration wastes resources."
-
-**Say:** "Jeff Bezos spent $5.5 billion on 11 minutes in space. That's more than UNICEF's entire annual clean water budget. You're watching billionaires play astronaut while children die of thirst."
-
-**Don't say:** "We should focus on Earth."
-
-**Say:** "Mars has no oxygen, no water, no life. Earth has all three — and we're destroying them. The 'backup planet' fantasy is just rich people planning their escape."
-:::
-
----
-
-## PRO-DEVELOPMENT: Paint the Picture
-
-::: {style="background: #3498db; color: white; padding: 40px; border-radius: 15px; font-size: 1.5em; line-height: 1.8;"}
-**Don't say:** "Space technology has spinoffs."
-
-**Say:** "GPS, weather satellites, fire detection from orbit — space technology saves more lives per year than all climate NGOs combined. You want to cut that?"
-
-**Don't say:** "Humans need a backup planet."
-
-**Say:** "The dinosaurs didn't have a space program. They're extinct. One asteroid and everything we've built — every symphony, every cure, every child's laugh — gone forever. Space isn't escape. It's insurance."
-:::
-
----
-
-## Quick Exercise: The $100 Billion Question
-
-::: {style="font-size: 1.8em; text-align: center; padding: 40px; background: #1a1a2e; color: white; border-radius: 15px; line-height: 1.6;"}
-You just became the world's richest person.
-
-You have [**$100 billion.**]{style="color: #e74c3c; font-size: 1.3em;"}
-
-How do you split it between **space** and **climate**?
-:::
-
-::: {style="font-size: 1.4em; margin-top: 30px; text-align: center;"}
-Write two numbers on a piece of paper. No discussing. No peeking.
-
-*We'll compare in 60 seconds.*
-:::
-
-::: {.notes}
-**How to run this:** Give 30 seconds to write. Then ask for a show of hands: "Who put more than 50% on climate?" "Who put more than 50% on space?" "Anyone go 100/0 either way?" Then ask one person from each extreme to justify. Use the slider on the next slide to visualize their splits live.
-:::
-
----
-
-## Visualise Your Split
+## One image. Two responsibilities?
 
 ```{=html}
-<div id="w11budget" style="text-align: center; font-family: Arial, sans-serif; padding: 20px;">
-  <div style="font-size: 28px; margin-bottom: 20px; color: #34495e;">Drag the slider to see the split:</div>
-  <input type="range" id="w11slider" min="0" max="100" value="50" style="width: 80%; height: 20px; cursor: pointer;">
-  <div style="display: flex; justify-content: space-around; margin-top: 30px;">
-    <div style="text-align: center; width: 40%;">
-      <div style="font-size: 24px; color: #27ae60; font-weight: bold;">CLIMATE</div>
-      <div id="w11climateBar" style="background: #27ae60; height: 60px; width: 50%; margin: 15px auto; border-radius: 8px; transition: width 0.2s;"></div>
-      <div id="w11climateVal" style="font-size: 64px; font-weight: bold; color: #27ae60;">$50B</div>
-    </div>
-    <div style="text-align: center; width: 40%;">
-      <div style="font-size: 24px; color: #3498db; font-weight: bold;">SPACE</div>
-      <div id="w11spaceBar" style="background: #3498db; height: 60px; width: 50%; margin: 15px auto; border-radius: 8px; transition: width 0.2s;"></div>
-      <div id="w11spaceVal" style="font-size: 64px; font-weight: bold; color: #3498db;">$50B</div>
-    </div>
-  </div>
+<div class="w11-cards two"><div class="w11-card green"><div class="k">Retain</div><div class="h">Keep this home habitable.</div><p>Protect the people and living systems that depend on Earth.</p></div><div class="w11-card blue"><div class="k">Expand</div><div class="h">Build a second home.</div><p>Develop a place where human civilisation could continue beyond Earth.</p></div></div>
+```
+
+::: {.w11-punch}
+Can we pursue both—or does one make it easier to neglect the other?
+:::
+
+::: {.notes}
+Introduce the week's organising tension: retaining responsibility for Earth while pursuing settlement elsewhere. Expansion is not inherently abandonment; whether the two goals reinforce or undermine each other is the question. Ask for one initial view, then return to it after the debate.
+:::
+
+## From a farm to a second home
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card blue"><div class="k">Week 10</div><div class="h">Trace the consequences.</div><p>The £144 farming year: one pressure travelled through a system. A proposed fix could create another chain.</p></div><div class="w11-card purple"><div class="k">Week 11</div><div class="h">Choose who carries them.</div><p>Building elsewhere could change what we invest in here. Trace who gains protection—and who still carries the risk.</p></div></div>
+```
+
+::: {.w11-punch}
+Carry forward two questions: what happens next—and to whom?
+:::
+
+::: {.notes}
+Recall Clarkson’s Farm without introducing new numerical claims. Week 9 adds the distribution and long-term support question; Week 10 adds the causal mechanism. Different cases do not have identical physics.
+:::
+
+## Can we build a second home without giving up on the first?
+
+```{=html}
+<div class="w11-chain"><div class="step"><b>The promise</b>Why does Elon Musk argue for a settlement beyond Earth?</div><div class="to" aria-hidden="true">→</div><div class="step"><b>The test</b>What would make it a real home—and an independent backup?</div><div class="to" aria-hidden="true">→</div><div class="step"><b>The responsibility</b>What do we still owe the people who remain here?</div><div class="to" aria-hidden="true">→</div><div class="step"><b>The choice</b>Which priority deserves new public funding?</div></div>
+```
+
+::: {.w11-punch}
+“Deserting Earth” is an interpretation to examine, not a motive to assume.
+:::
+
+# Part 1 · Mars… or the Moon first? {background-color="#6c3483"}
+
+[Follow the changing route. Then ask what would make a home last.]{.w11-sub}
+
+## 2016–17 · The destination is Mars.
+
+::: {.w11-question}
+“One path is we stay on Earth forever, and then there will be some eventual extinction event.”
+:::
+
+::: {.w11-lead}
+**The ambition:** a self-sustaining civilisation on Mars could survive a catastrophe on Earth.
+:::
+
+::: {.w11-punch}
+The goal is more than a visit: a second home that could survive without this one.
+:::
+
+::: {.w11-src}
+Elon Musk, [Making Humans a Multi-Planetary Species, 2017, p. 46](https://doi.org/10.1089/space.2017.29009.emu), based on his 2016 IAC talk. A proponent’s argument, not a demonstrated survival benefit.
+:::
+
+::: {.notes}
+This is an authored proposal/commentary. Musk argues for self-sustaining civilisation, not just a visiting crew. His quote does not establish that Earth is beyond repair or that climate change makes abandonment necessary. Do not attribute “stop protecting Earth” to him.
+
+Current context, checked 16 November 2026: SpaceX's published mission materials include lunar bases and a long-term Mars civilisation; these are development goals. The case is not an assertion that Mars is currently its first operational destination. Source: https://www.spacex.com/mars . The debate therefore retains both the Moon and Mars.
+
+Optional original media: SpaceX's official 27 September 2016 presentation, https://www.youtube.com/watch?v=H7Uyfqi_TE8 . Exact excerpt timestamps are not preselected; the dated quotation on this slide provides the complete classroom prompt without video.
+:::
+
+## January 2025 · “The Moon is a distraction.”
+
+::: {.w11-question}
+“No, we’re going straight to Mars. The Moon is a distraction.”
+:::
+
+::: {.w11-lead}
+Musk publicly argues for a direct route to Mars.
+:::
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card purple"><div class="k">The stated priority</div><div class="h">Concentrate on Mars.</div><p>Treat a lunar detour as something that could slow the larger goal.</p></div><div class="w11-card grey"><div class="k">The programme context</div><div class="h">The Moon was already involved.</div><p>NASA had selected SpaceX for its lunar lander in April 2021. This statement did not itself cancel that work.</p></div></div>
+```
+
+::: {.w11-src}
+Musk’s [3 January 2025 post](https://x.com/elonmusk/status/1875023335891026324), quoted in [Ars Technica’s contemporaneous report](https://arstechnica.com/space/2025/01/elon-musk-were-going-straight-to-mars-the-moon-is-a-distraction/) · [NASA’s 2021 selection](https://www.nasa.gov/news-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/).
+:::
+
+::: {.notes}
+Pause after the quotation, then advance to February 2026. This supplies the earlier position that makes the next turn intelligible. The quote is preserved in contemporary reporting; direct retrieval of X was unavailable. It concerns a publicly stated priority, not proof that all lunar projects were removed from SpaceX's programme. The original post is 3 January UTC, 2 January in parts of the US. Avoid conflating Musk's preference with NASA's separate Moon-to-Mars rationale.
+:::
+
+## February 2026 · Now the Moon comes first.
+
+::: {.w11-lead}
+Musk announced a shift towards a **lunar city**, while retaining the Mars ambition. His reason: a nearer destination could be developed faster.
+:::
+
+::: {.w11-question}
+“the overriding priority is securing the future of civilization and the Moon is faster”
+:::
+
+::: {.w11-punch}
+The survival argument remains. The immediate priority changes.
+Why does being easier to reach now matter so much?
+:::
+
+::: {.w11-src}
+Musk’s [8 February 2026 post](https://x.com/elonmusk/status/2020640004628742577) · [Archived original](https://archive.ph/9vQar). An announced priority and projection, not an achieved settlement.
+:::
+
+::: {.notes}
+About one minute. The original post is timestamped 8 February 2026, 23:24 UTC (9 February in Hong Kong). Musk kept the survival rationale and the long-term Mars goal. Do not frame the change as proof of dishonesty: changing a route in response to constraints can be sensible. Ask students to separate easier access from demonstrated independence.
+
+SpaceX's June 2026 prospectus describes initial lunar cargo/crew priorities (printed p. 82) and early-stage, unproven Moon/Mars initiatives (printed p. 31): https://content.spacex.com/cms-assets/FINAL_Documents%20and%20Updates/SpaceX%20-%20EU%20Prospectus%20%28Approved%20by%20Bafin%29%20-%20June%205%2C%202026.pdf . His forecast dates are not presented as confirmed delivery dates.
+:::
+
+## Easier to reach—for what?
+
+::: {.w11-lead}
+NASA describes lunar journeys in **days**, Mars journeys in **months**.
+:::
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card blue"><div class="k">Build and maintain a settlement</div><div class="h">A nearer supplier can help.</div><p>Deliver equipment, replace failures and learn from repeated missions.</p></div><div class="w11-card green"><div class="k">Provide an independent backup</div><div class="h">What if deliveries stop?</div><p>Essential supplies and systems must keep working through a prolonged loss of support from Earth.</p></div></div>
+```
+
+::: {.w11-punch}
+A shorter supply line still needs a supplier. Can local resources change that?
+:::
+
+::: {.w11-src}
+[NASA, Why Moon and Mars?, 2025, p. 2](https://www.nasa.gov/wp-content/uploads/2025/12/acr25-wp-why-moon-and-mars-v2.pdf) · These are two different tests of the second-home promise.
+:::
+
+::: {.notes}
+This replaces the later visit/settle/backup framework and moves its analytical work into the chronological story. Relative proximity can help development without making lunar habitation cheap or easy. The independence criterion is the claim under examination, not a capability attributed to any existing settlement. Transition: local production can reduce deliveries, but existence of material alone is not a dependable supply.
+:::
+
+## What if the most accessible supplies run down?
+
+::: {.w11-lead}
+**On Earth or the Moon, material can exist without being easy to obtain.** Lunar polar ice, for example, is patchy; finding it is the start of building a supply.
+:::
+
+```{=html}
+<div class="w11-chain"><div class="step"><b>Extract and process</b>Obtaining usable water needs power, equipment and maintenance.</div><div class="to" aria-hidden="true">→</div><div class="step"><b>Use and recover</b>If recovery is incomplete, water losses need replacing.</div><div class="to" aria-hidden="true">→</div><div class="step"><b>If accessible deposits diminish…</b>Choose among harder extraction, more recovery, lower demand or renewed imports.</div></div>
+```
+
+::: {.w11-punch}
+Which resource problems would another frontier solve—and which would we carry with us?
+:::
+
+::: {.w11-src}
+[NASA/JPL: patchy polar ice](https://www.jpl.nasa.gov/news/ice-confirmed-at-the-moons-poles/) · [USGS: lunar-resource assessment](https://pubs.usgs.gov/circ/1507/cir1507.pdf) · [USGS: resources and reserves](https://www.usgs.gov/publications/mineral-resources-reserves-peak-production-and-future). The chain is a conditional scenario, not a depletion forecast.
+:::
+
+::: {.notes}
+This is the course's resource-management question, not Musk's stated explanation for the Moon priority. Distinguish three things: logistics moves supplies; accessibility concerns what can practically be obtained; depletion removes a stock. Using an accessible deposit can lead to harder sources, but technology, substitution, recycling and demand changes alter the outcome. Reserves are not all the material that exists. Do not infer that Earth is nearly empty, that lunar ice will soon run out, or that lunar mining is already economical.
+
+Ask students to name one assumption before choosing a response: recovery rate, extraction energy, demand, or dependable imports. Then return to Mars as the worked example of what makes a home function. CHAPEA shows the maintenance and support; MOXIE shows one step in converting local material into a usable product.
+:::
+
+## Mars has a landscape. A home needs systems. {background-color="#000000"}
+
+![](data/mars_surface.jpg){.w11-hero .wide fig-alt="Curiosity rover panorama looking towards Hidden Valley on Mars."}
+
+::: {.w11-hero-cap}
+What must keep working for people to live here?
+:::
+::: {.w11-hero-credit}
+Curiosity panorama, 31 July 2014 (Sol 705). NASA/JPL-Caltech · [PIA18409](https://www.jpl.nasa.gov/images/pia18409-curiositys-360-degree-view-before-entering-hidden-valley/)
+:::
+
+::: {.notes}
+Ask students for oxygen, pressure, water, energy, food, protection and maintenance. The image is a stitched Navigation Camera panorama, not an unaided human view. Avoid the old “no water, no atmosphere” caption.
+:::
+
+## On simulated Mars: food, water—and dish soap.
+
+::: {.w11-lead}
+**378 days in a Houston habitat.** Four volunteers completed NASA’s Earth-based Mars simulation on **31 October 2026**.
+:::
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card blue"><div class="k">Inside the habitat</div><div class="h">Keep everyday life working.</div><p>Engineer James Spicer described tracking dish soap and respirator filters alongside food and water.</p></div><div class="w11-card green"><div class="k">Outside the habitat</div><div class="h">Keep the crew supported.</div><p>Medical officer Ellen Ellis highlighted the coordinated specialists supporting them from outside.</p></div></div>
+```
+
+::: {.w11-punch}
+Who keeps a home working—and what happens when that support is interrupted?
+:::
+
+::: {.w11-src}
+[NASA’s crew reflections and photographs, 9 November 2026](https://www.nasa.gov/missions/analog-field-testing/chapea/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/) · CHAPEA Mission 2: an Earth-based simulation.
+:::
+
+::: {.notes}
+About one minute. Begin with an ordinary object students would not put in a Mars poster: dish soap. The story connects exploration to maintenance, relationships and care. The crew generated useful health and performance evidence; this does not demonstrate survival under Mars's radiation and gravity, a closed ecosystem, or independence from Earth. Ask for one support role that disappears from the spectacular image of a rocket launch.
+:::
+
+## Turning local material into something usable
+
+::: {.w11-number}
+122 g
+:::
+
+::: {.w11-lead}
+of oxygen produced across NASA’s **MOXIE experiment on Mars**.
+:::
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card green"><div class="k">Demonstrated</div><div class="h">Extract oxygen locally.</div><p>A working method using Mars’s carbon-dioxide-rich atmosphere.</p></div><div class="w11-card purple"><div class="k">Not demonstrated</div><div class="h">Sustain a settlement.</div><p>Continuous production, storage and an entire life-support system at the required scale.</p></div></div>
+```
+
+::: {.w11-src}
+[NASA: MOXIE mission results, 2023](https://www.nasa.gov/solar-system/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/)
+:::
+
+::: {.notes}
+Connect to the resource sequence: this is a demonstration of conversion, not evidence of depletion or a complete supply system. Keep NASA’s MOXIE result distinct from SpaceX’s proposal. The number is total oxygen over the experimental mission, not an hourly rate. Mars also has water ice: https://science.nasa.gov/resource/swim-map-shows-subsurface-water-ice-on-mars/. Success at one task is evidence of progress, not proof that the full system has been built.
+:::
+
+## Insurance—or permission to give up?
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card blue"><div class="k">The insurance argument</div><div class="h">Protect against a future catastrophe.</div><p>A second civilisation could preserve a future that a single-planet society might lose.</p></div><div class="w11-card red"><div class="k">The abandonment concern</div><div class="h">Make the first home seem expendable.</div><p>Could the promise of somewhere else weaken investment in protecting people here?</p></div></div>
+```
+
+::: {.w11-punch}
+These are competing claims to test—not established consequences or proof of anyone’s motives.
+:::
+
+::: {.notes}
+Link to Weeks 7–8: a frame highlights some questions and suppresses others. “Insurance” must specify the risk, beneficiaries and reliability; “abandonment” needs evidence of displaced resources or weakened obligations. Students can defend pursuing both goals if they explain the funding and safeguards. They should not treat enthusiasm for exploration as proof of disregard for Earth.
+:::
+
+## A backup for whom?
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card blue"><div class="k">Continuity of civilisation</div><div class="h">Could humanity continue somewhere?</div><p>This claim does not require every person on Earth to relocate.</p></div><div class="w11-card green"><div class="k">Protection of people</div><div class="h">Who becomes safer—and when?</div><p>Ask who could go, who could afford it, and what protection reaches those who stay.</p></div></div>
+```
+
+::: {.w11-punch}
+Saving a future for the species and meeting people’s present needs are different tests.
+:::
+
+::: {.notes}
+This is an ethical distinction, not a claim about a published passenger-selection scheme. Connect to Week 9: the possibility of moving somewhere does not establish access, rights, livelihood or long-term support. Ask what obligations remain towards people who never leave Earth. A second-home proposal is not itself a resettlement programme for climate-displaced communities.
+:::
+
+## Before Mars: who governs Starbase?
+
+::: {.w11-lead}
+On **3 May 2025**, voters supported incorporating Starbase, Texas.
+:::
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card blue"><div class="k">The incorporation vote</div><div class="h">212 for · 6 against</div><p>The county’s posted report records strong support among those voting on the proposal.</p></div><div class="w11-card purple"><div class="k">The inaugural mayor</div><div class="h">Bobby Peden</div><p>The city’s biography also identifies him as SpaceX Vice President of Texas Test and Launch.</p></div></div>
+```
+
+::: {.w11-punch}
+In a future settlement, if one company supplies jobs, transport and essential services, what independent voice should residents have?
+:::
+
+::: {.w11-src}
+[Cameron County election report](https://www.cameroncountytx.gov/elections/wp-content/uploads/2025/05/City-of-Starbase-Summary.pdf), labelled “unofficial results”, updated 9 May 2025 · [Official city biography](https://www.starbase.texas.gov/city-commission-and-staff), checked 16 November 2026.
+:::
+
+::: {.notes}
+About one minute. The future-settlement question is a hypothetical extension, not a claim that all these services are provided by one company in Starbase. A home needs institutions as well as oxygen. Consider both relevant technical expertise and safeguards for independent representation. Overlapping roles are not proof of coercion or corruption. Musk is not the mayor, and incorporation does not establish that SpaceX legally owns the city.
+:::
+
+# Part 2 · Protecting the first home {background-color="#0a3d62"}
+
+[Going into space can also help people stay safely on Earth.]{.w11-sub}
+
+## Some space technology helps us stay here.
+
+::: {.w11-lead}
+Before a typhoon reaches a coastline, satellite images help forecasters locate its centre and follow its movement.
+:::
+
+```{=html}
+<div class="w11-chain"><div class="step"><b>Observation</b>See cloud patterns over an ocean with sparse surface observations.</div><div class="to" aria-hidden="true">→</div><div class="step"><b>Forecast</b>Combine satellite information with other observations and models.</div><div class="to" aria-hidden="true">→</div><div class="step"><b>Decision</b>Use forecasts and warnings to prepare people and services.</div></div>
+```
+
+::: {.w11-punch}
+Who can act on the warning—and who still needs shelter, transport or recovery support?
+:::
+
+::: {.w11-src}
+[Hong Kong Observatory: tracking tropical cyclones by satellite](https://www.hko.gov.hk/en/education/tropical-cyclone/tracking/00159-tracking-by-satellite-observations.html) · Observation ≠ a complete forecast.
+:::
+
+::: {.notes}
+HKO’s explanation is from 2010. Use its enduring explanation of ocean observation, not its historical half-hour image frequency. Satellite images are one input; warning decisions also use other evidence and operational judgement. The access question carries forward Week 9: detecting risk does not by itself give everyone the capacity to act.
+:::
+
+## “Space spending” contains different activities.
+
+```{=html}
+<div class="w11-cards three"><div class="w11-card blue"><div class="k">Services</div><div class="h">Observe and connect</div><p>Weather and climate observations, communications and navigation.</p></div><div class="w11-card green"><div class="k">Knowledge</div><div class="h">Investigate and test</div><p>Robotic science, exploration and planetary-defence experiments.</p></div><div class="w11-card purple"><div class="k">Human futures</div><div class="h">Visit or settle</div><p>Crewed missions, tourism and projects for permanent residence.</p></div></div>
+```
+
+::: {.w11-lead}
+Satellites have provided a continuous global record of **sea-level change since 1993**.
+:::
+
+::: {.w11-src}
+[NASA: satellite sea-level record](https://www.nasa.gov/wp-content/uploads/2023/06/gmsl-satelliterecordclassroomdatasheet.pdf) · Categories here are a teaching framework, not a budget classification.
+:::
+
+## Protecting Earth can involve going into space.
+
+::: {.w11-lead}
+NASA’s **DART** mission changed an asteroid moon’s orbit by striking it with a spacecraft.
+:::
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card green"><div class="k">Test result</div><div class="h">An orbit was changed.</div><p>Dimorphos’s orbital period around Didymos shortened by about 33 minutes.</p></div><div class="w11-card blue"><div class="k">What it establishes</div><div class="h">A defence method was tested.</div><p>It was not an actual emergency, or a demonstration against every possible asteroid threat.</p></div></div>
+```
+
+::: {.w11-src}
+[NASA: DART validates kinetic impact as a planetary-defence method, 2023](https://www.nasa.gov/science-research/planetary-science/nasas-dart-data-validates-kinetic-impact-as-planetary-defense-method/)
+:::
+
+::: {.notes}
+This is a substantive counterexample to “all activity beyond Earth is escapism.” Keep planetary defence separate from permanent settlement when defining the debate.
+:::
+
+# Part 3 · Responsibilities travel with us {background-color="#78281f"}
+
+[Would a new destination solve the problems of sharing a home?]{.w11-sub}
+
+## Orbit can look empty from the ground. {background-color="#000000"}
+
+![](data/space_debris.jpg){.w11-hero fig-alt="Historical visualization of tracked objects around Earth, including a ring in the geosynchronous region."}
+
+::: {.w11-hero-credit}
+Historical NASA visualization of tracked objects, including satellites and debris. Dots enlarged for visibility; this is not a photograph or a current count. [NASA ODPO](https://orbitaldebris.jsc.nasa.gov/photo-gallery/) · [Archived image record](https://commons.wikimedia.org/wiki/File:Debris-GEO1280.jpg)
+:::
+
+::: {.notes}
+This exact image predates February 2005. The outer ring shows the geosynchronous region. Do not describe every dot as junk or associate this historical graphic with the current numerical estimate on the next slide.
+:::
+
+## The small pieces add up. [Model estimate]{.w11-tag .emerging}
+
+::: {.w11-number}
+≈1.5 million
+:::
+
+::: {.w11-lead}
+debris objects **larger than 1 cm and up to 10 cm** in Earth orbit.
+:::
+
+::: {.w11-punch}
+An estimated population—not 1.5 million individually tracked objects.
+:::
+
+::: {.w11-src}
+[ESA Space Environment Statistics](https://sdup.esoc.esa.int/discosweb/statistics/) · MASTER-8 reference population: February 2026. Page updated 13 November 2026.
+:::
+
+::: {.notes}
+Keep size range and model date attached to the number. The live page separately reports roughly 47,270 tracked space objects, including functioning satellites. Do not compare that catalogue count to the model as if both measured the same population.
+:::
+
+## A collision can create the next collision.
+
+```{=html}
+<div class="w11-loop">
+  <div class="node"><b>A collision</b>Objects strike one another.</div>
+  <div class="arr" aria-hidden="true">→</div>
+  <div class="node hot"><b>More fragments</b>New debris remains in orbit.</div>
+  <div class="arr" aria-hidden="true">↑</div>
+  <div class="hub">A reinforcing<br>feedback loop</div>
+  <div class="arr" aria-hidden="true">↓</div>
+  <div class="node"><b>Further collisions</b>Some impacts create still more debris.</div>
+  <div class="arr" aria-hidden="true">←</div>
+  <div class="node hot"><b>More collision risk</b>Other objects encounter the fragments.</div>
 </div>
+```
+
+::: {.w11-src}
+[ESA Space Environment Report 2026](https://www.esa.int/articles/esa-space-environment-report-2026) · Kessler syndrome: cumulative risk in affected orbital regions, not an instant shutdown of all space.
+:::
+
+::: {.notes}
+Bring back Week 10’s loop. Risk and persistence depend on orbit and object characteristics; avoid one universal “point of no return” date. ESA notes that debris growth can continue even without additional launches.
+:::
+
+## Who pays to keep orbit usable?
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card green"><div class="k">Before failure</div><div class="h">Prevent and coordinate</div><p>Plan disposal, reduce fragmentation and coordinate traffic.</p></div><div class="w11-card blue"><div class="k">After accumulation</div><div class="h">Remove selected debris</div><p>Active removal can address selected debris; it does not replace prevention.</p></div></div>
+```
+
+::: {.w11-punch}
+New territory still needs rules: who pays, and whose priorities count?
+
+Civilian services, commercial operators, national-security agencies?
+:::
+
+::: {.w11-src}
+[ESA 2026 report: disposal, coordination and active removal](https://www.esa.int/articles/esa-space-environment-report-2026)
+:::
+
+::: {.notes}
+Policy options include operator obligations, shared funding and international coordination. Present these as options. Do not claim that nobody is working on debris removal, or that operational removal at the necessary scale is already solved.
+:::
+
+## More activity also brings environmental questions.
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card red"><div class="k">Launch · modelled effects</div><div class="h">What is emitted—and where?</div><p>Rocket-soot studies model stratospheric heating, circulation and ozone responses under specified scenarios.</p></div><div class="w11-card purple"><div class="k">Re-entry · observed material</div><div class="h">What happens after it comes down?</div><p>Spacecraft-derived metals have been detected in stratospheric particles; their consequences remain under study.</p></div></div>
+```
+
+::: {.w11-punch}
+How would a settlement programme account for the costs of building and supplying it?
+:::
+
+::: {.w11-src}
+[Maloney et al., 2022 · modelling](https://repository.library.noaa.gov/view/noaa/53971/noaa_53971_DS1.pdf) · [NOAA / Murphy et al., 2023 · measurements](https://csl.noaa.gov/news/2023/388_1016.html)
+:::
+
+::: {.notes}
+Supporting evidence for the second-home question, not a claim that current launch emissions outweigh the programme's possible benefits. Fuel, altitude and activity level matter. Do not convert modelled stratospheric temperature changes into the same global surface warming, or infer quantified ozone loss or health harm merely from detecting metals. The policy question is who measures, limits and pays for environmental costs.
+:::
+
+# Part 4 · The public choice {background-color="#145a32"}
+
+[Which priority can you justify—and under what conditions?]{.w11-sub}
+
+## A private ambition becomes a public choice.
+
+::: {.w11-lead}
+**Musk’s proposal is our case. Governments are the decision-makers in this debate.**
+:::
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card green"><div class="k">Decision in scope</div><div class="h">New public support for settlement</div><p>Should government commit money to permanent residence beyond Earth, or prioritise climate adaptation here?</p></div><div class="w11-card grey"><div class="k">Keep categories clear</div><div class="h">A service is not a settlement.</div><p>Buying weather observations or launch services for another purpose is a different funding decision.</p></div></div>
+```
+
+::: {.notes}
+Do not equate a company valuation, personal wealth or an announced pledge with money governments could redirect. No dollar total is assumed. A private programme may have public customers, but whether a particular contract falls within the motion depends on the funded activity's primary objective. Students are evaluating a priority rule, not voting on whether they like Musk.
+:::
+
+## What must we retain if we build elsewhere?
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card green"><div class="k">Responsibility here</div><div class="h">Protect those who remain.</div><p>Explain what people facing heat, flooding and displacement will receive—including sustained recovery support.</p></div><div class="w11-card blue"><div class="k">Ambition elsewhere</div><div class="h">Make the future benefit credible.</div><p>Explain what settlement research can deliver, who benefits and how its costs will be governed.</p></div></div>
+```
+
+::: {.w11-punch}
+“We can do both” needs a plan. “We must choose” needs an opportunity-cost argument.
+:::
+
+::: {.notes}
+Bring the deserting/retaining question back before the funding motion. Both sides must explain what their priority would leave undone. Retaining responsibility for Earth does not require opposing every mission; pursuing a settlement does not establish that present needs will be met. These are arguments to assess, not attributed motives.
+:::
+
+## This week’s debate motion
+
+::: {.w11-motion}
+This house would redirect new public funding for permanent human settlements on the Moon or Mars to climate adaptation on Earth for the next ten years.
+:::
+
+::: {.w11-lead}
+**FOR:** redirect the funding.
+
+**AGAINST:** oppose this blanket ten-year redirection; defend a public role for settlement research and development.
+:::
+
+::: {.notes}
+A hypothetical policy rule for governments making future allocations. It is not a claim that one existing pooled world budget can simply be transferred. Students may propose safeguards and conditions, but should take a clear position on this rule.
+:::
+
+## What exactly is inside the motion?
+
+::: {.w11-list}
+- **New public funding:** future government commitments. Existing contracts and private expenditure are outside this redirection.
+- **Permanent settlement:** projects whose primary objective is permanent human residence on the Moon or Mars.
+- **Ten years:** the proposed funding rule lasts ten years; it does not claim adaptation will then be complete.
+:::
+
+::: {.notes}
+For mixed-use projects, identify the funded activity’s primary objective and explain your classification. Do not win the debate simply by saying weather satellites help climate: those are explicitly outside the proposed redirection. Adaptation means reducing vulnerability to climate impacts, including sustained recovery capacity, rather than emissions mitigation alone.
+:::
+
+## Where does the boundary fall?
+
+::: {.w11-list}
+- **Adaptation:** reducing harm from climate impacts, including preparedness and sustained recovery. Emissions cuts alone do not qualify.
+- **Activities outside the redirection:** Earth observation, weather/navigation services, planetary defence and robotic science.
+- **Mixed-use projects:** classify the funded activity by its primary objective, then explain your choice.
+:::
+
+::: {.w11-punch}
+Apply these definitions consistently to both sides.
+:::
+
+## The strongest case FOR
+
+::: {.w11-list}
+- **Urgency:** people face risks now; prioritise interventions with a credible route to protection.
+- **Public responsibility:** assess whose vulnerability receives attention and who can access the benefits.
+- **Uncertain returns:** settlement milestones do not yet demonstrate an independent backup.
+:::
+
+::: {.w11-punch}
+Your hard question: how will redirected money become effective, sustained support?
+:::
+
+::: {.notes}
+Argument scaffold, not a list of already proven policy conclusions. Require an example of adaptation delivery, a mechanism and a limitation. Tie the third point to MOXIE without using one experiment to dismiss all future work.
+:::
+
+## The strongest case AGAINST
+
+::: {.w11-list}
+- **Long lead times:** stopping new commitments may delay capabilities that take decades to develop.
+- **Future options:** research can be valuable before the ultimate objective is achieved.
+- **Public influence:** a continuing public role may help shape access, standards and accountability.
+:::
+
+::: {.w11-punch}
+Your hard question: which benefit justifies this funding when adaptation needs remain?
+:::
+
+::: {.notes}
+These are contestable arguments to substantiate, not predictions of inevitable spin-offs or claims that any space expenditure is justified. Opposing the motion does not require rejecting adaptation, or claiming a settlement will be independent soon.
+:::
+
+# Part 5 · The final debate {background-color="#2c3e50"}
+
+[Six stakeholder groups · five minutes each · 50-minute activity]{.w11-sub}
+
+## Your role supplies a concern—not an answer.
+
+```{=html}
+<div class="w11-role-grid"><div class="w11-role"><b>STEM Educator/Researcher</b>Which knowledge and capabilities would we create—or lose?</div><div class="w11-role"><b>Climate Policy Maker</b>How reliably would redirected money reduce vulnerability?</div><div class="w11-role"><b>Space Industry Entrepreneur</b>What would happen to investment and technical capability?</div><div class="w11-role"><b>Social Scientist/Ethicist</b>Who benefits, who pays, and whose priorities count?</div><div class="w11-role"><b>Energy Sector Executive</b>How should competing energy and infrastructure needs be assessed?</div><div class="w11-role"><b>General Public/Student</b>What benefit and accountability should the public expect?</div></div>
+```
+
+::: {.w11-punch}
+Every role can argue FOR or AGAINST. Choose and justify your position.
+:::
+
+## Group assignments
+
+```{=html}
+<button id="w11-assign" class="w11-btn">Assign the six roles</button>
+<button id="w11-clear" class="w11-btn" hidden>Clear assignments</button>
+<p id="w11-assignment-status" class="w11-small" aria-live="polite">Assign once, then keep the result visible while groups work.</p>
+<div id="w11-assignments" class="w11-role-grid"></div>
 <script>
-document.getElementById('w11slider').addEventListener('input', function() {
-  const climate = parseInt(this.value);
-  const space = 100 - climate;
-  document.getElementById('w11climateVal').textContent = '$' + climate + 'B';
-  document.getElementById('w11spaceVal').textContent = '$' + space + 'B';
-  document.getElementById('w11climateBar').style.width = Math.max(climate, 2) + '%';
-  document.getElementById('w11spaceBar').style.width = Math.max(space, 2) + '%';
-});
+(function () {
+  const roles = [["STEM Educator/Researcher", "Which knowledge and capabilities would we create\u2014or lose?"], ["Climate Policy Maker", "How reliably would redirected money reduce vulnerability?"], ["Space Industry Entrepreneur", "What would happen to investment and technical capability?"], ["Social Scientist/Ethicist", "Who benefits, who pays, and whose priorities count?"], ["Energy Sector Executive", "How should competing energy and infrastructure needs be assessed?"], ["General Public/Student", "What benefit and accountability should the public expect?"]];
+  const list = document.getElementById('w11-assignments');
+  const start = document.getElementById('w11-assign');
+  const clear = document.getElementById('w11-clear');
+  const status = document.getElementById('w11-assignment-status');
+  const key = 'ccgl9065-w11-roles-v1';
+  let assigned = [];
+  function show() {
+    list.replaceChildren();
+    assigned.forEach((r, i) => {
+      const box = document.createElement('div');
+      box.className = 'w11-role';
+      const num = document.createElement('div');
+      num.className = 'num'; num.textContent = 'Group ' + (i + 1);
+      const name = document.createElement('b'); name.textContent = r[0];
+      const concern = document.createElement('div'); concern.textContent = r[1];
+      box.append(num, name, concern); list.appendChild(box);
+    });
+    start.disabled = assigned.length > 0;
+    clear.hidden = assigned.length === 0;
+    status.textContent = assigned.length ? 'Keep your role. Decide FOR or AGAINST within your group.' : 'Assign once, then keep the result visible while groups work.';
+  }
+  try {
+    const stored = JSON.parse(sessionStorage.getItem(key));
+    if (Array.isArray(stored) && stored.length === roles.length && new Set(stored).size === roles.length && stored.every(i => Number.isInteger(i) && i >= 0 && i < roles.length)) assigned = stored.map(i => roles[i]);
+  } catch (_) {}
+  start.addEventListener('click', () => {
+    if (assigned.length) return;
+    const order = roles.map((_, i) => i);
+    for (let i = order.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [order[i], order[j]] = [order[j], order[i]];
+    }
+    assigned = order.map(i => roles[i]);
+    try { sessionStorage.setItem(key, JSON.stringify(order)); } catch (_) {}
+    show();
+  });
+  clear.addEventListener('click', () => {
+    assigned = [];
+    try { sessionStorage.removeItem(key); } catch (_) {}
+    show();
+  });
+  show();
+})();
 </script>
 ```
 
----
+## Your presentation: five minutes maximum
 
-## Now: How Billionaires Actually Spend It
-
-::: {style="font-size: 1.3em; line-height: 1.8;"}
-| Who | On Space | On Climate | The Ratio |
-|-----|----------|-----------|-----------|
-| **Jeff Bezos** | $5.5B (11 min flight) + $10B (Blue Origin) | $10B (Bezos Earth Fund) | ~60/40 space |
-| **Elon Musk** | $100B+ (SpaceX valuation) | ~$0 direct climate funding | ~100/0 space |
-| **Global military** | $2.4 trillion/year (defence budgets) | ~$100B/year (all climate finance) | **24:1** |
-| **You (just now)** | *Your number* | *Your number* | *Your ratio* |
+::: {.w11-list}
+- **Position:** FOR or AGAINST, and what your stakeholder cares about.
+- **Mechanism:** one causal chain, supported by two claims from this lecture or earlier weeks.
+- **Objection:** the strongest argument against your position—and your response.
+- **Revision:** one finding that would make you change your recommendation.
 :::
 
-::: {style="font-size: 1.4em; margin-top: 20px; font-weight: bold; color: #c0392b;"}
-The world currently spends **24x more on military** than on climate. Where did your split land?
+::: {.w11-src}
+Use the supplied evidence. Label observations, model estimates and policy judgements clearly; no new research is required during the preparation window.
 :::
 
-::: {.notes}
-**Key moment:** Let the 24:1 ratio sink in. Then ask: "Does knowing this change your number? Why or why not?" This is Strategy #10 (Self-Persuasion) in real time — the data creates dissonance, and they resolve it themselves.
+## The 50-minute activity
+
+::: {.w11-table}
+| Time | What happens |
+|:--|:--|
+| **2 min** | Settle into six groups; assign roles. |
+| **3 min** | Exchange positions; agree a stance and use the supplied evidence. |
+| **35 min** | Six × five-minute presentations, plus five minutes for transitions. |
+| **5 min** | Compare arguments and reflect individually. |
+| **5 min** | Buffer for questions and overruns. |
 :::
 
----
-
-## This Week's Debate Motion
-
-::: {style="font-size: 1.8em; text-align: center; background: #2c3e50; color: white; padding: 50px; border-radius: 15px;"}
-**"This house believes that government funding for space exploration should be redirected to climate change adaptation until the Paris Agreement targets are met."**
+::: {.w11-punch}
+Challenge a claim with a reason. Represent the other side fairly.
 :::
 
-::: {style="font-size: 1.3em; margin-top: 30px; text-align: center;"}
-PRO-CLIMATE: Every dollar in orbit is a dollar not protecting the coastlines that are flooding now. Fix Earth first — Mars will still be there.
-
-PRO-DEVELOPMENT: Space tech IS climate tech. Satellites monitor ice loss, fires, emissions. Cutting space funding makes the climate crisis harder to solve, not easier.
-:::
-
----
-
-# Activity: The Final Debate
-
----
-
-#
+## Presentation countdown
 
 ```{=html}
 <style>
-  #w11groupAssignment_container { text-align: center; margin-top: 20px; font-family: Arial, sans-serif; }
-  #w11groupAssignment_startButton { font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #3498db; color: white; border: none; border-radius: 5px; transition: background-color 0.3s; }
-  #w11groupAssignment_startButton:hover { background-color: #2980b9; }
-  #w11groupAssignment_overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255,255,255,0.9); display: none; justify-content: center; align-items: center; z-index: 1000; }
-  #w11groupAssignment_display { font-size: 36px; text-align: center; padding: 20px; max-width: 90%; max-height: 90%; overflow-y: auto; }
-  #w11groupAssignment_display h2 { color: #2c3e50; font-size: 48px; margin-bottom: 30px; }
-  #w11groupAssignment_display ul { list-style-type: none; padding: 0; }
-  #w11groupAssignment_display li { margin: 20px 0; font-size: 36px; background-color: #ecf0f1; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-  #w11groupAssignment_closeButton { position: absolute; top: 20px; right: 20px; font-size: 24px; cursor: pointer; background-color: #e74c3c; color: white; border: none; border-radius: 5px; padding: 10px 20px; }
+  #w11timer {
+    font-size: 348px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    transition: color 0.6s ease;
+  }
+  #w11timer.w11timer-flash { animation: w11timer-pop 0.6s ease; }
+  @keyframes w11timer-pop {
+    0%   { transform: scale(1); }
+    40%  { transform: scale(1.06); }
+    100% { transform: scale(1); }
+  }
+  #w11timer-label { font-size: 40px; color: #7f8c8d; margin-bottom: 30px; min-height: 1.4em; }
+  .w11timer-btn { font-size: 24px; padding: 15px 30px; color: white; border: none; border-radius: 8px; cursor: pointer; margin: 0 5px; }
+  .w11timer-btn:disabled { opacity: 0.6; cursor: default; }
+  #w11start-button { background-color: #27ae60; }
+  #w11pause-button { background-color: #f39c12; }
+  #w11reset-button { background-color: #e74c3c; }
+  #w11timer-legend { display: flex; justify-content: center; gap: 28px; margin-top: 36px; font-size: 26px; color: #2c3e50; }
+  #w11timer-legend span { display: inline-flex; align-items: center; gap: 8px; }
+  #w11timer-legend i { display: inline-block; width: 22px; height: 22px; border-radius: 50%; }
 </style>
-<div id="w11groupAssignment_container">
-  <h1 style="font-size: 48px; color: #34495e;">Group Assignment Time!</h1>
-  <button id="w11groupAssignment_startButton">Start the assignment</button>
+
+<div id="w11timer-container" style="text-align: center;">
+  <div id="w11timer">05:00</div>
+  <div id="w11timer-label"></div>
+  <button id="w11start-button" class="w11timer-btn">Start 5:00</button>
+  <button id="w11pause-button" class="w11timer-btn" disabled>Pause</button>
+  <button id="w11reset-button" class="w11timer-btn">Reset</button>
+  <div id="w11timer-legend"></div>
 </div>
-<div id="w11groupAssignment_overlay">
-  <div id="w11groupAssignment_display"></div>
-  <button id="w11groupAssignment_closeButton">Close</button>
-</div>
+
 <script>
-const W11GroupAssignment = {
-  groups: ['Group One','Group Two','Group Three','Group Four','Group Five','Group Six'],
-  vocations: ['STEM Educator/Researcher','Climate Policy Maker','Space Industry Entrepreneur','Social Scientist/Ethicist','Energy Sector Executive','General Public/Student'],
-  shuffleArray: function(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;},
-  createAssignment: function(){const s=this.shuffleArray([...this.vocations]);return this.groups.map((g,i)=>({group:g,vocation:s[i]}));},
-  displayAssignment: function(){const a=this.createAssignment();let h='<h2>Random Group Assignments</h2><ul>';a.forEach(x=>{h+=`<li><strong>${x.group}:</strong> ${x.vocation}</li>`;});h+='</ul>';document.getElementById('w11groupAssignment_display').innerHTML=h;document.getElementById('w11groupAssignment_overlay').style.display='flex';},
-  init: function(){document.getElementById('w11groupAssignment_startButton').addEventListener('click',()=>this.displayAssignment());document.getElementById('w11groupAssignment_closeButton').addEventListener('click',()=>{document.getElementById('w11groupAssignment_overlay').style.display='none';});}
-};
-W11GroupAssignment.init();
+(function () {
+  const TOTAL = 300; // 5 minutes
+  // One colour per minute, as on countdown_colors.qmd:
+  // 5:00–4:01 slate, 4:00–3:01 blue, 3:00–2:01 green, 2:00–1:01 orange, final minute red.
+  const BAND_COLORS = ['#2c3e50', '#2980b9', '#27ae60', '#f39c12', '#e74c3c'];
+  const DONE_COLOR = '#8e44ad'; // Time's up
+
+  const timerEl = document.getElementById('w11timer');
+  const labelEl = document.getElementById('w11timer-label');
+  const startBtn = document.getElementById('w11start-button');
+  const pauseBtn = document.getElementById('w11pause-button');
+  const resetBtn = document.getElementById('w11reset-button');
+  const legendEl = document.getElementById('w11timer-legend');
+
+  let timeLeft = TOTAL;
+  let deadline = 0;
+  let interval = null;
+  let currentBand = -1;
+
+  BAND_COLORS.forEach((c, i) => {
+    const s = document.createElement('span');
+    s.innerHTML = '<i style="background:' + c + '"></i>' + (BAND_COLORS.length - i) + ' min';
+    legendEl.appendChild(s);
+  });
+
+  // 300..241 -> 0, 240..181 -> 1, ..., 60..1 -> 4, 0 -> done
+  function bandFor(sec) {
+    return sec <= 0 ? BAND_COLORS.length : BAND_COLORS.length - Math.ceil(sec / 60);
+  }
+
+  function render(animate) {
+    const m = Math.floor(timeLeft / 60);
+    const s = timeLeft % 60;
+    timerEl.textContent = String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+
+    const band = bandFor(timeLeft);
+    if (band === currentBand) return;
+    currentBand = band;
+    if (band >= BAND_COLORS.length) {
+      timerEl.style.color = DONE_COLOR;
+      labelEl.textContent = "Time's up!";
+    } else {
+      const minsLeft = BAND_COLORS.length - band;
+      timerEl.style.color = BAND_COLORS[band];
+      labelEl.textContent = minsLeft === 1 ? 'Final minute' : minsLeft + ' minutes left';
+    }
+    if (animate) {
+      timerEl.classList.remove('w11timer-flash');
+      void timerEl.offsetWidth; // restart the pop animation
+      timerEl.classList.add('w11timer-flash');
+    }
+  }
+
+  function stop() {
+    clearInterval(interval);
+    interval = null;
+    pauseBtn.disabled = true;
+  }
+
+  function tick() {
+    // Count down from a deadline so a slow or throttled tab cannot stretch the five minutes.
+    timeLeft = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+    render(true);
+    if (timeLeft <= 0) {
+      stop();
+      startBtn.disabled = true;
+      startBtn.textContent = 'Done';
+    }
+  }
+
+  startBtn.addEventListener('click', () => {
+    if (interval || timeLeft <= 0) return;
+    deadline = Date.now() + timeLeft * 1000;
+    interval = setInterval(tick, 250);
+    startBtn.disabled = true;
+    startBtn.textContent = 'Running…';
+    pauseBtn.disabled = false;
+  });
+
+  pauseBtn.addEventListener('click', () => {
+    stop();
+    startBtn.disabled = false;
+    startBtn.textContent = 'Resume';
+  });
+
+  resetBtn.addEventListener('click', () => {
+    stop();
+    timeLeft = TOTAL;
+    currentBand = -1;
+    startBtn.disabled = false;
+    startBtn.textContent = 'Start 5:00';
+    render(false);
+  });
+
+  render(false);
+})();
 </script>
 ```
 
-## Presentation Countdown
+::: {.notes}
+Reset before each group. The timer uses a deadline, so a throttled tab does not stretch five minutes. Colours change by remaining minute; the label also states the remaining band for accessibility.
+:::
 
-<div id="w11timer-container" style="text-align: center;">
-  <div id="w11timer" style="font-size: 348px; color: black; margin-bottom: 20px;">05:00</div>
-  <button id="w11start-button" style="font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #27ae60; color: white; border: none; border-radius: 8px;" onclick="w11startTimer()">Start 5:00</button>
-  <button id="w11reset-button" style="font-size: 24px; padding: 15px 30px; cursor: pointer; background-color: #e74c3c; color: white; border: none; border-radius: 8px; margin-left: 10px;" onclick="w11resetTimer()">Reset</button>
+## Before the next group: what did you hear?
+
+::: {.w11-list}
+- **Claim:** what did the group ask us to support?
+- **Evidence:** which fact or mechanism did the most work?
+- **Uncertainty:** what remained unresolved?
+:::
+
+::: {.w11-lead}
+In the wrap-up, name the strongest argument you heard **against your own position**.
+:::
+
+::: {.notes}
+Use as a listener prompt, not as an extra timed presentation after every group. The final five-minute wrap-up includes the individual reflection in the next section.
+:::
+
+## Write your decision—and its limit.
+
+::: {.w11-question}
+“I would prioritise **___** because **___**.”
+
+“The strongest objection is **___**.”
+
+“I would reconsider if **___**.”
+:::
+
+::: {.w11-src}
+Individual reflection · 90 seconds within the five-minute wrap-up. You may keep or revise your initial position.
+:::
+
+::: {.notes}
+Ask for one changed view and one unchanged view with stronger reasoning. Do not reward agreement with the lecturer. The purpose is to make the reasoning visible.
+:::
+
+# Part 6 · Return to Earthrise {background-color="#0a3d62"}
+
+[The image stays the same. Your reasons may have changed.]{.w11-sub}
+
+## What would your decision protect? {background-color="#000000"}
+
+![](data/earthrise.jpg){.w11-hero fig-alt="Earthrise, the opening photograph revisited after the funding debate."}
+
+::: {.w11-hero-cap}
+What could a second home protect—and what would we still owe this one?
+:::
+::: {.w11-hero-credit}
+[NASA / Bill Anders · Apollo 8 · 24 December 1968](https://science.nasa.gov/resource/apollo-8s-iconic-earthrise/)
+:::
+
+::: {.notes}
+Return to the opening question and Musk’s insurance argument: which part can you now defend, and what would you require before supporting it? Students now have distinctions and evidence that the image alone could not supply. Do not reveal a single “correct” emotional response or policy choice.
+:::
+
+## A different view can change what matters.
+
+::: {.w11-lead}
+Some astronauts describe awe, connection and a heightened sense of Earth’s fragility: experiences often called the **overview effect**.
+:::
+
+::: {.w11-punch}
+A perspective can motivate a decision. It cannot settle the decision for us.
+:::
+
+::: {.w11-src}
+[Yaden et al., 2016: astronaut accounts and the overview effect](https://doi.org/10.1037/cns0000086) · [Bill Anders: NASA oral history](https://www.nasa.gov/wp-content/uploads/2025/07/waa-10-8-97-amended.pdf)
+:::
+
+::: {.notes}
+The evidence does not establish that every astronaut changes in the same way, that the change is permanent, or that Earthrise created the environmental movement. Anders’s oral history is a first-person account, not a representative experiment.
+:::
+
+## Strategy #10 · Self-persuasion
+
+::: {.w11-lead}
+Invite people to build a reason **in their own words**.
+:::
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card purple"><div class="k">Potential</div><div class="h">An argument you generate can persuade you.</div><p>Research finds this can work especially when generating reasons feels easy.</p></div><div class="w11-card grey"><div class="k">Limit</div><div class="h">Generating a reason does not make it true.</div><p>Check the evidence and leave room for disagreement or revision.</p></div></div>
+```
+
+::: {.w11-src}
+[Xu & Wegener, 2024: ease and difficulty in self-persuasion](https://doi.org/10.1177/19485506221146612)
+:::
+
+::: {.notes}
+Five samples, including two preregistered studies. The advantage diminished when generating arguments felt difficult. Avoid the old cult/brainwashing example and the claim that acting or speaking automatically produces belief. This is a conditional finding, not a manipulation guarantee.
+:::
+
+## The semester gave us four questions.
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card purple"><div class="k">Weeks 7–8 · evidence and language</div><div class="h">What is the claim?</div><p>Separate what is observed from what a label asks us to believe.</p></div><div class="w11-card green"><div class="k">Week 9 · displacement and support</div><div class="h">Who bears the consequences?</div><p>Look beyond the first event to recovery, access and continued support.</p></div></div>
+```
+
+```{=html}
+<div class="w11-cards two"><div class="w11-card blue"><div class="k">Week 10 · cascades</div><div class="h">What happens next?</div><p>Trace the mechanism, including the consequences of your proposed fix.</p></div><div class="w11-card red"><div class="k">Week 11 · second homes</div><div class="h">What would justify the priority?</div><p>Test the promise of a second home and the obligations that remain here.</p></div></div>
+```
+
+::: {.notes}
+Different cases require different evidence. Do not say Tai Po and Tuvalu share identical physics, or that every environmental change is the same feedback loop.
+:::
+
+## Use the same discipline in your final spectacle.
+
+```{=html}
+<div class="w11-chain"><div class="step"><b>A person or scene</b>Help the audience see what is at stake.</div><div class="to" aria-hidden="true">→</div><div class="step"><b>A supported claim</b>Explain the mechanism without hiding its limits.</div><div class="to" aria-hidden="true">→</div><div class="step"><b>A feasible action</b>Show who can do what, and how it would help.</div></div>
+```
+
+::: {.w11-punch}
+Write one question your audience can answer using your evidence—even if they disagree.
+:::
+
+## Your essay: a persuasive, fact-checkable proposal.
+
+::: {.w11-list}
+- **750 words maximum.** Connect insights from more than one week.
+- **A concrete climate solution:** explain its relevance to Hong Kong and the wider context, how it works, and who can act.
+- **At least four credible sources.** Address a serious limitation or counterargument.
+- **Narrative does not mean fiction:** a vivid opening still needs verifiable facts.
+:::
+
+::: {.w11-src}
+[Assessment criteria](evaluation.html#final-reflective-essay-20) · [Portfolio roadmap and format requirements](portfolio_roadmap.html#deliverable-1-final-reflective-essay-20)
+:::
+
+::: {.notes}
+This is a reminder of the current course documents, not a new assignment or deadline. Roadmap: 12pt Times New Roman, double-spaced, APA citations; maximum 750 words. The visual creation should communicate the same proposal. Follow the linked course pages for full submission details.
+:::
+
+## Final portfolio · Two submission deadlines
+
+```{=html}
+<div class="w11-cards two">
+  <div class="w11-card red">
+    <div class="k">Presenting in the last class</div>
+    <div class="h">Wednesday 25 November</div>
+    <p>Submit your final portfolio by</p>
+    <p style="font-size:1.6em;font-weight:800;margin-top:24px;">Tuesday 24 November</p>
+    <p style="font-size:2.7em;font-weight:900;line-height:1.15;margin-top:12px;">11:59 PM</p>
+  </div>
+  <div class="w11-card blue">
+    <div class="k">Not presenting</div>
+    <div class="h">End-of-week submission</div>
+    <p>Submit your final portfolio by</p>
+    <p style="font-size:1.6em;font-weight:800;margin-top:24px;">Sunday 29 November</p>
+    <p style="font-size:2.7em;font-weight:900;line-height:1.15;margin-top:12px;">11:59 PM</p>
+  </div>
 </div>
+```
 
-<script>
-let w11timeLeft = 300; let w11timerInterval = null;
-function w11updateDisplay(){const m=Math.floor(w11timeLeft/60);const s=w11timeLeft%60;document.getElementById('w11timer').textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');document.getElementById('w11timer').style.color=w11timeLeft<=30?'#e74c3c':'black';}
-function w11startTimer(){if(w11timerInterval)return;w11timerInterval=setInterval(()=>{if(w11timeLeft>0){w11timeLeft--;w11updateDisplay();}else{clearInterval(w11timerInterval);w11timerInterval=null;}},1000);}
-function w11resetTimer(){clearInterval(w11timerInterval);w11timerInterval=null;w11timeLeft=300;w11updateDisplay();}
-w11updateDisplay();
-</script>
-
----
-
-## The Debate
-
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-**This is the last debate of the semester.** Make it count.
-
-Use everything you've learned:
-
-- **System boundaries** (W3) — where do you draw the line between "space spending" and "climate spending"?
-- **Structural incentives** (W6) — who profits from the space race? Who profits from climate action?
-- **The Doubt Machine** (W7) — is "space will save us" manufactured optimism?
-- **Cascade effects** (W10) — what cascades from cutting space budgets? What cascades from not cutting them?
-
-The strongest debaters will connect this week to **every other week.**
+::: {.w11-punch}
+To present on 25 November, submit by the earlier deadline: 24 November, 11:59 PM.
 :::
 
----
-
-## Ground Rules
-
-::: {style="font-size: 1.5em; line-height: 1.8;"}
-- This is a [**safe space**]{style="color: #27ae60;"} for exploration and discussion. There are [**no wrong answers**]{style="color: #e74c3c;"}, only opportunities to learn.
-
-- **Respect** and **open-mindedness** are our guiding principles. Every opinion shared contributes to collective learning.
-
-- **Feedback** and **reflection** are encouraged. This is a chance to voice thoughts, ask questions, and grow from the experience.
+::: {.w11-src style="text-align:center;font-size:0.85em;"}
+**All dates are in 2026. All deadlines are Hong Kong time (UTC+8).**
 :::
 
----
-
-# This Week's Conceptual Takeaway
-
----
-
-## The Semester in One Image
-
-::: {style="font-size: 1.5em; line-height: 1.8;"}
-Everything we've studied this semester — structural incentives, manufactured doubt, invisible infrastructure, responsibility asymmetry, cascade effects — happens inside a razor-thin atmosphere on a pale blue dot.
-
-The Overview Effect isn't just about space. It's about **seeing the system whole.**
-
-When you zoom out far enough:
-
-- The Doubt Machine and the Carbon Pump are the same fight
-- Tai Po fire victims and Tuvalu citizens face the same physics
-- Wolves in Yellowstone and permafrost in Siberia are the same cascade
-- Venice's flood barrier and Dhaka's slums are the same water
+::: {.notes}
+Course-lead instruction, 17 November 2026: there are two final-portfolio submission deadlines based on presentation intention. Students intending to present in the last class on 25 November must submit by 11:59 PM on 24 November. Students not intending to present must submit by 11:59 PM on 29 November. No presentation start time or submission-platform change is specified here.
 :::
 
----
+## Leave the audience with a reason to act. {background-color="#0a3d62"}
 
-## {background-color="#0a0a2e"}
+::: {.w11-question}
+What should we do?
 
-::: {style="font-size: 2.2em; color: white; text-align: center; line-height: 1.6;"}
-You don't need to go to space
+Who would it help?
 
-to see the whole system.
-
-[**You just finished an 11-week version of the Overview Effect.**]{style="color: #e74c3c;"}
+Why should they trust the argument?
 :::
 
-::: {style="font-size: 1.4em; color: #95a5a6; margin-top: 30px; text-align: center;"}
-*The question was never "what is climate change?" The question was always: "what are YOU going to do about it?"*
+::: {.w11-lead}
+Your task is to make those answers clear enough to examine—and strong enough to matter.
 :::
 
----
+# Sources & teaching notes {background-color="#2c3e50"}
 
-# The Persuasion Playbook | Strategy #10 (Final)
+[Evidence checked 16 November 2026 · optional reference slides]{.w11-sub}
 
----
+## Sources · The second-home proposal
 
-## The Self-Persuasion Trick
-
-::: {style="font-size: 1.6em; background: #2c3e50; color: white; padding: 40px; border-radius: 10px;"}
-People paid **$1** to lie about a boring task later *believed the task was interesting*.
-
-People paid **$20** didn't change their beliefs.
-
-**Why?**
+::: {.w11-sources}
+- [Elon Musk, 2017 · Making Humans a Multi-Planetary Species](https://doi.org/10.1089/space.2017.29009.emu) — his authored survival argument; quotation from p. 46. A proposal, not an independently demonstrated outcome.
+- [SpaceX · Official 2016 presentation](https://www.youtube.com/watch?v=H7Uyfqi_TE8) — the original public argument; optional media, not required for the lecture.
+- [SpaceX · Mission: Mars](https://www.spacex.com/mars) — current company development goals include lunar bases and Mars civilisation; checked 16 November 2026. Goals and announced targets are not achieved capabilities.
 :::
 
----
-
-## The Science
-
-::: {style="font-size: 1.4em; line-height: 1.8;"}
-This is **Cognitive Dissonance** (Festinger, 1957).
-
-$1 wasn't enough justification, so the brain invented one: *"I must have actually liked it."*
-
-Cults don't brainwash. They get you to **do things**.
-
-Then your brain rewrites the story.
-
-**Behavior first. Belief follows.**
+::: {.w11-punch}
+Use the proponent’s words to establish the proposal. Use independent evidence to assess it.
 :::
 
----
+## Sources · Three recent stories
 
-## You Just Saw It
-
-::: {style="font-size: 1.6em; line-height: 1.8;"}
-The most powerful moments this semester weren't when someone *told* you what to think.
-
-They were when someone asked you to **do something**:
-
-*"Raise your hand if you've ever felt hopeless about climate."*
-
-Now you've publicly identified. Your brain needs to reconcile that.
+::: {.w11-sources}
+- **Changed priority:** Musk’s [February 2026 post](https://x.com/elonmusk/status/2020640004628742577), preserved in the [original-post archive](https://archive.ph/9vQar). [SpaceX’s June 2026 prospectus](https://content.spacex.com/cms-assets/FINAL_Documents%20and%20Updates/SpaceX%20-%20EU%20Prospectus%20%28Approved%20by%20Bafin%29%20-%20June%205%2C%202026.pdf), printed pp. 31 and 82, separates development risk and initial lunar priorities.
+- **Everyday habitation:** [NASA, 9 November 2026](https://www.nasa.gov/missions/analog-field-testing/chapea/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/) — CHAPEA crew accounts following the 31 October completion; simulation, not actual Mars residence.
+- **Residents’ voice:** [Cameron County’s May 2025 result](https://www.cameroncountytx.gov/elections/wp-content/uploads/2025/05/City-of-Starbase-Summary.pdf) and [Starbase’s official biography](https://www.starbase.texas.gov/city-commission-and-staff). The governance question is our hypothetical extension of these public facts.
 :::
 
----
+## Sources · The route and the resource question
 
-## The Final Challenge
-
-::: {style="font-size: 2em; background: #e74c3c; color: white; padding: 40px; border-radius: 10px; text-align: center;"}
-**Don't tell them the conclusion.**
-
-Make them say it. Make them do something.
-
-**They'll persuade themselves.**
+::: {.w11-sources}
+- **January 2025 statement:** [Musk’s original post](https://x.com/elonmusk/status/1875023335891026324), quoted by [Ars Technica on 3 January 2025](https://arstechnica.com/space/2025/01/elon-musk-were-going-straight-to-mars-the-moon-is-a-distraction/). [NASA’s April 2021 lander selection](https://www.nasa.gov/news-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/) supplies the programme context.
+- **Distance and autonomy:** [NASA’s 2025 architecture paper](https://www.nasa.gov/wp-content/uploads/2025/12/acr25-wp-why-moon-and-mars-v2.pdf), p. 2 — nearer exploration and increasing independence are related but distinct.
+- **Deposit versus supply:** [NASA/JPL’s 2018 polar-ice observations](https://www.jpl.nasa.gov/news/ice-confirmed-at-the-moons-poles/) and [USGS Circular 1507, 2022](https://pubs.usgs.gov/circ/1507/cir1507.pdf) — presence, recovery and usable supply require different evidence.
+- **Depletion and alternatives:** [Meinert, Robinson & Nassar, 2016 / USGS](https://www.usgs.gov/publications/mineral-resources-reserves-peak-production-and-future) — reserves cannot simply be treated as all remaining material; recycling and production costs matter.
 :::
 
----
+## Sources · Earth and orbit
 
-# Strategy Recap: Your Persuasion Toolkit
-
----
-
-## The Complete Arsenal
-
-::: {style="font-size: 1.1em;"}
-| # | Strategy | One-Liner | Week |
-|---|----------|-----------|------|
-| 1 | **The Open Loop** | Incomplete = unforgettable | W2 |
-| 2 | **The Barnum Slide** | Vague + universal = feels personal | W3 |
-| 3 | **Sensory Hijack** | The body believes what the mind resists | W4 |
-| 4 | **The Anchoring Trap** | First number wins | W5 |
-| 5 | **The Specificity Illusion** | Detail = credibility | W6 |
-| 6 | **The Pre-Mortem** | Assume you failed. Now fix it. | W7 |
-| 7 | **The Fork** | Two options, both yours | W8 |
-| 8 | **The Invisible Bandwagon** | You're the weird one if you don't | W9 |
-| 9 | **The Cliffhanger Return** | End where you started — transformed | W10 |
-| 10 | **The Self-Persuasion Trick** | Make them do it. They'll believe it. | W11 |
+::: {.w11-sources}
+- [Hong Kong Observatory · Tracking by satellite observations](https://www.hko.gov.hk/en/education/tropical-cyclone/tracking/00159-tracking-by-satellite-observations.html) — why observations over the ocean matter; historical operating frequency not used.
+- [NASA · Satellite sea-level record](https://www.nasa.gov/wp-content/uploads/2023/06/gmsl-satelliterecordclassroomdatasheet.pdf) — combined global record from 1993.
+- [ESA · Space Environment Statistics](https://sdup.esoc.esa.int/discosweb/statistics/) — updated 13 November 2026; small-debris estimate uses the February 2026 model population.
+- [ESA · Space Environment Report 2026](https://www.esa.int/articles/esa-space-environment-report-2026) — collision feedback and complementary responses; orbital regions differ.
+- [NASA ODPO · Image gallery](https://orbitaldebris.jsc.nasa.gov/photo-gallery/) — visualization conventions; [exact historical image record](https://commons.wikimedia.org/wiki/File:Debris-GEO1280.jpg).
 :::
 
----
+## Sources · Atmosphere and exploration
 
-# Wrapping Up CCGL9065
-
----
-
-## What This Course Was
-
-::: {style="font-size: 1.5em; line-height: 1.8;"}
-We had **one topic**: climate change.
-
-- **Step 1:** Each week, we picked **two sides** (PRO-CLIMATE vs PRO-DEVELOPMENT)
-- **Step 2:** From each side, we found **a multitude of angles** — human stories, data, spectacles, provocations
-
-Two questions to carry forward:
-
-- What left a mark on **your perception**?
-- [**How can you influence other people with that?**]{style="color: #e74c3c;"}
+::: {.w11-sources}
+- [Maloney et al., 2022 · JGR Atmospheres](https://repository.library.noaa.gov/view/noaa/53971/noaa_53971_DS1.pdf) — modelled atmospheric effects of specified rocket-soot scenarios.
+- [NOAA / Murphy et al., 2023](https://csl.noaa.gov/news/2023/388_1016.html) — measured re-entry metals; atmospheric consequences remain under study.
+- [NASA · MOXIE results, 2023](https://www.nasa.gov/solar-system/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/) — 122 g of oxygen in total; [Mars subsurface ice](https://science.nasa.gov/resource/swim-map-shows-subsurface-water-ice-on-mars/); [human-mission challenges](https://www.nasa.gov/humans-in-space/humans-to-mars/).
+- [NASA · DART analysis, 2023](https://www.nasa.gov/science-research/planetary-science/nasas-dart-data-validates-kinetic-impact-as-planetary-defense-method/) — changed Dimorphos’s orbit in a planned test.
+- [NASA/JPL · PIA18409](https://www.jpl.nasa.gov/images/pia18409-curiositys-360-degree-view-before-entering-hidden-valley/) — Curiosity panorama, 31 July 2014.
 :::
 
----
+## Sources · Perspective and persuasion
 
-## Go Build Something That Matters
-
-::: {style="font-size: 1.8em; background: #27ae60; color: white; padding: 50px; border-radius: 15px; text-align: center;"}
-You've learned the techniques.
-
-Now use them for something real.
-
-**The climate doesn't care about your GPA. It cares about what you do next.**
-:::
-
----
-
-## Practical: Essay-Writing Clarification
-
-::: {style="font-size: 1.3em; line-height: 1.8;"}
-**YOUR** response to climate change with HK 2100 in mind. "Story" ≠ "fiction" — story-telling, not story-creation.
-
-**Objective:** Reflective essay (750 words max) proposing a realistic climate change solution through narrative.
-
-**Grading criteria:**
-
-- Address the task — provide an individual, written response
-- Show engagement with your topic + the overarching climate change theme
-- Present clear, logical argument from various perspectives, including counter-evidence
-- Coherent structure with clear call to action and conclusion, proper paragraphing, minimal language errors
-
-**The essay and visual should not only reflect academic insights but also aim to inspire broader awareness and action.**
+::: {.w11-sources}
+- [NASA · Earthrise image record](https://science.nasa.gov/resource/apollo-8s-iconic-earthrise/) — Bill Anders, Apollo 8, 24 December 1968.
+- [NASA · How Earthrise was photographed](https://science.nasa.gov/resource/the-story-behind-apollo-8s-famous-earthrise-photo/) — optional reconstruction with original onboard audio; the lecture also works with the still image.
+- [Yaden et al., 2016 · The overview effect](https://doi.org/10.1037/cns0000086) — astronaut accounts, not evidence of a universal permanent effect.
+- [NASA · Bill Anders oral history, 1997](https://www.nasa.gov/wp-content/uploads/2025/07/waa-10-8-97-amended.pdf) — a first-person account of Earth’s apparent fragility.
+- [Xu & Wegener, 2024 · Self-persuasion](https://doi.org/10.1177/19485506221146612) — generating arguments can persuade; effects depend on how difficult generation feels.
 :::

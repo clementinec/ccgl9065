@@ -46,6 +46,85 @@ prefix renamed, e.g. `w10-`):
 - homepage card (`index.qmd`) and archive row (`slidev_conversion.qmd`) point
   at the Quarto deck; the Slidev conversion is kept as the earlier version
 
+## 2026-11-16–17 — Week 11 rebuilt in Quarto
+
+**Branch `codex/week11-refresh`**, based on the latest teaching branch
+`claude/youthful-lovelace-xje7nt` at `7c24d77` (not stale `main`).
+
+- Rebuilt `CCGL9065_W11.qmd` and `_site/CCGL9065_W11.html`: **59 slides**,
+  including the title and reference slides. Week 10's Quarto design language
+  carries through the coloured dividers, image slides, cards and causal loop.
+- Refocused after course-lead review: **second homes, retaining responsibility
+  for Earth and the concern about deserting it** now drive the lecture.
+  Earthrise leads directly to Musk's dated, sourced survival argument; the
+  Mars/MOXIE/independent-backup sequence tests that promise. “Insurance” and
+  “abandonment” are interpretations to examine, not assumed consequences or
+  attributed motives. “A backup for whom?” distinguishes continuity of
+  civilisation from protection of people living here.
+- Compressed satellite and atmospheric material into supporting evidence.
+  Hong Kong warning access, DART and the debris feedback loop show why
+  exploration and responsibilities on Earth cannot be treated as opposites.
+  The public-funding debate and Earthrise return complete the story.
+- Musk's quotation is from his 2017 authored paper, based on his 2016 talk.
+  Current SpaceX lunar/Mars goals are identified as development goals; NASA's
+  MOXIE result is explicitly separate. The optional official talk is linked.
+- Added three recent anecdotes after the next course-lead review: Musk's
+  February 2026 lunar-city priority announcement; the CHAPEA crew's October
+  2026 completion and November account of everyday supplies/ground support;
+  Starbase's May 2025 incorporation vote and its mayor's dual public/SpaceX
+  roles. Each has an explicit second-home question and primary sources.
+  Replaced two repeated abstract-framework slides, adding one reference slide
+  for a net increase of two slides. CHAPEA is visibly a Houston simulation;
+  the governance extension is hypothetical; the county vote record retains
+  its “unofficial results” qualifier. NASA's authentic crew photos are linked.
+- Reworked the isolated Moon-pivot anecdote into a short chronological
+  backtrack: 2016–17 Mars ambition → January 2025 “Moon is a distraction”
+  statement → February 2026 Moon-city priority. The 2021 NASA lunar-lander
+  selection remains visible context: a changed public priority is not a
+  claim that the Moon first entered the programme in 2026. The January quote
+  is sourced to contemporaneous Ars Technica reporting and the original post.
+- Followed this with “Easier to reach—for what?” (folding in the old
+  visit/settle/backup framework), then a conditional resource-management chain.
+  NASA/JPL and USGS support the distinction between material being present,
+  practical access and dependable supply. Depletion prompts choices among
+  extraction, recovery, demand and imports; it is not attributed as Musk's
+  explanation, a forecast that Earth is nearly empty, or a lunar-mining cost
+  claim. MOXIE now follows as the worked example of resource conversion.
+- New motion: *“This house would redirect new public funding for permanent
+  human settlements on the Moon or Mars to climate adaptation on Earth for
+  the next ten years.”* Visible definitions cover future commitments,
+  permanent residence, adaptation, excluded activities and mixed-use projects.
+- Preserved six stakeholder roles, five-minute presentation limit and the
+  50-minute activity. Roles can take either side. Assignment results persist
+  for the browser session; the Week 10 colour-by-minute timer is retained.
+- Updated evidence: ESA's February 2026 model population (page updated
+  13 November 2026), MOXIE's 122 g total, carefully bounded DART results,
+  rocket-soot modelling and observed re-entry metals. Removed unsupported
+  spending comparisons, universal overview-effect claims and automatic
+  self-persuasion claims. Source links and limitations are on slides/in notes.
+- Updated `index.qmd`, `slidev_conversion.qmd`, their generated HTML pointers
+  and Week 11 search entries. The earlier Slidev version is retained.
+- Rendered with Quarto 1.10.19. Google Fonts were unreachable in this session;
+  the rendered deck reuses the fully embedded simple-theme stylesheet from
+  `_site/CCGL9065_W10.html`. It has no external script or stylesheet dependency.
+  A normal connected re-render should embed these fonts directly.
+- Added one final-portfolio deadline slide: presenters in the last class on
+  Wednesday 25 November submit by Tuesday 24 November, 11:59 PM; students
+  not presenting submit by Sunday 29 November, 11:59 PM. All dates are 2026
+  and all deadlines use Hong Kong time (UTC+8).
+- Validation: 59 slides; all four images embedded with alt text; no duplicate
+  IDs or broken local links; all 20 inline scripts parse; Reveal menu loads;
+  role uniqueness/session restore/reset and all timer bands/pause/resume/reset/
+  deadline expiry pass. Browser visual inspection was unavailable: browser
+  host failed and Safari UI access returned `cgWindowNotFound`.
+
+**Publication prepared on 17 November.** Quarto and the updated `index.qmd`
+pointer are confirmed. Terminal GitHub DNS is unavailable; the connected
+GitHub API has verified read/write access. Upload the source snapshot and
+publish only the Week 11 deck, homepage card, archive row and search records
+from the current `gh-pages` tree. Record the deployment result below once
+GitHub Pages completes; preserve the live-only Week 9 and theme changes.
+
 ## 2026-11-09 — Week 10 rebuilt and published
 
 **Branch `claude/youthful-lovelace-xje7nt`**
@@ -100,8 +179,6 @@ the farm, and the wet-then-drought farming year, both match the show. The
 
 ## Next up
 
-- Week 11 (Space & planetary futures) is still the Slidev conversion. To
-  rebuild: start from `CCGL9065_W11.qmd` and the recipe above; the Week 10
-  "Two Threads" slide sets up Week 11 (the Kessler cascade of space debris,
-  and Strategy #10: no framing is neutral).
+- Week 11 is rebuilt in `CCGL9065_W11.qmd`; the earlier Slidev deck remains
+  available in the archive. Follow up on the publication status above.
 - Weeks 2–6 still open their Slidev conversions from the homepage.
