@@ -118,12 +118,24 @@ prefix renamed, e.g. `w10-`):
   deadline expiry pass. Browser visual inspection was unavailable: browser
   host failed and Safari UI access returned `cgWindowNotFound`.
 
-**Publication prepared on 17 November.** Quarto and the updated `index.qmd`
-pointer are confirmed. Terminal GitHub DNS is unavailable; the connected
-GitHub API has verified read/write access. Upload the source snapshot and
-publish only the Week 11 deck, homepage card, archive row and search records
-from the current `gh-pages` tree. Record the deployment result below once
-GitHub Pages completes; preserve the live-only Week 9 and theme changes.
+**Published on 17 November 2026.** Quarto and the updated `index.qmd` pointer
+were confirmed before publication. Terminal GitHub DNS was unavailable, so
+the GitHub connector uploaded an identical source-tree snapshot to remote
+`codex/week11-refresh` at `22b5d10` (same tree as local `c866b66`; the local
+incremental history is retained separately).
+
+- `gh-pages` commit `8f2ef36` changes exactly four files: the standalone
+  `CCGL9065_W11.html`, Week 11 homepage card in `index.html`, archive row in
+  `slidev_conversion.html`, and Week 11 records in `search.json`. All other
+  published pages/assets, including the live-only Week 9, retain their hashes.
+- GitHub Pages build, report and deployment jobs succeeded:
+  https://github.com/clementinec/ccgl9065/actions/runs/44032824415 .
+- Deck: https://clementinec.github.io/ccgl9065/CCGL9065_W11.html .
+  Deadline slide: `#/final-portfolio-two-submission-deadlines`.
+- Published blob hashes match the checked local files. A fresh hosted-page
+  visual check remains unavailable: terminal DNS and browser/web access to
+  the Pages host failed in this session. Deployment success is confirmed
+  through GitHub Actions; this does not claim a live browser inspection.
 
 ## 2026-11-09 — Week 10 rebuilt and published
 
@@ -180,5 +192,5 @@ the farm, and the wet-then-drought farming year, both match the show. The
 ## Next up
 
 - Week 11 is rebuilt in `CCGL9065_W11.qmd`; the earlier Slidev deck remains
-  available in the archive. Follow up on the publication status above.
+  available in the archive. The Quarto deck is now published.
 - Weeks 2–6 still open their Slidev conversions from the homepage.
