@@ -25,10 +25,10 @@ format:
       Explore the Fall 2026 portfolios.
     </p>
     <div class="ex2026__stats">
-      <div class="ex2026__stat"><strong>37</strong>Portfolios</div>
-      <div class="ex2026__stat"><strong>33</strong>Collages</div>
-      <div class="ex2026__stat"><strong>29</strong>Video Essays</div>
-      <div class="ex2026__stat"><strong>29</strong>Reflections</div>
+      <div class="ex2026__stat"><strong>40</strong>Portfolios</div>
+      <div class="ex2026__stat"><strong>37</strong>Collages</div>
+      <div class="ex2026__stat"><strong>31</strong>Video Essays</div>
+      <div class="ex2026__stat"><strong>32</strong>Reflections</div>
     </div>
   </section>
 
