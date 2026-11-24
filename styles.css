@@ -1574,3 +1574,12 @@ button:hover {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Exhibition links retain direct navigation, with a separate touch/keyboard toggle. */
+.navbar .exhibition-nav { position: relative; display: flex; flex-wrap: wrap; align-items: center; }
+.navbar .exhibition-nav > .nav-link { padding-right: 0.25rem; }
+.navbar .exhibition-nav-toggle { background: transparent; border: 0; padding: 0.5rem; }
+.navbar .exhibition-nav > .dropdown-menu { top: 100%; margin-top: 0; }
+@media (max-width: 991.98px) {
+  .navbar .exhibition-nav > .dropdown-menu { flex-basis: 100%; }
+}

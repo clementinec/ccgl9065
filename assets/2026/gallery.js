@@ -23,9 +23,9 @@
     return;
   }
 
-  const dataUrl = isCurator
+  const dataUrl = root.dataset.source || (isCurator
     ? "data/students_2026_curator.json"
-    : "data/students_2026_public.json";
+    : "data/students_2026_public.json");
 
   // ----------- Element refs -----------
   const stage = root.querySelector("[data-stage]");
@@ -100,6 +100,9 @@
 
   function renderEssay(p) {
     const e = p.essay || {};
+    if (e.available && e.text) {
+      return `<button class="ex2026__essay-link" type="button" data-read-essay="${escapeHtml(p.id)}" aria-haspopup="dialog">Read full essay</button>`;
+    }
     if (e.available && e.url) {
       return `<a class="ex2026__essay-link" href="${escapeHtml(e.url)}" target="_blank" rel="noopener">
         Read full essay
@@ -166,6 +169,42 @@
       stage?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   }
+
+  // Native dialog provides focus trapping, Escape dismissal, and focus restoration.
+  const essayDialog = document.createElement("dialog");
+  essayDialog.className = "ex2026__essay-dialog";
+  essayDialog.setAttribute("aria-labelledby", "ex2026-essay-title");
+  essayDialog.innerHTML = `
+    <div class="ex2026__essay-toolbar"><button type="button" autofocus>Close essay</button></div>
+    <article class="ex2026__essay-body"><h2 id="ex2026-essay-title"></h2><div data-essay-text></div></article>`;
+  root.appendChild(essayDialog);
+  essayDialog.querySelector("button").addEventListener("click", () => essayDialog.close());
+  essayDialog.addEventListener("click", event => {
+    const bounds = essayDialog.getBoundingClientRect();
+    if (event.target === essayDialog &&
+        (event.clientX < bounds.left || event.clientX > bounds.right ||
+         event.clientY < bounds.top || event.clientY > bounds.bottom)) essayDialog.close();
+  });
+  let previousOverflow = "";
+  essayDialog.addEventListener("close", () => { document.body.style.overflow = previousOverflow; });
+  stage?.addEventListener("click", event => {
+    const button = event.target.closest("[data-read-essay]");
+    if (!button) return;
+    const portfolio = portfolios.find(p => p.id === button.dataset.readEssay);
+    if (!portfolio?.essay?.text) return;
+    essayDialog.querySelector("h2").textContent = portfolio.title || "Reflective essay";
+    const body = essayDialog.querySelector("[data-essay-text]");
+    body.replaceChildren();
+    for (const paragraph of portfolio.essay.text.split(/\n\s*\n/)) {
+      const node = document.createElement(paragraph.trim() === "References" ? "h3" : "p");
+      node.textContent = paragraph;
+      body.appendChild(node);
+    }
+    previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    essayDialog.showModal();
+    essayDialog.scrollTop = 0;
+  });
 
   // ----------- Curator search -----------
   function renderResults(query) {
@@ -238,6 +277,7 @@
     searchName?.addEventListener("input", () => renderResults(combinedQuery()));
 
     document.addEventListener("keydown", e => {
+      if (essayDialog.open) return;
       if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
       if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); showAt(cursor + 1); }
       else if (e.key === "ArrowLeft") showAt(cursor - 1);
