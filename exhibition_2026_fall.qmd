@@ -1,0 +1,67 @@
+---
+title: ""
+pagetitle: "Exhibition · 26 Fall"
+format:
+  html:
+    page-layout: custom
+    toc: false
+    css: assets/2026/gallery.css
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://www.youtube.com">
+    include-after-body:
+      text: |
+        <script src="assets/2026/gallery.js" defer></script>
+---
+
+```{=html}
+<div class="ex2026" data-mode="public" data-source="data/students_2026_fall_public.json">
+
+  <section class="ex2026__hero">
+    <div class="ex2026__kicker">CCGL9065 · Our Response to Climate Change</div>
+    <h1 class="ex2026__title">26 Fall <em>Exhibition</em></h1>
+    <p class="ex2026__lede">
+      A semester's worth of arguments about climate change and what it means to act.
+      Discover the first five portfolios from Fall 2026, with more works to come.
+    </p>
+    <div class="ex2026__stats">
+      <div class="ex2026__stat"><strong>5</strong>Portfolios</div>
+      <div class="ex2026__stat"><strong>3</strong>Collages</div>
+      <div class="ex2026__stat"><strong>3</strong>Video Essays</div>
+      <div class="ex2026__stat"><strong>4</strong>Reflections</div>
+    </div>
+  </section>
+
+  <section class="ex2026__stage">
+    <header class="ex2026__stage-head">
+      <div class="ex2026__stage-label">On view · randomized</div>
+      <div class="ex2026__stage-counter" data-counter>— / —</div>
+    </header>
+
+    <div data-stage>
+      <div class="ex2026__loading">Loading exhibition…</div>
+    </div>
+
+    <div class="ex2026__controls">
+      <button class="ex2026__btn ex2026__btn--ghost" data-prev type="button">← Previous</button>
+      <button class="ex2026__btn ex2026__btn--primary" data-next type="button">Next portfolio →</button>
+      <button class="ex2026__btn ex2026__btn--ghost" data-shuffle type="button">↻ Shuffle</button>
+    </div>
+
+    <div class="ex2026__hint" style="text-align:center;margin-top:1rem">
+      Use <kbd>←</kbd> <kbd>→</kbd> or <kbd>Space</kbd> to navigate · <kbd>S</kbd> to shuffle
+    </div>
+  </section>
+
+  <section class="ex2026__mosaic-section">
+    <div class="ex2026__mosaic-head">
+      <h2>Index of works</h2>
+      <p><em>Click any tile to jump to that portfolio.</em></p>
+    </div>
+    <div class="ex2026__mosaic" data-mosaic></div>
+  </section>
+
+
+
+</div>
+```

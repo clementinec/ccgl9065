@@ -1,6 +1,6 @@
 ---
 title: ""
-pagetitle: "Exhibition · 2026"
+pagetitle: "Exhibition · 26 Spring"
 format:
   html:
     page-layout: custom
@@ -19,7 +19,7 @@ format:
 
   <section class="ex2026__hero">
     <div class="ex2026__kicker">CCGL9065 · Our Response to Climate Change</div>
-    <h1 class="ex2026__title">The 2026 <em>Exhibition</em></h1>
+    <h1 class="ex2026__title">26 Spring <em>Exhibition</em></h1>
     <p class="ex2026__lede">
       Forty-six portfolios. A semester's worth of arguments — about food,
       fashion, fossil fuels, oceans, refugees, and what it means to act.

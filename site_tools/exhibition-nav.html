@@ -1,0 +1,43 @@
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const fall = document.querySelector('.navbar .dropdown-item[href$="exhibition_2026_fall.html"]');
+  if (!fall) return;
+  const item = fall.closest('.nav-item');
+  const link = item.querySelector('.dropdown-toggle');
+  const menu = item.querySelector('.dropdown-menu');
+  if (!link || !menu) return;
+  item.classList.add('exhibition-nav');
+  link.href = fall.href;
+  link.removeAttribute('data-bs-toggle');
+  link.removeAttribute('role');
+  link.removeAttribute('aria-expanded');
+  link.classList.remove('dropdown-toggle');
+  const toggle = document.createElement('button');
+  toggle.type = 'button';
+  toggle.className = 'exhibition-nav-toggle dropdown-toggle';
+  toggle.setAttribute('aria-label', 'Show exhibition semesters');
+  toggle.setAttribute('aria-expanded', 'false');
+  link.after(toggle);
+  const show = (open) => {
+    menu.classList.toggle('show', open);
+    toggle.setAttribute('aria-expanded', String(open));
+  };
+  toggle.addEventListener('click', () => show(!menu.classList.contains('show')));
+  item.addEventListener('pointerenter', (event) => {
+    if (event.pointerType === 'mouse') show(true);
+  });
+  item.addEventListener('pointerleave', () => show(false));
+  item.addEventListener('focusout', (event) => {
+    if (!item.contains(event.relatedTarget)) show(false);
+  });
+  item.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') { show(false); toggle.focus(); }
+    if (event.key === 'ArrowDown' && event.target !== fall) {
+      event.preventDefault(); show(true); fall.focus();
+    }
+  });
+  document.addEventListener('click', (event) => {
+    if (!item.contains(event.target)) show(false);
+  });
+});
+</script>

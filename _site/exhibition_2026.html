@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Exhibition · 2026 – CCGL9065 / HKU</title>
+<title>Exhibition · 26 Spring</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +67,49 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const fall = document.querySelector('.navbar .dropdown-item[href$="exhibition_2026_fall.html"]');
+  if (!fall) return;
+  const item = fall.closest('.nav-item');
+  const link = item.querySelector('.dropdown-toggle');
+  const menu = item.querySelector('.dropdown-menu');
+  if (!link || !menu) return;
+  item.classList.add('exhibition-nav');
+  link.href = fall.href;
+  link.removeAttribute('data-bs-toggle');
+  link.removeAttribute('role');
+  link.removeAttribute('aria-expanded');
+  link.classList.remove('dropdown-toggle');
+  const toggle = document.createElement('button');
+  toggle.type = 'button';
+  toggle.className = 'exhibition-nav-toggle dropdown-toggle';
+  toggle.setAttribute('aria-label', 'Show exhibition semesters');
+  toggle.setAttribute('aria-expanded', 'false');
+  link.after(toggle);
+  const show = (open) => {
+    menu.classList.toggle('show', open);
+    toggle.setAttribute('aria-expanded', String(open));
+  };
+  toggle.addEventListener('click', () => show(!menu.classList.contains('show')));
+  item.addEventListener('pointerenter', (event) => {
+    if (event.pointerType === 'mouse') show(true);
+  });
+  item.addEventListener('pointerleave', () => show(false));
+  item.addEventListener('focusout', (event) => {
+    if (!item.contains(event.relatedTarget)) show(false);
+  });
+  item.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') { show(false); toggle.focus(); }
+    if (event.key === 'ArrowDown' && event.target !== fall) {
+      event.preventDefault(); show(true); fall.focus();
+    }
+  });
+  document.addEventListener('click', (event) => {
+    if (!item.contains(event.target)) show(false);
+  });
+});
+</script>
 <link rel="preconnect" href="https://www.youtube.com">
 
 
@@ -86,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -100,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">How Class Works</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-coursework" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-coursework" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Coursework</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-coursework">    
@@ -114,13 +157,24 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="./exhibition_2026.html" aria-current="page"> 
-<span class="menu-text">Exhibition 2026</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-exhibition" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Exhibition</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-exhibition">    
+        <li>
+    <a class="dropdown-item" href="./exhibition_2026_fall.html">
+ <span class="dropdown-text">26 Fall</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./exhibition_2026.html">
+ <span class="dropdown-text">26 Spring</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -138,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 
   <section class="ex2026__hero">
     <div class="ex2026__kicker">CCGL9065 · Our Response to Climate Change</div>
-    <h1 class="ex2026__title">The 2026 <em>Exhibition</em></h1>
+    <h1 class="ex2026__title">26 Spring <em>Exhibition</em></h1>
     <p class="ex2026__lede">
       Forty-six portfolios. A semester's worth of arguments — about food,
       fashion, fossil fuels, oceans, refugees, and what it means to act.
@@ -229,7 +283,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -261,45 +326,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/clementinec\.github\.io\/ccgl9065\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -341,11 +379,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

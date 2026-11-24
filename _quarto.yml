@@ -24,8 +24,12 @@ website:
             text: Assessment & Tutorials
           - href: portfolio_roadmap.qmd
             text: Portfolio Roadmap
-      - href: exhibition_2026.qmd
-        text: "Exhibition 2026"
+      - text: Exhibition
+        menu:
+          - href: exhibition_2026_fall.qmd
+            text: "26 Fall"
+          - href: exhibition_2026.qmd
+            text: "26 Spring"
   page-footer:
     left: "CCGL9065 · Our Response to Climate Change"
     right: "Common Core · The University of Hong Kong"
@@ -42,12 +46,14 @@ format:
       gutter-width: 1.75rem
     smooth-scroll: true
     link-external-newwindow: true
+    include-in-header: site_tools/exhibition-nav.html
     include-after-body:
       - text: |
           <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "57d0bc1c02d541369839e257e1819f73"}'></script><!-- End Cloudflare Web Analytics -->
 
 resources:
   - "data/*"
+  - "data/2026_fall/**"
   - "data/2026/thumbs/**"
   - "data/2026/anon/**"
   - "data/2026/videos/**"
