@@ -360,11 +360,11 @@
     },
     {
       "id": "p21",
-      "title": "Climate Change Solutions Collage",
-      "thumb": "data/2026_fall/thumbs/p21.jpg",
+      "title": "Beyond Technology: The Role of Communication and Community Engagement in Climate Action",
+      "thumb": null,
       "collage": {
-        "kind": "local_image",
-        "url": "data/2026_fall/anon/p21/collage.jpg"
+        "kind": "none",
+        "url": null
       },
       "video": {
         "url": "https://www.youtube.com/embed/9EEm9Zt4OeY",

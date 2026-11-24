@@ -3,7 +3,7 @@
 Use this ledger when the LMS exports the whole class again. The two CSVs contain anonymous portfolio IDs and fit in about 16 KB together. The local workbook-to-gallery crosswalk lives in the ignored `.exhibition-imports/fall-2026-roster-map.csv`.
 
 - `portfolios.csv` has one row per gallery ID. An empty component is pending. Collages and local videos are identified by the SHA-256 of the public file, essays by the SHA-256 of the reader text, and hosted videos by their public embed URL. The gallery manifest supplies this snapshot, including submissions originally found on Notion.
-- `reviewed_files.csv` accumulates one receipt per reviewed export submission version and component. Its hash combines the numeric LMS submission ID with the file content hash. A changed file or a different student's submission therefore comes up for review, even if filenames or content overlap. The two excluded weekly-work submissions have receipts. Notion-only work has no LMS receipt until its export is reviewed.
+- `reviewed_files.csv` accumulates one receipt per reviewed export submission version and component. Its hash combines the numeric LMS submission ID with the file content hash. A changed file or a different student's submission therefore comes up for review, even if filenames or content overlap. Excluded weekly work and the text outline submitted in the collage slot also have receipts. Notion-only work has no LMS receipt until its export is reviewed.
 
 From the repository root, check a new export locally. The output lists original filenames, so keep it private.
 

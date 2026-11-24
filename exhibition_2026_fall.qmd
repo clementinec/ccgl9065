@@ -26,7 +26,7 @@ format:
     </p>
     <div class="ex2026__stats">
       <div class="ex2026__stat"><strong>40</strong>Portfolios</div>
-      <div class="ex2026__stat"><strong>37</strong>Collages</div>
+      <div class="ex2026__stat"><strong>36</strong>Collages</div>
       <div class="ex2026__stat"><strong>31</strong>Video Essays</div>
       <div class="ex2026__stat"><strong>32</strong>Reflections</div>
     </div>
