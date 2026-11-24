@@ -22,13 +22,13 @@ format:
     <h1 class="ex2026__title">26 Fall <em>Exhibition</em></h1>
     <p class="ex2026__lede">
       A semester's worth of arguments about climate change and what it means to act.
-      Discover the first five portfolios from Fall 2026, with more works to come.
+      Discover the first six portfolios from Fall 2026, with more works to come.
     </p>
     <div class="ex2026__stats">
-      <div class="ex2026__stat"><strong>5</strong>Portfolios</div>
-      <div class="ex2026__stat"><strong>3</strong>Collages</div>
-      <div class="ex2026__stat"><strong>3</strong>Video Essays</div>
-      <div class="ex2026__stat"><strong>4</strong>Reflections</div>
+      <div class="ex2026__stat"><strong>6</strong>Portfolios</div>
+      <div class="ex2026__stat"><strong>4</strong>Collages</div>
+      <div class="ex2026__stat"><strong>4</strong>Video Essays</div>
+      <div class="ex2026__stat"><strong>5</strong>Reflections</div>
     </div>
   </section>
 
