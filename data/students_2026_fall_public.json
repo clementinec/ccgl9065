@@ -794,8 +794,8 @@
         "kind": "local_image"
       },
       "video": {
-        "url": null,
-        "kind": "none"
+        "url": "https://drive.google.com/file/d/1n7yN18j0z46hHisZA3ZnD7XVFAa44A9K/preview",
+        "kind": "drive"
       },
       "essay": {
         "available": false,
