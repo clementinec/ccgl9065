@@ -1,5 +1,5 @@
 {
-  "count": 44,
+  "count": 46,
   "portfolios": [
     {
       "id": "p01",
@@ -783,6 +783,40 @@
       "video": {
         "url": "https://drive.google.com/file/d/1XWJkRNY_ZUVwMJX1FqTwYlxZO3Jd1lEq/preview",
         "kind": "drive"
+      }
+    },
+    {
+      "id": "p45",
+      "title": "The Ocean Has a Fever. Rebuild the Reef.",
+      "thumb": "data/2026_fall/thumbs/p45.jpg",
+      "collage": {
+        "url": "data/2026_fall/anon/p45/collage.jpg",
+        "kind": "local_image"
+      },
+      "video": {
+        "url": null,
+        "kind": "none"
+      },
+      "essay": {
+        "available": false,
+        "url": null
+      }
+    },
+    {
+      "id": "p46",
+      "title": "Build a Climate-Ready Hong Kong",
+      "thumb": null,
+      "collage": {
+        "url": null,
+        "kind": "none"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/TkwRoh5ZOKc",
+        "kind": "youtube"
+      },
+      "essay": {
+        "available": false,
+        "url": null
       }
     }
   ]

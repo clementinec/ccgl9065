@@ -4,6 +4,8 @@ Run the commands below from the repository root on `main`. The gallery reads [th
 
 The 25 November 2026 release covered the original LMS exports, `Additions`, `Additions2`, and the public Notion pages available at the time. It had 44 portfolios, 41 collages, 36 essays and 36 videos (source `67e3828`, Pages `602776e`). Read [portfolios.csv](portfolios.csv) for current coverage. Blank cells are pending. P21’s previous collage submission was a text outline. P43 had a collage and video and was awaiting an essay.
 
+A subsequent direct intake on 25 November added P45 (collage) and P46 (video), bringing the gallery to 46 entries, 42 collages, 36 essays and 37 videos. The original private roster crosswalk was unavailable in this checkout, so these submissions were published as separate anonymous entries at the maintainer’s request. Their attribution is retained locally in the ignored `.exhibition-imports/fall-2026-direct-submission-map.csv` and `.exhibition-imports/intake-2026-11-25/intake.json`. Reconcile their earlier portfolio assignments against the original crosswalk before merging either with an existing entry. These were direct submissions, so no LMS receipts were added.
+
 ## Match the student once
 
 On the course machine the private workbook is `~/Downloads/courseid_138992_student_work_W11_graded_2026-11-20.xlsx`. The ignored `.exhibition-imports/fall-2026-roster-map.csv` maps the actual Excel row in **Weekly Notion** (header is row 1) to a stable gallery ID such as `p04`. LMS filenames carry a numeric submission ID and the student’s name. Match the name to the workbook, then use that workbook row to look up the gallery ID. The submission number, roster position, and public portfolio number are distinct.
