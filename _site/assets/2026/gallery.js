@@ -89,7 +89,7 @@
 
   function renderVideo(p) {
     const v = p.video || {};
-    if (v.kind === "youtube" && v.url) {
+    if ((v.kind === "youtube" || v.kind === "drive") && v.url) {
       return `<div class="ex2026__video-wrap"><iframe src="${escapeHtml(v.url)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`;
     }
     if (v.kind === "local" && v.url) {
